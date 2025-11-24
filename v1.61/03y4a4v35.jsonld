@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/03y4a4v35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas PGRI Silampari"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNPARI"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PGRI Silampari University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2022"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nabc7e74c4612433ea6aba3c3aaf2c7d4b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unpari.ac.id"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas PGRI Silampari"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unpari.ac.id"
+      }
+    ]
+  },
+  {
+    "@id": "_:nabc7e74c4612433ea6aba3c3aaf2c7d4b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[102.8614,-3.2945]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1637158"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nabc7e74c4612433ea6aba3c3aaf2c7d4b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nabc7e74c4612433ea6aba3c3aaf2c7d4b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nabc7e74c4612433ea6aba3c3aaf2c7d4b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ID"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lubuklinggau"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "South Sumatra"
+      }
+    ]
+  },
+  {
+    "@id": "_:nabc7e74c4612433ea6aba3c3aaf2c7d4b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nabc7e74c4612433ea6aba3c3aaf2c7d4b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Indonesia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nabc7e74c4612433ea6aba3c3aaf2c7d4b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

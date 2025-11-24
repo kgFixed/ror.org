@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/01d357q33",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "American Registry for Internet Numbers"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ARIN"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1997"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0acc70ea1af5418b9a480c06e0d25f3cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.arin.net"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "American Registry for Internet Numbers"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://arin.net"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0acc70ea1af5418b9a480c06e0d25f3cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-77.4311,38.89428]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4751935"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0acc70ea1af5418b9a480c06e0d25f3cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0acc70ea1af5418b9a480c06e0d25f3cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0acc70ea1af5418b9a480c06e0d25f3cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Chantilly"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Virginia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0acc70ea1af5418b9a480c06e0d25f3cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0acc70ea1af5418b9a480c06e0d25f3cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0acc70ea1af5418b9a480c06e0d25f3cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/00nwpew23",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-09"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Optical Society of Japan"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Optical Society of Japan"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne86803ac90fb4afe97b2f2ff6c32d7ccb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://myosj.or.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Optical Society of Japan"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://myosj.or.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne86803ac90fb4afe97b2f2ff6c32d7ccb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[136.90641,35.18147]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1856057"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne86803ac90fb4afe97b2f2ff6c32d7ccb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne86803ac90fb4afe97b2f2ff6c32d7ccb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne86803ac90fb4afe97b2f2ff6c32d7ccb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nagoya"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Aichi"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne86803ac90fb4afe97b2f2ff6c32d7ccb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne86803ac90fb4afe97b2f2ff6c32d7ccb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne86803ac90fb4afe97b2f2ff6c32d7ccb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

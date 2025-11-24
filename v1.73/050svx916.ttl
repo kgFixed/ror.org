@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/050svx916> a org:Organization ;
+    rdfs:label 'Dünyagöz Hospital'^^xsd:string; 
+    schema:name 'Dünyagöz Hospital'^^xsd:string; 
+    schema:foundingDate '1996'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://dunyagoz.com> ; 
+    schema:mainEntityOfPage <https://www.dunyagoz.com/tr/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.428402.8> ;
+    schema:sameAs <http://isni.org/isni/0000000459360975> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[28.94966,41.01384]}" ;
+            schema:address [
+                schema:addressLocality "Istanbul" ;
+                schema:addressCountry "TR" ;
+                schema:addressRegion "Istanbul" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Türkiye" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/745044> ;
+        ] ; 
+    .

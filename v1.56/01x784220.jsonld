@@ -1,0 +1,177 @@
+[
+  {
+    "@id": "https://ror.org/01x784220",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Children's Cancer Institute Australia"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Children’s Leukaemia and Cancer Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n23ea770e93ab4990ab5b737adde471e5b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1976"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n23ea770e93ab4990ab5b737adde471e5b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ccia.org.au"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Children's Cancer Institute Australia"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.413950.a"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ccia.org.au"
+      }
+    ]
+  },
+  {
+    "@id": "_:n23ea770e93ab4990ab5b737adde471e5b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNSW Sydney"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03r8z3t63"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n23ea770e93ab4990ab5b737adde471e5b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[151.24895,-33.91439]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2208285"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n23ea770e93ab4990ab5b737adde471e5b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n23ea770e93ab4990ab5b737adde471e5b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n23ea770e93ab4990ab5b737adde471e5b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Randwick"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n23ea770e93ab4990ab5b737adde471e5b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n23ea770e93ab4990ab5b737adde471e5b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n23ea770e93ab4990ab5b737adde471e5b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/04mj3zw98",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Klinikum Fürth"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1441"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd5b938da61124b28854c03c287c5a593b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.klinikum-fuerth.de/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Klinikum Fürth"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.492024.9"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405587111"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://klinikum-fuerth.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd5b938da61124b28854c03c287c5a593b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.98856,49.47593]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2923544"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd5b938da61124b28854c03c287c5a593b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd5b938da61124b28854c03c287c5a593b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd5b938da61124b28854c03c287c5a593b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Fürth"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bavaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd5b938da61124b28854c03c287c5a593b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd5b938da61124b28854c03c287c5a593b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd5b938da61124b28854c03c287c5a593b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

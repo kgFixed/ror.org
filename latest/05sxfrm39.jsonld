@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/05sxfrm39",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GlobalNeurology"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GlobalNeuroCare"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2006"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0dd046e91cbe4f59959007aced416d59b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://globalneurology.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GlobalNeurology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://globalneurology.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0dd046e91cbe4f59959007aced416d59b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-98.49363,29.42412]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4726206"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0dd046e91cbe4f59959007aced416d59b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0dd046e91cbe4f59959007aced416d59b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0dd046e91cbe4f59959007aced416d59b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "San Antonio"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Texas"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0dd046e91cbe4f59959007aced416d59b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0dd046e91cbe4f59959007aced416d59b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0dd046e91cbe4f59959007aced416d59b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

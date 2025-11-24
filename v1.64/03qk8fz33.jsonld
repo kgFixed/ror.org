@@ -1,0 +1,160 @@
+[
+  {
+    "@id": "https://ror.org/03qk8fz33",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kauno kolegija Higher Education Institution"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://lt.wikipedia.org/wiki/Kauno_kolegija"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kaunas College"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kaunas College Higher Education Institution"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kaunas University of Applied Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2000"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n962a8ece0991442e8a67f785407b0c09b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.kaunokolegija.lt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kauno kolegija Higher Education Institution"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.465938.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000403986004"
+      }
+    ]
+  },
+  {
+    "@id": "_:n962a8ece0991442e8a67f785407b0c09b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.90961,54.90272]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/598316"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n962a8ece0991442e8a67f785407b0c09b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n962a8ece0991442e8a67f785407b0c09b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n962a8ece0991442e8a67f785407b0c09b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kaunas"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kaunas"
+      }
+    ]
+  },
+  {
+    "@id": "_:n962a8ece0991442e8a67f785407b0c09b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n962a8ece0991442e8a67f785407b0c09b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Lithuania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n962a8ece0991442e8a67f785407b0c09b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

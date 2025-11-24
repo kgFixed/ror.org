@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/031q4ft47",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundação LIGA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n990611bc60e14a0e93015798eb13b600b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.fundacaoliga.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundação LIGA"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000464108109"
+      }
+    ]
+  },
+  {
+    "@id": "_:n990611bc60e14a0e93015798eb13b600b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-9.13333,38.71667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2267057"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n990611bc60e14a0e93015798eb13b600b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n990611bc60e14a0e93015798eb13b600b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n990611bc60e14a0e93015798eb13b600b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lisbon"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lisbon"
+      }
+    ]
+  },
+  {
+    "@id": "_:n990611bc60e14a0e93015798eb13b600b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n990611bc60e14a0e93015798eb13b600b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n990611bc60e14a0e93015798eb13b600b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

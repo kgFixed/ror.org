@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/05mz63w98",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Educación Superior Pedagógico Público \"Sagrado Corazón de Jesús\""
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IESPP Sagrado Corazón de Jesús"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior Pedagógico Sagrado Corazón de Jesús"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institutoscj"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1957"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf016c0e7d6c64b77916f33056f06074eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://institutoscj.edu.pe"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Educación Superior Pedagógico Público \"Sagrado Corazón de Jesús\""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://institutoscj.edu.pe"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf016c0e7d6c64b77916f33056f06074eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-79.85495,-6.77008]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3698350"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf016c0e7d6c64b77916f33056f06074eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf016c0e7d6c64b77916f33056f06074eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf016c0e7d6c64b77916f33056f06074eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Chiclayo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lambayeque"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf016c0e7d6c64b77916f33056f06074eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf016c0e7d6c64b77916f33056f06074eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Peru"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf016c0e7d6c64b77916f33056f06074eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

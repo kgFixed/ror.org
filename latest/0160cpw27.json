@@ -1,116 +1,20 @@
 {
-  "id": "https://ror.org/0160cpw27",
-  "name": "University of Alberta",
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1908,
-  "types": [
-    "Education"
-  ],
-  "relationships": [
-    {
-      "label": "Red Deer Regional Hospital",
-      "type": "Related",
-      "id": "https://ror.org/04f7crx66"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    {
-      "label": "Stollery Children's Hospital",
-      "type": "Related",
-      "id": "https://ror.org/05w90nk74"
-    },
-    {
-      "label": "University of Alberta Hospital",
-      "type": "Related",
-      "id": "https://ror.org/013e81n30"
-    },
-    {
-      "label": "Alberta Gambling Research Institute",
-      "type": "Child",
-      "id": "https://ror.org/030ykd126"
-    },
-    {
-      "label": "Bamfield Marine Sciences Centre",
-      "type": "Child",
-      "id": "https://ror.org/039cthy03"
-    },
-    {
-      "label": "Helmholtz Alberta Initiative",
-      "type": "Child",
-      "id": "https://ror.org/02yvsmh51"
-    },
-    {
-      "label": "Open Data Commons for Spinal Cord Injury",
-      "type": "Related",
-      "id": "https://ror.org/027790w81"
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
     }
-  ],
-  "addresses": [
-    {
-      "lat": 53.55014,
-      "lng": -113.46871,
-      "state": null,
-      "state_code": null,
-      "city": "Edmonton",
-      "geonames_city": {
-        "id": 5946768,
-        "city": "Edmonton",
-        "geonames_admin1": {
-          "name": "Alberta",
-          "id": 5883102,
-          "ascii_name": "Alberta",
-          "code": "CA.01"
-        },
-        "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 6251999
-    }
-  ],
-  "links": [
-    "http://ualberta.ca/"
-  ],
-  "aliases": [
-    "UAlberta"
-  ],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Alberta",
-  "labels": [
-    {
-      "label": "Université de l'Alberta",
-      "iso639": "fr"
-    }
-  ],
-  "country": {
-    "country_name": "Canada",
-    "country_code": "CA"
   },
-  "external_ids": {
-    "FundRef": {
-      "preferred": "501100000190",
+  "domains": [
+    "ualberta.ca"
+  ],
+  "established": 1908,
+  "external_ids": [
+    {
       "all": [
         "501100000190",
         "501100003179",
@@ -121,25 +25,129 @@
         "501100006441",
         "100008741",
         "501100007201",
-        "501100006043"
-      ]
+        "501100006043",
+        "501100019556",
+        "501100019691"
+      ],
+      "preferred": "501100000190",
+      "type": "fundref"
     },
-    "OrgRef": {
-      "preferred": "242057",
+    {
       "all": [
-        "242057",
-        "1765506"
-      ]
+        "grid.17089.37"
+      ],
+      "preferred": "grid.17089.37",
+      "type": "grid"
     },
-    "Wikidata": {
-      "preferred": null,
+    {
       "all": [
         "Q640694"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.17089.37",
-      "all": "grid.17089.37"
+      ],
+      "preferred": null,
+      "type": "wikidata"
     }
-  }
+  ],
+  "id": "https://ror.org/0160cpw27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ualberta.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Alberta"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Alberta",
+        "lat": 53.55014,
+        "lng": -113.46871,
+        "name": "Edmonton"
+      },
+      "geonames_id": 5946768
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UAlberta"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Alberta"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de l'Alberta"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Alberta Gambling Research Institute",
+      "type": "child",
+      "id": "https://ror.org/030ykd126"
+    },
+    {
+      "label": "Bamfield Marine Sciences Centre",
+      "type": "child",
+      "id": "https://ror.org/039cthy03"
+    },
+    {
+      "label": "Helmholtz Alberta Initiative",
+      "type": "child",
+      "id": "https://ror.org/02yvsmh51"
+    },
+    {
+      "label": "Canadian Glycomics Network",
+      "type": "child",
+      "id": "https://ror.org/049bc0z69"
+    },
+    {
+      "label": "Red Deer Regional Hospital",
+      "type": "related",
+      "id": "https://ror.org/04f7crx66"
+    },
+    {
+      "label": "Stollery Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/05w90nk74"
+    },
+    {
+      "label": "University of Alberta Hospital",
+      "type": "related",
+      "id": "https://ror.org/013e81n30"
+    },
+    {
+      "label": "Open Data Commons for Spinal Cord Injury",
+      "type": "related",
+      "id": "https://ror.org/027790w81"
+    },
+    {
+      "label": "Cross Cancer Institute",
+      "type": "related",
+      "id": "https://ror.org/00m3k3802"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
 }

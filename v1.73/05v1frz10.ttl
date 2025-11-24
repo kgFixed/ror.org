@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05v1frz10> a org:Organization ;
+    rdfs:label 'United Aircraft (Russia)'^^xsd:string; 
+    schema:name 'United Aircraft (Russia)'^^xsd:string; 
+    schema:foundingDate '2006'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'OAK'^^xsd:string; 
+    org:alternativeName 'Obyedinyonnaya Aviastroitelnaya Korporatsiya'^^xsd:string ; 
+    org:abbreviation 'UAC'^^xsd:string; 
+    schema:url <http://uacrussia.ru> ; 
+    schema:mainEntityOfPage <https://uacrussia.ru/ru/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/United_Aircraft_Corporation> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.435543.0> ;
+    schema:sameAs <http://isni.org/isni/0000000404806503> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[37.61781,55.75204]}" ;
+            schema:address [
+                schema:addressLocality "Moscow" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "Moscow" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/524901> ;
+        ] ; 
+    .

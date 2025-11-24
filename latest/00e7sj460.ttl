@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00e7sj460> a org:Organization ;
+    rdfs:label 'Heinrich-Stockmeyer-Stiftung'^^xsd:string; 
+    schema:name 'Heinrich-Stockmeyer-Stiftung'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://stockmeyer-stiftung.de> ; 
+    schema:mainEntityOfPage <https://www.stockmeyer-stiftung.de> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[8.16667,52.1167]}" ;
+            schema:address [
+                schema:addressLocality "Bad Rothenfelde" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "Lower Saxony" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6552977> ;
+        ] ; 
+    .

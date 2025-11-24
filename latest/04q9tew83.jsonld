@@ -1,0 +1,164 @@
+[
+  {
+    "@id": "https://ror.org/04q9tew83",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Henry M. Jackson Foundation"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Henry_M._Jackson_Foundation_for_the_Advancement_of_Military_Medicine"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HJF"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1983"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2776ebf93f7d440d82327bc64e15434ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.hjf.org/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Henry M. Jackson Foundation"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100003896"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.201075.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406149826"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hjf.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2776ebf93f7d440d82327bc64e15434ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-77.10026,38.98067]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4348599"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2776ebf93f7d440d82327bc64e15434ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2776ebf93f7d440d82327bc64e15434ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2776ebf93f7d440d82327bc64e15434ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bethesda"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Maryland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2776ebf93f7d440d82327bc64e15434ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2776ebf93f7d440d82327bc64e15434ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2776ebf93f7d440d82327bc64e15434ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01gg7gz51> a org:Organization ;
+    rdfs:label 'Institute for Community Health'^^xsd:string; 
+    schema:name 'Institute for Community Health'^^xsd:string; 
+    schema:foundingDate '2000'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'ICH'^^xsd:string; 
+    schema:url <http://icommunityhealth.org> ; 
+    schema:mainEntityOfPage <https://icommunityhealth.org> ;
+    schema:sameAs <https://grid.ac/institutions/grid.489308.e> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-71.06616,42.4251]}" ;
+            schema:address [
+                schema:addressLocality "Malden" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Massachusetts" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4942939> ;
+        ] ; 
+    .

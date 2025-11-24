@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/00qpqrv96",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ubiquity Press (United Kingdom)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Ubiquity_Press"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nad9cda39795143c2aa177cec453b57dcb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2012"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nad9cda39795143c2aa177cec453b57dcb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ubiquitypress.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ubiquity Press (United Kingdom)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.431280.c"
+      }
+    ]
+  },
+  {
+    "@id": "_:nad9cda39795143c2aa177cec453b57dcb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "De Gruyter Brill (Germany)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/026xdv168"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nad9cda39795143c2aa177cec453b57dcb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-0.12574,51.50853]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2643743"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nad9cda39795143c2aa177cec453b57dcb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nad9cda39795143c2aa177cec453b57dcb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nad9cda39795143c2aa177cec453b57dcb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "London"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "England"
+      }
+    ]
+  },
+  {
+    "@id": "_:nad9cda39795143c2aa177cec453b57dcb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nad9cda39795143c2aa177cec453b57dcb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "@id": "_:nad9cda39795143c2aa177cec453b57dcb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

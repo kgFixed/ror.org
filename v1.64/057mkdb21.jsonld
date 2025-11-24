@@ -1,0 +1,165 @@
+[
+  {
+    "@id": "https://ror.org/057mkdb21",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biogen (Portugal)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.biogen.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biogen (Portugal)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/000000040631983X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://biogen.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biogen (United States)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02jqkb192"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-9.13333,38.71667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2267057"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lisbon"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lisbon"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc9012b49c7c24d24a8ef6274175e9a78b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "@id": "https://ror.org/05c85ns62",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kanazawa Seiryo University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Kanazawa_Seiryo_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KSU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n57247ea9af844497a53728f4040d904bb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1932"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n57247ea9af844497a53728f4040d904bb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.seiryo-u.ac.jp/u/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kanazawa Seiryo University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.444047.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406317818"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57247ea9af844497a53728f4040d904bb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kanazawa Seiryo University Women's Junior College"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/032skn216"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57247ea9af844497a53728f4040d904bb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[136.61667,36.6]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1860243"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n57247ea9af844497a53728f4040d904bb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57247ea9af844497a53728f4040d904bb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n57247ea9af844497a53728f4040d904bb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kanazawa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ishikawa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57247ea9af844497a53728f4040d904bb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n57247ea9af844497a53728f4040d904bb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57247ea9af844497a53728f4040d904bb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

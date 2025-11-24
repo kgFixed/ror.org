@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01240pn49> a org:Organization ;
+    rdfs:label 'Menlo School'^^xsd:string; 
+    schema:name 'Menlo School'^^xsd:string; 
+    schema:foundingDate '1915'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Menlo'^^xsd:string ; 
+    schema:url <http://menloschool.org> ; 
+    schema:mainEntityOfPage <https://www.menloschool.org/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Menlo_School> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.429338.7> ;
+    schema:sameAs <http://isni.org/isni/0000000403714527> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-122.19774,37.46133]}" ;
+            schema:address [
+                schema:addressLocality "Atherton" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "California" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5325147> ;
+        ] ; 
+    .

@@ -1,0 +1,180 @@
+[
+  {
+    "@id": "https://ror.org/04n9sp567",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biwako Gakuin University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Newton_College_(Japan)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Newton College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1990"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.newton.ac.jp/bgu/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biwako Gakuin University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.471548.b"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000418058550"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biwako Gakuin University Junior College"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01n71w067"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[136.0976,35.12861]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1863451"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ōmihachiman"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Shiga"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc7423131f1f24e638cc8a5d262db5e7db5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

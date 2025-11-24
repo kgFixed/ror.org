@@ -1,0 +1,188 @@
+[
+  {
+    "@id": "https://ror.org/04n6j6456",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Izmir Biomedicine and Genome Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IBG"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "İBG"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:na70607b434734459a3d1cb13adbe92ddb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2018"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na70607b434734459a3d1cb13adbe92ddb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ibg.edu.tr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Izmir Biomedicine and Genome Center"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100024335"
+      },
+      {
+        "@id": "http://isni.org/isni/000000050371097X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ibg.edu.tr"
+      }
+    ]
+  },
+  {
+    "@id": "_:na70607b434734459a3d1cb13adbe92ddb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Dokuz Eylül University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00dbd8b73"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:na70607b434734459a3d1cb13adbe92ddb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[27.13838,38.41273]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/311046"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na70607b434734459a3d1cb13adbe92ddb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:na70607b434734459a3d1cb13adbe92ddb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na70607b434734459a3d1cb13adbe92ddb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Izmir"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "İzmir Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:na70607b434734459a3d1cb13adbe92ddb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na70607b434734459a3d1cb13adbe92ddb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Türkiye"
+      }
+    ]
+  },
+  {
+    "@id": "_:na70607b434734459a3d1cb13adbe92ddb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,114 +1,135 @@
 {
-    "id": "https://ror.org/01xt1w755",
-    "name": "European Academy of Bozen-Bolzano",
-    "email_address": "",
-    "ip_addresses": [],
-    "established": 1992,
-    "types": [
-        "Nonprofit"
-    ],
-    "relationships": [
-        {
-            "label": "Institute for Biomedicine",
-            "type": "Child",
-            "id": "https://ror.org/02hsggv49"
-        },
-        {
-            "label": "Institute of Mountain Emergency Medicine",
-            "type": "Child",
-            "id": "https://ror.org/00n9p1n72"
-        }
-    ],
-    "addresses": [
-        {
-            "lat": 46.49067,
-            "lng": 11.33982,
-            "state": null,
-            "state_code": null,
-            "city": "Bolzano",
-            "geonames_city": {
-                "id": 3181913,
-                "city": "Bolzano",
-                "geonames_admin1": {
-                    "name": "Trentino-Alto Adige",
-                    "id": 3165244,
-                    "ascii_name": "Trentino-Alto Adige",
-                    "code": "IT.17"
-                },
-                "geonames_admin2": {
-                    "name": "South Tyrol",
-                    "id": 3181912,
-                    "ascii_name": "South Tyrol",
-                    "code": "IT.17.BZ"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 3175395
-        }
-    ],
-    "links": [
-        "http://www.eurac.edu/en/Pages/default.aspx"
-    ],
-    "aliases": [
-        "EURAC Research"
-    ],
-    "acronyms": [
-        "EURAC"
-    ],
-    "status": "active",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Eurac_Research",
-    "labels": [
-        {
-            "label": "Europäische Akademie Bozen",
-            "iso639": "de"
-        },
-        {
-            "label": "Accademia Europea di Bolzano",
-            "iso639": "it"
-        },
-        {
-            "label": "Academia Europeica de Bulsan",
-            "iso639": "rm"
-        }
-    ],
-    "country": {
-        "country_name": "Italy",
-        "country_code": "IT"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0001 1089 6435"
-            ]
-        },
-        "Wikidata": {
-            "preferred": null,
-            "all": [
-                "Q1245390"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.418908.c",
-            "all": "grid.418908.c"
-        }
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
     }
+  },
+  "domains": [
+    "eurac.edu"
+  ],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418908.c"
+      ],
+      "preferred": "grid.418908.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1089 6435"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1245390"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01xt1w755",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.eurac.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Eurac_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 46.49067,
+        "lng": 11.33982,
+        "name": "Bolzano"
+      },
+      "geonames_id": 3181913
+    }
+  ],
+  "names": [
+    {
+      "lang": "rm",
+      "types": [
+        "label"
+      ],
+      "value": "Academia Europeica de Bulsan"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Accademia Europea di Bolzano"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EURAC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Eurac Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "European Academy of Bolzano"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "European Academy of Bozen-Bolzano"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Europäische Akademie Bozen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute for Biomedicine",
+      "type": "child",
+      "id": "https://ror.org/02hsggv49"
+    },
+    {
+      "label": "Institute of Mountain Emergency Medicine",
+      "type": "child",
+      "id": "https://ror.org/00n9p1n72"
+    },
+    {
+      "label": "Institute for Applied Linguistics",
+      "type": "child",
+      "id": "https://ror.org/05rxnta87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
 }

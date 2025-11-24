@@ -1,0 +1,177 @@
+[
+  {
+    "@id": "https://ror.org/00e0jd726",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Delaware Geological Survey"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Delaware_Geological_Survey"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DGS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n109a92af086549988b06986d23b0d81fb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1954"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n109a92af086549988b06986d23b0d81fb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.dgs.udel.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Delaware Geological Survey"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dgs.udel.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n109a92af086549988b06986d23b0d81fb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Delaware"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01sbq1a82"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n109a92af086549988b06986d23b0d81fb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-75.74966,39.68372]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4143861"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n109a92af086549988b06986d23b0d81fb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n109a92af086549988b06986d23b0d81fb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n109a92af086549988b06986d23b0d81fb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Newark"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Delaware"
+      }
+    ]
+  },
+  {
+    "@id": "_:n109a92af086549988b06986d23b0d81fb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n109a92af086549988b06986d23b0d81fb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n109a92af086549988b06986d23b0d81fb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

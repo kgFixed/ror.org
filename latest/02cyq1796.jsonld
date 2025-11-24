@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/02cyq1796",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Regentropfen University College"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "RUC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Regentropfen"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Regentropfen College of Applied Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:naa2a5418f4e740ca92538f16fc3d67e6b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://regentropfen.edu.gh"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Regentropfen University College"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://regentropfen.edu.gh"
+      }
+    ]
+  },
+  {
+    "@id": "_:naa2a5418f4e740ca92538f16fc3d67e6b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-0.85139,10.78556]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2302821"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:naa2a5418f4e740ca92538f16fc3d67e6b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:naa2a5418f4e740ca92538f16fc3d67e6b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:naa2a5418f4e740ca92538f16fc3d67e6b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bolgatanga"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Upper East"
+      }
+    ]
+  },
+  {
+    "@id": "_:naa2a5418f4e740ca92538f16fc3d67e6b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:naa2a5418f4e740ca92538f16fc3d67e6b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ghana"
+      }
+    ]
+  },
+  {
+    "@id": "_:naa2a5418f4e740ca92538f16fc3d67e6b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

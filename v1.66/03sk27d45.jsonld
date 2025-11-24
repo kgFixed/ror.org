@@ -1,0 +1,183 @@
+[
+  {
+    "@id": "https://ror.org/03sk27d45",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-20"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "South Carolina Department of Environmental Services"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/South_Carolina_Department_of_Environmental_Services"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SCDES"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SC Department of Environmental Services"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n8b10e510bb344b768bd65031df252efcb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2024"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8b10e510bb344b768bd65031df252efcb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://des.sc.gov"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "South Carolina Department of Environmental Services"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://des.sc.gov"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8b10e510bb344b768bd65031df252efcb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "South Carolina Department of Health and Environmental Control"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00qg2m632"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8b10e510bb344b768bd65031df252efcb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-81.03481,34.00071]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4575352"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8b10e510bb344b768bd65031df252efcb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8b10e510bb344b768bd65031df252efcb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8b10e510bb344b768bd65031df252efcb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Columbia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "South Carolina"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8b10e510bb344b768bd65031df252efcb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8b10e510bb344b768bd65031df252efcb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8b10e510bb344b768bd65031df252efcb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

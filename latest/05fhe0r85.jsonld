@@ -1,0 +1,213 @@
+[
+  {
+    "@id": "https://ror.org/05fhe0r85",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Agency for Defense Development"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Agency_for_Defense_Development"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ADD"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb1"
+      },
+      {
+        "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1970"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.add.re.kr/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Agency for Defense Development"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100005073"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.453167.2"
+      },
+      {
+        "@id": "http://isni.org/isni/000000040621566X"
+      }
+    ]
+  },
+  {
+    "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Defense Acquisition Program Administration"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04bjg9m96"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Korea Institute for Defense Analyses"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01em4e880"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[127.38493,36.34913]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1835235"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Daejeon"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Daejeon"
+      }
+    ]
+  },
+  {
+    "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:neebf5acdaf7644528c81542cf8c9d34eb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

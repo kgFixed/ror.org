@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04ep19q60> a org:Organization ;
+    rdfs:label 'Hessisches Ministerium für Familie, Senioren, Sport, Gesundheit und Pflege'^^xsd:string; 
+    schema:name 'Hessisches Ministerium für Familie, Senioren, Sport, Gesundheit und Pflege'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://familie.hessen.de> ; 
+    schema:mainEntityOfPage <https://familie.hessen.de> ;
+    owl:sameAs <https://de.wikipedia.org/wiki/Hessisches_Ministerium_f%25C3%25BCr_Familie,_Senioren,_Sport,_Gesundheit_und_Pflege> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[8.24932,50.08258]}" ;
+            schema:address [
+                schema:addressLocality "Wiesbaden" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "Hesse" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2809346> ;
+        ] ; 
+    .

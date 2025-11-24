@@ -1,0 +1,188 @@
+[
+  {
+    "@id": "https://ror.org/01hmrqc81",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CiS Forschungsinstitut für Mikrosensorik GmbH"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CiS Forschungsinstitut für Mikrosensorik"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CiS Research Institute for Micro Sensors and Photovoltaics"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Research Institute for Micro Sensors GmbH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n2776741ec97d4b30a5459a0b150ae453b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1993"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2776741ec97d4b30a5459a0b150ae453b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cismst.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CiS Forschungsinstitut für Mikrosensorik GmbH"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.424081.b"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000098744139"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cismst.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2776741ec97d4b30a5459a0b150ae453b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Technische Universität Ilmenau"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01weqhp73"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2776741ec97d4b30a5459a0b150ae453b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.03283,50.9787]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2929670"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2776741ec97d4b30a5459a0b150ae453b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2776741ec97d4b30a5459a0b150ae453b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2776741ec97d4b30a5459a0b150ae453b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Erfurt"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Thuringia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2776741ec97d4b30a5459a0b150ae453b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2776741ec97d4b30a5459a0b150ae453b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2776741ec97d4b30a5459a0b150ae453b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

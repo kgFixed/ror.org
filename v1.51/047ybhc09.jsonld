@@ -1,0 +1,182 @@
+[
+  {
+    "@id": "https://ror.org/047ybhc09",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "City St George's, University of London"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "City St George's University of London"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nef4952520ab543debf131a3109197380b1"
+      },
+      {
+        "@id": "_:nef4952520ab543debf131a3109197380b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nef4952520ab543debf131a3109197380b3"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "City St George's, University of London"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef4952520ab543debf131a3109197380b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "City, University of London"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04489at23"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef4952520ab543debf131a3109197380b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St George's, University of London"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/040f08y74"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef4952520ab543debf131a3109197380b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-0.12574,51.50853]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2643743"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nef4952520ab543debf131a3109197380b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef4952520ab543debf131a3109197380b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nef4952520ab543debf131a3109197380b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "London"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nef4952520ab543debf131a3109197380b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nef4952520ab543debf131a3109197380b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef4952520ab543debf131a3109197380b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

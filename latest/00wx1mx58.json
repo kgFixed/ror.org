@@ -1,71 +1,116 @@
 {
-  "ip_addresses": [],
-  "aliases": [
-    "MSH Mondes"
-  ],
-  "acronyms": [],
-  "links": [
-    "https://www.mshmondes.cnrs.fr/"
-  ],
-  "wikipedia_url": "https://fr.wikipedia.org/wiki/Maison_des_Sciences_de_l%E2%80%99homme_Mondes",
-  "external_ids": {
-    "Wikidata": {
-      "preferred": "Q3278957",
-      "all": [
-        "Q3278957"
-      ]
+  "admin": {
+    "created": {
+      "date": "2022-03-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
     }
   },
+  "domains": [],
   "established": null,
-  "relationships": [],
-  "email_address": null,
-  "id": "https://ror.org/00wx1mx58",
-  "labels": [
+  "external_ids": [
     {
-      "label": "Maison Archéologie & Ethnologie",
-      "iso639": "fr"
+      "all": [
+        "0000 0004 1937 1434"
+      ],
+      "preferred": "0000 0004 1937 1434",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3278957"
+      ],
+      "preferred": "Q3278957",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00wx1mx58",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mshmondes.cnrs.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Maison_des_Sciences_de_l%E2%80%99homme_Mondes"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.89198,
+        "lng": 2.20675,
+        "name": "Nanterre"
+      },
+      "geonames_id": 2990970
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "MSH Mondes"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Maison Archéologie & Ethnologie"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Maison des Sciences de l'Homme Mondes"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7041"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7041"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Paris Nanterre",
+      "type": "parent",
+      "id": "https://ror.org/013bkhk48"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Paris 1 Panthéon-Sorbonne",
+      "type": "parent",
+      "id": "https://ror.org/002t25c44"
     }
   ],
   "status": "active",
-  "name": "Maison des Sciences de l'Homme Mondes",
   "types": [
-    "Facility"
-  ],
-  "addresses": [
-    {
-      "state_code": null,
-      "state": null,
-      "primary": false,
-      "postcode": null,
-      "line": null,
-      "geonames_city": {
-        "id": 2990970,
-        "city": "Nanterre",
-        "geonames_admin1": {
-          "name": "Île-de-France",
-          "ascii_name": "Île-de-France",
-          "id": 3012874,
-          "code": "FR.11"
-        },
-        "geonames_admin2": {
-          "name": "Hauts-de-Seine",
-          "ascii_name": "Hauts-de-Seine",
-          "id": 3013657,
-          "code": "FR.11.92"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      },
-      "lat": 48.89198,
-      "lng": 2.20675,
-      "country_geonames_id": 3017382,
-      "city": "Nanterre"
-    }
-  ],
-  "country": {
-    "country_name": "France",
-    "country_code": "FR"
-  }
+    "facility"
+  ]
 }

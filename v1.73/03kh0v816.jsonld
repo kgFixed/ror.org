@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/03kh0v816",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Penza State University of Architecture and Construction"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Penza Civil Engineering Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1958"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3ce7a21cd98f49c7aa909815fc877246b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://pguas.ru"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Penza State University of Architecture and Construction"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.445533.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000085838988"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://pguas.ru"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3ce7a21cd98f49c7aa909815fc877246b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[45.01075,53.19568]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/511565"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3ce7a21cd98f49c7aa909815fc877246b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3ce7a21cd98f49c7aa909815fc877246b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3ce7a21cd98f49c7aa909815fc877246b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Penza"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Penza Oblast"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3ce7a21cd98f49c7aa909815fc877246b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3ce7a21cd98f49c7aa909815fc877246b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3ce7a21cd98f49c7aa909815fc877246b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,81 +1,105 @@
 {
-    "id": "https://ror.org/05wnasr61",
-    "name": "Vale Technological Institute",
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 2010,
-    "types": [
-        "Education"
-    ],
-    "relationships": [],
-    "addresses": [
-        {
-            "lat": -1.45583,
-            "lng": -48.50444,
-            "state": null,
-            "state_code": null,
-            "city": "Belém",
-            "geonames_city": {
-                "id": 3405870,
-                "city": "Belém",
-                "geonames_admin1": {
-                    "name": "Pará",
-                    "id": 3393129,
-                    "ascii_name": "Pará",
-                    "code": "BR.16"
-                },
-                "geonames_admin2": {
-                    "name": "Belém",
-                    "id": 6319377,
-                    "ascii_name": "Belém",
-                    "code": "BR.16.1501402"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 3469034
-        }
-    ],
-    "links": [
-        "https://www.itv.org/"
-    ],
-    "aliases": [],
-    "acronyms": [
-        "ITV"
-    ],
-    "status": "active",
-    "wikipedia_url": "",
-    "labels": [
-        {
-            "label": "Instituto Tecnológico Vale",
-            "iso639": "en"
-        }
-    ],
-    "country": {
-        "country_name": "Brazil",
-        "country_code": "BR"
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
     },
-    "external_ids": {
-        "GRID": {
-            "preferred": "grid.512416.5",
-            "all": "grid.512416.5"
-        }
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
     }
+  },
+  "domains": [
+    "itv.org"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "100015749"
+      ],
+      "preferred": "100015749",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.512416.5"
+      ],
+      "preferred": "grid.512416.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4670 7802"
+      ],
+      "preferred": "0000 0004 4670 7802",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05wnasr61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.itv.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pará",
+        "lat": -1.45583,
+        "lng": -48.50444,
+        "name": "Belém"
+      },
+      "geonames_id": 3405870
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ITV"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto Tecnológico Vale"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Vale Institute of Technology"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias",
+        "ror_display"
+      ],
+      "value": "Vale Technological Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "MapBiomas",
+      "type": "related",
+      "id": "https://ror.org/021203s31"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
 }

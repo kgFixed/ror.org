@@ -1,0 +1,50 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04dz3w425> a org:Organization ;
+    rdfs:label 'Inala Community Health Centre'^^xsd:string; 
+    schema:name 'Inala Community Health Centre'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Inala Community Health Centre - MSH'^^xsd:string ; 
+    schema:mainEntityOfPage <https://www.health.qld.gov.au/services/metrosouth/inala-chc> ;
+    schema:sameAs <https://grid.ac/institutions/grid.492296.2> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/00c1dt378> ;
+        rdfs:label 'Queensland Health'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/016gd3115> ;
+        rdfs:label 'Metro South Health'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[152.97432,-27.59715]}" ;
+            schema:address [
+                schema:addressLocality "Inala" ;
+                schema:addressCountry "AU" ;
+                schema:addressRegion "Queensland" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Australia" ;
+                    schema:containedInPlace [
+                        schema:name "Oceania" ;
+                        schema:identifier "OC"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6931021> ;
+        ] ; 
+    .

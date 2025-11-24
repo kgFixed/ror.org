@@ -1,0 +1,231 @@
+[
+  {
+    "@id": "https://ror.org/05nbqxr67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Miami University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Miami_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:neb55da6b70e24291af10265187b9d99db1"
+      },
+      {
+        "@id": "_:neb55da6b70e24291af10265187b9d99db2"
+      },
+      {
+        "@id": "_:neb55da6b70e24291af10265187b9d99db3"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1809"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neb55da6b70e24291af10265187b9d99db4"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://miamioh.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Miami University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.259956.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121956763"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://miamioh.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb55da6b70e24291af10265187b9d99db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University System of Ohio"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0561zqn56"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb55da6b70e24291af10265187b9d99db2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hubbard Brook Long Term Ecological Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00mkh7345"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb55da6b70e24291af10265187b9d99db3",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "McMurdo Dry Valleys Long Term Ecological Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04r3s7465"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb55da6b70e24291af10265187b9d99db4",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-84.74523,39.507]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4520760"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neb55da6b70e24291af10265187b9d99db5"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb55da6b70e24291af10265187b9d99db5",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neb55da6b70e24291af10265187b9d99db6"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Oxford"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:neb55da6b70e24291af10265187b9d99db6",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neb55da6b70e24291af10265187b9d99db7"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb55da6b70e24291af10265187b9d99db7",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

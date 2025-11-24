@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/000v4bn80",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Crossroads College"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Crossroads_College"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Minnesota Bible College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1913"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:necd22a35c1904e10ab06e5ef9e25bc63b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.crossroadscollege.edu/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Crossroads College"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.454668.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000097488161"
+      }
+    ]
+  },
+  {
+    "@id": "_:necd22a35c1904e10ab06e5ef9e25bc63b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-92.4699,44.02163]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5043473"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:necd22a35c1904e10ab06e5ef9e25bc63b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:necd22a35c1904e10ab06e5ef9e25bc63b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:necd22a35c1904e10ab06e5ef9e25bc63b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rochester"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Minnesota"
+      }
+    ]
+  },
+  {
+    "@id": "_:necd22a35c1904e10ab06e5ef9e25bc63b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:necd22a35c1904e10ab06e5ef9e25bc63b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:necd22a35c1904e10ab06e5ef9e25bc63b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

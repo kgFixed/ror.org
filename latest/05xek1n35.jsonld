@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/05xek1n35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Todachuo General Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "戸田中央総合病院"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:need028f1fbc94ecca344325a68ddb9dbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.chuobyoin.or.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Todachuo General Hospital"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://chuobyoin.or.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:need028f1fbc94ecca344325a68ddb9dbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[139.66018,35.81447]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/11611482"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:need028f1fbc94ecca344325a68ddb9dbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:need028f1fbc94ecca344325a68ddb9dbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:need028f1fbc94ecca344325a68ddb9dbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Toda"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Saitama"
+      }
+    ]
+  },
+  {
+    "@id": "_:need028f1fbc94ecca344325a68ddb9dbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:need028f1fbc94ecca344325a68ddb9dbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:need028f1fbc94ecca344325a68ddb9dbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

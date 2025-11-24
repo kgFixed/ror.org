@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/001cr3q72> a org:Organization ;
+    rdfs:label 'Experiential Higher Institute of Science and Technology (EXHIST)'^^xsd:string; 
+    schema:name 'Experiential Higher Institute of Science and Technology (EXHIST)'^^xsd:string; 
+    schema:foundingDate '2019'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'EXHIST'^^xsd:string; 
+    org:alternativeName 'EXHIST University'^^xsd:string ; 
+    org:alternativeName 'EXHIST University Institute'^^xsd:string ; 
+    org:alternativeName 'Experiential Higher Institute of Science and Technology'^^xsd:string ; 
+    org:alternativeName 'Experiential Higher Institute of Science and Technology EXHIST'^^xsd:string ; 
+    schema:url <http://exhistuniversity.com> ; 
+    schema:mainEntityOfPage <https://www.exhistuniversity.com> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[11.51667,3.86667]}" ;
+            schema:address [
+                schema:addressLocality "Yaoundé" ;
+                schema:addressCountry "CM" ;
+                schema:addressRegion "Centre" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Cameroon" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2220957> ;
+        ] ; 
+    .

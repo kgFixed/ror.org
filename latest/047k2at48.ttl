@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/047k2at48> a org:Organization ;
+    rdfs:label 'Al-Azhar University – Gaza'^^xsd:string; 
+    schema:name 'Al-Azhar University – Gaza'^^xsd:string; 
+    schema:foundingDate '1991'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://alazhar.edu.ps> ; 
+    schema:mainEntityOfPage <https://www.alazhar.edu.ps/arabic/index.asp> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Al-Azhar_University_%25E2%2580%2593_Gaza> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.133800.9> ;
+    schema:sameAs <http://isni.org/isni/0000000104366817> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[34.46672,31.50161]}" ;
+            schema:address [
+                schema:addressLocality "Gaza" ;
+                schema:addressCountry "PS" ;
+                schema:addressRegion "Gaza Strip" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Palestine" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/281133> ;
+        ] ; 
+    .

@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/00fw97762",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas Nurdin Hamzah"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://id.wikipedia.org/wiki/Universitas_Nurdin_Hamzah"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2020"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5779f4b5f8694cc29e619b6ae6e79f02b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.unh.ac.id"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas Nurdin Hamzah"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/000000040385444X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unh.ac.id"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5779f4b5f8694cc29e619b6ae6e79f02b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[103.61667,-1.6]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1642858"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5779f4b5f8694cc29e619b6ae6e79f02b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5779f4b5f8694cc29e619b6ae6e79f02b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5779f4b5f8694cc29e619b6ae6e79f02b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ID"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jambi City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Jambi"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5779f4b5f8694cc29e619b6ae6e79f02b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5779f4b5f8694cc29e619b6ae6e79f02b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Indonesia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5779f4b5f8694cc29e619b6ae6e79f02b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

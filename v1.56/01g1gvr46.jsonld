@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/01g1gvr46",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-08-31"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Viatris"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Viatris"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2020"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd1281bd3e5fe49b69ae75e9e8be90cbdb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.viatris.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Viatris"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://viatris.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd1281bd3e5fe49b69ae75e9e8be90cbdb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-80.18728,40.26257]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5183161"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd1281bd3e5fe49b69ae75e9e8be90cbdb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd1281bd3e5fe49b69ae75e9e8be90cbdb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd1281bd3e5fe49b69ae75e9e8be90cbdb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Canonsburg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nd1281bd3e5fe49b69ae75e9e8be90cbdb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd1281bd3e5fe49b69ae75e9e8be90cbdb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd1281bd3e5fe49b69ae75e9e8be90cbdb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

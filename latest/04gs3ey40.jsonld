@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/04gs3ey40",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Abhilashi University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2014"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3b9a35fb513c4bab90bcbc2ae010e9ccb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.abhilashiuniversity.ac.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Abhilashi University"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://abhilashiuniversity.ac.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3b9a35fb513c4bab90bcbc2ae010e9ccb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[76.93273,31.71194]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1263862"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3b9a35fb513c4bab90bcbc2ae010e9ccb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3b9a35fb513c4bab90bcbc2ae010e9ccb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3b9a35fb513c4bab90bcbc2ae010e9ccb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mandi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Himachal Pradesh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3b9a35fb513c4bab90bcbc2ae010e9ccb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3b9a35fb513c4bab90bcbc2ae010e9ccb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3b9a35fb513c4bab90bcbc2ae010e9ccb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

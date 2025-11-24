@@ -1,0 +1,182 @@
+[
+  {
+    "@id": "https://ror.org/012b7c704",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut des Sciences Criminelles et de la Justice"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ISCJ"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UR 4633"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UR4633"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:neb5af09573574b348ec21263688705c9b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2011"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neb5af09573574b348ec21263688705c9b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://iscj.u-bordeaux.fr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut des Sciences Criminelles et de la Justice"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://iscj.u-bordeaux.fr"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb5af09573574b348ec21263688705c9b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université de Bordeaux"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/057qpr032"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb5af09573574b348ec21263688705c9b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-0.58046,44.84124]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3031582"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neb5af09573574b348ec21263688705c9b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb5af09573574b348ec21263688705c9b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neb5af09573574b348ec21263688705c9b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bordeaux"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nouvelle-Aquitaine"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb5af09573574b348ec21263688705c9b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neb5af09573574b348ec21263688705c9b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb5af09573574b348ec21263688705c9b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

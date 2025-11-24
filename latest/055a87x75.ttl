@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/055a87x75> a org:Organization ;
+    rdfs:label 'Ministère de l\'Enseignement Supérieur et de la Recherche'^^xsd:string; 
+    schema:name 'Ministère de l\'Enseignement Supérieur et de la Recherche'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'MESR'^^xsd:string; 
+    schema:url <http://mesr.gouvernement.lu> ; 
+    schema:mainEntityOfPage <https://mesr.gouvernement.lu> ;
+    owl:sameAs <https://fr.wikipedia.org/wiki/Minist%25C3%25A8re_de_la_Recherche_et_de_l%2527Enseignement_sup%25C3%25A9rieur> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100019973> ;
+    schema:sameAs <https://grid.ac/institutions/grid.494307.d> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[6.13268,49.60982]}" ;
+            schema:address [
+                schema:addressLocality "Luxembourg" ;
+                schema:addressCountry "LU" ;
+                schema:addressRegion "Luxembourg" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Luxembourg" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2960316> ;
+        ] ; 
+    .

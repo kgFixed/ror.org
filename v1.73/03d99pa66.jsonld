@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/03d99pa66",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museu Nacional do Traje"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf57b55169cc2467a8701ecf3db05171fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.museusemonumentos.pt/pt/museus-e-monumentos/museu-nacional-do-traje"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museu Nacional do Traje"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000121084942"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf57b55169cc2467a8701ecf3db05171fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-9.1498,38.72509]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2267057"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf57b55169cc2467a8701ecf3db05171fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf57b55169cc2467a8701ecf3db05171fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf57b55169cc2467a8701ecf3db05171fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lisbon"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lisbon"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf57b55169cc2467a8701ecf3db05171fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf57b55169cc2467a8701ecf3db05171fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf57b55169cc2467a8701ecf3db05171fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

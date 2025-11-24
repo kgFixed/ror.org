@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/0128w6917",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Management and Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNIMTECH"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Management & Technology, Sierra Leone"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Management and Technology, Freetown"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1991"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8dc5289b0fdf4960bd6b3c367f6eca7fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unimtech.edu.sl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Management and Technology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unimtech.edu.sl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8dc5289b0fdf4960bd6b3c367f6eca7fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-13.2356,8.48714]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2409306"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8dc5289b0fdf4960bd6b3c367f6eca7fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8dc5289b0fdf4960bd6b3c367f6eca7fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8dc5289b0fdf4960bd6b3c367f6eca7fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Freetown"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Western Area"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8dc5289b0fdf4960bd6b3c367f6eca7fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8dc5289b0fdf4960bd6b3c367f6eca7fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sierra Leone"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8dc5289b0fdf4960bd6b3c367f6eca7fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

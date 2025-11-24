@@ -1,0 +1,2050 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@base <http://w3id.org/kgfixed/ror/LDES/v1.14.ttl> .
+
+<>
+    a tree:Node ;
+    
+    tree:relation [
+      a tree:LessThanRelation ;
+      tree:node <http://w3id.org/kgfixed/ror/LDES/v1.15.ttl> ;
+      tree:path dc:modified ;
+      tree:value '2022-12-01T10:10:02-08:00'^^xsd:dateTime
+    ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:LatestVersionSubset ;
+        ldes:versionAmount 1
+    ] .
+
+<feed>
+  a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ];
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ];
+    
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <> ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/000t0f062.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/000t0f062.ttl>
+  dc:isVersionOf <https://ror.org/000t0f062> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Education University of Hong Kong'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/000t0f062>
+  rdfs:label 'Education University of Hong Kong'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/001040111.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/001040111.ttl>
+  dc:isVersionOf <https://ror.org/001040111> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Academy of Agrarian Sciences of Ukraine'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/001040111>
+  rdfs:label 'National Academy of Agrarian Sciences of Ukraine'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/002t25c44.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/002t25c44.ttl>
+  dc:isVersionOf <https://ror.org/002t25c44> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Pantheon-Sorbonne University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/002t25c44>
+  rdfs:label 'Pantheon-Sorbonne University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/004t5s645.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/004t5s645.ttl>
+  dc:isVersionOf <https://ror.org/004t5s645> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'FOSSGIS'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/004t5s645>
+  rdfs:label 'FOSSGIS'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/0057ax056.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/0057ax056.ttl>
+  dc:isVersionOf <https://ror.org/0057ax056> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'King Mongkut\'s University of Technology Thonburi'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/0057ax056>
+  rdfs:label 'King Mongkut\'s University of Technology Thonburi'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/009fw8j44.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/009fw8j44.ttl>
+  dc:isVersionOf <https://ror.org/009fw8j44> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Hebei Agricultural University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/009fw8j44>
+  rdfs:label 'Hebei Agricultural University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00b8p9q06.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00b8p9q06.ttl>
+  dc:isVersionOf <https://ror.org/00b8p9q06> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'American University of Bahrain'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00b8p9q06>
+  rdfs:label 'American University of Bahrain'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00cjqbk89.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00cjqbk89.ttl>
+  dc:isVersionOf <https://ror.org/00cjqbk89> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'OSGeo'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00cjqbk89>
+  rdfs:label 'OSGeo'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00ha14p11.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00ha14p11.ttl>
+  dc:isVersionOf <https://ror.org/00ha14p11> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Visvesvaraya Technological University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00ha14p11>
+  rdfs:label 'Visvesvaraya Technological University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00hrxq972.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00hrxq972.ttl>
+  dc:isVersionOf <https://ror.org/00hrxq972> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'oekom'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00hrxq972>
+  rdfs:label 'oekom'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00j4a3b86.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00j4a3b86.ttl>
+  dc:isVersionOf <https://ror.org/00j4a3b86> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Museum of Australia'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00j4a3b86>
+  rdfs:label 'National Museum of Australia'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00jsjm362.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00jsjm362.ttl>
+  dc:isVersionOf <https://ror.org/00jsjm362> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'University of Abou Bekr Belkaïd'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00jsjm362>
+  rdfs:label 'University of Abou Bekr Belkaïd'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00jzpj618.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00jzpj618.ttl>
+  dc:isVersionOf <https://ror.org/00jzpj618> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Ariadna Ediciones'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00jzpj618>
+  rdfs:label 'Ariadna Ediciones'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00kd5se19.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00kd5se19.ttl>
+  dc:isVersionOf <https://ror.org/00kd5se19> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Institute of Technology, Nagano College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00kd5se19>
+  rdfs:label 'National Institute of Technology, Nagano College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00myw9y39.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00myw9y39.ttl>
+  dc:isVersionOf <https://ror.org/00myw9y39> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Achucarro Basque Center for Neuroscience'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00myw9y39>
+  rdfs:label 'Achucarro Basque Center for Neuroscience'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00nfe1k49.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00nfe1k49.ttl>
+  dc:isVersionOf <https://ror.org/00nfe1k49> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Intelligent Fingerprinting (United Kingdom)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00nfe1k49>
+  rdfs:label 'Intelligent Fingerprinting (United Kingdom)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00ws30h19.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00ws30h19.ttl>
+  dc:isVersionOf <https://ror.org/00ws30h19> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Tokyo Metropolitan University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00ws30h19>
+  rdfs:label 'Tokyo Metropolitan University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00x5cwj10.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00x5cwj10.ttl>
+  dc:isVersionOf <https://ror.org/00x5cwj10> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'V.Ye. Tairov Institute of Viticulture and Winemaking'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00x5cwj10>
+  rdfs:label 'V.Ye. Tairov Institute of Viticulture and Winemaking'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/00yh11w37.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/00yh11w37.ttl>
+  dc:isVersionOf <https://ror.org/00yh11w37> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Newlife the Charity for Disabled Children'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00yh11w37>
+  rdfs:label 'Newlife the Charity for Disabled Children'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/011j4zc17.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/011j4zc17.ttl>
+  dc:isVersionOf <https://ror.org/011j4zc17> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Gallery of Australia'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/011j4zc17>
+  rdfs:label 'National Gallery of Australia'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/013bkhk48.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/013bkhk48.ttl>
+  dc:isVersionOf <https://ror.org/013bkhk48> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Université Paris Nanterre'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/013bkhk48>
+  rdfs:label 'Université Paris Nanterre'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/0178ysk77.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/0178ysk77.ttl>
+  dc:isVersionOf <https://ror.org/0178ysk77> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'University of Holy Cross'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/0178ysk77>
+  rdfs:label 'University of Holy Cross'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/017rnyz40.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/017rnyz40.ttl>
+  dc:isVersionOf <https://ror.org/017rnyz40> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Ministry of Culture'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/017rnyz40>
+  rdfs:label 'Ministry of Culture'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/017xv2t04.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/017xv2t04.ttl>
+  dc:isVersionOf <https://ror.org/017xv2t04> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Lumbini Medical College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/017xv2t04>
+  rdfs:label 'Lumbini Medical College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/019tgvf94.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/019tgvf94.ttl>
+  dc:isVersionOf <https://ror.org/019tgvf94> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Université Côte d\'Azur'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/019tgvf94>
+  rdfs:label 'Université Côte d\'Azur'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01bg3pz19.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01bg3pz19.ttl>
+  dc:isVersionOf <https://ror.org/01bg3pz19> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'AISSMS Institute of Information Technology'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01bg3pz19>
+  rdfs:label 'AISSMS Institute of Information Technology'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01caf1f88.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01caf1f88.ttl>
+  dc:isVersionOf <https://ror.org/01caf1f88> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Marvel Fusion'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01caf1f88>
+  rdfs:label 'Marvel Fusion'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01dqmj897.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01dqmj897.ttl>
+  dc:isVersionOf <https://ror.org/01dqmj897> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Laboratoire Architecture Ville Urbanisme Environnement'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01dqmj897>
+  rdfs:label 'Laboratoire Architecture Ville Urbanisme Environnement'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01dsa5866.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01dsa5866.ttl>
+  dc:isVersionOf <https://ror.org/01dsa5866> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Dongguk University WISE'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01dsa5866>
+  rdfs:label 'Dongguk University WISE'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01gavpb45.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01gavpb45.ttl>
+  dc:isVersionOf <https://ror.org/01gavpb45> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Canadian Institutes of Health Research'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01gavpb45>
+  rdfs:label 'Canadian Institutes of Health Research'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01gcwk603.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01gcwk603.ttl>
+  dc:isVersionOf <https://ror.org/01gcwk603> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Jinzhong College of Information'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01gcwk603>
+  rdfs:label 'Jinzhong College of Information'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01h8ejk57.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01h8ejk57.ttl>
+  dc:isVersionOf <https://ror.org/01h8ejk57> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Library of Nigeria'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01h8ejk57>
+  rdfs:label 'National Library of Nigeria'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01k7e4s32.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01k7e4s32.ttl>
+  dc:isVersionOf <https://ror.org/01k7e4s32> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Prince Sultan Military College of Health Sciences'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01k7e4s32>
+  rdfs:label 'Prince Sultan Military College of Health Sciences'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01mrfdz82.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01mrfdz82.ttl>
+  dc:isVersionOf <https://ror.org/01mrfdz82> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Texas A&M University – Corpus Christi'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01mrfdz82>
+  rdfs:label 'Texas A&M University – Corpus Christi'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01pawvf59.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01pawvf59.ttl>
+  dc:isVersionOf <https://ror.org/01pawvf59> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Laboratoire de Préhistoire et Technologie'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01pawvf59>
+  rdfs:label 'Laboratoire de Préhistoire et Technologie'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01q496a73.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01q496a73.ttl>
+  dc:isVersionOf <https://ror.org/01q496a73> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'MRC Weatherall Institute of Molecular Medicine'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01q496a73>
+  rdfs:label 'MRC Weatherall Institute of Molecular Medicine'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01qhf1r47.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01qhf1r47.ttl>
+  dc:isVersionOf <https://ror.org/01qhf1r47> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Anna University, Chennai'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01qhf1r47>
+  rdfs:label 'Anna University, Chennai'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01t3zke88.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01t3zke88.ttl>
+  dc:isVersionOf <https://ror.org/01t3zke88> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'German Institute of Development and Sustainability'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01t3zke88>
+  rdfs:label 'German Institute of Development and Sustainability'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01x0h1806.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01x0h1806.ttl>
+  dc:isVersionOf <https://ror.org/01x0h1806> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Australian National Maritime Museum'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01x0h1806>
+  rdfs:label 'Australian National Maritime Museum'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/01zgdd257.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/01zgdd257.ttl>
+  dc:isVersionOf <https://ror.org/01zgdd257> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Medytox'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/01zgdd257>
+  rdfs:label 'Medytox'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/022chd503.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/022chd503.ttl>
+  dc:isVersionOf <https://ror.org/022chd503> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Dhaka National Medical College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/022chd503>
+  rdfs:label 'Dhaka National Medical College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/024pbfj84.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/024pbfj84.ttl>
+  dc:isVersionOf <https://ror.org/024pbfj84> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'LA Referencia'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/024pbfj84>
+  rdfs:label 'LA Referencia'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/027g2ne18.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/027g2ne18.ttl>
+  dc:isVersionOf <https://ror.org/027g2ne18> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Abasaheb Garware College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/027g2ne18>
+  rdfs:label 'Abasaheb Garware College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/029dswp54.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/029dswp54.ttl>
+  dc:isVersionOf <https://ror.org/029dswp54> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Central Land Council'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/029dswp54>
+  rdfs:label 'Central Land Council'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/029p3kk30.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/029p3kk30.ttl>
+  dc:isVersionOf <https://ror.org/029p3kk30> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Louisiana Christian University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/029p3kk30>
+  rdfs:label 'Louisiana Christian University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02asztc31.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02asztc31.ttl>
+  dc:isVersionOf <https://ror.org/02asztc31> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Australian Film, Television and Radio School'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02asztc31>
+  rdfs:label 'Australian Film, Television and Radio School'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02ayn5869.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02ayn5869.ttl>
+  dc:isVersionOf <https://ror.org/02ayn5869> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Southern Centre For Inequality Studies'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02ayn5869>
+  rdfs:label 'Southern Centre For Inequality Studies'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02d9dg697.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02d9dg697.ttl>
+  dc:isVersionOf <https://ror.org/02d9dg697> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'School for Advanced Studies in the Social Sciences'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02d9dg697>
+  rdfs:label 'School for Advanced Studies in the Social Sciences'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02dernx73.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02dernx73.ttl>
+  dc:isVersionOf <https://ror.org/02dernx73> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'International Institute of Information Technology'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02dernx73>
+  rdfs:label 'International Institute of Information Technology'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02ft5tp06.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02ft5tp06.ttl>
+  dc:isVersionOf <https://ror.org/02ft5tp06> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Délégation Ile-de-France Ouest et Nord'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02ft5tp06>
+  rdfs:label 'Délégation Ile-de-France Ouest et Nord'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02gdbm217.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02gdbm217.ttl>
+  dc:isVersionOf <https://ror.org/02gdbm217> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Creative Victoria'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02gdbm217>
+  rdfs:label 'Creative Victoria'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02h21fh05.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02h21fh05.ttl>
+  dc:isVersionOf <https://ror.org/02h21fh05> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'RedCLARA (Uruguay)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02h21fh05>
+  rdfs:label 'RedCLARA (Uruguay)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02hmjzt55.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02hmjzt55.ttl>
+  dc:isVersionOf <https://ror.org/02hmjzt55> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Research and Innovation Agency'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02hmjzt55>
+  rdfs:label 'National Research and Innovation Agency'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02j4j8p35.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02j4j8p35.ttl>
+  dc:isVersionOf <https://ror.org/02j4j8p35> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'EconomiX'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02j4j8p35>
+  rdfs:label 'EconomiX'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02k8f5n40.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02k8f5n40.ttl>
+  dc:isVersionOf <https://ror.org/02k8f5n40> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Laboratoire Cognitions Humaine et Artificielle'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02k8f5n40>
+  rdfs:label 'Laboratoire Cognitions Humaine et Artificielle'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02khxwt12.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02khxwt12.ttl>
+  dc:isVersionOf <https://ror.org/02khxwt12> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'MRC Molecular Haematology Unit'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02khxwt12>
+  rdfs:label 'MRC Molecular Haematology Unit'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02kzqn938.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02kzqn938.ttl>
+  dc:isVersionOf <https://ror.org/02kzqn938> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'University of Lille'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02kzqn938>
+  rdfs:label 'University of Lille'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02q094x95.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02q094x95.ttl>
+  dc:isVersionOf <https://ror.org/02q094x95> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Northshore Technical Community College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02q094x95>
+  rdfs:label 'Northshore Technical Community College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02qdq9z80.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02qdq9z80.ttl>
+  dc:isVersionOf <https://ror.org/02qdq9z80> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'International Professional University of Technology in Nagoya'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02qdq9z80>
+  rdfs:label 'International Professional University of Technology in Nagoya'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02qqw3j37.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02qqw3j37.ttl>
+  dc:isVersionOf <https://ror.org/02qqw3j37> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Instituto de Libertad Económica'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02qqw3j37>
+  rdfs:label 'Instituto de Libertad Económica'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02r109517.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02r109517.ttl>
+  dc:isVersionOf <https://ror.org/02r109517> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Weill Cornell Medicine'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02r109517>
+  rdfs:label 'Weill Cornell Medicine'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02rkt9d51.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02rkt9d51.ttl>
+  dc:isVersionOf <https://ror.org/02rkt9d51> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Baltic Defence College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02rkt9d51>
+  rdfs:label 'Baltic Defence College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02rvyhw89.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02rvyhw89.ttl>
+  dc:isVersionOf <https://ror.org/02rvyhw89> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Bangladesh Jute Mills Corporation'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02rvyhw89>
+  rdfs:label 'Bangladesh Jute Mills Corporation'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02sdahq48.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02sdahq48.ttl>
+  dc:isVersionOf <https://ror.org/02sdahq48> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Guangzhou Metro Design & Research Institute'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02sdahq48>
+  rdfs:label 'Guangzhou Metro Design & Research Institute'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02sryfh37.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02sryfh37.ttl>
+  dc:isVersionOf <https://ror.org/02sryfh37> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Fondazione di Sardegna'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02sryfh37>
+  rdfs:label 'Fondazione di Sardegna'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02t8xn829.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02t8xn829.ttl>
+  dc:isVersionOf <https://ror.org/02t8xn829> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Boca Raton Community High School'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02t8xn829>
+  rdfs:label 'Boca Raton Community High School'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02twcfp32.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02twcfp32.ttl>
+  dc:isVersionOf <https://ror.org/02twcfp32> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Crossref'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02twcfp32>
+  rdfs:label 'Crossref'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02w2rmb81.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02w2rmb81.ttl>
+  dc:isVersionOf <https://ror.org/02w2rmb81> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'EMS (United Kingdom)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02w2rmb81>
+  rdfs:label 'EMS (United Kingdom)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02wnejx52.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02wnejx52.ttl>
+  dc:isVersionOf <https://ror.org/02wnejx52> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Academy of Legal Sciences of Ukraine'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02wnejx52>
+  rdfs:label 'National Academy of Legal Sciences of Ukraine'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02xven060.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02xven060.ttl>
+  dc:isVersionOf <https://ror.org/02xven060> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Institute of Indigenous Peoples\' Health'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02xven060>
+  rdfs:label 'Institute of Indigenous Peoples\' Health'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02y6fxd73.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02y6fxd73.ttl>
+  dc:isVersionOf <https://ror.org/02y6fxd73> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Mondes Américains'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02y6fxd73>
+  rdfs:label 'Mondes Américains'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02yrq0923.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02yrq0923.ttl>
+  dc:isVersionOf <https://ror.org/02yrq0923> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Memorial Sloan Kettering Cancer Center'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02yrq0923>
+  rdfs:label 'Memorial Sloan Kettering Cancer Center'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/02ysyhv70.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/02ysyhv70.ttl>
+  dc:isVersionOf <https://ror.org/02ysyhv70> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Pan African University Institute for Governance, Humanities and Social Sciences'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/02ysyhv70>
+  rdfs:label 'Pan African University Institute for Governance, Humanities and Social Sciences'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/030atj633.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/030atj633.ttl>
+  dc:isVersionOf <https://ror.org/030atj633> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Ministry of Health'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/030atj633>
+  rdfs:label 'Ministry of Health'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/030rhf128.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/030rhf128.ttl>
+  dc:isVersionOf <https://ror.org/030rhf128> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Bunge (United States)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/030rhf128>
+  rdfs:label 'Bunge (United States)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/0314h5y94.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/0314h5y94.ttl>
+  dc:isVersionOf <https://ror.org/0314h5y94> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Australian Government'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/0314h5y94>
+  rdfs:label 'Australian Government'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/032sd0c64.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/032sd0c64.ttl>
+  dc:isVersionOf <https://ror.org/032sd0c64> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Southern Oregon Orthopedics'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/032sd0c64>
+  rdfs:label 'Southern Oregon Orthopedics'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/034wa7719.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/034wa7719.ttl>
+  dc:isVersionOf <https://ror.org/034wa7719> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'The National Lottery Community Fund'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/034wa7719>
+  rdfs:label 'The National Lottery Community Fund'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/035xkbk20.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/035xkbk20.ttl>
+  dc:isVersionOf <https://ror.org/035xkbk20> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Aix-Marseille University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/035xkbk20>
+  rdfs:label 'Aix-Marseille University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/036trcv74.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/036trcv74.ttl>
+  dc:isVersionOf <https://ror.org/036trcv74> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Nanjing Normal University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/036trcv74>
+  rdfs:label 'Nanjing Normal University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/036xnae80.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/036xnae80.ttl>
+  dc:isVersionOf <https://ror.org/036xnae80> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Kathmandu University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/036xnae80>
+  rdfs:label 'Kathmandu University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/037n2rm85.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/037n2rm85.ttl>
+  dc:isVersionOf <https://ror.org/037n2rm85> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Amsterdam Institute for Global Health and Development'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/037n2rm85>
+  rdfs:label 'Amsterdam Institute for Global Health and Development'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03acrzv41.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03acrzv41.ttl>
+  dc:isVersionOf <https://ror.org/03acrzv41> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'North China University of Water Resources and Electric Power'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03acrzv41>
+  rdfs:label 'North China University of Water Resources and Electric Power'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03arq3225.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03arq3225.ttl>
+  dc:isVersionOf <https://ror.org/03arq3225> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Michael J. Fox Foundation'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03arq3225>
+  rdfs:label 'Michael J. Fox Foundation'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03ayaqr81.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03ayaqr81.ttl>
+  dc:isVersionOf <https://ror.org/03ayaqr81> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'SCImago Research Group'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03ayaqr81>
+  rdfs:label 'SCImago Research Group'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03bcjfh39.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03bcjfh39.ttl>
+  dc:isVersionOf <https://ror.org/03bcjfh39> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Pirogov Memorial Medical University, Vinnytsya'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03bcjfh39>
+  rdfs:label 'National Pirogov Memorial Medical University, Vinnytsya'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03cq4gr50.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03cq4gr50.ttl>
+  dc:isVersionOf <https://ror.org/03cq4gr50> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Khon Kaen University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03cq4gr50>
+  rdfs:label 'Khon Kaen University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03d0jkp23.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03d0jkp23.ttl>
+  dc:isVersionOf <https://ror.org/03d0jkp23> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Colombian Corporation for Agricultural Research - AGROSAVIA'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03d0jkp23>
+  rdfs:label 'Colombian Corporation for Agricultural Research - AGROSAVIA'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03d56t467.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03d56t467.ttl>
+  dc:isVersionOf <https://ror.org/03d56t467> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'The Sumners Foundation'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03d56t467>
+  rdfs:label 'The Sumners Foundation'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03d7vz670.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03d7vz670.ttl>
+  dc:isVersionOf <https://ror.org/03d7vz670> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'College of Mount Saint Vincent'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03d7vz670>
+  rdfs:label 'College of Mount Saint Vincent'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03dhk1t70.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03dhk1t70.ttl>
+  dc:isVersionOf <https://ror.org/03dhk1t70> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'JMIR Publications'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03dhk1t70>
+  rdfs:label 'JMIR Publications'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03dtp6w69.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03dtp6w69.ttl>
+  dc:isVersionOf <https://ror.org/03dtp6w69> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Ministry of Defense'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03dtp6w69>
+  rdfs:label 'Ministry of Defense'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03e2r1r87.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03e2r1r87.ttl>
+  dc:isVersionOf <https://ror.org/03e2r1r87> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'École Nationale Supérieure d\'Architecture de Paris-La Villette'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03e2r1r87>
+  rdfs:label 'École Nationale Supérieure d\'Architecture de Paris-La Villette'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03gjccz36.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03gjccz36.ttl>
+  dc:isVersionOf <https://ror.org/03gjccz36> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Ansell (Australia)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03gjccz36>
+  rdfs:label 'Ansell (Australia)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03gjktv92.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03gjktv92.ttl>
+  dc:isVersionOf <https://ror.org/03gjktv92> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'R.M.D. Engineering College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03gjktv92>
+  rdfs:label 'R.M.D. Engineering College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03gxqy123.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03gxqy123.ttl>
+  dc:isVersionOf <https://ror.org/03gxqy123> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Paulo Picanço School of Dentistry'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03gxqy123>
+  rdfs:label 'Paulo Picanço School of Dentistry'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03gzbrs57.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03gzbrs57.ttl>
+  dc:isVersionOf <https://ror.org/03gzbrs57> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'NewYork–Presbyterian Hospital'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03gzbrs57>
+  rdfs:label 'NewYork–Presbyterian Hospital'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03jdg7625.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03jdg7625.ttl>
+  dc:isVersionOf <https://ror.org/03jdg7625> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Institut des Sciences Sociales du Politique'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03jdg7625>
+  rdfs:label 'Institut des Sciences Sociales du Politique'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03p76m698.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03p76m698.ttl>
+  dc:isVersionOf <https://ror.org/03p76m698> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Institutions et Dynamiques Historiques de l\'Économie et de la Société'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03p76m698>
+  rdfs:label 'Institutions et Dynamiques Historiques de l\'Économie et de la Société'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03pmbva82.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03pmbva82.ttl>
+  dc:isVersionOf <https://ror.org/03pmbva82> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Ebelle D\'ebelle Pharmaceutical (United States)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03pmbva82>
+  rdfs:label 'Ebelle D\'ebelle Pharmaceutical (United States)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03ppaqb54.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03ppaqb54.ttl>
+  dc:isVersionOf <https://ror.org/03ppaqb54> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'FIR (Institute for Industrial Management) at RWTH Aachen University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03ppaqb54>
+  rdfs:label 'FIR (Institute for Industrial Management) at RWTH Aachen University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03qn8fb07.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03qn8fb07.ttl>
+  dc:isVersionOf <https://ror.org/03qn8fb07> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Commonwealth Scientific and Industrial Research Organisation'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03qn8fb07>
+  rdfs:label 'Commonwealth Scientific and Industrial Research Organisation'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03r5zvp34.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03r5zvp34.ttl>
+  dc:isVersionOf <https://ror.org/03r5zvp34> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Pan African University Institute of Life and Earth Sciences'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03r5zvp34>
+  rdfs:label 'Pan African University Institute of Life and Earth Sciences'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03rp50x72.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03rp50x72.ttl>
+  dc:isVersionOf <https://ror.org/03rp50x72> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'University of the Witwatersrand'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03rp50x72>
+  rdfs:label 'University of the Witwatersrand'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03s37k362.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03s37k362.ttl>
+  dc:isVersionOf <https://ror.org/03s37k362> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Global Academy of Technology'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03s37k362>
+  rdfs:label 'Global Academy of Technology'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03t8x2c04.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03t8x2c04.ttl>
+  dc:isVersionOf <https://ror.org/03t8x2c04> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Aga Khan Foundation'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03t8x2c04>
+  rdfs:label 'Aga Khan Foundation'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03vdjbj89.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03vdjbj89.ttl>
+  dc:isVersionOf <https://ror.org/03vdjbj89> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'École Nationale Supérieure d\'Architecture Paris-Val de Seine'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03vdjbj89>
+  rdfs:label 'École Nationale Supérieure d\'Architecture Paris-Val de Seine'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03wx2rr30.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03wx2rr30.ttl>
+  dc:isVersionOf <https://ror.org/03wx2rr30> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'University of Ibadan'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03wx2rr30>
+  rdfs:label 'University of Ibadan'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03x6a1n79.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03x6a1n79.ttl>
+  dc:isVersionOf <https://ror.org/03x6a1n79> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Modèles Dynamiques Corpus'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03x6a1n79>
+  rdfs:label 'Modèles Dynamiques Corpus'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03x94j517.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03x94j517.ttl>
+  dc:isVersionOf <https://ror.org/03x94j517> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Medical Research Council'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03x94j517>
+  rdfs:label 'Medical Research Council'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03y3dt762.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03y3dt762.ttl>
+  dc:isVersionOf <https://ror.org/03y3dt762> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Louisiana Delta Community College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03y3dt762>
+  rdfs:label 'Louisiana Delta Community College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03z8fyr40.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03z8fyr40.ttl>
+  dc:isVersionOf <https://ror.org/03z8fyr40> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Karadeniz Technical University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03z8fyr40>
+  rdfs:label 'Karadeniz Technical University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03zj4c476.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03zj4c476.ttl>
+  dc:isVersionOf <https://ror.org/03zj4c476> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Aligning Science Across Parkinson\'s'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03zj4c476>
+  rdfs:label 'Aligning Science Across Parkinson\'s'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/03zjqec80.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/03zjqec80.ttl>
+  dc:isVersionOf <https://ror.org/03zjqec80> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Hospital for Special Surgery'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03zjqec80>
+  rdfs:label 'Hospital for Special Surgery'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/040a2r459.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/040a2r459.ttl>
+  dc:isVersionOf <https://ror.org/040a2r459> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Belarusian National Technical University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/040a2r459>
+  rdfs:label 'Belarusian National Technical University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/0420db125.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/0420db125.ttl>
+  dc:isVersionOf <https://ror.org/0420db125> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Rockefeller University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/0420db125>
+  rdfs:label 'Rockefeller University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/042j94f44.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/042j94f44.ttl>
+  dc:isVersionOf <https://ror.org/042j94f44> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Marine Technology Unit'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/042j94f44>
+  rdfs:label 'Marine Technology Unit'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/043c0p156.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/043c0p156.ttl>
+  dc:isVersionOf <https://ror.org/043c0p156> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Royal Netherlands Academy of Arts and Sciences'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/043c0p156>
+  rdfs:label 'Royal Netherlands Academy of Arts and Sciences'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/043rbr770.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/043rbr770.ttl>
+  dc:isVersionOf <https://ror.org/043rbr770> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Department of Infrastructure, Transport, Regional Development, Communications and the Arts'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/043rbr770>
+  rdfs:label 'Department of Infrastructure, Transport, Regional Development, Communications and the Arts'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/044g6d731.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/044g6d731.ttl>
+  dc:isVersionOf <https://ror.org/044g6d731> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Savitribai Phule Pune University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/044g6d731>
+  rdfs:label 'Savitribai Phule Pune University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/045r56524.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/045r56524.ttl>
+  dc:isVersionOf <https://ror.org/045r56524> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Laboratoire Dynamiques Sociales et Recomposition des Espaces'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/045r56524>
+  rdfs:label 'Laboratoire Dynamiques Sociales et Recomposition des Espaces'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/047988g19.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/047988g19.ttl>
+  dc:isVersionOf <https://ror.org/047988g19> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'West Ukrainian National University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/047988g19>
+  rdfs:label 'West Ukrainian National University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/047agv396.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/047agv396.ttl>
+  dc:isVersionOf <https://ror.org/047agv396> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Ivan Ziaziun Institute of Pedagogical Education and Adult Education of the National Academy of Pedagogical Sciences of Ukraine'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/047agv396>
+  rdfs:label 'Ivan Ziaziun Institute of Pedagogical Education and Adult Education of the National Academy of Pedagogical Sciences of Ukraine'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/048a3wm97.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/048a3wm97.ttl>
+  dc:isVersionOf <https://ror.org/048a3wm97> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Australian Communications and Media Authority'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/048a3wm97>
+  rdfs:label 'Australian Communications and Media Authority'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/048mc3281.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/048mc3281.ttl>
+  dc:isVersionOf <https://ror.org/048mc3281> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Bhaikaka University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/048mc3281>
+  rdfs:label 'Bhaikaka University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04989d402.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04989d402.ttl>
+  dc:isVersionOf <https://ror.org/04989d402> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Bone Health and Osteoporosis Foundation'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04989d402>
+  rdfs:label 'Bone Health and Osteoporosis Foundation'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/049ezvq17.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/049ezvq17.ttl>
+  dc:isVersionOf <https://ror.org/049ezvq17> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'NEWTON University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/049ezvq17>
+  rdfs:label 'NEWTON University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04b0z7q78.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04b0z7q78.ttl>
+  dc:isVersionOf <https://ror.org/04b0z7q78> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Institut des Sciences Humaines et Sociales'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04b0z7q78>
+  rdfs:label 'Institut des Sciences Humaines et Sociales'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04bg5j190.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04bg5j190.ttl>
+  dc:isVersionOf <https://ror.org/04bg5j190> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Centre de Théorie et Analyse du Droit'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04bg5j190>
+  rdfs:label 'Centre de Théorie et Analyse du Droit'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04habxs80.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04habxs80.ttl>
+  dc:isVersionOf <https://ror.org/04habxs80> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'El Colegio de Sonora'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04habxs80>
+  rdfs:label 'El Colegio de Sonora'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04j4psb31.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04j4psb31.ttl>
+  dc:isVersionOf <https://ror.org/04j4psb31> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Australia Council for the Arts'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04j4psb31>
+  rdfs:label 'Australia Council for the Arts'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04jb47e97.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04jb47e97.ttl>
+  dc:isVersionOf <https://ror.org/04jb47e97> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Centre de recherches sociologiques et politiques de Paris'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04jb47e97>
+  rdfs:label 'Centre de recherches sociologiques et politiques de Paris'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04jnmn720.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04jnmn720.ttl>
+  dc:isVersionOf <https://ror.org/04jnmn720> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Centre d’études et de Recherches sur l’espace Germanophone'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04jnmn720>
+  rdfs:label 'Centre d’études et de Recherches sur l’espace Germanophone'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04kkpqb45.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04kkpqb45.ttl>
+  dc:isVersionOf <https://ror.org/04kkpqb45> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Society for Agriculture and Arid Ecology Research'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04kkpqb45>
+  rdfs:label 'Society for Agriculture and Arid Ecology Research'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04mw38f72.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04mw38f72.ttl>
+  dc:isVersionOf <https://ror.org/04mw38f72> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Mast Cell Disease Society'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04mw38f72>
+  rdfs:label 'Mast Cell Disease Society'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04n1nkp35.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04n1nkp35.ttl>
+  dc:isVersionOf <https://ror.org/04n1nkp35> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Hôpital Intercommunal de Créteil'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04n1nkp35>
+  rdfs:label 'Hôpital Intercommunal de Créteil'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04npz1276.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04npz1276.ttl>
+  dc:isVersionOf <https://ror.org/04npz1276> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Windlift (United States)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04npz1276>
+  rdfs:label 'Windlift (United States)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04q4ck618.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04q4ck618.ttl>
+  dc:isVersionOf <https://ror.org/04q4ck618> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Brain Research UK'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04q4ck618>
+  rdfs:label 'Brain Research UK'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04qe65e37.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04qe65e37.ttl>
+  dc:isVersionOf <https://ror.org/04qe65e37> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Pan African University Institute of Water and Energy Science'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04qe65e37>
+  rdfs:label 'Pan African University Institute of Water and Energy Science'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04r9gvy43.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04r9gvy43.ttl>
+  dc:isVersionOf <https://ror.org/04r9gvy43> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Pan-African University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04r9gvy43>
+  rdfs:label 'Pan-African University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04rpe5h19.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04rpe5h19.ttl>
+  dc:isVersionOf <https://ror.org/04rpe5h19> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Harte Research Institute for Gulf of Mexico Studies'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04rpe5h19>
+  rdfs:label 'Harte Research Institute for Gulf of Mexico Studies'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04td15k45.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04td15k45.ttl>
+  dc:isVersionOf <https://ror.org/04td15k45> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Universidad Cooperativa de Colombia'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04td15k45>
+  rdfs:label 'Universidad Cooperativa de Colombia'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04tvfnj07.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04tvfnj07.ttl>
+  dc:isVersionOf <https://ror.org/04tvfnj07> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Wettenhall Environment Trust'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04tvfnj07>
+  rdfs:label 'Wettenhall Environment Trust'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04vekey51.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04vekey51.ttl>
+  dc:isVersionOf <https://ror.org/04vekey51> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Institut de Linguistique Française'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04vekey51>
+  rdfs:label 'Institut de Linguistique Française'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04vh4q802.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04vh4q802.ttl>
+  dc:isVersionOf <https://ror.org/04vh4q802> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Manzanita Pharmaceuticals (United States)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04vh4q802>
+  rdfs:label 'Manzanita Pharmaceuticals (United States)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04wez5e68.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04wez5e68.ttl>
+  dc:isVersionOf <https://ror.org/04wez5e68> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Paris 8 University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04wez5e68>
+  rdfs:label 'Paris 8 University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04wm4pe30.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04wm4pe30.ttl>
+  dc:isVersionOf <https://ror.org/04wm4pe30> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Canadian Centre on Substance Use and Addiction'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04wm4pe30>
+  rdfs:label 'Canadian Centre on Substance Use and Addiction'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04wz9m339.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04wz9m339.ttl>
+  dc:isVersionOf <https://ror.org/04wz9m339> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Archéologies et Sciences de l’Antiquité'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04wz9m339>
+  rdfs:label 'Archéologies et Sciences de l’Antiquité'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04x6kq749.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04x6kq749.ttl>
+  dc:isVersionOf <https://ror.org/04x6kq749> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Huygens Institute for History and Culture of the Netherlands'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04x6kq749>
+  rdfs:label 'Huygens Institute for History and Culture of the Netherlands'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04yn6kj97.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04yn6kj97.ttl>
+  dc:isVersionOf <https://ror.org/04yn6kj97> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Imam Khomeini Marine Science University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04yn6kj97>
+  rdfs:label 'Imam Khomeini Marine Science University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04yvjg468.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04yvjg468.ttl>
+  dc:isVersionOf <https://ror.org/04yvjg468> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Library of Australia'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04yvjg468>
+  rdfs:label 'National Library of Australia'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/04zmssz18.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/04zmssz18.ttl>
+  dc:isVersionOf <https://ror.org/04zmssz18> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'École Normale Supérieure de Lyon'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04zmssz18>
+  rdfs:label 'École Normale Supérieure de Lyon'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/0504fet81.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/0504fet81.ttl>
+  dc:isVersionOf <https://ror.org/0504fet81> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'KM-RoBoTa'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/0504fet81>
+  rdfs:label 'KM-RoBoTa'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/050519n85.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/050519n85.ttl>
+  dc:isVersionOf <https://ror.org/050519n85> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Postharvest Technology Innovation Center'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/050519n85>
+  rdfs:label 'Postharvest Technology Innovation Center'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/052b8a564.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/052b8a564.ttl>
+  dc:isVersionOf <https://ror.org/052b8a564> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Amsterdam health & technology institute'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/052b8a564>
+  rdfs:label 'Amsterdam health & technology institute'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/052gg0110.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/052gg0110.ttl>
+  dc:isVersionOf <https://ror.org/052gg0110> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'University of Oxford'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/052gg0110>
+  rdfs:label 'University of Oxford'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/052m3x230.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/052m3x230.ttl>
+  dc:isVersionOf <https://ror.org/052m3x230> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Louisiana Community and Technical College System'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/052m3x230>
+  rdfs:label 'Louisiana Community and Technical College System'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/055rxtm94.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/055rxtm94.ttl>
+  dc:isVersionOf <https://ror.org/055rxtm94> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Yongcheng Vocational College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/055rxtm94>
+  rdfs:label 'Yongcheng Vocational College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/056nttx82.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/056nttx82.ttl>
+  dc:isVersionOf <https://ror.org/056nttx82> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Sri Ramakrishna Engineering College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/056nttx82>
+  rdfs:label 'Sri Ramakrishna Engineering College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/056swcy54.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/056swcy54.ttl>
+  dc:isVersionOf <https://ror.org/056swcy54> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Laboratoire d\'ethnologie et de sociologie comparative'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/056swcy54>
+  rdfs:label 'Laboratoire d\'ethnologie et de sociologie comparative'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/056yyyw24.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/056yyyw24.ttl>
+  dc:isVersionOf <https://ror.org/056yyyw24> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'King Edward Memorial Hospital Research Centre'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/056yyyw24>
+  rdfs:label 'King Edward Memorial Hospital Research Centre'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/057q6n778.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/057q6n778.ttl>
+  dc:isVersionOf <https://ror.org/057q6n778> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Dongguk University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/057q6n778>
+  rdfs:label 'Dongguk University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/059pch876.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/059pch876.ttl>
+  dc:isVersionOf <https://ror.org/059pch876> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Aureo (Japan)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/059pch876>
+  rdfs:label 'Aureo (Japan)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05a0dhs15.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05a0dhs15.ttl>
+  dc:isVersionOf <https://ror.org/05a0dhs15> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'École Normale Supérieure - PSL'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05a0dhs15>
+  rdfs:label 'École Normale Supérieure - PSL'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05at5an04.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05at5an04.ttl>
+  dc:isVersionOf <https://ror.org/05at5an04> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'State Scientific Institution "Institute of Information, Security and Law of the National Academy of Legal Sciences of Ukraine"'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05at5an04>
+  rdfs:label 'State Scientific Institution "Institute of Information, Security and Law of the National Academy of Legal Sciences of Ukraine"'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05bnh6r87.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05bnh6r87.ttl>
+  dc:isVersionOf <https://ror.org/05bnh6r87> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Cornell University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05bnh6r87>
+  rdfs:label 'Cornell University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05bvxq496.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05bvxq496.ttl>
+  dc:isVersionOf <https://ror.org/05bvxq496> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Guru Ghasidas Vishwavidyalaya'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05bvxq496>
+  rdfs:label 'Guru Ghasidas Vishwavidyalaya'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05c7j7r25.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05c7j7r25.ttl>
+  dc:isVersionOf <https://ror.org/05c7j7r25> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05c7j7r25>
+  rdfs:label 'Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05dvptm82.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05dvptm82.ttl>
+  dc:isVersionOf <https://ror.org/05dvptm82> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Kumaraguru College of Technology'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05dvptm82>
+  rdfs:label 'Kumaraguru College of Technology'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05eagxp18.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05eagxp18.ttl>
+  dc:isVersionOf <https://ror.org/05eagxp18> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Unidad Nacional para la Gestión del Riesgo de Desastres'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05eagxp18>
+  rdfs:label 'Unidad Nacional para la Gestión del Riesgo de Desastres'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05g6n4k07.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05g6n4k07.ttl>
+  dc:isVersionOf <https://ror.org/05g6n4k07> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Odesa National University of Technology'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05g6n4k07>
+  rdfs:label 'Odesa National University of Technology'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05grdyy37.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05grdyy37.ttl>
+  dc:isVersionOf <https://ror.org/05grdyy37> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Amsterdam University Medical Centers'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05grdyy37>
+  rdfs:label 'Amsterdam University Medical Centers'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05gzceg21.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05gzceg21.ttl>
+  dc:isVersionOf <https://ror.org/05gzceg21> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Kasetsart University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05gzceg21>
+  rdfs:label 'Kasetsart University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05h1pdj54.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05h1pdj54.ttl>
+  dc:isVersionOf <https://ror.org/05h1pdj54> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'National Academy of Educational Sciences of Ukraine'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05h1pdj54>
+  rdfs:label 'National Academy of Educational Sciences of Ukraine'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05h9q1g27.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05h9q1g27.ttl>
+  dc:isVersionOf <https://ror.org/05h9q1g27> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Texas State University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05h9q1g27>
+  rdfs:label 'Texas State University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05hqpps66.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05hqpps66.ttl>
+  dc:isVersionOf <https://ror.org/05hqpps66> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Screen Australia'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05hqpps66>
+  rdfs:label 'Screen Australia'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05hrp0b43.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05hrp0b43.ttl>
+  dc:isVersionOf <https://ror.org/05hrp0b43> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Northwest Louisiana Technical Community College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05hrp0b43>
+  rdfs:label 'Northwest Louisiana Technical Community College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05jqagv40.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05jqagv40.ttl>
+  dc:isVersionOf <https://ror.org/05jqagv40> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'L.E. Fletcher Technical Community College'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05jqagv40>
+  rdfs:label 'L.E. Fletcher Technical Community College'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05m2fqn25.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05m2fqn25.ttl>
+  dc:isVersionOf <https://ror.org/05m2fqn25> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Chiang Mai University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05m2fqn25>
+  rdfs:label 'Chiang Mai University'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05p67dv18.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05p67dv18.ttl>
+  dc:isVersionOf <https://ror.org/05p67dv18> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'China Telecom'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05p67dv18>
+  rdfs:label 'China Telecom'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05vb5av34.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05vb5av34.ttl>
+  dc:isVersionOf <https://ror.org/05vb5av34> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'Australian Broadcasting Corporation (Australia)'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05vb5av34>
+  rdfs:label 'Australian Broadcasting Corporation (Australia)'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror/v1.14/05vghhr25.ttl> .
+<http://w3id.org/kgfixed/ror/v1.14/05vghhr25.ttl>
+  dc:isVersionOf <https://ror.org/05vghhr25> ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  rdfs:label 'University of Turku'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/05vghhr25>
+  rdfs:label 'University of Turku'^^xsd:string ;
+  dc:modified '2022-11-28'^^xsd:date ;
+  .

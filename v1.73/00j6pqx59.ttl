@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00j6pqx59> a org:Organization ;
+    rdfs:label 'Bayerisches Landesamt für Umwelt'^^xsd:string; 
+    schema:name 'Bayerisches Landesamt für Umwelt'^^xsd:string; 
+    schema:foundingDate '1972'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2019-05-06'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Bayerische Landesanstalt für Wasserforschung'^^xsd:string ; 
+    org:abbreviation 'LfU'^^xsd:string; 
+    schema:url <http://lfu.bayern.de> ; 
+    schema:mainEntityOfPage <https://www.lfu.bayern.de/index.htm> ;
+    schema:sameAs <https://api.crossref.org/funders/501100015607> ;
+    schema:sameAs <https://grid.ac/institutions/grid.506112.1> ;
+    schema:sameAs <http://isni.org/isni/0000000093288381> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[10.89851,48.37154]}" ;
+            schema:address [
+                schema:addressLocality "Augsburg" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "Bavaria" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2954172> ;
+        ] ; 
+    .

@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/03xv17r49",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sa'ada University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ar.wikipedia.org/wiki/%25D8%25AC%25D8%25A7%25D9%2585%25D8%25B9%25D8%25A9_%25D8%25B5%25D8%25B9%25D8%25AF%25D8%25A9"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Saada Uni"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Saada University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2010"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n07f44c6eacf94091b1a7d4d3e86245e7b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://saada-uni.edu.ye"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sa'ada University"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://saada-uni.edu.ye"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07f44c6eacf94091b1a7d4d3e86245e7b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[43.76393,16.94021]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/71334"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n07f44c6eacf94091b1a7d4d3e86245e7b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07f44c6eacf94091b1a7d4d3e86245e7b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n07f44c6eacf94091b1a7d4d3e86245e7b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "YE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sa'dah"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Şa‘dah"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07f44c6eacf94091b1a7d4d3e86245e7b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n07f44c6eacf94091b1a7d4d3e86245e7b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Yemen"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07f44c6eacf94091b1a7d4d3e86245e7b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

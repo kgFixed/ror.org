@@ -1,80 +1,157 @@
 {
-  "ip_addresses": [],
-  "aliases": [
-    "Escuela de Postgrado Neumann",
-    "EP Neumann"
-  ],
-  "acronyms": [
-    "NBS"
-  ],
-  "links": [
-    "https://www.nbs.edu.pe/"
-  ],
-  "wikipedia_url": null,
-  "external_ids": {
-    "ISNI": {
-      "preferred": "0000 0004 7592 7396",
-      "all": [
-        "0000 0004 7592 7396"
-      ]
+  "admin": {
+    "created": {
+      "date": "2022-03-17",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": "Q52620115",
-      "all": [
-        "Q52620115"
-      ]
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
     }
   },
+  "domains": [
+    "epnewman.edu.pe"
+  ],
   "established": 2007,
-  "relationships": [],
-  "email_address": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 7592 7396"
+      ],
+      "preferred": "0000 0004 7592 7396",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q52620115"
+      ],
+      "preferred": "Q52620115",
+      "type": "wikidata"
+    }
+  ],
   "id": "https://ror.org/02dbp3m50",
-  "labels": [
+  "links": [
     {
-      "label": "Neumann Business School Graduate School",
-      "iso639": "en"
+      "type": "website",
+      "value": "https://www.epnewman.edu.pe"
     }
   ],
-  "status": "active",
-  "name": "Escuela Postgrado Neumann Business School",
-  "types": [
-    "Education"
-  ],
-  "addresses": [
+  "locations": [
     {
-      "state_code": null,
-      "state": null,
-      "primary": false,
-      "postcode": null,
-      "line": null,
-      "geonames_city": {
-        "id": 3928128,
-        "city": "Tacna",
-        "geonames_admin1": {
-          "name": "Tacna",
-          "ascii_name": "Tacna",
-          "id": 3928127,
-          "code": "PE.23"
-        },
-        "geonames_admin2": {
-          "name": "Provincia de Tacna",
-          "ascii_name": "Provincia de Tacna",
-          "id": 3928126,
-          "code": "PE.23.2301"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_details": {
+        "country_code": "PE",
+        "country_name": "Peru",
+        "lat": -18.01465,
+        "lng": -70.25362,
+        "name": "Tacna"
       },
-      "lat": -18.01465,
-      "lng": -70.25362,
-      "country_geonames_id": 3932488,
-      "city": "Tacna"
+      "geonames_id": 3928128
     }
   ],
-  "country": {
-    "country_name": "Peru",
-    "country_code": "PE"
-  }
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "EP Neuman"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "EP Neumann"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "EP Newman"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "EP Newmann"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Escuela Postgrado Neumann Business School"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Escuela de Graduados Newman"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Escuela de Posgrado Newman"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Escuela de Postgrado Neumann"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Escuela de postgrado Neumann"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Escuela de postgrado Newman"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NBS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Neumann Business School Graduate School"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Newman Graduate School"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Newman Postgraduate School"
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ]
 }

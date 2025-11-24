@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/049ysg747> a org:Organization ;
+    rdfs:label 'Rajshahi University of Engineering and Technology'^^xsd:string; 
+    schema:name 'Rajshahi University of Engineering and Technology'^^xsd:string; 
+    schema:foundingDate '1964'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'BIT'^^xsd:string; 
+    org:alternativeName 'Bangladesh Institute of Technology'^^xsd:string ; 
+    org:abbreviation 'REC'^^xsd:string; 
+    org:abbreviation 'RUET'^^xsd:string; 
+    org:alternativeName 'Rajshahi Engineering College'^^xsd:string ; 
+    schema:url <http://ruet.ac.bd> ; 
+    schema:mainEntityOfPage <https://ruet.ac.bd> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Rajshahi_University_of_Engineering_%2526_Technology> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.443086.d> ;
+    schema:sameAs <http://isni.org/isni/000000041755355X> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[88.60114,24.374]}" ;
+            schema:address [
+                schema:addressLocality "Rajshahi" ;
+                schema:addressCountry "BD" ;
+                schema:addressRegion "Rajshahi Division" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Bangladesh" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1185128> ;
+        ] ; 
+    .

@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01qj7t912> a org:Organization ;
+    rdfs:label 'Polymer Research Institute'^^xsd:string; 
+    schema:name 'Polymer Research Institute'^^xsd:string; 
+    schema:foundingDate '1968'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'FGUP Scientific Research Institute of Polymers named after Academician V. A. Kargin'^^xsd:string ; 
+    schema:url <http://nicp.ru> ; 
+    schema:mainEntityOfPage <https://nicp.ru> ;
+    schema:sameAs <https://grid.ac/institutions/grid.494860.7> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[43.45543,56.24422]}" ;
+            schema:address [
+                schema:addressLocality "Dzerzhinsk" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "Nizhny Novgorod Oblast" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/563708> ;
+        ] ; 
+    .

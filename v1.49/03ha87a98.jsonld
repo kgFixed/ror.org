@@ -1,0 +1,193 @@
+[
+  {
+    "@id": "https://ror.org/03ha87a98",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-11"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laboratoire interdisciplinaire de recherche sur les transformations des pratiques éducatives et des pratiques sociales"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LIRTES"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laboratoire LIRTES"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ndeb65376340f485291def401817b9076b1"
+      },
+      {
+        "@id": "_:ndeb65376340f485291def401817b9076b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndeb65376340f485291def401817b9076b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://lirtes.u-pec.fr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laboratoire interdisciplinaire de recherche sur les transformations des pratiques éducatives et des pratiques sociales"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb65376340f485291def401817b9076b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université Paris-Est Créteil"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05ggc9x40"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb65376340f485291def401817b9076b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Paris-Est Sup"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0268ecp52"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb65376340f485291def401817b9076b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.46569,48.79266]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3022530"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndeb65376340f485291def401817b9076b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb65376340f485291def401817b9076b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndeb65376340f485291def401817b9076b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Créteil"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb65376340f485291def401817b9076b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndeb65376340f485291def401817b9076b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb65376340f485291def401817b9076b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/02y3qvw23",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sudden Cardiac Arrest UK"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SCA UK"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2015"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n91f2ebe2dc8d478f824362cba2f459c3b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://suddencardiacarrestuk.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sudden Cardiac Arrest UK"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://scauk.org"
+      },
+      {
+        "@id": "http://suddencardiacarrestuk.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n91f2ebe2dc8d478f824362cba2f459c3b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[0.55962,51.55295]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2637476"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n91f2ebe2dc8d478f824362cba2f459c3b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n91f2ebe2dc8d478f824362cba2f459c3b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n91f2ebe2dc8d478f824362cba2f459c3b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "South Benfleet"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "England"
+      }
+    ]
+  },
+  {
+    "@id": "_:n91f2ebe2dc8d478f824362cba2f459c3b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n91f2ebe2dc8d478f824362cba2f459c3b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "@id": "_:n91f2ebe2dc8d478f824362cba2f459c3b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

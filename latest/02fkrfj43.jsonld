@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/02fkrfj43",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Faculdade Unida de Vitória"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://pt.wikipedia.org/wiki/Faculdade_Unida_de_Vit%25C3%25B3ria"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FUV"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1997"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n124cd1cf235b4f67ba005cb835a22285b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://fuv.edu.br"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Faculdade Unida de Vitória"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000405077656"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fuv.edu.br"
+      }
+    ]
+  },
+  {
+    "@id": "_:n124cd1cf235b4f67ba005cb835a22285b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-40.33778,-20.31944]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3444924"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n124cd1cf235b4f67ba005cb835a22285b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n124cd1cf235b4f67ba005cb835a22285b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n124cd1cf235b4f67ba005cb835a22285b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Vitória"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Espírito Santo"
+      }
+    ]
+  },
+  {
+    "@id": "_:n124cd1cf235b4f67ba005cb835a22285b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n124cd1cf235b4f67ba005cb835a22285b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:n124cd1cf235b4f67ba005cb835a22285b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

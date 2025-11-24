@@ -1,0 +1,175 @@
+[
+  {
+    "@id": "https://ror.org/02m2znm35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Soliman Fakeeh Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DSFH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1978"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.dsfh.med.sa/eng/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Soliman Fakeeh Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.416111.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417906466"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fakeeh College for Medical Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01tynvf67"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[39.18624,21.49012]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/105343"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jeddah"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Mecca Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Saudi Arabia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d6d89dad26f4b66ade03d7713ed05fbb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

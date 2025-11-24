@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/02049v059",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Opća bolnica Karlovac"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc310f7480e624b3bb962cbe69195d84eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://bolnica-karlovac.hr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Opća bolnica Karlovac"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.415027.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406082748"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bolnica-karlovac.hr"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc310f7480e624b3bb962cbe69195d84eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.55,45.49167]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3345300"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc310f7480e624b3bb962cbe69195d84eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc310f7480e624b3bb962cbe69195d84eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc310f7480e624b3bb962cbe69195d84eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Karlovac"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Karlovac"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc310f7480e624b3bb962cbe69195d84eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc310f7480e624b3bb962cbe69195d84eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Croatia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc310f7480e624b3bb962cbe69195d84eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

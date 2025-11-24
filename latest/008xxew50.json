@@ -1,128 +1,144 @@
 {
-    "id": "https://ror.org/008xxew50",
-    "name": "Vrije Universiteit Amsterdam",
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 1880,
-    "types": [
-        "Education"
-    ],
-    "relationships": [
-        {
-            "label": "Amsterdam UMC Location VUmc",
-            "type": "Related",
-            "id": "https://ror.org/00q6h8f30"
-        },
-        {
-            "label": "Spinoza Centre for Neuroimaging",
-            "type": "Related",
-            "id": "https://ror.org/05kgbsy64"
-        },
-        {
-            "label": "Advanced Research Center for Nanolithography (Netherlands)",
-            "type": "Child",
-            "id": "https://ror.org/04xe7ws48"
-        },
-        {
-            "label": "Amsterdam Neuroscience",
-            "type": "Child",
-            "id": "https://ror.org/01x2d9f70"
-        },
-        {
-            "label": "EMGO Institute for Health and Care Research",
-            "type": "Child",
-            "id": "https://ror.org/0258apj61"
-        }
-    ],
-    "addresses": [
-        {
-            "lat": 52.37403,
-            "lng": 4.88969,
-            "state": null,
-            "state_code": null,
-            "city": "Amsterdam",
-            "geonames_city": {
-                "id": 2759794,
-                "city": "Amsterdam",
-                "geonames_admin1": {
-                    "name": "North Holland",
-                    "id": 2749879,
-                    "ascii_name": "North Holland",
-                    "code": "NL.07"
-                },
-                "geonames_admin2": {
-                    "name": "Gemeente Amsterdam",
-                    "id": 2759793,
-                    "ascii_name": "Gemeente Amsterdam",
-                    "code": "NL.07.0363"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 2750405
-        }
-    ],
-    "links": [
-        "https://vu.nl/"
-    ],
-    "aliases": [
-        "VU Amsterdam"
-    ],
-    "acronyms": [
-        "VU"
-    ],
-    "status": "active",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/VU_University_Amsterdam",
-    "labels": [],
-    "country": {
-        "country_name": "Netherlands",
-        "country_code": "NL"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0004 1754 9227"
-            ]
-        },
-        "FundRef": {
-            "preferred": null,
-            "all": [
-                "501100001833"
-            ]
-        },
-        "OrgRef": {
-            "preferred": null,
-            "all": [
-                "324167"
-            ]
-        },
-        "Wikidata": {
-            "preferred": null,
-            "all": [
-                "Q1065414"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.12380.38",
-            "all": "grid.12380.38"
-        }
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
     }
+  },
+  "domains": [
+    "vu.nl"
+  ],
+  "established": 1880,
+  "external_ids": [
+    {
+      "all": [
+        "501100001833"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.12380.38"
+      ],
+      "preferred": "grid.12380.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1754 9227"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1065414"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008xxew50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://vu.nl/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/VU_University_Amsterdam"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "NH",
+        "country_subdivision_name": "North Holland",
+        "lat": 52.37403,
+        "lng": 4.88969,
+        "name": "Amsterdam"
+      },
+      "geonames_id": 2759794
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VU"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "VU Amsterdam"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vrije Universiteit Amsterdam"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Advanced Research Center for Nanolithography (Netherlands)",
+      "type": "child",
+      "id": "https://ror.org/04xe7ws48"
+    },
+    {
+      "label": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+      "type": "related",
+      "id": "https://ror.org/00q6h8f30"
+    },
+    {
+      "label": "Spinoza Centre for Neuroimaging",
+      "type": "related",
+      "id": "https://ror.org/05kgbsy64"
+    },
+    {
+      "label": "Amsterdam Neuroscience",
+      "type": "related",
+      "id": "https://ror.org/01x2d9f70"
+    },
+    {
+      "label": "Amsterdam Public Health",
+      "type": "related",
+      "id": "https://ror.org/0258apj61"
+    },
+    {
+      "label": "Amsterdam Reproduction Development",
+      "type": "related",
+      "id": "https://ror.org/041cyvf45"
+    },
+    {
+      "label": "Amsterdam Movement Sciences",
+      "type": "related",
+      "id": "https://ror.org/04atb9h07"
+    },
+    {
+      "label": "Academic Center for Dentistry Amsterdam",
+      "type": "related",
+      "id": "https://ror.org/04x5wnb75"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
 }

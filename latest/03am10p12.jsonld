@@ -1,0 +1,196 @@
+[
+  {
+    "@id": "https://ror.org/03am10p12",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Amrita Vishwa Vidyapeetham"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Amrita_Vishwa_Vidyapeetham"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Amrita University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Amrita Vishwa Vidyapeetham University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nadc288430be24f39a187e6097553d1e1b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2003"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nadc288430be24f39a187e6097553d1e1b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.amrita.edu/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Amrita Vishwa Vidyapeetham"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100009526"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.411370.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000090812061"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://amrita.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nadc288430be24f39a187e6097553d1e1b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Amrita Institute of Medical Sciences and Research Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05ahcwz21"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nadc288430be24f39a187e6097553d1e1b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[76.96612,11.00555]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1273865"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nadc288430be24f39a187e6097553d1e1b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nadc288430be24f39a187e6097553d1e1b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nadc288430be24f39a187e6097553d1e1b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Coimbatore"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tamil Nadu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nadc288430be24f39a187e6097553d1e1b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nadc288430be24f39a187e6097553d1e1b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:nadc288430be24f39a187e6097553d1e1b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

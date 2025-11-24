@@ -1,0 +1,173 @@
+[
+  {
+    "@id": "https://ror.org/044n25186",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yuriy Fedkovych Chernivtsi National University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Chernivtsi_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chernivtsi National University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chernivtsi University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Uniwersytet w Czerniowcach"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yuriy Fedkovych Chernivtsi National University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Черновицкий национальный университет имени Юрия Федьковича"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1875"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd08568c8d5dc4b9787673b910e8e9f07b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.chnu.edu.ua"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yuriy Fedkovych Chernivtsi National University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.16985.33"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000100747743"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://chnu.edu.ua"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd08568c8d5dc4b9787673b910e8e9f07b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[25.93241,48.29045]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/710719"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd08568c8d5dc4b9787673b910e8e9f07b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd08568c8d5dc4b9787673b910e8e9f07b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd08568c8d5dc4b9787673b910e8e9f07b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Chernivtsi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Chernivtsi"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd08568c8d5dc4b9787673b910e8e9f07b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd08568c8d5dc4b9787673b910e8e9f07b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ukraine"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd08568c8d5dc4b9787673b910e8e9f07b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

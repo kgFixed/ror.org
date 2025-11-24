@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/05ck8hg96",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Technology and Applied Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UTAS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Technology and Applied Sciences Salalah"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2020"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nde0f898ff07f43478411261fc7d8afdbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.utas.edu.om/salalah"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Technology and Applied Sciences"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100020608"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde0f898ff07f43478411261fc7d8afdbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[54.09237,17.01505]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/286621"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nde0f898ff07f43478411261fc7d8afdbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde0f898ff07f43478411261fc7d8afdbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nde0f898ff07f43478411261fc7d8afdbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "OM"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Salalah"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dhofar"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde0f898ff07f43478411261fc7d8afdbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nde0f898ff07f43478411261fc7d8afdbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oman"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde0f898ff07f43478411261fc7d8afdbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

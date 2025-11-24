@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/04q4yxc04",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Regional de Formación Docente e Investigación Educativa"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CRETAM"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Regional de Formación Docente e Investigación Educativa Tamaulipas"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2011"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5062bfa82d3b453b852751ac49597724b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cretam.mx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Regional de Formación Docente e Investigación Educativa"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cretam.edu.mx"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5062bfa82d3b453b852751ac49597724b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-99.14599,23.74174]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3530580"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5062bfa82d3b453b852751ac49597724b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5062bfa82d3b453b852751ac49597724b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5062bfa82d3b453b852751ac49597724b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MX"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ciudad Victoria"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tamaulipas"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5062bfa82d3b453b852751ac49597724b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5062bfa82d3b453b852751ac49597724b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mexico"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5062bfa82d3b453b852751ac49597724b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

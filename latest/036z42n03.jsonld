@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/036z42n03",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-09"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ibarakiken Medical Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "茨城県メディカルセンター"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7471c604e2f84587a9c52b8ba19a8d8fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://imc.or.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ibarakiken Medical Center"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://imc.or.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7471c604e2f84587a9c52b8ba19a8d8fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[140.45,36.35]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2111901"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7471c604e2f84587a9c52b8ba19a8d8fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7471c604e2f84587a9c52b8ba19a8d8fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7471c604e2f84587a9c52b8ba19a8d8fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mito"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ibaraki"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7471c604e2f84587a9c52b8ba19a8d8fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7471c604e2f84587a9c52b8ba19a8d8fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7471c604e2f84587a9c52b8ba19a8d8fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "@id": "https://ror.org/01g94x362",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-13"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Departement Economie, Wetenschap & Innovatie"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DEWI"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Departement Economie, Wetenschap en Innovatie"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Department of Economy, Sciency and Innovation"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ewi-vlaanderen.be"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Departement Economie, Wetenschap & Innovatie"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100012285"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000105508872"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Flemish Government"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04qxsrb28"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.34878,50.85045]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2800866"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Brussels"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Brussels Capital"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Belgium"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2aa1b6f34e78450c8bb6d6405fb4ccc5b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

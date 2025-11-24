@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03ts63514> a org:Organization ;
+    rdfs:label 'A. Veeriya Vandayar Memorial Sri Pushpam College'^^xsd:string; 
+    schema:name 'A. Veeriya Vandayar Memorial Sri Pushpam College'^^xsd:string; 
+    schema:foundingDate '1956'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'A.V.V.M. Sri Pushpam College'^^xsd:string ; 
+    org:abbreviation 'AVVMSPC'^^xsd:string; 
+    org:alternativeName 'Sri Pushpam College'^^xsd:string ; 
+    schema:url <http://avvmspc.ac.in> ; 
+    schema:mainEntityOfPage <https://avvmspc.ac.in> ;
+    owl:sameAs <https://ta.wikipedia.org/wiki/%25E0%25AE%2585._%25E0%25AE%25B5%25E0%25AF%2580%25E0%25AE%25B0%25E0%25AF%2588%25E0%25AE%25AF%25E0%25AE%25BE_%25E0%25AE%25B5%25E0%25AE%25BE%25E0%25AE%25A3%25E0%25AF%258D%25E0%25AE%259F%25E0%25AF%2588%25E0%25AE%25AF%25E0%25AE%25BE%25E0%25AE%25B0%25E0%25AF%258D_%25E0%25AE%25A8%25E0%25AE%25BF%25E0%25AE%25A9%25E0%25AF%2588%25E0%25AE%25B5%25E0%25AF%2581_%25E0%25AE%25B8%25E0%25AF%258D%25E0%25AE%25B0%25E0%25AF%2580_%25E0%25AE%25AA%25E0%25AF%2581%25E0%25AE%259F%25E0%25AF%258D%25E0%25AE%25AA%25E0%25AE%25AE%25E0%25AF%258D_%25E0%25AE%2595%25E0%25AE%25B2%25E0%25AF%258D%25E0%25AE%25B2%25E0%25AF%2582%25E0%25AE%25B0%25E0%25AE%25BF> ; 
+    schema:sameAs <http://isni.org/isni/0000000405058076> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[79.13909,10.78523]}" ;
+            schema:address [
+                schema:addressLocality "Thanjavur" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Tamil Nadu" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1254649> ;
+        ] ; 
+    .

@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05kf82e36> a org:Organization ;
+    rdfs:label 'Institute of Basic Theory for Chinese Medicine'^^xsd:string; 
+    schema:name 'Institute of Basic Theory for Chinese Medicine'^^xsd:string; 
+    schema:foundingDate '1985'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Institute of Basic Theory for Chinese Medicine, China Academy of Chinese Medical Sciences'^^xsd:string ; 
+    org:alternativeName '中国中医科学院中医基础理论研究所'^^xsd:string ; 
+    schema:url <http://ibtcm.ac.cn> ; 
+    schema:mainEntityOfPage <https://www.ibtcm.ac.cn> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/042pgcv68> ;
+        rdfs:label 'China Academy of Chinese Medical Sciences'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[116.39723,39.9075]}" ;
+            schema:address [
+                schema:addressLocality "Beijing" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Beijing" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1816670> ;
+        ] ; 
+    .

@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/01vbv2a78",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Emedic Salud"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8bbb7d5a911a4639a5b83434bb5b6176b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://emedicsalud.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Emedic Salud"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://emedicsalud.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8bbb7d5a911a4639a5b83434bb5b6176b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-77.02824,-12.04318]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3936456"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8bbb7d5a911a4639a5b83434bb5b6176b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8bbb7d5a911a4639a5b83434bb5b6176b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8bbb7d5a911a4639a5b83434bb5b6176b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lima"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n8bbb7d5a911a4639a5b83434bb5b6176b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8bbb7d5a911a4639a5b83434bb5b6176b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Peru"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8bbb7d5a911a4639a5b83434bb5b6176b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/059wtn003> a org:Organization ;
+    rdfs:label 'Bavarian Center for Applied Energy Research'^^xsd:string; 
+    schema:name 'Bavarian Center for Applied Energy Research'^^xsd:string; 
+    schema:foundingDate '1991'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'ZAE Bayern'^^xsd:string ; 
+    schema:url <http://zae-bayern.de> ; 
+    schema:mainEntityOfPage <https://zae-bayern.de> ;
+    schema:sameAs <https://grid.ac/institutions/grid.432437.5> ;
+    schema:sameAs <http://isni.org/isni/0000000096536862> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[9.95121,49.79391]}" ;
+            schema:address [
+                schema:addressLocality "Würzburg" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "Bavaria" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2805615> ;
+        ] ; 
+    .

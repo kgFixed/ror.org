@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/05ayjgf78",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wakayama Prefectural Agricultural Experiment Station"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wakayamaken Nogyo Shikenjo"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ワカヤマケン ノウギョウ シケンジョウ"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd82ec2ed292740189b8c8f50f95e9d7fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.pref.wakayama.lg.jp/prefg/070100/070109/gaiyou/001/nougyoushikenjyou/top.html"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wakayama Prefectural Agricultural Experiment Station"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd82ec2ed292740189b8c8f50f95e9d7fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[135.41045,34.26973]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6822171"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd82ec2ed292740189b8c8f50f95e9d7fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd82ec2ed292740189b8c8f50f95e9d7fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd82ec2ed292740189b8c8f50f95e9d7fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kinokawa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Wakayama"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd82ec2ed292740189b8c8f50f95e9d7fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd82ec2ed292740189b8c8f50f95e9d7fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd82ec2ed292740189b8c8f50f95e9d7fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

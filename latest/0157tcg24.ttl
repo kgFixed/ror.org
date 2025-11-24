@@ -1,0 +1,76 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0157tcg24> a org:Organization ;
+    rdfs:label 'University of Technology and Applied Sciences'^^xsd:string; 
+    schema:name 'University of Technology and Applied Sciences'^^xsd:string; 
+    schema:foundingDate '2020'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'UTAS'^^xsd:string; 
+    schema:url <http://utas.edu.om> ; 
+    schema:mainEntityOfPage <https://www.utas.edu.om/Home> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/University_of_Technology_and_Applied_Sciences> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01cww2r92> ;
+        rdfs:label 'University of Technology and Applied Sciences-Nizwa'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0169v5w06> ;
+        rdfs:label 'University of Technology and Applied Sciences — Ibri'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/018g8cj68> ;
+        rdfs:label 'University of Technology and Applied Sciences-Suhar'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00ywn4q28> ;
+        rdfs:label 'University of Technology and Applied Sciences, Muscat'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05ck8hg96> ;
+        rdfs:label 'University of Technology and Applied Sciences-Salalah'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01e65z464> ;
+        rdfs:label 'University of Technology and Applied Sciences - Ibra'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[58.40778,23.58413]}" ;
+            schema:address [
+                schema:addressLocality "Muscat" ;
+                schema:addressCountry "OM" ;
+                schema:addressRegion "Muscat" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Oman" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/287286> ;
+        ] ; 
+    .

@@ -1,0 +1,172 @@
+[
+  {
+    "@id": "https://ror.org/006q8y354",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Center for Advanced Security Research Darmstadt"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Center_for_Advanced_Security_Research_Darmstadt"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CASED"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2008"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.cased.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Center for Advanced Security Research Darmstadt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Research Center for Applied Cybersecurity ATHENE"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0378v2g76"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "successor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.65027,49.87167]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2938913"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Darmstadt"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1e5b42a9770a43b9b5a6484b1b8fb294b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

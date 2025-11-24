@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/0218nnd14",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-09"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kinugasa Research Foundation for Textile Science"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "衣笠繊維研究所"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd38d031438f64efca906a9c7f34360b4b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.krf-textile.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kinugasa Research Foundation for Textile Science"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://krf-textile.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd38d031438f64efca906a9c7f34360b4b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[135.75385,35.02107]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1857910"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd38d031438f64efca906a9c7f34360b4b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd38d031438f64efca906a9c7f34360b4b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd38d031438f64efca906a9c7f34360b4b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kyoto"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kyoto"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd38d031438f64efca906a9c7f34360b4b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd38d031438f64efca906a9c7f34360b4b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd38d031438f64efca906a9c7f34360b4b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03vpmpf77> a org:Organization ;
+    rdfs:label 'Assoziation ökologischer Lebensmittelherstellerinnen und -hersteller e.V.'^^xsd:string; 
+    schema:name 'Assoziation ökologischer Lebensmittelherstellerinnen und -hersteller e.V.'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'AöL'^^xsd:string; 
+    schema:url <http://aoel.org> ; 
+    schema:mainEntityOfPage <https://www.aoel.org> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[9.78985,50.30853]}" ;
+            schema:address [
+                schema:addressLocality "Bad Brückenau" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "Bavaria" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2953535> ;
+        ] ; 
+    .

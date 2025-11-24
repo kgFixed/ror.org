@@ -1,0 +1,166 @@
+[
+  {
+    "@id": "https://ror.org/00vp8qm49",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-11-07"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Inclusive Education"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2013"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://inklusive-bildung.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Inclusive Education"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.506548.a"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Christian-Albrechts-Universität zu Kiel"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04v76ef78"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.13489,54.32133]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2891122"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kiel"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Schleswig-Holstein"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1772f80c06f4905a7fbb87f580c46d1b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

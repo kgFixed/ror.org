@@ -1,0 +1,163 @@
+[
+  {
+    "@id": "https://ror.org/003346y56",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ispahani Islamia Eye Institute and Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Ispahani_Islamia_Eye_Institute_and_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IIEI&H"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Islamia"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Islamia Eye Hospital"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ispahani Islamia Eye Institute & Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1960"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n400123592c054da19a36f31cc10924dfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.islamia.org.bd"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ispahani Islamia Eye Institute and Hospital"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://islamia.org.bd"
+      }
+    ]
+  },
+  {
+    "@id": "_:n400123592c054da19a36f31cc10924dfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[90.40744,23.7104]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1185241"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n400123592c054da19a36f31cc10924dfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n400123592c054da19a36f31cc10924dfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n400123592c054da19a36f31cc10924dfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BD"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dhaka"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dhaka Division"
+      }
+    ]
+  },
+  {
+    "@id": "_:n400123592c054da19a36f31cc10924dfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n400123592c054da19a36f31cc10924dfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bangladesh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n400123592c054da19a36f31cc10924dfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

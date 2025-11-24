@@ -1,127 +1,124 @@
 {
-  "id": "https://ror.org/00xcryt71",
-  "name": "University of Arkansas for Medical Sciences",
-  "email_address": null,
-  "ip_addresses": [],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uams.edu"
+  ],
   "established": 1879,
-  "types": [
-    "Education"
+  "external_ids": [
+    {
+      "all": [
+        "100008519",
+        "100008231",
+        "100015317"
+      ],
+      "preferred": "100008519",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.241054.6"
+      ],
+      "preferred": "grid.241054.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4687 1637"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q941298"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00xcryt71",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://uams.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Arkansas_for_Medical_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AR",
+        "country_subdivision_name": "Arkansas",
+        "lat": 34.74648,
+        "lng": -92.28959,
+        "name": "Little Rock"
+      },
+      "geonames_id": 4119403
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UAMS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Arkansas for Medical Sciences"
+    }
   ],
   "relationships": [
     {
+      "label": "University of Arkansas System",
+      "type": "parent",
+      "id": "https://ror.org/05vvhh982"
+    },
+    {
       "label": "Arkansas Children's Hospital",
-      "type": "Related",
+      "type": "related",
       "id": "https://ror.org/01t33qq42"
     },
     {
       "label": "Central Arkansas Veterans Healthcare System",
-      "type": "Related",
+      "type": "related",
       "id": "https://ror.org/01s5r6w32"
     },
     {
       "label": "University of Arkansas Medical Center",
-      "type": "Related",
+      "type": "related",
       "id": "https://ror.org/005k4dn45"
     },
     {
-      "label": "University of Arkansas System",
-      "type": "Parent",
-      "id": "https://ror.org/05vvhh982"
-    },
-    {
       "label": "The Cancer Imaging Archive",
-      "type": "Related",
+      "type": "related",
       "id": "https://ror.org/02qyzaf42"
     }
   ],
-  "addresses": [
-    {
-      "lat": 34.74648,
-      "lng": -92.28959,
-      "state": null,
-      "state_code": null,
-      "city": "Little Rock",
-      "geonames_city": {
-        "id": 4119403,
-        "city": "Little Rock",
-        "geonames_admin1": {
-          "name": "Arkansas",
-          "id": 4099753,
-          "ascii_name": "Arkansas",
-          "code": "US.AR"
-        },
-        "geonames_admin2": {
-          "name": "Pulaski",
-          "id": 4127619,
-          "ascii_name": "Pulaski",
-          "code": "US.AR.119"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 6252001
-    }
-  ],
-  "links": [
-    "http://www.uams.edu/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "UAMS"
-  ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Arkansas_for_Medical_Sciences",
-  "labels": [],
-  "country": {
-    "country_name": "United States",
-    "country_code": "US"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 4687 1637"
-      ]
-    },
-    "FundRef": {
-      "preferred": "100008519",
-      "all": [
-        "100008519",
-        "100008231"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "1649632"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q941298"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.241054.6",
-      "all": "grid.241054.6"
-    }
-  }
+  "types": [
+    "education",
+    "funder"
+  ]
 }

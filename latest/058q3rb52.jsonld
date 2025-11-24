@@ -1,0 +1,136 @@
+[
+  {
+    "@id": "https://ror.org/058q3rb52",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Stadtwerke Soest"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neac40f5030664030ba3cec77e2bcc1bcb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.stadtwerke-soest.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Stadtwerke Soest"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://stadtwerke-soest.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:neac40f5030664030ba3cec77e2bcc1bcb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.10619,51.57558]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2831708"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neac40f5030664030ba3cec77e2bcc1bcb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:neac40f5030664030ba3cec77e2bcc1bcb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neac40f5030664030ba3cec77e2bcc1bcb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Soest"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North Rhine-Westphalia"
+      }
+    ]
+  },
+  {
+    "@id": "_:neac40f5030664030ba3cec77e2bcc1bcb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neac40f5030664030ba3cec77e2bcc1bcb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:neac40f5030664030ba3cec77e2bcc1bcb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

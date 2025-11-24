@@ -1,18 +1,15 @@
 {
+  "id": "https://ror.org/00g3fjr10",
+  "name": "AIR Institute",
+  "email_address": null,
   "ip_addresses": [],
-  "aliases": [],
-  "acronyms": [
-    "AIR"
-  ],
-  "links": [
-    "https://air-institute.org/"
-  ],
-  "wikipedia_url": null,
-  "external_ids": {},
   "established": null,
+  "types": [
+    "Nonprofit"
+  ],
   "relationships": [
     {
-      "label": "University of Salamanca",
+      "label": "Universidad de Salamanca",
       "type": "Related",
       "id": "https://ror.org/02f40zc51"
     },
@@ -22,59 +19,74 @@
       "id": "https://ror.org/02s8dab97"
     },
     {
-      "label": "University of Valladolid",
+      "label": "Universidad de Valladolid",
       "type": "Related",
       "id": "https://ror.org/01fvbaw18"
     }
   ],
-  "email_address": null,
-  "id": "https://ror.org/00g3fjr10",
+  "addresses": [
+    {
+      "lat": 41.65518,
+      "lng": -4.72372,
+      "state": null,
+      "state_code": null,
+      "city": "Valladolid",
+      "geonames_city": {
+        "id": 3106672,
+        "city": "Valladolid",
+        "geonames_admin1": {
+          "name": "Castille and León",
+          "id": 3336900,
+          "ascii_name": "Castille and León",
+          "code": "ES.55"
+        },
+        "geonames_admin2": {
+          "name": "Valladolid",
+          "id": 3106671,
+          "ascii_name": "Valladolid",
+          "code": "ES.55.VA"
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        "nuts_level1": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level2": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level3": {
+          "name": null,
+          "code": null
+        }
+      },
+      "postcode": null,
+      "primary": false,
+      "line": null,
+      "country_geonames_id": 2510769
+    }
+  ],
+  "links": [
+    "https://air-institute.org/"
+  ],
+  "aliases": [],
+  "acronyms": [
+    "AIR"
+  ],
+  "status": "active",
+  "wikipedia_url": null,
   "labels": [
     {
       "label": "Fundación Instituto Internacional de Investigación en Inteligencia Artificial y Ciencias de la Computación",
       "iso639": "es"
     }
   ],
-  "status": "active",
-  "name": "AIR Institute",
-  "types": [
-    "Nonprofit"
-  ],
-  "addresses": [
-    {
-      "state_code": null,
-      "state": null,
-      "primary": false,
-      "postcode": null,
-      "line": null,
-      "geonames_city": {
-        "id": 3106672,
-        "city": "Valladolid",
-        "geonames_admin1": {
-          "name": "Castille and León",
-          "ascii_name": "Castille and León",
-          "id": 3336900,
-          "code": "ES.55"
-        },
-        "geonames_admin2": {
-          "name": "Valladolid",
-          "ascii_name": "Valladolid",
-          "id": 3106671,
-          "code": "ES.55.VA"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      },
-      "lat": 41.65518,
-      "lng": -4.72372,
-      "country_geonames_id": 2510769,
-      "city": "Valladolid"
-    }
-  ],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
-  }
+  },
+  "external_ids": {}
 }

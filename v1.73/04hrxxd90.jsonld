@@ -1,0 +1,210 @@
+[
+  {
+    "@id": "https://ror.org/04hrxxd90",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-12-07"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre d'histoire du XIXe siècle"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EA 3550"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EA3550"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UR 3550"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UR3550"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n60f2112ea7f5461d852545019dfc3efab1"
+      },
+      {
+        "@id": "_:n60f2112ea7f5461d852545019dfc3efab2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2002"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n60f2112ea7f5461d852545019dfc3efab3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://centrehistoire19esiecle.pantheonsorbonne.fr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre d'histoire du XIXe siècle"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000121769546"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60f2112ea7f5461d852545019dfc3efab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université Paris 1 Panthéon-Sorbonne"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/002t25c44"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60f2112ea7f5461d852545019dfc3efab2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sorbonne Université"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02en5vm52"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60f2112ea7f5461d852545019dfc3efab3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.3488,48.85341]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2988507"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n60f2112ea7f5461d852545019dfc3efab4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60f2112ea7f5461d852545019dfc3efab4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n60f2112ea7f5461d852545019dfc3efab5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Paris"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Île-de-France"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60f2112ea7f5461d852545019dfc3efab5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n60f2112ea7f5461d852545019dfc3efab6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60f2112ea7f5461d852545019dfc3efab6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

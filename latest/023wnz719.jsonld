@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/023wnz719",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre Hospitalier de Beauvais"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CHB"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6b0867e8dd9a4baf970b8a2acc0d916cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ch-beauvais.fr/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre Hospitalier de Beauvais"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.489899.d"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ch-beauvais.fr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b0867e8dd9a4baf970b8a2acc0d916cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.08333,49.43333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3034006"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6b0867e8dd9a4baf970b8a2acc0d916cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b0867e8dd9a4baf970b8a2acc0d916cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6b0867e8dd9a4baf970b8a2acc0d916cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Beauvais"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Hauts-de-France"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b0867e8dd9a4baf970b8a2acc0d916cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6b0867e8dd9a4baf970b8a2acc0d916cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b0867e8dd9a4baf970b8a2acc0d916cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

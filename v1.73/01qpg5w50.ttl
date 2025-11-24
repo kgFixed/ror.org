@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01qpg5w50> a org:Organization ;
+    rdfs:label 'Tabaran Institute of Higher Education'^^xsd:string; 
+    schema:name 'Tabaran Institute of Higher Education'^^xsd:string; 
+    schema:foundingDate '1965'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://tabaran.ac.ir> ; 
+    schema:mainEntityOfPage <https://www.tabaran.ac.ir/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.473805.d> ;
+    schema:sameAs <http://isni.org/isni/0000000490495966> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[59.60567,36.29807]}" ;
+            schema:address [
+                schema:addressLocality "Mashhad" ;
+                schema:addressCountry "IR" ;
+                schema:addressRegion "Razavi Khorasan" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Iran" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/124665> ;
+        ] ; 
+    .

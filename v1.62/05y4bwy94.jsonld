@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/05y4bwy94",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Escuela Normal de San Felipe del Progreso"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENSFP"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1975"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd513fc4d2f5c4f878a1f45a81aa254e5b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://normalsfelipedelprogreso.edomex.gob.mx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Escuela Normal de San Felipe del Progreso"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://normalsfelipedelprogreso.edomex.gob.mx"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd513fc4d2f5c4f878a1f45a81aa254e5b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-99.981,19.66016]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/8582231"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd513fc4d2f5c4f878a1f45a81aa254e5b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd513fc4d2f5c4f878a1f45a81aa254e5b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd513fc4d2f5c4f878a1f45a81aa254e5b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MX"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "San Felipe del Progreso"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "México"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd513fc4d2f5c4f878a1f45a81aa254e5b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd513fc4d2f5c4f878a1f45a81aa254e5b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mexico"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd513fc4d2f5c4f878a1f45a81aa254e5b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

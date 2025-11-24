@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00gr5cx27> a org:Organization ;
+    rdfs:label 'PrJSC "Ukrhydroenergo"'^^xsd:string; 
+    schema:name 'PrJSC "Ukrhydroenergo"'^^xsd:string; 
+    schema:foundingDate '1994'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'PJSC “Ukrhydroenergo”'^^xsd:string ; 
+    org:alternativeName 'Private JSC "Ukrhydroenergo"'^^xsd:string ; 
+    org:alternativeName 'Ukrhydroenergo'^^xsd:string ; 
+    org:alternativeName 'Дніпрогідроенерго'^^xsd:string ; 
+    org:alternativeName 'Приватне акціонерне товариство «Укргідроенерго»'^^xsd:string ; 
+    org:alternativeName 'Укргідроенерго'^^xsd:string ; 
+    schema:url <http://uhe.gov.ua> ; 
+    schema:mainEntityOfPage <https://uhe.gov.ua> ;
+    owl:sameAs <https://uk.wikipedia.org/wiki/%25D0%25A3%25D0%25BA%25D1%2580%25D0%25B3%25D1%2596%25D0%25B4%25D1%2580%25D0%25BE%25D0%25B5%25D0%25BD%25D0%25B5%25D1%2580%25D0%25B3%25D0%25BE> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[30.4898,50.58476]}" ;
+            schema:address [
+                schema:addressLocality "Vyshhorod" ;
+                schema:addressCountry "UA" ;
+                schema:addressRegion "Kyiv" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Ukraine" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/688723> ;
+        ] ; 
+    .

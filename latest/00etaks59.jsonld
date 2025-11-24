@@ -1,0 +1,155 @@
+[
+  {
+    "@id": "https://ror.org/00etaks59",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-02-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Health Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UOHS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Health Sciences Somalia"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2000"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n06a2e469f20440f28d9fd1406cd90190b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://uohs.edu.so"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Health Sciences"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000512357290"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uohs.edu.so"
+      }
+    ]
+  },
+  {
+    "@id": "_:n06a2e469f20440f28d9fd1406cd90190b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[49.18158,11.28421]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/64013"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n06a2e469f20440f28d9fd1406cd90190b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n06a2e469f20440f28d9fd1406cd90190b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n06a2e469f20440f28d9fd1406cd90190b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bosaso"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bari"
+      }
+    ]
+  },
+  {
+    "@id": "_:n06a2e469f20440f28d9fd1406cd90190b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n06a2e469f20440f28d9fd1406cd90190b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Somalia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n06a2e469f20440f28d9fd1406cd90190b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

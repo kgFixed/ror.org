@@ -1,0 +1,182 @@
+[
+  {
+    "@id": "https://ror.org/05t6hvr95",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-29"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Beijing Institute of Mathematical Sciences and Applications"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Beijing_Institute_of_Mathematical_Sciences_and_Applications"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BIMSA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2020"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.bimsa.cn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Beijing Institute of Mathematical Sciences and Applications"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/000000050675453X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bimsa.cn"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tsinghua University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03cve4549"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[116.58059,40.63036]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2036763"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Huairou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf48e9d4a2d5e40348e51b0180513b040b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

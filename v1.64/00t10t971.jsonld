@@ -1,0 +1,202 @@
+[
+  {
+    "@id": "https://ror.org/00t10t971",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Multidisciplinario para la Investigación y el Desarrollo Productivo y Social de la Cuenca del Golfo San Jorge"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IIDEPyS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IIDEPyS-GSJ"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b1"
+      },
+      {
+        "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2023"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://iidepys.conicet.gov.ar"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Multidisciplinario para la Investigación y el Desarrollo Productivo y Social de la Cuenca del Golfo San Jorge"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://iidepys.conicet.gov.ar"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Consejo Nacional de Investigaciones Científicas y Técnicas"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03cqe8w59"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National University of Patagonia San Juan Bosco"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/022g6pv04"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-65.30505,-43.24895]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3833883"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Trelew"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Chubut"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Argentina"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne2f8f8b31f604b28a58e6d27f2aebc76b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

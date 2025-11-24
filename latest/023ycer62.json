@@ -1,71 +1,77 @@
 {
-  "ip_addresses": [],
-  "aliases": [],
-  "acronyms": [
-    "UNAH"
-  ],
-  "links": [
-    "https://www.unah.edu.pe/"
-  ],
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Universidad_Nacional_Aut%C3%B3noma_de_Huanta",
-  "external_ids": {
-    "Wikidata": {
-      "preferred": "Q97178641",
-      "all": [
-        "Q97178641"
-      ]
+  "admin": {
+    "created": {
+      "date": "2022-03-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
     }
   },
+  "domains": [
+    "unah.edu.pe"
+  ],
   "established": 2011,
-  "relationships": [],
-  "email_address": null,
+  "external_ids": [
+    {
+      "all": [
+        "Q97178641"
+      ],
+      "preferred": "Q97178641",
+      "type": "wikidata"
+    }
+  ],
   "id": "https://ror.org/023ycer62",
-  "labels": [
+  "links": [
     {
-      "label": "Huanta National Autonomous University",
-      "iso639": "en"
+      "type": "website",
+      "value": "https://www.gob.pe/unah"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Universidad_Nacional_Aut%C3%B3noma_de_Huanta"
     }
   ],
-  "status": "active",
-  "name": "Universidad Nacional Autónoma de Huanta",
-  "types": [
-    "Education"
-  ],
-  "addresses": [
+  "locations": [
     {
-      "state_code": null,
-      "state": null,
-      "primary": false,
-      "postcode": null,
-      "line": null,
-      "geonames_city": {
-        "id": 3939385,
-        "city": "Provincia de Huanta",
-        "geonames_admin1": {
-          "name": "Ayacucho",
-          "ascii_name": "Ayacucho",
-          "id": 3947018,
-          "code": "PE.05"
-        },
-        "geonames_admin2": {
-          "name": "Provincia de Huanta",
-          "ascii_name": "Provincia de Huanta",
-          "id": 3939385,
-          "code": "PE.05.0504"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_details": {
+        "country_code": "PE",
+        "country_name": "Peru",
+        "lat": -12.5351,
+        "lng": -74.16667,
+        "name": "Huanta Province"
       },
-      "lat": -12.5,
-      "lng": -74.16667,
-      "country_geonames_id": 3932488,
-      "city": "Provincia de Huanta"
+      "geonames_id": 3939385
     }
   ],
-  "country": {
-    "country_name": "Peru",
-    "country_code": "PE"
-  }
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Huanta National Autonomous University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNAH"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad Nacional Autónoma de Huanta"
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ]
 }

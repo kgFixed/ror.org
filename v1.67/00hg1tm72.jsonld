@@ -1,0 +1,160 @@
+[
+  {
+    "@id": "https://ror.org/00hg1tm72",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biosphere Reserves Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.biospherereserves.institute"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biosphere Reserves Institute"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://biospherereserves.institute"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNESCO"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04h4z8k05"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.81951,52.83492]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2933882"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Eberswalde"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Brandenburg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17f66947d92d4478abb67c5a8c2b4ca8b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

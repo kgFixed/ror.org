@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/02c9sby34",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Miyagi Prefecture Fisheries Technology Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Miyagiken Suisan Gijutsu Sogo Senta"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ミヤギケン スイサン ギジュツ ソウゴウ センター"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n06eb4b45fa134f51bb76ff558f2d797ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.pref.miyagi.jp/soshiki/mtsc/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Miyagi Prefecture Fisheries Technology Institute"
+      }
+    ]
+  },
+  {
+    "@id": "_:n06eb4b45fa134f51bb76ff558f2d797ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[141.3,38.41667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2112576"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n06eb4b45fa134f51bb76ff558f2d797ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n06eb4b45fa134f51bb76ff558f2d797ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n06eb4b45fa134f51bb76ff558f2d797ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ishinomaki"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Miyagi"
+      }
+    ]
+  },
+  {
+    "@id": "_:n06eb4b45fa134f51bb76ff558f2d797ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n06eb4b45fa134f51bb76ff558f2d797ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n06eb4b45fa134f51bb76ff558f2d797ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

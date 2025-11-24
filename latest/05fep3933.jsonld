@@ -1,0 +1,164 @@
+[
+  {
+    "@id": "https://ror.org/05fep3933",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mangalore University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Mangalore_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1980"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n53ac29f9e46c4063ba38c19f270108d0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://mangaloreuniversity.ac.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mangalore University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100019149"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.411630.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000103592206"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mangaloreuniversity.ac.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:n53ac29f9e46c4063ba38c19f270108d0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[74.85603,12.91723]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1263780"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n53ac29f9e46c4063ba38c19f270108d0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n53ac29f9e46c4063ba38c19f270108d0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n53ac29f9e46c4063ba38c19f270108d0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mangaluru"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Karnataka"
+      }
+    ]
+  },
+  {
+    "@id": "_:n53ac29f9e46c4063ba38c19f270108d0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n53ac29f9e46c4063ba38c19f270108d0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n53ac29f9e46c4063ba38c19f270108d0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

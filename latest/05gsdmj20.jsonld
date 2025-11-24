@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/05gsdmj20",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Estudos Línguas e Formação do Funchal (Portugal)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CELFF"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8f61333afb084dbebf01a8e35ee9ae1fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://celffeducation.pt/portfolio/celff-funchal/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Estudos Línguas e Formação do Funchal (Portugal)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000464108029"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f61333afb084dbebf01a8e35ee9ae1fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-16.92547,32.66568]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2267827"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8f61333afb084dbebf01a8e35ee9ae1fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f61333afb084dbebf01a8e35ee9ae1fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8f61333afb084dbebf01a8e35ee9ae1fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Funchal"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Madeira"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f61333afb084dbebf01a8e35ee9ae1fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8f61333afb084dbebf01a8e35ee9ae1fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f61333afb084dbebf01a8e35ee9ae1fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

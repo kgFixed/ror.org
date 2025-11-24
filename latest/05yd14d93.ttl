@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05yd14d93> a org:Organization ;
+    rdfs:label 'Centre for Computational and Biological Sciences (India)'^^xsd:string; 
+    schema:name 'Centre for Computational and Biological Sciences (India)'^^xsd:string; 
+    schema:foundingDate '2019'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'CCBS'^^xsd:string; 
+    schema:url <http://ccbsglobal.com> ; 
+    schema:mainEntityOfPage <https://ccbsglobal.com> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[83.20161,17.68009]}" ;
+            schema:address [
+                schema:addressLocality "Visakhapatnam" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Andhra Pradesh" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1253102> ;
+        ] ; 
+    .

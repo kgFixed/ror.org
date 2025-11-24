@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/035d65343",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Klinikum Ingolstadt"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n248c880a80f24dd4b7f7696cb6693f6db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://klinikum-ingolstadt.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Klinikum Ingolstadt"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.492033.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000100585377"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://klinikum-ingolstadt.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:n248c880a80f24dd4b7f7696cb6693f6db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.42372,48.76508]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2895992"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n248c880a80f24dd4b7f7696cb6693f6db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n248c880a80f24dd4b7f7696cb6693f6db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n248c880a80f24dd4b7f7696cb6693f6db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ingolstadt"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bavaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n248c880a80f24dd4b7f7696cb6693f6db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n248c880a80f24dd4b7f7696cb6693f6db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n248c880a80f24dd4b7f7696cb6693f6db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

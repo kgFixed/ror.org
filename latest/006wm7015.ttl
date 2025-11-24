@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/006wm7015> a org:Organization ;
+    rdfs:label 'Federal Research Center “Computer Science and Control” of the Russian Academy of Sciences'^^xsd:string; 
+    schema:name 'Federal Research Center “Computer Science and Control” of the Russian Academy of Sciences'^^xsd:string; 
+    schema:foundingDate '2014'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'FRCCSC'^^xsd:string; 
+    org:abbreviation 'ФИЦ ИУ РАН'^^xsd:string; 
+    org:alternativeName 'Федеральный исследовательский центр «Информатика и управление» РАН'^^xsd:string ; 
+    schema:url <http://frccsc.ru> ; 
+    schema:mainEntityOfPage <https://frccsc.ru> ;
+    owl:sameAs <https://ru.wikipedia.org/wiki/%25D0%25A4%25D0%25B5%25D0%25B4%25D0%25B5%25D1%2580%25D0%25B0%25D0%25BB%25D1%258C%25D0%25BD%25D1%258B%25D0%25B9_%25D0%25B8%25D1%2581%25D1%2581%25D0%25BB%25D0%25B5%25D0%25B4%25D0%25BE%25D0%25B2%25D0%25B0%25D1%2582%25D0%25B5%25D0%25BB%25D1%258C%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9_%25D1%2586%25D0%25B5%25D0%25BD%25D1%2582%25D1%2580_%25C2%25AB%25D0%2598%25D0%25BD%25D1%2584%25D0%25BE%25D1%2580%25D0%25BC%25D0%25B0%25D1%2582%25D0%25B8%25D0%25BA%25D0%25B0_%25D0%25B8_%25D1%2583%25D0%25BF%25D1%2580%25D0%25B0%25D0%25B2%25D0%25BB%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5%25C2%25BB_%25D0%25A0%25D0%2590%25D0%259D> ; 
+    schema:sameAs <http://isni.org/isni/0000000476929844> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00ghqgy32> ;
+        rdfs:label 'The Ministry of Education and Science of the Russian Federation'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[37.61781,55.75204]}" ;
+            schema:address [
+                schema:addressLocality "Moscow" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "Moscow" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/524901> ;
+        ] ; 
+    .

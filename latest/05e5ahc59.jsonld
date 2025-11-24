@@ -1,0 +1,283 @@
+[
+  {
+    "@id": "https://ror.org/05e5ahc59",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal Devon University Healthcare NHS Foundation Trust"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Royal_Devon_University_Healthcare_NHS_Foundation_Trust"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal Devon"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab1"
+      },
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2022"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab3"
+      },
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab7"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.royaldevon.nhs.uk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal Devon University Healthcare NHS Foundation Trust"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://royaldevon.nhs.uk"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal Devon & Exeter NHS Foundation Trust"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03085z545"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "North Devon District Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/038npk083"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-3.52751,50.7236]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2649808"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Exeter"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "England"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab7",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-4.05808,51.08022]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2656281"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab8"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab8",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab9"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Barnstaple"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "England"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab9",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab10"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb6f7ee1bd200493b8ab52b901e3fa76ab10",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

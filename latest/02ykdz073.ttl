@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02ykdz073> a org:Organization ;
+    rdfs:label 'Kwame Nkrumah University'^^xsd:string; 
+    schema:name 'Kwame Nkrumah University'^^xsd:string; 
+    schema:foundingDate '1967'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'KNU'^^xsd:string; 
+    org:alternativeName 'Kabwe Teachers Training College'^^xsd:string ; 
+    org:alternativeName 'Nkrumah Teachers College'^^xsd:string ; 
+    schema:url <http://nkrumah.edu.zm> ; 
+    schema:mainEntityOfPage <https://www.nkrumah.edu.zm/home/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Kwame_Nkrumah_University> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.442663.1> ;
+    schema:sameAs <http://isni.org/isni/0000000460408614> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[28.44644,-14.4469]}" ;
+            schema:address [
+                schema:addressLocality "Kabwe" ;
+                schema:addressCountry "ZM" ;
+                schema:addressRegion "Central Province" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Zambia" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/916095> ;
+        ] ; 
+    .

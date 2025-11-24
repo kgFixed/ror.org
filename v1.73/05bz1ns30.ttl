@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05bz1ns30> a org:Organization ;
+    rdfs:label 'The 988th Hospital of the Joint Service Support Force of the Chinese People\'s Liberation Army'^^xsd:string; 
+    schema:name 'The 988th Hospital of the Joint Service Support Force of the Chinese People\'s Liberation Army'^^xsd:string; 
+    schema:foundingDate '2018'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'No. 988 Hospital of Joint Logistic Support Force of PLA'^^xsd:string ; 
+    org:alternativeName 'No. 988 Hospital of Liberation Army'^^xsd:string ; 
+    org:alternativeName 'No.988 Hospital of Joint Logistic Support Force'^^xsd:string ; 
+    org:alternativeName '九八八医院焦作医疗区'^^xsd:string ; 
+    schema:mainEntityOfPage <https://www.bohe.cn/hospital/35891> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[113.23914,35.23925]}" ;
+            schema:address [
+                schema:addressLocality "Jiaozuo" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Henan" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1805987> ;
+        ] ; 
+    .

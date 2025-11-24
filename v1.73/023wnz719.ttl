@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/023wnz719> a org:Organization ;
+    rdfs:label 'Centre Hospitalier de Beauvais'^^xsd:string; 
+    schema:name 'Centre Hospitalier de Beauvais'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'CHB'^^xsd:string; 
+    schema:url <http://ch-beauvais.fr> ; 
+    schema:mainEntityOfPage <https://www.ch-beauvais.fr/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.489899.d> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[2.08333,49.43333]}" ;
+            schema:address [
+                schema:addressLocality "Beauvais" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Hauts-de-France" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3034006> ;
+        ] ; 
+    .

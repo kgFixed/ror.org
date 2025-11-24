@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/03rzv1186",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tagawa Municipal Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf42ec9c0540344ada57b78221e29c935b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://hospital.city.tagawa.fukuoka.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tagawa Municipal Hospital"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hospital.city.tagawa.fukuoka.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf42ec9c0540344ada57b78221e29c935b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[130.8,33.63333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1851273"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf42ec9c0540344ada57b78221e29c935b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf42ec9c0540344ada57b78221e29c935b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf42ec9c0540344ada57b78221e29c935b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tagawa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Fukuoka"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf42ec9c0540344ada57b78221e29c935b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf42ec9c0540344ada57b78221e29c935b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf42ec9c0540344ada57b78221e29c935b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

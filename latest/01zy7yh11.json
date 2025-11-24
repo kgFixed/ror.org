@@ -1,65 +1,75 @@
 {
-  "ip_addresses": [],
-  "aliases": [],
-  "acronyms": [
-    "BBSR"
-  ],
-  "links": [
-    "https://www.bbsr.bund.de/"
-  ],
-  "wikipedia_url": null,
-  "external_ids": {},
+  "admin": {
+    "created": {
+      "date": "2022-03-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
   "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "501100022239"
+      ],
+      "preferred": "501100022239",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/01zy7yh11",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bbsr.bund.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.73438,
+        "lng": 7.09549,
+        "name": "Bonn"
+      },
+      "geonames_id": 2946447
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BBSR"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bundesinstitut für Bau-, Stadt- und Raumforschung"
+    }
+  ],
   "relationships": [
     {
       "label": "Bundesamt für Bauwesen und Raumordnung",
-      "type": "Parent",
+      "type": "parent",
       "id": "https://ror.org/04hqtn844"
     }
   ],
-  "email_address": null,
-  "id": "https://ror.org/01zy7yh11",
-  "labels": [],
   "status": "active",
-  "name": "Bundesinstitut für Bau-, Stadt- und Raumforschung",
   "types": [
-    "Government"
-  ],
-  "addresses": [
-    {
-      "state_code": null,
-      "state": null,
-      "primary": false,
-      "postcode": null,
-      "line": null,
-      "geonames_city": {
-        "id": 6296510,
-        "city": "Cologne Bonn Airport",
-        "geonames_admin1": {
-          "name": "North Rhine-Westphalia",
-          "ascii_name": "North Rhine-Westphalia",
-          "id": 2861876,
-          "code": "DE.07"
-        },
-        "geonames_admin2": {
-          "name": "Cologne District",
-          "ascii_name": "Cologne District",
-          "id": 2886241,
-          "code": "DE.07.053"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      },
-      "lat": 50.87894,
-      "lng": 7.12292,
-      "country_geonames_id": 2921044,
-      "city": "Cologne Bonn Airport"
-    }
-  ],
-  "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
-  }
+    "funder",
+    "government"
+  ]
 }

@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/02wq20039",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-09"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-10"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gil Vicente Futebol Clube Futebol SDUQ Lda (Portugal)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1eb816c78b9f451d9108eb3cce229158b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://gilvicentefc.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gil Vicente Futebol Clube Futebol SDUQ Lda (Portugal)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000502748394"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://gilvicentefc.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1eb816c78b9f451d9108eb3cce229158b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.61843,41.53174]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2742416"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1eb816c78b9f451d9108eb3cce229158b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1eb816c78b9f451d9108eb3cce229158b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1eb816c78b9f451d9108eb3cce229158b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Barcelos"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n1eb816c78b9f451d9108eb3cce229158b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1eb816c78b9f451d9108eb3cce229158b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1eb816c78b9f451d9108eb3cce229158b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

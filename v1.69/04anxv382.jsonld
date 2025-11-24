@@ -1,0 +1,186 @@
+[
+  {
+    "@id": "https://ror.org/04anxv382",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Center for Sports Medicine of the Federal Biomedical Agency"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NCSM"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Scientific and Clinical Center for Sports Medicine of the Federal Biomedical Agency"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Center for Sports Medicine of the Federal Medical and Biological Agency of Russia"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Национальный центр спортивной медицины"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1997"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.sportfmba.ru"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Center for Sports Medicine of the Federal Biomedical Agency"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sportfmba.ru"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Medical-Biological Agency"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/052ay8m85"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[37.61556,55.75222]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/524901"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Moscow"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Moscow"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c15f7cf6f8d44f08ba15653a3a85c43b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

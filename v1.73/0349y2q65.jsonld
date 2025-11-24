@@ -1,0 +1,225 @@
+[
+  {
+    "@id": "https://ror.org/0349y2q65",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "TBS Education"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Toulouse_Business_School"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "TBS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Escòla Superiora de Comèrci de Tolosa"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Toulouse Business School"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "École Supérieure de Commerce de Toulouse"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb26c7eb251874394bac946418d4d0d5ab1"
+      },
+      {
+        "@id": "_:nb26c7eb251874394bac946418d4d0d5ab2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1903"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb26c7eb251874394bac946418d4d0d5ab3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.tbs-education.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "TBS Education"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.469181.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000094553423"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://tbs-education.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb26c7eb251874394bac946418d4d0d5ab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laboratoire d’Étude et de Recherche sur l’Économie, les Politiques et les Systèmes Sociaux"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05tcnbj64"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb26c7eb251874394bac946418d4d0d5ab2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université de Toulouse"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01ahyrz84"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb26c7eb251874394bac946418d4d0d5ab3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[1.44367,43.60426]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2972315"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb26c7eb251874394bac946418d4d0d5ab4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb26c7eb251874394bac946418d4d0d5ab4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb26c7eb251874394bac946418d4d0d5ab5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Toulouse"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Occitanie"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb26c7eb251874394bac946418d4d0d5ab5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb26c7eb251874394bac946418d4d0d5ab6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb26c7eb251874394bac946418d4d0d5ab6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

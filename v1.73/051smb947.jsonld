@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/051smb947",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nagasaki Institute of Applied Science"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Nagasaki_Institute_of_Applied_Science"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nagasaki Sōgou Kagaku Daigaku"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1942"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n634d8722a95c4286a06e0320fddf27f0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://nias.ac.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nagasaki Institute of Applied Science"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.444367.6"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000098535396"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nias.ac.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n634d8722a95c4286a06e0320fddf27f0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[129.88333,32.75]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1856177"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n634d8722a95c4286a06e0320fddf27f0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n634d8722a95c4286a06e0320fddf27f0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n634d8722a95c4286a06e0320fddf27f0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nagasaki"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nagasaki"
+      }
+    ]
+  },
+  {
+    "@id": "_:n634d8722a95c4286a06e0320fddf27f0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n634d8722a95c4286a06e0320fddf27f0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n634d8722a95c4286a06e0320fddf27f0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

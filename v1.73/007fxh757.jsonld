@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/007fxh757",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Universitário Salesiano de São Paulo"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://pt.wikipedia.org/wiki/Centro_Universit%25C3%25A1rio_Salesiano_de_S%25C3%25A3o_Paulo"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNISAL"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1952"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8b8f585d2aa640ccb00969c95cc856b2b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unisal.br/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Universitário Salesiano de São Paulo"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.441983.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000102447082"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unisal.br"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8b8f585d2aa640ccb00969c95cc856b2b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-47.33139,-22.73917]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3472343"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8b8f585d2aa640ccb00969c95cc856b2b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8b8f585d2aa640ccb00969c95cc856b2b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8b8f585d2aa640ccb00969c95cc856b2b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Americana"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "São Paulo"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8b8f585d2aa640ccb00969c95cc856b2b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8b8f585d2aa640ccb00969c95cc856b2b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8b8f585d2aa640ccb00969c95cc856b2b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/036vh1t90",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chigasaki Municipal Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nddecb25051d4486ab0db545fb457068fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://hosp.city.chigasaki.kanagawa.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chigasaki Municipal Hospital"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hosp.city.chigasaki.kanagawa.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddecb25051d4486ab0db545fb457068fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[139.40434,35.33638]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1864624"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nddecb25051d4486ab0db545fb457068fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddecb25051d4486ab0db545fb457068fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nddecb25051d4486ab0db545fb457068fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Chigasaki"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kanagawa"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddecb25051d4486ab0db545fb457068fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nddecb25051d4486ab0db545fb457068fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddecb25051d4486ab0db545fb457068fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

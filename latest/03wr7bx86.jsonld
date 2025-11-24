@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/03wr7bx86",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Marine Information Service (Netherlands)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MARIS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nff5115feaca540b7a61303b07a26da99b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.maris.nl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Marine Information Service (Netherlands)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.425439.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000097393963"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://maris.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:nff5115feaca540b7a61303b07a26da99b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.39583,52.045]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2749800"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nff5115feaca540b7a61303b07a26da99b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nff5115feaca540b7a61303b07a26da99b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nff5115feaca540b7a61303b07a26da99b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nootdorp"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "South Holland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nff5115feaca540b7a61303b07a26da99b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nff5115feaca540b7a61303b07a26da99b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:nff5115feaca540b7a61303b07a26da99b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

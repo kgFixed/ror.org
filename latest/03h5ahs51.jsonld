@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/03h5ahs51",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut Supérieur de Techniques Appliquées"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ISTA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Higher Institute of Applied Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1973"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndeb6df90ce7a41ba93cc5de43b1775d6b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ista-kin.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut Supérieur de Techniques Appliquées"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ista-kin.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb6df90ce7a41ba93cc5de43b1775d6b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.31357,-4.32758]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2314302"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndeb6df90ce7a41ba93cc5de43b1775d6b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb6df90ce7a41ba93cc5de43b1775d6b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndeb6df90ce7a41ba93cc5de43b1775d6b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CD"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kinshasa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kinshasa"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb6df90ce7a41ba93cc5de43b1775d6b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndeb6df90ce7a41ba93cc5de43b1775d6b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "DR Congo"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndeb6df90ce7a41ba93cc5de43b1775d6b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

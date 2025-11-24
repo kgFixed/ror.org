@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03r06fs10> a org:Organization ;
+    rdfs:label 'Nordic Institute for Theoretical Physics'^^xsd:string; 
+    schema:name 'Nordic Institute for Theoretical Physics'^^xsd:string; 
+    schema:foundingDate '1957'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'NORDITA'^^xsd:string; 
+    org:alternativeName 'Nordisk Institut for Teoretisk Fysik'^^xsd:string ; 
+    schema:url <http://nordita.org> ; 
+    schema:mainEntityOfPage <https://nordita.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Nordic_Institute_for_Theoretical_Physics> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.450306.4> ;
+    schema:sameAs <http://isni.org/isni/0000000404380530> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[18.06871,59.32938]}" ;
+            schema:address [
+                schema:addressLocality "Stockholm" ;
+                schema:addressCountry "SE" ;
+                schema:addressRegion "Stockholm" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Sweden" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2673730> ;
+        ] ; 
+    .

@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04jvfby08> a org:Organization ;
+    rdfs:label 'Klinik Nette-Gut für Forensische Psychiatrie'^^xsd:string; 
+    schema:name 'Klinik Nette-Gut für Forensische Psychiatrie'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'KNG'^^xsd:string; 
+    schema:url <http://kng.landeskrankenhaus.de> ; 
+    schema:mainEntityOfPage <https://www.landeskrankenhaus.de/klinik-nette-gut> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[7.45072,50.41719]}" ;
+            schema:address [
+                schema:addressLocality "Weißenthurm" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "Rheinland-Pfalz" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2811837> ;
+        ] ; 
+    .

@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04k3bmm60> a org:Organization ;
+    rdfs:label 'Thanh Hoa University of Culture, Sports and Tourism'^^xsd:string; 
+    schema:name 'Thanh Hoa University of Culture, Sports and Tourism'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'TUCST'^^xsd:string; 
+    org:alternativeName 'Trường Cao đẳng Văn hóa Nghệ thuật Thanh Hóa'^^xsd:string ; 
+    org:abbreviation 'ĐVTDT'^^xsd:string; 
+    schema:url <http://tucst.edu.vn> ; 
+    schema:mainEntityOfPage <https://tucst.edu.vn> ;
+    owl:sameAs <https://vi.wikipedia.org/wiki/Tr%25C6%25B0%25E1%25BB%259Dng_%25C4%2590%25E1%25BA%25A1i_h%25E1%25BB%258Dc_V%25C4%2583n_h%25C3%25B3a,_Th%25E1%25BB%2583_thao_v%25C3%25A0_Du_l%25E1%25BB%258Bch_Thanh_H%25C3%25B3a> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[105.76667,19.8]}" ;
+            schema:address [
+                schema:addressLocality "Thanh Hóa" ;
+                schema:addressCountry "VN" ;
+                schema:addressRegion "Thanh Hóa Province" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Vietnam" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1566166> ;
+        ] ; 
+    .

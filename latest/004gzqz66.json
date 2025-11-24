@@ -1,115 +1,145 @@
 {
-    "id": "https://ror.org/004gzqz66",
-    "name": "Institut de physique du globe de Paris",
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 1854,
-    "types": [
-        "Facility"
-    ],
-    "relationships": [
-        {
-            "label": "Sorbonne University",
-            "type": "Related",
-            "id": "https://ror.org/02en5vm52"
-        },
-        {
-            "label": "University of Paris",
-            "type": "Related",
-            "id": "https://ror.org/05f82e368"
-        },
-        {
-            "label": "Institut National des Sciences de l'Univers",
-            "type": "Parent",
-            "id": "https://ror.org/04kdfz702"
-        }
-    ],
-    "addresses": [
-        {
-            "lat": 48.85341,
-            "lng": 2.3488,
-            "state": null,
-            "state_code": null,
-            "city": "Paris",
-            "geonames_city": {
-                "id": 2988507,
-                "city": "Paris",
-                "geonames_admin1": {
-                    "name": "Île-de-France",
-                    "id": 3012874,
-                    "ascii_name": "Île-de-France",
-                    "code": "FR.11"
-                },
-                "geonames_admin2": {
-                    "name": "Paris",
-                    "id": 2968815,
-                    "ascii_name": "Paris",
-                    "code": "FR.11.75"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 3017382
-        }
-    ],
-    "links": [
-        "https://www.ipgp.fr/"
-    ],
-    "aliases": [],
-    "acronyms": [
-        "IPGP"
-    ],
-    "status": "active",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Institut_de_Physique_du_Globe_de_Paris",
-    "labels": [
-        {
-            "label": "Paris Institute of Earth Physics",
-            "iso639": "en"
-        }
-    ],
-    "country": {
-        "country_name": "France",
-        "country_code": "FR"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0001 0675 8101"
-            ]
-        },
-        "OrgRef": {
-            "preferred": null,
-            "all": [
-                "47000157"
-            ]
-        },
-        "Wikidata": {
-            "preferred": null,
-            "all": [
-                "Q3152060"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.9489.c",
-            "all": "grid.9489.c"
-        }
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
     }
+  },
+  "domains": [
+    "ipgp.fr"
+  ],
+  "established": 1854,
+  "external_ids": [
+    {
+      "all": [
+        "501100010768"
+      ],
+      "preferred": "501100010768",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9489.c"
+      ],
+      "preferred": "grid.9489.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0675 8101"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152060"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/004gzqz66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipgp.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institut_de_Physique_du_Globe_de_Paris"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPGP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de physique du globe de Paris"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Paris Institute of Earth Physics"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7154"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR-IPGP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7154"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Couplage Multi-physiques et Multi-échelles en mécanique géo-environnemental",
+      "type": "child",
+      "id": "https://ror.org/01w1erp60"
+    },
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
 }

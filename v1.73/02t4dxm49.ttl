@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02t4dxm49> a org:Organization ;
+    rdfs:label 'The David Collection'^^xsd:string; 
+    schema:name 'The David Collection'^^xsd:string; 
+    schema:foundingDate '1948'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'archive'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://davidmus.dk> ; 
+    schema:mainEntityOfPage <https://www.davidmus.dk/?culture=en-us> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/The_David_Collection> ; 
+    schema:sameAs <http://isni.org/isni/0000000110110834> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[12.56553,55.67594]}" ;
+            schema:address [
+                schema:addressLocality "Copenhagen" ;
+                schema:addressCountry "DK" ;
+                schema:addressRegion "Capital Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Denmark" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2618425> ;
+        ] ; 
+    .

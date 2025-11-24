@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/05nnsb240",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "El Colegio del Estado de Hidalgo"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CEH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2004"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc8552c0e973247cfb408c9df49279931b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.elcolegiodehidalgo.edu.mx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "El Colegio del Estado de Hidalgo"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000446509523"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://elcolegiodehidalgo.edu.mx"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8552c0e973247cfb408c9df49279931b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-98.90914,20.10787]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/8582071"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc8552c0e973247cfb408c9df49279931b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8552c0e973247cfb408c9df49279931b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc8552c0e973247cfb408c9df49279931b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MX"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "San Agustín Tlaxiaca Municipality"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Hidalgo"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8552c0e973247cfb408c9df49279931b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc8552c0e973247cfb408c9df49279931b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mexico"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8552c0e973247cfb408c9df49279931b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

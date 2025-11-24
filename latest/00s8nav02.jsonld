@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/00s8nav02",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Upstream Portugal (Portugal)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n126d854d46064e74ae4e465fd61906bdb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://upstream-portugal.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Upstream Portugal (Portugal)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/000000050840367X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://upstream-portugal.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n126d854d46064e74ae4e465fd61906bdb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-7.50504,40.28106]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2740313"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n126d854d46064e74ae4e465fd61906bdb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n126d854d46064e74ae4e465fd61906bdb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n126d854d46064e74ae4e465fd61906bdb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Covilha"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Castelo Branco"
+      }
+    ]
+  },
+  {
+    "@id": "_:n126d854d46064e74ae4e465fd61906bdb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n126d854d46064e74ae4e465fd61906bdb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n126d854d46064e74ae4e465fd61906bdb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

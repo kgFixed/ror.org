@@ -1,0 +1,141 @@
+[
+  {
+    "@id": "https://ror.org/009hbbn87",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hessisches Landesamt für Gesundheit und Pflege"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://de.wikipedia.org/wiki/Hessisches_Landesamt_f%25C3%25BCr_Gesundheit_und_Pflege"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n07bbe0dca2b64d78aa1d1ee231b3c13cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://hlfgp.hessen.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hessisches Landesamt für Gesundheit und Pflege"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hlfgp.hessen.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07bbe0dca2b64d78aa1d1ee231b3c13cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.65027,49.87167]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2938913"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n07bbe0dca2b64d78aa1d1ee231b3c13cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07bbe0dca2b64d78aa1d1ee231b3c13cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n07bbe0dca2b64d78aa1d1ee231b3c13cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Darmstadt"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Hesse"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07bbe0dca2b64d78aa1d1ee231b3c13cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n07bbe0dca2b64d78aa1d1ee231b3c13cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n07bbe0dca2b64d78aa1d1ee231b3c13cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

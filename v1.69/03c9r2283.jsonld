@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/03c9r2283",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "École Supérieure de Génie Civil Véréchaguine AK"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://fr.wikipedia.org/wiki/%25C3%2589cole_Sup%25C3%25A9rieure_de_G%25C3%25A9nie_Civil_V%25C3%25A9r%25C3%25A9chaguine_AK"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1998"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd99d440bf79f4dd88335ad42d31f1050b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://esgcvak.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "École Supérieure de Génie Civil Véréchaguine AK"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://esgcvak.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd99d440bf79f4dd88335ad42d31f1050b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.41833,6.36536]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2394819"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd99d440bf79f4dd88335ad42d31f1050b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd99d440bf79f4dd88335ad42d31f1050b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd99d440bf79f4dd88335ad42d31f1050b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BJ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cotonou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Littoral"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd99d440bf79f4dd88335ad42d31f1050b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd99d440bf79f4dd88335ad42d31f1050b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Benin"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd99d440bf79f4dd88335ad42d31f1050b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/045qevj46",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "African Institute for Research in Infectious Diseases"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AIRID"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2021"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne63afbfe82594b118039850b2bb2ce95b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://airid-africa.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "African Institute for Research in Infectious Diseases"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://airid-africa.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne63afbfe82594b118039850b2bb2ce95b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.41833,6.36536]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2394819"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne63afbfe82594b118039850b2bb2ce95b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne63afbfe82594b118039850b2bb2ce95b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne63afbfe82594b118039850b2bb2ce95b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BJ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cotonou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Littoral"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne63afbfe82594b118039850b2bb2ce95b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne63afbfe82594b118039850b2bb2ce95b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Benin"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne63afbfe82594b118039850b2bb2ce95b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

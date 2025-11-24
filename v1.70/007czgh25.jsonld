@@ -1,0 +1,182 @@
+[
+  {
+    "@id": "https://ror.org/007czgh25",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CT University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/CT_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CTU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2017"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ctuniversity.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CT University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000491295077"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ctuniversity.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CT Group Of Institutions"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00m02ap37"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[75.82,30.84]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1264729"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ludhiana"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Punjab"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe83d66d77404980b30f8bfdf5f3509ab5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

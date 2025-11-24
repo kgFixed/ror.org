@@ -1,71 +1,77 @@
 {
-  "ip_addresses": [],
-  "aliases": [],
-  "acronyms": [
-    "VU"
-  ],
-  "links": [
-    "https://www.vupune.ac.in/"
-  ],
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Vishwakarma_University",
-  "external_ids": {
-    "ISNI": {
-      "preferred": "0000 0005 0599 7193",
-      "all": [
-        "0000 0005 0599 7193"
-      ]
+  "admin": {
+    "created": {
+      "date": "2022-03-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
     }
   },
+  "domains": [
+    "vupune.ac.in"
+  ],
   "established": 2017,
-  "relationships": [],
-  "email_address": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 0599 7193"
+      ],
+      "preferred": "0000 0005 0599 7193",
+      "type": "isni"
+    }
+  ],
   "id": "https://ror.org/016zwj547",
-  "labels": [
+  "links": [
     {
-      "label": "विश्वकर्मा युनिव्हर्सिटी / विश्वकर्मा विद्यापीठ",
-      "iso639": "mr"
+      "type": "website",
+      "value": "https://www.vupune.ac.in/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Vishwakarma_University"
     }
   ],
-  "status": "active",
-  "name": "Vishwakarma University",
-  "types": [
-    "Education"
-  ],
-  "addresses": [
+  "locations": [
     {
-      "state_code": null,
-      "state": null,
-      "primary": false,
-      "postcode": null,
-      "line": null,
-      "geonames_city": {
-        "id": 1259229,
-        "city": "Pune",
-        "geonames_admin1": {
-          "name": "Maharashtra",
-          "ascii_name": "Maharashtra",
-          "id": 1264418,
-          "code": "IN.16"
-        },
-        "geonames_admin2": {
-          "name": "Pune",
-          "ascii_name": "Pune",
-          "id": 8133375,
-          "code": "IN.16.521"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
+      "geonames_details": {
+        "country_code": "IN",
+        "country_name": "India",
+        "lat": 18.51957,
+        "lng": 73.85535,
+        "name": "Pune"
       },
-      "lat": 18.51957,
-      "lng": 73.85535,
-      "country_geonames_id": 1269750,
-      "city": "Pune"
+      "geonames_id": 1259229
     }
   ],
-  "country": {
-    "country_name": "India",
-    "country_code": "IN"
-  }
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vishwakarma University"
+    },
+    {
+      "lang": "mr",
+      "types": [
+        "label"
+      ],
+      "value": "विश्वकर्मा युनिव्हर्सिटी / विश्वकर्मा विद्यापीठ"
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education"
+  ]
 }

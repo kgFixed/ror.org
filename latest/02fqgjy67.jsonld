@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/02fqgjy67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "North-Eastern University, Gombe"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/North-Eastern_University%252C_Gombe"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NEU Gombe"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "North-Eastern University Gombe"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Pen Resource University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2022"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf2ba5e674a0d47cfa329daa45ea59798b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://neu.edu.ng"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "North-Eastern University, Gombe"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://neu.edu.ng"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf2ba5e674a0d47cfa329daa45ea59798b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.16729,10.28969]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2340451"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf2ba5e674a0d47cfa329daa45ea59798b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf2ba5e674a0d47cfa329daa45ea59798b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf2ba5e674a0d47cfa329daa45ea59798b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gombe"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gombe State"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf2ba5e674a0d47cfa329daa45ea59798b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf2ba5e674a0d47cfa329daa45ea59798b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf2ba5e674a0d47cfa329daa45ea59798b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

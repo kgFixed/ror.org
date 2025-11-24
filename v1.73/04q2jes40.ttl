@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04q2jes40> a org:Organization ;
+    rdfs:label 'University of Petroleum and Energy Studies'^^xsd:string; 
+    schema:name 'University of Petroleum and Energy Studies'^^xsd:string; 
+    schema:foundingDate '2003'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'UPES'^^xsd:string; 
+    schema:url <http://upes.ac.in> ; 
+    schema:mainEntityOfPage <https://www.upes.ac.in/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/University_of_Petroleum_and_Energy_Studies> ; 
+    schema:sameAs <https://api.crossref.org/funders/100017603> ;
+    schema:sameAs <https://grid.ac/institutions/grid.444415.4> ;
+    schema:sameAs <http://isni.org/isni/0000000417590860> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[78.03392,30.32443]}" ;
+            schema:address [
+                schema:addressLocality "Dehradun" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Uttarakhand" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1273313> ;
+        ] ; 
+    .

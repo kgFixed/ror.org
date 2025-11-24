@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/020787x82",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-20"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Deutsches Institut für Gesundheitsforschung gGmbH"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DIG"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "German Institute for Health Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2007"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc1e37e7a1b1b4e8e88fc8a6e4c8aa40ab1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Deutsches Institut für Gesundheitsforschung gGmbH"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1e37e7a1b1b4e8e88fc8a6e4c8aa40ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.91261,50.31297]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2902768"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc1e37e7a1b1b4e8e88fc8a6e4c8aa40ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1e37e7a1b1b4e8e88fc8a6e4c8aa40ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc1e37e7a1b1b4e8e88fc8a6e4c8aa40ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hof"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bavaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1e37e7a1b1b4e8e88fc8a6e4c8aa40ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc1e37e7a1b1b4e8e88fc8a6e4c8aa40ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1e37e7a1b1b4e8e88fc8a6e4c8aa40ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

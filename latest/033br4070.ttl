@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/033br4070> a org:Organization ;
+    rdfs:label 'Saidu College of Dentistry'^^xsd:string; 
+    schema:name 'Saidu College of Dentistry'^^xsd:string; 
+    schema:foundingDate '2021'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'SCD'^^xsd:string; 
+    org:alternativeName 'Saidu College of Dentistry Swat'^^xsd:string ; 
+    schema:url <http://scd.edu.pk> ; 
+    schema:mainEntityOfPage <https://scd.edu.pk> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/01absdg22> ;
+        rdfs:label 'Saidu Teaching Hospital'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[72.35568,34.74655]}" ;
+            schema:address [
+                schema:addressLocality "Saidu Sharif" ;
+                schema:addressCountry "PK" ;
+                schema:addressRegion "Khyber Pakhtunkhwa" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Pakistan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1166475> ;
+        ] ; 
+    .

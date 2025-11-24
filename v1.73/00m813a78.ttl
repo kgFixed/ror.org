@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00m813a78> a org:Organization ;
+    rdfs:label 'Sulaiman Al Rajhi Colleges'^^xsd:string; 
+    schema:name 'Sulaiman Al Rajhi Colleges'^^xsd:string; 
+    schema:foundingDate '2009'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'SRC'^^xsd:string; 
+    schema:url <http://sr.edu.sa> ; 
+    schema:mainEntityOfPage <https://sr.edu.sa/site/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Sulaiman_Al_Rajhi_Colleges> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.459460.a> ;
+    schema:sameAs <http://isni.org/isni/0000000417819805> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[43.65782,26.13915]}" ;
+            schema:address [
+                schema:addressLocality "Al Bukayrīyah" ;
+                schema:addressCountry "SA" ;
+                schema:addressRegion "Al-Qassim Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Saudi Arabia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/109878> ;
+        ] ; 
+    .

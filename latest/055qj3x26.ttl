@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/055qj3x26> a org:Organization ;
+    rdfs:label 'National Agency for Science and Engineering Infrastructure'^^xsd:string; 
+    schema:name 'National Agency for Science and Engineering Infrastructure'^^xsd:string; 
+    schema:foundingDate '1992'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'NASENI'^^xsd:string; 
+    org:alternativeName 'Ngalaba nke Mba Etiti Maka Ngwa Sayensị na Ngwa Nka n’Uzu'^^xsd:string ; 
+    schema:url <http://naseni.gov.ng> ; 
+    schema:mainEntityOfPage <https://naseni.gov.ng> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/National_Agency_for_Science_and_Engineering_Infrastructure> ; 
+    schema:sameAs <http://isni.org/isni/0000000459001358> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[7.50083,9]}" ;
+            schema:address [
+                schema:addressLocality "Garki" ;
+                schema:addressCountry "NG" ;
+                schema:addressRegion "FCT" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Nigeria" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2590355> ;
+        ] ; 
+    .

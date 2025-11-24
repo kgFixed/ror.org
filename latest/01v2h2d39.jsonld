@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/01v2h2d39",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-04-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Medical and Surgical Center named after N.I. Pirogov"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2001"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd7722ecb7e9645d3bd7a2707cbf8484ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.pirogov-center.ru/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Medical and Surgical Center named after N.I. Pirogov"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.510503.2"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://pirogov-center.ru"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd7722ecb7e9645d3bd7a2707cbf8484ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[37.61781,55.75204]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/524901"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd7722ecb7e9645d3bd7a2707cbf8484ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd7722ecb7e9645d3bd7a2707cbf8484ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd7722ecb7e9645d3bd7a2707cbf8484ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Moscow"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Moscow"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd7722ecb7e9645d3bd7a2707cbf8484ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd7722ecb7e9645d3bd7a2707cbf8484ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd7722ecb7e9645d3bd7a2707cbf8484ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/05p9e6e48",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-16"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Center for Cardiovascular Surgery Astrakhan"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FCCVS Astrakhan"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FGBO \"FCfCVS\" of Russia Medical Department (Astrakhan)"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ФГБУ «ФЦССХ» Минздрава России (г. Астрахань)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2009"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf5faed9c56314db48685123fba26b391b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://astra-cardio.ru"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Center for Cardiovascular Surgery Astrakhan"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://astra-cardio.ru"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf5faed9c56314db48685123fba26b391b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[48.04076,46.34968]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/580497"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf5faed9c56314db48685123fba26b391b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf5faed9c56314db48685123fba26b391b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf5faed9c56314db48685123fba26b391b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Astrakhan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nf5faed9c56314db48685123fba26b391b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf5faed9c56314db48685123fba26b391b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf5faed9c56314db48685123fba26b391b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

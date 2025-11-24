@@ -1,0 +1,133 @@
+[
+  {
+    "@id": "https://ror.org/01qz8r868",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación Corazón de Jesús"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2005"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n72a1712b1b5f4f4fa8fa56b7804e6f64b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://miguelgarcesodont.wixsite.com/corazon-de-jesus"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación Corazón de Jesús"
+      }
+    ]
+  },
+  {
+    "@id": "_:n72a1712b1b5f4f4fa8fa56b7804e6f64b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-68.52568,-31.53726]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3837213"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n72a1712b1b5f4f4fa8fa56b7804e6f64b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n72a1712b1b5f4f4fa8fa56b7804e6f64b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n72a1712b1b5f4f4fa8fa56b7804e6f64b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "San Juan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "San Juan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n72a1712b1b5f4f4fa8fa56b7804e6f64b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n72a1712b1b5f4f4fa8fa56b7804e6f64b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Argentina"
+      }
+    ]
+  },
+  {
+    "@id": "_:n72a1712b1b5f4f4fa8fa56b7804e6f64b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

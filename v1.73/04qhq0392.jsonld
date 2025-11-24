@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/04qhq0392",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "D.V.Efremov Institute of Electrophysical Apparatus (Russia)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NIIEFA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1945"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n944a8dcdb49943c2baf9d6ec84046e89b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://niiefa.spb.su"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "D.V.Efremov Institute of Electrophysical Apparatus (Russia)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.494868.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000098707696"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://niiefa.spb.su"
+      }
+    ]
+  },
+  {
+    "@id": "_:n944a8dcdb49943c2baf9d6ec84046e89b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[30.54778,59.80083]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/527361"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n944a8dcdb49943c2baf9d6ec84046e89b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n944a8dcdb49943c2baf9d6ec84046e89b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n944a8dcdb49943c2baf9d6ec84046e89b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Metallostroy"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "St.-Petersburg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n944a8dcdb49943c2baf9d6ec84046e89b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n944a8dcdb49943c2baf9d6ec84046e89b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n944a8dcdb49943c2baf9d6ec84046e89b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

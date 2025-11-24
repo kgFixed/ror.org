@@ -1,0 +1,168 @@
+[
+  {
+    "@id": "https://ror.org/050et2s91",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Statistics Poland"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Statistics_Poland"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GUS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Central Statistical Office"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Glowny Urzad Statystyczny"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Główny Urząd Statystyczny"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1918"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6327efbda77e4ad59e8fef64f5674d61b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://stat.gov.pl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Statistics Poland"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000121813922"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://stat.gov.pl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6327efbda77e4ad59e8fef64f5674d61b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[21.01178,52.22977]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/756135"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6327efbda77e4ad59e8fef64f5674d61b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6327efbda77e4ad59e8fef64f5674d61b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6327efbda77e4ad59e8fef64f5674d61b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Warsaw"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Mazovia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6327efbda77e4ad59e8fef64f5674d61b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6327efbda77e4ad59e8fef64f5674d61b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Poland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6327efbda77e4ad59e8fef64f5674d61b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

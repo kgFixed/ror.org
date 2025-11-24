@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/03gc4br58",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Ethik, Geschichte und Theorie der Medizin"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Ethik, Geschichte und Theorie der Medizin der LMU München"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Ethik, Geschichte und Theorie der Medizin ist Teil der Medizinischen Fakultät der Ludwig-Maximilians-Universität (LMU) München"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1939"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.egt.med.uni-muenchen.de/index.html"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Ethik, Geschichte und Theorie der Medizin"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ludwig-Maximilians-Universität München"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05591te55"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.57549,48.13743]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2867714"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Munich"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bavaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97e0f228fd5c4f8eb5638ba863a75183b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "@id": "https://ror.org/04jfsqd34",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Alupe University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Alupe_University_College"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Alupe"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Alupe University College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2015"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n019b85c6ec7842be8b31c06defe3fb30b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://au.ac.ke"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Alupe University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000480044774"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://au.ac.ke"
+      }
+    ]
+  },
+  {
+    "@id": "_:n019b85c6ec7842be8b31c06defe3fb30b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[34.11169,0.46005]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/199989"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n019b85c6ec7842be8b31c06defe3fb30b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n019b85c6ec7842be8b31c06defe3fb30b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n019b85c6ec7842be8b31c06defe3fb30b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Busia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Busia County"
+      }
+    ]
+  },
+  {
+    "@id": "_:n019b85c6ec7842be8b31c06defe3fb30b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n019b85c6ec7842be8b31c06defe3fb30b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kenya"
+      }
+    ]
+  },
+  {
+    "@id": "_:n019b85c6ec7842be8b31c06defe3fb30b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

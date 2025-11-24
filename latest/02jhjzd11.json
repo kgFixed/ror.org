@@ -1,93 +1,116 @@
 {
-  "id": "https://ror.org/02jhjzd11",
-  "name": "National School for Water and Environmental Engineering",
-  "email_address": null,
-  "ip_addresses": [],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-29",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
   "established": 1952,
-  "types": [
-    "Education"
+  "external_ids": [
+    {
+      "all": [
+        "501100019834"
+      ],
+      "preferred": "501100019834",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.466385.a"
+      ],
+      "preferred": "grid.466385.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8652 7065"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578160"
+      ],
+      "preferred": "Q3578160",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02jhjzd11",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://engees.unistra.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.58392,
+        "lng": 7.74553,
+        "name": "Strasbourg"
+      },
+      "geonames_id": 2973783
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENGEES"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES)"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National School for Water and Environmental Engineering"
+    }
   ],
   "relationships": [
     {
-      "label": "Laboratory of Hydrology and Geochemistry",
-      "type": "Child",
-      "id": "https://ror.org/03y81da23"
+      "label": "GESTE - Gestion Territoriale de l'Eau et de l'Environnement",
+      "type": "child",
+      "id": "https://ror.org/00pz29t13"
     },
     {
-      "label": "Earth and Environment Institute of Strasbourg",
-      "type": "Child",
+      "label": "Institut Terre & Environnement de Strasbourg",
+      "type": "child",
       "id": "https://ror.org/0530qwm02"
-    }
-  ],
-  "addresses": [
+    },
     {
-      "lat": 48.58392,
-      "lng": 7.74553,
-      "state": null,
-      "state_code": null,
-      "city": "Strasbourg",
-      "geonames_city": {
-        "id": 2973783,
-        "city": "Strasbourg",
-        "geonames_admin1": {
-          "name": "Grand Est",
-          "id": 11071622,
-          "ascii_name": "Grand Est",
-          "code": "FR.44"
-        },
-        "geonames_admin2": {
-          "name": "Bas-Rhin",
-          "id": 3034720,
-          "ascii_name": "Bas-Rhin",
-          "code": "FR.44.67"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 3017382
+      "label": "Fédération de Recherche sur l'Energie Solaire",
+      "type": "related",
+      "id": "https://ror.org/0459fdx51"
     }
-  ],
-  "links": [
-    "http://engees.unistra.fr/en/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "ENGEES"
   ],
   "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "country": {
-    "country_name": "France",
-    "country_code": "FR"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0000 8652 7065"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.466385.a",
-      "all": "grid.466385.a"
-    }
-  }
+  "types": [
+    "education",
+    "funder"
+  ]
 }

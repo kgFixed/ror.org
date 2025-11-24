@@ -1,0 +1,192 @@
+[
+  {
+    "@id": "https://ror.org/00pw7mk43",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Office for Defence Procurement"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Armasuisse"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Armasuisse"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bundesamt für Rüstung"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Office fédéral de l'armement"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ufficio federale dell'armamento"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ned58d03b55104e218684e803e4e4f54eb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ned58d03b55104e218684e803e4e4f54eb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ar.admin.ch"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Office for Defence Procurement"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100030932"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ar.admin.ch"
+      }
+    ]
+  },
+  {
+    "@id": "_:ned58d03b55104e218684e803e4e4f54eb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Department of Defence, Civil Protection and Sports"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02q3y8p81"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ned58d03b55104e218684e803e4e4f54eb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[7.44744,46.94809]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2661552"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ned58d03b55104e218684e803e4e4f54eb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ned58d03b55104e218684e803e4e4f54eb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ned58d03b55104e218684e803e4e4f54eb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bern"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bern"
+      }
+    ]
+  },
+  {
+    "@id": "_:ned58d03b55104e218684e803e4e4f54eb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ned58d03b55104e218684e803e4e4f54eb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Switzerland"
+      }
+    ]
+  },
+  {
+    "@id": "_:ned58d03b55104e218684e803e4e4f54eb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

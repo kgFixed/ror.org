@@ -1,0 +1,200 @@
+[
+  {
+    "@id": "https://ror.org/024yfzm72",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National University of Jujuy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/National_University_of_Jujuy"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb1"
+      },
+      {
+        "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1973"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.unju.edu.ar/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National University of Jujuy"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.412217.3"
+      },
+      {
+        "@id": "http://isni.org/isni/000000012111315X"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Científico Tecnológico Salta - Jujuy"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04tpkqz22"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Interdisciplinario de Investigaciones en Tecnologías y Desarrollo Social para el NOA"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/015meej47"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-65.29342,-24.1928]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3836564"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "San Salvador de Jujuy"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Jujuy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Argentina"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0bdfbe4752794c8694405e7c8cda135bb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

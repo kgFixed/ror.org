@@ -1,0 +1,52 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00waz9262> a org:Organization ;
+    rdfs:label 'UMR Développement et Sociétés'^^xsd:string; 
+    schema:name 'UMR Développement et Sociétés'^^xsd:string; 
+    schema:foundingDate '2014'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2023-08-17'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'DEVSOC'^^xsd:string; 
+    org:alternativeName 'UMR 201'^^xsd:string ; 
+    org:alternativeName 'UMR201'^^xsd:string ; 
+    schema:mainEntityOfPage <http://recherche-iedes.univ-paris1.fr> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/002t25c44> ;
+        rdfs:label 'Université Paris 1 Panthéon-Sorbonne'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/05q3vnk25> ;
+        rdfs:label 'Institut de Recherche pour le Développement'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[2.3488,48.85341]}" ;
+            schema:address [
+                schema:addressLocality "Paris" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Île-de-France" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2988507> ;
+        ] ; 
+    .

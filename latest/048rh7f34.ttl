@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/048rh7f34> a org:Organization ;
+    rdfs:label 'Jubilo Co., Ltd.'^^xsd:string; 
+    schema:name 'Jubilo Co., Ltd.'^^xsd:string; 
+    schema:foundingDate '1992'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Jubilo'^^xsd:string ; 
+    org:alternativeName 'Jubilo Iwata'^^xsd:string ; 
+    org:alternativeName 'ジュビロ磐田'^^xsd:string ; 
+    schema:url <http://jubilo-iwata.co.jp> ; 
+    schema:url <http://jubilo.com> ; 
+    schema:mainEntityOfPage <https://www.jubilo-iwata.co.jp> ;
+    owl:sameAs <https://ja.wikipedia.org/wiki/%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%2593%25E3%2583%25AD%25E7%25A3%2590%25E7%2594%25B0> ; 
+    schema:sameAs <http://isni.org/isni/0000000406215336> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[138.38333,34.98333]}" ;
+            schema:address [
+                schema:addressLocality "Shizuoka" ;
+                schema:addressCountry "JP" ;
+                schema:addressRegion "Shizuoka" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Japan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1851717> ;
+        ] ; 
+    .

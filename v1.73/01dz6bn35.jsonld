@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/01dz6bn35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Community Health Systems - AllianceHealth Durant"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/AllianceHealth_Durant"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AllianceHealth Durant"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.alliancehealthdurant.com/alliancehealth-durant"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Community Health Systems - AllianceHealth Durant"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://alliancehealthdurant.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Community Health Systems Professional Services Corporation (DBA Community Health Systems)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01ja0g918"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-96.37082,33.99399]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4535414"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Durant"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oklahoma"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf96a3e129b1b4c23a089f2d7fc345553b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

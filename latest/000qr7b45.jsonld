@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/000qr7b45",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Directorate of Health"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Embætti landlæknis"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5b9737da23d54d75bdcad0088d377326b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://island.is/s/landlaeknir"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Directorate of Health"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.494099.9"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406435363"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://landlaeknir.is"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5b9737da23d54d75bdcad0088d377326b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-21.89541,64.13548]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3413829"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5b9737da23d54d75bdcad0088d377326b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5b9737da23d54d75bdcad0088d377326b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5b9737da23d54d75bdcad0088d377326b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IS"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Reykjavik"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Capital Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5b9737da23d54d75bdcad0088d377326b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5b9737da23d54d75bdcad0088d377326b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iceland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5b9737da23d54d75bdcad0088d377326b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

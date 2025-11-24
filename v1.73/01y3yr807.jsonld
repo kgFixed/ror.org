@@ -1,0 +1,168 @@
+[
+  {
+    "@id": "https://ror.org/01y3yr807",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Siglo 21"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Siglo 21 Business University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Siglo 21 University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Empresarial Siglo 21"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Empresarial Siglo XXI"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Siglo XXI"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1995"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n38c13d27843e457ea27de7fae94e1ca9b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://21.edu.ar"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Siglo 21"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.441709.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404904496"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://21.edu.ar"
+      }
+    ]
+  },
+  {
+    "@id": "_:n38c13d27843e457ea27de7fae94e1ca9b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-64.18853,-31.40648]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3860259"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n38c13d27843e457ea27de7fae94e1ca9b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n38c13d27843e457ea27de7fae94e1ca9b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n38c13d27843e457ea27de7fae94e1ca9b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Córdoba"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Cordoba"
+      }
+    ]
+  },
+  {
+    "@id": "_:n38c13d27843e457ea27de7fae94e1ca9b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n38c13d27843e457ea27de7fae94e1ca9b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Argentina"
+      }
+    ]
+  },
+  {
+    "@id": "_:n38c13d27843e457ea27de7fae94e1ca9b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

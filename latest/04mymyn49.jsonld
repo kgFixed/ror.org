@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/04mymyn49",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Polytechnic Wannune"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FPW"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2021"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n97fc8a911b2e459b93782a51c564ec66b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://fedpolywannune.edu.ng"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Polytechnic Wannune"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fedpolywannune.edu.ng"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97fc8a911b2e459b93782a51c564ec66b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.88333,7.56667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2319188"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n97fc8a911b2e459b93782a51c564ec66b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97fc8a911b2e459b93782a51c564ec66b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n97fc8a911b2e459b93782a51c564ec66b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Wannune"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Benue State"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97fc8a911b2e459b93782a51c564ec66b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n97fc8a911b2e459b93782a51c564ec66b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97fc8a911b2e459b93782a51c564ec66b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

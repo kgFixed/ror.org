@@ -1,0 +1,50 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/038aqt498> a org:Organization ;
+    rdfs:label 'Kuala Lumpur University of Science & Technology'^^xsd:string; 
+    schema:name 'Kuala Lumpur University of Science & Technology'^^xsd:string; 
+    schema:foundingDate '1998'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'IUKL'^^xsd:string; 
+    org:alternativeName 'Infrastructure University Kuala Lumpur'^^xsd:string ; 
+    org:abbreviation 'KLIUC'^^xsd:string; 
+    org:abbreviation 'KLUST'^^xsd:string; 
+    org:alternativeName 'Kolej Universiti Infrastruktur Kuala Lumpur'^^xsd:string ; 
+    org:alternativeName 'Kuala Lumpur Infrastructure University College'^^xsd:string ; 
+    org:alternativeName 'Kuala Lumpur University of Science and Technology'^^xsd:string ; 
+    org:alternativeName '吉隆坡建设大学'^^xsd:string ; 
+    schema:url <http://iukl.edu.my> ; 
+    schema:url <http://klust.edu.my> ; 
+    schema:mainEntityOfPage <https://klust.edu.my> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Infrastructure_University_Kuala_Lumpur> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.444458.d> ;
+    schema:sameAs <http://isni.org/isni/0000000406469029> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[101.25,3.35]}" ;
+            schema:address [
+                schema:addressLocality "Kuala Selangor" ;
+                schema:addressCountry "MY" ;
+                schema:addressRegion "Selangor" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Malaysia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1732891> ;
+        ] ; 
+    .

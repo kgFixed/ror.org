@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/001ydyr37> a org:Organization ;
+    rdfs:label 'Técnicas Reunidas (Spain)'^^xsd:string; 
+    schema:name 'Técnicas Reunidas (Spain)'^^xsd:string; 
+    schema:foundingDate '1959'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'TRSA'^^xsd:string; 
+    schema:url <http://tecnicasreunidas.es> ; 
+    schema:mainEntityOfPage <https://www.tecnicasreunidas.es/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/T%25C3%25A9cnicas_Reunidas> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.426268.c> ;
+    schema:sameAs <http://isni.org/isni/0000000417815265> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-3.70256,40.4165]}" ;
+            schema:address [
+                schema:addressLocality "Madrid" ;
+                schema:addressCountry "ES" ;
+                schema:addressRegion "Madrid" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Spain" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3117735> ;
+        ] ; 
+    .

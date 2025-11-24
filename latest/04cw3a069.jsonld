@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/04cw3a069",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-04"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Historical Association of Northern Finland"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1976"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nee05d57c533b459eb57fc74bad776411b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.pshy.fi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Historical Association of Northern Finland"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://pshy.fi"
+      }
+    ]
+  },
+  {
+    "@id": "_:nee05d57c533b459eb57fc74bad776411b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[25.71667,66.5]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/638936"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nee05d57c533b459eb57fc74bad776411b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nee05d57c533b459eb57fc74bad776411b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nee05d57c533b459eb57fc74bad776411b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FI"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rovaniemi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lapland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nee05d57c533b459eb57fc74bad776411b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nee05d57c533b459eb57fc74bad776411b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Finland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nee05d57c533b459eb57fc74bad776411b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "@id": "https://ror.org/0120yqp15",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-21"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Solihull College"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Solihull_College"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Solihull College & University Centre"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Solihull College of Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1954"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc1ab6bce6c7d4894aa0ef0ed1b475089b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.solihull.ac.uk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Solihull College"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.469222.9"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404647987"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://solihull.ac.uk"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1ab6bce6c7d4894aa0ef0ed1b475089b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-1.78094,52.41426]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2637546"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc1ab6bce6c7d4894aa0ef0ed1b475089b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1ab6bce6c7d4894aa0ef0ed1b475089b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc1ab6bce6c7d4894aa0ef0ed1b475089b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Solihull"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1ab6bce6c7d4894aa0ef0ed1b475089b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc1ab6bce6c7d4894aa0ef0ed1b475089b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1ab6bce6c7d4894aa0ef0ed1b475089b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

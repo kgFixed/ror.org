@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/032typz45",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Arqueologia da Almada"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndf463816d33b44bf9a8aca68c79181acb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.caa.org.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Arqueologia da Almada"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000403930414"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://caa.org.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf463816d33b44bf9a8aca68c79181acb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-9.1569,38.67902]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2271961"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndf463816d33b44bf9a8aca68c79181acb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf463816d33b44bf9a8aca68c79181acb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndf463816d33b44bf9a8aca68c79181acb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Almada"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Setúbal"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf463816d33b44bf9a8aca68c79181acb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndf463816d33b44bf9a8aca68c79181acb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf463816d33b44bf9a8aca68c79181acb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

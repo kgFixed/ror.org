@@ -1,0 +1,175 @@
+[
+  {
+    "@id": "https://ror.org/00envkz24",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Greenlane Clinical Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GCC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2003"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.adhb.health.nz/patients-and-visitors/hospitals-and-clinics/greenlane-clinical-centre/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Greenlane Clinical Centre"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.413382.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406217198"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Health New Zealand"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01jvwvd85"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[174.76349,-36.84853]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2193733"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Auckland"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Auckland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49bfa1c6e65f4c0f898a98450ab34e29b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

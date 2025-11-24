@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/007bpwb04",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundacion Agencia Aragonesa para la Investigacion y el Desarrollo"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ARAID"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2005"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfce07cb7704f4858af19295fb39d1335b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://araid.es"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundacion Agencia Aragonesa para la Investigacion y el Desarrollo"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100008767"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.450869.6"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417629673"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://araid.es"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfce07cb7704f4858af19295fb39d1335b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-0.87734,41.65606]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3104324"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfce07cb7704f4858af19295fb39d1335b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfce07cb7704f4858af19295fb39d1335b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfce07cb7704f4858af19295fb39d1335b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zaragoza"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Aragon"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfce07cb7704f4858af19295fb39d1335b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfce07cb7704f4858af19295fb39d1335b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfce07cb7704f4858af19295fb39d1335b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/024mz3949",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Three Rivers Park District"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Three_Rivers_Park_District"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "TRPD"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hennepin County Park Reserve District"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Suburban Hennepin Park District"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1957"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfe7978ad3eda4ccdab65ec6cbf8bb53eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.threeriversparks.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Three Rivers Park District"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://threeriversparks.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe7978ad3eda4ccdab65ec6cbf8bb53eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-93.45551,45.01052]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5041926"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfe7978ad3eda4ccdab65ec6cbf8bb53eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe7978ad3eda4ccdab65ec6cbf8bb53eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfe7978ad3eda4ccdab65ec6cbf8bb53eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Plymouth"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Minnesota"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe7978ad3eda4ccdab65ec6cbf8bb53eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfe7978ad3eda4ccdab65ec6cbf8bb53eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe7978ad3eda4ccdab65ec6cbf8bb53eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

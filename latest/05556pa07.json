@@ -1,93 +1,93 @@
 {
-    "id": "https://ror.org/05556pa07",
-    "name": "Łukasiewicz Research Network - Institute for Engineering of Polymer Materials and Dyes",
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 1962,
-    "types": [
-        "Facility"
-    ],
-    "relationships": [],
-    "addresses": [
-        {
-            "lat": 52.18435,
-            "lng": 20.83952,
-            "state": null,
-            "state_code": null,
-            "city": "Piastów",
-            "geonames_city": {
-                "id": 762381,
-                "city": "Piastów",
-                "geonames_admin1": {
-                    "name": "Mazovia",
-                    "id": 858787,
-                    "ascii_name": "Mazovia",
-                    "code": "PL.78"
-                },
-                "geonames_admin2": {
-                    "name": "Powiat pruszkowski",
-                    "id": 7530885,
-                    "ascii_name": "Powiat pruszkowski",
-                    "code": "PL.78.1421"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 798544
-        }
-    ],
-    "links": [
-        "http://www.impib.pl/"
-    ],
-    "aliases": [],
-    "acronyms": [
-        "IIMPiB"
-    ],
-    "status": "active",
-    "wikipedia_url": "https://pl.wikipedia.org/wiki/Instytut_In%C5%BCynierii_Materia%C5%82%C3%B3w_Polimerowych_i_Barwnik%C3%B3w_w_Toruniu",
-    "labels": [
-        {
-            "label": "Sieć Badawcza Łukasiewicz –Instytut Inżynierii Materiałów Polimerowych i Barwników",
-            "iso639": "pl"
-        }
-    ],
-    "country": {
-        "country_name": "Poland",
-        "country_code": "PL"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0000 9467 230X"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.460374.2",
-            "all": "grid.460374.2"
-        },
-        "Wikidata": {
-            "preferred": "Q30261007",
-            "all": [
-                "Q30261007"
-            ]
-        }
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
     }
+  },
+  "domains": [],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "grid.460374.2"
+      ],
+      "preferred": "grid.460374.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9467 230X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261007"
+      ],
+      "preferred": "Q30261007",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05556pa07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://impib.lukasiewicz.gov.pl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://pl.wikipedia.org/wiki/Instytut_In%C5%BCynierii_Materia%C5%82%C3%B3w_Polimerowych_i_Barwnik%C3%B3w_w_Toruniu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "04",
+        "country_subdivision_name": "Kujawsko-Pomorskie",
+        "lat": 53.01375,
+        "lng": 18.59814,
+        "name": "Torun"
+      },
+      "geonames_id": 3083271
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IIMPiB"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Sieć Badawcza Łukasiewicz –Instytut Inżynierii Materiałów Polimerowych i Barwników"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Łukasiewicz Research Network - Institute for Engineering of Polymer Materials and Dyes"
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
 }

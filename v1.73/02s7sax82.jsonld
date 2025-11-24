@@ -1,0 +1,202 @@
+[
+  {
+    "@id": "https://ror.org/02s7sax82",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Comisión de Investigaciones Científicas"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CIC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf8f93718caf948ea9f9007350a08b73ab1"
+      },
+      {
+        "@id": "_:nf8f93718caf948ea9f9007350a08b73ab2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf8f93718caf948ea9f9007350a08b73ab3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cic.gba.gob.ar"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Comisión de Investigaciones Científicas"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100006258"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.452362.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417623757"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f93718caf948ea9f9007350a08b73ab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laboratorio de Investigaciones del Territorio y el Ambiente"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03w9ctg72"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f93718caf948ea9f9007350a08b73ab2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Investigaciones en Fitopatologías"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/039ywxz78"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f93718caf948ea9f9007350a08b73ab3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-57.95442,-34.92126]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3432043"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf8f93718caf948ea9f9007350a08b73ab4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f93718caf948ea9f9007350a08b73ab4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf8f93718caf948ea9f9007350a08b73ab5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "La Plata"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Buenos Aires"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f93718caf948ea9f9007350a08b73ab5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf8f93718caf948ea9f9007350a08b73ab6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Argentina"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f93718caf948ea9f9007350a08b73ab6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

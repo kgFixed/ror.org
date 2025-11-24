@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01rf1rj96> a org:Organization ;
+    rdfs:label 'Kangwon National University Hospital'^^xsd:string; 
+    schema:name 'Kangwon National University Hospital'^^xsd:string; 
+    schema:foundingDate '1910'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'KNUH'^^xsd:string; 
+    schema:url <http://knuh.or.kr> ; 
+    schema:mainEntityOfPage <https://www.knuh.or.kr/main/main.asp> ;
+    schema:sameAs <https://grid.ac/institutions/grid.412011.7> ;
+    schema:sameAs <http://isni.org/isni/0000000418030072> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/01mh5ph17> ;
+        rdfs:label 'Kangwon National University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[127.73417,37.87472]}" ;
+            schema:address [
+                schema:addressLocality "Chuncheon" ;
+                schema:addressCountry "KR" ;
+                schema:addressRegion "Gangwon-do" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "South Korea" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1845136> ;
+        ] ; 
+    .

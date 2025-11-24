@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05j7wbb86> a org:Organization ;
+    rdfs:label '109 Szpital Wojskowy z Przychodnią w Szczecinie'^^xsd:string; 
+    schema:name '109 Szpital Wojskowy z Przychodnią w Szczecinie'^^xsd:string; 
+    schema:foundingDate '1945'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName '109 Military Hospital with Policlinic in Szczecin'^^xsd:string ; 
+    org:alternativeName '109 Szpital Wojskowy z Przychodnią'^^xsd:string ; 
+    schema:url <http://109szpital.pl> ; 
+    schema:mainEntityOfPage <https://www.109szpital.pl> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[14.55302,53.42894]}" ;
+            schema:address [
+                schema:addressLocality "Szczecin" ;
+                schema:addressCountry "PL" ;
+                schema:addressRegion "West Pomerania" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Poland" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3083829> ;
+        ] ; 
+    .

@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02jmvh098> a org:Organization ;
+    rdfs:label 'Angarsk State Technical Academy'^^xsd:string; 
+    schema:name 'Angarsk State Technical Academy'^^xsd:string; 
+    schema:foundingDate '2005'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'AGTA'^^xsd:string; 
+    org:abbreviation 'АГТА'^^xsd:string; 
+    schema:url <http://angtu.ru> ; 
+    schema:mainEntityOfPage <https://angtu.ru> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Angarsk_State_Technical_Academy> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.445874.e> ;
+    schema:sameAs <http://isni.org/isni/0000000449118261> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[103.91413,52.55968]}" ;
+            schema:address [
+                schema:addressLocality "Angarsk" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "Irkutsk Oblast" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2027667> ;
+        ] ; 
+    .

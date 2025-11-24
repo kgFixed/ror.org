@@ -1,0 +1,174 @@
+[
+  {
+    "@id": "https://ror.org/04dj2za52",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-30"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Africa University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Africa_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1992"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.africau.edu/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Africa University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.442719.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000089300245"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zimbabwe University Libraries Consortium"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04y0q2a96"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[32.67086,-18.9707]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/884979"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mutare"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Zimbabwe"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9258f447b47f4e89a3c036ce9532aaedb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

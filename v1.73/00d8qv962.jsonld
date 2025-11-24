@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/00d8qv962",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St Andrew's Healthcare"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/St_Andrew%2527s_Healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1838"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n772054ca539e45a2b0b58d2345b13b0ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.stah.org/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St Andrew's Healthcare"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.416341.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404455336"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://stah.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n772054ca539e45a2b0b58d2345b13b0ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-0.88333,52.25]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2641430"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n772054ca539e45a2b0b58d2345b13b0ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n772054ca539e45a2b0b58d2345b13b0ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n772054ca539e45a2b0b58d2345b13b0ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Northampton"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "England"
+      }
+    ]
+  },
+  {
+    "@id": "_:n772054ca539e45a2b0b58d2345b13b0ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n772054ca539e45a2b0b58d2345b13b0ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "@id": "_:n772054ca539e45a2b0b58d2345b13b0ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

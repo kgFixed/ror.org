@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/01fkbmk11",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Maritime Research Institute Netherlands"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Maritime_Research_Institute_Netherlands"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MARIN"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1873"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc0c6728b7841465b968a277238883fc6b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.marin.nl/en"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Maritime Research Institute Netherlands"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.22609.3f"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://marin.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc0c6728b7841465b968a277238883fc6b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.66667,51.97]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2745088"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc0c6728b7841465b968a277238883fc6b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc0c6728b7841465b968a277238883fc6b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc0c6728b7841465b968a277238883fc6b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Wageningen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gelderland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc0c6728b7841465b968a277238883fc6b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc0c6728b7841465b968a277238883fc6b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc0c6728b7841465b968a277238883fc6b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

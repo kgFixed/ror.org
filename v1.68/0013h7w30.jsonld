@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/0013h7w30",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Y SCHOOLS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1992"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n20c31ee02d1d4a4f84b748a071995f4cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.yschools.fr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Y SCHOOLS"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://yschools.fr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n20c31ee02d1d4a4f84b748a071995f4cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.08524,48.30073]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2971549"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n20c31ee02d1d4a4f84b748a071995f4cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n20c31ee02d1d4a4f84b748a071995f4cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n20c31ee02d1d4a4f84b748a071995f4cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Troyes"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Grand Est"
+      }
+    ]
+  },
+  {
+    "@id": "_:n20c31ee02d1d4a4f84b748a071995f4cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n20c31ee02d1d4a4f84b748a071995f4cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:n20c31ee02d1d4a4f84b748a071995f4cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

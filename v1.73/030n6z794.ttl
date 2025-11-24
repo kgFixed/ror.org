@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/030n6z794> a org:Organization ;
+    rdfs:label 'Aerospace Technology Institute'^^xsd:string; 
+    schema:name 'Aerospace Technology Institute'^^xsd:string; 
+    schema:foundingDate '2014'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'ATI'^^xsd:string; 
+    schema:url <http://ati.org.uk> ; 
+    schema:mainEntityOfPage <https://www.ati.org.uk/> ;
+    schema:sameAs <https://api.crossref.org/funders/100013406> ;
+    schema:sameAs <https://grid.ac/institutions/grid.493167.e> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-0.60884,52.06869]}" ;
+            schema:address [
+                schema:addressLocality "Cranfield" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "England" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2652087> ;
+        ] ; 
+    .

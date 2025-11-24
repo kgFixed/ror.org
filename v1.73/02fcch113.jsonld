@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/02fcch113",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Associação de Municípios do Vale do Ave"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AMAVE"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nabc3d86fa7b74c91ba252acc45358116b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.amave.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Associação de Municípios do Vale do Ave"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000460079910"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://amave.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:nabc3d86fa7b74c91ba252acc45358116b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.29619,41.44443]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2738752"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nabc3d86fa7b74c91ba252acc45358116b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nabc3d86fa7b74c91ba252acc45358116b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nabc3d86fa7b74c91ba252acc45358116b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Guimarães"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Braga"
+      }
+    ]
+  },
+  {
+    "@id": "_:nabc3d86fa7b74c91ba252acc45358116b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nabc3d86fa7b74c91ba252acc45358116b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nabc3d86fa7b74c91ba252acc45358116b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

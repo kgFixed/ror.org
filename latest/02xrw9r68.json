@@ -1,110 +1,119 @@
 {
-  "id": "https://ror.org/02xrw9r68",
-  "name": "Université du Québec à Trois-Rivières",
-  "email_address": null,
-  "ip_addresses": [],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uqtr.ca"
+  ],
   "established": 1969,
-  "types": [
-    "Education"
+  "external_ids": [
+    {
+      "all": [
+        "100009850"
+      ],
+      "preferred": "100009850",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265703.5"
+      ],
+      "preferred": "grid.265703.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2197 8284"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q919256"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02xrw9r68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uqtr.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universit%C3%A9_du_Qu%C3%A9bec_%C3%A0_Trois-Rivi%C3%A8res"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.34515,
+        "lng": -72.5477,
+        "name": "Trois-Rivières"
+      },
+      "geonames_id": 6169141
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UQTR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of Quebec at Trois-Rivieres"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Université du Québec à Trois-Rivières"
+    }
   ],
   "relationships": [
     {
+      "label": "Université du Québec",
+      "type": "parent",
+      "id": "https://ror.org/010gxg263"
+    },
+    {
       "label": "CentrEau - Quebec Water Management Research Centre",
-      "type": "Related",
+      "type": "related",
       "id": "https://ror.org/03wx0vn75"
     },
     {
-      "label": "St. Lawrence Global Observatory",
-      "type": "Related",
+      "label": "Observatoire global du Saint-Laurent (OGSL)",
+      "type": "related",
       "id": "https://ror.org/03wfagk22"
     }
   ],
-  "addresses": [
-    {
-      "lat": 46.34515,
-      "lng": -72.5477,
-      "state": null,
-      "state_code": null,
-      "city": "Trois-Rivières",
-      "geonames_city": {
-        "id": 6169141,
-        "city": "Trois-Rivières",
-        "geonames_admin1": {
-          "name": "Quebec",
-          "id": 6115047,
-          "ascii_name": "Quebec",
-          "code": "CA.10"
-        },
-        "geonames_admin2": {
-          "name": "Mauricie",
-          "id": 6068167,
-          "ascii_name": "Mauricie",
-          "code": "CA.10.04"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 6251999
-    }
-  ],
-  "links": [
-    "http://www.uqtr.ca/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "UQTR"
-  ],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/Universit%C3%A9_du_Qu%C3%A9bec_%C3%A0_Trois-Rivi%C3%A8res",
-  "labels": [
-    {
-      "label": "University of Quebec at Trois-Rivieres",
-      "iso639": "en"
-    }
-  ],
-  "country": {
-    "country_name": "Canada",
-    "country_code": "CA"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 2197 8284"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "505387"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q919256"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.265703.5",
-      "all": "grid.265703.5"
-    }
-  }
+  "types": [
+    "education",
+    "funder"
+  ]
 }

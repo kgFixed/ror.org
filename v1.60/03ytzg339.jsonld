@@ -1,0 +1,175 @@
+[
+  {
+    "@id": "https://ror.org/03ytzg339",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Defense & Veterans Center for Integrative Pain Management"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DVCIPM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2003"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.dvcipm.org/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Defense & Veterans Center for Integrative Pain Management"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.490052.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000484968202"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Uniformed Services University of the Health Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04r3kq386"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-77.15276,39.084]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4367175"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rockville"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Maryland"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfdcff248b0c4d2fb4cc67b3e94a75ffb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

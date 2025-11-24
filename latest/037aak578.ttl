@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/037aak578> a org:Organization ;
+    rdfs:label 'SVKM\'s Narsee Monjee College of Commerce and Economics'^^xsd:string; 
+    schema:name 'SVKM\'s Narsee Monjee College of Commerce and Economics'^^xsd:string; 
+    schema:foundingDate '1964'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'NMCCE'^^xsd:string; 
+    org:alternativeName 'Narsee Monjee College of Commerce & Economics'^^xsd:string ; 
+    org:alternativeName 'Narsee Monjee College of Commerce and Economics'^^xsd:string ; 
+    schema:url <http://nmcce.ac.in> ; 
+    schema:mainEntityOfPage <https://nmcollege.in> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Narsee_Monjee_College_of_Commerce_and_Economics> ; 
+    schema:sameAs <http://isni.org/isni/0000000417682546> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/032hdk172> ;
+        rdfs:label 'University of Mumbai'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03ddhrn22> ;
+        rdfs:label 'Shri Vile Parle Kelavani Mandal'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[72.88261,19.07283]}" ;
+            schema:address [
+                schema:addressLocality "Mumbai" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Maharashtra" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1275339> ;
+        ] ; 
+    .

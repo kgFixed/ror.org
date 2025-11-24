@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04wjje695> a org:Organization ;
+    rdfs:label 'Philippine School Doha'^^xsd:string; 
+    schema:name 'Philippine School Doha'^^xsd:string; 
+    schema:foundingDate '1992'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'PSD'^^xsd:string; 
+    schema:url <http://psd.sch.qa> ; 
+    schema:url <http://psdqatar.com> ; 
+    schema:mainEntityOfPage <https://psd.sch.qa> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Philippine_School_Doha> ; 
+    schema:sameAs <http://isni.org/isni/0000000468142283> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[51.53096,25.28545]}" ;
+            schema:address [
+                schema:addressLocality "Doha" ;
+                schema:addressCountry "QA" ;
+                schema:addressRegion "Baladīyat ad Dawḩah" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Qatar" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/290030> ;
+        ] ; 
+    .

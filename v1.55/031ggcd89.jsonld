@@ -1,0 +1,181 @@
+[
+  {
+    "@id": "https://ror.org/031ggcd89",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-29"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sherubtse College"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Sherubtse_College"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sherubtse"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sherubtse College, Kanglung"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n48fe88a45a6244c0884a9b833497c940b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1968"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n48fe88a45a6244c0884a9b833497c940b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.sherubtse.edu.bt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sherubtse College"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sherubtse.edu.bt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n48fe88a45a6244c0884a9b833497c940b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal University of Bhutan"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03hqan520"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n48fe88a45a6244c0884a9b833497c940b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[91.54,27.29]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/7647496"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n48fe88a45a6244c0884a9b833497c940b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n48fe88a45a6244c0884a9b833497c940b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n48fe88a45a6244c0884a9b833497c940b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kanglung"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n48fe88a45a6244c0884a9b833497c940b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n48fe88a45a6244c0884a9b833497c940b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bhutan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n48fe88a45a6244c0884a9b833497c940b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

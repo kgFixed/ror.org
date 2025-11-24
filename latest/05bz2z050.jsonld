@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/05bz2z050",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Euro-Argo ERIC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Euro-Argo"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "European Contribution to the International Argo Programme"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2014"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd09eecdb21fe454aa5c095898ca7e1b9b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.euro-argo.eu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Euro-Argo ERIC"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://euro-argo.eu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd09eecdb21fe454aa5c095898ca7e1b9b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-4.62028,48.38222]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6453934"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd09eecdb21fe454aa5c095898ca7e1b9b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd09eecdb21fe454aa5c095898ca7e1b9b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd09eecdb21fe454aa5c095898ca7e1b9b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Plouzané"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Brittany"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd09eecdb21fe454aa5c095898ca7e1b9b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd09eecdb21fe454aa5c095898ca7e1b9b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd09eecdb21fe454aa5c095898ca7e1b9b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

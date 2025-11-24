@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/01gpt0r18",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Dongwon F&B Co., Ltd. (South Korea)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Dongwon F&B"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2000"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nec2c0905f7724963906635e262370094b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.dongwonfnb.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Dongwon F&B Co., Ltd. (South Korea)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dongwonfnb.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec2c0905f7724963906635e262370094b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[126.9784,37.566]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1835848"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nec2c0905f7724963906635e262370094b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec2c0905f7724963906635e262370094b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nec2c0905f7724963906635e262370094b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Seoul"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Seoul"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec2c0905f7724963906635e262370094b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nec2c0905f7724963906635e262370094b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec2c0905f7724963906635e262370094b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

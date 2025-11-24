@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/056j70537",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior Tecnológico Portoviejo con condición Superior Universitario \"ITSUP\""
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ITSUP"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior Tecnológico Portoviejo"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior Tecnológico Portoviejo con condición Superior Universitario"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1996"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6845f54a9efc486a800f4d69dd3fb2c5b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.itsup.edu.ec/home"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior Tecnológico Portoviejo con condición Superior Universitario \"ITSUP\""
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://itsup.edu.ec"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6845f54a9efc486a800f4d69dd3fb2c5b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-80.45445,-1.05458]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3652941"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6845f54a9efc486a800f4d69dd3fb2c5b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6845f54a9efc486a800f4d69dd3fb2c5b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6845f54a9efc486a800f4d69dd3fb2c5b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EC"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Portoviejo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Manabí"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6845f54a9efc486a800f4d69dd3fb2c5b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6845f54a9efc486a800f4d69dd3fb2c5b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ecuador"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6845f54a9efc486a800f4d69dd3fb2c5b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/027k65916> a org:Organization ;
+    rdfs:label 'Jet Propulsion Laboratory'^^xsd:string; 
+    schema:name 'Jet Propulsion Laboratory'^^xsd:string; 
+    schema:foundingDate '1936'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'JPL'^^xsd:string; 
+    org:alternativeName 'Jet Propulsion Lab'^^xsd:string ; 
+    org:alternativeName 'Jet Propulsion Laboratory, California Institute of Technology'^^xsd:string ; 
+    schema:url <http://jpl.nasa.gov> ; 
+    schema:mainEntityOfPage <https://www.jpl.nasa.gov> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory> ; 
+    schema:sameAs <https://api.crossref.org/funders/100006196> ;
+    schema:sameAs <https://grid.ac/institutions/grid.211367.0> ;
+    schema:sameAs <http://isni.org/isni/0000000406376500> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05xkke381> ;
+        rdfs:label 'Keck Institute for Space Studies'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/027ka1x80> ;
+        rdfs:label 'National Aeronautics and Space Administration'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/05dxps055> ;
+        rdfs:label 'California Institute of Technology'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-118.14452,34.14778]}" ;
+            schema:address [
+                schema:addressLocality "Pasadena" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "California" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5381396> ;
+        ] ; 
+    .

@@ -1,0 +1,168 @@
+[
+  {
+    "@id": "https://ror.org/04pkcw582",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SS Peter and Paul Major Seminary, Bodija"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SS Peter & Paul"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SS Peter & Paul Major Seminary, Bodija"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SS Peter and Paul"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SSPP Ibadan"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Saints Peter and Paul Major Seminary, Ibadan"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St. Martin’s Seminary, Ivianokpodi"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St. Paul’s Seminary"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1908"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n039b900ed45842658b48bc38471f358eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ssppibadan.edu.ng"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SS Peter and Paul Major Seminary, Bodija"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ssppibadan.edu.ng"
+      }
+    ]
+  },
+  {
+    "@id": "_:n039b900ed45842658b48bc38471f358eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[3.90591,7.37756]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2339354"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n039b900ed45842658b48bc38471f358eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n039b900ed45842658b48bc38471f358eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n039b900ed45842658b48bc38471f358eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ibadan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oyo State"
+      }
+    ]
+  },
+  {
+    "@id": "_:n039b900ed45842658b48bc38471f358eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n039b900ed45842658b48bc38471f358eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n039b900ed45842658b48bc38471f358eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

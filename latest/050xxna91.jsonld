@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/050xxna91",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "K.J. Somaiya Institute of Dharma Studies"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KJSIDS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bharatiya Sanskriti Peetham"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "K.J. Somaiya Bharatiya Sanskriti Peetham"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1989"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb4dfd306e6a9470783463fdfe0cc2cbcb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kjsids.somaiya.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "K.J. Somaiya Institute of Dharma Studies"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kjsids.somaiya.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb4dfd306e6a9470783463fdfe0cc2cbcb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[72.88261,19.07283]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1275339"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb4dfd306e6a9470783463fdfe0cc2cbcb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb4dfd306e6a9470783463fdfe0cc2cbcb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb4dfd306e6a9470783463fdfe0cc2cbcb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mumbai"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Maharashtra"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb4dfd306e6a9470783463fdfe0cc2cbcb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb4dfd306e6a9470783463fdfe0cc2cbcb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb4dfd306e6a9470783463fdfe0cc2cbcb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

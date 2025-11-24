@@ -1,0 +1,191 @@
+[
+  {
+    "@id": "https://ror.org/004914a33",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Scientific Center for Animal Husbandry named after Academician L.K. Ernst"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VIZH"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "All -Russian Research Institute of Animal Husbandry"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "All-Russian Research Institute of Animal Husbandry of the Rosselkhozakademiya"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VIZH named after LK Ernst"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1929"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.vij.ru"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Scientific Center for Animal Husbandry named after Academician L.K. Ernst"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.465346.6"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vij.ru"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Department of Agricultural Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05wtp9w08"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[37.58333,55.41667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/508091"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Podolsk Urban Okrug"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Moscow Oblast"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca8a1c1f5264e02a6e7d53cf97de317b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

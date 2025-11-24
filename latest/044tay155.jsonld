@@ -1,0 +1,165 @@
+[
+  {
+    "@id": "https://ror.org/044tay155",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Polissia National University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Zhytomyr_National_Agroecological_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Polissia University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zhytomyr National Agroecological University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Житомирський національний агроекологічний університет"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1922"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0eee8499eec24e4589ade5e723889e77b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://polissiauniver.edu.ua/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Polissia National University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.446072.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000449096330"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://polissiauniver.edu.ua"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0eee8499eec24e4589ade5e723889e77b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[28.67913,50.26235]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/686967"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0eee8499eec24e4589ade5e723889e77b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0eee8499eec24e4589ade5e723889e77b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0eee8499eec24e4589ade5e723889e77b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zhytomyr"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zhytomyr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0eee8499eec24e4589ade5e723889e77b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0eee8499eec24e4589ade5e723889e77b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ukraine"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0eee8499eec24e4589ade5e723889e77b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

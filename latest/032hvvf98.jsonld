@@ -1,0 +1,180 @@
+[
+  {
+    "@id": "https://ror.org/032hvvf98",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre de recherche sur l'aluminium – REGAL"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "REGAL"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Aluminium Research Centre"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre de recherche sur l'aluminium"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "REGAL Regroupement Aluminium"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://regal-aluminium.ca"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre de recherche sur l'aluminium – REGAL"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://regal-aluminium.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université Laval"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04sjchr03"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-71.21454,46.81228]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6325494"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Québec"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Quebec"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:n97cdba2648c54dbfab7d104d84fb8977b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

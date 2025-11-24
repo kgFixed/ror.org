@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/01s5dt366",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University Hospital of Larissa"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n70267717aeba4d64ae096cda4a00bca9b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1999"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n70267717aeba4d64ae096cda4a00bca9b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.uhl.gr/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University Hospital of Larissa"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.411299.6"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uhl.gr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n70267717aeba4d64ae096cda4a00bca9b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Thessaly"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04v4g9h31"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n70267717aeba4d64ae096cda4a00bca9b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[22.41761,39.63689]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/258576"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n70267717aeba4d64ae096cda4a00bca9b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n70267717aeba4d64ae096cda4a00bca9b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n70267717aeba4d64ae096cda4a00bca9b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Larissa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Thessaly"
+      }
+    ]
+  },
+  {
+    "@id": "_:n70267717aeba4d64ae096cda4a00bca9b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n70267717aeba4d64ae096cda4a00bca9b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Greece"
+      }
+    ]
+  },
+  {
+    "@id": "_:n70267717aeba4d64ae096cda4a00bca9b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

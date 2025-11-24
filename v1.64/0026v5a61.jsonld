@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/0026v5a61",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Serviço Regional de Proteção Civil e Bombeiros dos Açores"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SRPCBA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.prociv.azores.gov.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Serviço Regional de Proteção Civil e Bombeiros dos Açores"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000464110495"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://prociv.azores.gov.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Governo dos Açores"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/049zrp193"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-27.21839,38.6539]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3373348"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Angra do Heroísmo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Azores"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfb98797c34b94febaf1a6ac9e9b6f655b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

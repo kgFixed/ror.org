@@ -1,122 +1,133 @@
 {
-  "id": "https://ror.org/012a77v79",
-  "name": "Lund University",
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1666,
-  "types": [
-    "Education"
-  ],
-  "relationships": [
-    {
-      "label": "Skåne University Hospital",
-      "type": "Related",
-      "id": "https://ror.org/02z31g829"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    {
-      "label": "Biological Museum, Lund University",
-      "type": "Child",
-      "id": "https://ror.org/048555y32"
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
     }
-  ],
-  "addresses": [
-    {
-      "lat": 55.70584,
-      "lng": 13.19321,
-      "state": null,
-      "state_code": null,
-      "city": "Lund",
-      "geonames_city": {
-        "id": 2693678,
-        "city": "Lund",
-        "geonames_admin1": {
-          "name": "Skåne",
-          "id": 3337385,
-          "ascii_name": "Skåne",
-          "code": "SE.27"
-        },
-        "geonames_admin2": {
-          "name": "Lund Municipality",
-          "id": 2693555,
-          "ascii_name": "Lund Municipality",
-          "code": "SE.27.1281"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 2661886
-    }
-  ],
-  "links": [
-    "http://www.lunduniversity.lu.se/"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/Lund_University",
-  "labels": [
-    {
-      "label": "Lundin yliopisto",
-      "iso639": "fi"
-    },
-    {
-      "label": "Lunds universitet",
-      "iso639": "sv"
-    }
-  ],
-  "country": {
-    "country_name": "Sweden",
-    "country_code": "SE"
   },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 0930 2361"
-      ]
-    },
-    "FundRef": {
-      "preferred": "501100003252",
+  "domains": [
+    "lu.se"
+  ],
+  "established": 1666,
+  "external_ids": [
+    {
       "all": [
         "501100003252",
         "501100006738",
         "501100004817"
-      ]
+      ],
+      "preferred": "501100003252",
+      "type": "fundref"
     },
-    "OrgRef": {
-      "preferred": "17843",
+    {
       "all": [
-        "17843",
-        "216888"
-      ]
+        "grid.4514.4"
+      ],
+      "preferred": "grid.4514.4",
+      "type": "grid"
     },
-    "Wikidata": {
-      "preferred": "Q218506",
+    {
+      "all": [
+        "0000 0001 0930 2361"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
       "all": [
         "Q218506",
         "Q3578307"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.4514.4",
-      "all": "grid.4514.4"
+      ],
+      "preferred": "Q218506",
+      "type": "wikidata"
     }
-  }
+  ],
+  "id": "https://ror.org/012a77v79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lu.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Lund_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 55.70584,
+        "lng": 13.19321,
+        "name": "Lund"
+      },
+      "geonames_id": 2693678
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lund University"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Lundin yliopisto"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Lunds universitet"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Biological Museum, Lund University",
+      "type": "child",
+      "id": "https://ror.org/048555y32"
+    },
+    {
+      "label": "Skåne University Hospital",
+      "type": "related",
+      "id": "https://ror.org/02z31g829"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "Swedish National Data Service",
+      "type": "related",
+      "id": "https://ror.org/00ancw882"
+    },
+    {
+      "label": "Swedish Biodiversity Data Infrastructure",
+      "type": "related",
+      "id": "https://ror.org/0221pcv84"
+    },
+    {
+      "label": "ArchLab",
+      "type": "related",
+      "id": "https://ror.org/00rky3x16"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
 }

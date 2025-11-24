@@ -1,0 +1,187 @@
+[
+  {
+    "@id": "https://ror.org/04t59f227",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-30"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Our Lady of Apostles College of Education"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Our_Lady_of_Apostles_College_of_Education"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "OLACoE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "OLA College of Education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "OLA Training College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n996a1981543f4792a3b3470d01a4333db1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1924"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n996a1981543f4792a3b3470d01a4333db2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.olacoe.edu.gh"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Our Lady of Apostles College of Education"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://olacoe.edu.gh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n996a1981543f4792a3b3470d01a4333db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Cape Coast"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0492nfe34"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n996a1981543f4792a3b3470d01a4333db2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-1.2466,5.10535]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2302357"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n996a1981543f4792a3b3470d01a4333db3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n996a1981543f4792a3b3470d01a4333db3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n996a1981543f4792a3b3470d01a4333db4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cape Coast"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n996a1981543f4792a3b3470d01a4333db4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n996a1981543f4792a3b3470d01a4333db5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ghana"
+      }
+    ]
+  },
+  {
+    "@id": "_:n996a1981543f4792a3b3470d01a4333db5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

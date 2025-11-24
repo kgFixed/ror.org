@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05brsx115> a org:Organization ;
+    rdfs:label 'Libyan Climate Change Research Center'^^xsd:string; 
+    schema:name 'Libyan Climate Change Research Center'^^xsd:string; 
+    schema:foundingDate '2022'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'LCCRC'^^xsd:string; 
+    org:alternativeName 'Libyan Center for Climate Change Research'^^xsd:string ; 
+    schema:url <http://lccrc.ly> ; 
+    schema:mainEntityOfPage <https://www.lccrc.ly> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[13.01727,32.81868]}" ;
+            schema:address [
+                schema:addressLocality "Janzūr" ;
+                schema:addressCountry "LY" ;
+                schema:addressRegion "Al Jafārah" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Libya" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2216349> ;
+        ] ; 
+    .

@@ -1,0 +1,179 @@
+[
+  {
+    "@id": "https://ror.org/05fcmfe52",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fryske Akademy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Fryske_Akademy"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1938"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.fryske-akademy.nl/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fryske Akademy"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.450022.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122734150"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fryske-akademy.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal Netherlands Academy of Arts and Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/043c0p156"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.80973,53.20271]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2751792"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Leeuwarden"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Friesland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf4dfcc6982b84d0a9f43c532a166d209b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

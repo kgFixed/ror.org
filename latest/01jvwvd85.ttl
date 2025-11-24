@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01jvwvd85> a org:Organization ;
+    rdfs:label 'Health New Zealand'^^xsd:string; 
+    schema:name 'Health New Zealand'^^xsd:string; 
+    schema:foundingDate '2022'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Health NZ'^^xsd:string ; 
+    schema:url <http://tewhatuora.govt.nz> ; 
+    schema:mainEntityOfPage <https://www.tewhatuora.govt.nz> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Te_Whatu_Ora> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/032d3jq51> ;
+        rdfs:label 'Waikato District Health Board'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/05tqtd486> ;
+        rdfs:label 'Canterbury District Health Board'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/0113yba25> ;
+        rdfs:label 'Waitemata District Health Board'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/00cb76512> ;
+        rdfs:label 'Northland District Health Board'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/032dee662> ;
+        rdfs:label 'Southern District Health Board'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/02gkb4040> ;
+        rdfs:label 'Auckland District Health Board'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/02cq7de70> ;
+        rdfs:label 'Counties Manukau District Health Board'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/039h3vh71> ;
+        rdfs:label 'Capital and Coast District Health Board'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/007n45g27> ;
+        rdfs:label 'Wellington Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/055d6gv91> ;
+        rdfs:label 'Middlemore Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05e8jge82> ;
+        rdfs:label 'Auckland City Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00envkz24> ;
+        rdfs:label 'Greenlane Clinical Centre'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03yvcww04> ;
+        rdfs:label 'North Shore Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/017c9f638> ;
+        rdfs:label 'Burwood Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/003nvpm64> ;
+        rdfs:label 'Christchurch Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/002zf4a56> ;
+        rdfs:label 'Waikato Hospital'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[174.77557,-41.28664]}" ;
+            schema:address [
+                schema:addressLocality "Wellington" ;
+                schema:addressCountry "NZ" ;
+                schema:addressRegion "Wellington Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "New Zealand" ;
+                    schema:containedInPlace [
+                        schema:name "Oceania" ;
+                        schema:identifier "OC"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2179537> ;
+        ] ; 
+    .

@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/005fhxd91",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BioReperia AB (Sweden)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbf5a78942f2a4b04aed9df1a0a45be4ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://bioreperia.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BioReperia AB (Sweden)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bioreperia.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf5a78942f2a4b04aed9df1a0a45be4ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.62157,58.41086]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2694762"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbf5a78942f2a4b04aed9df1a0a45be4ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf5a78942f2a4b04aed9df1a0a45be4ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbf5a78942f2a4b04aed9df1a0a45be4ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Linköping"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Östergötland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf5a78942f2a4b04aed9df1a0a45be4ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbf5a78942f2a4b04aed9df1a0a45be4ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sweden"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf5a78942f2a4b04aed9df1a0a45be4ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

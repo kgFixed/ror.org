@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02ktbzt22> a org:Organization ;
+    rdfs:label 'JSTOR'^^xsd:string; 
+    schema:name 'JSTOR'^^xsd:string; 
+    schema:foundingDate '1995'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:mainEntityOfPage <https://www.jstor.org/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/JSTOR> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.431174.4> ;
+    schema:sameAs <http://isni.org/isni/0000000406025612> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/018xens77> ;
+        rdfs:label 'Ithaka Harbors'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-74.00597,40.71427]}" ;
+            schema:address [
+                schema:addressLocality "New York" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "New York" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5128581> ;
+        ] ; 
+    .

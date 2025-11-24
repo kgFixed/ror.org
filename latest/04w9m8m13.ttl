@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04w9m8m13> a org:Organization ;
+    rdfs:label 'California Department of Water Resources'^^xsd:string; 
+    schema:name 'California Department of Water Resources'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'CDWR'^^xsd:string; 
+    org:abbreviation 'DWR'^^xsd:string; 
+    schema:url <http://water.ca.gov> ; 
+    schema:mainEntityOfPage <https://water.ca.gov> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/California_Department_of_Water_Resources> ; 
+    schema:sameAs <https://api.crossref.org/funders/100004813> ;
+    schema:sameAs <http://isni.org/isni/000000040627618X> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/0115n5160> ;
+        rdfs:label 'California Natural Resources Agency'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-121.4944,38.58157]}" ;
+            schema:address [
+                schema:addressLocality "Sacramento" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "California" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5389489> ;
+        ] ; 
+    .

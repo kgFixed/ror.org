@@ -1,0 +1,177 @@
+[
+  {
+    "@id": "https://ror.org/04yndey86",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IUCN Species Survival Commission"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/IUCN_Species_Survival_Commission"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SSC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Species Survival Commission"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://iucn.org/our-union/commissions/species-survival-commission"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IUCN Species Survival Commission"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000121137960"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International Union for Conservation of Nature"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04tehfn33"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.2701,46.42082]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2660600"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gland"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Vaud"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Switzerland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd0e013f9c76e40b3b95886df68382d0eb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

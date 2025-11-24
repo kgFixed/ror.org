@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/017e99q89",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Provincia Autonoma di Trento"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1948"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0c9cb98f7bd0468baa97ce9667927e0ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.provincia.tn.it/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Provincia Autonoma di Trento"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100009890"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.425665.6"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000109438808"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://provincia.tn.it"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0c9cb98f7bd0468baa97ce9667927e0ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.12108,46.06787]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3165243"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0c9cb98f7bd0468baa97ce9667927e0ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0c9cb98f7bd0468baa97ce9667927e0ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0c9cb98f7bd0468baa97ce9667927e0ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Trento"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Trentino-Alto Adige"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0c9cb98f7bd0468baa97ce9667927e0ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0c9cb98f7bd0468baa97ce9667927e0ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Italy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0c9cb98f7bd0468baa97ce9667927e0ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

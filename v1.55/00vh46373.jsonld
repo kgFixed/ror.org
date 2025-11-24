@@ -1,0 +1,176 @@
+[
+  {
+    "@id": "https://ror.org/00vh46373",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-29"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Center for Solid Waste Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CSWR"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Center for Solid Waste Research, Tehran University of Medical Sciences"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "مرکز تحقیقات مواد زائد جامد دانشگاه علوم پزشکی تهران"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf816c09121694be5819984e2b5984798b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf816c09121694be5819984e2b5984798b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cswr.tums.ac.ir"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Center for Solid Waste Research"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cswr.tums.ac.ir"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf816c09121694be5819984e2b5984798b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Environmental Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00mw3br24"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf816c09121694be5819984e2b5984798b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[51.42151,35.69439]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/112931"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf816c09121694be5819984e2b5984798b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf816c09121694be5819984e2b5984798b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf816c09121694be5819984e2b5984798b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tehran"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nf816c09121694be5819984e2b5984798b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf816c09121694be5819984e2b5984798b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iran"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf816c09121694be5819984e2b5984798b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

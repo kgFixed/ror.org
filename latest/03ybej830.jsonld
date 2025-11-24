@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/03ybej830",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-29"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Aju Pharm (South Korea)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Aju Pharmaceuticals"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nddc07c15ba344554878a0874ed063debb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://ajupharm.co.kr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Aju Pharm (South Korea)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ajupharm.co.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc07c15ba344554878a0874ed063debb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[126.9784,37.566]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1835848"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nddc07c15ba344554878a0874ed063debb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc07c15ba344554878a0874ed063debb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nddc07c15ba344554878a0874ed063debb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Seoul"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc07c15ba344554878a0874ed063debb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nddc07c15ba344554878a0874ed063debb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc07c15ba344554878a0874ed063debb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

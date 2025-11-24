@@ -1,118 +1,141 @@
 {
-  "id": "https://ror.org/02qa1x782",
-  "name": "Fisheries and Oceans Canada",
-  "email_address": "",
-  "ip_addresses": [],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
   "established": 1868,
-  "types": [
-    "Government"
+  "external_ids": [
+    {
+      "all": [
+        "501100000041"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.23618.3e"
+      ],
+      "preferred": "grid.23618.3e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0449 2129"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q349666"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02qa1x782",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dfo-mpo.gc.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Fisheries_and_Oceans_Canada"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
+      },
+      "geonames_id": 6094817
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DFO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Fisheries and Oceans"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fisheries and Oceans Canada"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MPO"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Pêches et Océans Canada"
+    }
   ],
   "relationships": [
     {
       "label": "Canadian Hydrographic Service",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/01dbm1232"
     },
     {
-      "label": "St. Lawrence Global Observatory",
-      "type": "Related",
+      "label": "NorthEast Pacific Deep-sea Exploration Project",
+      "type": "child",
+      "id": "https://ror.org/01fkg1209"
+    },
+    {
+      "label": "Canadian Coast Guard",
+      "type": "child",
+      "id": "https://ror.org/01yzs6492"
+    },
+    {
+      "label": "Government of Canada",
+      "type": "parent",
+      "id": "https://ror.org/010q4q527"
+    },
+    {
+      "label": "Observatoire global du Saint-Laurent (OGSL)",
+      "type": "related",
       "id": "https://ror.org/03wfagk22"
     }
   ],
-  "addresses": [
-    {
-      "lat": 45.41117,
-      "lng": -75.69812,
-      "state": null,
-      "state_code": null,
-      "city": "Ottawa",
-      "geonames_city": {
-        "id": 6094817,
-        "city": "Ottawa",
-        "geonames_admin1": {
-          "name": "Ontario",
-          "id": 6093943,
-          "ascii_name": "Ontario",
-          "code": "CA.08"
-        },
-        "geonames_admin2": {
-          "name": "Ottawa",
-          "id": 8581623,
-          "ascii_name": "Ottawa",
-          "code": "CA.08.3506"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 6251999
-    }
-  ],
-  "links": [
-    "http://www.dfo-mpo.gc.ca/index-eng.htm"
-  ],
-  "aliases": [
-    "Department of Fisheries and Oceans"
-  ],
-  "acronyms": [
-    "DFO"
-  ],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/Fisheries_and_Oceans_Canada",
-  "labels": [
-    {
-      "label": "Pêches et Océans Canada",
-      "iso639": "fr"
-    }
-  ],
-  "country": {
-    "country_name": "Canada",
-    "country_code": "CA"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0449 2129"
-      ]
-    },
-    "FundRef": {
-      "preferred": null,
-      "all": [
-        "501100000041"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "1134353"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q349666"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.23618.3e",
-      "all": "grid.23618.3e"
-    }
-  }
+  "types": [
+    "funder",
+    "government"
+  ]
 }

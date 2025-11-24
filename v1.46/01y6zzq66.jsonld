@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/01y6zzq66",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-30"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-02"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Rehabilitación Avanzada Sanitas Barcelona"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CRA Barcelona"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Bienestar Barcelona"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4c6ebf9906f44923a5314dd95638800cb1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Rehabilitación Avanzada Sanitas Barcelona"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c6ebf9906f44923a5314dd95638800cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.15899,41.38879]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3128760"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4c6ebf9906f44923a5314dd95638800cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c6ebf9906f44923a5314dd95638800cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4c6ebf9906f44923a5314dd95638800cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Barcelona"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c6ebf9906f44923a5314dd95638800cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4c6ebf9906f44923a5314dd95638800cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c6ebf9906f44923a5314dd95638800cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

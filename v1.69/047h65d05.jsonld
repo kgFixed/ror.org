@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/047h65d05",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Regional Natural History Museum - Plovdiv"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://bg.wikipedia.org/wiki/%25D0%25A0%25D0%25B5%25D0%25B3%25D0%25B8%25D0%25BE%25D0%25BD%25D0%25B0%25D0%25BB%25D0%25B5%25D0%25BD_%25D0%25BF%25D1%2580%25D0%25B8%25D1%2580%25D0%25BE%25D0%25B4%25D0%25BE%25D0%25BD%25D0%25B0%25D1%2583%25D1%2587%25D0%25B5%25D0%25BD_%25D0%25BC%25D1%2583%25D0%25B7%25D0%25B5%25D0%25B9_(%25D0%259F%25D0%25BB%25D0%25BE%25D0%25B2%25D0%25B4%25D0%25B8%25D0%25B2)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museum of Natural History in Plovdiv"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1960"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n82231f3b988c41b7837de8d5559c7248b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://rnhm.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Regional Natural History Museum - Plovdiv"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://rnhm.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82231f3b988c41b7837de8d5559c7248b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[24.75,42.15]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/728193"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n82231f3b988c41b7837de8d5559c7248b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82231f3b988c41b7837de8d5559c7248b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n82231f3b988c41b7837de8d5559c7248b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Plovdiv"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Plovdiv"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82231f3b988c41b7837de8d5559c7248b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n82231f3b988c41b7837de8d5559c7248b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bulgaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82231f3b988c41b7837de8d5559c7248b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

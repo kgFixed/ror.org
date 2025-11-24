@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/013cs1q72",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital de Santo André"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://pt.wikipedia.org/wiki/Hospital_de_Santo_Andr%25C3%25A9"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndf26c0f2f930444c99c39d77e221c133b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.chleiria.pt/localizacao-e-acessos/hsa/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital de Santo André"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000405747269"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf26c0f2f930444c99c39d77e221c133b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.80705,39.74362]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2267095"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndf26c0f2f930444c99c39d77e221c133b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf26c0f2f930444c99c39d77e221c133b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndf26c0f2f930444c99c39d77e221c133b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Leiria"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Leiria"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf26c0f2f930444c99c39d77e221c133b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndf26c0f2f930444c99c39d77e221c133b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf26c0f2f930444c99c39d77e221c133b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

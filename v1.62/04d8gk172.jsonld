@@ -1,0 +1,155 @@
+[
+  {
+    "@id": "https://ror.org/04d8gk172",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Duale Hochschule Sachsen"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://de.wikipedia.org/wiki/Duale_Hochschule_Sachsen"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DHSN"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Berufsakademie Sachsen"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2025"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neb56107c70b94cbdb98b051f0af244dbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.dhsn.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Duale Hochschule Sachsen"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dhsn.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb56107c70b94cbdb98b051f0af244dbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[12.54493,50.81987]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2920020"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neb56107c70b94cbdb98b051f0af244dbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb56107c70b94cbdb98b051f0af244dbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neb56107c70b94cbdb98b051f0af244dbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Glauchau"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Saxony"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb56107c70b94cbdb98b051f0af244dbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neb56107c70b94cbdb98b051f0af244dbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb56107c70b94cbdb98b051f0af244dbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

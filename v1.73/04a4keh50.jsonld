@@ -1,0 +1,168 @@
+[
+  {
+    "@id": "https://ror.org/04a4keh50",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nazarbayev Intellectual Schools"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Nazarbayev_Intellectual_Schools"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NIS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "НЗМ"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "НИШ"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AEO “Nazarbayev Intellectual Schools”"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2008"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5ea2d04dbde346cfa5c5a9bfb7626066b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.nis.edu.kz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nazarbayev Intellectual Schools"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/000000040538754X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nis.edu.kz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ea2d04dbde346cfa5c5a9bfb7626066b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[71.44598,51.1801]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1526273"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5ea2d04dbde346cfa5c5a9bfb7626066b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ea2d04dbde346cfa5c5a9bfb7626066b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5ea2d04dbde346cfa5c5a9bfb7626066b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Astana"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Astana"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ea2d04dbde346cfa5c5a9bfb7626066b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5ea2d04dbde346cfa5c5a9bfb7626066b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kazakhstan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ea2d04dbde346cfa5c5a9bfb7626066b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

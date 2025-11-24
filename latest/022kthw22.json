@@ -1,133 +1,135 @@
 {
-  "id": "https://ror.org/022kthw22",
-  "name": "University of Rochester",
-  "email_address": "",
-  "ip_addresses": [],
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "rochester.edu"
+  ],
   "established": 1850,
-  "types": [
-    "Education"
+  "external_ids": [
+    {
+      "all": [
+        "100008091",
+        "100005836",
+        "100008243",
+        "100011125"
+      ],
+      "preferred": "100008091",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.16416.34"
+      ],
+      "preferred": "grid.16416.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9174"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q149990"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/022kthw22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rochester.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Rochester"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 43.15478,
+        "lng": -77.61556,
+        "name": "Rochester"
+      },
+      "geonames_id": 5134086
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UR"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Rochester"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Rochester"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Rochester"
+    }
   ],
   "relationships": [
     {
-      "label": "Highland Hospital",
-      "type": "Related",
-      "id": "https://ror.org/00z9qkg54"
-    },
-    {
-      "label": "Strong Memorial Hospital",
-      "type": "Related",
-      "id": "https://ror.org/0583j8v67"
-    },
-    {
       "label": "University of Rochester Medical Center",
-      "type": "Related",
+      "type": "child",
       "id": "https://ror.org/00trqv719"
     },
     {
       "label": "Golisano Children's Hospital",
-      "type": "Child",
+      "type": "child",
       "id": "https://ror.org/02rcfyf15"
-    }
-  ],
-  "addresses": [
+    },
     {
-      "lat": 43.15478,
-      "lng": -77.61556,
-      "state": null,
-      "state_code": null,
-      "city": "Rochester",
-      "geonames_city": {
-        "id": 5134086,
-        "city": "Rochester",
-        "geonames_admin1": {
-          "name": "New York",
-          "id": 5128638,
-          "ascii_name": "New York",
-          "code": "US.NY"
-        },
-        "geonames_admin2": {
-          "name": "Monroe",
-          "id": 5127305,
-          "ascii_name": "Monroe",
-          "code": "US.NY.055"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        },
-        "nuts_level1": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level2": {
-          "name": null,
-          "code": null
-        },
-        "nuts_level3": {
-          "name": null,
-          "code": null
-        }
-      },
-      "postcode": null,
-      "primary": false,
-      "line": null,
-      "country_geonames_id": 6252001
+      "label": "Highland Hospital",
+      "type": "related",
+      "id": "https://ror.org/00z9qkg54"
+    },
+    {
+      "label": "Strong Memorial Hospital",
+      "type": "related",
+      "id": "https://ror.org/0583j8v67"
+    },
+    {
+      "label": "Materials Science in Extreme Environments University Research Alliance",
+      "type": "related",
+      "id": "https://ror.org/04n07f274"
     }
-  ],
-  "links": [
-    "https://www.rochester.edu/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "UR"
   ],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Rochester",
-  "labels": [
-    {
-      "label": "Université de Rochester",
-      "iso639": "fr"
-    },
-    {
-      "label": "Universidad de Rochester",
-      "iso639": "es"
-    }
-  ],
-  "country": {
-    "country_name": "United States",
-    "country_code": "US"
-  },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 1936 9174"
-      ]
-    },
-    "FundRef": {
-      "preferred": "100008091",
-      "all": [
-        "100008091",
-        "100005836",
-        "100008243"
-      ]
-    },
-    "OrgRef": {
-      "preferred": "31918",
-      "all": [
-        "31918",
-        "672136"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q149990"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.16416.34",
-      "all": "grid.16416.34"
-    }
-  }
+  "types": [
+    "education",
+    "funder"
+  ]
 }

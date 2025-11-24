@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/008j2sh91> a org:Organization ;
+    rdfs:label 'NMT Tecnologia Inovação e Consultoria SA (Portugal)'^^xsd:string; 
+    schema:name 'NMT Tecnologia Inovação e Consultoria SA (Portugal)'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2025-10-19'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://nmt.pt> ; 
+    schema:mainEntityOfPage <https://www.nmt.pt> ;
+    schema:sameAs <http://isni.org/isni/0000000464439987> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-9.20032,38.66179]}" ;
+            schema:address [
+                schema:addressLocality "Caparica" ;
+                schema:addressCountry "PT" ;
+                schema:addressRegion "Setúbal" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Portugal" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2270229> ;
+        ] ; 
+    .

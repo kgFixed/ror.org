@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/006t1nm29",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Politeknik Enjinering Indorama"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PEI"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Indorama Engineering Polytechnic"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2013"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n982c07109cd24c88b37d49f2b22a3d59b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://pei.ac.id"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Politeknik Enjinering Indorama"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://pei.ac.id"
+      }
+    ]
+  },
+  {
+    "@id": "_:n982c07109cd24c88b37d49f2b22a3d59b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[107.44333,-6.55694]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1630341"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n982c07109cd24c88b37d49f2b22a3d59b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n982c07109cd24c88b37d49f2b22a3d59b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n982c07109cd24c88b37d49f2b22a3d59b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ID"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Purwakarta"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "West Java"
+      }
+    ]
+  },
+  {
+    "@id": "_:n982c07109cd24c88b37d49f2b22a3d59b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n982c07109cd24c88b37d49f2b22a3d59b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Indonesia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n982c07109cd24c88b37d49f2b22a3d59b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/006xbp572",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "College of Law"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2000"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0efe98ecd8a0462c9b9fed7e1e242953b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://jk.lv"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "College of Law"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.465867.e"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000449062675"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://jk.lv"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0efe98ecd8a0462c9b9fed7e1e242953b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[24.10589,56.946]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/456172"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0efe98ecd8a0462c9b9fed7e1e242953b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0efe98ecd8a0462c9b9fed7e1e242953b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0efe98ecd8a0462c9b9fed7e1e242953b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LV"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Riga"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Riga"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0efe98ecd8a0462c9b9fed7e1e242953b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0efe98ecd8a0462c9b9fed7e1e242953b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Latvia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0efe98ecd8a0462c9b9fed7e1e242953b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

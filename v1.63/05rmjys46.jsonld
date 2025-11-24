@@ -1,0 +1,158 @@
+[
+  {
+    "@id": "https://ror.org/05rmjys46",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Salzburg Research Forschungsgesellschaft mbH (Austria)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://de.wikipedia.org/wiki/Salzburg_Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Salzburg Research"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Salzburg Research Forschungsgesellschaft"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2000"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n19bedc04a4b849e3813fd1703e1b9352b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.salzburgresearch.at"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Salzburg Research Forschungsgesellschaft mbH (Austria)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000106754637"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://salzburgresearch.at"
+      }
+    ]
+  },
+  {
+    "@id": "_:n19bedc04a4b849e3813fd1703e1b9352b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.04399,47.79941]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2766824"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n19bedc04a4b849e3813fd1703e1b9352b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n19bedc04a4b849e3813fd1703e1b9352b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n19bedc04a4b849e3813fd1703e1b9352b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Salzburg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Salzburg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n19bedc04a4b849e3813fd1703e1b9352b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n19bedc04a4b849e3813fd1703e1b9352b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Austria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n19bedc04a4b849e3813fd1703e1b9352b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

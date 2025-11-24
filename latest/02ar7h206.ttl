@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02ar7h206> a org:Organization ;
+    rdfs:label 'Las Cumbres Observatory Global Telescope Network'^^xsd:string; 
+    schema:name 'Las Cumbres Observatory Global Telescope Network'^^xsd:string; 
+    schema:foundingDate '2005'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'LCO'^^xsd:string; 
+    org:alternativeName 'Las Cumbres Observatory'^^xsd:string ; 
+    schema:url <http://lco.global> ; 
+    schema:mainEntityOfPage <https://lco.global> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Las_Cumbres_Observatory> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.436159.c> ;
+    schema:sameAs <http://isni.org/isni/0000000460232073> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-119.82764,34.43583]}" ;
+            schema:address [
+                schema:addressLocality "Goleta" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "California" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5352963> ;
+        ] ; 
+    .

@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/05x4gcn89",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "College of Technical Sciences Derna"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CTSD"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1992"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne900f8ed2e8549cdbf8c366dc416a6b8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ctsd.edu.ly"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "College of Technical Sciences Derna"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ctsd.edu.ly"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne900f8ed2e8549cdbf8c366dc416a6b8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[22.63669,32.76704]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/87205"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne900f8ed2e8549cdbf8c366dc416a6b8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne900f8ed2e8549cdbf8c366dc416a6b8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne900f8ed2e8549cdbf8c366dc416a6b8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Darnah"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Darnah"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne900f8ed2e8549cdbf8c366dc416a6b8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne900f8ed2e8549cdbf8c366dc416a6b8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Libya"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne900f8ed2e8549cdbf8c366dc416a6b8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

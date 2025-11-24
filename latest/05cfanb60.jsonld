@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/05cfanb60",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St. Josef-Stift Sendenhorst"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SJS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1889"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6d6b881992fe467198bcc3dc7890b8ddb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.st-josef-stift.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St. Josef-Stift Sendenhorst"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://st-josef-stift.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d6b881992fe467198bcc3dc7890b8ddb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[7.82996,51.84303]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2833076"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6d6b881992fe467198bcc3dc7890b8ddb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d6b881992fe467198bcc3dc7890b8ddb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6d6b881992fe467198bcc3dc7890b8ddb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sendenhorst"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North Rhine-Westphalia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d6b881992fe467198bcc3dc7890b8ddb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6d6b881992fe467198bcc3dc7890b8ddb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d6b881992fe467198bcc3dc7890b8ddb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

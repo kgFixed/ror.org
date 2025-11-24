@@ -1,107 +1,106 @@
 {
-    "id": "https://ror.org/05gs8cd61",
-    "name": "University of Salzburg",
-    "email_address": "",
-    "ip_addresses": [],
-    "established": 1622,
-    "types": [
-        "Education"
-    ],
-    "relationships": [],
-    "addresses": [
-        {
-            "lat": 47.79941,
-            "lng": 13.04399,
-            "state": null,
-            "state_code": null,
-            "city": "Salzburg",
-            "geonames_city": {
-                "id": 2766824,
-                "city": "Salzburg",
-                "geonames_admin1": {
-                    "name": "Salzburg",
-                    "id": 2766823,
-                    "ascii_name": "Salzburg",
-                    "code": "AT.05"
-                },
-                "geonames_admin2": {
-                    "name": "Salzburg",
-                    "id": 2766818,
-                    "ascii_name": "Salzburg",
-                    "code": "AT.05.501"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 2782113
-        }
-    ],
-    "links": [
-        "https://www.plus.ac.at/"
-    ],
-    "aliases": [
-        "Paris Lodron University of Salzburg"
-    ],
-    "acronyms": [
-        "PLUS"
-    ],
-    "status": "active",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Salzburg",
-    "labels": [
-        {
-            "label": "Paris-Lodron-Universität Salzburg",
-            "iso639": "de"
-        }
-    ],
-    "country": {
-        "country_name": "Austria",
-        "country_code": "AT"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000000110156330"
-            ]
-        },
-        "FundRef": {
-            "preferred": null,
-            "all": [
-                "501100005644"
-            ]
-        },
-        "OrgRef": {
-            "preferred": null,
-            "all": [
-                "1267399"
-            ]
-        },
-        "Wikidata": {
-            "preferred": null,
-            "all": [
-                "Q27265"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.7039.d",
-            "all": "grid.7039.d"
-        }
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
     }
+  },
+  "domains": [
+    "plus.ac.at"
+  ],
+  "established": 1622,
+  "external_ids": [
+    {
+      "all": [
+        "501100005644"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7039.d"
+      ],
+      "preferred": "grid.7039.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1015 6330"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q27265"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gs8cd61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.plus.ac.at/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Salzburg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "AT",
+        "country_name": "Austria",
+        "lat": 47.79941,
+        "lng": 13.04399,
+        "name": "Salzburg"
+      },
+      "geonames_id": 2766824
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PLUS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Paris Lodron University of Salzburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Paris-Lodron-Universität Salzburg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Salzburg"
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
 }

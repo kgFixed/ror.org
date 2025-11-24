@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02vw4zn68> a org:Organization ;
+    rdfs:label 'Escuela Normal Miguel F. Martínez, Centenaria y Benemérita'^^xsd:string; 
+    schema:name 'Escuela Normal Miguel F. Martínez, Centenaria y Benemérita'^^xsd:string; 
+    schema:foundingDate '1870'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'ENMFM'^^xsd:string; 
+    org:alternativeName 'Escuela Normal Miguel F. Martinez'^^xsd:string ; 
+    schema:url <http://mfm.edu.mx> ; 
+    schema:mainEntityOfPage <https://mfm.edu.mx> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Escuela_Normal_Miguel_F._Mart%25C3%25ADnez> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-100.31721,25.68435]}" ;
+            schema:address [
+                schema:addressLocality "Monterrey" ;
+                schema:addressCountry "MX" ;
+                schema:addressRegion "Nuevo León" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Mexico" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3995465> ;
+        ] ; 
+    .

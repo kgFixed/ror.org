@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/0554nwf36",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Arab Federation for Libraries & Information"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc73206f255664092b9db870c2b27658fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://arab-afli.org/main/index.php"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Arab Federation for Libraries & Information"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.479232.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc73206f255664092b9db870c2b27658fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.09557,36.81006]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2469274"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc73206f255664092b9db870c2b27658fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc73206f255664092b9db870c2b27658fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc73206f255664092b9db870c2b27658fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Manouba"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Manouba"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc73206f255664092b9db870c2b27658fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc73206f255664092b9db870c2b27658fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Tunisia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc73206f255664092b9db870c2b27658fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

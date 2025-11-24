@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/040z06056> a org:Organization ;
+    rdfs:label 'Manubhai Patel Dental College and Hospital'^^xsd:string; 
+    schema:name 'Manubhai Patel Dental College and Hospital'^^xsd:string; 
+    schema:foundingDate '2000'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'MPDC'^^xsd:string; 
+    schema:url <http://mpdentalcollege.edu.in> ; 
+    schema:mainEntityOfPage <https://www.mpdentalcollege.edu.in/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Manubhai_Patel_Dental_College> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.464937.b> ;
+    schema:sameAs <http://isni.org/isni/0000000418051682> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[73.20812,22.29941]}" ;
+            schema:address [
+                schema:addressLocality "Vadodara" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Gujarat" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1253573> ;
+        ] ; 
+    .

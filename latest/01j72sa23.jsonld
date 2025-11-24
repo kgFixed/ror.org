@@ -1,0 +1,179 @@
+[
+  {
+    "@id": "https://ror.org/01j72sa23",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-16"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NSW Roads and Maritime Services"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "New South Wales Roads and Maritime Services"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Roads and Maritime Services"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2011"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.rms.nsw.gov.au/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NSW Roads and Maritime Services"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.474150.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122963041"
+      }
+    ]
+  },
+  {
+    "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Government of New South Wales"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0067dvq63"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[151.2072,-33.839]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2154855"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "North Sydney"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n91d4bdbd6ddb46bd80232981858eb8fbb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

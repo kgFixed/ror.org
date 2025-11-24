@@ -1,0 +1,160 @@
+[
+  {
+    "@id": "https://ror.org/03gs7jc26",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CHA University Healthcare Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne8d602716a05409ea768d96d052582fbb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne8d602716a05409ea768d96d052582fbb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.chahealth.co.kr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CHA University Healthcare Center"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://chahealth.co.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne8d602716a05409ea768d96d052582fbb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CHA University Bundang Medical Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04nbqb988"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne8d602716a05409ea768d96d052582fbb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[126.9784,37.566]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1835848"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne8d602716a05409ea768d96d052582fbb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne8d602716a05409ea768d96d052582fbb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne8d602716a05409ea768d96d052582fbb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Seoul"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Seoul"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne8d602716a05409ea768d96d052582fbb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne8d602716a05409ea768d96d052582fbb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne8d602716a05409ea768d96d052582fbb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

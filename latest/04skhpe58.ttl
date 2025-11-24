@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04skhpe58> a org:Organization ;
+    rdfs:label 'Vancouver Prostate Centre'^^xsd:string; 
+    schema:name 'Vancouver Prostate Centre'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'VPC'^^xsd:string; 
+    schema:url <http://prostatecentre.com> ; 
+    schema:mainEntityOfPage <https://www.prostatecentre.com> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Vancouver_Prostate_Centre> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-123.11934,49.24966]}" ;
+            schema:address [
+                schema:addressLocality "Vancouver" ;
+                schema:addressCountry "CA" ;
+                schema:addressRegion "British Columbia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Canada" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6173331> ;
+        ] ; 
+    .

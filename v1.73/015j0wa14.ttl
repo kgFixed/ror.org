@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/015j0wa14> a org:Organization ;
+    rdfs:label 'Centro Hospitalar do Médio Tejo EPE'^^xsd:string; 
+    schema:name 'Centro Hospitalar do Médio Tejo EPE'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-10-19'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'CHMT'^^xsd:string; 
+    schema:url <http://chmt.min-saude.pt> ; 
+    schema:mainEntityOfPage <https://www.chmt.min-saude.pt> ;
+    schema:sameAs <http://isni.org/isni/0000000459141406> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-8.40924,39.60199]}" ;
+            schema:address [
+                schema:addressLocality "Tomar" ;
+                schema:addressCountry "PT" ;
+                schema:addressRegion "Santarém" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Portugal" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2262644> ;
+        ] ; 
+    .

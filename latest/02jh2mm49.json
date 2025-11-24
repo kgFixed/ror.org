@@ -1,85 +1,91 @@
 {
-    "id": "https://ror.org/02jh2mm49",
-    "name": "Research Library in Olomouc",
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 1566,
-    "types": [
-        "Other"
-    ],
-    "relationships": [],
-    "addresses": [
-        {
-            "lat": 49.59552,
-            "lng": 17.25175,
-            "state": null,
-            "state_code": null,
-            "city": "Olomouc",
-            "geonames_city": {
-                "id": 3069011,
-                "city": "Olomouc",
-                "geonames_admin1": {
-                    "name": "Olomoucký",
-                    "id": 3339542,
-                    "ascii_name": "Olomoucký",
-                    "code": "CZ.84"
-                },
-                "geonames_admin2": {
-                    "name": "Olomouc District",
-                    "id": 3069010,
-                    "ascii_name": "Olomouc District",
-                    "code": "CZ.84.0712"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 3077311
-        }
-    ],
-    "links": [
-        "https://www.vkol.cz/en/"
-    ],
-    "aliases": [],
-    "acronyms": [],
-    "status": "active",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Research_Library_in_Olomouc",
-    "labels": [
-        {
-            "label": "Vědecká knihovna v Olomouci",
-            "iso639": "cs"
-        }
-    ],
-    "country": {
-        "country_name": "Czechia",
-        "country_code": "CZ"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0001 2359 4831"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.486434.9",
-            "all": "grid.486434.9"
-        }
+    "last_modified": {
+      "date": "2024-08-21",
+      "schema_version": "2.0"
     }
+  },
+  "domains": [
+    "vkol.cz"
+  ],
+  "established": 1566,
+  "external_ids": [
+    {
+      "all": [
+        "grid.486434.9"
+      ],
+      "preferred": "grid.486434.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2359 4831"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02jh2mm49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.vkol.cz"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Research_Library_in_Olomouc"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "lat": 49.59552,
+        "lng": 17.25175,
+        "name": "Olomouc"
+      },
+      "geonames_id": 3069011
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Olomouc Research Library"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Research Library in Olomouc"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Vědecká knihovna v Olomouci"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Wissenschaftliche Bibliothek Olomouc"
+    }
+  ],
+  "relationships": [],
+  "status": "active",
+  "types": [
+    "other"
+  ]
 }

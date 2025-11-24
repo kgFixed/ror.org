@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00mqmap12> a org:Organization ;
+    rdfs:label 'Ospedale di Castel San Giovanni'^^xsd:string; 
+    schema:name 'Ospedale di Castel San Giovanni'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:mainEntityOfPage <https://www.ausl.pc.it/it/strutture-e-territorio/dove-siamo/ospedali/ospedale-di-castel-san-giovanni> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/01j1w4v71> ;
+        rdfs:label 'Azienda Unità Sanitaria Locale Piacenza'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[9.43784,45.06014]}" ;
+            schema:address [
+                schema:addressLocality "Castel San Giovanni" ;
+                schema:addressCountry "IT" ;
+                schema:addressRegion "Emilia-Romagna" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Italy" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3179485> ;
+        ] ; 
+    .

@@ -1,106 +1,114 @@
 {
-    "id": "https://ror.org/05n911h24",
-    "name": "Technical University of Darmstadt",
-    "email_address": "",
-    "ip_addresses": [],
-    "established": 1877,
-    "types": [
-        "Education"
-    ],
-    "relationships": [],
-    "addresses": [
-        {
-            "lat": 49.87167,
-            "lng": 8.65027,
-            "state": null,
-            "state_code": null,
-            "city": "Darmstadt",
-            "geonames_city": {
-                "id": 2938913,
-                "city": "Darmstadt",
-                "geonames_admin1": {
-                    "name": "Hesse",
-                    "id": 2905330,
-                    "ascii_name": "Hesse",
-                    "code": "DE.05"
-                },
-                "geonames_admin2": {
-                    "name": "Regierungsbezirk Darmstadt",
-                    "id": 2938912,
-                    "ascii_name": "Regierungsbezirk Darmstadt",
-                    "code": "DE.05.064"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 2921044
-        }
-    ],
-    "links": [
-        "http://www.tu-darmstadt.de/"
-    ],
-    "aliases": [
-        "TU Darmstadt"
-    ],
-    "acronyms": [],
-    "status": "active",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Technische_Universit%C3%A4t_Darmstadt",
-    "labels": [
-        {
-            "label": "Technische Universität Darmstadt",
-            "iso639": "de"
-        }
-    ],
-    "country": {
-        "country_name": "Germany",
-        "country_code": "DE"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0001 0940 1669"
-            ]
-        },
-        "FundRef": {
-            "preferred": "501100005714",
-            "all": [
-                "501100005714",
-                "501100003072"
-            ]
-        },
-        "OrgRef": {
-            "preferred": null,
-            "all": [
-                "1664084"
-            ]
-        },
-        "Wikidata": {
-            "preferred": null,
-            "all": [
-                "Q310695"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.6546.1",
-            "all": "grid.6546.1"
-        }
+    "last_modified": {
+      "date": "2024-07-29",
+      "schema_version": "2.0"
     }
+  },
+  "domains": [],
+  "established": 1877,
+  "external_ids": [
+    {
+      "all": [
+        "501100005714",
+        "501100003072"
+      ],
+      "preferred": "501100005714",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6546.1"
+      ],
+      "preferred": "grid.6546.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0940 1669"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q310695"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05n911h24",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.tu-darmstadt.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Technische_Universit%C3%A4t_Darmstadt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 49.87167,
+        "lng": 8.65027,
+        "name": "Darmstadt"
+      },
+      "geonames_id": 2938913
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "TU Darmstadt"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Technical University of Darmstadt"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Technische Universität Darmstadt"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hessian Center for Artificial Intelligence",
+      "type": "child",
+      "id": "https://ror.org/014ybqb54"
+    },
+    {
+      "label": "TU9",
+      "type": "related",
+      "id": "https://ror.org/02nx8n605"
+    },
+    {
+      "label": "Zentrum verantwortungsbewusste Digitalisierung",
+      "type": "child",
+      "id": "https://ror.org/04ms06f06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
 }

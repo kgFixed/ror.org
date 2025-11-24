@@ -1,0 +1,87 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/051xgzg37> a org:Organization ;
+    rdfs:label 'Stockholm Environment Institute'^^xsd:string; 
+    schema:name 'Stockholm Environment Institute'^^xsd:string; 
+    schema:foundingDate '1989'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'SEI'^^xsd:string; 
+    schema:url <http://sei-international.org> ; 
+    schema:url <http://sei.org> ; 
+    schema:mainEntityOfPage <https://www.sei.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Stockholm_Environment_Institute> ; 
+    schema:sameAs <https://api.crossref.org/funders/100009481> ;
+    schema:sameAs <https://grid.ac/institutions/grid.35843.39> ;
+    schema:sameAs <http://isni.org/isni/0000000106589037> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04zpv5q97> ;
+        rdfs:label 'Stockholm Environment Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01mxmb797> ;
+        rdfs:label 'Stockholm Environment Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03kke0n21> ;
+        rdfs:label 'Stockholm Environment Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/037vpg713> ;
+        rdfs:label 'Stockholm Environment Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/017w08b10> ;
+        rdfs:label 'Stockholm Environment Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/056x7d368> ;
+        rdfs:label 'Stockholm Environment Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00ng9c593> ;
+        rdfs:label 'Stockholm Environment Institute'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[18.06871,59.32938]}" ;
+            schema:address [
+                schema:addressLocality "Stockholm" ;
+                schema:addressCountry "SE" ;
+                schema:addressRegion "Stockholm" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Sweden" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2673730> ;
+        ] ; 
+    .

@@ -1,78 +1,90 @@
 {
-  "ip_addresses": [],
-  "aliases": [],
-  "acronyms": [
-    "ICPSR"
-  ],
-  "links": [
-    "https://www.icpsr.umich.edu/"
-  ],
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Inter-university_Consortium_for_Political_and_Social_Research",
-  "external_ids": {
-    "ISNI": {
-      "preferred": "0000 0001 0943 5850",
-      "all": [
-        "0000 0001 0943 5850"
-      ]
+  "admin": {
+    "created": {
+      "date": "2022-03-17",
+      "schema_version": "1.0"
     },
-    "Wikidata": {
-      "preferred": "Q6044782",
-      "all": [
-        "Q6044782"
-      ]
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
     }
   },
+  "domains": [],
   "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0943 5850"
+      ],
+      "preferred": "0000 0001 0943 5850",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6044782"
+      ],
+      "preferred": "Q6044782",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02q7mkh03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.icpsr.umich.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Inter-university_Consortium_for_Political_and_Social_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.27756,
+        "lng": -83.74088,
+        "name": "Ann Arbor"
+      },
+      "geonames_id": 4984247
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICPSR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Inter-university Consortium for Political and Social Research"
+    }
+  ],
   "relationships": [
     {
-      "label": "University of Michigan–Ann Arbor",
-      "type": "Parent",
+      "label": "University of Michigan",
+      "type": "parent",
       "id": "https://ror.org/00jmfr291"
-    }
-  ],
-  "email_address": null,
-  "id": "https://ror.org/02q7mkh03",
-  "labels": [],
-  "status": "active",
-  "name": "Inter-University Consortium for Political and Social Research",
-  "types": [
-    "Other"
-  ],
-  "addresses": [
+    },
     {
-      "state_code": null,
-      "state": null,
-      "primary": false,
-      "postcode": null,
-      "line": null,
-      "geonames_city": {
-        "id": 4984247,
-        "city": "Ann Arbor",
-        "geonames_admin1": {
-          "name": "Michigan",
-          "ascii_name": "Michigan",
-          "id": 5001836,
-          "code": "US.MI"
-        },
-        "geonames_admin2": {
-          "name": "Washtenaw",
-          "ascii_name": "Washtenaw",
-          "id": 5014120,
-          "code": "US.MI.161"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
-        }
-      },
-      "lat": 42.27756,
-      "lng": -83.74088,
-      "country_geonames_id": 6252001,
-      "city": "Ann Arbor"
+      "label": "Institute for Social Research",
+      "type": "parent",
+      "id": "https://ror.org/01df9hd73"
     }
   ],
-  "country": {
-    "country_name": "United States",
-    "country_code": "US"
-  }
+  "status": "active",
+  "types": [
+    "other"
+  ]
 }

@@ -1,116 +1,138 @@
 {
-    "id": "https://ror.org/0208vgz68",
-    "name": "Lappeenranta-Lahti University of Technology",
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 1969,
-    "types": [
-        "Education"
-    ],
-    "relationships": [
-        {
-            "label": "Helsinki Institute of Physics",
-            "type": "Child",
-            "id": "https://ror.org/01x2x1522"
-        }
-    ],
-    "addresses": [
-        {
-            "lat": 61.05871,
-            "lng": 28.18871,
-            "state": null,
-            "state_code": null,
-            "city": "Lappeenranta",
-            "geonames_city": {
-                "id": 648900,
-                "city": "Lappeenranta",
-                "geonames_admin1": {
-                    "name": "South Karelia",
-                    "id": 830699,
-                    "ascii_name": "South Karelia",
-                    "code": "FI.09"
-                },
-                "geonames_admin2": {
-                    "name": "Lappeenranta",
-                    "id": 9610692,
-                    "ascii_name": "Lappeenranta",
-                    "code": "FI.09.091"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 660013
-        }
-    ],
-    "links": [
-        "https://www.lut.fi/"
-    ],
-    "aliases": [
-        "Lappeenrannan teknillinen yliopisto",
-        "UT University",
-        "LUT-yliopisto",
-        "Lappeenranta University of Technology"
-    ],
-    "acronyms": [
-        "LUT"
-    ],
-    "status": "active",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Lappeenranta_University_of_Technology",
-    "labels": [
-        {
-            "label": "Lappeenrannan-Lahden teknillinen yliopisto",
-            "iso639": "fi"
-        }
-    ],
-    "country": {
-        "country_name": "Finland",
-        "country_code": "FI"
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0001 0533 3048"
-            ]
-        },
-        "FundRef": {
-            "preferred": null,
-            "all": [
-                "501100004105"
-            ]
-        },
-        "OrgRef": {
-            "preferred": null,
-            "all": [
-                "659818"
-            ]
-        },
-        "Wikidata": {
-            "preferred": null,
-            "all": [
-                "Q1809949"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.12332.31",
-            "all": "grid.12332.31"
-        }
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
     }
+  },
+  "domains": [
+    "lut.fi"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "501100004105",
+        "501100013237"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.12332.31"
+      ],
+      "preferred": "grid.12332.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0533 3048"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1809949"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0208vgz68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lut.fi"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Lappeenranta_University_of_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "02",
+        "country_subdivision_name": "South Karelia",
+        "lat": 61.05871,
+        "lng": 28.18871,
+        "name": "Lappeenranta"
+      },
+      "geonames_id": 648900
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LUT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "LUT University"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "alias"
+      ],
+      "value": "LUT-yliopisto"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "alias"
+      ],
+      "value": "Lappeenrannan teknillinen yliopisto"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Lappeenrannan-Lahden teknillinen yliopisto"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "alias"
+      ],
+      "value": "Lappeenranta University of Technology"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lappeenranta-Lahti University of Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helsinki Institute of Physics",
+      "type": "child",
+      "id": "https://ror.org/01x2x1522"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
 }

@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03fh6pa75> a org:Organization ;
+    rdfs:label 'ERATOSTHENES Centre of Excellence'^^xsd:string; 
+    schema:name 'ERATOSTHENES Centre of Excellence'^^xsd:string; 
+    schema:foundingDate '2020'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://eratosthenes.org.cy> ; 
+    schema:mainEntityOfPage <https://eratosthenes.org.cy> ;
+    schema:sameAs <http://isni.org/isni/0000000509752978> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[33.03794,34.68406]}" ;
+            schema:address [
+                schema:addressLocality "Limassol" ;
+                schema:addressCountry "CY" ;
+                schema:addressRegion "Limassol" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Cyprus" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/146384> ;
+        ] ; 
+    .

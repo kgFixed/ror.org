@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/03gb7n667",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University General Hospital Attikon"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Attikon Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2003"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8d9c28aac31542278c5d6524d774f00fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://attikonhospital.gr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University General Hospital Attikon"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.411449.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406224662"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://attikonhospital.gr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d9c28aac31542278c5d6524d774f00fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.72784,37.98376]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/264371"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8d9c28aac31542278c5d6524d774f00fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d9c28aac31542278c5d6524d774f00fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8d9c28aac31542278c5d6524d774f00fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Athens"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Attica"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d9c28aac31542278c5d6524d774f00fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8d9c28aac31542278c5d6524d774f00fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Greece"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d9c28aac31542278c5d6524d774f00fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]
