@@ -13,7 +13,7 @@
     a tree:Node ;
     
     tree:relation [
-      a tree:LessThanRelation ;
+      a tree:GreaterThanRelation ;
       tree:node <http://w3id.org/kgfixed/ror/LDES/v1.14.ttl> ;
       tree:path dc:modified ;
       tree:value '2022-11-28T07:23:23-08:00'^^xsd:dateTime
