@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03bke4038> a org:Organization ;
+    rdfs:label 'San Fernando General Hospital'^^xsd:string; 
+    schema:name 'San Fernando General Hospital'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:url <http://swrha.co.tt> ; 
+    schema:mainEntityOfPage <https://www.swrha.co.tt> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/San_Fernando_General_Hospital> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.461241.4> ;
+    schema:sameAs <http://isni.org/isni/0000000406384623> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/003kgv736> ;
+        rdfs:label 'University of the West Indies'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-61.46835,10.27969]}" ;
+            schema:address [
+                schema:addressLocality "San Fernando" ;
+                schema:addressCountry "TT" ;
+                schema:addressRegion "San Fernando" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Trinidad and Tobago" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3573738> ;
+        ] ; 
+    .

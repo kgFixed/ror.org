@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04p9rdr48> a org:Organization ;
+    rdfs:label 'Southern Isabela Medical Center'^^xsd:string; 
+    schema:name 'Southern Isabela Medical Center'^^xsd:string; 
+    schema:foundingDate '1961'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'SIMC'^^xsd:string; 
+    schema:url <http://simc.doh.gov.ph> ; 
+    schema:mainEntityOfPage <https://simc.doh.gov.ph> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Southern_Isabela_Medical_Center> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/03c336h16> ;
+        rdfs:label 'Isabela State University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[121.5487,16.68808]}" ;
+            schema:address [
+                schema:addressLocality "Santiago" ;
+                schema:addressCountry "PH" ;
+                schema:addressRegion "Cagayan Valley" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Philippines" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1687801> ;
+        ] ; 
+    .

@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03r7nqk21> a org:Organization ;
+    rdfs:label 'Banas Medical College and Research Institute'^^xsd:string; 
+    schema:name 'Banas Medical College and Research Institute'^^xsd:string; 
+    schema:foundingDate '2018'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'BMCRI'^^xsd:string; 
+    org:alternativeName 'Banas Medical College'^^xsd:string ; 
+    schema:url <http://bmcri.co.in> ; 
+    schema:mainEntityOfPage <https://www.bmcri.co.in> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Banas_Medical_College_and_Research_Institute%252C_Palanpur> ; 
+    schema:sameAs <http://isni.org/isni/000000048033427X> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[72.43827,24.17128]}" ;
+            schema:address [
+                schema:addressLocality "Pālanpur" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Gujarat" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1260777> ;
+        ] ; 
+    .

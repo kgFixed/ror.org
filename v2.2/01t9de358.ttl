@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01t9de358> a org:Organization ;
+    rdfs:label 'Rocky Mountain College'^^xsd:string; 
+    schema:name 'Rocky Mountain College'^^xsd:string; 
+    schema:foundingDate '1878'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'RMC'^^xsd:string; 
+    schema:url <http://rocky.edu> ; 
+    schema:mainEntityOfPage <https://rocky.edu> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Rocky_Mountain_College> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.427341.7> ;
+    schema:sameAs <http://isni.org/isni/0000000088153490> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-108.50069,45.78329]}" ;
+            schema:address [
+                schema:addressLocality "Billings" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Montana" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5640350> ;
+        ] ; 
+    .

@@ -1,0 +1,200 @@
+[
+  {
+    "@id": "https://ror.org/04dk1kp26",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Auburn Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Auburn_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nef3f31f5322849d4b5ab97da79658bfab1"
+      },
+      {
+        "@id": "_:nef3f31f5322849d4b5ab97da79658bfab2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2009"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nef3f31f5322849d4b5ab97da79658bfab3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.wslhd.health.nsw.gov.au/Auburn-Hospital"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Auburn Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.460679.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405776756"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef3f31f5322849d4b5ab97da79658bfab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The University of Notre Dame Australia"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02stey378"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef3f31f5322849d4b5ab97da79658bfab2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Western Sydney Local Health District"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01vqqp163"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef3f31f5322849d4b5ab97da79658bfab3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[151.03333,-33.85]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2177513"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nef3f31f5322849d4b5ab97da79658bfab4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef3f31f5322849d4b5ab97da79658bfab4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nef3f31f5322849d4b5ab97da79658bfab5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Auburn"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "New South Wales"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef3f31f5322849d4b5ab97da79658bfab5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nef3f31f5322849d4b5ab97da79658bfab6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef3f31f5322849d4b5ab97da79658bfab6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

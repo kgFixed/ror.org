@@ -1,0 +1,59 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00k642b80> a org:Organization ;
+    rdfs:label 'Alibaba Group (China)'^^xsd:string; 
+    schema:name 'Alibaba Group (China)'^^xsd:string; 
+    schema:foundingDate '1999'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'Alibaba'^^xsd:string ; 
+    org:alternativeName 'Alibaba Inc.'^^xsd:string ; 
+    org:alternativeName 'Qwen'^^xsd:string ; 
+    org:alternativeName 'Qwen Team'^^xsd:string ; 
+    org:alternativeName 'Qwen.AI'^^xsd:string ; 
+    org:alternativeName 'Ālǐbābā Jítuán Kònggǔ Yǒuxiàn Gōngsī'^^xsd:string ; 
+    schema:url <http://alibabagroup.com> ; 
+    schema:mainEntityOfPage <https://www.alibabagroup.com> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Alibaba_Group> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.481558.5> ;
+    schema:sameAs <http://isni.org/isni/0000000464792545> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00mnrxf72> ;
+        rdfs:label 'Alibaba Group (Cayman Islands)'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00rn0m335> ;
+        rdfs:label 'Alibaba Group (United States)'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[120.16142,30.29365]}" ;
+            schema:address [
+                schema:addressLocality "Hangzhou" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Zhejiang" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1808926> ;
+        ] ; 
+    .

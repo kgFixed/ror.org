@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05t0f9x62> a org:Organization ;
+    rdfs:label 'Balkanistic Forum – International University Seminar for Research and Specializations'^^xsd:string; 
+    schema:name 'Balkanistic Forum – International University Seminar for Research and Specializations'^^xsd:string; 
+    schema:foundingDate '1999'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'BW'^^xsd:string; 
+    org:alternativeName 'Balkanistic Forum-IUSSS'^^xsd:string ; 
+    schema:url <http://bf.balkanistica.com> ; 
+    schema:mainEntityOfPage <https://bf.balkanistica.com> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[23.09804,42.01457]}" ;
+            schema:address [
+                schema:addressLocality "Blagoevgrad" ;
+                schema:addressCountry "BG" ;
+                schema:addressRegion "Blagoevgrad" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Bulgaria" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/733191> ;
+        ] ; 
+    .

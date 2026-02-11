@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/011gb2z47",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre Hospitalier Agen - Nérac"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital Center D'agen"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:naaacddb9e9ab47dea3e89ec7b4bbc6afb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ch-agen-nerac.fr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre Hospitalier Agen - Nérac"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.489897.3"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ch-agen-nerac.fr"
+      }
+    ]
+  },
+  {
+    "@id": "_:naaacddb9e9ab47dea3e89ec7b4bbc6afb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[0.62055,44.20199]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3038634"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:naaacddb9e9ab47dea3e89ec7b4bbc6afb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:naaacddb9e9ab47dea3e89ec7b4bbc6afb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:naaacddb9e9ab47dea3e89ec7b4bbc6afb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Agen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nouvelle-Aquitaine"
+      }
+    ]
+  },
+  {
+    "@id": "_:naaacddb9e9ab47dea3e89ec7b4bbc6afb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:naaacddb9e9ab47dea3e89ec7b4bbc6afb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:naaacddb9e9ab47dea3e89ec7b4bbc6afb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

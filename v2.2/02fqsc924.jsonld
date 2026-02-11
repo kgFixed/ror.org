@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/02fqsc924",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Livingstonia"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Unilia"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1895"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncdb02488abd64299998c5a8917f1d2d8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unilia.ac.mw"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Livingstonia"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.442591.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404757756"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unilia.ac.mw"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncdb02488abd64299998c5a8917f1d2d8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[34.10788,-10.60603]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/927856"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncdb02488abd64299998c5a8917f1d2d8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncdb02488abd64299998c5a8917f1d2d8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncdb02488abd64299998c5a8917f1d2d8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Livingstonia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Northern Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncdb02488abd64299998c5a8917f1d2d8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncdb02488abd64299998c5a8917f1d2d8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malawi"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncdb02488abd64299998c5a8917f1d2d8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

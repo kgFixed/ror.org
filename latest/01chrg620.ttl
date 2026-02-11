@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01chrg620> a org:Organization ;
+    rdfs:label 'École Régionale Supérieure de la Magistrature (ERSUMA) de l’OHADA'^^xsd:string; 
+    schema:name 'École Régionale Supérieure de la Magistrature (ERSUMA) de l’OHADA'^^xsd:string; 
+    schema:foundingDate '1998'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'ERSUMA'^^xsd:string; 
+    org:abbreviation 'ERSUMA - OHADA'^^xsd:string; 
+    org:alternativeName 'École Régionale Supérieure de Magistrature'^^xsd:string ; 
+    schema:url <http://ersuma.ohada.org> ; 
+    schema:mainEntityOfPage <https://ersuma.ohada.org> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[2.60359,6.49646]}" ;
+            schema:address [
+                schema:addressLocality "Porto-Novo" ;
+                schema:addressCountry "BJ" ;
+                schema:addressRegion "Ouémé" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Benin" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2392087> ;
+        ] ; 
+    .

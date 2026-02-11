@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/04skhpe58",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vancouver Prostate Centre"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Vancouver_Prostate_Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VPC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd3fe10c864214d64b9861117efe9db8bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.prostatecentre.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vancouver Prostate Centre"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://prostatecentre.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd3fe10c864214d64b9861117efe9db8bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-123.11934,49.24966]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6173331"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd3fe10c864214d64b9861117efe9db8bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd3fe10c864214d64b9861117efe9db8bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd3fe10c864214d64b9861117efe9db8bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Vancouver"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "British Columbia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd3fe10c864214d64b9861117efe9db8bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd3fe10c864214d64b9861117efe9db8bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd3fe10c864214d64b9861117efe9db8bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

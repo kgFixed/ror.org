@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02nhaz128> a org:Organization ;
+    rdfs:label 'Sacred Heart College (Autonomous)'^^xsd:string; 
+    schema:name 'Sacred Heart College (Autonomous)'^^xsd:string; 
+    schema:foundingDate '1951'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'SHC'^^xsd:string; 
+    org:alternativeName 'Sacred Heart College'^^xsd:string ; 
+    org:alternativeName 'Sacred Heart College (Autonomous), Thirupattur'^^xsd:string ; 
+    org:alternativeName 'Sacred Heart College, Thirupattur'^^xsd:string ; 
+    schema:url <http://shctpt.edu> ; 
+    schema:mainEntityOfPage <https://shctpt.edu> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Sacred_Heart_College%252C_Thirupattur> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/0255nn983> ;
+        rdfs:label 'Thiruvalluvar University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[78.56804,12.49239]}" ;
+            schema:address [
+                schema:addressLocality "Tirupattur" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Tamil Nadu" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1254354> ;
+        ] ; 
+    .

@@ -1,0 +1,163 @@
+[
+  {
+    "@id": "https://ror.org/02crnef85",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IIHMR University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Indian_Institute_of_Health_Management_Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IIHMR"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Indian Institute of Health Management Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1984"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6b8ebdb247ec4e43aec50f45dbe64db7b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://iihmr.edu.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IIHMR University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.464858.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000104951821"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://iihmr.edu.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b8ebdb247ec4e43aec50f45dbe64db7b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[75.78781,26.91962]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1269515"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6b8ebdb247ec4e43aec50f45dbe64db7b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b8ebdb247ec4e43aec50f45dbe64db7b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6b8ebdb247ec4e43aec50f45dbe64db7b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jaipur"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Rajasthan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b8ebdb247ec4e43aec50f45dbe64db7b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6b8ebdb247ec4e43aec50f45dbe64db7b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6b8ebdb247ec4e43aec50f45dbe64db7b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

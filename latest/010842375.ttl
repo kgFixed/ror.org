@@ -1,0 +1,62 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/010842375> a org:Organization ;
+    rdfs:label 'Tata Memorial Hospital'^^xsd:string; 
+    schema:name 'Tata Memorial Hospital'^^xsd:string; 
+    schema:foundingDate '1941'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'TMC'^^xsd:string; 
+    org:alternativeName 'Tata Memorial Centre'^^xsd:string ; 
+    schema:mainEntityOfPage <https://tmc.gov.in/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Tata_Memorial_Centre> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100010476> ;
+    schema:sameAs <https://grid.ac/institutions/grid.410871.b> ;
+    schema:sameAs <http://isni.org/isni/0000000417695793> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05b9pgt88> ;
+        rdfs:label 'Advanced Centre for Treatment, Research and Education in Cancer'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/02bv3zr67> ;
+        rdfs:label 'Homi Bhabha National Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0473r3056> ;
+        rdfs:label 'Mahamana Pandit Madan Mohan Malaviya Cancer Centre'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[72.88261,19.07283]}" ;
+            schema:address [
+                schema:addressLocality "Mumbai" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Maharashtra" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1275339> ;
+        ] ; 
+    .

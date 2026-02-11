@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01cyxvw51> a org:Organization ;
+    rdfs:label 'Nuclear Institute for Agriculture and Biology'^^xsd:string; 
+    schema:name 'Nuclear Institute for Agriculture and Biology'^^xsd:string; 
+    schema:foundingDate '1970'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'NIAB'^^xsd:string; 
+    schema:url <http://niab.org.pk> ; 
+    schema:mainEntityOfPage <http://www.niab.org.pk> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Nuclear_Institute_for_Agriculture_and_Biology> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.469967.3> ;
+    schema:sameAs <http://isni.org/isni/0000000495508498> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[73.08969,31.41554]}" ;
+            schema:address [
+                schema:addressLocality "Faisalabad" ;
+                schema:addressCountry "PK" ;
+                schema:addressRegion "Punjab" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Pakistan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1179400> ;
+        ] ; 
+    .

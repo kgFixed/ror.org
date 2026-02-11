@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/04a88ne27",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yokohama Arts Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n352cc161bdc34a6897a5e4825b659052b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://p.yafjp.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yokohama Arts Foundation"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://p.yafjp.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n352cc161bdc34a6897a5e4825b659052b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[139.65,35.43333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1848354"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n352cc161bdc34a6897a5e4825b659052b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n352cc161bdc34a6897a5e4825b659052b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n352cc161bdc34a6897a5e4825b659052b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Yokohama"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kanagawa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n352cc161bdc34a6897a5e4825b659052b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n352cc161bdc34a6897a5e4825b659052b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n352cc161bdc34a6897a5e4825b659052b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

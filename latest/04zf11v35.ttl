@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04zf11v35> a org:Organization ;
+    rdfs:label 'Instituto de Psicologia e Neuropsicologia do Porto (Portugal)'^^xsd:string; 
+    schema:name 'Instituto de Psicologia e Neuropsicologia do Porto (Portugal)'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2025-10-19'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'IPNP'^^xsd:string; 
+    schema:url <http://ipnp.pt> ; 
+    schema:mainEntityOfPage <https://ipnp.pt> ;
+    schema:sameAs <http://isni.org/isni/0000000510942605> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-8.61099,41.14961]}" ;
+            schema:address [
+                schema:addressLocality "Porto" ;
+                schema:addressCountry "PT" ;
+                schema:addressRegion "Porto" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Portugal" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2735943> ;
+        ] ; 
+    .

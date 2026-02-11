@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/02wp4vw89",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nippon Bunri University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Nippon_Bunri_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NBU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1967"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nebacbb1821e24db6a87a3748f2070adab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.nbu.ac.jp/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nippon Bunri University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.444554.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000403723693"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nbu.ac.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebacbb1821e24db6a87a3748f2070adab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[131.6,33.23333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1854487"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nebacbb1821e24db6a87a3748f2070adab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebacbb1821e24db6a87a3748f2070adab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nebacbb1821e24db6a87a3748f2070adab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ōita"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oita"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebacbb1821e24db6a87a3748f2070adab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nebacbb1821e24db6a87a3748f2070adab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebacbb1821e24db6a87a3748f2070adab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

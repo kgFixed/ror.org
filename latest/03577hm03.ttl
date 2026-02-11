@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03577hm03> a org:Organization ;
+    rdfs:label 'Ministry of Agriculture of the Republic of Kazakhstan'^^xsd:string; 
+    schema:name 'Ministry of Agriculture of the Republic of Kazakhstan'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Ministry of Agriculture of Kazakhstan'^^xsd:string ; 
+    org:alternativeName 'Министерство сельского хозяйства Республики Казахстан'^^xsd:string ; 
+    org:alternativeName 'Қазақстан Республикасы Ауыл шаруашылығы министрлігі'^^xsd:string ; 
+    schema:mainEntityOfPage <https://www.gov.kz/memleket/entities/moa> ;
+    schema:sameAs <https://api.crossref.org/funders/100019644> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[71.44598,51.1801]}" ;
+            schema:address [
+                schema:addressLocality "Astana" ;
+                schema:addressCountry "KZ" ;
+                schema:addressRegion "Astana" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Kazakhstan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1526273> ;
+        ] ; 
+    .

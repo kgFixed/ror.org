@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/0596kf428",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Nacional de Meteorologia e Geofísica"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://pt.wikipedia.org/wiki/Instituto_Nacional_de_Meteorologia_e_Geof%25C3%25ADsica_(Angola)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INAMET"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2011"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfe8bf485933741aeb71491ebfd2fcc55b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.inamet.gov.ao/ao/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Nacional de Meteorologia e Geofísica"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://inamet.gov.ao"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe8bf485933741aeb71491ebfd2fcc55b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.23432,-8.83682]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2240449"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfe8bf485933741aeb71491ebfd2fcc55b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe8bf485933741aeb71491ebfd2fcc55b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfe8bf485933741aeb71491ebfd2fcc55b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Luanda"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Luanda"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe8bf485933741aeb71491ebfd2fcc55b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfe8bf485933741aeb71491ebfd2fcc55b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Angola"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe8bf485933741aeb71491ebfd2fcc55b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

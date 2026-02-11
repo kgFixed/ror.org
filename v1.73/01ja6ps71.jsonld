@@ -1,0 +1,211 @@
+[
+  {
+    "@id": "https://ror.org/01ja6ps71",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lifelines"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://nl.wikipedia.org/wiki/Lifelines"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LifeLines Cohort Study"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LifeLines Cohort Study & Biobank"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lifelines Databeheer BV"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b1"
+      },
+      {
+        "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2014"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.lifelines.nl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lifelines"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://lifelines.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University Medical Center Groningen"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03cv38k47"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Groningen"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/012p63287"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.56667,53.21917]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2755251"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Groningen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Groningen"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddc059c6256443aaa8c0bb679bc036f7b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "@id": "https://ror.org/00d2w9g53",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shenzhen Polytechnic University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Shenzhen_Polytechnic"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SZPU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shenzhen Polytechnic"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "深圳职业技术学院"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1993"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3e33e3ea953f4ed6a73e3b91b56ccacbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.szpu.edu.cn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shenzhen Polytechnic University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100012840"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.464445.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417903863"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://szpu.edu.cn"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3e33e3ea953f4ed6a73e3b91b56ccacbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[114.0683,22.54554]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1795565"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3e33e3ea953f4ed6a73e3b91b56ccacbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3e33e3ea953f4ed6a73e3b91b56ccacbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3e33e3ea953f4ed6a73e3b91b56ccacbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Shenzhen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Guangdong"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3e33e3ea953f4ed6a73e3b91b56ccacbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3e33e3ea953f4ed6a73e3b91b56ccacbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3e33e3ea953f4ed6a73e3b91b56ccacbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

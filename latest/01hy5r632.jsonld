@@ -1,0 +1,184 @@
+[
+  {
+    "@id": "https://ror.org/01hy5r632",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Higher School of Management and Digital Economy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://fr.wikipedia.org/wiki/%25C3%2589cole_sup%25C3%25A9rieure_de_gestion_et_d%25E2%2580%2599%25C3%25A9conomie_num%25C3%25A9rique_(Kol%25C3%25A9a)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ESGEN"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HSMDE"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2019"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.esgen.edu.dz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Higher School of Management and Digital Economy"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://education.gouv.dz"
+      },
+      {
+        "@id": "http://esgen.edu.dz"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Higher Education and Scientific Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01ejfgc23"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.76845,36.63888]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2491578"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kolea"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tipaza"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Algeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne92c04b7a5e94d878a65c20a0410d10bb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

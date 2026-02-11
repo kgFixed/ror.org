@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/05tb15k40",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-09-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Clinical Academic Center of Braga"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "2CA-Braga"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2012"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb4e4d7b064784235b4e26f582fa47096b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ccabraga.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Clinical Academic Center of Braga"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.512329.e"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ccabraga.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb4e4d7b064784235b4e26f582fa47096b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.42005,41.55032]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2742032"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb4e4d7b064784235b4e26f582fa47096b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb4e4d7b064784235b4e26f582fa47096b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb4e4d7b064784235b4e26f582fa47096b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Braga"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Braga"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb4e4d7b064784235b4e26f582fa47096b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb4e4d7b064784235b4e26f582fa47096b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb4e4d7b064784235b4e26f582fa47096b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

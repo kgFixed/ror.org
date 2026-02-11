@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04dvqcr82> a org:Organization ;
+    rdfs:label 'Institut Ilmu Al-Quran (IIQ) Jakarta'^^xsd:string; 
+    schema:name 'Institut Ilmu Al-Quran (IIQ) Jakarta'^^xsd:string; 
+    schema:foundingDate '1977'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'IIQ'^^xsd:string; 
+    org:alternativeName 'Institut Ilmu Al-Quran Jakarta'^^xsd:string ; 
+    schema:url <http://iiq.ac.id> ; 
+    schema:mainEntityOfPage <https://iiq.ac.id> ;
+    owl:sameAs <https://id.wikipedia.org/wiki/Institut_Ilmu_Al-Qur%2527an> ; 
+    schema:sameAs <http://isni.org/isni/0000000090901582> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[106.71789,-6.28862]}" ;
+            schema:address [
+                schema:addressLocality "South Tangerang" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "Banten" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/8581443> ;
+        ] ; 
+    .

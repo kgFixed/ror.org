@@ -1,0 +1,173 @@
+[
+  {
+    "@id": "https://ror.org/04cmez398",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UGC-DAE Consortium for Scientific Research, Mumbai Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Consortium for Scientific Research, Mumbai"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UGC DAE CSR Mumbai Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://csr.res.in/Mumbai_Centre"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UGC-DAE Consortium for Scientific Research, Mumbai Centre"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://csr.res.in"
+      },
+      {
+        "@id": "http://csruserportal.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UGC DAE Consortium for Scientific Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/047g7f905"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[72.88261,19.07283]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1275339"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mumbai"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Maharashtra"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d971d4e0773454f9b2f5ecbbb329dddb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

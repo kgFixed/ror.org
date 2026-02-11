@@ -1,0 +1,172 @@
+[
+  {
+    "@id": "https://ror.org/03w2z6524",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-07-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gansu Education Department"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Education Department of Gansu Province"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gansu Provincial Education Department"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b2"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gansu Education Department"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100009590"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417587135"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Education of the People's Republic of China"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01mv9t934"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[103.83987,36.05701]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1804430"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lanzhou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gansu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n68c96645625345e7b49ae704e4c0b1a8b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

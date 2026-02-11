@@ -1,0 +1,175 @@
+[
+  {
+    "@id": "https://ror.org/03v85ar63",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-06"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Central University Hospital of Asturias"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HUCA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1989"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.hca.es/huca/web/index.asp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Central University Hospital of Asturias"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.411052.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121769028"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Servicio de Salud del Principado de Asturias"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00kj4ev13"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-5.84476,43.36029]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3114711"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Oviedo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Asturias"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8509e9b9d4b14d0d832248e3ef568352b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

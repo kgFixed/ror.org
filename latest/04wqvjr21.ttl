@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04wqvjr21> a org:Organization ;
+    rdfs:label 'Centre Hospitalier Intercommunal Toulon-La Seyne-sur-Mer'^^xsd:string; 
+    schema:name 'Centre Hospitalier Intercommunal Toulon-La Seyne-sur-Mer'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:url <http://ch-toulon.fr> ; 
+    schema:mainEntityOfPage <https://www.ch-toulon.fr/accueil-3.html> ;
+    schema:sameAs <https://grid.ac/institutions/grid.489910.d> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[5.92836,43.12442]}" ;
+            schema:address [
+                schema:addressLocality "Toulon" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Provence-Alpes-Côte d'Azur" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2972328> ;
+        ] ; 
+    .

@@ -1,0 +1,178 @@
+[
+  {
+    "@id": "https://ror.org/04d2k0j65",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SPARC Europe"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scholarly Publishing and Academic Resources Coalition Europe"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2004"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://sparceurope.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SPARC Europe"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sparceurope.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scholarly Publishing and Academic Resources Coalition"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01dktcn28"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.55891,52.02863]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2745774"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Veenendaal"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Utrecht"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb71d0abe55644c0da8cec008dc6540b1b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

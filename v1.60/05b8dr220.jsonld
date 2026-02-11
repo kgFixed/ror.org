@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/05b8dr220",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Women Fund Tanzania Trust"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "WFT-T"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Women Fund Tanzania Trust (WFT-T)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2008"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n99f7163007464cbb9e276c1852f6ab27b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://wftrust.or.tz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Women Fund Tanzania Trust"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://wftrust.or.tz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n99f7163007464cbb9e276c1852f6ab27b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[39.26951,-6.82349]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/160263"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n99f7163007464cbb9e276c1852f6ab27b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n99f7163007464cbb9e276c1852f6ab27b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n99f7163007464cbb9e276c1852f6ab27b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dar es Salaam"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dar es Salaam Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n99f7163007464cbb9e276c1852f6ab27b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n99f7163007464cbb9e276c1852f6ab27b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Tanzania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n99f7163007464cbb9e276c1852f6ab27b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

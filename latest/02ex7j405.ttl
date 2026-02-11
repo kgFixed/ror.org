@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02ex7j405> a org:Organization ;
+    rdfs:label 'Ministry of Social Development'^^xsd:string; 
+    schema:name 'Ministry of Social Development'^^xsd:string; 
+    schema:foundingDate '2001'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'MSD'^^xsd:string; 
+    org:alternativeName 'New Zealand Ministry of Social Development'^^xsd:string ; 
+    schema:url <http://msd.govt.nz> ; 
+    schema:mainEntityOfPage <https://www.msd.govt.nz> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Ministry_of_Social_Development_%2528New_Zealand%2529> ; 
+    schema:sameAs <http://isni.org/isni/0000000403720759> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[174.77557,-41.28664]}" ;
+            schema:address [
+                schema:addressLocality "Wellington" ;
+                schema:addressCountry "NZ" ;
+                schema:addressRegion "Wellington Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "New Zealand" ;
+                    schema:containedInPlace [
+                        schema:name "Oceania" ;
+                        schema:identifier "OC"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2179537> ;
+        ] ; 
+    .

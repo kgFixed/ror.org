@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02xqwa087> a org:Organization ;
+    rdfs:label 'Institute of Applied Geophysics of the Academy of Sciences'^^xsd:string; 
+    schema:name 'Institute of Applied Geophysics of the Academy of Sciences'^^xsd:string; 
+    schema:foundingDate '1956'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'IPG'^^xsd:string; 
+    org:alternativeName 'Institut Prikladnoy Geofiziki'^^xsd:string ; 
+    org:alternativeName 'Institute of Applied Geophysics of Academician E.K.Fedorov'^^xsd:string ; 
+    schema:url <http://ipg.geospace.ru> ; 
+    schema:mainEntityOfPage <http://ipg.geospace.ru> ;
+    schema:sameAs <https://grid.ac/institutions/grid.469937.6> ;
+    schema:sameAs <http://isni.org/isni/0000000106760340> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[37.61781,55.75204]}" ;
+            schema:address [
+                schema:addressLocality "Moscow" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "Moscow" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/524901> ;
+        ] ; 
+    .

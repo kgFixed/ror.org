@@ -1,0 +1,65 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/041hae580> a org:Organization ;
+    rdfs:label 'Countess of Chester Hospital'^^xsd:string; 
+    schema:name 'Countess of Chester Hospital'^^xsd:string; 
+    schema:foundingDate '1984'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    schema:url <http://coch.nhs.uk> ; 
+    schema:mainEntityOfPage <https://www.coch.nhs.uk> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Countess_of_Chester_Hospital_NHS_Foundation_Trust> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.415914.c> ;
+    schema:sameAs <http://isni.org/isni/0000000403999999> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/0149cpy58> ;
+        rdfs:label 'Countess of Chester Hospital NHS Foundation Trust'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/053fq8t95> ;
+        rdfs:label 'Swansea University'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/01drpwb22> ;
+        rdfs:label 'University of Chester'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/04xs57h96> ;
+        rdfs:label 'University of Liverpool'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-2.89189,53.1905]}" ;
+            schema:address [
+                schema:addressLocality "Chester" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "England" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2653228> ;
+        ] ; 
+    .

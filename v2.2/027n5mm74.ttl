@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/027n5mm74> a org:Organization ;
+    rdfs:label 'Dr Emilio B Espinosa Sr Memorial State College of Agriculture and Technology'^^xsd:string; 
+    schema:name 'Dr Emilio B Espinosa Sr Memorial State College of Agriculture and Technology'^^xsd:string; 
+    schema:foundingDate '1952'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'DEBESMSCAT'^^xsd:string; 
+    org:alternativeName 'Masbate State College'^^xsd:string ; 
+    schema:url <http://debesmscat.edu.ph> ; 
+    schema:mainEntityOfPage <https://debesmscat.edu.ph> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Dr._Emilio_B._Espinosa_Sr._Memorial_State_College_of_Agriculture_and_Technology> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.468791.5> ;
+    schema:sameAs <http://isni.org/isni/0000000491565946> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[123.34121,12.29434]}" ;
+            schema:address [
+                schema:addressLocality "Cabitan" ;
+                schema:addressCountry "PH" ;
+                schema:addressRegion "Bicol Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Philippines" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1721568> ;
+        ] ; 
+    .

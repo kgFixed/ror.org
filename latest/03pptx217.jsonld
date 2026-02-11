@@ -1,0 +1,188 @@
+[
+  {
+    "@id": "https://ror.org/03pptx217",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akademija likovnih umjetnosti u Zagrebu"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://hr.wikipedia.org/wiki/Akademija_likovnih_umjetnosti_u_Zagrebu"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ALU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akademija likovnih umjetnosti"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ndebb38a014a147a6813f380d99eff963b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1907"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndebb38a014a147a6813f380d99eff963b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.alu.unizg.hr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akademija likovnih umjetnosti u Zagrebu"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000115405025"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://alu.unizg.hr"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndebb38a014a147a6813f380d99eff963b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Zagreb"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00mv6sv71"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndebb38a014a147a6813f380d99eff963b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.97798,45.81444]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3186886"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndebb38a014a147a6813f380d99eff963b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndebb38a014a147a6813f380d99eff963b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndebb38a014a147a6813f380d99eff963b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zagreb"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zagreb"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndebb38a014a147a6813f380d99eff963b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndebb38a014a147a6813f380d99eff963b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Croatia"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndebb38a014a147a6813f380d99eff963b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

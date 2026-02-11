@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02ffnqv03> a org:Organization ;
+    rdfs:label 'Professional Association of Kinetotherapists and Manual Therapists "MEDKINETICA" from the Republic of Moldova'^^xsd:string; 
+    schema:name 'Professional Association of Kinetotherapists and Manual Therapists "MEDKINETICA" from the Republic of Moldova'^^xsd:string; 
+    schema:foundingDate '2016'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'AO APKTM ”Medkinetica”'^^xsd:string ; 
+    org:alternativeName 'Medkinetica'^^xsd:string ; 
+    org:alternativeName 'Professional Association of Kinetotherapists and Manual Therapists from Republic of Moldova'^^xsd:string ; 
+    schema:url <http://medkinetica.com> ; 
+    schema:mainEntityOfPage <https://www.medkinetica.com> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[28.85938,47.00902]}" ;
+            schema:address [
+                schema:addressLocality "Chisinau" ;
+                schema:addressCountry "MD" ;
+                schema:addressRegion "Chișinău Municipality" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Moldova" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/618426> ;
+        ] ; 
+    .

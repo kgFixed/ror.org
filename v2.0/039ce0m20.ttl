@@ -1,0 +1,54 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/039ce0m20> a org:Organization ;
+    rdfs:label 'Hellenic Mediterranean University'^^xsd:string; 
+    schema:name 'Hellenic Mediterranean University'^^xsd:string; 
+    schema:foundingDate '1983'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'HMU'^^xsd:string; 
+    org:alternativeName 'TEI Crete'^^xsd:string ; 
+    org:alternativeName 'TEI of Crete'^^xsd:string ; 
+    org:alternativeName 'Technological Educational Institute of Crete'^^xsd:string ; 
+    org:alternativeName 'Τεχνολογικό Εκπαιδευτικό Ίδρυμα Κρήτης'^^xsd:string ; 
+    schema:url <http://hmu.gr> ; 
+    schema:mainEntityOfPage <https://hmu.gr> ;
+    owl:sameAs <https://el.wikipedia.org/wiki/%25CE%2595%25CE%25BB%25CE%25BB%25CE%25B7%25CE%25BD%25CE%25B9%25CE%25BA%25CF%258C_%25CE%259C%25CE%25B5%25CF%2583%25CE%25BF%25CE%25B3%25CE%25B5%25CE%25B9%25CE%25B1%25CE%25BA%25CF%258C_%25CE%25A0%25CE%25B1%25CE%25BD%25CE%25B5%25CF%2580%25CE%25B9%25CF%2583%25CF%2584%25CE%25AE%25CE%25BC%25CE%25B9%25CE%25BF> ; 
+    schema:sameAs <https://api.crossref.org/funders/100032633> ;
+    schema:sameAs <https://grid.ac/institutions/grid.419879.a> ;
+    schema:sameAs <http://isni.org/isni/0000000403938299> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01bkx5q50> ;
+        rdfs:label 'Centre for Technological Research of Crete'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[25.14341,35.32787]}" ;
+            schema:address [
+                schema:addressLocality "Heraklion" ;
+                schema:addressCountry "GR" ;
+                schema:addressRegion "Crete" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Greece" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/261745> ;
+        ] ; 
+    .

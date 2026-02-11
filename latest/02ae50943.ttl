@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02ae50943> a org:Organization ;
+    rdfs:label 'Secretaria da Saúde do Estado da Bahia'^^xsd:string; 
+    schema:name 'Secretaria da Saúde do Estado da Bahia'^^xsd:string; 
+    schema:foundingDate '1966'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Bahia State Health Department'^^xsd:string ; 
+    org:abbreviation 'SESAB'^^xsd:string; 
+    org:alternativeName 'Secretaria da Saúde do Estado da Bahia – SESAB'^^xsd:string ; 
+    schema:url <http://saude.ba.gov.br> ; 
+    schema:mainEntityOfPage <https://www.saude.ba.gov.br> ;
+    owl:sameAs <https://pt.wikipedia.org/wiki/Secretaria_de_Sa%25C3%25BAde_do_Estado_da_Bahia> ; 
+    schema:sameAs <http://isni.org/isni/0000000446867814> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-38.49096,-12.97563]}" ;
+            schema:address [
+                schema:addressLocality "Salvador" ;
+                schema:addressCountry "BR" ;
+                schema:addressRegion "Bahia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Brazil" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3450554> ;
+        ] ; 
+    .

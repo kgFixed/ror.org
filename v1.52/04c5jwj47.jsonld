@@ -1,0 +1,205 @@
+[
+  {
+    "@id": "https://ror.org/04c5jwj47",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-16"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Collegium Medicum in Bydgoszcz"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ludwik Rydygier Collegium Medicum"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ludwik Rydygier Medical University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b1"
+      },
+      {
+        "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1984"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.cm.umk.pl/en/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Collegium Medicum in Bydgoszcz"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.411797.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000105955584"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nicolaus Copernicus University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0102mm775"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jan Biziel University Hospital No. 2 in Bydgoszcz"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05r81yb60"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[18.00762,53.1235]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3102014"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bydgoszcz"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Poland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8f8b2f4e504c4cfeb0c0da5df4d55e46b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

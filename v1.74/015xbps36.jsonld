@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/015xbps36",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nordic Institute of Dental Materials"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Nordic_Institute_of_Dental_Materials"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NIOM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1972"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n38962f1ee5954a5994dacfe7992b066cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.niom.no"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nordic Institute of Dental Materials"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.419541.c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406113559"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://niom.no"
+      }
+    ]
+  },
+  {
+    "@id": "_:n38962f1ee5954a5994dacfe7992b066cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.74609,59.91273]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3143244"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n38962f1ee5954a5994dacfe7992b066cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n38962f1ee5954a5994dacfe7992b066cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n38962f1ee5954a5994dacfe7992b066cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Oslo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oslo"
+      }
+    ]
+  },
+  {
+    "@id": "_:n38962f1ee5954a5994dacfe7992b066cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n38962f1ee5954a5994dacfe7992b066cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Norway"
+      }
+    ]
+  },
+  {
+    "@id": "_:n38962f1ee5954a5994dacfe7992b066cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

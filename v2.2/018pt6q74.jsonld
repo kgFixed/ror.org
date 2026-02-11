@@ -1,0 +1,133 @@
+[
+  {
+    "@id": "https://ror.org/018pt6q74",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut za informatičke inovacije"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2006"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n27943b1aaf63406b96a685783cbf35d4b1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut za informatičke inovacije"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://svetikriz.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27943b1aaf63406b96a685783cbf35d4b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.90704,46.08224]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/11049213"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n27943b1aaf63406b96a685783cbf35d4b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27943b1aaf63406b96a685783cbf35d4b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n27943b1aaf63406b96a685783cbf35d4b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sveti Križ Začretje"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Krapina-Zagorje"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27943b1aaf63406b96a685783cbf35d4b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n27943b1aaf63406b96a685783cbf35d4b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Croatia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27943b1aaf63406b96a685783cbf35d4b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

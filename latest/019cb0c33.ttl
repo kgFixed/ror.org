@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/019cb0c33> a org:Organization ;
+    rdfs:label 'Jinan Third People\'s Hospital'^^xsd:string; 
+    schema:name 'Jinan Third People\'s Hospital'^^xsd:string; 
+    schema:foundingDate '1951'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName '济南市第三人民医院'^^xsd:string ; 
+    schema:sameAs <http://isni.org/isni/0000000517706445> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[116.99722,36.66833]}" ;
+            schema:address [
+                schema:addressLocality "Jinan" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Shandong" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1805753> ;
+        ] ; 
+    .

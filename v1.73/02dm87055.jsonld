@@ -1,0 +1,207 @@
+[
+  {
+    "@id": "https://ror.org/02dm87055",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre for Demographic Studies"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CED"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CED-CERCA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b1"
+      },
+      {
+        "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1984"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ced.cat"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre for Demographic Studies"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.466535.7"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ced.cat"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CERCA Institution"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01bkbaq61"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitat Autònoma de Barcelona"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/052g8jq94"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.08746,41.5026]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6951088"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bellaterra"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Catalonia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:n56d0e397f8264df1a450e7b8c18f9338b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

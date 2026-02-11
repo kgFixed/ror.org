@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/02h4pw461",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Accare"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2001"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n69470a00d0c14117bd43dfe7a741715ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.accare.nl/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Accare"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100003291"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.459337.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404472187"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://accare.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n69470a00d0c14117bd43dfe7a741715ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.56667,53.21917]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2755251"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n69470a00d0c14117bd43dfe7a741715ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n69470a00d0c14117bd43dfe7a741715ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n69470a00d0c14117bd43dfe7a741715ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Groningen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Groningen"
+      }
+    ]
+  },
+  {
+    "@id": "_:n69470a00d0c14117bd43dfe7a741715ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n69470a00d0c14117bd43dfe7a741715ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:n69470a00d0c14117bd43dfe7a741715ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

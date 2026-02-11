@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/051a9ap09",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bibliotheca Alexandrina"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Bibliotheca_Alexandrina"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Maktabat al-Iskandarīyah"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2002"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7f284d7e3b3e42fdbdb369cd37f15330b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://bibalex.org/en/default"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bibliotheca Alexandrina"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.433309.e"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122573510"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bibalex.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7f284d7e3b3e42fdbdb369cd37f15330b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[29.91582,31.20176]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/361058"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7f284d7e3b3e42fdbdb369cd37f15330b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7f284d7e3b3e42fdbdb369cd37f15330b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7f284d7e3b3e42fdbdb369cd37f15330b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Alexandria"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Alexandria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7f284d7e3b3e42fdbdb369cd37f15330b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7f284d7e3b3e42fdbdb369cd37f15330b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Egypt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7f284d7e3b3e42fdbdb369cd37f15330b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

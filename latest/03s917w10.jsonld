@@ -1,0 +1,139 @@
+[
+  {
+    "@id": "https://ror.org/03s917w10",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de Recherche Clinique du Bénin"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ICRB"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2016"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2d52eed413bd4a819e40efec51e674adb1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de Recherche Clinique du Bénin"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ircbenin.bj"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2d52eed413bd4a819e40efec51e674adb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.35566,6.44852]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2395914"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2d52eed413bd4a819e40efec51e674adb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2d52eed413bd4a819e40efec51e674adb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2d52eed413bd4a819e40efec51e674adb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BJ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Abomey-Calavi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Atlantique"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2d52eed413bd4a819e40efec51e674adb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2d52eed413bd4a819e40efec51e674adb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Benin"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2d52eed413bd4a819e40efec51e674adb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

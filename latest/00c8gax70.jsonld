@@ -1,0 +1,190 @@
+[
+  {
+    "@id": "https://ror.org/00c8gax70",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Queen Elizabeth II Jubilee Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Queen_Elizabeth_II_Jubilee_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "QE II"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "QEII Hospital"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Queen Elizabeth II Jubilee Hospital - MSH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1980"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://metrosouth.health.qld.gov.au/qeii-jubilee-hospital"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Queen Elizabeth II Jubilee Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.460796.a"
+      },
+      {
+        "@id": "http://isni.org/isni/000000040625970X"
+      }
+    ]
+  },
+  {
+    "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Metro South Health"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/016gd3115"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[153.02809,-27.46794]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2174003"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Brisbane"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Queensland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nff9cb94f4d3f4468935bb87c68004b74b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

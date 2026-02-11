@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/00kx6j950",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Health and Family Planning Commission of Sichuan Province"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2014"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbb6dedd955e341beae5eccd4add5a02ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.scwst.gov.cn/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Health and Family Planning Commission of Sichuan Province"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100009564"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.484210.b"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417752372"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb6dedd955e341beae5eccd4add5a02ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[104.06667,30.66667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1815286"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbb6dedd955e341beae5eccd4add5a02ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb6dedd955e341beae5eccd4add5a02ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbb6dedd955e341beae5eccd4add5a02ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Chengdu"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Sichuan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb6dedd955e341beae5eccd4add5a02ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbb6dedd955e341beae5eccd4add5a02ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb6dedd955e341beae5eccd4add5a02ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

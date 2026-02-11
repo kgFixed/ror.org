@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/027ynca27> a org:Organization ;
+    rdfs:label 'Formosa Plastics (Taiwan)'^^xsd:string; 
+    schema:name 'Formosa Plastics (Taiwan)'^^xsd:string; 
+    schema:foundingDate '1958'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Formosa Plastics Corporation'^^xsd:string ; 
+    schema:url <http://fpg.com.tw> ; 
+    schema:mainEntityOfPage <https://www.fpg.com.tw> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Formosa_Plastics_Group> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.471282.a> ;
+    schema:sameAs <http://isni.org/isni/0000000406392957> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[120.31333,22.61626]}" ;
+            schema:address [
+                schema:addressLocality "Kaohsiung" ;
+                schema:addressCountry "TW" ;
+                schema:addressRegion "Kaohsiung" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Taiwan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1673820> ;
+        ] ; 
+    .

@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/050d0xx93> a org:Organization ;
+    rdfs:label 'Ziekenhuis aan de Stroom'^^xsd:string; 
+    schema:name 'Ziekenhuis aan de Stroom'^^xsd:string; 
+    schema:foundingDate '2024'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'ZAS'^^xsd:string; 
+    org:alternativeName 'ZAS Antwerpen'^^xsd:string ; 
+    org:alternativeName 'ZAS vzw'^^xsd:string ; 
+    schema:url <http://zas.be> ; 
+    schema:mainEntityOfPage <https://www.zas.be> ;
+    owl:sameAs <https://nl.wikipedia.org/wiki/Ziekenhuis_aan_de_Stroom> ; 
+    schema:sameAs <http://isni.org/isni/0000000514869660> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/05dpzfc16> ;
+        rdfs:label 'Ziekenhuisnetwerk Antwerpen Stuivenberg'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/00kss4e25> ;
+        rdfs:label 'GZA Ziekenhuizen Campus Sint-Augustinus'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[4.40026,51.22047]}" ;
+            schema:address [
+                schema:addressLocality "Antwerp" ;
+                schema:addressCountry "BE" ;
+                schema:addressRegion "Flanders" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Belgium" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2803138> ;
+        ] ; 
+    .

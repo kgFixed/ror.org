@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/01gb5wb80",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chongqing Institute for Brain and Intelligence"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CIBI"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2022"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n876a61d422b24558a36df9ab7631350fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.cibi.ac.cn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chongqing Institute for Brain and Intelligence"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cibi.ac.cn"
+      }
+    ]
+  },
+  {
+    "@id": "_:n876a61d422b24558a36df9ab7631350fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[106.55771,29.56026]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1814906"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n876a61d422b24558a36df9ab7631350fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n876a61d422b24558a36df9ab7631350fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n876a61d422b24558a36df9ab7631350fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Chongqing"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Chongqing"
+      }
+    ]
+  },
+  {
+    "@id": "_:n876a61d422b24558a36df9ab7631350fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n876a61d422b24558a36df9ab7631350fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n876a61d422b24558a36df9ab7631350fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

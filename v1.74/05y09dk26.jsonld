@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/05y09dk26",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Samara Regional Clinical Oncology Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1940"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7d923087103e45d08d63e7a8e7d94f33b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://samaraonko.ru"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Samara Regional Clinical Oncology Center"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.489210.6"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406201938"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://samaraonko.ru"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d923087103e45d08d63e7a8e7d94f33b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[50.13553,53.20767]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/499099"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7d923087103e45d08d63e7a8e7d94f33b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d923087103e45d08d63e7a8e7d94f33b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7d923087103e45d08d63e7a8e7d94f33b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Samara"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Samara Oblast"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d923087103e45d08d63e7a8e7d94f33b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7d923087103e45d08d63e7a8e7d94f33b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d923087103e45d08d63e7a8e7d94f33b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

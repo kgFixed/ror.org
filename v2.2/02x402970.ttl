@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02x402970> a org:Organization ;
+    rdfs:label 'iPronics Programmable Photonics (Spain)'^^xsd:string; 
+    schema:name 'iPronics Programmable Photonics (Spain)'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2024-03-13'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'iPronics'^^xsd:string ; 
+    org:alternativeName 'iPronics Programmable Photonics'^^xsd:string ; 
+    org:alternativeName 'iPronics Programmable Photonics, S.L.'^^xsd:string ; 
+    schema:url <http://ipronics.com> ; 
+    schema:mainEntityOfPage <https://ipronics.com> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-0.37966,39.47391]}" ;
+            schema:address [
+                schema:addressLocality "Valencia" ;
+                schema:addressCountry "ES" ;
+                schema:addressRegion "Valencia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Spain" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2509954> ;
+        ] ; 
+    .

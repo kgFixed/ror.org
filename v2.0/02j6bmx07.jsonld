@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/02j6bmx07",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Universitário Salesiano"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UniSales"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Salesian University Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2000"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9f05db1cf7054ee88b56b84729404dbdb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unisales.br"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Universitário Salesiano"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unisales.br"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9f05db1cf7054ee88b56b84729404dbdb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-40.33778,-20.31944]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3444924"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9f05db1cf7054ee88b56b84729404dbdb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9f05db1cf7054ee88b56b84729404dbdb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9f05db1cf7054ee88b56b84729404dbdb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Vitória"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Espírito Santo"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9f05db1cf7054ee88b56b84729404dbdb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9f05db1cf7054ee88b56b84729404dbdb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9f05db1cf7054ee88b56b84729404dbdb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

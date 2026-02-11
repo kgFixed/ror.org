@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/018fv4x96",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-20"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Naturkundemuseum Bamberg"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://de.wikipedia.org/wiki/Naturkunde-Museum_%2528Bamberg%2529"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NKMB"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Natural History Museum Bamberg"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Naturkunde-Museum Bamberg"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1791"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n711b5284a16b4132ae96e398187346ccb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.naturkundemuseum-bamberg.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Naturkundemuseum Bamberg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://naturkundemuseum-bamberg.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:n711b5284a16b4132ae96e398187346ccb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.90067,49.89873]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2952984"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n711b5284a16b4132ae96e398187346ccb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n711b5284a16b4132ae96e398187346ccb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n711b5284a16b4132ae96e398187346ccb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bamberg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bavaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n711b5284a16b4132ae96e398187346ccb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n711b5284a16b4132ae96e398187346ccb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n711b5284a16b4132ae96e398187346ccb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

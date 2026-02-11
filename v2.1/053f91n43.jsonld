@@ -1,0 +1,176 @@
+[
+  {
+    "@id": "https://ror.org/053f91n43",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "D.B.S. Degree (PG) College"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DBS PG College, Govind Nagar"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DBS PG College, Kanpur"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1959"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.dbskanpur.ac.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "D.B.S. Degree (PG) College"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dbskanpur.ac.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chhatrapati Shahu Ji Maharaj University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/040qxz868"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[80.34975,26.46523]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1267995"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kanpur"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Uttar Pradesh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n27a0c71e8c444296b7bccea6d27f9b51b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

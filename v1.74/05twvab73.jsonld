@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/05twvab73",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jehangir Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Jehangir_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1946"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n20ec2a8cadb2498a8a5fa60fe93a490fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.jehangirhospital.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jehangir Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.414967.9"
+      },
+      {
+        "@id": "http://isni.org/isni/000000041804743X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://jehangirhospital.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n20ec2a8cadb2498a8a5fa60fe93a490fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[73.85535,18.51957]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1259229"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n20ec2a8cadb2498a8a5fa60fe93a490fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n20ec2a8cadb2498a8a5fa60fe93a490fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n20ec2a8cadb2498a8a5fa60fe93a490fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pune"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Maharashtra"
+      }
+    ]
+  },
+  {
+    "@id": "_:n20ec2a8cadb2498a8a5fa60fe93a490fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n20ec2a8cadb2498a8a5fa60fe93a490fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n20ec2a8cadb2498a8a5fa60fe93a490fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/00j5mtz35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-09-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ratio"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Ratio_Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ratio Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2002"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3873c297e8404463813175c9b2e94472b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ratio.se"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ratio"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.512290.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000106658370"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ratio.se"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3873c297e8404463813175c9b2e94472b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[18.06871,59.32938]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2673730"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3873c297e8404463813175c9b2e94472b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3873c297e8404463813175c9b2e94472b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3873c297e8404463813175c9b2e94472b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Stockholm"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Stockholm"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3873c297e8404463813175c9b2e94472b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3873c297e8404463813175c9b2e94472b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sweden"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3873c297e8404463813175c9b2e94472b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

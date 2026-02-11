@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05y4eg947> a org:Organization ;
+    rdfs:label 'Escuela Militar de Aviación'^^xsd:string; 
+    schema:name 'Escuela Militar de Aviación'^^xsd:string; 
+    schema:foundingDate '1919'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'EMAVI'^^xsd:string; 
+    org:alternativeName 'Escuela Militar de Aviación Marco Fidel Suárez'^^xsd:string ; 
+    schema:url <http://emavi.edu.co> ; 
+    schema:mainEntityOfPage <https://www.emavi.edu.co> ;
+    owl:sameAs <https://es.wikipedia.org/wiki/Escuela_Militar_de_Aviaci%25C3%25B3n_(Colombia)> ; 
+    schema:sameAs <http://isni.org/isni/0000000404671661> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/02nmynt66> ;
+        rdfs:label 'Colombian Air Force'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-76.5199,3.43054]}" ;
+            schema:address [
+                schema:addressLocality "Santiago de Cali" ;
+                schema:addressCountry "CO" ;
+                schema:addressRegion "Valle del Cauca Department" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Colombia" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3687925> ;
+        ] ; 
+    .

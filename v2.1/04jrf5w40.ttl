@@ -1,0 +1,50 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04jrf5w40> a org:Organization ;
+    rdfs:label 'Institute of Fisheries of the National Academy of Agrarian Sciences of Ukraine'^^xsd:string; 
+    schema:name 'Institute of Fisheries of the National Academy of Agrarian Sciences of Ukraine'^^xsd:string; 
+    schema:foundingDate '1930'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'IF NAAS'^^xsd:string; 
+    org:abbreviation 'IF NAASU'^^xsd:string; 
+    org:alternativeName 'Institute of Fisheries NAASU'^^xsd:string ; 
+    org:alternativeName 'Institute of Fisheries of the NAAS of Ukraine'^^xsd:string ; 
+    org:alternativeName 'Інститут рибного господарства НААН'^^xsd:string ; 
+    schema:url <http://if.org.ua> ; 
+    schema:mainEntityOfPage <https://if.org.ua> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/NAASU_Institute_of_Fisheries> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/001040111> ;
+        rdfs:label 'National Academy of Agrarian Sciences of Ukraine'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[30.5238,50.45466]}" ;
+            schema:address [
+                schema:addressLocality "Kyiv" ;
+                schema:addressCountry "UA" ;
+                schema:addressRegion "Kyiv City" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Ukraine" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/703448> ;
+        ] ; 
+    .

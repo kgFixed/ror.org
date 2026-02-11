@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05nz57427> a org:Organization ;
+    rdfs:label 'Cardinal Stritch University'^^xsd:string; 
+    schema:name 'Cardinal Stritch University'^^xsd:string; 
+    schema:foundingDate '1937'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Cardinal Stritch College'^^xsd:string ; 
+    org:alternativeName 'St. Clare College'^^xsd:string ; 
+    schema:url <http://stritch.edu> ; 
+    schema:mainEntityOfPage <https://stritch.edu> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Cardinal_Stritch_University> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.253679.c> ;
+    schema:sameAs <http://isni.org/isni/0000000404339925> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-87.90647,43.0389]}" ;
+            schema:address [
+                schema:addressLocality "Milwaukee" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Wisconsin" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5263045> ;
+        ] ; 
+    .

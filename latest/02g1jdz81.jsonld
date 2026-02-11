@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/02g1jdz81",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-16"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Al Hikma University"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hikma University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "جامعة الحكمة"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2008"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6732556ae4eb499198d155d05adb3b0eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://hikma.edu.ye"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Al Hikma University"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hikma.edu.ye"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6732556ae4eb499198d155d05adb3b0eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[44.20667,15.35472]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/71137"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6732556ae4eb499198d155d05adb3b0eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6732556ae4eb499198d155d05adb3b0eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6732556ae4eb499198d155d05adb3b0eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "YE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sanaa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n6732556ae4eb499198d155d05adb3b0eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6732556ae4eb499198d155d05adb3b0eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Yemen"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6732556ae4eb499198d155d05adb3b0eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/0110wcq52",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Universitario de Ciencias Biomédicas de Córdoba"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IUCBC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2014"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc506333847cd4c029272ba8b54822dedb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.iucbc.edu.ar"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Universitario de Ciencias Biomédicas de Córdoba"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000502828714"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://iucbc.edu.ar"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc506333847cd4c029272ba8b54822dedb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-64.18853,-31.40648]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3860259"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc506333847cd4c029272ba8b54822dedb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc506333847cd4c029272ba8b54822dedb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc506333847cd4c029272ba8b54822dedb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Córdoba"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Cordoba"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc506333847cd4c029272ba8b54822dedb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc506333847cd4c029272ba8b54822dedb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Argentina"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc506333847cd4c029272ba8b54822dedb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

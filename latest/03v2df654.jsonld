@@ -1,0 +1,178 @@
+[
+  {
+    "@id": "https://ror.org/03v2df654",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Luxembourg Health & Sport Sciences Research Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LHSSRI"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Luxembourg Health and Sport Sciences Research Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2018"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://lunex.lu/luxembourg-health-sport-sciences-research-institute/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Luxembourg Health & Sport Sciences Research Institute"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://asbl.lunex.lu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LUNEX"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00cfy0294"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.89139,49.52417]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2960651"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Differdange"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Esch-sur-Alzette"
+      }
+    ]
+  },
+  {
+    "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Luxembourg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n635b690f2d0a4b1eb5eef5b9d87f7f50b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

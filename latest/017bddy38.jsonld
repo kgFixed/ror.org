@@ -1,0 +1,242 @@
+[
+  {
+    "@id": "https://ror.org/017bddy38",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Blacktown & Mount Druitt Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Blacktown_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BMDH"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Blacktown Hospital"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mount Druitt Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b1"
+      },
+      {
+        "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b2"
+      },
+      {
+        "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b3"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1965"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b4"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.wslhd.health.nsw.gov.au/Blacktown-Mount-Druitt-Hospital"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Blacktown & Mount Druitt Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.460687.b"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405727882"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The University of Sydney"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0384j8v12"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Western Sydney University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03t52dk35"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b3",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Western Sydney Local Health District"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01vqqp163"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b4",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[150.91667,-33.76667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2175411"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b5"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b5",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b6"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Blacktown"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "New South Wales"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b6",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b7"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2432a8fb0de04a9b90ff11c75754f473b7",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

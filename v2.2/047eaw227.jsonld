@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/047eaw227",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "African Centre for Technology Studies"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/African_Centre_for_Technology_Studies"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ACTS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1988"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4233174df2b845b2a428ea73f67ca2ecb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://acts-net.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "African Centre for Technology Studies"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.499654.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000446584849"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://acts-net.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4233174df2b845b2a428ea73f67ca2ecb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[36.81667,-1.28333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/184745"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4233174df2b845b2a428ea73f67ca2ecb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4233174df2b845b2a428ea73f67ca2ecb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4233174df2b845b2a428ea73f67ca2ecb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nairobi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nairobi County"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4233174df2b845b2a428ea73f67ca2ecb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4233174df2b845b2a428ea73f67ca2ecb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kenya"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4233174df2b845b2a428ea73f67ca2ecb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

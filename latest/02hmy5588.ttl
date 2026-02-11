@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02hmy5588> a org:Organization ;
+    rdfs:label 'Centre for Regional & Tourism Research'^^xsd:string; 
+    schema:name 'Centre for Regional & Tourism Research'^^xsd:string; 
+    schema:foundingDate '2002'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Bornholm Research Centre'^^xsd:string ; 
+    org:abbreviation 'CRT'^^xsd:string; 
+    schema:url <http://crt.dk> ; 
+    schema:mainEntityOfPage <https://crt.dk> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[14.71117,55.18212]}" ;
+            schema:address [
+                schema:addressLocality "Hasle" ;
+                schema:addressCountry "DK" ;
+                schema:addressRegion "Capital Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Denmark" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2620716> ;
+        ] ; 
+    .

@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/048yqnw40",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Historic Deerfield"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Historic_Deerfield"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1650"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8e24016cf97e43429c13758ba0c46b58b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.historic-deerfield.org/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Historic Deerfield"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.450900.8"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000090900715"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://historic-deerfield.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e24016cf97e43429c13758ba0c46b58b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-72.59953,42.58759]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4938378"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8e24016cf97e43429c13758ba0c46b58b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e24016cf97e43429c13758ba0c46b58b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8e24016cf97e43429c13758ba0c46b58b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Greenfield"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Massachusetts"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e24016cf97e43429c13758ba0c46b58b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8e24016cf97e43429c13758ba0c46b58b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e24016cf97e43429c13758ba0c46b58b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

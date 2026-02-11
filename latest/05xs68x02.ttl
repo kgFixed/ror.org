@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05xs68x02> a org:Organization ;
+    rdfs:label 'Anticancer Fund'^^xsd:string; 
+    schema:name 'Anticancer Fund'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    schema:url <http://anticancerfund.org> ; 
+    schema:mainEntityOfPage <https://www.anticancerfund.org> ;
+    schema:sameAs <https://api.crossref.org/funders/100016627> ;
+    schema:sameAs <https://grid.ac/institutions/grid.491191.5> ;
+    schema:sameAs <http://isni.org/isni/0000000502829856> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[4.37213,50.93409]}" ;
+            schema:address [
+                schema:addressLocality "Grimbergen" ;
+                schema:addressCountry "BE" ;
+                schema:addressRegion "Flanders" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Belgium" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2797114> ;
+        ] ; 
+    .

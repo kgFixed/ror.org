@@ -1,0 +1,191 @@
+[
+  {
+    "@id": "https://ror.org/04q88r129",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Geofísica"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IGEF"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IGF"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Inst. Geof."
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Geophysics UNAM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n5f59506da169469c86d15a85d4eec691b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1945"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5f59506da169469c86d15a85d4eec691b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.geofisica.unam.mx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Geofísica"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000122970444"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://geofisica.unam.mx"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f59506da169469c86d15a85d4eec691b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Nacional Autónoma de México"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01tmp8f25"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f59506da169469c86d15a85d4eec691b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-99.18495,19.32312]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3530583"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5f59506da169469c86d15a85d4eec691b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f59506da169469c86d15a85d4eec691b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5f59506da169469c86d15a85d4eec691b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MX"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ciudad Universitaria"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Mexico City"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f59506da169469c86d15a85d4eec691b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5f59506da169469c86d15a85d4eec691b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mexico"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f59506da169469c86d15a85d4eec691b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03ydjzz16> a org:Organization ;
+    rdfs:label 'Office of Rural Health'^^xsd:string; 
+    schema:name 'Office of Rural Health'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'ORH'^^xsd:string; 
+    org:alternativeName 'VHA Office of Rural Health'^^xsd:string ; 
+    org:alternativeName 'Veterans Health Administration Office of Rural Health'^^xsd:string ; 
+    schema:url <http://ruralhealth.va.gov> ; 
+    schema:mainEntityOfPage <https://www.ruralhealth.va.gov> ;
+    schema:sameAs <https://api.crossref.org/funders/100019294> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/05rsv9s98> ;
+        rdfs:label 'United States Department of Veterans Affairs'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-77.03637,38.89511]}" ;
+            schema:address [
+                schema:addressLocality "Washington" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "District of Columbia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4140963> ;
+        ] ; 
+    .

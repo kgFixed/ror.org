@@ -1,0 +1,162 @@
+[
+  {
+    "@id": "https://ror.org/03x8kxy88",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sochi State University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SSU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sochi Institute of Resort and Tourism"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sochi State University of Tourism and Hospitality"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1989"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n10c72c2f3b5845e09c5fccae6ddb10c7b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://sutr.ru"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sochi State University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.446150.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000449142325"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sutr.ru"
+      }
+    ]
+  },
+  {
+    "@id": "_:n10c72c2f3b5845e09c5fccae6ddb10c7b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[39.72477,43.59699]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/491422"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n10c72c2f3b5845e09c5fccae6ddb10c7b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n10c72c2f3b5845e09c5fccae6ddb10c7b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n10c72c2f3b5845e09c5fccae6ddb10c7b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sochi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Krasnodar Krai"
+      }
+    ]
+  },
+  {
+    "@id": "_:n10c72c2f3b5845e09c5fccae6ddb10c7b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n10c72c2f3b5845e09c5fccae6ddb10c7b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n10c72c2f3b5845e09c5fccae6ddb10c7b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

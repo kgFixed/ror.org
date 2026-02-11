@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/03j3q6b81",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-02-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spitalul Clinic Dr. Victor Babes"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Victor Babes Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc30a321e5b5443bea27dec591ffb9536b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.spitalulbabes.ro/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spitalul Clinic Dr. Victor Babes"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.501195.9"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406313892"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://spitalulbabes.ro"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc30a321e5b5443bea27dec591ffb9536b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[21.22571,45.75372]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/665087"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc30a321e5b5443bea27dec591ffb9536b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc30a321e5b5443bea27dec591ffb9536b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc30a321e5b5443bea27dec591ffb9536b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Timișoara"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Timiș County"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc30a321e5b5443bea27dec591ffb9536b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc30a321e5b5443bea27dec591ffb9536b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Romania"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc30a321e5b5443bea27dec591ffb9536b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/027pjy323> a org:Organization ;
+    rdfs:label 'Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University'^^xsd:string; 
+    schema:name 'Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University'^^xsd:string; 
+    schema:foundingDate '2023'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'GXH-FAH-SYSU'^^xsd:string; 
+    org:alternativeName 'Guangxi Hospital Division of The First Affiliated Hospital'^^xsd:string ; 
+    schema:url <http://zsyygxyy.org.cn> ; 
+    schema:mainEntityOfPage <https://zsyygxyy.org.cn> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/01x9sys47> ;
+        rdfs:label 'Health Commission of Guangxi Zhuang Autonomous Region'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/037p24858> ;
+        rdfs:label 'The First Affiliated Hospital, Sun Yat-sen University'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/02aa8kj12> ;
+        rdfs:label 'The People\'s Hospital of Guangxi Zhuang Autonomous Region'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[108.31667,22.81667]}" ;
+            schema:address [
+                schema:addressLocality "Nanning" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Guangxi" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1799869> ;
+        ] ; 
+    .

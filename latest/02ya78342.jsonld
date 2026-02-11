@@ -1,0 +1,169 @@
+[
+  {
+    "@id": "https://ror.org/02ya78342",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ragnar Frisch Centre for Economic Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Frischsenteret"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://frischsenteret.no"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ragnar Frisch Centre for Economic Research"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://frisch.uio.no"
+      },
+      {
+        "@id": "http://frischsenteret.no"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Oslo"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01xtthb56"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.74609,59.91273]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3143244"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Oslo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oslo"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Norway"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc24f5f3b72e4472d8a1ce9fc5e3abb2fb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

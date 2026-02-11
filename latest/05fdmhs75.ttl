@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05fdmhs75> a org:Organization ;
+    rdfs:label 'Institut National des Sciences de l\'Archéologie et du Patrimoine'^^xsd:string; 
+    schema:name 'Institut National des Sciences de l\'Archéologie et du Patrimoine'^^xsd:string; 
+    schema:foundingDate '1985'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'INSAP'^^xsd:string; 
+    org:alternativeName 'National Institute of Archaeology and Heritage'^^xsd:string ; 
+    schema:url <http://insap.ac.ma> ; 
+    schema:mainEntityOfPage <https://insap.ac.ma> ;
+    schema:sameAs <https://grid.ac/institutions/grid.442310.0> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-6.83255,34.01325]}" ;
+            schema:address [
+                schema:addressLocality "Rabat" ;
+                schema:addressCountry "MA" ;
+                schema:addressRegion "Rabat-Salé-Kénitra" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Morocco" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2538475> ;
+        ] ; 
+    .

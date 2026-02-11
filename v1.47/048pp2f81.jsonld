@@ -1,0 +1,187 @@
+[
+  {
+    "@id": "https://ror.org/048pp2f81",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-30"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mount Mary College of Education"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Mount_Mary_College_of_Education"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MMCE"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MOMACOE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mt. Mary College of Education"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1947"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://mmce.edu.gh"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mount Mary College of Education"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mmce.edu.gh"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Ghana"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01r22mr83"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-0.01502,6.10546]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2295236"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Somanya"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ghana"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf89c5f22d0545d485bb6af06a2c219bb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

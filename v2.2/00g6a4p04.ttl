@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00g6a4p04> a org:Organization ;
+    rdfs:label 'Nevada Department of Conservation and Natural Resources'^^xsd:string; 
+    schema:name 'Nevada Department of Conservation and Natural Resources'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'NV DCNR'^^xsd:string; 
+    schema:url <http://dcnr.nv.gov> ; 
+    schema:mainEntityOfPage <https://dcnr.nv.gov> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Nevada_Department_of_Conservation_and_Natural_Resources> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-119.7674,39.1638]}" ;
+            schema:address [
+                schema:addressLocality "Carson City" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Nevada" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5501344> ;
+        ] ; 
+    .

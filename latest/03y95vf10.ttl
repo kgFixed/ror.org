@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03y95vf10> a org:Organization ;
+    rdfs:label 'National Library of Russia'^^xsd:string; 
+    schema:name 'National Library of Russia'^^xsd:string; 
+    schema:foundingDate '1795'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Imperial Public Library'^^xsd:string ; 
+    org:abbreviation 'NLR'^^xsd:string; 
+    org:alternativeName 'National Library of Russia named after M.Saltykov-Shchedrin'^^xsd:string ; 
+    org:alternativeName 'Russian Public Library'^^xsd:string ; 
+    org:alternativeName 'State Public Library'^^xsd:string ; 
+    schema:url <http://nlr.ru> ; 
+    schema:mainEntityOfPage <https://nlr.ru> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/National_Library_of_Russia> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.462592.e> ;
+    schema:sameAs <http://isni.org/isni/0000000122431029> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[30.31413,59.93863]}" ;
+            schema:address [
+                schema:addressLocality "St Petersburg" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "St.-Petersburg" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/498817> ;
+        ] ; 
+    .

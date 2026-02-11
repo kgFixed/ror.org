@@ -1,0 +1,158 @@
+[
+  {
+    "@id": "https://ror.org/00ra63c74",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre Hospitalier Territorial de Nouvelle-Calédonie"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CHTNC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gaston Bourret Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1981"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0fa9bc36361b45debf84f4d37f19fca8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cht.nc"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre Hospitalier Territorial de Nouvelle-Calédonie"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.452336.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405943761"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cht.nc"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0fa9bc36361b45debf84f4d37f19fca8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[166.44884,-22.27407]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2139521"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0fa9bc36361b45debf84f4d37f19fca8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0fa9bc36361b45debf84f4d37f19fca8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0fa9bc36361b45debf84f4d37f19fca8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NC"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Noumea"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "South Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0fa9bc36361b45debf84f4d37f19fca8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0fa9bc36361b45debf84f4d37f19fca8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Caledonia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0fa9bc36361b45debf84f4d37f19fca8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

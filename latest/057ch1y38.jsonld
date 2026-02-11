@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/057ch1y38",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENCell Co., Ltd. (South Korea)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENCell"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENCell Co."
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "이엔셀 주식회사"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2018"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfba091c2a0134e8db695834c51e09761b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.encellinc.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENCell Co., Ltd. (South Korea)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://encellinc.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfba091c2a0134e8db695834c51e09761b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[126.9784,37.566]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1835848"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfba091c2a0134e8db695834c51e09761b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfba091c2a0134e8db695834c51e09761b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfba091c2a0134e8db695834c51e09761b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Seoul"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Seoul"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfba091c2a0134e8db695834c51e09761b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfba091c2a0134e8db695834c51e09761b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfba091c2a0134e8db695834c51e09761b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

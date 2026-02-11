@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02a53x034> a org:Organization ;
+    rdfs:label 'Centro de Estudios Parasitológicos y de Vectores'^^xsd:string; 
+    schema:name 'Centro de Estudios Parasitológicos y de Vectores'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'CEPAVE'^^xsd:string; 
+    schema:url <http://cepave.edu.ar> ; 
+    schema:mainEntityOfPage <https://www.cepave.edu.ar> ;
+    schema:sameAs <http://isni.org/isni/0000000404144044> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-57.95442,-34.92126]}" ;
+            schema:address [
+                schema:addressLocality "La Plata" ;
+                schema:addressCountry "AR" ;
+                schema:addressRegion "Buenos Aires" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Argentina" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3432043> ;
+        ] ; 
+    .

@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/035e8e276",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Thriasio General Hospital of Elefsina"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc2a9c67f50b34effa5ced7de061c9c9fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://thriassio-hosp.gr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Thriasio General Hospital of Elefsina"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.478068.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405764640"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://thriassio-hosp.gr"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2a9c67f50b34effa5ced7de061c9c9fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.52108,38.07989]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/258007"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc2a9c67f50b34effa5ced7de061c9c9fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2a9c67f50b34effa5ced7de061c9c9fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc2a9c67f50b34effa5ced7de061c9c9fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Magoula"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Attica"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2a9c67f50b34effa5ced7de061c9c9fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc2a9c67f50b34effa5ced7de061c9c9fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Greece"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2a9c67f50b34effa5ced7de061c9c9fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

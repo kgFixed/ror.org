@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/03k4yh676",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-04"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Society for Rehabilitation Research and Development"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KUTKE"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2003"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd3e7c5d93f0f4421b68e5f5423e24bc7b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.kutke.fi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Society for Rehabilitation Research and Development"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kutke.fi"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd3e7c5d93f0f4421b68e5f5423e24bc7b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[24.93545,60.16952]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/658225"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd3e7c5d93f0f4421b68e5f5423e24bc7b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd3e7c5d93f0f4421b68e5f5423e24bc7b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd3e7c5d93f0f4421b68e5f5423e24bc7b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FI"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Helsinki"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Uusimaa"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd3e7c5d93f0f4421b68e5f5423e24bc7b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd3e7c5d93f0f4421b68e5f5423e24bc7b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Finland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd3e7c5d93f0f4421b68e5f5423e24bc7b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

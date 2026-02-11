@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02vvp2k82> a org:Organization ;
+    rdfs:label 'National Institute of Technology, Sasebo College'^^xsd:string; 
+    schema:name 'National Institute of Technology, Sasebo College'^^xsd:string; 
+    schema:foundingDate '1962'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'NIT, Sasebo College'^^xsd:string ; 
+    org:alternativeName 'させぼこうぎょうこうとうせんもんがっこう'^^xsd:string ; 
+    schema:url <http://sasebo.ac.jp> ; 
+    schema:mainEntityOfPage <https://www.sasebo.ac.jp> ;
+    schema:sameAs <https://grid.ac/institutions/grid.472232.2> ;
+    schema:sameAs <http://isni.org/isni/0000000097183923> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/02xqkcw08> ;
+        rdfs:label 'National Institute of Technology'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[129.72502,33.16834]}" ;
+            schema:address [
+                schema:addressLocality "Sasebo" ;
+                schema:addressCountry "JP" ;
+                schema:addressRegion "Nagasaki" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Japan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1852899> ;
+        ] ; 
+    .

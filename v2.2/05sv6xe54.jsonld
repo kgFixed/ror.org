@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/05sv6xe54",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-09-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VisMederi (Italy)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2009"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1c3bc8b90d8b43e2a6926d2a72675d65b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.vismederi.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VisMederi (Italy)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.511037.1"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vismederi.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1c3bc8b90d8b43e2a6926d2a72675d65b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.33064,43.31822]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3166548"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1c3bc8b90d8b43e2a6926d2a72675d65b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1c3bc8b90d8b43e2a6926d2a72675d65b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1c3bc8b90d8b43e2a6926d2a72675d65b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Siena"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tuscany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1c3bc8b90d8b43e2a6926d2a72675d65b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1c3bc8b90d8b43e2a6926d2a72675d65b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Italy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1c3bc8b90d8b43e2a6926d2a72675d65b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

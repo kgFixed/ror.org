@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04n0rde95> a org:Organization ;
+    rdfs:label 'Segeberger Kliniken'^^xsd:string; 
+    schema:name 'Segeberger Kliniken'^^xsd:string; 
+    schema:foundingDate '1970'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://segebergerkliniken.de> ; 
+    schema:mainEntityOfPage <https://www.segebergerkliniken.de/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.492654.8> ;
+    schema:sameAs <http://isni.org/isni/0000000404023170> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[10.30745,53.93775]}" ;
+            schema:address [
+                schema:addressLocality "Bad Segeberg" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "Schleswig-Holstein" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2953341> ;
+        ] ; 
+    .

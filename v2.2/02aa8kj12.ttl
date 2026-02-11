@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02aa8kj12> a org:Organization ;
+    rdfs:label 'The People\'s Hospital of Guangxi Zhuang Autonomous Region'^^xsd:string; 
+    schema:name 'The People\'s Hospital of Guangxi Zhuang Autonomous Region'^^xsd:string; 
+    schema:foundingDate '1941'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    schema:mainEntityOfPage <http://www.gxhospital.com/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/People%2527s_Hospital_of_Guangxi_Zhuang_Autonomous_Region> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.410652.4> ;
+    schema:sameAs <http://isni.org/isni/0000000460037358> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/027pjy323> ;
+        rdfs:label 'Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[108.31667,22.81667]}" ;
+            schema:address [
+                schema:addressLocality "Nanning" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Guangxi" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1799869> ;
+        ] ; 
+    .

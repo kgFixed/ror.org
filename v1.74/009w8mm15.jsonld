@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/009w8mm15",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Clinique Saint Pierre"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CSPO"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2014"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc800650386694321b731efc4e79253ffb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cspo.be/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Clinique Saint Pierre"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.477044.4"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cspo.be"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc800650386694321b731efc4e79253ffb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.56679,50.66535]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2789570"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc800650386694321b731efc4e79253ffb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc800650386694321b731efc4e79253ffb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc800650386694321b731efc4e79253ffb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ottignies"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Wallonia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc800650386694321b731efc4e79253ffb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc800650386694321b731efc4e79253ffb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Belgium"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc800650386694321b731efc4e79253ffb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

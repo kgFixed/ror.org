@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04rymkk69> a org:Organization ;
+    rdfs:label 'Muroran Institute of Technology'^^xsd:string; 
+    schema:name 'Muroran Institute of Technology'^^xsd:string; 
+    schema:foundingDate '1949'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'MuIT'^^xsd:string; 
+    org:alternativeName 'Muroran Kōgyō Daigaku'^^xsd:string ; 
+    org:alternativeName 'MuroranIT'^^xsd:string ; 
+    schema:url <http://muroran-it.ac.jp> ; 
+    schema:mainEntityOfPage <https://muroran-it.ac.jp> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Muroran_Institute_of_Technology> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.420014.3> ;
+    schema:sameAs <http://isni.org/isni/0000000107205947> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[140.98806,42.31722]}" ;
+            schema:address [
+                schema:addressLocality "Muroran" ;
+                schema:addressCountry "JP" ;
+                schema:addressRegion "Hokkaido" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Japan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2129101> ;
+        ] ; 
+    .

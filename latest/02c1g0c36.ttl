@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02c1g0c36> a org:Organization ;
+    rdfs:label 'Sinopec Tech Middle East LLC (Saudi Arabia)'^^xsd:string; 
+    schema:name 'Sinopec Tech Middle East LLC (Saudi Arabia)'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Sinopec Tech Middle East'^^xsd:string ; 
+    schema:url <http://stme.sinopec.com> ; 
+    schema:mainEntityOfPage <https://stme.sinopec.com/stme> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[50.11396,26.28864]}" ;
+            schema:address [
+                schema:addressLocality "Dhahran" ;
+                schema:addressCountry "SA" ;
+                schema:addressRegion "Eastern Province" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Saudi Arabia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/107797> ;
+        ] ; 
+    .

@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/02r247g67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "People's Hospital of Xinjiang Uygur Autonomous Region"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1934"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5add74e6238d4eb68b9d3061b474ee0ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.xjrmyy.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "People's Hospital of Xinjiang Uygur Autonomous Region"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.410644.3"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://xjrmyy.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5add74e6238d4eb68b9d3061b474ee0ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[87.60046,43.80096]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1529102"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5add74e6238d4eb68b9d3061b474ee0ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5add74e6238d4eb68b9d3061b474ee0ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5add74e6238d4eb68b9d3061b474ee0ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ürümqi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Xinjiang"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5add74e6238d4eb68b9d3061b474ee0ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5add74e6238d4eb68b9d3061b474ee0ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5add74e6238d4eb68b9d3061b474ee0ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

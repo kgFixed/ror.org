@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/044wjb306",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre international de recherche-développement sur l'elevage en zone subhumide"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CIRDES"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1994"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndb086e5a1a3049d6a1685eba49975299b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cirdes.org/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre international de recherche-développement sur l'elevage en zone subhumide"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.423769.d"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cirdes.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb086e5a1a3049d6a1685eba49975299b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-4.2979,11.17715]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2362344"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndb086e5a1a3049d6a1685eba49975299b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb086e5a1a3049d6a1685eba49975299b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndb086e5a1a3049d6a1685eba49975299b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BF"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bobo-Dioulasso"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Hauts-Bassins"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb086e5a1a3049d6a1685eba49975299b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndb086e5a1a3049d6a1685eba49975299b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Burkina Faso"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb086e5a1a3049d6a1685eba49975299b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

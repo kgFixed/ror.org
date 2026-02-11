@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/0017qee02",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-09"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Environmental Radioactivity Monitoring Center of Fukushima"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fukushimaken Genshiryoku Senta"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "フクシマケン ゲンシリョク センター"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9032a947e762410da4b54ef9b75e58cdb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.atom-moc.pref.fukushima.jp/old/top.html"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Environmental Radioactivity Monitoring Center of Fukushima"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9032a947e762410da4b54ef9b75e58cdb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[140.46667,37.75]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2112923"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9032a947e762410da4b54ef9b75e58cdb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9032a947e762410da4b54ef9b75e58cdb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9032a947e762410da4b54ef9b75e58cdb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Fukushima"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Fukushima"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9032a947e762410da4b54ef9b75e58cdb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9032a947e762410da4b54ef9b75e58cdb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9032a947e762410da4b54ef9b75e58cdb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

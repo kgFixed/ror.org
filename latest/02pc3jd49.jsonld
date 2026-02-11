@@ -1,0 +1,181 @@
+[
+  {
+    "@id": "https://ror.org/02pc3jd49",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Łukasiewicz Research Network - Institute of Microelectronics and Photonics"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://pl.wikipedia.org/wiki/%25C5%2581ukasiewicz_%25E2%2580%2593_Instytut_Mikroelektroniki_i_Fotoniki"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sieć Badawcza Łukasiewicz - Instytut Mikroelektroniki i Fotoniki"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Łukasiewicz-IMiF"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n98e45234d1d442d9abf08f276ff2a249b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2020"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n98e45234d1d442d9abf08f276ff2a249b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://imif.lukasiewicz.gov.pl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Łukasiewicz Research Network - Institute of Microelectronics and Photonics"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://imif.lukasiewicz.gov.pl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n98e45234d1d442d9abf08f276ff2a249b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Łukasiewicz Research Network"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/036f4sz05"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n98e45234d1d442d9abf08f276ff2a249b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[21.01178,52.22977]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/756135"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n98e45234d1d442d9abf08f276ff2a249b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n98e45234d1d442d9abf08f276ff2a249b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n98e45234d1d442d9abf08f276ff2a249b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Warsaw"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Mazovia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n98e45234d1d442d9abf08f276ff2a249b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n98e45234d1d442d9abf08f276ff2a249b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Poland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n98e45234d1d442d9abf08f276ff2a249b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

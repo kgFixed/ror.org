@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00wjy0847> a org:Organization ;
+    rdfs:label 'Ministry of Public Health'^^xsd:string; 
+    schema:name 'Ministry of Public Health'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'MOPH'^^xsd:string; 
+    schema:url <http://moph.gov.lb> ; 
+    schema:mainEntityOfPage <https://moph.gov.lb> ;
+    schema:sameAs <https://grid.ac/institutions/grid.490673.f> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[35.50157,33.89332]}" ;
+            schema:address [
+                schema:addressLocality "Beirut" ;
+                schema:addressCountry "LB" ;
+                schema:addressRegion "Beyrouth" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Lebanon" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/276781> ;
+        ] ; 
+    .

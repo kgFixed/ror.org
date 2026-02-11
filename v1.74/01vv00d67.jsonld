@@ -1,0 +1,155 @@
+[
+  {
+    "@id": "https://ror.org/01vv00d67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taiwan Foundation for Democracy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Taiwan_Foundation_for_Democracy"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "TFD"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5ad9f562d53e4498a187583329b33bdbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.tfd.org.tw"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taiwan Foundation for Democracy"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100008761"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000100082147"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://tfd.org.tw"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ad9f562d53e4498a187583329b33bdbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[121.52639,25.05306]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1668341"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5ad9f562d53e4498a187583329b33bdbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ad9f562d53e4498a187583329b33bdbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5ad9f562d53e4498a187583329b33bdbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Taipei"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ad9f562d53e4498a187583329b33bdbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5ad9f562d53e4498a187583329b33bdbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Taiwan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ad9f562d53e4498a187583329b33bdbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

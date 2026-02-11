@@ -1,0 +1,169 @@
+[
+  {
+    "@id": "https://ror.org/01j6ykv32",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-08"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-11"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Investigación e Innovación en Energías Renovables y Medio Ambiente"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Innovergy Institute"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Innovergy"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Research Institute for Innovation in Renewable Energy and Environment"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://investigacion.ucsm.edu.pe/instituto-innovergy/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Investigación e Innovación en Energías Renovables y Medio Ambiente"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Catholic University of Santa María"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/027ryxs60"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-71.535,-16.39889]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3947322"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Arequipa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Peru"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbca80d8e8ef1410c9c2978528c22b0bbb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03127q162> a org:Organization ;
+    rdfs:label 'Aditya University'^^xsd:string; 
+    schema:name 'Aditya University'^^xsd:string; 
+    schema:foundingDate '2001'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'AEC'^^xsd:string; 
+    org:alternativeName 'Aditya Engineering College'^^xsd:string ; 
+    org:alternativeName 'ఆదిత్య ఇంజనీరింగ్ కళాశాల'^^xsd:string ; 
+    schema:url <http://adityauniversity.in> ; 
+    schema:mainEntityOfPage <https://adityauniversity.in> ;
+    schema:sameAs <http://isni.org/isni/0000000417735425> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[82.06644,17.10698]}" ;
+            schema:address [
+                schema:addressLocality "Sūrampālem" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Andhra Pradesh" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/10767863> ;
+        ] ; 
+    .

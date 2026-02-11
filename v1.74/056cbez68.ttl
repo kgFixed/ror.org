@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/056cbez68> a org:Organization ;
+    rdfs:label 'Henan Zhongyuan Medical Science and Technology Innovation and Development Foundation'^^xsd:string; 
+    schema:name 'Henan Zhongyuan Medical Science and Technology Innovation and Development Foundation'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Henan Medical Science and Technique Foundation'^^xsd:string ; 
+    schema:url <http://zyycjjh.com> ; 
+    schema:mainEntityOfPage <https://www.zyycjjh.com> ;
+    schema:sameAs <https://api.crossref.org/funders/501100019331> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[113.64861,34.75778]}" ;
+            schema:address [
+                schema:addressLocality "Zhengzhou" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Henan" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1784658> ;
+        ] ; 
+    .

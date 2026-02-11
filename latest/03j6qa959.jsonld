@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/03j6qa959",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Excelência para a Valorização dos Recursos Mediterrânicos (Portugal)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CEVRM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n58800cab1e274c548e1b93adc5493ce8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cevrm.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Excelência para a Valorização dos Recursos Mediterrânicos (Portugal)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000464165365"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cevrm.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n58800cab1e274c548e1b93adc5493ce8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.06008,37.51279]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2271912"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n58800cab1e274c548e1b93adc5493ce8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n58800cab1e274c548e1b93adc5493ce8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n58800cab1e274c548e1b93adc5493ce8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Almodôvar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Beja"
+      }
+    ]
+  },
+  {
+    "@id": "_:n58800cab1e274c548e1b93adc5493ce8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n58800cab1e274c548e1b93adc5493ce8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n58800cab1e274c548e1b93adc5493ce8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

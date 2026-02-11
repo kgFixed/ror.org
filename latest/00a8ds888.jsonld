@@ -1,0 +1,170 @@
+[
+  {
+    "@id": "https://ror.org/00a8ds888",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Metso (Chile)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Metso Chile"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Metso Chile SPA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne425a8a4d66146309621f0d3952bb224b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne425a8a4d66146309621f0d3952bb224b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.metso.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Metso (Chile)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://metso.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne425a8a4d66146309621f0d3952bb224b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Metso (Finland)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/008s23110"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne425a8a4d66146309621f0d3952bb224b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-70.64827,-33.45694]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3871336"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne425a8a4d66146309621f0d3952bb224b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne425a8a4d66146309621f0d3952bb224b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne425a8a4d66146309621f0d3952bb224b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Santiago"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Santiago Metropolitan"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne425a8a4d66146309621f0d3952bb224b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne425a8a4d66146309621f0d3952bb224b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Chile"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne425a8a4d66146309621f0d3952bb224b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

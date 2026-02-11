@@ -1,0 +1,51 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03mg9wg15> a org:Organization ;
+    rdfs:label 'JDSG College'^^xsd:string; 
+    schema:name 'JDSG College'^^xsd:string; 
+    schema:foundingDate '1964'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'J D S G College'^^xsd:string ; 
+    org:alternativeName 'J. D. S. G. College'^^xsd:string ; 
+    org:alternativeName 'J.D.S.G. College'^^xsd:string ; 
+    org:abbreviation 'JDSGC'^^xsd:string; 
+    org:alternativeName 'Jogananda Deva Satradhikar Goswami College'^^xsd:string ; 
+    org:alternativeName 'Sri Sri Jogananda Deva Satradhikar Goswami College'^^xsd:string ; 
+    org:alternativeName 'যোগানন্দ দেৱ সত্ৰাধিকাৰ গোস্ৱামী মহাবিদ্যালয়'^^xsd:string ; 
+    schema:url <http://jdsgcollege.edu.in> ; 
+    schema:mainEntityOfPage <https://jdsgcollege.edu.in> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/045kfbt16> ;
+        rdfs:label 'Dibrugarh University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[93.60052,26.64018]}" ;
+            schema:address [
+                schema:addressLocality "Bokākhāt" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Assam" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1275363> ;
+        ] ; 
+    .

@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/04bkje958",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kliniken Schmieder"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1950"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4870f852e1dd4ceeafaee96c852963a0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.kliniken-schmieder.de/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kliniken Schmieder"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.461718.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405577415"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kliniken-schmieder.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4870f852e1dd4ceeafaee96c852963a0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[9.07145,47.71536]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2958429"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4870f852e1dd4ceeafaee96c852963a0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4870f852e1dd4ceeafaee96c852963a0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4870f852e1dd4ceeafaee96c852963a0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Allensbach"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Baden-Wurttemberg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4870f852e1dd4ceeafaee96c852963a0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4870f852e1dd4ceeafaee96c852963a0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4870f852e1dd4ceeafaee96c852963a0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

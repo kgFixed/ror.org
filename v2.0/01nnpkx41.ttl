@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01nnpkx41> a org:Organization ;
+    rdfs:label 'Integrative Centers for Science and Medicine'^^xsd:string; 
+    schema:name 'Integrative Centers for Science and Medicine'^^xsd:string; 
+    schema:foundingDate '2010'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'ICSM'^^xsd:string; 
+    schema:url <http://integrativemedsci.org> ; 
+    schema:mainEntityOfPage <https://integrativemedsci.org> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-79.87254,36.69153]}" ;
+            schema:address [
+                schema:addressLocality "Martinsville" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Virginia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4771808> ;
+        ] ; 
+    .

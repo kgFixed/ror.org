@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0582p8j71> a org:Organization ;
+    rdfs:label 'Jagannath University'^^xsd:string; 
+    schema:name 'Jagannath University'^^xsd:string; 
+    schema:foundingDate '2013'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://jagannathuniversityncr.ac.in> ; 
+    schema:mainEntityOfPage <https://www.jagannathuniversityncr.ac.in/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Jagan_Nath_University,_NCR> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.460882.0> ;
+    schema:sameAs <http://isni.org/isni/0000000417727134> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[76.6565,28.6063]}" ;
+            schema:address [
+                schema:addressLocality "Jhajjar" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Haryana" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1269042> ;
+        ] ; 
+    .

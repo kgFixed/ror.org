@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03phg1t06> a org:Organization ;
+    rdfs:label 'National University of Lomas de Zamora'^^xsd:string; 
+    schema:name 'National University of Lomas de Zamora'^^xsd:string; 
+    schema:foundingDate '1972'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'UNLZ'^^xsd:string; 
+    schema:url <http://unlz.edu.ar> ; 
+    schema:mainEntityOfPage <https://www.unlz.edu.ar/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/National_University_of_Lomas_de_Zamora> ; 
+    schema:sameAs <https://api.crossref.org/funders/100019927> ;
+    schema:sameAs <https://grid.ac/institutions/grid.441670.0> ;
+    schema:sameAs <http://isni.org/isni/0000000103583764> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-58.40279,-34.7574]}" ;
+            schema:address [
+                schema:addressLocality "Lomas de Zamora" ;
+                schema:addressCountry "AR" ;
+                schema:addressRegion "Buenos Aires" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Argentina" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3431271> ;
+        ] ; 
+    .

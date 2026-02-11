@@ -1,0 +1,165 @@
+[
+  {
+    "@id": "https://ror.org/023dmz362",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Finnish Literature Society"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SKS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Suomalaisen Kirjallisuuden Seura"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1831"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n82d238e8460040d98d42c93cf6dd8f8ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.finlit.fi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Finnish Literature Society"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100013498"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.460392.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000119405487"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://finlit.fi"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82d238e8460040d98d42c93cf6dd8f8ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[24.93545,60.16952]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/658225"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n82d238e8460040d98d42c93cf6dd8f8ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82d238e8460040d98d42c93cf6dd8f8ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n82d238e8460040d98d42c93cf6dd8f8ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FI"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Helsinki"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Uusimaa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82d238e8460040d98d42c93cf6dd8f8ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n82d238e8460040d98d42c93cf6dd8f8ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Finland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82d238e8460040d98d42c93cf6dd8f8ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

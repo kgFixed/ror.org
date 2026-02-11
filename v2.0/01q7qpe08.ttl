@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01q7qpe08> a org:Organization ;
+    rdfs:label 'New Zealand Clinical Research'^^xsd:string; 
+    schema:name 'New Zealand Clinical Research'^^xsd:string; 
+    schema:foundingDate '2020'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'NZCR'^^xsd:string; 
+    schema:url <http://nzcr.co.nz> ; 
+    schema:mainEntityOfPage <https://www.nzcr.co.nz> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/02wccra50> ;
+        rdfs:label 'Christchurch Clinical Studies Trust'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[174.76349,-36.84853]}" ;
+            schema:address [
+                schema:addressLocality "Auckland" ;
+                schema:addressCountry "NZ" ;
+                schema:addressRegion "Auckland" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "New Zealand" ;
+                    schema:containedInPlace [
+                        schema:name "Oceania" ;
+                        schema:identifier "OC"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2193733> ;
+        ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[175.28333,-37.78333]}" ;
+            schema:address [
+                schema:addressLocality "Hamilton" ;
+                schema:addressCountry "NZ" ;
+                schema:addressRegion "Waikato Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "New Zealand" ;
+                    schema:containedInPlace [
+                        schema:name "Oceania" ;
+                        schema:identifier "OC"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2190324> ;
+        ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[174.77557,-41.28664]}" ;
+            schema:address [
+                schema:addressLocality "Wellington" ;
+                schema:addressCountry "NZ" ;
+                schema:addressRegion "Wellington Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "New Zealand" ;
+                    schema:containedInPlace [
+                        schema:name "Oceania" ;
+                        schema:identifier "OC"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2179537> ;
+        ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[172.63333,-43.53333]}" ;
+            schema:address [
+                schema:addressLocality "Christchurch" ;
+                schema:addressCountry "NZ" ;
+                schema:addressRegion "Canterbury" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "New Zealand" ;
+                    schema:containedInPlace [
+                        schema:name "Oceania" ;
+                        schema:identifier "OC"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2192362> ;
+        ] ; 
+    .

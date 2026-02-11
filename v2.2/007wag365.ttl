@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/007wag365> a org:Organization ;
+    rdfs:label 'Instituto Nacional de Saúde Pública'^^xsd:string; 
+    schema:name 'Instituto Nacional de Saúde Pública'^^xsd:string; 
+    schema:foundingDate '2014'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'INSP'^^xsd:string; 
+    org:alternativeName 'Instituto Nacional de Saúde Pública de Cabo Verde'^^xsd:string ; 
+    org:alternativeName 'National Institute of Public Health of Cabo Verde'^^xsd:string ; 
+    org:alternativeName 'National Institute of Public Health of Cape Verde'^^xsd:string ; 
+    schema:url <http://insp.gov.cv> ; 
+    schema:mainEntityOfPage <https://insp.gov.cv> ;
+    schema:sameAs <http://isni.org/isni/0000000513104527> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-23.51254,14.93152]}" ;
+            schema:address [
+                schema:addressLocality "Praia" ;
+                schema:addressCountry "CV" ;
+                schema:addressRegion "Praia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Cabo Verde" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3374333> ;
+        ] ; 
+    .

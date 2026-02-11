@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05wfkgx98> a org:Organization ;
+    rdfs:label 'All-Russian Scientific Research Institute of Canned Food Technology'^^xsd:string; 
+    schema:name 'All-Russian Scientific Research Institute of Canned Food Technology'^^xsd:string; 
+    schema:foundingDate '1930'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'All-Russian Scientific Research Institute of the Canning and Vegetable Drying Industry'^^xsd:string ; 
+    org:alternativeName 'Central Research Institute of the canning industry'^^xsd:string ; 
+    org:abbreviation 'TSNIKIKP'^^xsd:string; 
+    org:abbreviation 'VNIITEK'^^xsd:string; 
+    schema:url <http://vniitek.ru> ; 
+    schema:mainEntityOfPage <https://vniitek.ru> ;
+    schema:sameAs <https://grid.ac/institutions/grid.495116.e> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[37.70885,55.5523]}" ;
+            schema:address [
+                schema:addressLocality "Vidnoye" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "Moscow Oblast" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/473778> ;
+        ] ; 
+    .

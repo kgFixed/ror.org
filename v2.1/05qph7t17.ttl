@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05qph7t17> a org:Organization ;
+    rdfs:label 'Bayit Balev Rehabilitation Hospital'^^xsd:string; 
+    schema:name 'Bayit Balev Rehabilitation Hospital'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    schema:mainEntityOfPage <https://www.bbalev.co.il/?categoryId=19300> ;
+    schema:sameAs <https://grid.ac/institutions/grid.489925.b> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/04k1f6611> ;
+        rdfs:label 'Maccabi Healthcare Services'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[34.75185,32.02379]}" ;
+            schema:address [
+                schema:addressLocality "Bat Yam" ;
+                schema:addressCountry "IL" ;
+                schema:addressRegion "Tel Aviv" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Israel" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/295548> ;
+        ] ; 
+    .

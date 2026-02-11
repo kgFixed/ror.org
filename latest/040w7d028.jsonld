@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/040w7d028",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-09-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Micheli Center for Sports Injury Prevention"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na6a7a39815f34114b2620c105d036bbdb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.themichelicenter.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Micheli Center for Sports Injury Prevention"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.511506.6"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://themichelicenter.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:na6a7a39815f34114b2620c105d036bbdb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-71.23561,42.37649]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4954380"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na6a7a39815f34114b2620c105d036bbdb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na6a7a39815f34114b2620c105d036bbdb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na6a7a39815f34114b2620c105d036bbdb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Waltham"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Massachusetts"
+      }
+    ]
+  },
+  {
+    "@id": "_:na6a7a39815f34114b2620c105d036bbdb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na6a7a39815f34114b2620c105d036bbdb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:na6a7a39815f34114b2620c105d036bbdb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

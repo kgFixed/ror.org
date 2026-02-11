@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/04fp8ns78",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Netherlands Pharmacovigilance Centre Lareb"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1963"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0b5c169e4a3b460c9cc7449bd3b490ceb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.lareb.nl/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Netherlands Pharmacovigilance Centre Lareb"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.419940.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406319549"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://lareb.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0b5c169e4a3b460c9cc7449bd3b490ceb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.30417,51.69917]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2747351"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0b5c169e4a3b460c9cc7449bd3b490ceb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0b5c169e4a3b460c9cc7449bd3b490ceb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0b5c169e4a3b460c9cc7449bd3b490ceb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "'s-Hertogenbosch"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North Brabant"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0b5c169e4a3b460c9cc7449bd3b490ceb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0b5c169e4a3b460c9cc7449bd3b490ceb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0b5c169e4a3b460c9cc7449bd3b490ceb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/01nbken06",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Abu Dhabi Stem Cells Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ADSCC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2019"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n05d9ca0bc8504fb39530bf35a30665ddb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://adscc.ae"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Abu Dhabi Stem Cells Center"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://adscc.ae"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05d9ca0bc8504fb39530bf35a30665ddb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[54.39696,24.45118]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/292968"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n05d9ca0bc8504fb39530bf35a30665ddb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05d9ca0bc8504fb39530bf35a30665ddb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n05d9ca0bc8504fb39530bf35a30665ddb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Abu Dhabi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Abu Dhabi"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05d9ca0bc8504fb39530bf35a30665ddb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n05d9ca0bc8504fb39530bf35a30665ddb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Arab Emirates"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05d9ca0bc8504fb39530bf35a30665ddb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0549nje26> a org:Organization ;
+    rdfs:label 'Arts, Commerce and Science College, Dharangaon'^^xsd:string; 
+    schema:name 'Arts, Commerce and Science College, Dharangaon'^^xsd:string; 
+    schema:foundingDate '1971'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'ACS College'^^xsd:string ; 
+    org:abbreviation 'ACSCDXG'^^xsd:string; 
+    org:alternativeName 'Arts Commerce & Science College Dharangaon'^^xsd:string ; 
+    org:alternativeName 'Arts, Commerce and Science College'^^xsd:string ; 
+    schema:url <http://acscollegedharangaon.org> ; 
+    schema:mainEntityOfPage <https://acscollegedharangaon.org> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/04g7tnd56> ;
+        rdfs:label 'North Maharashtra University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[75.27407,21.01187]}" ;
+            schema:address [
+                schema:addressLocality "Dharangaon" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Maharashtra" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1272874> ;
+        ] ; 
+    .

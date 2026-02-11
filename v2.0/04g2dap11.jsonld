@@ -1,0 +1,155 @@
+[
+  {
+    "@id": "https://ror.org/04g2dap11",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CHU de Bogodogo"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CHU-B"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre hospitalier universitaire de Bogodogo"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2017"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9a15782118b343fea6ece6698328cfdcb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.chubogodogo.gov.bf"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CHU de Bogodogo"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000510888469"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://chubogodogo.gov.bf"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9a15782118b343fea6ece6698328cfdcb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-1.53388,12.36566]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2357048"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9a15782118b343fea6ece6698328cfdcb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9a15782118b343fea6ece6698328cfdcb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9a15782118b343fea6ece6698328cfdcb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BF"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ouagadougou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Centre"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9a15782118b343fea6ece6698328cfdcb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9a15782118b343fea6ece6698328cfdcb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Burkina Faso"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9a15782118b343fea6ece6698328cfdcb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

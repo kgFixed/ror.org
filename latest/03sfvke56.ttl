@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03sfvke56> a org:Organization ;
+    rdfs:label 'Kodolányi János University of Applied Sciences'^^xsd:string; 
+    schema:name 'Kodolányi János University of Applied Sciences'^^xsd:string; 
+    schema:foundingDate '1992'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'KJF'^^xsd:string; 
+    org:abbreviation 'KJU'^^xsd:string; 
+    schema:url <http://kodolanyi.hu> ; 
+    schema:mainEntityOfPage <https://www.kodolanyi.hu> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Kodol%25C3%25A1nyi_J%25C3%25A1nos_University_of_Applied_Sciences> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.445795.e> ;
+    schema:sameAs <http://isni.org/isni/0000000101350043> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[18.41034,47.18995]}" ;
+            schema:address [
+                schema:addressLocality "Székesfehérvár" ;
+                schema:addressCountry "HU" ;
+                schema:addressRegion "Fejér" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Hungary" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3044774> ;
+        ] ; 
+    .

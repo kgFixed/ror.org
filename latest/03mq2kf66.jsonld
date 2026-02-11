@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/03mq2kf66",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HSU Dr. Suat Seren Chest Diseases and Chest Surgery Training and Research Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Dr. Suat Seren Chest Diseases and Thoracic Surgery Training and Research Hospital"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Dr. Suat Seren Göğüs Hastalıkları Hastanesi"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nae7f93a1e5cf41c48978f124d45e471ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://izmirgoguseah.saglik.gov.tr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HSU Dr. Suat Seren Chest Diseases and Chest Surgery Training and Research Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.428380.5"
+      },
+      {
+        "@id": "http://isni.org/isni/000000040411737X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://izmirgoguseah.saglik.gov.tr"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae7f93a1e5cf41c48978f124d45e471ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[27.13838,38.41273]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/311046"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nae7f93a1e5cf41c48978f124d45e471ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae7f93a1e5cf41c48978f124d45e471ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nae7f93a1e5cf41c48978f124d45e471ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Izmir"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "İzmir Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae7f93a1e5cf41c48978f124d45e471ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nae7f93a1e5cf41c48978f124d45e471ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Türkiye"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae7f93a1e5cf41c48978f124d45e471ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

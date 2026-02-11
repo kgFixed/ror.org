@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04ta01y08> a org:Organization ;
+    rdfs:label 'Aquarium of Niagara'^^xsd:string; 
+    schema:name 'Aquarium of Niagara'^^xsd:string; 
+    schema:foundingDate '1965'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'AON'^^xsd:string; 
+    org:alternativeName 'Niagara Aquarium Foundation'^^xsd:string ; 
+    schema:url <http://aquariumofniagara.org> ; 
+    schema:mainEntityOfPage <https://aquariumofniagara.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Aquarium_of_Niagara> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-79.05671,43.0945]}" ;
+            schema:address [
+                schema:addressLocality "Niagara Falls" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "New York" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5128723> ;
+        ] ; 
+    .

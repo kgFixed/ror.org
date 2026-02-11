@@ -1,0 +1,166 @@
+[
+  {
+    "@id": "https://ror.org/00vdhyk55",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de sciences exactes et appliquées"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ISEA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n75c9d856ab2b4478850532cb278187f7b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n75c9d856ab2b4478850532cb278187f7b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://isea.unc.nc"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de sciences exactes et appliquées"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://isea.unc.nc"
+      }
+    ]
+  },
+  {
+    "@id": "_:n75c9d856ab2b4478850532cb278187f7b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of New Caledonia"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02jrgcx64"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n75c9d856ab2b4478850532cb278187f7b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[166.44884,-22.27407]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2139521"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n75c9d856ab2b4478850532cb278187f7b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n75c9d856ab2b4478850532cb278187f7b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n75c9d856ab2b4478850532cb278187f7b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NC"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Noumea"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "South Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:n75c9d856ab2b4478850532cb278187f7b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n75c9d856ab2b4478850532cb278187f7b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Caledonia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n75c9d856ab2b4478850532cb278187f7b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

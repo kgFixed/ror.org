@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/055fn0a35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spital Zollikerberg"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n40fcbc19698f45858fa1254a5a8ca33fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://spitalzollikerberg.ch/de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Spital Zollikerberg"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.477902.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405177219"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://spitalzollikerberg.ch"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40fcbc19698f45858fa1254a5a8ca33fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.60088,47.3451]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6293731"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n40fcbc19698f45858fa1254a5a8ca33fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40fcbc19698f45858fa1254a5a8ca33fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n40fcbc19698f45858fa1254a5a8ca33fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zollikerberg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zurich"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40fcbc19698f45858fa1254a5a8ca33fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n40fcbc19698f45858fa1254a5a8ca33fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Switzerland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40fcbc19698f45858fa1254a5a8ca33fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

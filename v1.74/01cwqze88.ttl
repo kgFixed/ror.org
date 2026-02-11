@@ -1,0 +1,223 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01cwqze88> a org:Organization ;
+    rdfs:label 'National Institutes of Health'^^xsd:string; 
+    schema:name 'National Institutes of Health'^^xsd:string; 
+    schema:foundingDate '1887'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'NIH'^^xsd:string; 
+    schema:mainEntityOfPage <http://www.nih.gov/> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/National_Institutes_of_Health> ; 
+    schema:sameAs <https://api.crossref.org/funders/100000002> ;
+    schema:sameAs <https://grid.ac/institutions/grid.94365.3d> ;
+    schema:sameAs <http://isni.org/isni/0000000122975165> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03jh5a977> ;
+        rdfs:label 'Center for Information Technology'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04r5s4b52> ;
+        rdfs:label 'Center for Scientific Review'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04byxyr05> ;
+        rdfs:label 'Eunice Kennedy Shriver National Institute of Child Health and Human Development'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02xey9a22> ;
+        rdfs:label 'Fogarty International Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/040gcmg81> ;
+        rdfs:label 'National Cancer Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04pw6fb54> ;
+        rdfs:label 'National Center for Advancing Translational Sciences'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00190t495> ;
+        rdfs:label 'National Center for Complementary and Integrative Health'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03wkg3b53> ;
+        rdfs:label 'National Eye Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/012pb6c26> ;
+        rdfs:label 'National Heart Lung and Blood Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00baak391> ;
+        rdfs:label 'National Human Genome Research Institute'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/043z4tv69> ;
+        rdfs:label 'National Institute of Allergy and Infectious Diseases'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/006zn3t30> ;
+        rdfs:label 'National Institute of Arthritis and Musculoskeletal and Skin Diseases'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00372qc85> ;
+        rdfs:label 'National Institute of Biomedical Imaging and Bioengineering'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/004a2wv92> ;
+        rdfs:label 'National Institute of Dental and Craniofacial Research'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00adh9b73> ;
+        rdfs:label 'National Institute of Diabetes and Digestive and Kidney Diseases'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00j4k1h63> ;
+        rdfs:label 'National Institute of Environmental Health Sciences'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04q48ey07> ;
+        rdfs:label 'National Institute of General Medical Sciences'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04xeg9z08> ;
+        rdfs:label 'National Institute of Mental Health'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01s5ya894> ;
+        rdfs:label 'National Institute of Neurological Disorders and Stroke'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01y3zfr79> ;
+        rdfs:label 'National Institute of Nursing Research'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/049v75w11> ;
+        rdfs:label 'National Institute on Aging'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02jzrsm59> ;
+        rdfs:label 'National Institute on Alcohol Abuse and Alcoholism'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04mhx6838> ;
+        rdfs:label 'National Institute on Deafness and Other Communication Disorders'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00fq5cm18> ;
+        rdfs:label 'National Institute on Drug Abuse'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0493hgw16> ;
+        rdfs:label 'National Institute on Minority Health and Health Disparities'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04vfsmv21> ;
+        rdfs:label 'National Institutes of Health Clinical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00fj8a872> ;
+        rdfs:label 'Office of the Director'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0060t0j89> ;
+        rdfs:label 'United States National Library of Medicine'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01jdyfj45> ;
+        rdfs:label 'Office of Research Infrastructure Programs'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/033jnv181> ;
+        rdfs:label 'United States Department of Health and Human Services'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-77.10026,38.98067]}" ;
+            schema:address [
+                schema:addressLocality "Bethesda" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Maryland" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4348599> ;
+        ] ; 
+    .

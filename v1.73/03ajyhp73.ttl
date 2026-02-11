@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03ajyhp73> a org:Organization ;
+    rdfs:label 'Tecnológico de Estudios Superiores del Oriente del Estado de México'^^xsd:string; 
+    schema:name 'Tecnológico de Estudios Superiores del Oriente del Estado de México'^^xsd:string; 
+    schema:foundingDate '1997'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'TecNM - TESOEM'^^xsd:string ; 
+    org:alternativeName 'Tecnológico Nacional de México TESOEM'^^xsd:string ; 
+    schema:url <http://tesoem.edomex.gob.mx> ; 
+    schema:url <http://tesoem.edu.mx> ; 
+    schema:mainEntityOfPage <https://tesoem.edomex.gob.mx> ;
+    schema:sameAs <http://isni.org/isni/0000000417705525> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-98.95056,19.33972]}" ;
+            schema:address [
+                schema:addressLocality "San Isidro" ;
+                schema:addressCountry "MX" ;
+                schema:addressRegion "México" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Mexico" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/8858095> ;
+        ] ; 
+    .

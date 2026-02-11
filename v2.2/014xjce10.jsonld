@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/014xjce10",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Tecnológica del Sur"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UTESUR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1979"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf14ee064459140a991d20cca10c5b31ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://utesur.edu.do"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Tecnológica del Sur"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.472409.c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121601954"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://utesur.edu.do"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf14ee064459140a991d20cca10c5b31ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-70.7349,18.45319]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3512208"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf14ee064459140a991d20cca10c5b31ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf14ee064459140a991d20cca10c5b31ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf14ee064459140a991d20cca10c5b31ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Azua"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Azua Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf14ee064459140a991d20cca10c5b31ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf14ee064459140a991d20cca10c5b31ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Dominican Republic"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf14ee064459140a991d20cca10c5b31ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

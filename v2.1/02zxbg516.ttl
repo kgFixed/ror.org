@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02zxbg516> a org:Organization ;
+    rdfs:label 'National Forest Centre'^^xsd:string; 
+    schema:name 'National Forest Centre'^^xsd:string; 
+    schema:foundingDate '2006'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'NFC'^^xsd:string; 
+    org:abbreviation 'NLC'^^xsd:string; 
+    org:alternativeName 'Národné Lesnícke Centrum'^^xsd:string ; 
+    schema:url <http://nlcsk.org> ; 
+    schema:mainEntityOfPage <https://web.nlcsk.org> ;
+    owl:sameAs <https://sk.wikipedia.org/wiki/N%25C3%25A1rodn%25C3%25A9_lesn%25C3%25ADcke_centrum> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.454939.6> ;
+    schema:sameAs <http://isni.org/isni/0000000403714164> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[19.15324,48.57442]}" ;
+            schema:address [
+                schema:addressLocality "Zvolen" ;
+                schema:addressCountry "SK" ;
+                schema:addressRegion "Banská Bystrica Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Slovakia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3056459> ;
+        ] ; 
+    .

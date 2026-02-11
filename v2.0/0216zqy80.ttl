@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0216zqy80> a org:Organization ;
+    rdfs:label 'Hospital de Especialidades Carlos Andrade Marín'^^xsd:string; 
+    schema:name 'Hospital de Especialidades Carlos Andrade Marín'^^xsd:string; 
+    schema:foundingDate '1970'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'Carlos Andrade Marin Hospital'^^xsd:string ; 
+    org:abbreviation 'HCAM'^^xsd:string; 
+    org:abbreviation 'HeCAM'^^xsd:string; 
+    org:alternativeName 'Hospital CAM'^^xsd:string ; 
+    org:alternativeName 'Hospital Carlos Andrade Marín'^^xsd:string ; 
+    schema:url <http://iess.gob.ec> ; 
+    schema:mainEntityOfPage <https://hcam.iess.gob.ec> ;
+    owl:sameAs <https://es.wikipedia.org/wiki/Hospital_de_Especialidades_Carlos_Andrade_Mar%25C3%25ADn> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-78.52495,-0.22985]}" ;
+            schema:address [
+                schema:addressLocality "Quito" ;
+                schema:addressCountry "EC" ;
+                schema:addressRegion "Pichincha" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Ecuador" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3652462> ;
+        ] ; 
+    .

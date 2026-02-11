@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00qt2x502> a org:Organization ;
+    rdfs:label 'Danubius International University'^^xsd:string; 
+    schema:name 'Danubius International University'^^xsd:string; 
+    schema:foundingDate '2002'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'DIU'^^xsd:string; 
+    org:alternativeName 'Danubius International University of Galati'^^xsd:string ; 
+    org:alternativeName 'Universitatea Danubius'^^xsd:string ; 
+    org:alternativeName 'Universitatea Danubius Galati'^^xsd:string ; 
+    org:alternativeName 'Universitatea „Danubius” din Galați'^^xsd:string ; 
+    schema:url <http://univ-danubius.ro> ; 
+    schema:mainEntityOfPage <https://www.univ-danubius.ro> ;
+    owl:sameAs <https://ro.wikipedia.org/wiki/Universitatea_%25E2%2580%259EDanubius%25E2%2580%259D_din_Gala%25C8%259Bi> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.445767.3> ;
+    schema:sameAs <http://isni.org/isni/0000000122331968> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[28.05028,45.43687]}" ;
+            schema:address [
+                schema:addressLocality "Galati" ;
+                schema:addressCountry "RO" ;
+                schema:addressRegion "Galați County" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Romania" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/677697> ;
+        ] ; 
+    .

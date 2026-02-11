@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/04g5vmc79",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Proessional University of Beauty & Wellness"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd812ff306dcb42f3946ce3946ef51ebdb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.b-w.ac.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Proessional University of Beauty & Wellness"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://b-w.ac.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd812ff306dcb42f3946ce3946ef51ebdb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[139.65,35.43333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1848354"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd812ff306dcb42f3946ce3946ef51ebdb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd812ff306dcb42f3946ce3946ef51ebdb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd812ff306dcb42f3946ce3946ef51ebdb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Yokohama"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kanagawa"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd812ff306dcb42f3946ce3946ef51ebdb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd812ff306dcb42f3946ce3946ef51ebdb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd812ff306dcb42f3946ce3946ef51ebdb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

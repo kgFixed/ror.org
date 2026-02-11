@@ -1,0 +1,164 @@
+[
+  {
+    "@id": "https://ror.org/05cmvgr54",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Burman University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Burman_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Burman Bobcats"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1907"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4cb0b294a9bf4d41a32642cec5383b1eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://burmanu.ca"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Burman University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100011788"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.448594.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000092666432"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://burmanu.ca"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4cb0b294a9bf4d41a32642cec5383b1eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-113.7353,52.46681]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6035615"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4cb0b294a9bf4d41a32642cec5383b1eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4cb0b294a9bf4d41a32642cec5383b1eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4cb0b294a9bf4d41a32642cec5383b1eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lacombe"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Alberta"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4cb0b294a9bf4d41a32642cec5383b1eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4cb0b294a9bf4d41a32642cec5383b1eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4cb0b294a9bf4d41a32642cec5383b1eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

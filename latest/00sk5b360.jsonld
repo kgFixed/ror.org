@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/00sk5b360",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jami University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://fa.wikipedia.org/wiki/%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25DA%25AF%25D8%25A7%25D9%2587_%25D8%25AC%25D8%25A7%25D9%2585%25DB%258C"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2011"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n193da8a9467f4625b0801032dc6a338fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://jami.edu.af"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Jami University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000524184323"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://jami.edu.af"
+      }
+    ]
+  },
+  {
+    "@id": "_:n193da8a9467f4625b0801032dc6a338fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[62.19967,34.34817]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1140026"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n193da8a9467f4625b0801032dc6a338fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n193da8a9467f4625b0801032dc6a338fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n193da8a9467f4625b0801032dc6a338fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Herat"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Herat"
+      }
+    ]
+  },
+  {
+    "@id": "_:n193da8a9467f4625b0801032dc6a338fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n193da8a9467f4625b0801032dc6a338fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Afghanistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n193da8a9467f4625b0801032dc6a338fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

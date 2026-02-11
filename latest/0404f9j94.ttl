@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0404f9j94> a org:Organization ;
+    rdfs:label 'Gulistan State University'^^xsd:string; 
+    schema:name 'Gulistan State University'^^xsd:string; 
+    schema:foundingDate '1966'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'GulDU'^^xsd:string; 
+    schema:url <http://guldu.uz> ; 
+    schema:mainEntityOfPage <https://guldu.uz/uz/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.444594.c> ;
+    schema:sameAs <http://isni.org/isni/0000000404028932> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[68.77542,40.49536]}" ;
+            schema:address [
+                schema:addressLocality "Guliston" ;
+                schema:addressCountry "UZ" ;
+                schema:addressRegion "Sirdaryo Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Uzbekistan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1513966> ;
+        ] ; 
+    .

@@ -1,0 +1,167 @@
+[
+  {
+    "@id": "https://ror.org/05h4ccq74",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KAIROS: Temps Logique Multiforme pour Conception de Systèmes Cyber-Physiques"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KAIROS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2017"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://team.inria.fr/kairos"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KAIROS: Temps Logique Multiforme pour Conception de Systèmes Cyber-Physiques"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Research Centre Inria Sophia Antipolis - Méditerranée"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01nzkaw91"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[7.04721,43.62235]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6640252"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sophia Antipolis"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Provence-Alpes-Côte d'Azur"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a9d71acf0c2413b92f712b34a0cac71b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

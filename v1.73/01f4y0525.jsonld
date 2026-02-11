@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/01f4y0525",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "College of Medical Sciences"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/College_of_Medical_Sciences,_Bharatpur"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CMS Bharapur"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1993"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbd3df02be8ac42dea3cc306b7c83c376b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cmsnepal.edu.np"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "College of Medical Sciences"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.414589.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404430892"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cmsnepal.edu.np"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd3df02be8ac42dea3cc306b7c83c376b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[84.43589,27.6768]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1283613"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbd3df02be8ac42dea3cc306b7c83c376b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd3df02be8ac42dea3cc306b7c83c376b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbd3df02be8ac42dea3cc306b7c83c376b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bharatpur"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bagmati Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd3df02be8ac42dea3cc306b7c83c376b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbd3df02be8ac42dea3cc306b7c83c376b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nepal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbd3df02be8ac42dea3cc306b7c83c376b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

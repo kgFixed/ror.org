@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02q0p6x28> a org:Organization ;
+    rdfs:label 'Institute of Literary Research of the Polish Academy of Sciences'^^xsd:string; 
+    schema:name 'Institute of Literary Research of the Polish Academy of Sciences'^^xsd:string; 
+    schema:foundingDate '1948'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'IBL PAN'^^xsd:string; 
+    org:alternativeName 'Institute of Literary Research'^^xsd:string ; 
+    schema:url <http://ibl.waw.pl> ; 
+    schema:mainEntityOfPage <https://ibl.waw.pl> ;
+    schema:sameAs <https://grid.ac/institutions/grid.498979.2> ;
+    schema:sameAs <http://isni.org/isni/000000012144627X> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/01dr6c206> ;
+        rdfs:label 'Polish Academy of Sciences'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[21.01178,52.22977]}" ;
+            schema:address [
+                schema:addressLocality "Warsaw" ;
+                schema:addressCountry "PL" ;
+                schema:addressRegion "Mazovia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Poland" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/756135> ;
+        ] ; 
+    .

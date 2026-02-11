@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/05j2hty04",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Oda Bultum University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "OBU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yuunivarsiitii Odaa Bultum"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ኦዳ ቡልቱም ዩኒቨርሲቲ"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2015"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc8ea4d49394f49ffa6283ee675a5e949b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.obu.edu.et"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Oda Bultum University"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://obu.edu.et"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8ea4d49394f49ffa6283ee675a5e949b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[38.23333,7.83333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/340573"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc8ea4d49394f49ffa6283ee675a5e949b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8ea4d49394f49ffa6283ee675a5e949b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc8ea4d49394f49ffa6283ee675a5e949b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ET"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ciro"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Central Ethiopia Regional State"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8ea4d49394f49ffa6283ee675a5e949b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc8ea4d49394f49ffa6283ee675a5e949b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ethiopia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8ea4d49394f49ffa6283ee675a5e949b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

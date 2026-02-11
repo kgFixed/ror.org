@@ -1,0 +1,176 @@
+[
+  {
+    "@id": "https://ror.org/04bxf0m67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scientific-Practical Center of Endovascular Neuroradiology of the National Academy of Medical Sciences of Ukraine"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scientific-Practical Center of Endovascular Neuroradiology"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scientific-Practical Center of Endovascular Neuroradiology of the National Academy of Medical Sciences of Ukraine"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbe014bab201d4285af68b5b62f4416c2b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1997"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbe014bab201d4285af68b5b62f4416c2b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://npc-kiev.com.ua"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scientific-Practical Center of Endovascular Neuroradiology of the National Academy of Medical Sciences of Ukraine"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://npc-kiev.com.ua"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe014bab201d4285af68b5b62f4416c2b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Academy of Medical Sciences of Ukraine"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/042dnf796"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe014bab201d4285af68b5b62f4416c2b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[30.5238,50.45466]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/703448"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbe014bab201d4285af68b5b62f4416c2b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe014bab201d4285af68b5b62f4416c2b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbe014bab201d4285af68b5b62f4416c2b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kyiv"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kyiv City"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe014bab201d4285af68b5b62f4416c2b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbe014bab201d4285af68b5b62f4416c2b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ukraine"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbe014bab201d4285af68b5b62f4416c2b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

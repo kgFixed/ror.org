@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/035qf0p33> a org:Organization ;
+    rdfs:label 'Akademia Łomżyńska'^^xsd:string; 
+    schema:name 'Akademia Łomżyńska'^^xsd:string; 
+    schema:foundingDate '2004'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Lomza State University of Applied Sciences'^^xsd:string ; 
+    org:abbreviation 'PWSIiP'^^xsd:string; 
+    org:alternativeName 'Państwowa Wyższa Szkoła Informatyki i Przedsiębiorczości w Łomży'^^xsd:string ; 
+    schema:url <http://al.edu.pl> ; 
+    schema:mainEntityOfPage <https://al.edu.pl> ;
+    schema:sameAs <https://grid.ac/institutions/grid.465839.5> ;
+    schema:sameAs <http://isni.org/isni/0000000404466764> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[22.05935,53.17806]}" ;
+            schema:address [
+                schema:addressLocality "Łomża" ;
+                schema:addressCountry "PL" ;
+                schema:addressRegion "Podlasie" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Poland" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/766027> ;
+        ] ; 
+    .

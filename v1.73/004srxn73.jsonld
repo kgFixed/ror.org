@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/004srxn73",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-11-07"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shanghai Institute for Science of Science"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SISS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Science"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shanghai Institute of Science"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1980"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf8f4dd1112a24ec5b8f92a66bf4da3bcb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.siss.sh.cn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shanghai Institute for Science of Science"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.507030.1"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://siss.sh.cn"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f4dd1112a24ec5b8f92a66bf4da3bcb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[121.44709,31.19594]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1787957"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf8f4dd1112a24ec5b8f92a66bf4da3bcb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f4dd1112a24ec5b8f92a66bf4da3bcb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf8f4dd1112a24ec5b8f92a66bf4da3bcb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Xuhui"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Shanghai"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f4dd1112a24ec5b8f92a66bf4da3bcb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf8f4dd1112a24ec5b8f92a66bf4da3bcb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf8f4dd1112a24ec5b8f92a66bf4da3bcb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

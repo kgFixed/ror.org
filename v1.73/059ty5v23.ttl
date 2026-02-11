@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/059ty5v23> a org:Organization ;
+    rdfs:label 'Central Philippines State University'^^xsd:string; 
+    schema:name 'Central Philippines State University'^^xsd:string; 
+    schema:foundingDate '1946'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'CPSU'^^xsd:string; 
+    schema:url <http://cpsu.edu.ph> ; 
+    schema:mainEntityOfPage <https://cpsu.edu.ph> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[122.81423,9.9839]}" ;
+            schema:address [
+                schema:addressLocality "Kabankalan" ;
+                schema:addressCountry "PH" ;
+                schema:addressRegion "Western Visayas" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Philippines" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1709968> ;
+        ] ; 
+    .

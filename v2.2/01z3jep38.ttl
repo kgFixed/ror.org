@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01z3jep38> a org:Organization ;
+    rdfs:label 'German Cement Works Association'^^xsd:string; 
+    schema:name 'German Cement Works Association'^^xsd:string; 
+    schema:foundingDate '1877'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'VDZ'^^xsd:string; 
+    schema:url <http://vdz-online.de> ; 
+    schema:mainEntityOfPage <https://www.vdz-online.de/en/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.426631.4> ;
+    schema:sameAs <http://isni.org/isni/0000000110128487> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[6.77616,51.22172]}" ;
+            schema:address [
+                schema:addressLocality "Düsseldorf" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "North Rhine-Westphalia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2934246> ;
+        ] ; 
+    .

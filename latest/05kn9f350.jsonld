@@ -1,0 +1,182 @@
+[
+  {
+    "@id": "https://ror.org/05kn9f350",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Research Institute for Science Policy"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/National_Research_Institute_for_Science_Policy"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NRISP"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nd855d3bda977420bb325544065f50e68b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2004"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd855d3bda977420bb325544065f50e68b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://nrisp.ac.ir"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Research Institute for Science Policy"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000087443971"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nrisp.ac.ir"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd855d3bda977420bb325544065f50e68b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Science, Research and Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/004v5tb85"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd855d3bda977420bb325544065f50e68b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[51.42151,35.69439]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/112931"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd855d3bda977420bb325544065f50e68b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd855d3bda977420bb325544065f50e68b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd855d3bda977420bb325544065f50e68b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tehran"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tehran"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd855d3bda977420bb325544065f50e68b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd855d3bda977420bb325544065f50e68b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iran"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd855d3bda977420bb325544065f50e68b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "@id": "https://ror.org/05ttvc873",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Health Research Center"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ar.wikipedia.org/wiki/%25D8%25A7%25D9%2584%25D8%25A5%25D8%25AF%25D8%25A7%25D8%25B1%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25B9%25D8%25A7%25D9%2585%25D8%25A9_%25D9%2584%25D9%2584%25D8%25AE%25D8%25AF%25D9%2585%25D8%25A7%25D8%25AA_%25D8%25A7%25D9%2584%25D8%25B7%25D8%25A8%25D9%258A%25D8%25A9_(%25D8%25A7%25D9%2584%25D8%25B3%25D8%25B9%25D9%2588%25D8%25AF%25D9%258A%25D8%25A9)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HRC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Health Research Center- Ministry of Defense Health Services"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scientific Research Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1553a6d0b83c4fdbbec309e9d3d10a83b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://msd.med.sa/en/Pages/default.aspx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Health Research Center"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mod.gov.sa"
+      },
+      {
+        "@id": "http://msd.med.sa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1553a6d0b83c4fdbbec309e9d3d10a83b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[46.72185,24.68773]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/108410"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1553a6d0b83c4fdbbec309e9d3d10a83b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1553a6d0b83c4fdbbec309e9d3d10a83b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1553a6d0b83c4fdbbec309e9d3d10a83b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Riyadh"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Riyadh Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1553a6d0b83c4fdbbec309e9d3d10a83b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1553a6d0b83c4fdbbec309e9d3d10a83b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Saudi Arabia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1553a6d0b83c4fdbbec309e9d3d10a83b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

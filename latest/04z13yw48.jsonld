@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/04z13yw48",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Opća bolnica Pula"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://hr.wikipedia.org/wiki/Op%25C4%2587a_bolnica_Pula"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "OB Pula"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1945"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n29728cbc6d2740518ea86c50fd3ad9a8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.obpula.hr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Opća bolnica Pula"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000095332278"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://obpula.hr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n29728cbc6d2740518ea86c50fd3ad9a8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.84806,44.86833]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3192224"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n29728cbc6d2740518ea86c50fd3ad9a8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n29728cbc6d2740518ea86c50fd3ad9a8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n29728cbc6d2740518ea86c50fd3ad9a8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pula"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Istria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n29728cbc6d2740518ea86c50fd3ad9a8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n29728cbc6d2740518ea86c50fd3ad9a8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Croatia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n29728cbc6d2740518ea86c50fd3ad9a8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

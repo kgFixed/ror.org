@@ -1,0 +1,77 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01nqeyn25> a org:Organization ;
+    rdfs:label 'Northern Care Alliance NHS Foundation Trust'^^xsd:string; 
+    schema:name 'Northern Care Alliance NHS Foundation Trust'^^xsd:string; 
+    schema:foundingDate '2017'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'NCA'^^xsd:string; 
+    schema:url <http://northerncarealliance.nhs.uk> ; 
+    schema:mainEntityOfPage <https://www.northerncarealliance.nhs.uk> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Northern_Care_Alliance_NHS_Foundation_Trust> ; 
+    schema:sameAs <http://isni.org/isni/0000000472398310> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03tv0az53> ;
+        rdfs:label 'Fairfield General Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00twjye57> ;
+        rdfs:label 'Rochdale Infirmary'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/030d91z44> ;
+        rdfs:label 'Royal Oldham Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/027rkpb34> ;
+        rdfs:label 'Salford Royal Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/05ga8m074> ;
+        rdfs:label 'Pennine Acute Hospitals NHS Trust'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'predecessor'^^xsd:string ;
+        org:member <https://ror.org/019j78370> ;
+        rdfs:label 'Salford Royal NHS Foundation Trust'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-2.29042,53.48771]}" ;
+            schema:address [
+                schema:addressLocality "Salford" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "England" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2638671> ;
+        ] ; 
+    .

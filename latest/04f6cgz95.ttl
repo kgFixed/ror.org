@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04f6cgz95> a org:Organization ;
+    rdfs:label 'American Diabetes Association'^^xsd:string; 
+    schema:name 'American Diabetes Association'^^xsd:string; 
+    schema:foundingDate '1940'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'ADA'^^xsd:string; 
+    schema:url <http://diabetes.org> ; 
+    schema:mainEntityOfPage <https://diabetes.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/American_Diabetes_Association> ; 
+    schema:sameAs <https://api.crossref.org/funders/100000041> ;
+    schema:sameAs <https://grid.ac/institutions/grid.427608.f> ;
+    schema:sameAs <http://isni.org/isni/0000000110336008> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-77.10428,38.88101]}" ;
+            schema:address [
+                schema:addressLocality "Arlington" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Virginia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4744709> ;
+        ] ; 
+    .

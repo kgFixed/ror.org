@@ -1,0 +1,51 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/057915t59> a org:Organization ;
+    rdfs:label 'Instituto de Agrobiotecnología del Litoral'^^xsd:string; 
+    schema:name 'Instituto de Agrobiotecnología del Litoral'^^xsd:string; 
+    schema:foundingDate '2008'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2019-02-17'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'IAL-CONICET'^^xsd:string; 
+    schema:mainEntityOfPage <http://www.ial.santafe-conicet.gov.ar/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.501536.4> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/003vet424> ;
+        rdfs:label 'Centro Científico Tecnológico - Santa Fe'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/00pt8r998> ;
+        rdfs:label 'Universidad Nacional del Litoral'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-60.70868,-31.64881]}" ;
+            schema:address [
+                schema:addressLocality "Santa Fe" ;
+                schema:addressCountry "AR" ;
+                schema:addressRegion "Santa Fe" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Argentina" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3836277> ;
+        ] ; 
+    .

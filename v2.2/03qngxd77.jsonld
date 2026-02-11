@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/03qngxd77",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Corporación Escuela Tecnológica del Oriente"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1992"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0727c56171af472b8e0d74131e6009deb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://tecnologicadeloriente.edu.co"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Corporación Escuela Tecnológica del Oriente"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.442195.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417813120"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://tecnologicadeloriente.edu.co"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0727c56171af472b8e0d74131e6009deb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-73.11895,7.125]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3688465"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0727c56171af472b8e0d74131e6009deb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0727c56171af472b8e0d74131e6009deb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0727c56171af472b8e0d74131e6009deb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bucaramanga"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Santander Department"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0727c56171af472b8e0d74131e6009deb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0727c56171af472b8e0d74131e6009deb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Colombia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0727c56171af472b8e0d74131e6009deb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

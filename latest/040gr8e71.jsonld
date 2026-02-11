@@ -1,0 +1,185 @@
+[
+  {
+    "@id": "https://ror.org/040gr8e71",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Painfree SAS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Clínica Integral del Dolor"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Clínica Integral del Dolor y Cuidado Paliativo"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IPS Painfree"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2014"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://clinicaintegraldeldolor.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Painfree SAS"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000528203106"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://painfree.com.co"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Industrial University of Santander"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00xc1d948"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-73.11895,7.125]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3688465"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bucaramanga"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Santander Department"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Colombia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5bc603aa4d094415a1ea728ead8b8767b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

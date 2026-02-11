@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/029d51a05",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital Quirónsalud Málaga"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2009"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd472eca7df844b938c5534ea5fe2db28b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.quironsalud.com/malaga"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital Quirónsalud Málaga"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://quironsalud.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd472eca7df844b938c5534ea5fe2db28b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-4.42034,36.72016]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2514256"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd472eca7df844b938c5534ea5fe2db28b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd472eca7df844b938c5534ea5fe2db28b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd472eca7df844b938c5534ea5fe2db28b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Málaga"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Andalusia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd472eca7df844b938c5534ea5fe2db28b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd472eca7df844b938c5534ea5fe2db28b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd472eca7df844b938c5534ea5fe2db28b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/04gzj2340",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de Recherche contre les Cancers de l’Appareil Digestif Africa"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IRCAD"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IRCAD Africa"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Research Institute against Digestive Cancer, Kigali"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2b4459b4cfb24e108842d274422d55cab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ircad.space"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de Recherche contre les Cancers de l’Appareil Digestif Africa"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ircad.africa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2b4459b4cfb24e108842d274422d55cab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[30.05885,-1.94995]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/202061"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2b4459b4cfb24e108842d274422d55cab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2b4459b4cfb24e108842d274422d55cab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2b4459b4cfb24e108842d274422d55cab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kigali"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kigali"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2b4459b4cfb24e108842d274422d55cab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2b4459b4cfb24e108842d274422d55cab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Rwanda"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2b4459b4cfb24e108842d274422d55cab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

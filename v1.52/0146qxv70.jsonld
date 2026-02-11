@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/0146qxv70",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-16"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación Naturaleza El Salvador"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2012"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3f81bf7a2cfd4d0ea7760f3c24dbd0adb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://fundacionaturalezaelsalvador.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación Naturaleza El Salvador"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fundacionaturalezaelsalvador.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3f81bf7a2cfd4d0ea7760f3c24dbd0adb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-89.18718,13.68935]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3583361"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3f81bf7a2cfd4d0ea7760f3c24dbd0adb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3f81bf7a2cfd4d0ea7760f3c24dbd0adb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3f81bf7a2cfd4d0ea7760f3c24dbd0adb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SV"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "San Salvador"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n3f81bf7a2cfd4d0ea7760f3c24dbd0adb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3f81bf7a2cfd4d0ea7760f3c24dbd0adb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "El Salvador"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3f81bf7a2cfd4d0ea7760f3c24dbd0adb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

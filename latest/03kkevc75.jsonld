@@ -1,0 +1,177 @@
+[
+  {
+    "@id": "https://ror.org/03kkevc75",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Indian Agricultural Statistics Research Institute"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Indian_Agricultural_Statistics_Research_Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbec2b13cf9764ba69d78e9919d670854b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1930"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbec2b13cf9764ba69d78e9919d670854b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://iasri.res.in/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Indian Agricultural Statistics Research Institute"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100018977"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.463150.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122181322"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbec2b13cf9764ba69d78e9919d670854b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Indian Council of Agricultural Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04fw54a43"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbec2b13cf9764ba69d78e9919d670854b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[77.2148,28.62137]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1261481"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbec2b13cf9764ba69d78e9919d670854b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbec2b13cf9764ba69d78e9919d670854b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbec2b13cf9764ba69d78e9919d670854b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "New Delhi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Delhi"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbec2b13cf9764ba69d78e9919d670854b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbec2b13cf9764ba69d78e9919d670854b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbec2b13cf9764ba69d78e9919d670854b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

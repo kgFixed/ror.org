@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/042few790> a org:Organization ;
+    rdfs:label 'New Jersey Department of Environmental Protection'^^xsd:string; 
+    schema:name 'New Jersey Department of Environmental Protection'^^xsd:string; 
+    schema:foundingDate '1970'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'NJDEP'^^xsd:string; 
+    schema:mainEntityOfPage <http://www.nj.gov/dep/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/New_Jersey_Department_of_Environmental_Protection> ; 
+    schema:sameAs <https://api.crossref.org/funders/100004840> ;
+    schema:sameAs <https://grid.ac/institutions/grid.419989.4> ;
+    schema:sameAs <http://isni.org/isni/0000000405093365> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05t0bww53> ;
+        rdfs:label 'New Jersey Geological and Water Survey'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-74.74294,40.21705]}" ;
+            schema:address [
+                schema:addressLocality "Trenton" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "New Jersey" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5105496> ;
+        ] ; 
+    .

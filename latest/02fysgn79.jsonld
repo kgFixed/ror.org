@@ -1,0 +1,142 @@
+[
+  {
+    "@id": "https://ror.org/02fysgn79",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nishibeppu National Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NHO Nishibeppu Hospital"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "西別府病院"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n484a2f287eb840ed9c40aae22905113eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://nishibeppu.hosp.go.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nishibeppu National Hospital"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nishibeppu.hosp.go.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n484a2f287eb840ed9c40aae22905113eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[131.49751,33.27945]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1864750"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n484a2f287eb840ed9c40aae22905113eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n484a2f287eb840ed9c40aae22905113eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n484a2f287eb840ed9c40aae22905113eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Beppu"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oita"
+      }
+    ]
+  },
+  {
+    "@id": "_:n484a2f287eb840ed9c40aae22905113eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n484a2f287eb840ed9c40aae22905113eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n484a2f287eb840ed9c40aae22905113eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

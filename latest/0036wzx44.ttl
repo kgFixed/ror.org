@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0036wzx44> a org:Organization ;
+    rdfs:label 'Junshin Gakuen University'^^xsd:string; 
+    schema:name 'Junshin Gakuen University'^^xsd:string; 
+    schema:foundingDate '2011'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Tohwa University'^^xsd:string ; 
+    schema:url <http://junshin-u.ac.jp> ; 
+    schema:mainEntityOfPage <https://www.junshin-u.ac.jp> ;
+    schema:sameAs <https://grid.ac/institutions/grid.471670.3> ;
+    schema:sameAs <http://isni.org/isni/0000000100082139> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[130.41667,33.6]}" ;
+            schema:address [
+                schema:addressLocality "Fukuoka" ;
+                schema:addressCountry "JP" ;
+                schema:addressRegion "Fukuoka" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Japan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1863967> ;
+        ] ; 
+    .

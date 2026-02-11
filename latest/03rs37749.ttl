@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03rs37749> a org:Organization ;
+    rdfs:label 'Métis-Lab'^^xsd:string; 
+    schema:name 'Métis-Lab'^^xsd:string; 
+    schema:foundingDate '2008'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Laboratoire Métis'^^xsd:string ; 
+    org:alternativeName 'Metis Lab'^^xsd:string ; 
+    org:alternativeName 'Métis'^^xsd:string ; 
+    schema:url <http://em-normandie.fr> ; 
+    schema:mainEntityOfPage <https://www.em-normandie.com/le-corps-professoral/la-recherche-lem-normandie/le-laboratoire-metis> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/052xwpe12> ;
+        rdfs:label 'EM Normandie Business School'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[0.10785,49.49346]}" ;
+            schema:address [
+                schema:addressLocality "Le Havre" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Normandy" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3003796> ;
+        ] ; 
+    .

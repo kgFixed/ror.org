@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03hab3x36> a org:Organization ;
+    rdfs:label 'Ulster University, Derry-Londonderry Campus'^^xsd:string; 
+    schema:name 'Ulster University, Derry-Londonderry Campus'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Magee College'^^xsd:string ; 
+    org:alternativeName 'Ulster University Magee Campus'^^xsd:string ; 
+    org:alternativeName 'Ulster University at Magee'^^xsd:string ; 
+    org:alternativeName 'Ulster University, Magee Campus'^^xsd:string ; 
+    schema:mainEntityOfPage <https://www.ulster.ac.uk/campuses/derry-londonderry> ;
+    schema:sameAs <https://api.crossref.org/funders/501100024043> ;
+    schema:sameAs <http://isni.org/isni/0000000417804785> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/01yp9g959> ;
+        rdfs:label 'University of Ulster'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-6.91667,54.91667]}" ;
+            schema:address [
+                schema:addressLocality "County Londonderry" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "Northern Ireland" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2643735> ;
+        ] ; 
+    .

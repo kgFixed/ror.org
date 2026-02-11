@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/03c4d4730",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kyoto YMCA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9ce3483a86cb4166a3c1033ea6460b7eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kyotoymca.or.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kyoto YMCA"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kyotoymca.or.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9ce3483a86cb4166a3c1033ea6460b7eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[135.75385,35.02107]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1857910"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9ce3483a86cb4166a3c1033ea6460b7eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9ce3483a86cb4166a3c1033ea6460b7eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9ce3483a86cb4166a3c1033ea6460b7eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kyoto"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kyoto"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9ce3483a86cb4166a3c1033ea6460b7eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9ce3483a86cb4166a3c1033ea6460b7eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9ce3483a86cb4166a3c1033ea6460b7eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

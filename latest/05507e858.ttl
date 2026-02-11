@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05507e858> a org:Organization ;
+    rdfs:label 'Universitas Bondowoso'^^xsd:string; 
+    schema:name 'Universitas Bondowoso'^^xsd:string; 
+    schema:foundingDate '1981'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2021-09-23'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:url <http://unibo.ac.id> ; 
+    schema:mainEntityOfPage <https://unibo.ac.id> ;
+    schema:sameAs <https://grid.ac/institutions/grid.512272.1> ;
+    schema:sameAs <http://isni.org/isni/0000000403859013> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[113.82145,-7.91346]}" ;
+            schema:address [
+                schema:addressLocality "Bondowoso" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "East Java" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1648266> ;
+        ] ; 
+    .

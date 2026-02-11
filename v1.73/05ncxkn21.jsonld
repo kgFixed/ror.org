@@ -1,0 +1,162 @@
+[
+  {
+    "@id": "https://ror.org/05ncxkn21",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-09"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior Tecnológico Carlos Cisneros"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ISTCC"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ISUCC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IST Carlos Cisneros"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ISU Carlos Cisneros"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior Universitario Carlos Cisneros"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1979"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb1966a58382b48418a587de772ba94aab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://istcarloscisneros.edu.ec"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior Tecnológico Carlos Cisneros"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://istcarloscisneros.edu.ec"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb1966a58382b48418a587de772ba94aab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-78.65887,-1.66506]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3652350"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb1966a58382b48418a587de772ba94aab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb1966a58382b48418a587de772ba94aab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb1966a58382b48418a587de772ba94aab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EC"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Riobamba"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Chimborazo Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb1966a58382b48418a587de772ba94aab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb1966a58382b48418a587de772ba94aab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ecuador"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb1966a58382b48418a587de772ba94aab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

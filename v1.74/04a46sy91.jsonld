@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/04a46sy91",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Automation und Kommunikation"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IFAK"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1991"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nca7a5f99ec3a4995b9b28cf6354f85cbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ifak.eu/de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Automation und Kommunikation"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.435514.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000091204535"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ifak.eu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca7a5f99ec3a4995b9b28cf6354f85cbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.62916,52.12773]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2874545"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nca7a5f99ec3a4995b9b28cf6354f85cbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca7a5f99ec3a4995b9b28cf6354f85cbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nca7a5f99ec3a4995b9b28cf6354f85cbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Magdeburg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Saxony-Anhalt"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca7a5f99ec3a4995b9b28cf6354f85cbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nca7a5f99ec3a4995b9b28cf6354f85cbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca7a5f99ec3a4995b9b28cf6354f85cbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

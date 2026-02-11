@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/02xp8v962",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-11-07"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vineland Research and Innovation Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1906"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na63880e4db584f4285a781502d5204b8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.vinelandresearch.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vineland Research and Innovation Centre"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.506859.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404092870"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vinelandresearch.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:na63880e4db584f4285a781502d5204b8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-79.06627,43.10012]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6087892"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na63880e4db584f4285a781502d5204b8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na63880e4db584f4285a781502d5204b8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na63880e4db584f4285a781502d5204b8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Niagara Falls"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ontario"
+      }
+    ]
+  },
+  {
+    "@id": "_:na63880e4db584f4285a781502d5204b8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na63880e4db584f4285a781502d5204b8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:na63880e4db584f4285a781502d5204b8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

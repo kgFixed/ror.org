@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/037qt0706> a org:Organization ;
+    rdfs:label 'Taisei Rotec Corporation (Japan)'^^xsd:string; 
+    schema:name 'Taisei Rotec Corporation (Japan)'^^xsd:string; 
+    schema:foundingDate '1961'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Taisei Rotec'^^xsd:string ; 
+    org:alternativeName 'Taisei Rotec Corp'^^xsd:string ; 
+    org:alternativeName '大成ロテック'^^xsd:string ; 
+    schema:url <http://taiseirotec.co.jp> ; 
+    schema:mainEntityOfPage <https://www.taiseirotec.co.jp> ;
+    owl:sameAs <https://ja.wikipedia.org/wiki/%25E5%25A4%25A7%25E6%2588%2590%25E3%2583%25AD%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/015cafh73> ;
+        rdfs:label 'Taisei (Japan)'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[139.69171,35.6895]}" ;
+            schema:address [
+                schema:addressLocality "Tokyo" ;
+                schema:addressCountry "JP" ;
+                schema:addressRegion "Tokyo" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Japan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1850147> ;
+        ] ; 
+    .

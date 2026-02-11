@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05mm0yq33> a org:Organization ;
+    rdfs:label 'Silent Spring Institute'^^xsd:string; 
+    schema:name 'Silent Spring Institute'^^xsd:string; 
+    schema:foundingDate '1994'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    schema:url <http://silentspring.org> ; 
+    schema:mainEntityOfPage <https://silentspring.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Silent_Spring_Institute> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.419240.a> ;
+    schema:sameAs <http://isni.org/isni/0000000404445883> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01jyv8a11> ;
+        rdfs:label 'Massachusetts Breast Cancer Coalition'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-71.20922,42.33704]}" ;
+            schema:address [
+                schema:addressLocality "Newton" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Massachusetts" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4945283> ;
+        ] ; 
+    .

@@ -1,0 +1,161 @@
+[
+  {
+    "@id": "https://ror.org/007y0wv84",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Visual Computing"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbf5a581278174ae0a39651a014575dd5b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2008"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbf5a581278174ae0a39651a014575dd5b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://ivc.ethz.ch"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Visual Computing"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf5a581278174ae0a39651a014575dd5b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ETH Zurich"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05a28rw58"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf5a581278174ae0a39651a014575dd5b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.55,47.36667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2657896"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbf5a581278174ae0a39651a014575dd5b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf5a581278174ae0a39651a014575dd5b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbf5a581278174ae0a39651a014575dd5b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zurich"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zurich"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf5a581278174ae0a39651a014575dd5b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbf5a581278174ae0a39651a014575dd5b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Switzerland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbf5a581278174ae0a39651a014575dd5b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

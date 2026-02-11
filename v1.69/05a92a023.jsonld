@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/05a92a023",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Materialprüfung und Werkstofftechnik Dr. Neubert GmbH"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DN-Institute"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Materialprüfung und Werkstofftechnik"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Materialprüfung und Werkstofftechnik Dr. Neubert"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1983"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:naa76dab4a74d44fa927bbc63b0f2070bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.dngmbh.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Materialprüfung und Werkstofftechnik Dr. Neubert GmbH"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.493177.f"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dngmbh.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:naa76dab4a74d44fa927bbc63b0f2070bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.33821,51.80949]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2939995"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:naa76dab4a74d44fa927bbc63b0f2070bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:naa76dab4a74d44fa927bbc63b0f2070bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:naa76dab4a74d44fa927bbc63b0f2070bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Clausthal-Zellerfeld"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lower Saxony"
+      }
+    ]
+  },
+  {
+    "@id": "_:naa76dab4a74d44fa927bbc63b0f2070bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:naa76dab4a74d44fa927bbc63b0f2070bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:naa76dab4a74d44fa927bbc63b0f2070bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

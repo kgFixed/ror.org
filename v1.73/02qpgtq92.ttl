@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02qpgtq92> a org:Organization ;
+    rdfs:label 'The Gambia College'^^xsd:string; 
+    schema:name 'The Gambia College'^^xsd:string; 
+    schema:foundingDate '1949'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'GC'^^xsd:string; 
+    org:alternativeName 'Gambia College'^^xsd:string ; 
+    org:alternativeName 'University of Education, Brikama, The Gambia'^^xsd:string ; 
+    schema:url <http://gc.edu.gm> ; 
+    schema:mainEntityOfPage <https://gc.edu.gm> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/The_Gambia_College> ; 
+    schema:sameAs <http://isni.org/isni/0000000479777516> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/038tkkk06> ;
+        rdfs:label 'University of the Gambia'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-16.64944,13.27136]}" ;
+            schema:address [
+                schema:addressLocality "Brikama" ;
+                schema:addressCountry "GM" ;
+                schema:addressRegion "Western" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "The Gambia" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2413753> ;
+        ] ; 
+    .

@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/01gggpc14",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Deutsches Zentrum für Schienenverkehrsforschung"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://de.wikipedia.org/wiki/Deutsches_Zentrum_f%25C3%25BCr_Schienenverkehrsforschung"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DZSF"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2019"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1b5b3e09e2e2431d8305d617070bd7bdb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.dzsf.bund.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Deutsches Zentrum für Schienenverkehrsforschung"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dzsf.bund.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1b5b3e09e2e2431d8305d617070bd7bdb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.73832,51.05089]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2935022"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1b5b3e09e2e2431d8305d617070bd7bdb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1b5b3e09e2e2431d8305d617070bd7bdb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1b5b3e09e2e2431d8305d617070bd7bdb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dresden"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Saxony"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1b5b3e09e2e2431d8305d617070bd7bdb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1b5b3e09e2e2431d8305d617070bd7bdb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1b5b3e09e2e2431d8305d617070bd7bdb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

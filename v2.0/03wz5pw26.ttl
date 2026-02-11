@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03wz5pw26> a org:Organization ;
+    rdfs:label 'Libertas International University'^^xsd:string; 
+    schema:name 'Libertas International University'^^xsd:string; 
+    schema:foundingDate '2008'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'DIU'^^xsd:string; 
+    org:alternativeName 'DIU Libertas International University'^^xsd:string ; 
+    org:alternativeName 'Dubrovnik International University'^^xsd:string ; 
+    org:alternativeName 'Libertas'^^xsd:string ; 
+    org:alternativeName 'Libertas University'^^xsd:string ; 
+    org:alternativeName 'Libertas međunarodno sveučilište - Dubrovnik'^^xsd:string ; 
+    org:alternativeName 'Sveučilište Libertas'^^xsd:string ; 
+    schema:url <http://libertas.hr> ; 
+    schema:mainEntityOfPage <https://www.libertas.hr> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Dubrovnik_International_University> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.448629.5> ;
+    schema:sameAs <http://isni.org/isni/000000040549509X> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[18.10909,42.64125]}" ;
+            schema:address [
+                schema:addressLocality "Dubrovnik" ;
+                schema:addressCountry "HR" ;
+                schema:addressRegion "Dubrovnik-Neretva" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Croatia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3201047> ;
+        ] ; 
+    .

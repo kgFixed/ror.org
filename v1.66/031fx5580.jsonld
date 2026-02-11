@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/031fx5580",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-20"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Ländliche Strukturforschung"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IfLS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1957"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf6099b3823d64bfc8af1d49fdd945343b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ifls.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut für Ländliche Strukturforschung"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ifls.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf6099b3823d64bfc8af1d49fdd945343b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.68417,50.11552]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2925533"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf6099b3823d64bfc8af1d49fdd945343b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf6099b3823d64bfc8af1d49fdd945343b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf6099b3823d64bfc8af1d49fdd945343b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Frankfurt am Main"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Hesse"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf6099b3823d64bfc8af1d49fdd945343b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf6099b3823d64bfc8af1d49fdd945343b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf6099b3823d64bfc8af1d49fdd945343b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

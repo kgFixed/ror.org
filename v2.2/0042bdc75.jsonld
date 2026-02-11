@@ -1,0 +1,161 @@
+[
+  {
+    "@id": "https://ror.org/0042bdc75",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Alphacrucis College"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Alphacrucis"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Commonwealth Bible College"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southern Cross College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1948"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nda9d17beaa29441eb6d70a492079f620b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ac.edu.au/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Alphacrucis College"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.508875.7"
+      },
+      {
+        "@id": "http://isni.org/isni/000000040428969X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ac.edu.au"
+      }
+    ]
+  },
+  {
+    "@id": "_:nda9d17beaa29441eb6d70a492079f620b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[151.00348,-33.8178]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/7281840"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nda9d17beaa29441eb6d70a492079f620b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nda9d17beaa29441eb6d70a492079f620b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nda9d17beaa29441eb6d70a492079f620b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Parramatta"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "New South Wales"
+      }
+    ]
+  },
+  {
+    "@id": "_:nda9d17beaa29441eb6d70a492079f620b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nda9d17beaa29441eb6d70a492079f620b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nda9d17beaa29441eb6d70a492079f620b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

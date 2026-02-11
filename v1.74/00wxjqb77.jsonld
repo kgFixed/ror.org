@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/00wxjqb77",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-11-07"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Klinikum Mittelbaden"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Stadtklinik Baden-Baden"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1973"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndcd86d5b8b0343a99f0dcb36a9dfd4dfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.klinikum-mittelbaden.de/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Klinikum Mittelbaden"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.506801.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404117927"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://klinikum-mittelbaden.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndcd86d5b8b0343a99f0dcb36a9dfd4dfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.23975,48.7606]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2953504"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndcd86d5b8b0343a99f0dcb36a9dfd4dfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndcd86d5b8b0343a99f0dcb36a9dfd4dfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndcd86d5b8b0343a99f0dcb36a9dfd4dfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Baden-Baden"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Baden-Wurttemberg"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndcd86d5b8b0343a99f0dcb36a9dfd4dfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndcd86d5b8b0343a99f0dcb36a9dfd4dfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndcd86d5b8b0343a99f0dcb36a9dfd4dfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

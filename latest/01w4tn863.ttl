@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01w4tn863> a org:Organization ;
+    rdfs:label 'Polytechnic Lavoslav Ružička Vukovar'^^xsd:string; 
+    schema:name 'Polytechnic Lavoslav Ružička Vukovar'^^xsd:string; 
+    schema:foundingDate '2005'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'VELVUK'^^xsd:string; 
+    schema:url <http://vevu.hr> ; 
+    schema:mainEntityOfPage <https://www.vevu.hr/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Polytechnic_Lavoslav_Ru%25C5%25BEi%25C4%258Dka_Vukovar> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.466108.d> ;
+    schema:sameAs <http://isni.org/isni/0000000403915521> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[19.00225,45.35161]}" ;
+            schema:address [
+                schema:addressLocality "Vukovar" ;
+                schema:addressCountry "HR" ;
+                schema:addressRegion "Vukovar-Srijem" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Croatia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3187047> ;
+        ] ; 
+    .

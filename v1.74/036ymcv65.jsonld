@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/036ymcv65",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Payampersa Language Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1929a692d721426ab5152864a650f5c7b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ppli.ir"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Payampersa Language Institute"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ppli.ir"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1929a692d721426ab5152864a650f5c7b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[51.37654,32.39057]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/418418"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1929a692d721426ab5152864a650f5c7b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1929a692d721426ab5152864a650f5c7b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1929a692d721426ab5152864a650f5c7b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zarrīn Shahr"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Isfahan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1929a692d721426ab5152864a650f5c7b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1929a692d721426ab5152864a650f5c7b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iran"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1929a692d721426ab5152864a650f5c7b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

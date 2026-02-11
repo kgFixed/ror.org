@@ -1,0 +1,53 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/028zzeg76> a org:Organization ;
+    rdfs:label 'Faculty of Industrial Engineering Novo Mesto'^^xsd:string; 
+    schema:name 'Faculty of Industrial Engineering Novo Mesto'^^xsd:string; 
+    schema:foundingDate '2009'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'FINI'^^xsd:string; 
+    org:alternativeName 'FINI Novo Mesto'^^xsd:string ; 
+    schema:url <http://fini-unm.si> ; 
+    schema:mainEntityOfPage <https://www.fini-unm.si> ;
+    owl:sameAs <https://sl.wikipedia.org/wiki/Fakulteta_za_industrijski_in%25C5%25BEeniring_Novo_mesto> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/04k7cwk28> ;
+        rdfs:label 'Univerzitetno Središče Novo mesto'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/051qxpt90> ;
+        rdfs:label 'School Center Novo mesto'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[15.16886,45.80397]}" ;
+            schema:address [
+                schema:addressLocality "Novo Mesto" ;
+                schema:addressCountry "SI" ;
+                schema:addressRegion "Novo Mesto" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Slovenia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3194351> ;
+        ] ; 
+    .

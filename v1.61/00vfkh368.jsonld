@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/00vfkh368",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación I+D Software Libre"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FIDESOL"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2005"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8da76e31482c4f628b86462bcd9f00ebb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.fidesol.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación I+D Software Libre"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fidesol.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8da76e31482c4f628b86462bcd9f00ebb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-3.60667,37.18817]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2517117"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8da76e31482c4f628b86462bcd9f00ebb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8da76e31482c4f628b86462bcd9f00ebb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8da76e31482c4f628b86462bcd9f00ebb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Granada"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Andalusia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8da76e31482c4f628b86462bcd9f00ebb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8da76e31482c4f628b86462bcd9f00ebb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8da76e31482c4f628b86462bcd9f00ebb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

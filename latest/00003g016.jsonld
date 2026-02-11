@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/00003g016",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-02-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "World Water Watch"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "WWW"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nccf08001342e4fa885e9a77af35b08fab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://worldwaterwatch.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "World Water Watch"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.502382.e"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://worldwaterwatch.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:nccf08001342e4fa885e9a77af35b08fab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-122.67621,45.52345]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5746545"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nccf08001342e4fa885e9a77af35b08fab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nccf08001342e4fa885e9a77af35b08fab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nccf08001342e4fa885e9a77af35b08fab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Portland"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oregon"
+      }
+    ]
+  },
+  {
+    "@id": "_:nccf08001342e4fa885e9a77af35b08fab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nccf08001342e4fa885e9a77af35b08fab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nccf08001342e4fa885e9a77af35b08fab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

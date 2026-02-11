@@ -1,0 +1,198 @@
+[
+  {
+    "@id": "https://ror.org/00eckk830",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Oman Medical College"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Oman_Medical_College"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "OMC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CoM&HS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "College of Medicine & Health Sciences"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "College of Medicine and Health Sciences"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "كلية الطب والعلوم الصحية"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n17c5d098741541529e91c7e256bc5878b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2001"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n17c5d098741541529e91c7e256bc5878b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://omc.edu.om/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Oman Medical College"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.444750.6"
+      },
+      {
+        "@id": "http://isni.org/isni/000000040621785X"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17c5d098741541529e91c7e256bc5878b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National University of Science and Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00rb2rb24"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "successor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17c5d098741541529e91c7e256bc5878b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[56.70937,24.34745]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/286282"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n17c5d098741541529e91c7e256bc5878b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17c5d098741541529e91c7e256bc5878b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n17c5d098741541529e91c7e256bc5878b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "OM"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sohar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Al Batinah North"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17c5d098741541529e91c7e256bc5878b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n17c5d098741541529e91c7e256bc5878b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oman"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17c5d098741541529e91c7e256bc5878b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

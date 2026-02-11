@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/039spa369",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Tecnológica Fidel Velázquez"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n11cae85275554c9698dd007338338743b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://utfv.edomex.gob.mx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Tecnológica Fidel Velázquez"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://utfv.edu.mx"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11cae85275554c9698dd007338338743b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-99.3068,19.64177]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3522732"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n11cae85275554c9698dd007338338743b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11cae85275554c9698dd007338338743b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n11cae85275554c9698dd007338338743b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MX"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ciudad Nicolás Romero"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n11cae85275554c9698dd007338338743b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n11cae85275554c9698dd007338338743b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mexico"
+      }
+    ]
+  },
+  {
+    "@id": "_:n11cae85275554c9698dd007338338743b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

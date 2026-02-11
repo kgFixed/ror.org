@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/03yprjh44",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Agricultural Research and Training"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IART"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1920"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc5871f404c4b4f0da48973a87a3c9574b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://iart.gov.ng/IT/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Agricultural Research and Training"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://iart.gov.ng"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc5871f404c4b4f0da48973a87a3c9574b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[3.90591,7.37756]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2339354"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc5871f404c4b4f0da48973a87a3c9574b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc5871f404c4b4f0da48973a87a3c9574b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc5871f404c4b4f0da48973a87a3c9574b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ibadan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oyo State"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc5871f404c4b4f0da48973a87a3c9574b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc5871f404c4b4f0da48973a87a3c9574b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc5871f404c4b4f0da48973a87a3c9574b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

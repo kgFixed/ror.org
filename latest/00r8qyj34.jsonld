@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/00r8qyj34",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sendai University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Sendai_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1879"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2fa50209759e494e9f3b37992c5addb8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.sendaidaigaku.jp/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sendai University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.444773.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000403755863"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2fa50209759e494e9f3b37992c5addb8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[140.78772,38.08575]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2111129"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2fa50209759e494e9f3b37992c5addb8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2fa50209759e494e9f3b37992c5addb8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2fa50209759e494e9f3b37992c5addb8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Shibata Machi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Miyagi"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2fa50209759e494e9f3b37992c5addb8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2fa50209759e494e9f3b37992c5addb8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2fa50209759e494e9f3b37992c5addb8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

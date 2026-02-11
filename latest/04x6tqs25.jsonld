@@ -1,0 +1,158 @@
+[
+  {
+    "@id": "https://ror.org/04x6tqs25",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nova Chemicals (Canada)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Nova_Chemicals"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1954"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc8805276fa31449790b7ffb129a39a6ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.novachem.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nova Chemicals (Canada)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100008950"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.292803.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404066277"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://novachem.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8805276fa31449790b7ffb129a39a6ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-114.08529,51.05011]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5913490"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc8805276fa31449790b7ffb129a39a6ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8805276fa31449790b7ffb129a39a6ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc8805276fa31449790b7ffb129a39a6ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Calgary"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Alberta"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8805276fa31449790b7ffb129a39a6ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc8805276fa31449790b7ffb129a39a6ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc8805276fa31449790b7ffb129a39a6ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03cpw2v62> a org:Organization ;
+    rdfs:label 'GRHAPES – Groupe de recherche sur le handicap, l\'accessibilité, les pratiques éducatives et scolaires (UR 7287)'^^xsd:string; 
+    schema:name 'GRHAPES – Groupe de recherche sur le handicap, l\'accessibilité, les pratiques éducatives et scolaires (UR 7287)'^^xsd:string; 
+    schema:foundingDate '2012'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'GRHAPES'^^xsd:string; 
+    org:alternativeName 'Groupe de recherche sur le handicap, l’accessibilité, les pratiques éducatives et scolaires'^^xsd:string ; 
+    org:alternativeName 'UR 7287'^^xsd:string ; 
+    schema:mainEntityOfPage <https://www.insei.fr/recherche/le-projet-scientifique> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/021v2ka51> ;
+        rdfs:label 'Institut national supérieur de formation et de recherche pour l\'éducation inclusive'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-4.36667,48.66667]}" ;
+            schema:address [
+                schema:addressLocality "Théven" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Brittany" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2972915> ;
+        ] ; 
+    .

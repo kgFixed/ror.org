@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/00jcw6451",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Madero"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UMAD"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1982"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne924aebcd1fd4a52b043362e8874c3d0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://umad.edu.mx/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Madero"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.441422.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404849167"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://umad.edu.mx"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne924aebcd1fd4a52b043362e8874c3d0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-98.20723,19.04778]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3521081"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne924aebcd1fd4a52b043362e8874c3d0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne924aebcd1fd4a52b043362e8874c3d0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne924aebcd1fd4a52b043362e8874c3d0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MX"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Puebla City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Puebla"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne924aebcd1fd4a52b043362e8874c3d0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne924aebcd1fd4a52b043362e8874c3d0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mexico"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne924aebcd1fd4a52b043362e8874c3d0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,160 @@
+[
+  {
+    "@id": "https://ror.org/03r7nqk21",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Banas Medical College and Research Institute"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Banas_Medical_College_and_Research_Institute%252C_Palanpur"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BMCRI"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Banas Medical College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2018"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndaeb973e54ac4e239e488aab116e76b6b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.bmcri.co.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Banas Medical College and Research Institute"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/000000048033427X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bmcri.co.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndaeb973e54ac4e239e488aab116e76b6b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[72.43827,24.17128]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1260777"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndaeb973e54ac4e239e488aab116e76b6b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndaeb973e54ac4e239e488aab116e76b6b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndaeb973e54ac4e239e488aab116e76b6b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pālanpur"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gujarat"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndaeb973e54ac4e239e488aab116e76b6b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndaeb973e54ac4e239e488aab116e76b6b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndaeb973e54ac4e239e488aab116e76b6b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

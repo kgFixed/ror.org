@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/037hqgd69> a org:Organization ;
+    rdfs:label 'Asia School of Business'^^xsd:string; 
+    schema:name 'Asia School of Business'^^xsd:string; 
+    schema:foundingDate '2015'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2019-02-17'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'ASB'^^xsd:string; 
+    schema:url <http://asb.edu.my> ; 
+    schema:mainEntityOfPage <https://asb.edu.my> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Asia_School_of_Business> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.501392.c> ;
+    schema:sameAs <http://isni.org/isni/0000000492368944> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[101.68653,3.1412]}" ;
+            schema:address [
+                schema:addressLocality "Kuala Lumpur" ;
+                schema:addressCountry "MY" ;
+                schema:addressRegion "Kuala Lumpur" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Malaysia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1735161> ;
+        ] ; 
+    .

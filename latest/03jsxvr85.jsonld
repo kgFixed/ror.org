@@ -1,0 +1,184 @@
+[
+  {
+    "@id": "https://ror.org/03jsxvr85",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CEPS/INSTEAD"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CEPS-INSTEAD"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre d'Etudes de Populations, de pauvreté et de politiques Socio-économiques"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre for Population, Poverty and Public Policy Studies"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International Networks for studies in Technology, Environment, Alternatives, Development"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1989"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.ceps.lu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CEPS/INSTEAD"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ceps.lu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Luxembourg Institute of Socio-Economic Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/040jf9322"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "successor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.89139,49.52417]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2960651"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Differdange"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Esch-sur-Alzette"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Luxembourg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6adbf1199ddf44af8b0dc257693bc66db5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01edayx41> a org:Organization ;
+    rdfs:label 'Uzbek State University of Physical Culture and Sport'^^xsd:string; 
+    schema:name 'Uzbek State University of Physical Culture and Sport'^^xsd:string; 
+    schema:foundingDate '1955'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'JTSU'^^xsd:string; 
+    org:alternativeName 'Uzbek State University of Physical Education and Sport'^^xsd:string ; 
+    org:alternativeName 'Uzbekistan State University of Physical Education and Sports'^^xsd:string ; 
+    org:abbreviation 'УзГосИФК'^^xsd:string; 
+    schema:url <http://jtsu.uz> ; 
+    schema:mainEntityOfPage <https://jtsu.uz> ;
+    owl:sameAs <https://uz.wikipedia.org/wiki/O%25CA%25BBzbekiston_davlat_jismoniy_tarbiya_va_sport_universiteti> ; 
+    schema:sameAs <http://isni.org/isni/0000000404033176> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[69.58222,41.46889]}" ;
+            schema:address [
+                schema:addressLocality "Chirchiq" ;
+                schema:addressCountry "UZ" ;
+                schema:addressRegion "Tashkent Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Uzbekistan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1514210> ;
+        ] ; 
+    .

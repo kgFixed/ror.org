@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01agk4b09> a org:Organization ;
+    rdfs:label 'Konrad Lorenz Institute for Evolution and Cognition Research'^^xsd:string; 
+    schema:name 'Konrad Lorenz Institute for Evolution and Cognition Research'^^xsd:string; 
+    schema:foundingDate '1990'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2021-09-23'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'KLI'^^xsd:string; 
+    schema:url <http://kli.ac.at> ; 
+    schema:mainEntityOfPage <https://kli.ac.at> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Konrad_Lorenz_Institute_for_Evolution_and_Cognition_Research> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.511277.7> ;
+    schema:sameAs <http://isni.org/isni/0000000404775399> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[16.32522,48.30521]}" ;
+            schema:address [
+                schema:addressLocality "Klosterneuburg" ;
+                schema:addressCountry "AT" ;
+                schema:addressRegion "Lower Austria" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Austria" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2773913> ;
+        ] ; 
+    .

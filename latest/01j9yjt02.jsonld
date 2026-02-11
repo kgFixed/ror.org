@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/01j9yjt02",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zdravstveni dom dr. Adolfa Drolca Maribor"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ZDM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndc7684d57b54459c9dfbc7085e181de8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.zd-mb.si/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zdravstveni dom dr. Adolfa Drolca Maribor"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.458525.b"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404035112"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://zd-mb.si"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc7684d57b54459c9dfbc7085e181de8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.64593,46.55583]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3195506"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndc7684d57b54459c9dfbc7085e181de8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc7684d57b54459c9dfbc7085e181de8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndc7684d57b54459c9dfbc7085e181de8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SI"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Maribor"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Maribor City Municipality"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc7684d57b54459c9dfbc7085e181de8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndc7684d57b54459c9dfbc7085e181de8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Slovenia"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndc7684d57b54459c9dfbc7085e181de8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

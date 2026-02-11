@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02tpvs361> a org:Organization ;
+    rdfs:label 'Veleučilište u Virovitici'^^xsd:string; 
+    schema:name 'Veleučilište u Virovitici'^^xsd:string; 
+    schema:foundingDate '2007'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'VUV'^^xsd:string; 
+    schema:url <http://vuv.hr> ; 
+    schema:mainEntityOfPage <https://www.vuv.hr> ;
+    schema:sameAs <http://isni.org/isni/000000051423266X> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[17.38389,45.83194]}" ;
+            schema:address [
+                schema:addressLocality "Virovitica" ;
+                schema:addressCountry "HR" ;
+                schema:addressRegion "Virovitica-Podravina" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Croatia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3187694> ;
+        ] ; 
+    .

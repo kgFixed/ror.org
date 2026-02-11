@@ -1,0 +1,161 @@
+[
+  {
+    "@id": "https://ror.org/011wpwt21",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southwestern Law School"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Southwestern_Law_School"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southwestern College of Law"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southwestern University School of Law"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1911"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2bdc0293425941279f7db9f1b222c3d1b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.swlaw.edu/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southwestern Law School"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.441193.a"
+      },
+      {
+        "@id": "http://isni.org/isni/000000010178452X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://swlaw.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2bdc0293425941279f7db9f1b222c3d1b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-118.24368,34.05223]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5368361"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2bdc0293425941279f7db9f1b222c3d1b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2bdc0293425941279f7db9f1b222c3d1b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2bdc0293425941279f7db9f1b222c3d1b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Los Angeles"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "California"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2bdc0293425941279f7db9f1b222c3d1b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2bdc0293425941279f7db9f1b222c3d1b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2bdc0293425941279f7db9f1b222c3d1b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "@id": "https://ror.org/01x9a3s25",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital del Oriente de Asturias Francisco Grande Covián"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://es.wikipedia.org/wiki/Hospital_del_Oriente_de_Asturias_Francisco_Grande_Covi%25C3%25A1n"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital de Arriondas"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1997"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb2"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital del Oriente de Asturias Francisco Grande Covián"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000417595725"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://astursalud.es"
+      },
+      {
+        "@id": "http://sespa.es"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Servicio de Salud del Principado de Asturias"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00kj4ev13"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-5.18652,43.38997]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3129400"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Arriondas"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Asturias"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne35e018ecfce40efabf6ceed30b7543eb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

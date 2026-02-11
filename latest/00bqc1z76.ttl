@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00bqc1z76> a org:Organization ;
+    rdfs:label 'Central-Asian Institute for Applied Geosciences'^^xsd:string; 
+    schema:name 'Central-Asian Institute for Applied Geosciences'^^xsd:string; 
+    schema:foundingDate '2002'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'CAIAG'^^xsd:string; 
+    org:abbreviation 'ЦАИИЗ'^^xsd:string; 
+    schema:url <http://caiag.kg> ; 
+    schema:mainEntityOfPage <https://caiag.kg> ;
+    schema:sameAs <https://grid.ac/institutions/grid.493193.5> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[74.59,42.87]}" ;
+            schema:address [
+                schema:addressLocality "Bishkek" ;
+                schema:addressCountry "KG" ;
+                schema:addressRegion "Bishkek" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Kyrgyzstan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1528675> ;
+        ] ; 
+    .

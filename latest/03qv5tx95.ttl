@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03qv5tx95> a org:Organization ;
+    rdfs:label 'Hygeia Hospital'^^xsd:string; 
+    schema:name 'Hygeia Hospital'^^xsd:string; 
+    schema:foundingDate '1970'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://hygeia.gr> ; 
+    schema:mainEntityOfPage <https://www.hygeia.gr/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.413693.a> ;
+    schema:sameAs <http://isni.org/isni/0000000406224953> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/04srvct20> ;
+        rdfs:label 'Ophthalmos Eye Research & Therapeutic Institute'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[23.72784,37.98376]}" ;
+            schema:address [
+                schema:addressLocality "Athens" ;
+                schema:addressCountry "GR" ;
+                schema:addressRegion "Attica" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Greece" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/264371> ;
+        ] ; 
+    .

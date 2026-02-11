@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/003bxzv61> a org:Organization ;
+    rdfs:label 'Data Science Research Center'^^xsd:string; 
+    schema:name 'Data Science Research Center'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'DSRC'^^xsd:string; 
+    org:alternativeName 'Data Science Research Center at the University of Haifa'^^xsd:string ; 
+    org:alternativeName 'University of Haifa Data Science Research Center'^^xsd:string ; 
+    org:alternativeName 'University of Haifa\'s Data Science Research Center'^^xsd:string ; 
+    schema:url <http://dsrc.haifa.ac.il> ; 
+    schema:mainEntityOfPage <https://dsrc.haifa.ac.il> ;
+    schema:sameAs <https://api.crossref.org/funders/501100023394> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/02f009v59> ;
+        rdfs:label 'University of Haifa'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[34.99928,32.81303]}" ;
+            schema:address [
+                schema:addressLocality "Haifa" ;
+                schema:addressCountry "IL" ;
+                schema:addressRegion "Haifa" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Israel" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/294801> ;
+        ] ; 
+    .

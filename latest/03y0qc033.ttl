@@ -1,0 +1,65 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03y0qc033> a org:Organization ;
+    rdfs:label 'Institut National des Sciences Appliquées Centre Val de Loire'^^xsd:string; 
+    schema:name 'Institut National des Sciences Appliquées Centre Val de Loire'^^xsd:string; 
+    schema:foundingDate '2014'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'INSA'^^xsd:string; 
+    org:alternativeName 'INSA Centre Val de Loire'^^xsd:string ; 
+    schema:mainEntityOfPage <http://www.insa-centrevaldeloire.fr/en/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.454311.6> ;
+    schema:sameAs <http://isni.org/isni/0000000446850174> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00sbth994> ;
+        rdfs:label 'Laboratoire Pluridisciplinaire de Recherche en Ingénierie des Systèmes, Mécanique et Energétique'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01nr3td38> ;
+        rdfs:label 'Laboratoire d\'Informatique Fondamentale d\'Orléans'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04f9thq51> ;
+        rdfs:label 'Laboratoire de Mécanique Gabriel Lamé'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/051qnm298> ;
+        rdfs:label 'GREMAN, Matériaux, Microélectronique, Acoustique, Nanotechnologies'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[1.32912,47.59432]}" ;
+            schema:address [
+                schema:addressLocality "Blois" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Centre-Val de Loire" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3032213> ;
+        ] ; 
+    .

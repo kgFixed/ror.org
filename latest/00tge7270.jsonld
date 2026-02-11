@@ -1,0 +1,198 @@
+[
+  {
+    "@id": "https://ror.org/00tge7270",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Erhvervsakademi København"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EK"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n1a0cab1e86ec4402af273150e71735d1b1"
+      },
+      {
+        "@id": "_:n1a0cab1e86ec4402af273150e71735d1b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2025"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1a0cab1e86ec4402af273150e71735d1b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ek.dk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Erhvervsakademi København"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ek.dk"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a0cab1e86ec4402af273150e71735d1b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Copenhagen Business Academy"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02gg57z81"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a0cab1e86ec4402af273150e71735d1b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Copenhagen School of Design and Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/00j1xwp39"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a0cab1e86ec4402af273150e71735d1b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[12.56553,55.67594]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2618425"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1a0cab1e86ec4402af273150e71735d1b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a0cab1e86ec4402af273150e71735d1b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1a0cab1e86ec4402af273150e71735d1b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Copenhagen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Capital Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a0cab1e86ec4402af273150e71735d1b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1a0cab1e86ec4402af273150e71735d1b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Denmark"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a0cab1e86ec4402af273150e71735d1b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

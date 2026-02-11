@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/026cjqx95",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Manna Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n78f1441bfba544c2ba9b62e88456c2cbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://mannainstitute.au"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Manna Institute"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mannainstitute.au"
+      }
+    ]
+  },
+  {
+    "@id": "_:n78f1441bfba544c2ba9b62e88456c2cbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[151.66553,-30.50123]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2177671"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n78f1441bfba544c2ba9b62e88456c2cbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n78f1441bfba544c2ba9b62e88456c2cbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n78f1441bfba544c2ba9b62e88456c2cbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Armidale"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "New South Wales"
+      }
+    ]
+  },
+  {
+    "@id": "_:n78f1441bfba544c2ba9b62e88456c2cbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n78f1441bfba544c2ba9b62e88456c2cbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n78f1441bfba544c2ba9b62e88456c2cbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

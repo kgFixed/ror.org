@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/032k6a629",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Massachusetts College of Art and Design"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Massachusetts_College_of_Art_and_Design"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MassArt"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1873"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfd7f15789ed34087a8c5841406e705abb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://massart.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Massachusetts College of Art and Design"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.447117.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000403782327"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://massart.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfd7f15789ed34087a8c5841406e705abb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-71.05977,42.35843]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4930956"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfd7f15789ed34087a8c5841406e705abb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfd7f15789ed34087a8c5841406e705abb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfd7f15789ed34087a8c5841406e705abb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Boston"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Massachusetts"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfd7f15789ed34087a8c5841406e705abb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfd7f15789ed34087a8c5841406e705abb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfd7f15789ed34087a8c5841406e705abb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

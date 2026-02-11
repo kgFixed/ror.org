@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05et06025> a org:Organization ;
+    rdfs:label 'Centre Médico-Chirurgical de Kinindo'^^xsd:string; 
+    schema:name 'Centre Médico-Chirurgical de Kinindo'^^xsd:string; 
+    schema:foundingDate '2000'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'CMCK'^^xsd:string; 
+    org:alternativeName 'Kinindo Medical and Surgical Center'^^xsd:string ; 
+    schema:url <http://cmckhospital.org> ; 
+    schema:mainEntityOfPage <https://cmckhospital.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Centre_Medico-Chirurgical_de_Kinindoo> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[29.36142,-3.38193]}" ;
+            schema:address [
+                schema:addressLocality "Bujumbura" ;
+                schema:addressCountry "BI" ;
+                schema:addressRegion "Bujumbura Mairie" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Burundi" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/425378> ;
+        ] ; 
+    .

@@ -1,0 +1,232 @@
+[
+  {
+    "@id": "https://ror.org/04z64b609",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "São Paulo State Technological College"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/S%25C3%25A3o_Paulo_State_Technological_College"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FATEC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db1"
+      },
+      {
+        "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db2"
+      },
+      {
+        "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db3"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1969"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db4"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.centropaulasouza.sp.gov.br/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "São Paulo State Technological College"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.459478.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406148735"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fatec Jahu"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03qzyer47"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fatec Praia Grande"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/032e34x73"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db3",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fatec Garça"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04bqw6g80"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db4",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-46.63611,-23.5475]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3448439"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db5"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db5",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db6"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "São Paulo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "São Paulo"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db6",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db7"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff54fbb04e4487e9fcb2ec16669ba8db7",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

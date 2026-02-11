@@ -1,0 +1,162 @@
+[
+  {
+    "@id": "https://ror.org/04k25m262",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "108 Military Central Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/108_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "108 Hospital"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Army Central Hospital 108"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Army Medical Institute 108"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1951"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbb4fdf936b8f43278d45084757b7039fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://benhvien108.vn/home.htm"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "108 Military Central Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.461530.5"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://benhvien108.vn"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb4fdf936b8f43278d45084757b7039fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[105.84117,21.0245]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1581130"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbb4fdf936b8f43278d45084757b7039fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb4fdf936b8f43278d45084757b7039fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbb4fdf936b8f43278d45084757b7039fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hanoi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "An Giang Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb4fdf936b8f43278d45084757b7039fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbb4fdf936b8f43278d45084757b7039fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vietnam"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb4fdf936b8f43278d45084757b7039fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

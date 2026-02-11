@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01s2jen95> a org:Organization ;
+    rdfs:label 'Center for Practical Bioethics'^^xsd:string; 
+    schema:name 'Center for Practical Bioethics'^^xsd:string; 
+    schema:foundingDate '1984'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:url <http://practicalbioethics.org> ; 
+    schema:mainEntityOfPage <https://www.practicalbioethics.org> ;
+    schema:sameAs <https://grid.ac/institutions/grid.419821.7> ;
+    schema:sameAs <http://isni.org/isni/0000000406161024> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-94.57857,39.09973]}" ;
+            schema:address [
+                schema:addressLocality "Kansas City" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Missouri" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4393217> ;
+        ] ; 
+    .

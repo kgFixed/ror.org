@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0511xx539> a org:Organization ;
+    rdfs:label 'Institut Universitaire de Technologie de Rodez'^^xsd:string; 
+    schema:name 'Institut Universitaire de Technologie de Rodez'^^xsd:string; 
+    schema:foundingDate '1969'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'IUT - RODEZ'^^xsd:string ; 
+    org:alternativeName 'IUT RODEZ'^^xsd:string ; 
+    org:alternativeName 'IUT de Rodez'^^xsd:string ; 
+    schema:url <http://iut-rodez.fr> ; 
+    schema:mainEntityOfPage <https://www.iut-rodez.fr> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/027ankh97> ;
+        rdfs:label 'Université Toulouse Capitole'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[2.57338,44.35258]}" ;
+            schema:address [
+                schema:addressLocality "Rodez" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Occitanie" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2983154> ;
+        ] ; 
+    .

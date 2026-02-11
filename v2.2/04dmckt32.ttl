@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04dmckt32> a org:Organization ;
+    rdfs:label 'Instituto Sinchi'^^xsd:string; 
+    schema:name 'Instituto Sinchi'^^xsd:string; 
+    schema:foundingDate '1993'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Sinchi Amazonic Institute of Scientific Research'^^xsd:string ; 
+    schema:url <http://sinchi.org.co> ; 
+    schema:mainEntityOfPage <https://sinchi.org.co> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Sinchi_Amazonic_Institute_of_Scientific_Research> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.493190.6> ;
+    schema:sameAs <http://isni.org/isni/0000000121049506> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-69.93944,-4.21079]}" ;
+            schema:address [
+                schema:addressLocality "Leticia" ;
+                schema:addressCountry "CO" ;
+                schema:addressRegion "Amazonas Department" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Colombia" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3676623> ;
+        ] ; 
+    .

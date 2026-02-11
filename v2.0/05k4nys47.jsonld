@@ -1,0 +1,191 @@
+[
+  {
+    "@id": "https://ror.org/05k4nys47",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Banco da Amazônia"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://pt.wikipedia.org/wiki/Banco_da_Amaz%25C3%25B4nia"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BASA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bank of the Amazon"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1942"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.bancoamazonia.com.br"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Banco da Amazônia"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/000000008862415X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bancoamazonia.com.br"
+      },
+      {
+        "@id": "http://basa.com.br"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bank of Brazil"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/045yq1w74"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-48.50444,-1.45583]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3405870"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Belém"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Pará"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8a48ed3de54546e0884d5f6dde577f0db5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

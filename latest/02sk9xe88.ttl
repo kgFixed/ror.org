@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02sk9xe88> a org:Organization ;
+    rdfs:label 'Jain hospital'^^xsd:string; 
+    schema:name 'Jain hospital'^^xsd:string; 
+    schema:foundingDate '2007'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Jain hospital & Research Centre'^^xsd:string ; 
+    schema:url <http://jainhospitals.com> ; 
+    schema:mainEntityOfPage <https://jainhospitals.com> ;
+    schema:sameAs <http://isni.org/isni/0000000406136347> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[80.34975,26.46523]}" ;
+            schema:address [
+                schema:addressLocality "Kanpur" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Uttar Pradesh" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1267995> ;
+        ] ; 
+    .

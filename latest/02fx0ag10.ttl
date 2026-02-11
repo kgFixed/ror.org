@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02fx0ag10> a org:Organization ;
+    rdfs:label 'St. Philomena College, Puttur'^^xsd:string; 
+    schema:name 'St. Philomena College, Puttur'^^xsd:string; 
+    schema:foundingDate '1958'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Saint Philomena College'^^xsd:string ; 
+    org:alternativeName 'St Philomena College (Autonomous), Puttur'^^xsd:string ; 
+    schema:url <http://spcputtur.ac.in> ; 
+    schema:mainEntityOfPage <https://spcputtur.ac.in> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Saint_Philomena_College%252C_Puttur> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/05fep3933> ;
+        rdfs:label 'Mangalore University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[75.20169,12.75975]}" ;
+            schema:address [
+                schema:addressLocality "Puttūr" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Karnataka" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1259124> ;
+        ] ; 
+    .

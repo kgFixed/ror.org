@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/03vwykn21",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-02-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akademie Reformatoriese Opleiding en Studies"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Aros"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2003"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4c098b92e22f4b1f867867ca7bcdba16b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://aros.ac.za"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akademie Reformatoriese Opleiding en Studies"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.501383.c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404571265"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://aros.ac.za"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c098b92e22f4b1f867867ca7bcdba16b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[28.18783,-25.74486]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/964137"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4c098b92e22f4b1f867867ca7bcdba16b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c098b92e22f4b1f867867ca7bcdba16b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4c098b92e22f4b1f867867ca7bcdba16b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pretoria"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gauteng"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c098b92e22f4b1f867867ca7bcdba16b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4c098b92e22f4b1f867867ca7bcdba16b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Africa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4c098b92e22f4b1f867867ca7bcdba16b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

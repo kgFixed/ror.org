@@ -1,0 +1,133 @@
+[
+  {
+    "@id": "https://ror.org/00fas7593",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PIC Latinoamérica (Chile)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PIC Andina S.A."
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2fdec085e4eb451e87a495e064a3596bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://latam.pic.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PIC Latinoamérica (Chile)"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2fdec085e4eb451e87a495e064a3596bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-70.63745,-33.36031]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/8261432"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2fdec085e4eb451e87a495e064a3596bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2fdec085e4eb451e87a495e064a3596bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2fdec085e4eb451e87a495e064a3596bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Huechuraba"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Santiago Metropolitan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2fdec085e4eb451e87a495e064a3596bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2fdec085e4eb451e87a495e064a3596bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Chile"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2fdec085e4eb451e87a495e064a3596bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

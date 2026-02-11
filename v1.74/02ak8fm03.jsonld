@@ -1,0 +1,174 @@
+[
+  {
+    "@id": "https://ror.org/02ak8fm03",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Friedrich-Ebert-Stiftung e.V."
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Friedrich_Ebert_Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FES"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Friedrich Ebert Foundation"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Friedrich-Ebert-Stiftung"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1925"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n59d5487908124521a6a52776c9826d59b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.fes.de/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Friedrich-Ebert-Stiftung e.V."
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100005846"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.461659.9"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121921544"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fes.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:n59d5487908124521a6a52776c9826d59b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[7.09549,50.73438]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2946447"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n59d5487908124521a6a52776c9826d59b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n59d5487908124521a6a52776c9826d59b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n59d5487908124521a6a52776c9826d59b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bonn"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North Rhine-Westphalia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n59d5487908124521a6a52776c9826d59b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n59d5487908124521a6a52776c9826d59b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n59d5487908124521a6a52776c9826d59b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

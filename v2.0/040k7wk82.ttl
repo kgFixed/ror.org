@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/040k7wk82> a org:Organization ;
+    rdfs:label 'Universitas Islam Negeri K.H. Abdurrahman Wahid Pekalongan'^^xsd:string; 
+    schema:name 'Universitas Islam Negeri K.H. Abdurrahman Wahid Pekalongan'^^xsd:string; 
+    schema:foundingDate '2022'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'State Islamic University (UIN) KH Abdurrahman Wahid Pekalongan'^^xsd:string ; 
+    org:alternativeName 'UIN KH Abdurrahman Wahid Pekalongan'^^xsd:string ; 
+    org:abbreviation 'UINGUSDUR'^^xsd:string; 
+    schema:url <http://uingusdur.ac.id> ; 
+    schema:mainEntityOfPage <https://www.uingusdur.ac.id> ;
+    schema:sameAs <http://isni.org/isni/0000000510896936> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[109.6753,-6.8886]}" ;
+            schema:address [
+                schema:addressLocality "Pekalongan" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "Central Java" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1631766> ;
+        ] ; 
+    .

@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/03sgp5m15",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Società Italiana di Reumatologia"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SIR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8a5d68f4a6634c0c83a94392e70d4d5cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.reumatologia.it"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Società Italiana di Reumatologia"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.489604.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000094454636"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://reumatologia.it"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8a5d68f4a6634c0c83a94392e70d4d5cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[9.18951,45.46427]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3173435"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8a5d68f4a6634c0c83a94392e70d4d5cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8a5d68f4a6634c0c83a94392e70d4d5cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8a5d68f4a6634c0c83a94392e70d4d5cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Milan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lombardy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8a5d68f4a6634c0c83a94392e70d4d5cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8a5d68f4a6634c0c83a94392e70d4d5cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Italy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8a5d68f4a6634c0c83a94392e70d4d5cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

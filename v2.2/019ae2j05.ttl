@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/019ae2j05> a org:Organization ;
+    rdfs:label 'Save the Elephants'^^xsd:string; 
+    schema:name 'Save the Elephants'^^xsd:string; 
+    schema:foundingDate '1993'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'STE'^^xsd:string; 
+    schema:url <http://savetheelephants.org> ; 
+    schema:mainEntityOfPage <https://savetheelephants.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Save_the_Elephants> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.452812.8> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[36.81667,-1.28333]}" ;
+            schema:address [
+                schema:addressLocality "Nairobi" ;
+                schema:addressCountry "KE" ;
+                schema:addressRegion "Nairobi County" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Kenya" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/184745> ;
+        ] ; 
+    .

@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/0042wf948",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hólar University College"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/H%25C3%25B3lar_University_College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1882"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neafc465797a241de9c434c8f6e99277cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.holar.is"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hólar University College"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.440543.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404702755"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://holar.is"
+      }
+    ]
+  },
+  {
+    "@id": "_:neafc465797a241de9c434c8f6e99277cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-19.11164,65.73079]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2630237"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neafc465797a241de9c434c8f6e99277cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:neafc465797a241de9c434c8f6e99277cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neafc465797a241de9c434c8f6e99277cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IS"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Holar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Northwest"
+      }
+    ]
+  },
+  {
+    "@id": "_:neafc465797a241de9c434c8f6e99277cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neafc465797a241de9c434c8f6e99277cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iceland"
+      }
+    ]
+  },
+  {
+    "@id": "_:neafc465797a241de9c434c8f6e99277cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

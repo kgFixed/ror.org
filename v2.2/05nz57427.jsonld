@@ -1,0 +1,161 @@
+[
+  {
+    "@id": "https://ror.org/05nz57427",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Cardinal Stritch University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Cardinal_Stritch_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Cardinal Stritch College"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St. Clare College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1937"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1177accd69a24b328085924d75d48107b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://stritch.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Cardinal Stritch University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.253679.c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404339925"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://stritch.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1177accd69a24b328085924d75d48107b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-87.90647,43.0389]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5263045"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1177accd69a24b328085924d75d48107b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1177accd69a24b328085924d75d48107b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1177accd69a24b328085924d75d48107b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Milwaukee"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Wisconsin"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1177accd69a24b328085924d75d48107b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1177accd69a24b328085924d75d48107b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1177accd69a24b328085924d75d48107b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

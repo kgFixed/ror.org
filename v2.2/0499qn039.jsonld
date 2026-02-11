@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/0499qn039",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lebanese Agricultural Research Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LARI"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1957"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na886a73c3db049bf92f2c63db9e8e25eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://lari.gov.lb"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Lebanese Agricultural Research Institute"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.435574.4"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://lari.gov.lb"
+      }
+    ]
+  },
+  {
+    "@id": "_:na886a73c3db049bf92f2c63db9e8e25eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[35.50157,33.89332]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/276781"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na886a73c3db049bf92f2c63db9e8e25eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na886a73c3db049bf92f2c63db9e8e25eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na886a73c3db049bf92f2c63db9e8e25eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Beirut"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Beyrouth"
+      }
+    ]
+  },
+  {
+    "@id": "_:na886a73c3db049bf92f2c63db9e8e25eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na886a73c3db049bf92f2c63db9e8e25eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Lebanon"
+      }
+    ]
+  },
+  {
+    "@id": "_:na886a73c3db049bf92f2c63db9e8e25eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

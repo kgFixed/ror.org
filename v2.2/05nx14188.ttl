@@ -1,0 +1,51 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05nx14188> a org:Organization ;
+    rdfs:label 'Escola Superior de Tecnologia e Gestão'^^xsd:string; 
+    schema:name 'Escola Superior de Tecnologia e Gestão'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'ESTG-P.PORTO'^^xsd:string; 
+    org:alternativeName 'Escola Superior de Tecnologia e Gestão - Instituto Politécnico do Porto'^^xsd:string ; 
+    schema:url <http://estg.ipp.pt> ; 
+    schema:mainEntityOfPage <https://www.estg.ipp.pt> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/04988re48> ;
+        rdfs:label 'Polytechnic Institute of Porto'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03sg03b15> ;
+        rdfs:label 'Centro de Inovação e Investigação em Ciências Empresariais e Sistemas de Informação'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-8.20808,41.34774]}" ;
+            schema:address [
+                schema:addressLocality "Felgueiras Municipality" ;
+                schema:addressCountry "PT" ;
+                schema:addressRegion "Porto" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Portugal" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/8010579> ;
+        ] ; 
+    .

@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/010gvqg61> a org:Organization ;
+    rdfs:label 'Museu Paraense Emílio Goeldi'^^xsd:string; 
+    schema:name 'Museu Paraense Emílio Goeldi'^^xsd:string; 
+    schema:foundingDate '1866'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'archive'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:mainEntityOfPage <https://gov.br/museugoeldi> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Museu_Paraense_Em%25C3%25ADlio_Goeldi> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.452671.3> ;
+    schema:sameAs <http://isni.org/isni/0000000121751274> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-48.50444,-1.45583]}" ;
+            schema:address [
+                schema:addressLocality "Belém" ;
+                schema:addressCountry "BR" ;
+                schema:addressRegion "Pará" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Brazil" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3405870> ;
+        ] ; 
+    .

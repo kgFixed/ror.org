@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00j6r8583> a org:Organization ;
+    rdfs:label 'Swami Keshwanand Rajasthan Agricultural University'^^xsd:string; 
+    schema:name 'Swami Keshwanand Rajasthan Agricultural University'^^xsd:string; 
+    schema:foundingDate '1987'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://raubikaner.org> ; 
+    schema:mainEntityOfPage <https://raubikaner.org> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Swami_Keshwanand_Rajasthan_Agricultural_University> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.412655.1> ;
+    schema:sameAs <http://isni.org/isni/0000000417645171> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[73.31495,28.01762]}" ;
+            schema:address [
+                schema:addressLocality "Bikaner" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Rajasthan" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1275665> ;
+        ] ; 
+    .

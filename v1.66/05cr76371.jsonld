@@ -1,0 +1,164 @@
+[
+  {
+    "@id": "https://ror.org/05cr76371",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-20"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museo di Storia Naturale di Milano"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://it.wikipedia.org/wiki/Museo_civico_di_storia_naturale_di_Milano"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MSNM"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museo Civico di Storia Naturale di Milano"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museo di Storia Naturale"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1838"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd00244a9874147768305b3dd53541d1bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://museodistorianaturalemilano.it"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museo di Storia Naturale di Milano"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000122426289"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://museodistorianaturalemilano.it"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd00244a9874147768305b3dd53541d1bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[9.18951,45.46427]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3173435"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd00244a9874147768305b3dd53541d1bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd00244a9874147768305b3dd53541d1bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd00244a9874147768305b3dd53541d1bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Milan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lombardy"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd00244a9874147768305b3dd53541d1bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd00244a9874147768305b3dd53541d1bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Italy"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd00244a9874147768305b3dd53541d1bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

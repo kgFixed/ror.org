@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02ja3st78> a org:Organization ;
+    rdfs:label 'Bina Bangsa Getsempena University'^^xsd:string; 
+    schema:name 'Bina Bangsa Getsempena University'^^xsd:string; 
+    schema:foundingDate '2021'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2023-02-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'UBBG'^^xsd:string; 
+    org:alternativeName 'Universitas Bina Bangsa Getsempena'^^xsd:string ; 
+    schema:url <http://bbg.ac.id> ; 
+    schema:mainEntityOfPage <https://bbg.ac.id> ;
+    owl:sameAs <https://id.wikipedia.org/wiki/Universitas_Bina_Bangsa_Getsempena> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[95.33333,5.54167]}" ;
+            schema:address [
+                schema:addressLocality "Banda Aceh" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "Aceh" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1215502> ;
+        ] ; 
+    .

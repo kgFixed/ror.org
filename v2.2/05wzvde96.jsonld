@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/05wzvde96",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Real Academia Galega de Ciencias"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://es.wikipedia.org/wiki/Real_Academia_Gallega_de_Ciencias"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "RAGC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1976"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n121b8ec120634ca8a167e96385cf4ed8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ragc.gal/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Real Academia Galega de Ciencias"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ragc.gal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n121b8ec120634ca8a167e96385cf4ed8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.54569,42.88052]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3109642"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n121b8ec120634ca8a167e96385cf4ed8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n121b8ec120634ca8a167e96385cf4ed8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n121b8ec120634ca8a167e96385cf4ed8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Santiago de Compostela"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Galicia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n121b8ec120634ca8a167e96385cf4ed8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n121b8ec120634ca8a167e96385cf4ed8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:n121b8ec120634ca8a167e96385cf4ed8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

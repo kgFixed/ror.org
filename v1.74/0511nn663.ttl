@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0511nn663> a org:Organization ;
+    rdfs:label 'Medavie Blue Cross'^^xsd:string; 
+    schema:name 'Medavie Blue Cross'^^xsd:string; 
+    schema:foundingDate '1943'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Medavie Inc.'^^xsd:string ; 
+    schema:url <http://medaviebc.ca> ; 
+    schema:mainEntityOfPage <https://www.medaviebc.ca> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Medavie_Blue_Cross> ; 
+    schema:sameAs <https://api.crossref.org/funders/100023298> ;
+    schema:sameAs <http://isni.org/isni/0000000404292485> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-64.7965,46.09454]}" ;
+            schema:address [
+                schema:addressLocality "Moncton" ;
+                schema:addressCountry "CA" ;
+                schema:addressRegion "New Brunswick" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Canada" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6076211> ;
+        ] ; 
+    .

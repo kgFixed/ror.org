@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/01rrc6194",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Västerås Municipality"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/V%25C3%25A4ster%25C3%25A5s_Municipality"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Västerås kommun"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1971"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na2123ef08cea427db079c039fe95be2fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.vasteras.se/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Västerås Municipality"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.452001.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406187072"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vasteras.se"
+      }
+    ]
+  },
+  {
+    "@id": "_:na2123ef08cea427db079c039fe95be2fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[16.55276,59.61617]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2664454"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na2123ef08cea427db079c039fe95be2fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na2123ef08cea427db079c039fe95be2fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na2123ef08cea427db079c039fe95be2fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Västerås"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Västmanland"
+      }
+    ]
+  },
+  {
+    "@id": "_:na2123ef08cea427db079c039fe95be2fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na2123ef08cea427db079c039fe95be2fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sweden"
+      }
+    ]
+  },
+  {
+    "@id": "_:na2123ef08cea427db079c039fe95be2fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

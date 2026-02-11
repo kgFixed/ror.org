@@ -1,0 +1,139 @@
+[
+  {
+    "@id": "https://ror.org/03j0zz815",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-30"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-02"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Synsint Research Group"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SRG"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2021"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf17912b0cadc42a8bb1521b1ede1e92eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.synsint.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Synsint Research Group"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf17912b0cadc42a8bb1521b1ede1e92eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[33.94135,35.12489]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/146617"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf17912b0cadc42a8bb1521b1ede1e92eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf17912b0cadc42a8bb1521b1ede1e92eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf17912b0cadc42a8bb1521b1ede1e92eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Famagusta"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nf17912b0cadc42a8bb1521b1ede1e92eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf17912b0cadc42a8bb1521b1ede1e92eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cyprus"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf17912b0cadc42a8bb1521b1ede1e92eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

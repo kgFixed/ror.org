@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/059w8f876> a org:Organization ;
+    rdfs:label 'University of Kisubi'^^xsd:string; 
+    schema:name 'University of Kisubi'^^xsd:string; 
+    schema:foundingDate '2004'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2020-12-21'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'UniK'^^xsd:string; 
+    schema:url <http://unik.ac.ug> ; 
+    schema:mainEntityOfPage <https://unik.ac.ug/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/University_of_Kisubi> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.509235.8> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[32.47949,0.05621]}" ;
+            schema:address [
+                schema:addressLocality "Entebbe" ;
+                schema:addressCountry "UG" ;
+                schema:addressRegion "Central Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Uganda" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/233508> ;
+        ] ; 
+    .

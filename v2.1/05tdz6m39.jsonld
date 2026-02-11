@@ -1,0 +1,174 @@
+[
+  {
+    "@id": "https://ror.org/05tdz6m39",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "King Abdulaziz City for Science and Technology"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/King_Abdulaziz_City_for_Science_and_Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KACST"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SANCST"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Saudi Arabian National Center for Science & Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1977"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne158b1e834764ea4b44904f2cafeee1cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.kacst.gov.sa"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "King Abdulaziz City for Science and Technology"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100004919"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.452562.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000088086435"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kacst.gov.sa"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne158b1e834764ea4b44904f2cafeee1cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[46.72185,24.68773]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/108410"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne158b1e834764ea4b44904f2cafeee1cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne158b1e834764ea4b44904f2cafeee1cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne158b1e834764ea4b44904f2cafeee1cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Riyadh"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Riyadh Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne158b1e834764ea4b44904f2cafeee1cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne158b1e834764ea4b44904f2cafeee1cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Saudi Arabia"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne158b1e834764ea4b44904f2cafeee1cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

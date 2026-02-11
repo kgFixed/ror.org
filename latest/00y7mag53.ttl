@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00y7mag53> a org:Organization ;
+    rdfs:label 'Southern Marine Science and Engineering Guangdong Laboratory (Guangzhou)'^^xsd:string; 
+    schema:name 'Southern Marine Science and Engineering Guangdong Laboratory (Guangzhou)'^^xsd:string; 
+    schema:foundingDate '2018'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2021-09-23'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://gmlab.ac.cn> ; 
+    schema:mainEntityOfPage <https://www.gmlab.ac.cn> ;
+    schema:sameAs <https://api.crossref.org/funders/501100019651> ;
+    schema:sameAs <https://grid.ac/institutions/grid.511004.1> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[113.25,23.11667]}" ;
+            schema:address [
+                schema:addressLocality "Guangzhou" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Guangdong" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1809858> ;
+        ] ; 
+    .

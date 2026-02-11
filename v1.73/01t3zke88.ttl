@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01t3zke88> a org:Organization ;
+    rdfs:label 'German Institute of Development and Sustainability'^^xsd:string; 
+    schema:name 'German Institute of Development and Sustainability'^^xsd:string; 
+    schema:foundingDate '1964'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'DIE'^^xsd:string; 
+    org:alternativeName 'Deutsches Institut für Entwicklungspolitik'^^xsd:string ; 
+    org:alternativeName 'German Development Institute'^^xsd:string ; 
+    org:abbreviation 'IDOS'^^xsd:string; 
+    schema:url <http://idos-research.de> ; 
+    schema:mainEntityOfPage <https://www.idos-research.de/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/German_Development_Institute> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100010987> ;
+    schema:sameAs <https://grid.ac/institutions/grid.473589.4> ;
+    schema:sameAs <http://isni.org/isni/0000000098004237> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[7.09549,50.73438]}" ;
+            schema:address [
+                schema:addressLocality "Bonn" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "North Rhine-Westphalia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2946447> ;
+        ] ; 
+    .

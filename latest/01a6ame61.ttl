@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01a6ame61> a org:Organization ;
+    rdfs:label 'R A Podar College of Commerce and Economics'^^xsd:string; 
+    schema:name 'R A Podar College of Commerce and Economics'^^xsd:string; 
+    schema:foundingDate '1941'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'R A Podar College'^^xsd:string ; 
+    org:alternativeName 'Ramniranjan Anandilal Podar College of Commerce and Economics'^^xsd:string ; 
+    schema:url <http://rapodar.ac.in> ; 
+    schema:mainEntityOfPage <https://www.rapodar.ac.in/> ;
+    schema:sameAs <http://isni.org/isni/000000046090292X> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[72.88261,19.07283]}" ;
+            schema:address [
+                schema:addressLocality "Mumbai" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Maharashtra" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1275339> ;
+        ] ; 
+    .

@@ -1,0 +1,213 @@
+[
+  {
+    "@id": "https://ror.org/057x6za15",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Carthage"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Carthage_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Carthage University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b1"
+      },
+      {
+        "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1988"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.ucar.rnu.tn/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Carthage"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100019985"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.419508.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122953249"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut National Agronomique de Tunisie"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02zdnfn05"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut Supérieur des Technologies de l'Information et de la Communication"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/007szyf68"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.16579,36.81897]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2464470"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tunis"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tunis Governorate"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Tunisia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9aabc3c3b9a5473fbf87c1de2300bc44b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

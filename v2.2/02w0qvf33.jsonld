@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/02w0qvf33",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Arquivo Nacional de Cabo Verde"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Arquivo_Hist%25C3%25B3rico_Nacional_(Cape_Verde)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ANCV"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1988"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf86f056362fa402faf20d1403439a095b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.arquivonacional.cv"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Arquivo Nacional de Cabo Verde"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000495177828"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://arquivonacional.cv"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf86f056362fa402faf20d1403439a095b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-23.51254,14.93152]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3374333"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf86f056362fa402faf20d1403439a095b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf86f056362fa402faf20d1403439a095b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf86f056362fa402faf20d1403439a095b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CV"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Praia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Praia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf86f056362fa402faf20d1403439a095b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf86f056362fa402faf20d1403439a095b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cabo Verde"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf86f056362fa402faf20d1403439a095b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

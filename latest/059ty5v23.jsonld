@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/059ty5v23",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Central Philippines State University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CPSU"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1946"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7d06f7c0b32a4d2d9c3aa593b201be57b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cpsu.edu.ph"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Central Philippines State University"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cpsu.edu.ph"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d06f7c0b32a4d2d9c3aa593b201be57b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[122.81423,9.9839]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1709968"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7d06f7c0b32a4d2d9c3aa593b201be57b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d06f7c0b32a4d2d9c3aa593b201be57b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7d06f7c0b32a4d2d9c3aa593b201be57b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kabankalan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Western Visayas"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d06f7c0b32a4d2d9c3aa593b201be57b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7d06f7c0b32a4d2d9c3aa593b201be57b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Philippines"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7d06f7c0b32a4d2d9c3aa593b201be57b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

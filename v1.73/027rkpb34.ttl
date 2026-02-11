@@ -1,0 +1,53 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/027rkpb34> a org:Organization ;
+    rdfs:label 'Salford Royal Hospital'^^xsd:string; 
+    schema:name 'Salford Royal Hospital'^^xsd:string; 
+    schema:foundingDate '1882'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Hope Hospital'^^xsd:string ; 
+    schema:url <http://srft.nhs.uk> ; 
+    schema:mainEntityOfPage <https://www.northerncarealliance.nhs.uk/salford> ;
+    schema:sameAs <https://grid.ac/institutions/grid.415721.4> ;
+    schema:sameAs <http://isni.org/isni/0000000085352371> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/027m9bs27> ;
+        rdfs:label 'University of Manchester'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/01nqeyn25> ;
+        rdfs:label 'Northern Care Alliance NHS Foundation Trust'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-2.29042,53.48771]}" ;
+            schema:address [
+                schema:addressLocality "Salford" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "England" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2638671> ;
+        ] ; 
+    .

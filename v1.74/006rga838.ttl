@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/006rga838> a org:Organization ;
+    rdfs:label 'Koninklijke Nederlandse Maatschappij voor Diergeneeskunde'^^xsd:string; 
+    schema:name 'Koninklijke Nederlandse Maatschappij voor Diergeneeskunde'^^xsd:string; 
+    schema:foundingDate '1862'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'KNMvD'^^xsd:string; 
+    schema:url <http://knmvd.nl> ; 
+    schema:mainEntityOfPage <https://www.knmvd.nl/> ;
+    schema:sameAs <https://api.crossref.org/funders/501100008037> ;
+    schema:sameAs <https://grid.ac/institutions/grid.480749.6> ;
+    schema:sameAs <http://isni.org/isni/0000000110156285> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[5.16806,52.02833]}" ;
+            schema:address [
+                schema:addressLocality "Houten" ;
+                schema:addressCountry "NL" ;
+                schema:addressRegion "Utrecht" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "The Netherlands" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2753557> ;
+        ] ; 
+    .

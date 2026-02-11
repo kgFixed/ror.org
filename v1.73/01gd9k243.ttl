@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01gd9k243> a org:Organization ;
+    rdfs:label 'Navotas Polytechnic College'^^xsd:string; 
+    schema:name 'Navotas Polytechnic College'^^xsd:string; 
+    schema:foundingDate '1994'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'NPC'^^xsd:string; 
+    schema:url <http://navotaspolytechniccollege.edu.ph> ; 
+    schema:mainEntityOfPage <https://navotaspolytechniccollege.edu.ph> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Navotas_Polytechnic_College> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[120.95,14.66667]}" ;
+            schema:address [
+                schema:addressLocality "Navotas" ;
+                schema:addressCountry "PH" ;
+                schema:addressRegion "National Capital Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Philippines" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1697846> ;
+        ] ; 
+    .

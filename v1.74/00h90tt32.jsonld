@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/00h90tt32",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Metrology of Bosnia and Herzegovina"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IMBIH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2004"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n133e4a3b986d45959f3bdcd9e78c550db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://met.gov.ba"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Metrology of Bosnia and Herzegovina"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.473664.4"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://met.gov.ba"
+      }
+    ]
+  },
+  {
+    "@id": "_:n133e4a3b986d45959f3bdcd9e78c550db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[18.35644,43.84864]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3191281"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n133e4a3b986d45959f3bdcd9e78c550db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n133e4a3b986d45959f3bdcd9e78c550db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n133e4a3b986d45959f3bdcd9e78c550db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sarajevo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Federation of B&H"
+      }
+    ]
+  },
+  {
+    "@id": "_:n133e4a3b986d45959f3bdcd9e78c550db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n133e4a3b986d45959f3bdcd9e78c550db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bosnia and Herzegovina"
+      }
+    ]
+  },
+  {
+    "@id": "_:n133e4a3b986d45959f3bdcd9e78c550db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

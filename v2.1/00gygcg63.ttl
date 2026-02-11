@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00gygcg63> a org:Organization ;
+    rdfs:label 'East Bay Community Recovery Project'^^xsd:string; 
+    schema:name 'East Bay Community Recovery Project'^^xsd:string; 
+    schema:foundingDate '1989'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'EBCRP'^^xsd:string; 
+    schema:mainEntityOfPage <http://ebcrp.org/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.420817.8> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/02rrh1r89> ;
+        rdfs:label 'LifeLong Medical Care'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-122.2708,37.80437]}" ;
+            schema:address [
+                schema:addressLocality "Oakland" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "California" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5378538> ;
+        ] ; 
+    .

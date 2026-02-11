@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03y02pg02> a org:Organization ;
+    rdfs:label 'University of Music Detmold'^^xsd:string; 
+    schema:name 'University of Music Detmold'^^xsd:string; 
+    schema:foundingDate '2007'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:url <http://hfm-detmold.de> ; 
+    schema:mainEntityOfPage <https://www.hfm-detmold.de> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Hochschule_f%25C3%25BCr_Musik_Detmold> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.466271.0> ;
+    schema:sameAs <http://isni.org/isni/000000010754536X> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/023392c84> ;
+        rdfs:label 'Musikwissenschaftliches Seminar Detmold/Paderborn'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[8.87318,51.93855]}" ;
+            schema:address [
+                schema:addressLocality "Detmold" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "North Rhine-Westphalia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2937936> ;
+        ] ; 
+    .

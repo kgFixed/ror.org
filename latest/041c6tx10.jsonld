@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/041c6tx10",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southwest General Health Center"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Southwest_General_Health_Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Community Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1920"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4e258c54adb3447eb39c66e55a877e7cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.swgeneral.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southwest General Health Center"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.490497.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404553745"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://swgeneral.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4e258c54adb3447eb39c66e55a877e7cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-81.81291,41.36144]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5162851"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4e258c54adb3447eb39c66e55a877e7cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4e258c54adb3447eb39c66e55a877e7cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4e258c54adb3447eb39c66e55a877e7cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Middleburg Heights"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ohio"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4e258c54adb3447eb39c66e55a877e7cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4e258c54adb3447eb39c66e55a877e7cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4e258c54adb3447eb39c66e55a877e7cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

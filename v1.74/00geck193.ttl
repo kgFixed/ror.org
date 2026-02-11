@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00geck193> a org:Organization ;
+    rdfs:label 'Kirinyaga University'^^xsd:string; 
+    schema:name 'Kirinyaga University'^^xsd:string; 
+    schema:foundingDate '1977'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2020-03-15'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'KYU'^^xsd:string; 
+    schema:url <http://kyu.ac.ke> ; 
+    schema:mainEntityOfPage <https://kyu.ac.ke/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Kirinyaga_University> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.507600.4> ;
+    schema:sameAs <http://isni.org/isni/000000044682497X> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[37.28031,-0.49887]}" ;
+            schema:address [
+                schema:addressLocality "Kerugoya" ;
+                schema:addressCountry "KE" ;
+                schema:addressRegion "Kirinyaga County" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Kenya" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/192859> ;
+        ] ; 
+    .

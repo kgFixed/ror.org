@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/025zzm087",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Collahuasi (Chile)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Compañía Minera Doña Inés de Collahuasi SCM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nef1ead69f07f48889cb2f65b3a48aaffb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.collahuasi.cl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Collahuasi (Chile)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://collahuasi.cl"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef1ead69f07f48889cb2f65b3a48aaffb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-70.15027,-20.21326]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3887127"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nef1ead69f07f48889cb2f65b3a48aaffb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef1ead69f07f48889cb2f65b3a48aaffb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nef1ead69f07f48889cb2f65b3a48aaffb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Iquique"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tarapacá"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef1ead69f07f48889cb2f65b3a48aaffb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nef1ead69f07f48889cb2f65b3a48aaffb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Chile"
+      }
+    ]
+  },
+  {
+    "@id": "_:nef1ead69f07f48889cb2f65b3a48aaffb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/027xvbw13",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Orthopaedic Hospital Valdoltra"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Valdoltra_Orthopedic_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ortopedska bolnišnica Valdoltra"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1909"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n95bcf5e5037c46b08149a5004c042a80b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ob-valdoltra.si"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Orthopaedic Hospital Valdoltra"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.457116.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000103637531"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ob-valdoltra.si"
+      }
+    ]
+  },
+  {
+    "@id": "_:n95bcf5e5037c46b08149a5004c042a80b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.73616,45.57902]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3220262"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n95bcf5e5037c46b08149a5004c042a80b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n95bcf5e5037c46b08149a5004c042a80b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n95bcf5e5037c46b08149a5004c042a80b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SI"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ankaran"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ankaran Municipality"
+      }
+    ]
+  },
+  {
+    "@id": "_:n95bcf5e5037c46b08149a5004c042a80b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n95bcf5e5037c46b08149a5004c042a80b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Slovenia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n95bcf5e5037c46b08149a5004c042a80b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

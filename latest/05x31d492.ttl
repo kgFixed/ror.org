@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05x31d492> a org:Organization ;
+    rdfs:label 'Northwestern College - Iowa'^^xsd:string; 
+    schema:name 'Northwestern College - Iowa'^^xsd:string; 
+    schema:foundingDate '1882'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'NWC'^^xsd:string; 
+    org:alternativeName 'Northwestern Iowa'^^xsd:string ; 
+    schema:url <http://nwciowa.edu> ; 
+    schema:mainEntityOfPage <https://nwciowa.edu> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Northwestern_College_(Iowa)> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.447304.0> ;
+    schema:sameAs <http://isni.org/isni/0000000404474449> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-96.05835,43.00721]}" ;
+            schema:address [
+                schema:addressLocality "Orange City" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Iowa" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4870083> ;
+        ] ; 
+    .

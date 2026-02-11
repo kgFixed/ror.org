@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/004s94c80",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biocant"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Biocant"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biocant Park"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2005"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb033691c382b4248b7053ba9813842b1b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://biocant.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Biocant"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.423312.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000463647557"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://biocant.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb033691c382b4248b7053ba9813842b1b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.59419,40.34671]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2741547"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb033691c382b4248b7053ba9813842b1b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb033691c382b4248b7053ba9813842b1b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb033691c382b4248b7053ba9813842b1b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cantanhede"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Coimbra"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb033691c382b4248b7053ba9813842b1b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb033691c382b4248b7053ba9813842b1b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb033691c382b4248b7053ba9813842b1b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

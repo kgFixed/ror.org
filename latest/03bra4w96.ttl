@@ -1,0 +1,84 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03bra4w96> a org:Organization ;
+    rdfs:label 'Ministry of Education and Science'^^xsd:string; 
+    schema:name 'Ministry of Education and Science'^^xsd:string; 
+    schema:foundingDate '1992'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'MOH'^^xsd:string; 
+    schema:mainEntityOfPage <http://mon.gov.ua/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Ministry_of_Education_and_Science_of_Ukraine> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100007684> ;
+    schema:sameAs <https://grid.ac/institutions/grid.454837.9> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01f5p8b07> ;
+        rdfs:label 'Institute of Ionosphere'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03ghfnt05> ;
+        rdfs:label 'Mykolaiv Observatory'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05xfjtp79> ;
+        rdfs:label 'Physico-Chemical Institute of Environmental and Human Protection'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/058ngfn30> ;
+        rdfs:label 'Research Institute of Ukrainian Studies'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05cdzx277> ;
+        rdfs:label 'State Scientific Institution "Institute of Education Content Modernization"'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04df39v43> ;
+        rdfs:label 'State Scientific Institution "Institute of Educational Analytics"'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05wf2rt56> ;
+        rdfs:label 'State Scientific Institution "Ukrainian Institute of Scientific and Technical Expertise and Information"'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[30.5238,50.45466]}" ;
+            schema:address [
+                schema:addressLocality "Kyiv" ;
+                schema:addressCountry "UA" ;
+                schema:addressRegion "Kyiv City" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Ukraine" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/703448> ;
+        ] ; 
+    .

@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/024v8zg86> a org:Organization ;
+    rdfs:label 'Srednja škola Andrije Ljudevita Adamića'^^xsd:string; 
+    schema:name 'Srednja škola Andrije Ljudevita Adamića'^^xsd:string; 
+    schema:foundingDate '2005'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Private Grammar School Andrija Ljudevit Adamic'^^xsd:string ; 
+    schema:url <http://ss-adamic.com> ; 
+    schema:mainEntityOfPage <https://ss-adamic.com> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[14.44241,45.32673]}" ;
+            schema:address [
+                schema:addressLocality "Rijeka" ;
+                schema:addressCountry "HR" ;
+                schema:addressRegion "Primorje-Gorski Kotar" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Croatia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3191648> ;
+        ] ; 
+    .

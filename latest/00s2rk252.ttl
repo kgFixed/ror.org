@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00s2rk252> a org:Organization ;
+    rdfs:label 'Shaheed Benazir Bhutto Women University Peshawar'^^xsd:string; 
+    schema:name 'Shaheed Benazir Bhutto Women University Peshawar'^^xsd:string; 
+    schema:foundingDate '2009'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'Frontier Women University'^^xsd:string ; 
+    org:abbreviation 'SBBWU'^^xsd:string; 
+    org:alternativeName 'Shaheed Benazir Bhutto Women University'^^xsd:string ; 
+    org:alternativeName 'شہید بے نظیر بھٹو ویمن یونیورسٹی'^^xsd:string ; 
+    schema:url <http://sbbwu.edu.pk> ; 
+    schema:mainEntityOfPage <https://sbbwu.edu.pk/sbbwu/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Shaheed_Benazir_Bhutto_Women_University> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.449638.4> ;
+    schema:sameAs <http://isni.org/isni/0000000406354053> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[71.57849,34.008]}" ;
+            schema:address [
+                schema:addressLocality "Peshawar" ;
+                schema:addressCountry "PK" ;
+                schema:addressRegion "Khyber Pakhtunkhwa" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Pakistan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1168197> ;
+        ] ; 
+    .

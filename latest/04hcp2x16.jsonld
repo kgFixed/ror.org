@@ -1,0 +1,141 @@
+[
+  {
+    "@id": "https://ror.org/04hcp2x16",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Thomas Mann House"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Thomas_Mann_House"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na879cf9c0c224e6cadae9f8187ff5fbfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.vatmh.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Thomas Mann House"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vatmh.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:na879cf9c0c224e6cadae9f8187ff5fbfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-118.24368,34.05223]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5368361"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na879cf9c0c224e6cadae9f8187ff5fbfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na879cf9c0c224e6cadae9f8187ff5fbfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na879cf9c0c224e6cadae9f8187ff5fbfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Los Angeles"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "California"
+      }
+    ]
+  },
+  {
+    "@id": "_:na879cf9c0c224e6cadae9f8187ff5fbfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na879cf9c0c224e6cadae9f8187ff5fbfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:na879cf9c0c224e6cadae9f8187ff5fbfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

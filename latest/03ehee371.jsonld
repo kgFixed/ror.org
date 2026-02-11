@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/03ehee371",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Seosan Medical Center"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ko.wikipedia.org/wiki/%25EC%25B6%25A9%25EC%25B2%25AD%25EB%2582%25A8%25EB%258F%2584_%25EC%2584%259C%25EC%2582%25B0%25EC%259D%2598%25EB%25A3%258C%25EC%259B%2590"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "충청남도 서산의료원"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1962"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5c28efba4b6142dcbb1101513501e85db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.seosanmc.or.kr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Seosan Medical Center"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://seosanmc.or.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5c28efba4b6142dcbb1101513501e85db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[126.45222,36.78167]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1835895"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5c28efba4b6142dcbb1101513501e85db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5c28efba4b6142dcbb1101513501e85db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5c28efba4b6142dcbb1101513501e85db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Seosan City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Chungcheongnam-do"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5c28efba4b6142dcbb1101513501e85db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5c28efba4b6142dcbb1101513501e85db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5c28efba4b6142dcbb1101513501e85db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

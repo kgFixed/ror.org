@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/057w2sx61> a org:Organization ;
+    rdfs:label 'Geological Society of London'^^xsd:string; 
+    schema:name 'Geological Society of London'^^xsd:string; 
+    schema:foundingDate '1807'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'GS'^^xsd:string; 
+    org:alternativeName 'Geological Society'^^xsd:string ; 
+    schema:url <http://geolsoc.org.uk> ; 
+    schema:mainEntityOfPage <https://www.geolsoc.org.uk> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Geological_Society_of_London> ; 
+    schema:sameAs <https://api.crossref.org/funders/100008066> ;
+    schema:sameAs <https://grid.ac/institutions/grid.469740.8> ;
+    schema:sameAs <http://isni.org/isni/0000000404239350> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-0.12574,51.50853]}" ;
+            schema:address [
+                schema:addressLocality "London" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "England" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2643743> ;
+        ] ; 
+    .

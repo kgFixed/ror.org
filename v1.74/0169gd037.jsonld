@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/0169gd037",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ruralis - Institute for Rural and Regional Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CRR"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre for Rural Research"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Norsk senter for Bygdeforskning"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ruralis"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4eea907fee37446d8f6531f03fa9b4bfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ruralis.no"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ruralis - Institute for Rural and Regional Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.433069.b"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ruralis.no"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4eea907fee37446d8f6531f03fa9b4bfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.39506,63.43049]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3133880"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4eea907fee37446d8f6531f03fa9b4bfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4eea907fee37446d8f6531f03fa9b4bfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4eea907fee37446d8f6531f03fa9b4bfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Trondheim"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Trøndelag"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4eea907fee37446d8f6531f03fa9b4bfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4eea907fee37446d8f6531f03fa9b4bfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Norway"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4eea907fee37446d8f6531f03fa9b4bfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

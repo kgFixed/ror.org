@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01y7y4033> a org:Organization ;
+    rdfs:label 'Royal Academy of Dramatic Art'^^xsd:string; 
+    schema:name 'Royal Academy of Dramatic Art'^^xsd:string; 
+    schema:foundingDate '1904'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'RADA'^^xsd:string; 
+    schema:url <http://rada.ac.uk> ; 
+    schema:mainEntityOfPage <https://www.rada.ac.uk> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Royal_Academy_of_Dramatic_Art> ; 
+    schema:sameAs <http://isni.org/isni/0000000405158931> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-0.12574,51.50853]}" ;
+            schema:address [
+                schema:addressLocality "London" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "England" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2643743> ;
+        ] ; 
+    .

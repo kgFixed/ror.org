@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04md71v26> a org:Organization ;
+    rdfs:label 'Kerala University of Health Sciences'^^xsd:string; 
+    schema:name 'Kerala University of Health Sciences'^^xsd:string; 
+    schema:foundingDate '2010'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'KUHS'^^xsd:string; 
+    schema:url <http://kuhs.ac.in> ; 
+    schema:mainEntityOfPage <http://kuhs.ac.in/kuhs_new/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Kerala_University_of_Health_Sciences> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.448741.a> ;
+    schema:sameAs <http://isni.org/isni/0000000417811790> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/01tsqk383> ;
+        rdfs:label 'Almas Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/046vqww18> ;
+        rdfs:label 'Dr. Somervell Memorial CSI Medical College and Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/04aznd361> ;
+        rdfs:label 'Government Medical College'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/016je1253> ;
+        rdfs:label 'Government Medical College'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/05w6g2m14> ;
+        rdfs:label 'Government Medical College'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/01asgtt85> ;
+        rdfs:label 'Malankara Orthodox Syrian Church Medical College Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/029m2pd08> ;
+        rdfs:label 'Noorul Islam College of Dental Science'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/039k9pj72> ;
+        rdfs:label 'T. D. Medical College'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/01teb2a37> ;
+        rdfs:label 'Malabar Dental College and Research Centre'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[76.21667,10.51667]}" ;
+            schema:address [
+                schema:addressLocality "Thrissur" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Kerala" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1254187> ;
+        ] ; 
+    .

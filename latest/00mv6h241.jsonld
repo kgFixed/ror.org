@@ -1,0 +1,160 @@
+[
+  {
+    "@id": "https://ror.org/00mv6h241",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Ajdabiya"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ar.wikipedia.org/wiki/%25D8%25AC%25D8%25A7%25D9%2585%25D8%25B9%25D8%25A9_%25D8%25A5%25D8%25AC%25D8%25AF%25D8%25A7%25D8%25A8%25D9%258A%25D8%25A7"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UOA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "جامعة أقسام الواحات"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2000"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndd2cc846be2d49c690cb3d6747a50a75b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://uoa.edu.ly"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Ajdabiya"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000523956694"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uoa.edu.ly"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndd2cc846be2d49c690cb3d6747a50a75b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[20.22625,30.75545]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/89113"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndd2cc846be2d49c690cb3d6747a50a75b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndd2cc846be2d49c690cb3d6747a50a75b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndd2cc846be2d49c690cb3d6747a50a75b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ajdabiya"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Al Wāḩāt"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndd2cc846be2d49c690cb3d6747a50a75b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndd2cc846be2d49c690cb3d6747a50a75b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Libya"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndd2cc846be2d49c690cb3d6747a50a75b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

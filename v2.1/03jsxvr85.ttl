@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03jsxvr85> a org:Organization ;
+    rdfs:label 'CEPS/INSTEAD'^^xsd:string; 
+    schema:name 'CEPS/INSTEAD'^^xsd:string; 
+    schema:foundingDate '1989'^^xsd:gYear ;
+    org:status 'inactive'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'CEPS-INSTEAD'^^xsd:string ; 
+    org:alternativeName 'Centre d\'Etudes de Populations, de pauvreté et de politiques Socio-économiques'^^xsd:string ; 
+    org:alternativeName 'Centre for Population, Poverty and Public Policy Studies'^^xsd:string ; 
+    org:alternativeName 'International Networks for studies in Technology, Environment, Alternatives, Development'^^xsd:string ; 
+    schema:url <http://ceps.lu> ; 
+    schema:mainEntityOfPage <http://www.ceps.lu> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'successor'^^xsd:string ;
+        org:member <https://ror.org/040jf9322> ;
+        rdfs:label 'Luxembourg Institute of Socio-Economic Research'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[5.89139,49.52417]}" ;
+            schema:address [
+                schema:addressLocality "Differdange" ;
+                schema:addressCountry "LU" ;
+                schema:addressRegion "Esch-sur-Alzette" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Luxembourg" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2960651> ;
+        ] ; 
+    .

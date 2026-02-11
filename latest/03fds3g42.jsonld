@@ -1,0 +1,166 @@
+[
+  {
+    "@id": "https://ror.org/03fds3g42",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VIB.AI"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n43b259d916bf49999155bcecb13cb4ddb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2023"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n43b259d916bf49999155bcecb13cb4ddb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://vib.ai"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VIB.AI"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vib.ai"
+      }
+    ]
+  },
+  {
+    "@id": "_:n43b259d916bf49999155bcecb13cb4ddb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vlaams Instituut voor Biotechnologie"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03xrhmk39"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n43b259d916bf49999155bcecb13cb4ddb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.70078,50.87967]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2792483"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n43b259d916bf49999155bcecb13cb4ddb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n43b259d916bf49999155bcecb13cb4ddb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n43b259d916bf49999155bcecb13cb4ddb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Leuven"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Flanders"
+      }
+    ]
+  },
+  {
+    "@id": "_:n43b259d916bf49999155bcecb13cb4ddb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n43b259d916bf49999155bcecb13cb4ddb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Belgium"
+      }
+    ]
+  },
+  {
+    "@id": "_:n43b259d916bf49999155bcecb13cb4ddb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

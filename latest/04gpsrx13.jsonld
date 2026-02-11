@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/04gpsrx13",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Œuvre Nationale de Secours Grande-Duchesse Charlotte"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na0fba35ece4847a2978adfbaf94b683bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.oeuvre.lu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Œuvre Nationale de Secours Grande-Duchesse Charlotte"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://oeuvre.lu"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0fba35ece4847a2978adfbaf94b683bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.06528,49.56833]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2960335"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na0fba35ece4847a2978adfbaf94b683bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0fba35ece4847a2978adfbaf94b683bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na0fba35ece4847a2978adfbaf94b683bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Leudelange"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Esch-sur-Alzette"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0fba35ece4847a2978adfbaf94b683bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na0fba35ece4847a2978adfbaf94b683bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Luxembourg"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0fba35ece4847a2978adfbaf94b683bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

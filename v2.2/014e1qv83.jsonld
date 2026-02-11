@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/014e1qv83",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Saravan"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://fa.wikipedia.org/wiki/%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25DA%25AF%25D8%25A7%25D9%2587_%25D8%25B3%25D8%25B1%25D8%25A7%25D9%2588%25D8%25A7%25D9%2586"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "دانشگاه سراوان"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n02c50cd28826451bbb94d9e30c6578e9b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://saravan.ac.ir"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Saravan"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://saravan.ac.ir"
+      }
+    ]
+  },
+  {
+    "@id": "_:n02c50cd28826451bbb94d9e30c6578e9b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[62.33096,27.37089]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1159713"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n02c50cd28826451bbb94d9e30c6578e9b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n02c50cd28826451bbb94d9e30c6578e9b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n02c50cd28826451bbb94d9e30c6578e9b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sarāvān"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Sistan and Baluchestan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n02c50cd28826451bbb94d9e30c6578e9b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n02c50cd28826451bbb94d9e30c6578e9b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iran"
+      }
+    ]
+  },
+  {
+    "@id": "_:n02c50cd28826451bbb94d9e30c6578e9b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

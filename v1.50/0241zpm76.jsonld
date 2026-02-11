@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/0241zpm76",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Algiers 2 University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Algiers_2_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Algiers 2"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Algiers II"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université d'Alger II"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2009"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nca5b0f2656df41358357e55f42c2d54eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.univ-alger2.dz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Algiers 2 University"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://univ-alger2.dz"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca5b0f2656df41358357e55f42c2d54eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[3.08746,36.73225]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2507480"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nca5b0f2656df41358357e55f42c2d54eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca5b0f2656df41358357e55f42c2d54eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nca5b0f2656df41358357e55f42c2d54eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Algiers"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nca5b0f2656df41358357e55f42c2d54eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nca5b0f2656df41358357e55f42c2d54eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Algeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca5b0f2656df41358357e55f42c2d54eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01zbcgr80> a org:Organization ;
+    rdfs:label 'Israel Meteorological Service'^^xsd:string; 
+    schema:name 'Israel Meteorological Service'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Israelischer Wetterdienst'^^xsd:string ; 
+    schema:url <http://ims.gov.il> ; 
+    schema:mainEntityOfPage <https://ims.gov.il> ;
+    schema:sameAs <https://api.crossref.org/funders/501100020038> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[34.82977,32.00191]}" ;
+            schema:address [
+                schema:addressLocality "Bet Dagan" ;
+                schema:addressCountry "IL" ;
+                schema:addressRegion "Central District" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Israel" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/295475> ;
+        ] ; 
+    .

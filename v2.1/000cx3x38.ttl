@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/000cx3x38> a org:Organization ;
+    rdfs:label 'Centro de Labio y Paladar Hendido “Dra. Leonorilda Álvarez Noriega”'^^xsd:string; 
+    schema:name 'Centro de Labio y Paladar Hendido “Dra. Leonorilda Álvarez Noriega”'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Centro Estatal de Atención para Labio y Paladar Hendido'^^xsd:string ; 
+    org:alternativeName 'Centro de Atención para Labio y Paladar Hendido'^^xsd:string ; 
+    org:alternativeName 'Centro de Atención para Labio y Paladar Hendido “Dra. Leonorilda Álvarez Noriega”'^^xsd:string ; 
+    org:alternativeName 'Centro de Labio y Paladar Hendido'^^xsd:string ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-102.2843,21.88262]}" ;
+            schema:address [
+                schema:addressLocality "Aguascalientes" ;
+                schema:addressCountry "MX" ;
+                schema:addressRegion "Aguascalientes" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Mexico" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4019233> ;
+        ] ; 
+    .

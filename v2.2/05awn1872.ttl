@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05awn1872> a org:Organization ;
+    rdfs:label 'William J. Hughes Technical Center for Advanced Aerospace'^^xsd:string; 
+    schema:name 'William J. Hughes Technical Center for Advanced Aerospace'^^xsd:string; 
+    schema:foundingDate '1958'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'FAA Tech Center'^^xsd:string ; 
+    org:abbreviation 'NAFEC'^^xsd:string; 
+    org:abbreviation 'WJHTC'^^xsd:string; 
+    schema:url <http://faa.gov> ; 
+    schema:mainEntityOfPage <https://www.faa.gov/about/office_org/headquarters_offices/ang/offices/tc> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/William_J._Hughes_Technical_Center> ; 
+    schema:sameAs <http://isni.org/isni/0000000404308352> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/05q0y0j38> ;
+        rdfs:label 'Federal Aviation Administration'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-74.61057,39.37781]}" ;
+            schema:address [
+                schema:addressLocality "Egg Harbor Township" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "New Jersey" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4501649> ;
+        ] ; 
+    .

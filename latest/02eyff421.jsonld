@@ -1,0 +1,204 @@
+[
+  {
+    "@id": "https://ror.org/02eyff421",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Kenya)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Public Health and Sanitation"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb1"
+      },
+      {
+        "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.health.go.ke/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100005975"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.415727.2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Pharmacy and Poisons Board"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05q89dp90"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mathari National Teaching and Referral Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02jhq7089"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[36.81667,-1.28333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/184745"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nairobi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nairobi County"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kenya"
+      }
+    ]
+  },
+  {
+    "@id": "_:n80aafb2080664fa2be3f2b1f17b52a8cb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

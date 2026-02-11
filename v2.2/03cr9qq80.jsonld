@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/03cr9qq80",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior de Educación Rural"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ISER"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1956"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nddf6ece94dda422fa8965a5ee41e7cbcb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.iser.edu.co"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Superior de Educación Rural"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.441959.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000449110470"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://iser.edu.co"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddf6ece94dda422fa8965a5ee41e7cbcb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-72.64795,7.37565]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3673045"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nddf6ece94dda422fa8965a5ee41e7cbcb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddf6ece94dda422fa8965a5ee41e7cbcb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nddf6ece94dda422fa8965a5ee41e7cbcb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pamplona"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Norte de Santander Department"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddf6ece94dda422fa8965a5ee41e7cbcb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nddf6ece94dda422fa8965a5ee41e7cbcb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Colombia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nddf6ece94dda422fa8965a5ee41e7cbcb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

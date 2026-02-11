@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/01wng0g34",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Estudios de Física del Cosmos de Aragón"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CEFCA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2008"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nae61708b656f4b94b08dd95616de5faeb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cefca.es"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Estudios de Física del Cosmos de Aragón"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.452363.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000475906931"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cefca.es"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae61708b656f4b94b08dd95616de5faeb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-1.10646,40.3456]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3108126"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nae61708b656f4b94b08dd95616de5faeb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae61708b656f4b94b08dd95616de5faeb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nae61708b656f4b94b08dd95616de5faeb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Teruel"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Aragon"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae61708b656f4b94b08dd95616de5faeb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nae61708b656f4b94b08dd95616de5faeb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae61708b656f4b94b08dd95616de5faeb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/053xpwt63> a org:Organization ;
+    rdfs:label 'NMi Certin B.V.'^^xsd:string; 
+    schema:name 'NMi Certin B.V.'^^xsd:string; 
+    schema:foundingDate '2006'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'NMi'^^xsd:string; 
+    org:alternativeName 'Nederlands Meetinstituut'^^xsd:string ; 
+    schema:url <http://nmi.nl> ; 
+    schema:mainEntityOfPage <https://nmi.nl> ;
+    schema:sameAs <https://grid.ac/institutions/grid.425635.3> ;
+    schema:sameAs <http://isni.org/isni/0000000405017856> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[4.67361,51.81]}" ;
+            schema:address [
+                schema:addressLocality "Dordrecht" ;
+                schema:addressCountry "NL" ;
+                schema:addressRegion "South Holland" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "The Netherlands" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2756669> ;
+        ] ; 
+    .

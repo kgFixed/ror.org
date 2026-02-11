@@ -1,0 +1,167 @@
+[
+  {
+    "@id": "https://ror.org/05nxbvr71",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "George Enescu University of Arts of Iași"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/George_Enescu_National_University_of_Arts"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Enescu"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "George Enescu Academy of Art"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "George Enescu Conservatory"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1860"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n77ae54a0d55e4ecda2c0f83525f9d177b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.arteiasi.ro/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "George Enescu University of Arts of Iași"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.445771.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404808402"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://arteiasi.ro"
+      }
+    ]
+  },
+  {
+    "@id": "_:n77ae54a0d55e4ecda2c0f83525f9d177b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[27.6,47.16667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/675810"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n77ae54a0d55e4ecda2c0f83525f9d177b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n77ae54a0d55e4ecda2c0f83525f9d177b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n77ae54a0d55e4ecda2c0f83525f9d177b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Iași"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Iași County"
+      }
+    ]
+  },
+  {
+    "@id": "_:n77ae54a0d55e4ecda2c0f83525f9d177b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n77ae54a0d55e4ecda2c0f83525f9d177b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Romania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n77ae54a0d55e4ecda2c0f83525f9d177b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

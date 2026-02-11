@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01x994m09> a org:Organization ;
+    rdfs:label 'American Society For Testing and Materials'^^xsd:string; 
+    schema:name 'American Society For Testing and Materials'^^xsd:string; 
+    schema:foundingDate '1898'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'ASTM International'^^xsd:string ; 
+    schema:url <http://astm.org> ; 
+    schema:mainEntityOfPage <https://www.astm.org/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/ASTM_International> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.422532.0> ;
+    schema:sameAs <http://isni.org/isni/0000000121701381> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-75.3163,40.06983]}" ;
+            schema:address [
+                schema:addressLocality "West Conshohocken" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Pennsylvania" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5218652> ;
+        ] ; 
+    .

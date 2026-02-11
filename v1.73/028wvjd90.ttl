@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/028wvjd90> a org:Organization ;
+    rdfs:label 'Joldasbekov Institute of Mechanics and Engineering'^^xsd:string; 
+    schema:name 'Joldasbekov Institute of Mechanics and Engineering'^^xsd:string; 
+    schema:foundingDate '1991'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Institute Mechanics and Mechanical Engineering'^^xsd:string ; 
+    org:alternativeName 'Institute of Mechanics and Engineering named after Academician U.A. Dzholdasbekov'^^xsd:string ; 
+    org:alternativeName 'Institute of Mechanics and Mechanical Engineering named after Academician U.A. Zholdasbekov'^^xsd:string ; 
+    org:alternativeName 'Institute of Mechanics and Mechanical Engineering named after U.A. Joldasbekov'^^xsd:string ; 
+    org:abbreviation 'JIME'^^xsd:string; 
+    org:alternativeName 'U.A. Dzholdasbekov Institute Mechanics & Mechanical Engineering'^^xsd:string ; 
+    org:alternativeName 'U.A. Joldasbekov Institute of Mechanics and Engineering'^^xsd:string ; 
+    org:alternativeName 'Академик Ө.А.Жолдасбеков атындағы Механика және машинатану институты'^^xsd:string ; 
+    org:alternativeName 'Институт механики и машиноведения имени академика У.А.Джолдасбекова'^^xsd:string ; 
+    schema:url <http://immash.kz> ; 
+    schema:url <http://jime.kz> ; 
+    schema:mainEntityOfPage <https://www.immash.kz> ;
+    schema:sameAs <http://isni.org/isni/0000000449083564> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[76.9115,43.25249]}" ;
+            schema:address [
+                schema:addressLocality "Almaty" ;
+                schema:addressCountry "KZ" ;
+                schema:addressRegion "Almaty" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Kazakhstan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1526384> ;
+        ] ; 
+    .

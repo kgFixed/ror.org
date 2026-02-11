@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02za3pt35> a org:Organization ;
+    rdfs:label 'National Institute of Natural Hazards'^^xsd:string; 
+    schema:name 'National Institute of Natural Hazards'^^xsd:string; 
+    schema:foundingDate '2019'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'NINHM'^^xsd:string; 
+    org:alternativeName 'National Institute of Natural Hazards, Ministry of Emergency Management'^^xsd:string ; 
+    schema:url <http://ninhm.ac.cn> ; 
+    schema:mainEntityOfPage <https://www.ninhm.ac.cn> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[116.39723,39.9075]}" ;
+            schema:address [
+                schema:addressLocality "Beijing" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Beijing" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1816670> ;
+        ] ; 
+    .

@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/00h39nr94",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "École Normale Supérieure de Sétif"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ENSS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2015"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n17bff728a73a413eb34f6d1194033bbfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ens-setif.dz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "École Normale Supérieure de Sétif"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ens-setif.dz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17bff728a73a413eb34f6d1194033bbfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.69016,36.15281]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2498392"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n17bff728a73a413eb34f6d1194033bbfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17bff728a73a413eb34f6d1194033bbfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n17bff728a73a413eb34f6d1194033bbfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "El Eulma"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Sétif"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17bff728a73a413eb34f6d1194033bbfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n17bff728a73a413eb34f6d1194033bbfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Algeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n17bff728a73a413eb34f6d1194033bbfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

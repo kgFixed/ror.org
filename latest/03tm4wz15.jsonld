@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/03tm4wz15",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yiyang Transportation Planning, Survey, and Design Institute Co., Ltd. (China)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yiyang Traffic Planning, Survey and Design Institute"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "益阳市交通规划勘测设计院"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1962"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n60e3283a9c6744b9a73355769e45e0ddb1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yiyang Transportation Planning, Survey, and Design Institute Co., Ltd. (China)"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60e3283a9c6744b9a73355769e45e0ddb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[112.05669,28.43871]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1786419"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n60e3283a9c6744b9a73355769e45e0ddb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60e3283a9c6744b9a73355769e45e0ddb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n60e3283a9c6744b9a73355769e45e0ddb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Yiyang Shi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Hunan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60e3283a9c6744b9a73355769e45e0ddb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n60e3283a9c6744b9a73355769e45e0ddb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n60e3283a9c6744b9a73355769e45e0ddb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/034j59894> a org:Organization ;
+    rdfs:label 'Instituto Tecnológico Superior de Escárcega'^^xsd:string; 
+    schema:name 'Instituto Tecnológico Superior de Escárcega'^^xsd:string; 
+    schema:foundingDate '2004'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'ITS Escárcega'^^xsd:string ; 
+    org:alternativeName 'ITS de Escárcega'^^xsd:string ; 
+    org:abbreviation 'ITSE'^^xsd:string; 
+    org:alternativeName 'ITSEscárcega'^^xsd:string ; 
+    org:alternativeName 'TecNM Campus Escárcega'^^xsd:string ; 
+    org:alternativeName 'Tecnológico Nacional de México Campus Escárcega'^^xsd:string ; 
+    schema:url <http://escarcega.tecnm.mx> ; 
+    schema:url <http://itsescarcega.edu.mx> ; 
+    schema:mainEntityOfPage <https://escarcega.tecnm.mx> ;
+    schema:sameAs <http://isni.org/isni/0000000417700468> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-90.74544,18.60891]}" ;
+            schema:address [
+                schema:addressLocality "Escárcega" ;
+                schema:addressCountry "MX" ;
+                schema:addressRegion "Campeche" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Mexico" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3527795> ;
+        ] ; 
+    .

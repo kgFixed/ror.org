@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00nty7f09> a org:Organization ;
+    rdfs:label 'Vietnam Public Health Association'^^xsd:string; 
+    schema:name 'Vietnam Public Health Association'^^xsd:string; 
+    schema:foundingDate '2002'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'VPHA'^^xsd:string; 
+    schema:url <http://vpha.org.vn> ; 
+    schema:mainEntityOfPage <https://vpha.org.vn> ;
+    owl:sameAs <https://vi.wikipedia.org/wiki/H%25E1%25BB%2599i_Y_t%25E1%25BA%25BF_C%25C3%25B4ng_c%25E1%25BB%2599ng_Vi%25E1%25BB%2587t_Nam> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[105.84117,21.0245]}" ;
+            schema:address [
+                schema:addressLocality "Hanoi" ;
+                schema:addressCountry "VN" ;
+                schema:addressRegion "Hanoi" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Vietnam" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1581130> ;
+        ] ; 
+    .

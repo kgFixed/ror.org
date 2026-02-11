@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02yqt1d54> a org:Organization ;
+    rdfs:label 'Institutul Naţional de Cercetare-Dezvoltare pentru Securitate Minieră şi Protecţie Antiexplozivă - INSEMEX'^^xsd:string; 
+    schema:name 'Institutul Naţional de Cercetare-Dezvoltare pentru Securitate Minieră şi Protecţie Antiexplozivă - INSEMEX'^^xsd:string; 
+    schema:foundingDate '1949'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2024-02-13'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'INSEMEX'^^xsd:string; 
+    org:alternativeName 'Institutul National de Cercetare-Dezvoltare pentru Securitate Miniera si Protectie in Munca'^^xsd:string ; 
+    org:alternativeName 'Institutul Naţional de Cercetare-Dezvoltare pentru Securitate Minieră şi Protecţie Antiexplozivă'^^xsd:string ; 
+    org:alternativeName 'National Institute for Research and Development in Mine Safety and Protection to Explosion'^^xsd:string ; 
+    org:alternativeName 'National Institute for Research and Development in Mine Safety and Protection to Explosion - INSEMEX'^^xsd:string ; 
+    schema:url <http://insemex.ro> ; 
+    schema:mainEntityOfPage <https://insemex.ro> ;
+    schema:sameAs <http://isni.org/isni/0000000446738035> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[23.36667,45.41667]}" ;
+            schema:address [
+                schema:addressLocality "Petroşani" ;
+                schema:addressCountry "RO" ;
+                schema:addressRegion "Hunedoara County" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Romania" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/670938> ;
+        ] ; 
+    .

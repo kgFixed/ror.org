@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/02errzw26",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Cosmetics Europe"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nde5052cab0bb4f5db65fb42786fda2c7b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cosmeticseurope.eu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Cosmetics Europe"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.484055.8"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000483405643"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cosmeticseurope.eu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde5052cab0bb4f5db65fb42786fda2c7b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.34878,50.85045]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2800866"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nde5052cab0bb4f5db65fb42786fda2c7b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde5052cab0bb4f5db65fb42786fda2c7b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nde5052cab0bb4f5db65fb42786fda2c7b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Brussels"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Brussels Capital"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde5052cab0bb4f5db65fb42786fda2c7b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nde5052cab0bb4f5db65fb42786fda2c7b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Belgium"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde5052cab0bb4f5db65fb42786fda2c7b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

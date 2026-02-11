@@ -1,0 +1,158 @@
+[
+  {
+    "@id": "https://ror.org/051ehkh20",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Seogwipo Medical Center"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ko.wikipedia.org/wiki/%25EC%25A0%259C%25EC%25A3%25BC%25ED%258B%2580%25EB%25B3%2584%25EC%259E%2590%25EC%25B9%2598%25EB%258F%2584%25EC%2584%259C%25EA%25B7%2580%25ED%258F%25AC%25EC%259D%2598%25EB%25A3%258C%25EC%259B%2590"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Seoguipo Medical Center"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "제주특별자치도 서귀포의료원"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1964"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n93ed31005c5d493cac4cea7e7b07848ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.jjsmc.or.kr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Seogwipo Medical Center"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000480266326"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://jjsmc.or.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93ed31005c5d493cac4cea7e7b07848ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[126.56181,33.25333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6621166"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n93ed31005c5d493cac4cea7e7b07848ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93ed31005c5d493cac4cea7e7b07848ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n93ed31005c5d493cac4cea7e7b07848ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Seogwipo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Jeju-do"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93ed31005c5d493cac4cea7e7b07848ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n93ed31005c5d493cac4cea7e7b07848ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93ed31005c5d493cac4cea7e7b07848ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

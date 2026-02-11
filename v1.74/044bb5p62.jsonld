@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/044bb5p62",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hangzhou Municipal Health Commission"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hangzhou Health and Family Planning Commission"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "杭州市卫生和计划生育委员会"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncfbc24899e2945a1ac7585f4ae9ac6bab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://wsjkw.hangzhou.gov.cn"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hangzhou Municipal Health Commission"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100015807"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfbc24899e2945a1ac7585f4ae9ac6bab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[120.16142,30.29365]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1808926"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncfbc24899e2945a1ac7585f4ae9ac6bab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfbc24899e2945a1ac7585f4ae9ac6bab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncfbc24899e2945a1ac7585f4ae9ac6bab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hangzhou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zhejiang"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfbc24899e2945a1ac7585f4ae9ac6bab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncfbc24899e2945a1ac7585f4ae9ac6bab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfbc24899e2945a1ac7585f4ae9ac6bab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

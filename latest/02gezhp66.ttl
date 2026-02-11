@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02gezhp66> a org:Organization ;
+    rdfs:label 'BoRdeaux Institute of onCology'^^xsd:string; 
+    schema:name 'BoRdeaux Institute of onCology'^^xsd:string; 
+    schema:foundingDate '2022'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'BRIC'^^xsd:string; 
+    org:alternativeName 'Inserm U1312'^^xsd:string ; 
+    org:alternativeName 'UMR 1312'^^xsd:string ; 
+    org:alternativeName 'UMR1312'^^xsd:string ; 
+    schema:url <http://bricbordeaux.com> ; 
+    schema:mainEntityOfPage <https://www.bricbordeaux.com> ;
+    schema:sameAs <http://isni.org/isni/0000000510912713> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/057qpr032> ;
+        rdfs:label 'Université de Bordeaux'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/02vjkv261> ;
+        rdfs:label 'Inserm'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-0.58046,44.84124]}" ;
+            schema:address [
+                schema:addressLocality "Bordeaux" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Nouvelle-Aquitaine" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3031582> ;
+        ] ; 
+    .

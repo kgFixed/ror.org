@@ -1,0 +1,182 @@
+[
+  {
+    "@id": "https://ror.org/01f38w959",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Center for Documentation of Cultural and Natural Heritage"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Center_for_Documentation_of_Cultural_and_Natural_Heritage"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CultNat"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2000"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cultnat.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Center for Documentation of Cultural and Natural Heritage"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000121144896"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cultnat.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bibliotheca Alexandrina"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/051a9ap09"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[31.20861,30.00944]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/360995"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "EG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Giza"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Giza"
+      }
+    ]
+  },
+  {
+    "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Egypt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n01fe06e9055c4b3c8d2dfb93063dd711b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

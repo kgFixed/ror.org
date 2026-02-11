@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/01cfkyz79",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-16"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Department of Science Service"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DSS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n69ba5f9dd3974c8ca10cb79d98aaeb3cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.dss.go.th"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Department of Science Service"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dss.go.th"
+      }
+    ]
+  },
+  {
+    "@id": "_:n69ba5f9dd3974c8ca10cb79d98aaeb3cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[100.50144,13.75398]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1609350"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n69ba5f9dd3974c8ca10cb79d98aaeb3cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n69ba5f9dd3974c8ca10cb79d98aaeb3cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n69ba5f9dd3974c8ca10cb79d98aaeb3cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bangkok"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n69ba5f9dd3974c8ca10cb79d98aaeb3cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n69ba5f9dd3974c8ca10cb79d98aaeb3cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Thailand"
+      }
+    ]
+  },
+  {
+    "@id": "_:n69ba5f9dd3974c8ca10cb79d98aaeb3cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

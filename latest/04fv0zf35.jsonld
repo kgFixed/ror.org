@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/04fv0zf35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shiga Prefecture Agricultural Technology Promotion Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shigaken Nogyo Gijutsu Shinko Senta"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "シガケン ノウギョウ ギジュツ シンコウ センター"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:naf249bdf003841b48caef7d821a8145eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.pref.shiga.lg.jp/nougicenter/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shiga Prefecture Agricultural Technology Promotion Center"
+      }
+    ]
+  },
+  {
+    "@id": "_:naf249bdf003841b48caef7d821a8145eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[136.0976,35.12861]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1863451"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:naf249bdf003841b48caef7d821a8145eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:naf249bdf003841b48caef7d821a8145eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:naf249bdf003841b48caef7d821a8145eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ōmihachiman"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Shiga"
+      }
+    ]
+  },
+  {
+    "@id": "_:naf249bdf003841b48caef7d821a8145eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:naf249bdf003841b48caef7d821a8145eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:naf249bdf003841b48caef7d821a8145eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

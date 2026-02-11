@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05yfwg049> a org:Organization ;
+    rdfs:label 'College of African Wildlife Management'^^xsd:string; 
+    schema:name 'College of African Wildlife Management'^^xsd:string; 
+    schema:foundingDate '1964'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'CAWM'^^xsd:string; 
+    org:alternativeName 'Mweka'^^xsd:string ; 
+    org:alternativeName 'Mweka College'^^xsd:string ; 
+    schema:url <http://mwekawildlife.ac.tz> ; 
+    schema:mainEntityOfPage <https://mwekawildlife.ac.tz/public> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/College_of_African_Wildlife_Management> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.442468.8> ;
+    schema:sameAs <http://isni.org/isni/0000000105669529> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[37.33333,-3.35]}" ;
+            schema:address [
+                schema:addressLocality "Moshi" ;
+                schema:addressCountry "TZ" ;
+                schema:addressRegion "Kilimanjaro" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Tanzania" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/153209> ;
+        ] ; 
+    .

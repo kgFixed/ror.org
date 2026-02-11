@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00zq1dy58> a org:Organization ;
+    rdfs:label 'Forecasting Research Institute'^^xsd:string; 
+    schema:name 'Forecasting Research Institute'^^xsd:string; 
+    schema:foundingDate '2022'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'FRI'^^xsd:string; 
+    schema:url <http://forecastingresearch.org> ; 
+    schema:mainEntityOfPage <https://forecastingresearch.org> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-75.49992,39.00039]}" ;
+            schema:address [
+                schema:addressLocality "Delaware" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Delaware" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4142224> ;
+        ] ; 
+    .

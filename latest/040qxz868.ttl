@@ -1,0 +1,60 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/040qxz868> a org:Organization ;
+    rdfs:label 'Chhatrapati Shahu Ji Maharaj University'^^xsd:string; 
+    schema:name 'Chhatrapati Shahu Ji Maharaj University'^^xsd:string; 
+    schema:foundingDate '1966'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'CSJMU'^^xsd:string; 
+    org:alternativeName 'Kanpur University'^^xsd:string ; 
+    schema:mainEntityOfPage <http://www.kanpuruniversity.org/> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Chhatrapati_Shahu_Ji_Maharaj_University> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.411938.6> ;
+    schema:sameAs <http://isni.org/isni/0000000405065655> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/01v16x378> ;
+        rdfs:label 'Command Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/002ztb251> ;
+        rdfs:label 'Ganesh Shankar Vidyarthi Memorial Medical College'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/053f91n43> ;
+        rdfs:label 'D.B.S. Degree (PG) College'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[80.34975,26.46523]}" ;
+            schema:address [
+                schema:addressLocality "Kanpur" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Uttar Pradesh" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1267995> ;
+        ] ; 
+    .

@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/03re1b483",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Unidade Local de Saúde do Médio Ave"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n59820b2d263d49d1869685ecc2c62400b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ulsmave.min-saude.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Unidade Local de Saúde do Médio Ave"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000514450667"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ulsmave.min-saude.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n59820b2d263d49d1869685ecc2c62400b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.47746,41.34257]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2734570"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n59820b2d263d49d1869685ecc2c62400b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n59820b2d263d49d1869685ecc2c62400b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n59820b2d263d49d1869685ecc2c62400b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Santo Tirso"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Porto"
+      }
+    ]
+  },
+  {
+    "@id": "_:n59820b2d263d49d1869685ecc2c62400b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n59820b2d263d49d1869685ecc2c62400b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n59820b2d263d49d1869685ecc2c62400b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

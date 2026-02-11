@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/04ejnhv92",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hangzhou Adamerck Pharmlabs Inc. (China)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Adamerck"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hangzhou Adamerck Pharmlabs"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "奥默"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n89b8175b8d344266ba388e80b6a90a01b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.adamerck.net"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hangzhou Adamerck Pharmlabs Inc. (China)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000528128644"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://adamerck.net"
+      },
+      {
+        "@id": "http://aomopharm.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89b8175b8d344266ba388e80b6a90a01b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[120.16142,30.29365]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1808926"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n89b8175b8d344266ba388e80b6a90a01b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89b8175b8d344266ba388e80b6a90a01b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n89b8175b8d344266ba388e80b6a90a01b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hangzhou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zhejiang"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89b8175b8d344266ba388e80b6a90a01b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n89b8175b8d344266ba388e80b6a90a01b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n89b8175b8d344266ba388e80b6a90a01b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

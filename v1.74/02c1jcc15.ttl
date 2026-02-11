@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02c1jcc15> a org:Organization ;
+    rdfs:label 'CK-CARE'^^xsd:string; 
+    schema:name 'CK-CARE'^^xsd:string; 
+    schema:foundingDate '2009'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2020-07-06'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'The Christine Kühne – Center for Allergy Research and Education'^^xsd:string ; 
+    schema:url <http://ck-care.ch> ; 
+    schema:mainEntityOfPage <https://ck-care.ch> ;
+    schema:sameAs <https://api.crossref.org/funders/501100010385> ;
+    schema:sameAs <https://grid.ac/institutions/grid.507894.7> ;
+    schema:sameAs <http://isni.org/isni/0000000447006354> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[9.83723,46.80429]}" ;
+            schema:address [
+                schema:addressLocality "Davos" ;
+                schema:addressCountry "CH" ;
+                schema:addressRegion "Grisons" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Switzerland" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2661039> ;
+        ] ; 
+    .

@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/00nhast32",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Global Reef"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2022"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbefb3861c5814fe59c300d2bc8e08bf4b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://global-reef.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Global Reef"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://global-reef.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbefb3861c5814fe59c300d2bc8e08bf4b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[99.83442,10.09427]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/12647859"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbefb3861c5814fe59c300d2bc8e08bf4b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbefb3861c5814fe59c300d2bc8e08bf4b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbefb3861c5814fe59c300d2bc8e08bf4b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ko Tao"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Surat Thani"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbefb3861c5814fe59c300d2bc8e08bf4b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbefb3861c5814fe59c300d2bc8e08bf4b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Thailand"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbefb3861c5814fe59c300d2bc8e08bf4b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

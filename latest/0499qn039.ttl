@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0499qn039> a org:Organization ;
+    rdfs:label 'Lebanese Agricultural Research Institute'^^xsd:string; 
+    schema:name 'Lebanese Agricultural Research Institute'^^xsd:string; 
+    schema:foundingDate '1957'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'LARI'^^xsd:string; 
+    schema:url <http://lari.gov.lb> ; 
+    schema:mainEntityOfPage <http://lari.gov.lb> ;
+    schema:sameAs <https://grid.ac/institutions/grid.435574.4> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[35.50157,33.89332]}" ;
+            schema:address [
+                schema:addressLocality "Beirut" ;
+                schema:addressCountry "LB" ;
+                schema:addressRegion "Beyrouth" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Lebanon" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/276781> ;
+        ] ; 
+    .

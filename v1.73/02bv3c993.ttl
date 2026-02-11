@@ -1,0 +1,72 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02bv3c993> a org:Organization ;
+    rdfs:label 'Academy of Military Medical Sciences'^^xsd:string; 
+    schema:name 'Academy of Military Medical Sciences'^^xsd:string; 
+    schema:foundingDate '1951'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:mainEntityOfPage <http://www.bmi.ac.cn/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Academy_of_Military_Medical_Sciences> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100011345> ;
+    schema:sameAs <https://grid.ac/institutions/grid.410740.6> ;
+    schema:sameAs <http://isni.org/isni/0000000418034911> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02kdgk225> ;
+        rdfs:label 'State Key Laboratory of Pathogenic Microorganism Biosafety'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/019bev041> ;
+        rdfs:label 'State Key Laboratory of Proteomics'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/00vrd0936> ;
+        rdfs:label '307th Hospital of Chinese People’s Liberation Army'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03w50ns22> ;
+        rdfs:label 'Beijing Institute of Microbiology and Epidemiology'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0586n4j57> ;
+        rdfs:label 'Institute of Health Service and Transfusion Medicine'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[116.39723,39.9075]}" ;
+            schema:address [
+                schema:addressLocality "Beijing" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Beijing" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1816670> ;
+        ] ; 
+    .

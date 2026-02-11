@@ -1,0 +1,196 @@
+[
+  {
+    "@id": "https://ror.org/05prysf28",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Rwanda)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb1"
+      },
+      {
+        "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.moh.gov.rw/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.421714.5"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://moh.gov.rw"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre Hospitalier Universitaire de Kigali"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/038vngd42"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Rwanda Biomedical Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03jggqf79"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[30.05885,-1.94995]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/202061"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kigali"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kigali"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Rwanda"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8690208a291b4bdfbe71fe14cec4f73cb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

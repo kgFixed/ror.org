@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/00vcqer65",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas Mahendradatta"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1963"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd763f35ebe4f44e1bffb22cfa265cb06b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://universitasmahendradatta.ac.id"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas Mahendradatta"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.443300.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000092342219"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://universitasmahendradatta.ac.id"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd763f35ebe4f44e1bffb22cfa265cb06b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[115.21667,-8.65]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1645528"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd763f35ebe4f44e1bffb22cfa265cb06b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd763f35ebe4f44e1bffb22cfa265cb06b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd763f35ebe4f44e1bffb22cfa265cb06b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ID"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Denpasar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bali"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd763f35ebe4f44e1bffb22cfa265cb06b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd763f35ebe4f44e1bffb22cfa265cb06b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Indonesia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd763f35ebe4f44e1bffb22cfa265cb06b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

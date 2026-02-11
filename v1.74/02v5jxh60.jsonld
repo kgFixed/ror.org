@@ -1,0 +1,170 @@
+[
+  {
+    "@id": "https://ror.org/02v5jxh60",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Ciencias Ambientales EULA-Chile de la Universidad de Concepción"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro EULA"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Ciencias Ambientales EULA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n84c5347e4bf34d438a831077db3002adb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n84c5347e4bf34d438a831077db3002adb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://eula.udec.cl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Ciencias Ambientales EULA-Chile de la Universidad de Concepción"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://eula.udec.cl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84c5347e4bf34d438a831077db3002adb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Concepción"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0460jpj73"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84c5347e4bf34d438a831077db3002adb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-73.04977,-36.82699]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3893894"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n84c5347e4bf34d438a831077db3002adb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84c5347e4bf34d438a831077db3002adb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n84c5347e4bf34d438a831077db3002adb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Concepción"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Biobío"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84c5347e4bf34d438a831077db3002adb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n84c5347e4bf34d438a831077db3002adb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Chile"
+      }
+    ]
+  },
+  {
+    "@id": "_:n84c5347e4bf34d438a831077db3002adb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

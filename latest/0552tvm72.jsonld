@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/0552tvm72",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Parlament Österreich"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Austrian_Parliament"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Parliament of the Republic of Austria"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n96b63fea446847f48efa4bd306041b71b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.parlament.gv.at"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Parlament Österreich"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.437247.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000107001549"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://parlament.gv.at"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96b63fea446847f48efa4bd306041b71b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[16.37208,48.20849]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2761369"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n96b63fea446847f48efa4bd306041b71b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96b63fea446847f48efa4bd306041b71b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n96b63fea446847f48efa4bd306041b71b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Vienna"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Vienna"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96b63fea446847f48efa4bd306041b71b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n96b63fea446847f48efa4bd306041b71b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Austria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96b63fea446847f48efa4bd306041b71b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

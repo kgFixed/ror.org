@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00pazvf52> a org:Organization ;
+    rdfs:label 'Corlu Belediyesi'^^xsd:string; 
+    schema:name 'Corlu Belediyesi'^^xsd:string; 
+    schema:foundingDate '1877'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Çorlu Municipality'^^xsd:string ; 
+    schema:url <http://corlu.bel.tr> ; 
+    schema:mainEntityOfPage <https://www.corlu.bel.tr> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/%25C3%2587orlu> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[27.80093,41.16069]}" ;
+            schema:address [
+                schema:addressLocality "Çorlu" ;
+                schema:addressCountry "TR" ;
+                schema:addressRegion "Tekirdağ" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Türkiye" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/748893> ;
+        ] ; 
+    .

@@ -1,0 +1,206 @@
+[
+  {
+    "@id": "https://ror.org/01jsq2704",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Eötvös Loránd University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/E%25C3%25B6tv%25C3%25B6s_Lor%25C3%25A1nd_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ELTE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Pázmány Péter University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal University of Pest"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Budapest"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n3cc7636f58fd426fb55982389c473aaab1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1635"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3cc7636f58fd426fb55982389c473aaab2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.elte.hu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Eötvös Loránd University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100009934"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.5591.8"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122946276"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://elte.hu"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc7636f58fd426fb55982389c473aaab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ELTE Centre for Economic and Regional Studies"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/051ea1411"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc7636f58fd426fb55982389c473aaab2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[19.04045,47.49835]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3054643"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3cc7636f58fd426fb55982389c473aaab3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc7636f58fd426fb55982389c473aaab3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3cc7636f58fd426fb55982389c473aaab4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "HU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Budapest"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Budapest"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc7636f58fd426fb55982389c473aaab4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3cc7636f58fd426fb55982389c473aaab5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Hungary"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3cc7636f58fd426fb55982389c473aaab5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

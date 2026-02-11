@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/05hpj3k77",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-09-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Pesticides and Environmental Protection"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8e709fb5a56444d697ba5cce9d442e2eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://pesting.org.rs"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Pesticides and Environmental Protection"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.512349.8"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404748884"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://pesting.org.rs"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e709fb5a56444d697ba5cce9d442e2eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[20.46513,44.80401]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/792680"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8e709fb5a56444d697ba5cce9d442e2eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e709fb5a56444d697ba5cce9d442e2eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8e709fb5a56444d697ba5cce9d442e2eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RS"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Belgrade"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Central Serbia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e709fb5a56444d697ba5cce9d442e2eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8e709fb5a56444d697ba5cce9d442e2eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Serbia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8e709fb5a56444d697ba5cce9d442e2eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

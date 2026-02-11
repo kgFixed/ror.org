@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/01y88kd38",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Escuela de Enfermería Angelópolis"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n580caa94a01b42d1bbe7fe0545487b9bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://eea.edu.mx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Escuela de Enfermería Angelópolis"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://eea.edu.mx"
+      }
+    ]
+  },
+  {
+    "@id": "_:n580caa94a01b42d1bbe7fe0545487b9bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-98.20723,19.04778]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3521081"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n580caa94a01b42d1bbe7fe0545487b9bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n580caa94a01b42d1bbe7fe0545487b9bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n580caa94a01b42d1bbe7fe0545487b9bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MX"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Puebla City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Puebla"
+      }
+    ]
+  },
+  {
+    "@id": "_:n580caa94a01b42d1bbe7fe0545487b9bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n580caa94a01b42d1bbe7fe0545487b9bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mexico"
+      }
+    ]
+  },
+  {
+    "@id": "_:n580caa94a01b42d1bbe7fe0545487b9bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

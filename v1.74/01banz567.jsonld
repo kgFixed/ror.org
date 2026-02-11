@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/01banz567",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kyushu University of Health and Welfare"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Kyushu_University_of_Health_and_Welfare"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KUHW"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1998"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc36b8d9466de42999854dc0e57a5a723b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.phoenix.ac.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kyushu University of Health and Welfare"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.410787.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000403734624"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://phoenix.ac.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc36b8d9466de42999854dc0e57a5a723b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[131.66667,32.58333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1855095"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc36b8d9466de42999854dc0e57a5a723b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc36b8d9466de42999854dc0e57a5a723b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc36b8d9466de42999854dc0e57a5a723b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nobeoka"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Miyazaki"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc36b8d9466de42999854dc0e57a5a723b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc36b8d9466de42999854dc0e57a5a723b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc36b8d9466de42999854dc0e57a5a723b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/04r0k8112",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Admiraal De Ruyter Ziekenhuis"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ADRZ"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2007"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n70e3e418f0c74931a2f984781f13705db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.adrz.nl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Admiraal De Ruyter Ziekenhuis"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.440200.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404740639"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://adrz.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n70e3e418f0c74931a2f984781f13705db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[3.57361,51.4425]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2745392"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n70e3e418f0c74931a2f984781f13705db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n70e3e418f0c74931a2f984781f13705db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n70e3e418f0c74931a2f984781f13705db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Flushing"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zeeland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n70e3e418f0c74931a2f984781f13705db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n70e3e418f0c74931a2f984781f13705db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:n70e3e418f0c74931a2f984781f13705db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

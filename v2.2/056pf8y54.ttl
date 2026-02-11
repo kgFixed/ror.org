@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/056pf8y54> a org:Organization ;
+    rdfs:label 'Veleučilište PAR'^^xsd:string; 
+    schema:name 'Veleučilište PAR'^^xsd:string; 
+    schema:foundingDate '2007'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'PAR'^^xsd:string; 
+    org:alternativeName 'Visoka poslovna škola PAR'^^xsd:string ; 
+    schema:url <http://par.hr> ; 
+    schema:mainEntityOfPage <https://www.par.hr> ;
+    owl:sameAs <https://hr.wikipedia.org/wiki/Visoka_poslovna_%25C5%25A1kola_PAR> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[14.43758,45.32693]}" ;
+            schema:address [
+                schema:addressLocality "Town of Rijeka" ;
+                schema:addressCountry "HR" ;
+                schema:addressRegion "Primorje-Gorski Kotar" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Croatia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3191647> ;
+        ] ; 
+    .

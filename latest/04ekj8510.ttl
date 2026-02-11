@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04ekj8510> a org:Organization ;
+    rdfs:label 'Sri Dharmasthala Manjunatheshwara College of Ayurveda & Hospital Udupi'^^xsd:string; 
+    schema:name 'Sri Dharmasthala Manjunatheshwara College of Ayurveda & Hospital Udupi'^^xsd:string; 
+    schema:foundingDate '1958'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'SDM College of Ayurveda Udupi'^^xsd:string ; 
+    org:abbreviation 'SDMCA'^^xsd:string; 
+    org:alternativeName 'Sri Dharmasthala Manjunatheshwara College of Ayurveda Udupi'^^xsd:string ; 
+    org:alternativeName 'Sri Dharmasthala Manjunatheshwara College of Ayurveda, Hospital & Research Centre'^^xsd:string ; 
+    schema:url <http://sdmayurvedacollegeudupi.in> ; 
+    schema:mainEntityOfPage <https://sdmayurvedacollegeudupi.in> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/0157vkf66> ;
+        rdfs:label 'Rajiv Gandhi University of Health Sciences'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[74.74617,13.33467]}" ;
+            schema:address [
+                schema:addressLocality "Udupi" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Karnataka" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1253952> ;
+        ] ; 
+    .

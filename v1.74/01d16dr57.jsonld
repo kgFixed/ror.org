@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/01d16dr57",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PHV Dialysezentrum"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Stiftung PHV"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfdbb9973fef04af6917eea8ec3390df0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.phv-dialyse.de/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PHV Dialysezentrum"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.477674.1"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://phv-dialyse.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfdbb9973fef04af6917eea8ec3390df0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.61816,50.22683]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2953436"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfdbb9973fef04af6917eea8ec3390df0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfdbb9973fef04af6917eea8ec3390df0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfdbb9973fef04af6917eea8ec3390df0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bad Homburg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Hesse"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfdbb9973fef04af6917eea8ec3390df0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfdbb9973fef04af6917eea8ec3390df0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfdbb9973fef04af6917eea8ec3390df0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

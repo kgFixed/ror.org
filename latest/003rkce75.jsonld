@@ -1,0 +1,131 @@
+[
+  {
+    "@id": "https://ror.org/003rkce75",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wilhelm Woort-Stiftung"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n74f4924a1fc74329a4e761d266f5dd67b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.deutsches-stiftungszentrum.de/stiftungen/wilhelm-woort-stiftung"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wilhelm Woort-Stiftung"
+      }
+    ]
+  },
+  {
+    "@id": "_:n74f4924a1fc74329a4e761d266f5dd67b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[7.01228,51.45657]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2928810"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n74f4924a1fc74329a4e761d266f5dd67b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n74f4924a1fc74329a4e761d266f5dd67b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n74f4924a1fc74329a4e761d266f5dd67b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Essen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North Rhine-Westphalia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n74f4924a1fc74329a4e761d266f5dd67b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n74f4924a1fc74329a4e761d266f5dd67b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n74f4924a1fc74329a4e761d266f5dd67b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

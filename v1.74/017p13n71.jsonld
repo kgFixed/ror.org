@@ -1,0 +1,163 @@
+[
+  {
+    "@id": "https://ror.org/017p13n71",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad del Centro de Estudios Macroeconómicos de Argentina"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_CEMA"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UCEMA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of CEMA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1978"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6aa6e11867c94eaa8a6edfe6d8dca01fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ucema.edu.ar"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad del Centro de Estudios Macroeconómicos de Argentina"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.441626.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000107288367"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ucema.edu.ar"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6aa6e11867c94eaa8a6edfe6d8dca01fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-58.37723,-34.61315]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3435910"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6aa6e11867c94eaa8a6edfe6d8dca01fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6aa6e11867c94eaa8a6edfe6d8dca01fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6aa6e11867c94eaa8a6edfe6d8dca01fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Buenos Aires"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Buenos Aires F.D."
+      }
+    ]
+  },
+  {
+    "@id": "_:n6aa6e11867c94eaa8a6edfe6d8dca01fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6aa6e11867c94eaa8a6edfe6d8dca01fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Argentina"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6aa6e11867c94eaa8a6edfe6d8dca01fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

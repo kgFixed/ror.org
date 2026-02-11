@@ -1,0 +1,192 @@
+[
+  {
+    "@id": "https://ror.org/03d5jvw89",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "La Kretz Research Center at Sedgwick Reserve"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b1"
+      },
+      {
+        "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2017"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://lakretz.nrs.ucsb.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "La Kretz Research Center at Sedgwick Reserve"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://lakretz.nrs.ucsb.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of California Natural Reserve System"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04nmjep87"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of California, Santa Barbara"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02t274463"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-120.07987,34.61443]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5393388"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Santa Ynez"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "California"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6deffc1ac40404cbaef63bade3e5ad5b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

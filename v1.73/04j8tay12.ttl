@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04j8tay12> a org:Organization ;
+    rdfs:label 'E4 Computer Engineering SpA (Italy)'^^xsd:string; 
+    schema:name 'E4 Computer Engineering SpA (Italy)'^^xsd:string; 
+    schema:foundingDate '2002'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'E4'^^xsd:string; 
+    org:alternativeName 'E4 Computer Engineering'^^xsd:string ; 
+    schema:url <http://company.com> ; 
+    schema:mainEntityOfPage <https://www.e4company.com> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[10.69558,44.5983]}" ;
+            schema:address [
+                schema:addressLocality "Scandiano" ;
+                schema:addressCountry "IT" ;
+                schema:addressRegion "Emilia-Romagna" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Italy" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3166989> ;
+        ] ; 
+    .

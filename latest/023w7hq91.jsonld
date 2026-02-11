@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/023w7hq91",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "General Commission for Scientific Agricultural Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GCSAR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndbcf5cb92a9a49fa85d82094c4c0f571b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://gcsar.gov.sy"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "General Commission for Scientific Agricultural Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.494176.9"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://gcsar.gov.sy"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndbcf5cb92a9a49fa85d82094c4c0f571b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[36.4027,33.57175]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/170592"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndbcf5cb92a9a49fa85d82094c4c0f571b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndbcf5cb92a9a49fa85d82094c4c0f571b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndbcf5cb92a9a49fa85d82094c4c0f571b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Douma"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Rif-dimashq"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndbcf5cb92a9a49fa85d82094c4c0f571b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndbcf5cb92a9a49fa85d82094c4c0f571b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Syria"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndbcf5cb92a9a49fa85d82094c4c0f571b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

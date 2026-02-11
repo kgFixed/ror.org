@@ -1,0 +1,61 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05e9f5362> a org:Organization ;
+    rdfs:label 'Shanxi Agricultural University'^^xsd:string; 
+    schema:name 'Shanxi Agricultural University'^^xsd:string; 
+    schema:foundingDate '1907'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    schema:url <http://sxau.edu.cn> ; 
+    schema:mainEntityOfPage <https://www.sxau.edu.cn/index.htm> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Shanxi_Agricultural_University> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100013805> ;
+    schema:sameAs <https://grid.ac/institutions/grid.412545.3> ;
+    schema:sameAs <http://isni.org/isni/0000000417981300> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[112.55639,37.73639]}" ;
+            schema:address [
+                schema:addressLocality "Xiaodian" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Shanxi" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1790274> ;
+        ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[112.72302,37.40303]}" ;
+            schema:address [
+                schema:addressLocality "Taigu Xian" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Shanxi" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1793690> ;
+        ] ; 
+    .

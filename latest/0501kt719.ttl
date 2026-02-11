@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0501kt719> a org:Organization ;
+    rdfs:label 'Centro Nacional de Artesanato'^^xsd:string; 
+    schema:name 'Centro Nacional de Artesanato'^^xsd:string; 
+    schema:foundingDate '1977'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'CNAD'^^xsd:string; 
+    schema:url <http://cnad.cv> ; 
+    schema:mainEntityOfPage <https://cnad.cv> ;
+    owl:sameAs <https://pt.wikipedia.org/wiki/Centro_Nacional_de_Artesanato> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-24.98042,16.89014]}" ;
+            schema:address [
+                schema:addressLocality "Mindelo" ;
+                schema:addressCountry "CV" ;
+                schema:addressRegion "São Vicente" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Cabo Verde" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3374462> ;
+        ] ; 
+    .

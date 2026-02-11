@@ -1,0 +1,174 @@
+[
+  {
+    "@id": "https://ror.org/02aa8kj12",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The People's Hospital of Guangxi Zhuang Autonomous Region"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/People%2527s_Hospital_of_Guangxi_Zhuang_Autonomous_Region"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1941"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.gxhospital.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The People's Hospital of Guangxi Zhuang Autonomous Region"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.410652.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000460037358"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/027pjy323"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[108.31667,22.81667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1799869"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nanning"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Guangxi"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n49e3d7f17a7043e489334a4ffff94ea2b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/059bevx75> a org:Organization ;
+    rdfs:label 'Sonangol'^^xsd:string; 
+    schema:name 'Sonangol'^^xsd:string; 
+    schema:foundingDate '1976'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Sociedade Nacional de Combustíveis de Angola'^^xsd:string ; 
+    org:alternativeName 'Sonangol, E.P. – Sociedade Nacional de Combustíveis de Angola, Empresa Pública'^^xsd:string ; 
+    schema:url <http://sonangol.co.ao> ; 
+    schema:mainEntityOfPage <https://www.sonangol.co.ao> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02c39hw83> ;
+        rdfs:label 'Centro de Pesquisa e Desenvolvimento da Sonangol, S.A.'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[13.23432,-8.83682]}" ;
+            schema:address [
+                schema:addressLocality "Luanda" ;
+                schema:addressCountry "AO" ;
+                schema:addressRegion "Luanda" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Angola" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2240449> ;
+        ] ; 
+    .

@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0169gd037> a org:Organization ;
+    rdfs:label 'Ruralis - Institute for Rural and Regional Research'^^xsd:string; 
+    schema:name 'Ruralis - Institute for Rural and Regional Research'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'CRR'^^xsd:string; 
+    org:alternativeName 'Centre for Rural Research'^^xsd:string ; 
+    org:alternativeName 'Norsk senter for Bygdeforskning'^^xsd:string ; 
+    org:alternativeName 'Ruralis'^^xsd:string ; 
+    schema:url <http://ruralis.no> ; 
+    schema:mainEntityOfPage <https://ruralis.no> ;
+    schema:sameAs <https://grid.ac/institutions/grid.433069.b> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[10.39506,63.43049]}" ;
+            schema:address [
+                schema:addressLocality "Trondheim" ;
+                schema:addressCountry "NO" ;
+                schema:addressRegion "Trøndelag" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Norway" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3133880> ;
+        ] ; 
+    .

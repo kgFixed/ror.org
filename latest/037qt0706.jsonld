@@ -1,0 +1,185 @@
+[
+  {
+    "@id": "https://ror.org/037qt0706",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taisei Rotec Corporation (Japan)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ja.wikipedia.org/wiki/%25E5%25A4%25A7%25E6%2588%2590%25E3%2583%25AD%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taisei Rotec"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taisei Rotec Corp"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "大成ロテック"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb3900f2af0894203b40ae96304e5fb68b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1961"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb3900f2af0894203b40ae96304e5fb68b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.taiseirotec.co.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taisei Rotec Corporation (Japan)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://taiseirotec.co.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb3900f2af0894203b40ae96304e5fb68b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Taisei (Japan)"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/015cafh73"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb3900f2af0894203b40ae96304e5fb68b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[139.69171,35.6895]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1850147"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb3900f2af0894203b40ae96304e5fb68b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb3900f2af0894203b40ae96304e5fb68b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb3900f2af0894203b40ae96304e5fb68b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tokyo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tokyo"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb3900f2af0894203b40ae96304e5fb68b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb3900f2af0894203b40ae96304e5fb68b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb3900f2af0894203b40ae96304e5fb68b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/04b5h5d25",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Métis Nation of Ontario"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/M%25C3%25A9tis_Nation_of_Ontario"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MNO"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1993"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nebf4717b96834c9c9823ea042bd8b41db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.metisnation.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Métis Nation of Ontario"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000092491011"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://metisnation.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebf4717b96834c9c9823ea042bd8b41db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-75.69812,45.41117]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6094817"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nebf4717b96834c9c9823ea042bd8b41db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebf4717b96834c9c9823ea042bd8b41db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nebf4717b96834c9c9823ea042bd8b41db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ottawa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ontario"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebf4717b96834c9c9823ea042bd8b41db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nebf4717b96834c9c9823ea042bd8b41db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebf4717b96834c9c9823ea042bd8b41db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

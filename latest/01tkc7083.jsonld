@@ -1,0 +1,163 @@
+[
+  {
+    "@id": "https://ror.org/01tkc7083",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal Dental Hospital of Melbourne"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/The_Royal_Dental_Hospital_of_Melbourne"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "RDHM"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Melbourne Dental Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1890"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9bb15360804a4b94ab946c3de3cd89abb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.dhsv.org.au/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Royal Dental Hospital of Melbourne"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.440113.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000090340041"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dhsv.org.au"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9bb15360804a4b94ab946c3de3cd89abb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[144.96332,-37.814]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2158177"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9bb15360804a4b94ab946c3de3cd89abb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9bb15360804a4b94ab946c3de3cd89abb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9bb15360804a4b94ab946c3de3cd89abb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Melbourne"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Victoria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9bb15360804a4b94ab946c3de3cd89abb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9bb15360804a4b94ab946c3de3cd89abb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Australia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9bb15360804a4b94ab946c3de3cd89abb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

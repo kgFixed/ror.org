@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/042pbz202",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Thailand Institute of Scientific and Technological Research"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Thailand_Institute_of_Scientific_and_Technological_Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "TISTR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1963"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na0be04212718445a8838250885348d08b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.tistr.or.th/tistreng/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Thailand Institute of Scientific and Technological Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100016139"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.473439.e"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121805500"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0be04212718445a8838250885348d08b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[100.64578,14.06467]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1609899"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na0be04212718445a8838250885348d08b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0be04212718445a8838250885348d08b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na0be04212718445a8838250885348d08b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Khlong Luang"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Pathum Thani"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0be04212718445a8838250885348d08b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na0be04212718445a8838250885348d08b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Thailand"
+      }
+    ]
+  },
+  {
+    "@id": "_:na0be04212718445a8838250885348d08b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

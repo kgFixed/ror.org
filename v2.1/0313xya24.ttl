@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0313xya24> a org:Organization ;
+    rdfs:label 'Blasenzentrum der Frau AG'^^xsd:string; 
+    schema:name 'Blasenzentrum der Frau AG'^^xsd:string; 
+    schema:foundingDate '2025'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Blasenzentrum der Frau'^^xsd:string ; 
+    schema:url <http://blasenzentrum-der-frau.ch> ; 
+    schema:mainEntityOfPage <https://www.blasenzentrum-der-frau.ch> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[8.89893,47.55776]}" ;
+            schema:address [
+                schema:addressLocality "Frauenfeld" ;
+                schema:addressCountry "CH" ;
+                schema:addressRegion "Thurgau" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Switzerland" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2660727> ;
+        ] ; 
+    .

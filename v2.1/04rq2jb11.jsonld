@@ -1,0 +1,175 @@
+[
+  {
+    "@id": "https://ror.org/04rq2jb11",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-09-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Carl Ritter von Ghega Institute for Integrated Mobility Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FH St. Pölten Carl Ritter von Ghega Institut für integrierte Mobilitätsforschung"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FH St. Pölten Carl Ritter von Ghega Institute for Integrated Mobility Research"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St. Pölten UAS Carl Ritter von Ghega Institute for Integrated Mobility Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1993"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://mobility.fhstp.ac.at"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Carl Ritter von Ghega Institute for Integrated Mobility Research"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Applied Sciences St Pölten"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/039a2re55"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.63725,48.20762]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2766429"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "St. Pölten"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lower Austria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Austria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf1bdd5ba6067456da2e2190414b528d5b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/011ryw527",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Karl Kumm University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KKU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Karl Kümm University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nebd7110327cb4989b89d87fdf6327b3fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://kku.edu.ng"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Karl Kumm University"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kku.edu.ng"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebd7110327cb4989b89d87fdf6327b3fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[8.89212,9.92849]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2335953"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nebd7110327cb4989b89d87fdf6327b3fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebd7110327cb4989b89d87fdf6327b3fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nebd7110327cb4989b89d87fdf6327b3fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jos"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Plateau State"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebd7110327cb4989b89d87fdf6327b3fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nebd7110327cb4989b89d87fdf6327b3fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nebd7110327cb4989b89d87fdf6327b3fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

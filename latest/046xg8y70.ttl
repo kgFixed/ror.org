@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/046xg8y70> a org:Organization ;
+    rdfs:label 'École Polytechnique de Thiès'^^xsd:string; 
+    schema:name 'École Polytechnique de Thiès'^^xsd:string; 
+    schema:foundingDate '1973'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'EPT'^^xsd:string; 
+    schema:url <http://ept.sn> ; 
+    schema:mainEntityOfPage <https://ept.edu.sn> ;
+    schema:sameAs <https://grid.ac/institutions/grid.442290.9> ;
+    schema:sameAs <http://isni.org/isni/0000000405749424> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-16.92602,14.78944]}" ;
+            schema:address [
+                schema:addressLocality "Thiès" ;
+                schema:addressCountry "SN" ;
+                schema:addressRegion "Thiès" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Senegal" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2244802> ;
+        ] ; 
+    .

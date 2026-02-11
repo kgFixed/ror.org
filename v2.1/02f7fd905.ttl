@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02f7fd905> a org:Organization ;
+    rdfs:label 'Kapalong College of Agriculture, Sciences and Technology'^^xsd:string; 
+    schema:name 'Kapalong College of Agriculture, Sciences and Technology'^^xsd:string; 
+    schema:foundingDate '2005'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'KCAST'^^xsd:string; 
+    schema:url <http://kapalong.gov.ph> ; 
+    schema:url <http://kcast.edu.ph> ; 
+    schema:mainEntityOfPage <https://kapalong.gov.ph/show/kapalong-college-of-agriculture-sciences-and-technology> ;
+    schema:sameAs <http://isni.org/isni/0000000460062000> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[125.57397,7.83669]}" ;
+            schema:address [
+                schema:addressLocality "Kapalong" ;
+                schema:addressCountry "PH" ;
+                schema:addressRegion "Davao Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Philippines" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1709274> ;
+        ] ; 
+    .

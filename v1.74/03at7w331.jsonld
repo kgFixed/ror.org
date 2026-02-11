@@ -1,0 +1,184 @@
+[
+  {
+    "@id": "https://ror.org/03at7w331",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shanghai Municipal Commission of Health and Family Planning"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://zh.wikipedia.org/wiki/%25E4%25B8%258A%25E6%25B5%25B7%25E5%25B8%2582%25E5%258D%25AB%25E7%2594%259F%25E5%2581%25A5%25E5%25BA%25B7%25E5%25A7%2594%25E5%2591%2598%25E4%25BC%259A"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shanghai Municipal Health and Family Planning Commission"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2013"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.wsjsw.gov.cn/wsj/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shanghai Municipal Commission of Health and Family Planning"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100008410"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.454794.f"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shanghai Municipal People's Government"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05xp2yp46"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[121.45806,31.22222]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1796236"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Shanghai"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Shanghai"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9fecd6882f7243fd9a710fcf2473678ab5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

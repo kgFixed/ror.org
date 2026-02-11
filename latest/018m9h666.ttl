@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/018m9h666> a org:Organization ;
+    rdfs:label 'Laboratoire de Recherches Juridique & Économique'^^xsd:string; 
+    schema:name 'Laboratoire de Recherches Juridique & Économique'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'LARJE'^^xsd:string; 
+    org:alternativeName 'Laboratoire de Recherches Juridique and Économique'^^xsd:string ; 
+    schema:url <http://unc.nc> ; 
+    schema:mainEntityOfPage <https://larje.unc.nc/fr/accueil/> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/02jrgcx64> ;
+        rdfs:label 'University of New Caledonia'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[166.44884,-22.27407]}" ;
+            schema:address [
+                schema:addressLocality "Noumea" ;
+                schema:addressCountry "NC" ;
+                schema:addressRegion "South Province" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "New Caledonia" ;
+                    schema:containedInPlace [
+                        schema:name "Oceania" ;
+                        schema:identifier "OC"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2139521> ;
+        ] ; 
+    .

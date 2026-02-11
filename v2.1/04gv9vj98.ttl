@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04gv9vj98> a org:Organization ;
+    rdfs:label 'Barnet and Chase Farm NHS Hospitals Trust'^^xsd:string; 
+    schema:name 'Barnet and Chase Farm NHS Hospitals Trust'^^xsd:string; 
+    schema:foundingDate '1999'^^xsd:gYear ;
+    org:status 'inactive'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Barnet_and_Chase_Farm_NHS_Hospitals_Trust> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.440170.6> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'successor'^^xsd:string ;
+        org:member <https://ror.org/04rtdp853> ;
+        rdfs:label 'Royal Free London NHS Foundation Trust'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-0.12574,51.50853]}" ;
+            schema:address [
+                schema:addressLocality "London" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "England" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2643743> ;
+        ] ; 
+    .

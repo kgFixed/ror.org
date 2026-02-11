@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0020pnp42> a org:Organization ;
+    rdfs:label 'Center of Plant Systems Biology and Biotechnology'^^xsd:string; 
+    schema:name 'Center of Plant Systems Biology and Biotechnology'^^xsd:string; 
+    schema:foundingDate '2015'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2021-09-23'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'CPSBB'^^xsd:string; 
+    schema:url <http://cpsbb.eu> ; 
+    schema:mainEntityOfPage <https://cpsbb.eu> ;
+    schema:sameAs <https://grid.ac/institutions/grid.510916.a> ;
+    schema:sameAs <http://isni.org/isni/0000000493345103> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[24.75001,42.15387]}" ;
+            schema:address [
+                schema:addressLocality "Plovdiv" ;
+                schema:addressCountry "BG" ;
+                schema:addressRegion "Plovdiv" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Bulgaria" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/728193> ;
+        ] ; 
+    .

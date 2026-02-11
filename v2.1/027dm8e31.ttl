@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/027dm8e31> a org:Organization ;
+    rdfs:label 'Konservasi Indonesia'^^xsd:string; 
+    schema:name 'Konservasi Indonesia'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Yayasan Konservasi Cakrawala Indonesia'^^xsd:string ; 
+    schema:url <http://konservasi-id.org> ; 
+    schema:mainEntityOfPage <https://konservasi-id.org> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/024weye46> ;
+        rdfs:label 'Conservation International'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[106.84513,-6.21462]}" ;
+            schema:address [
+                schema:addressLocality "Jakarta" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "Jakarta" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1642911> ;
+        ] ; 
+    .

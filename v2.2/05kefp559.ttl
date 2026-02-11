@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05kefp559> a org:Organization ;
+    rdfs:label 'Niagara Health System'^^xsd:string; 
+    schema:name 'Niagara Health System'^^xsd:string; 
+    schema:foundingDate '2005'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'NHS'^^xsd:string; 
+    schema:url <http://niagarahealth.on.ca> ; 
+    schema:mainEntityOfPage <https://www.niagarahealth.on.ca/site/home> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Niagara_Health_System> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.470386.e> ;
+    schema:sameAs <http://isni.org/isni/000000040480329X> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-79.24267,43.17126]}" ;
+            schema:address [
+                schema:addressLocality "Saint Catharines" ;
+                schema:addressCountry "CA" ;
+                schema:addressRegion "Ontario" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Canada" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6155721> ;
+        ] ; 
+    .

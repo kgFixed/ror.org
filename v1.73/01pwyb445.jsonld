@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/01pwyb445",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vivek University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n105aea136a2b4814b19745e9f23f3b42b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://vivekuniversity.ac.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vivek University"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vivekuniversity.ac.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:n105aea136a2b4814b19745e9f23f3b42b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[78.13636,29.373]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1275679"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n105aea136a2b4814b19745e9f23f3b42b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n105aea136a2b4814b19745e9f23f3b42b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n105aea136a2b4814b19745e9f23f3b42b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bijnor"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Uttar Pradesh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n105aea136a2b4814b19745e9f23f3b42b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n105aea136a2b4814b19745e9f23f3b42b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n105aea136a2b4814b19745e9f23f3b42b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

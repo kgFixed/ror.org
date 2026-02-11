@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/001jb9152> a org:Organization ;
+    rdfs:label 'Instituto Superior Universitario Cotopaxi'^^xsd:string; 
+    schema:name 'Instituto Superior Universitario Cotopaxi'^^xsd:string; 
+    schema:foundingDate '2017'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'ISUC'^^xsd:string; 
+    org:alternativeName 'Instituto Superior Tecnológico Cotopaxi'^^xsd:string ; 
+    schema:url <http://isuc.edu.ec> ; 
+    schema:mainEntityOfPage <https://isuc.edu.ec> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-78.6152,-0.93424]}" ;
+            schema:address [
+                schema:addressLocality "Latacunga" ;
+                schema:addressCountry "EC" ;
+                schema:addressRegion "Cotopaxi" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Ecuador" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3654870> ;
+        ] ; 
+    .

@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0408mbg90> a org:Organization ;
+    rdfs:label 'Electrochemical Society'^^xsd:string; 
+    schema:name 'Electrochemical Society'^^xsd:string; 
+    schema:foundingDate '1902'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    schema:url <http://electrochem.org> ; 
+    schema:mainEntityOfPage <https://www.electrochem.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Electrochemical_Society> ; 
+    schema:sameAs <https://api.crossref.org/funders/100009707> ;
+    schema:sameAs <https://grid.ac/institutions/grid.420915.b> ;
+    schema:sameAs <http://isni.org/isni/0000000123643007> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-74.79072,40.32844]}" ;
+            schema:address [
+                schema:addressLocality "Pennington" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "New Jersey" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5102535> ;
+        ] ; 
+    .

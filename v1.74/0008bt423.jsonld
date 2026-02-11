@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/0008bt423",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Fiji"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Fiji"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2004"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neb39dbc43a8e45479ece52e51edf1b8fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.unifiji.ac.fj/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Fiji"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.449678.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404160773"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unifiji.ac.fj"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb39dbc43a8e45479ece52e51edf1b8fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[177.45049,-17.61686]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2204506"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neb39dbc43a8e45479ece52e51edf1b8fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb39dbc43a8e45479ece52e51edf1b8fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neb39dbc43a8e45479ece52e51edf1b8fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FJ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lautoka"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Western"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb39dbc43a8e45479ece52e51edf1b8fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neb39dbc43a8e45479ece52e51edf1b8fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Fiji"
+      }
+    ]
+  },
+  {
+    "@id": "_:neb39dbc43a8e45479ece52e51edf1b8fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

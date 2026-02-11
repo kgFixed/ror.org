@@ -1,0 +1,163 @@
+[
+  {
+    "@id": "https://ror.org/02mbc1535",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International Pacific Halibut Commission"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/International_Pacific_Halibut_Commission"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IPHC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International Fisheries Commission"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1923"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n57f41929debc4753b5d800e87996d16cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.iphc.int"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "International Pacific Halibut Commission"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.448503.e"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405028037"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://iphc.int"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57f41929debc4753b5d800e87996d16cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-122.33207,47.60621]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5809844"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n57f41929debc4753b5d800e87996d16cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57f41929debc4753b5d800e87996d16cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n57f41929debc4753b5d800e87996d16cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Seattle"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Washington"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57f41929debc4753b5d800e87996d16cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n57f41929debc4753b5d800e87996d16cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57f41929debc4753b5d800e87996d16cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

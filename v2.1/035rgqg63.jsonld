@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/035rgqg63",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut National Supérieur des Sciences et Techniques d'Abéché"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INSTA"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IUSTA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut universitaire des sciences et techniques d'Abéché"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1997"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5f8173c0fae442beb0b326b8dc5c0186b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.insta.td"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut National Supérieur des Sciences et Techniques d'Abéché"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.442788.5"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://insta.td"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f8173c0fae442beb0b326b8dc5c0186b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[20.8324,13.82916]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/245785"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5f8173c0fae442beb0b326b8dc5c0186b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f8173c0fae442beb0b326b8dc5c0186b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5f8173c0fae442beb0b326b8dc5c0186b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TD"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Abéché"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ouadaï"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f8173c0fae442beb0b326b8dc5c0186b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5f8173c0fae442beb0b326b8dc5c0186b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Chad"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f8173c0fae442beb0b326b8dc5c0186b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

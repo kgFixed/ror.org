@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03v6t2982> a org:Organization ;
+    rdfs:label 'Community Health Systems - Moses Taylor Hospital'^^xsd:string; 
+    schema:name 'Community Health Systems - Moses Taylor Hospital'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Moses Taylor Hospital'^^xsd:string ; 
+    schema:mainEntityOfPage <https://www.commonwealthhealth.net/moses-taylor-hospital-commonwealth> ;
+    schema:sameAs <https://grid.ac/institutions/grid.416129.9> ;
+    schema:sameAs <http://isni.org/isni/0000000403826289> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/01ja0g918> ;
+        rdfs:label 'Community Health Systems Professional Services Corporation (DBA Community Health Systems)'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-75.6649,41.40916]}" ;
+            schema:address [
+                schema:addressLocality "Scranton" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Pennsylvania" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5211303> ;
+        ] ; 
+    .

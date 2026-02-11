@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/05ky62v64",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-29"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Region of Attica"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ROA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Periferia Attikis"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Region Attika"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Περιφέρεια Αττικής"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:necb2bdc48c5e4d02988f70b981499717b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.patt.gov.gr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Region of Attica"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://patt.gov.gr"
+      }
+    ]
+  },
+  {
+    "@id": "_:necb2bdc48c5e4d02988f70b981499717b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.72784,37.98376]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/264371"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:necb2bdc48c5e4d02988f70b981499717b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:necb2bdc48c5e4d02988f70b981499717b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:necb2bdc48c5e4d02988f70b981499717b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Athens"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:necb2bdc48c5e4d02988f70b981499717b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:necb2bdc48c5e4d02988f70b981499717b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Greece"
+      }
+    ]
+  },
+  {
+    "@id": "_:necb2bdc48c5e4d02988f70b981499717b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

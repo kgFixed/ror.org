@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04p66x465> a org:Organization ;
+    rdfs:label 'Surman College of Science and Technology'^^xsd:string; 
+    schema:name 'Surman College of Science and Technology'^^xsd:string; 
+    schema:foundingDate '1984'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'SCST'^^xsd:string; 
+    org:alternativeName 'Surman College of Science & Technology'^^xsd:string ; 
+    schema:url <http://scst.edu.ly> ; 
+    schema:mainEntityOfPage <https://scst.edu.ly> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[12.57159,32.75668]}" ;
+            schema:address [
+                schema:addressLocality "Şurmān" ;
+                schema:addressCountry "LY" ;
+                schema:addressRegion "Az Zāwiyah" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Libya" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2210560> ;
+        ] ; 
+    .

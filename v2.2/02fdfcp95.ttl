@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02fdfcp95> a org:Organization ;
+    rdfs:label 'National Centre of Geodesy and Spatial Information'^^xsd:string; 
+    schema:name 'National Centre of Geodesy and Spatial Information'^^xsd:string; 
+    schema:foundingDate '2020'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'QAZGEODEZIA'^^xsd:string; 
+    org:alternativeName 'RSE National Centre of Geodesy and Spatial Informationen'^^xsd:string ; 
+    org:alternativeName '«Ұлттық геодезия және кеңістіктік ақпарат орталығы» РМК'^^xsd:string ; 
+    org:alternativeName 'РГП Национальный центр геодезии и пространственной информации'^^xsd:string ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[71.44598,51.1801]}" ;
+            schema:address [
+                schema:addressLocality "Astana" ;
+                schema:addressCountry "KZ" ;
+                schema:addressRegion "Astana" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Kazakhstan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1526273> ;
+        ] ; 
+    .

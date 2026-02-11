@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0542qcy46> a org:Organization ;
+    rdfs:label 'Mobility Ion Technologies, S.L (Spain)'^^xsd:string; 
+    schema:name 'Mobility Ion Technologies, S.L (Spain)'^^xsd:string; 
+    schema:foundingDate '2020'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'MION'^^xsd:string; 
+    org:alternativeName 'Mobility Ion Technologies'^^xsd:string ; 
+    schema:url <http://miontechnologies.com> ; 
+    schema:mainEntityOfPage <https://miontechnologies.com> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-4.7266,41.53891]}" ;
+            schema:address [
+                schema:addressLocality "Boecillo" ;
+                schema:addressCountry "ES" ;
+                schema:addressRegion "Castille and León" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Spain" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6362151> ;
+        ] ; 
+    .

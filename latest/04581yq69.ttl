@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04581yq69> a org:Organization ;
+    rdfs:label 'Special Olympics'^^xsd:string; 
+    schema:name 'Special Olympics'^^xsd:string; 
+    schema:foundingDate '1968'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    schema:url <http://specialolympics.org> ; 
+    schema:mainEntityOfPage <https://www.specialolympics.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Special_Olympics> ; 
+    schema:sameAs <https://api.crossref.org/funders/100001346> ;
+    schema:sameAs <https://grid.ac/institutions/grid.438055.f> ;
+    schema:sameAs <http://isni.org/isni/0000000115181762> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-77.03637,38.89511]}" ;
+            schema:address [
+                schema:addressLocality "Washington" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "District of Columbia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4140963> ;
+        ] ; 
+    .

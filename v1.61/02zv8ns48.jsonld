@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/02zv8ns48",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azal University for Human Development"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AUHD"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2008"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb52f6f25a1db498db6863f7a94baf76ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.auhd.edu.ye"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azal University for Human Development"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://auhd.edu.ye"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb52f6f25a1db498db6863f7a94baf76ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[44.20667,15.35472]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/71137"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb52f6f25a1db498db6863f7a94baf76ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb52f6f25a1db498db6863f7a94baf76ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb52f6f25a1db498db6863f7a94baf76ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "YE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sanaa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Amanat Alasimah"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb52f6f25a1db498db6863f7a94baf76ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb52f6f25a1db498db6863f7a94baf76ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Yemen"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb52f6f25a1db498db6863f7a94baf76ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

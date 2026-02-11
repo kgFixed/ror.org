@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/01daaa255",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tiger Tech Solutions"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tiger Tech Solutions Inc."
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb27b8b427d894fa0adbbb792b8624ab2b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://tigertech.solutions"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tiger Tech Solutions"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://tigertech.solutions"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb27b8b427d894fa0adbbb792b8624ab2b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-80.19366,25.77427]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4164138"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb27b8b427d894fa0adbbb792b8624ab2b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb27b8b427d894fa0adbbb792b8624ab2b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb27b8b427d894fa0adbbb792b8624ab2b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Miami"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Florida"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb27b8b427d894fa0adbbb792b8624ab2b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb27b8b427d894fa0adbbb792b8624ab2b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb27b8b427d894fa0adbbb792b8624ab2b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

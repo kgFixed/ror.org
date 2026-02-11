@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04tdptw32> a org:Organization ;
+    rdfs:label 'Asser Institute'^^xsd:string; 
+    schema:name 'Asser Institute'^^xsd:string; 
+    schema:foundingDate '1965'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2020-12-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'T.M.C. Asser Instituut'^^xsd:string ; 
+    schema:url <http://asser.nl> ; 
+    schema:mainEntityOfPage <https://asser.nl> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/T.M.C._Asser_Instituut> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100014099> ;
+    schema:sameAs <https://grid.ac/institutions/grid.509578.6> ;
+    schema:sameAs <http://isni.org/isni/0000000121866514> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[4.29861,52.07667]}" ;
+            schema:address [
+                schema:addressLocality "The Hague" ;
+                schema:addressCountry "NL" ;
+                schema:addressRegion "South Holland" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "The Netherlands" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2747373> ;
+        ] ; 
+    .

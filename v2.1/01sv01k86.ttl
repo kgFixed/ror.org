@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01sv01k86> a org:Organization ;
+    rdfs:label 'iFACE Academy'^^xsd:string; 
+    schema:name 'iFACE Academy'^^xsd:string; 
+    schema:foundingDate '2016'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'iFACE Oral and Maxillofacial Surgery Academy'^^xsd:string ; 
+    schema:url <http://ifaceacademy.org> ; 
+    schema:mainEntityOfPage <https://ifaceacademy.org> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[28.94966,41.01384]}" ;
+            schema:address [
+                schema:addressLocality "Istanbul" ;
+                schema:addressCountry "TR" ;
+                schema:addressRegion "Istanbul" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Türkiye" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/745044> ;
+        ] ; 
+    .

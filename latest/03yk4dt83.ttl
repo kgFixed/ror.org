@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03yk4dt83> a org:Organization ;
+    rdfs:label 'Hospital Universitario Lluís Alcanyís'^^xsd:string; 
+    schema:name 'Hospital Universitario Lluís Alcanyís'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Departament de Salut Xàtiva Ontinyent'^^xsd:string ; 
+    org:alternativeName 'Departamento de Salud Xàtiva Ontinyent'^^xsd:string ; 
+    org:alternativeName 'Hospital General d\'Ontinyent'^^xsd:string ; 
+    org:alternativeName 'Hospital General de Ontinyent'^^xsd:string ; 
+    org:alternativeName 'Hospital Lluis Alcanyis'^^xsd:string ; 
+    org:alternativeName 'Hospital Lluís Alcanyís'^^xsd:string ; 
+    schema:mainEntityOfPage <https://xativaontinyent.san.gva.es> ;
+    schema:sameAs <https://grid.ac/institutions/grid.414979.6> ;
+    schema:sameAs <http://isni.org/isni/0000000417682773> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-0.51852,38.99042]}" ;
+            schema:address [
+                schema:addressLocality "Xàtiva" ;
+                schema:addressCountry "ES" ;
+                schema:addressRegion "Valencia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Spain" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2516345> ;
+        ] ; 
+    .

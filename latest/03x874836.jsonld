@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/03x874836",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tsuru University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Tsuru_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tsuru Municipal Junior College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1953"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb42a116a56a944a1afd919c904fea90fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.tsuru.ac.jp/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Tsuru University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.443132.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000090297557"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://tsuru.ac.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb42a116a56a944a1afd919c904fea90fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[137.26736,34.66799]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1851259"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb42a116a56a944a1afd919c904fea90fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb42a116a56a944a1afd919c904fea90fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb42a116a56a944a1afd919c904fea90fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tahara"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Aichi"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb42a116a56a944a1afd919c904fea90fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb42a116a56a944a1afd919c904fea90fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb42a116a56a944a1afd919c904fea90fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

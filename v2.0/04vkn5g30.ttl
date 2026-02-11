@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04vkn5g30> a org:Organization ;
+    rdfs:label 'Bozorgmehr University of Qaenat'^^xsd:string; 
+    schema:name 'Bozorgmehr University of Qaenat'^^xsd:string; 
+    schema:foundingDate '2015'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'BUQaen'^^xsd:string ; 
+    org:alternativeName 'دانشگاه بزرگمهر قائنات'^^xsd:string ; 
+    schema:url <http://buqaen.ac.ir> ; 
+    schema:mainEntityOfPage <https://www.buqaen.ac.ir/en> ;
+    schema:sameAs <http://isni.org/isni/0000000526450795> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[59.18439,33.72654]}" ;
+            schema:address [
+                schema:addressLocality "Qā’en" ;
+                schema:addressCountry "IR" ;
+                schema:addressRegion "South Khorasan Province" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Iran" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/120694> ;
+        ] ; 
+    .

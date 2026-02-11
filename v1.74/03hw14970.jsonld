@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/03hw14970",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Synlab (Germany)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1998"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9e4a627b1e49460e9c7e1a97345aa0f9b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.synlab.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Synlab (Germany)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.461810.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405720285"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://synlab.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9e4a627b1e49460e9c7e1a97345aa0f9b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.89851,48.37154]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2954172"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9e4a627b1e49460e9c7e1a97345aa0f9b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9e4a627b1e49460e9c7e1a97345aa0f9b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9e4a627b1e49460e9c7e1a97345aa0f9b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Augsburg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bavaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9e4a627b1e49460e9c7e1a97345aa0f9b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9e4a627b1e49460e9c7e1a97345aa0f9b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9e4a627b1e49460e9c7e1a97345aa0f9b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

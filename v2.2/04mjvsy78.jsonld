@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/04mjvsy78",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Igenomix"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1996"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb97af7c18cf841cb8bb6f03a13850512b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.igenomix.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Igenomix"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.477343.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000483377814"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://igenomix.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb97af7c18cf841cb8bb6f03a13850512b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-0.44079,39.50263]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2512862"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb97af7c18cf841cb8bb6f03a13850512b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb97af7c18cf841cb8bb6f03a13850512b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb97af7c18cf841cb8bb6f03a13850512b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Paterna"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Valencia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb97af7c18cf841cb8bb6f03a13850512b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb97af7c18cf841cb8bb6f03a13850512b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb97af7c18cf841cb8bb6f03a13850512b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

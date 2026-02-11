@@ -1,0 +1,213 @@
+[
+  {
+    "@id": "https://ror.org/04084bq42",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-05"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "United Medical and Dental College"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UMDC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "United Medical & Dental College"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "United Medical and Dental College, Korangi"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb1"
+      },
+      {
+        "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2010"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://umdc.edu.pk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "United Medical and Dental College"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000459953789"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://umdc.edu.pk"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Creek General Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01dng5s88"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "A.O. Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/035qa0k76"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[67.0104,24.8608]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1174872"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Karachi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Sindh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Pakistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a154819bcef4dbaa29c0b116c62878eb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

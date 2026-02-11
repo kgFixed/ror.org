@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/04vjq8z95",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museum Burg Golling"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://de.wikipedia.org/wiki/Museum_Burg_Golling"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MBG"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1969"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5da0c55821af4dbbae00ee59e97ef1dfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.museumgolling.at"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museum Burg Golling"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://museumgolling.at"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5da0c55821af4dbbae00ee59e97ef1dfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.16667,47.6]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2778361"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5da0c55821af4dbbae00ee59e97ef1dfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5da0c55821af4dbbae00ee59e97ef1dfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5da0c55821af4dbbae00ee59e97ef1dfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Golling an der Salzach"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Salzburg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5da0c55821af4dbbae00ee59e97ef1dfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5da0c55821af4dbbae00ee59e97ef1dfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Austria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5da0c55821af4dbbae00ee59e97ef1dfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

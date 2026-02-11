@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02b73sx33> a org:Organization ;
+    rdfs:label 'Universidad de la Costa'^^xsd:string; 
+    schema:name 'Universidad de la Costa'^^xsd:string; 
+    schema:foundingDate '2006'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'UNCOS'^^xsd:string; 
+    org:alternativeName 'Universidad de la Costa, Santiago Pinotepa Nacional'^^xsd:string ; 
+    schema:url <http://uncos.edu.mx> ; 
+    schema:mainEntityOfPage <https://www.uncos.edu.mx> ;
+    owl:sameAs <https://es.wikipedia.org/wiki/Universidad_de_la_Costa_%2528Pinotepa_Nacional%2529> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-98.05297,16.34014]}" ;
+            schema:address [
+                schema:addressLocality "Pinotepa Nacional" ;
+                schema:addressCountry "MX" ;
+                schema:addressRegion "Oaxaca" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Mexico" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3516926> ;
+        ] ; 
+    .

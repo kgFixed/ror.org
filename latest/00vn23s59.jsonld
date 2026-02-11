@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/00vn23s59",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Estudios de Ciencias de la Salud de Castilla y León"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IECSCYL"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb37236b491224d6ea58b297ec1897e51b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.icscyl.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Estudios de Ciencias de la Salud de Castilla y León"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.488835.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000484950651"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://icscyl.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb37236b491224d6ea58b297ec1897e51b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-2.46883,41.76401]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3108681"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb37236b491224d6ea58b297ec1897e51b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb37236b491224d6ea58b297ec1897e51b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb37236b491224d6ea58b297ec1897e51b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Soria"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Castille and León"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb37236b491224d6ea58b297ec1897e51b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb37236b491224d6ea58b297ec1897e51b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb37236b491224d6ea58b297ec1897e51b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

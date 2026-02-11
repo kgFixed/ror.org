@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00kc1e353> a org:Organization ;
+    rdfs:label 'Parque Nacional de la Sierra de Guadarrama'^^xsd:string; 
+    schema:name 'Parque Nacional de la Sierra de Guadarrama'^^xsd:string; 
+    schema:foundingDate '2013'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'PNSG'^^xsd:string; 
+    schema:url <http://parquenacionalsierraguadarrama.es> ; 
+    schema:url <http://pnsg.es> ; 
+    schema:mainEntityOfPage <https://www.parquenacionalsierraguadarrama.es> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Guadarrama_National_Park> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-3.87898,40.90407]}" ;
+            schema:address [
+                schema:addressLocality "Rascafría" ;
+                schema:addressCountry "ES" ;
+                schema:addressRegion "Madrid" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Spain" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3112276> ;
+        ] ; 
+    .

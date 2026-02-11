@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/02cxadc11",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Winrock International (United States)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1985"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n99b0736cfd3d462790c1ade61d287180b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://winrock.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Winrock International (United States)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.427360.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000090234927"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://winrock.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n99b0736cfd3d462790c1ade61d287180b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-92.28959,34.74648]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4119403"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n99b0736cfd3d462790c1ade61d287180b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n99b0736cfd3d462790c1ade61d287180b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n99b0736cfd3d462790c1ade61d287180b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Little Rock"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Arkansas"
+      }
+    ]
+  },
+  {
+    "@id": "_:n99b0736cfd3d462790c1ade61d287180b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n99b0736cfd3d462790c1ade61d287180b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n99b0736cfd3d462790c1ade61d287180b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

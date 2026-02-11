@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/014e1qv83> a org:Organization ;
+    rdfs:label 'University of Saravan'^^xsd:string; 
+    schema:name 'University of Saravan'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'دانشگاه سراوان'^^xsd:string ; 
+    schema:url <http://saravan.ac.ir> ; 
+    schema:mainEntityOfPage <https://saravan.ac.ir> ;
+    owl:sameAs <https://fa.wikipedia.org/wiki/%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25DA%25AF%25D8%25A7%25D9%2587_%25D8%25B3%25D8%25B1%25D8%25A7%25D9%2588%25D8%25A7%25D9%2586> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[62.33096,27.37089]}" ;
+            schema:address [
+                schema:addressLocality "Sarāvān" ;
+                schema:addressCountry "IR" ;
+                schema:addressRegion "Sistan and Baluchestan" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Iran" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1159713> ;
+        ] ; 
+    .

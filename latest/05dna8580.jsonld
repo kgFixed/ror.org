@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/05dna8580",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VDI/VDE Innovation + Technik"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc1b2e4bb70a64c2fba1ef12270b92da3b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://vdivde-it.de/de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "VDI/VDE Innovation + Technik"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.410420.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000110907560"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vdivde-it.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1b2e4bb70a64c2fba1ef12270b92da3b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.41053,52.52437]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2950159"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc1b2e4bb70a64c2fba1ef12270b92da3b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1b2e4bb70a64c2fba1ef12270b92da3b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc1b2e4bb70a64c2fba1ef12270b92da3b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Berlin"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "State of Berlin"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1b2e4bb70a64c2fba1ef12270b92da3b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc1b2e4bb70a64c2fba1ef12270b92da3b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1b2e4bb70a64c2fba1ef12270b92da3b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

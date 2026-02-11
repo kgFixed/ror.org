@@ -1,0 +1,400 @@
+[
+  {
+    "@id": "https://ror.org/01q7qpe08",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "New Zealand Clinical Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NZCR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2020"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b2"
+      },
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b6"
+      },
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b10"
+      },
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b14"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.nzcr.co.nz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "New Zealand Clinical Research"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nzcr.co.nz"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Christchurch Clinical Studies Trust"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02wccra50"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[174.76349,-36.84853]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2193733"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Auckland"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Auckland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b6",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[175.28333,-37.78333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2190324"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b7"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b7",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b8"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hamilton"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Waikato Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b8",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b9"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b9",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b10",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[174.77557,-41.28664]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2179537"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b11"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b11",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b12"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Wellington"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Wellington Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b12",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b13"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b13",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b14",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[172.63333,-43.53333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2192362"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b15"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b15",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b16"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Christchurch"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Canterbury"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b16",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf90d2fec5d374cef996e713eae127476b17"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf90d2fec5d374cef996e713eae127476b17",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

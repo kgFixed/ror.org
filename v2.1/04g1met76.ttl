@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04g1met76> a org:Organization ;
+    rdfs:label 'National School of Computer Science'^^xsd:string; 
+    schema:name 'National School of Computer Science'^^xsd:string; 
+    schema:foundingDate '1984'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'ENSI'^^xsd:string; 
+    schema:url <http://ensi-uma.tn> ; 
+    schema:mainEntityOfPage <https://ensi.rnu.tn> ;
+    owl:sameAs <https://fr.wikipedia.org/wiki/%25C3%2589cole_nationale_des_sciences_de_l%2527informatique> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/0503ejf32> ;
+        rdfs:label 'Manouba University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[9.83333,36.83333]}" ;
+            schema:address [
+                schema:addressLocality "Manouba" ;
+                schema:addressCountry "TN" ;
+                schema:addressRegion "Manouba" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Tunisia" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6201192> ;
+        ] ; 
+    .

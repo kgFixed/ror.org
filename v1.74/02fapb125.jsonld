@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/02fapb125",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Majblommans Riksförbund"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://sv.wikipedia.org/wiki/Majblommans_riksf%25C3%25B6rbund"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Majblommans Association"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mayflower Association"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfe15bde0ed1d429a96a35b6f4c9ad417b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://majblomman.se"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Majblommans Riksförbund"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100009768"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000478663410"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://majblomman.se"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe15bde0ed1d429a96a35b6f4c9ad417b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.96679,57.70716]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2711537"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfe15bde0ed1d429a96a35b6f4c9ad417b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe15bde0ed1d429a96a35b6f4c9ad417b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfe15bde0ed1d429a96a35b6f4c9ad417b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gothenburg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Västra Götaland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe15bde0ed1d429a96a35b6f4c9ad417b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfe15bde0ed1d429a96a35b6f4c9ad417b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sweden"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfe15bde0ed1d429a96a35b6f4c9ad417b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

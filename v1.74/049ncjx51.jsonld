@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/049ncjx51",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sage Bionetworks"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Sage_Bionetworks"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2009"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc2b4daccc8ba4d2da881ff96421f481ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://sagebionetworks.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sage Bionetworks"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.430406.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000460235303"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sagebionetworks.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2b4daccc8ba4d2da881ff96421f481ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-122.33207,47.60621]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5809844"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc2b4daccc8ba4d2da881ff96421f481ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2b4daccc8ba4d2da881ff96421f481ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc2b4daccc8ba4d2da881ff96421f481ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Seattle"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Washington"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2b4daccc8ba4d2da881ff96421f481ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc2b4daccc8ba4d2da881ff96421f481ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2b4daccc8ba4d2da881ff96421f481ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

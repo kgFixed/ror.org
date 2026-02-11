@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03yy33w47> a org:Organization ;
+    rdfs:label 'Taipei American School'^^xsd:string; 
+    schema:name 'Taipei American School'^^xsd:string; 
+    schema:foundingDate '1949'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'TAS'^^xsd:string; 
+    schema:url <http://tas.edu.tw> ; 
+    schema:mainEntityOfPage <https://www.tas.edu.tw> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Taipei_American_School> ; 
+    schema:sameAs <http://isni.org/isni/0000000406429246> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[121,24]}" ;
+            schema:address [
+                schema:addressLocality "Taiwan" ;
+                schema:addressCountry "TW" ;
+                schema:addressRegion "None" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Taiwan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1668284> ;
+        ] ; 
+    .

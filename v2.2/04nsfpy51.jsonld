@@ -1,0 +1,145 @@
+[
+  {
+    "@id": "https://ror.org/04nsfpy51",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Historical Archive of the City of Cologne"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Historical_Archive_of_the_City_of_Cologne"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb647eaed9b1841849fa1faee30c6351eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.stadt-koeln.de"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Historical Archive of the City of Cologne"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.461625.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122018787"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://stadt-koeln.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb647eaed9b1841849fa1faee30c6351eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.95,50.93333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2886242"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb647eaed9b1841849fa1faee30c6351eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb647eaed9b1841849fa1faee30c6351eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb647eaed9b1841849fa1faee30c6351eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cologne"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North Rhine-Westphalia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb647eaed9b1841849fa1faee30c6351eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb647eaed9b1841849fa1faee30c6351eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb647eaed9b1841849fa1faee30c6351eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

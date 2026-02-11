@@ -1,0 +1,175 @@
+[
+  {
+    "@id": "https://ror.org/01fva0642",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Frontier Technology, Bangladesh"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Frontier_Technology%252C_Bangladesh"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BDU"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UFTB"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gazipur Digital University"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "গাজীপুর ডিজিটাল ইউনিভার্সিটি"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "বঙ্গবন্ধু শেখ মুজিবুর রহমান ডিজিটাল ইউনিভার্সিটি, বাংলাদেশ"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2018"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nae551f004e3d4304bc515dbbae4edc92b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://uftb.ac.bd"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Frontier Technology, Bangladesh"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000480043050"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bdu.ac.bd"
+      },
+      {
+        "@id": "http://uftb.ac.bd"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae551f004e3d4304bc515dbbae4edc92b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[90.42234,23.99844]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1200109"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nae551f004e3d4304bc515dbbae4edc92b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae551f004e3d4304bc515dbbae4edc92b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nae551f004e3d4304bc515dbbae4edc92b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BD"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Gazipur"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dhaka Division"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae551f004e3d4304bc515dbbae4edc92b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nae551f004e3d4304bc515dbbae4edc92b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bangladesh"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae551f004e3d4304bc515dbbae4edc92b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

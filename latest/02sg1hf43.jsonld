@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/02sg1hf43",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Victoria Park"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1499a792ee30480ab66677fb2262a39bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://vicpark.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Victoria Park"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.478166.a"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://vicpark.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1499a792ee30480ab66677fb2262a39bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-73.59918,45.48341]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6179226"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1499a792ee30480ab66677fb2262a39bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1499a792ee30480ab66677fb2262a39bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1499a792ee30480ab66677fb2262a39bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Westmount"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Quebec"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1499a792ee30480ab66677fb2262a39bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1499a792ee30480ab66677fb2262a39bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Canada"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1499a792ee30480ab66677fb2262a39bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

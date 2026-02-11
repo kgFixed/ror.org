@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02smsax08> a org:Organization ;
+    rdfs:label 'Hospital Nossa Senhora da Conceição'^^xsd:string; 
+    schema:name 'Hospital Nossa Senhora da Conceição'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Hospital Conceição'^^xsd:string ; 
+    schema:mainEntityOfPage <http://www.ghc.com.br/default.asp?idMenu=unidades&idSubMenu=1> ;
+    schema:sameAs <https://grid.ac/institutions/grid.414914.d> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-49.00694,-28.46667]}" ;
+            schema:address [
+                schema:addressLocality "Tubarão" ;
+                schema:addressCountry "BR" ;
+                schema:addressRegion "Santa Catarina" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Brazil" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3445993> ;
+        ] ; 
+    .

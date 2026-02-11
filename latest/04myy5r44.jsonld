@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/04myy5r44",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Batı Karadeniz Akademisyenler Derneği"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "BAKAD"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2012"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n73802785f2414b1b951ca37c0ddde35cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.bakad.org.tr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Batı Karadeniz Akademisyenler Derneği"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bakad.org.tr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n73802785f2414b1b951ca37c0ddde35cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[32.3375,41.63583]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/751057"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n73802785f2414b1b951ca37c0ddde35cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n73802785f2414b1b951ca37c0ddde35cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n73802785f2414b1b951ca37c0ddde35cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bartın"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bartın"
+      }
+    ]
+  },
+  {
+    "@id": "_:n73802785f2414b1b951ca37c0ddde35cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n73802785f2414b1b951ca37c0ddde35cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Türkiye"
+      }
+    ]
+  },
+  {
+    "@id": "_:n73802785f2414b1b951ca37c0ddde35cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/012m8gv78> a org:Organization ;
+    rdfs:label 'Luxembourg Institute of Health'^^xsd:string; 
+    schema:name 'Luxembourg Institute of Health'^^xsd:string; 
+    schema:foundingDate '1988'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'LIH'^^xsd:string; 
+    schema:url <http://lih.lu> ; 
+    schema:mainEntityOfPage <https://www.lih.lu> ;
+    schema:sameAs <https://grid.ac/institutions/grid.451012.3> ;
+    schema:sameAs <http://isni.org/isni/000000040621531X> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04wm8ce51> ;
+        rdfs:label 'Integrated Biobank of Luxembourg'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[6.07333,49.62056]}" ;
+            schema:address [
+                schema:addressLocality "Strassen" ;
+                schema:addressCountry "LU" ;
+                schema:addressRegion "Luxembourg" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Luxembourg" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2960054> ;
+        ] ; 
+    .

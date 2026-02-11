@@ -1,0 +1,53 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02xar8d89> a org:Organization ;
+    rdfs:label 'Instituto de Biotecnología Ambiental y Salud'^^xsd:string; 
+    schema:name 'Instituto de Biotecnología Ambiental y Salud'^^xsd:string; 
+    schema:foundingDate '2019'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'INBIAS'^^xsd:string; 
+    org:alternativeName 'INBIAS-CONICET-UNRC'^^xsd:string ; 
+    org:alternativeName 'Instituto de Biotecnología Ambiental y Salud (Consejo Nacional de Investigaciones Científicas y Técnicas - Universidad Nacional de Río Cuarto)'^^xsd:string ; 
+    schema:url <http://inbias.conicet.gov.ar> ; 
+    schema:mainEntityOfPage <https://inbias.conicet.gov.ar> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/0002pcv65> ;
+        rdfs:label 'National University of Río Cuarto'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/03cqe8w59> ;
+        rdfs:label 'Consejo Nacional de Investigaciones Científicas y Técnicas'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-64.35272,-33.13044]}" ;
+            schema:address [
+                schema:addressLocality "Río Cuarto" ;
+                schema:addressCountry "AR" ;
+                schema:addressRegion "Cordoba" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Argentina" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3838874> ;
+        ] ; 
+    .

@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/04357k290",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St. Mary’s College"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Saint Mary's Academy & College"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Saint Mary's Academy and College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na3f8699f776c4904a41c67b697cf3c1cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://college.smac.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "St. Mary’s College"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.447335.2"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://smac.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3f8699f776c4904a41c67b697cf3c1cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-96.0711,39.19416]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4278741"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na3f8699f776c4904a41c67b697cf3c1cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3f8699f776c4904a41c67b697cf3c1cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na3f8699f776c4904a41c67b697cf3c1cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Saint Marys"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kansas"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3f8699f776c4904a41c67b697cf3c1cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na3f8699f776c4904a41c67b697cf3c1cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3f8699f776c4904a41c67b697cf3c1cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

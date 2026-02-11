@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/05k10hd12",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Agriculture, Food and Viticulture"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MAVDR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc5a31464dee7403295bb02070de1576ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ma.gouvernement.lu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Agriculture, Food and Viticulture"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ma.gouvernement.lu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc5a31464dee7403295bb02070de1576ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.16667,49.75]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2960313"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc5a31464dee7403295bb02070de1576ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc5a31464dee7403295bb02070de1576ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc5a31464dee7403295bb02070de1576ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Luxembourg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nc5a31464dee7403295bb02070de1576ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc5a31464dee7403295bb02070de1576ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Luxembourg"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc5a31464dee7403295bb02070de1576ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

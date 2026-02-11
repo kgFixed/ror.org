@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00as6e892> a org:Organization ;
+    rdfs:label 'Qatar Museums'^^xsd:string; 
+    schema:name 'Qatar Museums'^^xsd:string; 
+    schema:foundingDate '2005'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'archive'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'QMA'^^xsd:string; 
+    org:alternativeName 'Qatar Museums Authority'^^xsd:string ; 
+    schema:url <http://qm.org.qa> ; 
+    schema:mainEntityOfPage <https://qm.org.qa> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Qatar_Museums_Authority> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.498644.3> ;
+    schema:sameAs <http://isni.org/isni/0000000404883533> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[51.53096,25.28545]}" ;
+            schema:address [
+                schema:addressLocality "Doha" ;
+                schema:addressCountry "QA" ;
+                schema:addressRegion "Baladīyat ad Dawḩah" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Qatar" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/290030> ;
+        ] ; 
+    .

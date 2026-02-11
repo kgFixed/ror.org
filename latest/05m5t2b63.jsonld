@@ -1,0 +1,167 @@
+[
+  {
+    "@id": "https://ror.org/05m5t2b63",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-02-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Office of the Higher Education Commission"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.mua.go.th/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Office of the Higher Education Commission"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100012527"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.501562.5"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Higher Education, Science, Research and Innovation"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03cqd2v24"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[100.50144,13.75398]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1609350"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bangkok"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bangkok"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Thailand"
+      }
+    ]
+  },
+  {
+    "@id": "_:n93da2a384c4b455e831b81ba2319b1bcb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

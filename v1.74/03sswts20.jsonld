@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/03sswts20",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Mobile"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Mobile"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Mobile College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1961"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc893117c1c84474c89904c9dba474a1fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://umobile.edu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Mobile"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.266769.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000094296236"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://umobile.edu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc893117c1c84474c89904c9dba474a1fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-88.04305,30.69436]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4076598"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc893117c1c84474c89904c9dba474a1fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc893117c1c84474c89904c9dba474a1fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc893117c1c84474c89904c9dba474a1fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mobile"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Alabama"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc893117c1c84474c89904c9dba474a1fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc893117c1c84474c89904c9dba474a1fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc893117c1c84474c89904c9dba474a1fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

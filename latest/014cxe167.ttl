@@ -1,0 +1,54 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/014cxe167> a org:Organization ;
+    rdfs:label 'Fonds de Dotation Clinatec'^^xsd:string; 
+    schema:name 'Fonds de Dotation Clinatec'^^xsd:string; 
+    schema:foundingDate '2014'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Clinatec Endowment Fund'^^xsd:string ; 
+    org:abbreviation 'FDD'^^xsd:string; 
+    org:alternativeName 'Univ. Grenoble Alpes, Fonds de Dotation Clinatec'^^xsd:string ; 
+    schema:url <http://fonds-clinatec.fr> ; 
+    schema:mainEntityOfPage <https://fonds-clinatec.fr> ;
+    schema:sameAs <http://isni.org/isni/0000000476437567> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02dpnb389> ;
+        rdfs:label 'Clinatec'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01027m165> ;
+        rdfs:label 'Brain Tech Laboratory'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[5.71479,45.17869]}" ;
+            schema:address [
+                schema:addressLocality "Grenoble" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Rhône-Alpes" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3014728> ;
+        ] ; 
+    .

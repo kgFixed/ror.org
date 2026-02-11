@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/05fn2nj53",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Xilio Therapeutics (United States)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akrevia Therapeutics"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2015"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n03e24d1067944366b981afa4aa69cdfbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://xiliotx.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Xilio Therapeutics (United States)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.508771.c"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://xiliotx.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n03e24d1067944366b981afa4aa69cdfbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-71.23561,42.37649]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4954380"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n03e24d1067944366b981afa4aa69cdfbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n03e24d1067944366b981afa4aa69cdfbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n03e24d1067944366b981afa4aa69cdfbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Waltham"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Massachusetts"
+      }
+    ]
+  },
+  {
+    "@id": "_:n03e24d1067944366b981afa4aa69cdfbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n03e24d1067944366b981afa4aa69cdfbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n03e24d1067944366b981afa4aa69cdfbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

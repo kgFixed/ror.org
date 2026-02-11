@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04tydb537> a org:Organization ;
+    rdfs:label 'New Hampshire Department of Environmental Services'^^xsd:string; 
+    schema:name 'New Hampshire Department of Environmental Services'^^xsd:string; 
+    schema:foundingDate '1987'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'DES'^^xsd:string; 
+    schema:mainEntityOfPage <http://des.nh.gov/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.448317.d> ;
+    schema:sameAs <http://isni.org/isni/0000000404225901> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02py6hx98> ;
+        rdfs:label 'New Hampshire Geological Survey'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-71.53757,43.20814]}" ;
+            schema:address [
+                schema:addressLocality "Concord" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "New Hampshire" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5084868> ;
+        ] ; 
+    .

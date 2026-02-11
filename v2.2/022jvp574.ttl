@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/022jvp574> a org:Organization ;
+    rdfs:label 'Radiation Protection Institute'^^xsd:string; 
+    schema:name 'Radiation Protection Institute'^^xsd:string; 
+    schema:foundingDate '1993'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'RPI'^^xsd:string; 
+    org:alternativeName 'Radiation Protection Institute of Ghana'^^xsd:string ; 
+    schema:url <http://rpi.gaec.gov.gh> ; 
+    schema:mainEntityOfPage <https://rpi.gaec.gov.gh> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/010w37e28> ;
+        rdfs:label 'Ghana Atomic Energy Commission'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-0.1969,5.55602]}" ;
+            schema:address [
+                schema:addressLocality "Accra" ;
+                schema:addressCountry "GH" ;
+                schema:addressRegion "Greater Accra" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Ghana" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2306104> ;
+        ] ; 
+    .

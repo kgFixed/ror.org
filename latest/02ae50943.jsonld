@@ -1,0 +1,164 @@
+[
+  {
+    "@id": "https://ror.org/02ae50943",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Secretaria da Saúde do Estado da Bahia"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://pt.wikipedia.org/wiki/Secretaria_de_Sa%25C3%25BAde_do_Estado_da_Bahia"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SESAB"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bahia State Health Department"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Secretaria da Saúde do Estado da Bahia – SESAB"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1966"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2ca93d3a09ef44928438e54a0f62ec9eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.saude.ba.gov.br"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Secretaria da Saúde do Estado da Bahia"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000446867814"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://saude.ba.gov.br"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2ca93d3a09ef44928438e54a0f62ec9eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-38.49096,-12.97563]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3450554"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2ca93d3a09ef44928438e54a0f62ec9eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2ca93d3a09ef44928438e54a0f62ec9eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2ca93d3a09ef44928438e54a0f62ec9eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Salvador"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bahia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2ca93d3a09ef44928438e54a0f62ec9eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2ca93d3a09ef44928438e54a0f62ec9eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2ca93d3a09ef44928438e54a0f62ec9eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

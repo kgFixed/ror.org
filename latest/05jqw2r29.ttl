@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05jqw2r29> a org:Organization ;
+    rdfs:label 'Rossdales Veterinary Surgeons'^^xsd:string; 
+    schema:name 'Rossdales Veterinary Surgeons'^^xsd:string; 
+    schema:foundingDate '1959'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2019-02-17'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Rossdales Equine Hospital'^^xsd:string ; 
+    schema:url <http://rossdales.com> ; 
+    schema:mainEntityOfPage <https://www.rossdales.com/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.500832.c> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[0.40418,52.24467]}" ;
+            schema:address [
+                schema:addressLocality "Newmarket" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "England" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2641616> ;
+        ] ; 
+    .

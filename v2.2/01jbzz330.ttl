@@ -1,0 +1,61 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01jbzz330> a org:Organization ;
+    rdfs:label 'Center for International Forestry Research'^^xsd:string; 
+    schema:name 'Center for International Forestry Research'^^xsd:string; 
+    schema:foundingDate '1993'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'CIFOR'^^xsd:string; 
+    schema:mainEntityOfPage <http://www.cifor.org/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Center_for_International_Forestry_Research> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100001836> ;
+    schema:sameAs <https://grid.ac/institutions/grid.450561.3> ;
+    schema:sameAs <http://isni.org/isni/000000040644442X> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01rt0fh70> ;
+        rdfs:label 'Center for International Forestry Research'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/04c4bm785> ;
+        rdfs:label 'CGIAR'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00m8k1p34> ;
+        rdfs:label 'Centre for International Forestry Research'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[106.78917,-6.59444]}" ;
+            schema:address [
+                schema:addressLocality "Bogor" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "West Java" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1648473> ;
+        ] ; 
+    .

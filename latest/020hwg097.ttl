@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/020hwg097> a org:Organization ;
+    rdfs:label 'Institute for the Protection of Cultural Heritage of Slovenia'^^xsd:string; 
+    schema:name 'Institute for the Protection of Cultural Heritage of Slovenia'^^xsd:string; 
+    schema:foundingDate '1999'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'IPCHS'^^xsd:string; 
+    org:abbreviation 'ZVKDS'^^xsd:string; 
+    org:alternativeName 'Zavod za Varstvo Kulturne Dediščine Slovenije'^^xsd:string ; 
+    schema:url <http://zvkds.si> ; 
+    schema:mainEntityOfPage <https://www.zvkds.si> ;
+    schema:sameAs <https://grid.ac/institutions/grid.457151.3> ;
+    schema:sameAs <http://isni.org/isni/0000000121663581> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[14.50513,46.05108]}" ;
+            schema:address [
+                schema:addressLocality "Ljubljana" ;
+                schema:addressCountry "SI" ;
+                schema:addressRegion "Ljubljana" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Slovenia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3196359> ;
+        ] ; 
+    .

@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02vtdx988> a org:Organization ;
+    rdfs:label 'Houston Museum of Natural Science'^^xsd:string; 
+    schema:name 'Houston Museum of Natural Science'^^xsd:string; 
+    schema:foundingDate '1909'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'archive'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'HMNS'^^xsd:string; 
+    schema:url <http://hmns.org> ; 
+    schema:mainEntityOfPage <https://www.hmns.org/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Houston_Museum_of_Natural_Science> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.487588.e> ;
+    schema:sameAs <http://isni.org/isni/0000000110918833> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-95.36327,29.76328]}" ;
+            schema:address [
+                schema:addressLocality "Houston" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Texas" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4699066> ;
+        ] ; 
+    .

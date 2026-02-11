@@ -1,0 +1,186 @@
+[
+  {
+    "@id": "https://ror.org/058cjye32",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad de Guanajuato"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Universidad_de_Guanajuato"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1732"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ugto.mx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad de Guanajuato"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100006054"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.412891.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000105618457"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ugto.mx"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad de Guanajuato Campus Celaya-Salvatierra"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03cbvt511"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-101.2591,21.01858]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4005270"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MX"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Guanajuato City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Guanajuato"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Mexico"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3ca6522b1f0f48569f4936b8cc52b805b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

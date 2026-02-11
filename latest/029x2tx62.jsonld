@@ -1,0 +1,155 @@
+[
+  {
+    "@id": "https://ror.org/029x2tx62",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chukwuemeka Odumegwu Ojukwu University, Igbariam Campus"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://coou.edu.ng/igbariam-campus/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chukwuemeka Odumegwu Ojukwu University, Igbariam Campus"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chukwuemeka Odumegwu Ojukwu University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/018ze3r73"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.94409,6.39067]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2338808"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Igbamam"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Anambra"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3aa0a725b29143619b84fee031e5d5bfb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

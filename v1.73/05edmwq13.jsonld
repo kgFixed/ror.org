@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/05edmwq13",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sundsvall Municipality"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Sundsvall_Municipality"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sundsvalls kommun"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1952"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5f49c79cae8943f8b29d7d0da3f7d896b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://sundsvall.se"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sundsvall Municipality"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.451979.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404324862"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sundsvall.se"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f49c79cae8943f8b29d7d0da3f7d896b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[17.3063,62.39129]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2670781"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5f49c79cae8943f8b29d7d0da3f7d896b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f49c79cae8943f8b29d7d0da3f7d896b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5f49c79cae8943f8b29d7d0da3f7d896b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sundsvall"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Västernorrland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f49c79cae8943f8b29d7d0da3f7d896b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5f49c79cae8943f8b29d7d0da3f7d896b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sweden"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5f49c79cae8943f8b29d7d0da3f7d896b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

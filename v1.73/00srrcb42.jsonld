@@ -1,0 +1,203 @@
+[
+  {
+    "@id": "https://ror.org/00srrcb42",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-08-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laboratoire Caribéen de Sciences Sociales"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "LC2S"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UMR 8053"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UMR8053"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b1"
+      },
+      {
+        "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2002"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://lc2s.cnrs.fr/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laboratoire Caribéen de Sciences Sociales"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Université des Antilles"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02ryfmr77"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centre National de la Recherche Scientifique"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02feahw73"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-61.099,14.61774]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3569886"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MQ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Schoelcher"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Martinique"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Martinique"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndf2d6f6d7810468eaedbd74f537da288b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

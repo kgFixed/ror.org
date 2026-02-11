@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04mh6t995> a org:Organization ;
+    rdfs:label 'CAF – Development Bank of Latin America'^^xsd:string; 
+    schema:name 'CAF – Development Bank of Latin America'^^xsd:string; 
+    schema:foundingDate '1968'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2019-11-07'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Andean Development Corporation – Development Bank of Latin America'^^xsd:string ; 
+    org:abbreviation 'CAF'^^xsd:string; 
+    schema:url <http://caf.com> ; 
+    schema:mainEntityOfPage <https://www.caf.com/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/CAF_%25E2%2580%2593_Development_Bank_of_Latin_America> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.507391.9> ;
+    schema:sameAs <http://isni.org/isni/0000000122937484> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-78.14833,34.06767]}" ;
+            schema:address [
+                schema:addressLocality "Bolivia" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "North Carolina" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4456615> ;
+        ] ; 
+    .

@@ -1,0 +1,178 @@
+[
+  {
+    "@id": "https://ror.org/01t1kv810",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ukraine Sigmund Freud University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "USFU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Зіґмунд Фройд Університет Україна"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2023"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://usfu.edu.ua"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ukraine Sigmund Freud University"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://usfu.edu.ua"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sigmund Freud Privatuniversität Wien"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04hwbg047"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[30.5238,50.45466]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/703448"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kyiv"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kyiv City"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ukraine"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5a2e5fffc1cc4b51a0ec8e86e5b16735b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

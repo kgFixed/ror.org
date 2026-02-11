@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03b42q221> a org:Organization ;
+    rdfs:label 'United Orthopedic (Taiwan)'^^xsd:string; 
+    schema:name 'United Orthopedic (Taiwan)'^^xsd:string; 
+    schema:foundingDate '1993'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'UOC'^^xsd:string; 
+    schema:url <http://unitedorthopedic.com> ; 
+    schema:mainEntityOfPage <https://www.unitedorthopedic.com> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[121.45703,25.06199]}" ;
+            schema:address [
+                schema:addressLocality "New Taipei" ;
+                schema:addressCountry "TW" ;
+                schema:addressRegion "Taipei" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Taiwan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/12908892> ;
+        ] ; 
+    .

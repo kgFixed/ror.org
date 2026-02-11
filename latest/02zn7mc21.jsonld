@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/02zn7mc21",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Medical Care Development"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MCD"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1966"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2b981ed9c359446e845ae9063b330e36b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://mcd.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Medical Care Development"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.421220.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000403723597"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mcd.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2b981ed9c359446e845ae9063b330e36b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-69.77949,44.31062]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4957003"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2b981ed9c359446e845ae9063b330e36b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2b981ed9c359446e845ae9063b330e36b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2b981ed9c359446e845ae9063b330e36b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Augusta"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Maine"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2b981ed9c359446e845ae9063b330e36b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2b981ed9c359446e845ae9063b330e36b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2b981ed9c359446e845ae9063b330e36b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

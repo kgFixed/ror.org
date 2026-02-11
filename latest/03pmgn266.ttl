@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03pmgn266> a org:Organization ;
+    rdfs:label 'Faculty of Applied Social Studies in Nova Gorica'^^xsd:string; 
+    schema:name 'Faculty of Applied Social Studies in Nova Gorica'^^xsd:string; 
+    schema:foundingDate '2006'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'FUDŠ'^^xsd:string; 
+    schema:url <http://fuds.si> ; 
+    schema:mainEntityOfPage <https://www.fuds.si> ;
+    schema:sameAs <https://grid.ac/institutions/grid.445251.3> ;
+    schema:sameAs <http://isni.org/isni/0000000405041178> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[13.64837,45.95604]}" ;
+            schema:address [
+                schema:addressLocality "Nova Gorica" ;
+                schema:addressCountry "SI" ;
+                schema:addressRegion "Nova Gorica" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Slovenia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3194452> ;
+        ] ; 
+    .

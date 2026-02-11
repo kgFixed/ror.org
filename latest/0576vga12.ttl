@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0576vga12> a org:Organization ;
+    rdfs:label 'Vasyl Stefanyk Carpathian National University'^^xsd:string; 
+    schema:name 'Vasyl Stefanyk Carpathian National University'^^xsd:string; 
+    schema:foundingDate '1940'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Podkarpacki Uniwersytet Narodowy im. Wasyla Stefanyka'^^xsd:string ; 
+    org:alternativeName 'Vasyl Stefanyk Precarpathian National University'^^xsd:string ; 
+    org:alternativeName 'Прикарпатский национальный университет имени Василия Стефаника'^^xsd:string ; 
+    org:alternativeName 'Прикарпатський національний університет імені Василя Стефаника'^^xsd:string ; 
+    schema:url <http://cnu.edu.ua> ; 
+    schema:mainEntityOfPage <https://cnu.edu.ua> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Vasyl_Stefanyk_Precarpathian_National_University> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.445463.4> ;
+    schema:sameAs <http://isni.org/isni/0000000464781758> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[24.71248,48.92312]}" ;
+            schema:address [
+                schema:addressLocality "Ivano-Frankivsk" ;
+                schema:addressCountry "UA" ;
+                schema:addressRegion "Ivano-Frankivsk" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Ukraine" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/707471> ;
+        ] ; 
+    .

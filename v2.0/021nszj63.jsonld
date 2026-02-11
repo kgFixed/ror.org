@@ -1,0 +1,207 @@
+[
+  {
+    "@id": "https://ror.org/021nszj63",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Computer Technology Institute and Press “DIOPHANTUS”"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Research_Academic_Computer_Technology_Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CTI "
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ITYE"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "RACTI "
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Computer Technology Institute"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institouto Technologias Ypologiston kai Ekdosewn"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Research Academic Computer Technology Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n230925641e1149528b60156efe4823c4b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1985"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n230925641e1149528b60156efe4823c4b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cti.gr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Computer Technology Institute and Press “DIOPHANTUS”"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.18665.3c"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404427722"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cti.gr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n230925641e1149528b60156efe4823c4b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Education and Religious Affairs"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04zvb9t44"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n230925641e1149528b60156efe4823c4b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[21.73508,38.2462]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/255683"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n230925641e1149528b60156efe4823c4b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n230925641e1149528b60156efe4823c4b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n230925641e1149528b60156efe4823c4b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pátrai"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "West Greece"
+      }
+    ]
+  },
+  {
+    "@id": "_:n230925641e1149528b60156efe4823c4b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n230925641e1149528b60156efe4823c4b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Greece"
+      }
+    ]
+  },
+  {
+    "@id": "_:n230925641e1149528b60156efe4823c4b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

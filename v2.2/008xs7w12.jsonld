@@ -1,0 +1,128 @@
+[
+  {
+    "@id": "https://ror.org/008xs7w12",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shafagh Institute of Higher Education"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2007"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne6dfbb7578d9434ba54a4e9b4919eab4b1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shafagh Institute of Higher Education"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6dfbb7578d9434ba54a4e9b4919eab4b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[50.87376,36.81626]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/112656"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne6dfbb7578d9434ba54a4e9b4919eab4b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6dfbb7578d9434ba54a4e9b4919eab4b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne6dfbb7578d9434ba54a4e9b4919eab4b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tonekābon"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Māzandarān"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6dfbb7578d9434ba54a4e9b4919eab4b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne6dfbb7578d9434ba54a4e9b4919eab4b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Iran"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne6dfbb7578d9434ba54a4e9b4919eab4b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

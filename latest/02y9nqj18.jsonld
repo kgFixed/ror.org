@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/02y9nqj18",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-07"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Delta State College of Education, Mosogar"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2002"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n57b1eb01bd404d3982fecdb7031803d0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.descoem.edu.ng"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Delta State College of Education, Mosogar"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://descoem.edu.ng"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57b1eb01bd404d3982fecdb7031803d0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.7705,5.91227]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/7027838"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n57b1eb01bd404d3982fecdb7031803d0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57b1eb01bd404d3982fecdb7031803d0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n57b1eb01bd404d3982fecdb7031803d0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Evwonogba Mosogar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Delta"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57b1eb01bd404d3982fecdb7031803d0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n57b1eb01bd404d3982fecdb7031803d0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n57b1eb01bd404d3982fecdb7031803d0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

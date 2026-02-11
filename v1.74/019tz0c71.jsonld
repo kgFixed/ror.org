@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/019tz0c71",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-03-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "State Scientific and Technical Library of Ukraine"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/State_Scientific_and_Technical_Library_of_Ukraine"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SSTL"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1935"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7388123a97d24d44961f92f4414cfcf2b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://dntb.gov.ua"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "State Scientific and Technical Library of Ukraine"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.507671.2"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dntb.gov.ua"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7388123a97d24d44961f92f4414cfcf2b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[30.5238,50.45466]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/703448"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7388123a97d24d44961f92f4414cfcf2b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7388123a97d24d44961f92f4414cfcf2b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7388123a97d24d44961f92f4414cfcf2b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kyiv"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Kyiv City"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7388123a97d24d44961f92f4414cfcf2b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7388123a97d24d44961f92f4414cfcf2b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ukraine"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7388123a97d24d44961f92f4414cfcf2b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

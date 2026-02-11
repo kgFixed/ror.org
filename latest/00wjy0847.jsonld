@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/00wjy0847",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Public Health"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MOPH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne06338bc2fee4823be090c3f27fd8bfeb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://moph.gov.lb"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Public Health"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.490673.f"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://moph.gov.lb"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne06338bc2fee4823be090c3f27fd8bfeb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[35.50157,33.89332]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/276781"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne06338bc2fee4823be090c3f27fd8bfeb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne06338bc2fee4823be090c3f27fd8bfeb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne06338bc2fee4823be090c3f27fd8bfeb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Beirut"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Beyrouth"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne06338bc2fee4823be090c3f27fd8bfeb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne06338bc2fee4823be090c3f27fd8bfeb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Lebanon"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne06338bc2fee4823be090c3f27fd8bfeb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

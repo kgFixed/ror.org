@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/007jy0643",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PharmAccess Group"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/PharmAccess_Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PharmAccess Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2001"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0818b0c4dd8a4c399e152a5c2dda836ab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.pharmaccess.org/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PharmAccess Group"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.487140.e"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000502717897"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://pharmaccess.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0818b0c4dd8a4c399e152a5c2dda836ab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.88969,52.37403]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2759794"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0818b0c4dd8a4c399e152a5c2dda836ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0818b0c4dd8a4c399e152a5c2dda836ab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0818b0c4dd8a4c399e152a5c2dda836ab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Amsterdam"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North Holland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0818b0c4dd8a4c399e152a5c2dda836ab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0818b0c4dd8a4c399e152a5c2dda836ab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0818b0c4dd8a4c399e152a5c2dda836ab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

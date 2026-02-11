@@ -1,0 +1,168 @@
+[
+  {
+    "@id": "https://ror.org/04t67vr60",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-05-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Institute of Pharmaceutical Education and Research"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/National_Institute_of_Pharmaceutical_Education_and_Research,_Kolkata"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NIPER Kolkata"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NIPER-K"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2007"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neaa2d42b71634d47a8e934c091636b1bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://niperkolkata.edu.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Institute of Pharmaceutical Education and Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100019125"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.506039.9"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417754052"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://niperkolkata.edu.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:neaa2d42b71634d47a8e934c091636b1bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[88.36304,22.56263]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1275004"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neaa2d42b71634d47a8e934c091636b1bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:neaa2d42b71634d47a8e934c091636b1bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neaa2d42b71634d47a8e934c091636b1bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kolkata"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "West Bengal"
+      }
+    ]
+  },
+  {
+    "@id": "_:neaa2d42b71634d47a8e934c091636b1bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neaa2d42b71634d47a8e934c091636b1bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:neaa2d42b71634d47a8e934c091636b1bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

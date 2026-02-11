@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/010gvqg61",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museu Paraense Emílio Goeldi"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Museu_Paraense_Em%25C3%25ADlio_Goeldi"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1866"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1a1f662f585d4b88ad6d465de3b83012b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://gov.br/museugoeldi"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museu Paraense Emílio Goeldi"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.452671.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000121751274"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a1f662f585d4b88ad6d465de3b83012b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-48.50444,-1.45583]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3405870"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1a1f662f585d4b88ad6d465de3b83012b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a1f662f585d4b88ad6d465de3b83012b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1a1f662f585d4b88ad6d465de3b83012b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Belém"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Pará"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a1f662f585d4b88ad6d465de3b83012b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1a1f662f585d4b88ad6d465de3b83012b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1a1f662f585d4b88ad6d465de3b83012b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

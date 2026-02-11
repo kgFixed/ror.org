@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/02qmrb876",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Nacional de Competências dos Frutos Secos Associação"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CNCFS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n92e2c401d6db42508f88b6c7076246d4b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://cncfs.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro Nacional de Competências dos Frutos Secos Associação"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000467823589"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cncfs.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:n92e2c401d6db42508f88b6c7076246d4b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-6.76346,41.83615]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2742026"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n92e2c401d6db42508f88b6c7076246d4b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n92e2c401d6db42508f88b6c7076246d4b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n92e2c401d6db42508f88b6c7076246d4b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bragança"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bragança"
+      }
+    ]
+  },
+  {
+    "@id": "_:n92e2c401d6db42508f88b6c7076246d4b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n92e2c401d6db42508f88b6c7076246d4b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n92e2c401d6db42508f88b6c7076246d4b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

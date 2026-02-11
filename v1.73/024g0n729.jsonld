@@ -1,0 +1,161 @@
+[
+  {
+    "@id": "https://ror.org/024g0n729",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital Pulau Pinang"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Penang_General_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CRC Penang"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Clinical Research Centre Hospital Pulau Pinang"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2001"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd6e01ede29e84fb99a2e4ef41797e43fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://crc.gov.my"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital Pulau Pinang"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.477137.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405737693"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://crc.gov.my"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6e01ede29e84fb99a2e4ef41797e43fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[100.33543,5.41123]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1735106"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd6e01ede29e84fb99a2e4ef41797e43fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6e01ede29e84fb99a2e4ef41797e43fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd6e01ede29e84fb99a2e4ef41797e43fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "George Town"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Penang"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6e01ede29e84fb99a2e4ef41797e43fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd6e01ede29e84fb99a2e4ef41797e43fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malaysia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6e01ede29e84fb99a2e4ef41797e43fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

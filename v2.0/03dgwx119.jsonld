@@ -1,0 +1,198 @@
+[
+  {
+    "@id": "https://ror.org/03dgwx119",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azerbaijan National Academy of Sciences Ganja Branch"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://az.wikipedia.org/wiki/Az%25C9%2599rbaycan_Milli_Elml%25C9%2599r_Akademiyas%25C4%25B1n%25C4%25B1n_G%25C9%2599nc%25C9%2599_B%25C3%25B6lm%25C9%2599si"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ANAS - Ganja Division"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ANAS-Ganja Branch"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azerbaijan National Academy of Sciences – Ganja Branch"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ganja Branch of ANAS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ganja Division of ANAS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ndff17a8067b14bebb9970d9c32de374db1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2013"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndff17a8067b14bebb9970d9c32de374db2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ameagb.az"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azerbaijan National Academy of Sciences Ganja Branch"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000512332560"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ameagb.az"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff17a8067b14bebb9970d9c32de374db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azerbaijan National Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/006m4q736"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff17a8067b14bebb9970d9c32de374db2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[46.36134,40.68157]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/586523"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndff17a8067b14bebb9970d9c32de374db3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff17a8067b14bebb9970d9c32de374db3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndff17a8067b14bebb9970d9c32de374db4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Ganja"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gǝncǝ"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff17a8067b14bebb9970d9c32de374db4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndff17a8067b14bebb9970d9c32de374db5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Azerbaijan"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndff17a8067b14bebb9970d9c32de374db5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03mqhy020> a org:Organization ;
+    rdfs:label 'Fundación FAUTAPO'^^xsd:string; 
+    schema:name 'Fundación FAUTAPO'^^xsd:string; 
+    schema:foundingDate '2003'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'FAUTAPO'^^xsd:string ; 
+    schema:url <http://fundacionautapo.org> ; 
+    schema:mainEntityOfPage <https://www.fundacionautapo.org> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-64.72956,-21.53549]}" ;
+            schema:address [
+                schema:addressLocality "Tarija" ;
+                schema:addressCountry "BO" ;
+                schema:addressRegion "Tarija Department" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Bolivia" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3903320> ;
+        ] ; 
+    .

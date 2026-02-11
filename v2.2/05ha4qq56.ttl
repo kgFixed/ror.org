@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05ha4qq56> a org:Organization ;
+    rdfs:label 'Centre National de Gestion des Réserves de Faune'^^xsd:string; 
+    schema:name 'Centre National de Gestion des Réserves de Faune'^^xsd:string; 
+    schema:foundingDate '1996'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'CENAGREF'^^xsd:string; 
+    org:alternativeName 'Centre National pour la Gestion des Réserves de Faune'^^xsd:string ; 
+    org:alternativeName 'National Centre of Management of Fauna Reserves'^^xsd:string ; 
+    owl:sameAs <https://en.wikipedia.org/wiki/National_Centre_of_Management_of_Fauna_Reserves> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[2.41833,6.36536]}" ;
+            schema:address [
+                schema:addressLocality "Cotonou" ;
+                schema:addressCountry "BJ" ;
+                schema:addressRegion "Littoral" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Benin" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2394819> ;
+        ] ; 
+    .

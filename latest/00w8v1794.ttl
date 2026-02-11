@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00w8v1794> a org:Organization ;
+    rdfs:label 'Ecole Supérieure d\'Agronomie Mostaganem'^^xsd:string; 
+    schema:name 'Ecole Supérieure d\'Agronomie Mostaganem'^^xsd:string; 
+    schema:foundingDate '2018'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2024-02-13'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'ESA Mostaganem'^^xsd:string ; 
+    org:abbreviation 'ESAM'^^xsd:string; 
+    org:abbreviation 'HSAM'^^xsd:string; 
+    org:alternativeName 'Higher School of Agronomy Mostaganem'^^xsd:string ; 
+    schema:url <http://esa-mosta.dz> ; 
+    schema:mainEntityOfPage <https://www.esa-mosta.dz> ;
+    schema:sameAs <http://isni.org/isni/0000000509802891> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[0.08918,35.93115]}" ;
+            schema:address [
+                schema:addressLocality "Mostaganem" ;
+                schema:addressCountry "DZ" ;
+                schema:addressRegion "Mostaganem" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Algeria" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2487134> ;
+        ] ; 
+    .

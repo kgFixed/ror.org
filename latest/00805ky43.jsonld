@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/00805ky43",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-09-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Centre for Health (New Zealand)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na1a9c6e083e94e609b9ab35531e95b8cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.thecentreforhealth.co.nz/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The Centre for Health (New Zealand)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.512243.3"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://thecentreforhealth.co.nz"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1a9c6e083e94e609b9ab35531e95b8cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[176.16667,-37.68611]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2208032"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na1a9c6e083e94e609b9ab35531e95b8cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1a9c6e083e94e609b9ab35531e95b8cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na1a9c6e083e94e609b9ab35531e95b8cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Tauranga"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bay of Plenty"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1a9c6e083e94e609b9ab35531e95b8cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na1a9c6e083e94e609b9ab35531e95b8cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1a9c6e083e94e609b9ab35531e95b8cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

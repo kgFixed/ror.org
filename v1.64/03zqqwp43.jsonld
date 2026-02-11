@@ -1,0 +1,172 @@
+[
+  {
+    "@id": "https://ror.org/03zqqwp43",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "All India Institute of Medical Sciences, Vijaypur, Jammu"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AIIMS Jammu"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2019"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.aiimsjammu.edu.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "All India Institute of Medical Sciences, Vijaypur, Jammu"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://aiimsjammu.edu.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "All India Institute of Medical Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02dwcqs71"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[74.86167,32.73528]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1269321"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jammu"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Jammu and Kashmir"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7c5f9c67a3f34690bc1de524123b3e86b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

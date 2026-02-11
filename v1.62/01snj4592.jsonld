@@ -1,0 +1,212 @@
+[
+  {
+    "@id": "https://ror.org/01snj4592",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Czech Social Science Data Archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CSDA"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CSDA/ESS-CZ"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ČSDA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Czech Social Science Data Archive / European Social Survey - Czech Republic"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb1"
+      },
+      {
+        "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2010"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://archiv.soc.cas.cz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Czech Social Science Data Archive"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://soc.cas.cz"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Czech Academy of Sciences, Institute of Sociology"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/018hy5194"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Consortium of European Social Science Data Archives"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02wg9xc72"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[14.42076,50.08804]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3067696"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Prague"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Prague"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Czechia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec4666ef4e4d430aaa46e874d07979eeb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

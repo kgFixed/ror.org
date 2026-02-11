@@ -1,0 +1,180 @@
+[
+  {
+    "@id": "https://ror.org/010s72f83",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "South Infirmary Victoria University Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SIVUH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1988"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://sivuh.ie"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "South Infirmary Victoria University Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.412702.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406178029"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sivuh.ie"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University College Cork"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03265fv13"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.47061,51.89797]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2965140"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Cork"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Munster"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ireland"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne4e7ad49db6e49f4af0d2eaf9d1e62bfb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

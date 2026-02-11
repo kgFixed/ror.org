@@ -1,0 +1,184 @@
+[
+  {
+    "@id": "https://ror.org/02b207r52",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Science and Technology"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Ministry_of_Science_and_Technology_(Vietnam)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MOST"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nec36a0347fc34914a63c7e067993fd2ab1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1959"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nec36a0347fc34914a63c7e067993fd2ab2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.most.gov.vn/Desktop.aspx/Home-EN/Home-page/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Science and Technology"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100007225"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.452916.d"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec36a0347fc34914a63c7e067993fd2ab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Center for Technological Progress"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/05c53qb74"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec36a0347fc34914a63c7e067993fd2ab2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[105.84117,21.0245]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1581130"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nec36a0347fc34914a63c7e067993fd2ab3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec36a0347fc34914a63c7e067993fd2ab3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nec36a0347fc34914a63c7e067993fd2ab4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "VN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hanoi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "An Giang Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec36a0347fc34914a63c7e067993fd2ab4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nec36a0347fc34914a63c7e067993fd2ab5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Vietnam"
+      }
+    ]
+  },
+  {
+    "@id": "_:nec36a0347fc34914a63c7e067993fd2ab5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

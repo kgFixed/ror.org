@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/055bda088> a org:Organization ;
+    rdfs:label 'Tajik Pedagogical Institute in the Rasht District'^^xsd:string; 
+    schema:name 'Tajik Pedagogical Institute in the Rasht District'^^xsd:string; 
+    schema:foundingDate '2006'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Pedagogical Institute of Tajikistan in Rashtskyi District'^^xsd:string ; 
+    org:alternativeName 'TPI in Rasht District'^^xsd:string ; 
+    org:alternativeName 'Tajikistan Pedagogical University in Rasht District'^^xsd:string ; 
+    org:abbreviation 'ДОТР'^^xsd:string; 
+    org:alternativeName 'Шӯъбаи Донишгоҳи давлатии омӯзгории Тоҷикистон дар Рашт'^^xsd:string ; 
+    schema:url <http://dotr.tj> ; 
+    schema:mainEntityOfPage <https://dotr.tj> ;
+    owl:sameAs <https://tg.wikipedia.org/wiki/%25D0%2594%25D0%25BE%25D0%25BD%25D0%25B8%25D1%2588%25D0%25BA%25D0%25B0%25D0%25B4%25D0%25B0%25D0%25B8_%25D0%25BE%25D0%25BC%25D3%25AF%25D0%25B7%25D0%25B3%25D0%25BE%25D1%2580%25D0%25B8%25D0%25B8_%25D0%25A2%25D0%25BE%25D2%25B7%25D0%25B8%25D0%25BA%25D0%25B8%25D1%2581%25D1%2582%25D0%25BE%25D0%25BD_%25D0%25B4%25D0%25B0%25D1%2580_%25D0%25BD%25D0%25BE%25D2%25B3%25D0%25B8%25D1%258F%25D0%25B8_%25D0%25A0%25D0%25B0%25D1%2588%25D1%2582> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[70.37446,39.02871]}" ;
+            schema:address [
+                schema:addressLocality "Rasht" ;
+                schema:addressCountry "TJ" ;
+                schema:addressRegion "Republican Subordination" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Tajikistan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1221740> ;
+        ] ; 
+    .

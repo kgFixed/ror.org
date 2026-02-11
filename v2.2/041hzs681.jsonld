@@ -1,0 +1,170 @@
+[
+  {
+    "@id": "https://ror.org/041hzs681",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chuncheon National University of Education"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Chuncheon_National_University_of_Education"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CNUE"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chuncheon Normal School"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1939"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n71504b10a4c84ce685db88d4b98e21dfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cnue.ac.kr/portal/index.do"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chuncheon National University of Education"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100002459"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.443773.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406471700"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://cnue.ac.kr"
+      }
+    ]
+  },
+  {
+    "@id": "_:n71504b10a4c84ce685db88d4b98e21dfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[127.73417,37.87472]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1845136"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n71504b10a4c84ce685db88d4b98e21dfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n71504b10a4c84ce685db88d4b98e21dfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n71504b10a4c84ce685db88d4b98e21dfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Chuncheon"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gangwon-do"
+      }
+    ]
+  },
+  {
+    "@id": "_:n71504b10a4c84ce685db88d4b98e21dfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n71504b10a4c84ce685db88d4b98e21dfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Korea"
+      }
+    ]
+  },
+  {
+    "@id": "_:n71504b10a4c84ce685db88d4b98e21dfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

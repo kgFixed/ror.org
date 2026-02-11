@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03tmyej96> a org:Organization ;
+    rdfs:label 'Patagonian Ecosystems Investigation Research Center'^^xsd:string; 
+    schema:name 'Patagonian Ecosystems Investigation Research Center'^^xsd:string; 
+    schema:foundingDate '2005'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2019-02-17'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'CIEP'^^xsd:string; 
+    schema:url <http://ciep.cl> ; 
+    schema:mainEntityOfPage <https://ciep.cl/inicio/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.500830.e> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-72.06619,-45.57524]}" ;
+            schema:address [
+                schema:addressLocality "Coyhaique" ;
+                schema:addressCountry "CL" ;
+                schema:addressRegion "Aysén" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Chile" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3894426> ;
+        ] ; 
+    .

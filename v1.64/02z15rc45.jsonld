@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/02z15rc45",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Casa do Douro Federação Renovação do Douro"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FRD"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd9663775e0a944fdbe43bd6e4091eb5bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://casadodouro.pt"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Casa do Douro Federação Renovação do Douro"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000511227662"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://casadodouro.pt"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd9663775e0a944fdbe43bd6e4091eb5bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-7.78901,41.16318]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2736316"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd9663775e0a944fdbe43bd6e4091eb5bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd9663775e0a944fdbe43bd6e4091eb5bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd9663775e0a944fdbe43bd6e4091eb5bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Peso da Régua Municipality"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Vila Real"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd9663775e0a944fdbe43bd6e4091eb5bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd9663775e0a944fdbe43bd6e4091eb5bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd9663775e0a944fdbe43bd6e4091eb5bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

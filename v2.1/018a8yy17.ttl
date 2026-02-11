@@ -1,0 +1,56 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/018a8yy17> a org:Organization ;
+    rdfs:label 'ENN (China)'^^xsd:string; 
+    schema:name 'ENN (China)'^^xsd:string; 
+    schema:foundingDate '1993'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2021-04-06'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'ENN'^^xsd:string; 
+    org:alternativeName 'ENN Group'^^xsd:string ; 
+    org:alternativeName 'ENN Group Co.'^^xsd:string ; 
+    org:alternativeName 'ENN Group Co., Ltd.'^^xsd:string ; 
+    schema:mainEntityOfPage <https://www.enn.cn/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/ENN_Group#:~:text=ENN%2520Group%2520(Chinese%253A%2520%25E6%2596%25B0%25E5%25A5%25A5,energy%2520chemicals%2520and%2520real%2520estate.> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.510593.b> ;
+    schema:sameAs <http://isni.org/isni/0000000492913447> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05pzhab84> ;
+        rdfs:label 'ENN-Tongji Advanced Institute of Clean Energy'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0096p2190> ;
+        rdfs:label 'ENN Fusion Energy Research Institute'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[116.71471,39.52079]}" ;
+            schema:address [
+                schema:addressLocality "Langfang" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Hebei" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1804540> ;
+        ] ; 
+    .

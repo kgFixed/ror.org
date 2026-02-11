@@ -1,0 +1,175 @@
+[
+  {
+    "@id": "https://ror.org/03ddhrn22",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-02-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shri Vile Parle Kelavani Mandal"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SVKM"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1934"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.svkm.ac.in/#"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Shri Vile Parle Kelavani Mandal"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.430221.6"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417556697"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SVKM's Narsee Monjee College of Commerce and Economics"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/037aak578"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[72.88261,19.07283]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1275339"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mumbai"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Maharashtra"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf0d5b2ea22d141cbac1d1ecc7ad489acb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "@id": "https://ror.org/03r06fs10",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nordic Institute for Theoretical Physics"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Nordic_Institute_for_Theoretical_Physics"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NORDITA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nordisk Institut for Teoretisk Fysik"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1957"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1f6f25b9265741428b07b0af0032b468b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://nordita.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nordic Institute for Theoretical Physics"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.450306.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404380530"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nordita.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1f6f25b9265741428b07b0af0032b468b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[18.06871,59.32938]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2673730"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1f6f25b9265741428b07b0af0032b468b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1f6f25b9265741428b07b0af0032b468b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1f6f25b9265741428b07b0af0032b468b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Stockholm"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Stockholm"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1f6f25b9265741428b07b0af0032b468b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1f6f25b9265741428b07b0af0032b468b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sweden"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1f6f25b9265741428b07b0af0032b468b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

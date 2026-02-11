@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/015mptv94> a org:Organization ;
+    rdfs:label 'Somogy Megyei Kaposi Mór Oktató Kórház'^^xsd:string; 
+    schema:name 'Somogy Megyei Kaposi Mór Oktató Kórház'^^xsd:string; 
+    schema:foundingDate '1846'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:url <http://kmmk.hu> ; 
+    schema:mainEntityOfPage <https://www.kmmk.hu> ;
+    schema:sameAs <https://grid.ac/institutions/grid.440307.4> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[17.8,46.36667]}" ;
+            schema:address [
+                schema:addressLocality "Kaposvár" ;
+                schema:addressCountry "HU" ;
+                schema:addressRegion "Somogy County" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Hungary" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3050616> ;
+        ] ; 
+    .

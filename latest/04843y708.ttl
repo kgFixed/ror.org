@@ -1,0 +1,37 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04843y708> a org:Organization ;
+    rdfs:label 'Instituto de Investigação Agronómica'^^xsd:string; 
+    schema:name 'Instituto de Investigação Agronómica'^^xsd:string; 
+    schema:foundingDate '1961'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'IIA'^^xsd:string; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[15.73917,-12.77611]}" ;
+            schema:address [
+                schema:addressLocality "Huambo" ;
+                schema:addressCountry "AO" ;
+                schema:addressRegion "Huambo" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Angola" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3348313> ;
+        ] ; 
+    .

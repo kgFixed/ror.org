@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/00kss4e25",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GZA Ziekenhuizen Campus Sint-Augustinus"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GZA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Gasthuiszusters Antwerpen"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncfab97738b45421a877726af6ebd5200b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.gzaziekenhuizen.be/campussen#campus-94"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "GZA Ziekenhuizen Campus Sint-Augustinus"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.428965.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000475362436"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfab97738b45421a877726af6ebd5200b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.40026,51.22047]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2803138"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncfab97738b45421a877726af6ebd5200b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfab97738b45421a877726af6ebd5200b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncfab97738b45421a877726af6ebd5200b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Antwerp"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Flanders"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfab97738b45421a877726af6ebd5200b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncfab97738b45421a877726af6ebd5200b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Belgium"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfab97738b45421a877726af6ebd5200b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

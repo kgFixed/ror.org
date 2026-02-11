@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05j2c6r36> a org:Organization ;
+    rdfs:label 'Virginia Theological Seminary'^^xsd:string; 
+    schema:name 'Virginia Theological Seminary'^^xsd:string; 
+    schema:foundingDate '1823'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Protestant Episcopal Theological Seminary in Virginia'^^xsd:string ; 
+    org:abbreviation 'VTS'^^xsd:string; 
+    schema:url <http://vts.edu> ; 
+    schema:mainEntityOfPage <https://vts.edu> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Virginia_Theological_Seminary> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.463034.6> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-77.04692,38.80484]}" ;
+            schema:address [
+                schema:addressLocality "Alexandria" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Virginia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4744091> ;
+        ] ; 
+    .

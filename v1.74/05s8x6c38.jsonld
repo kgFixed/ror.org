@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/05s8x6c38",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Novena University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Novena_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2005"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n542c44b1eb084e01b09c9ca9c7ad5b91b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://novenauniversity.edu.ng"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Novena University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.442647.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417806983"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://novenauniversity.edu.ng"
+      }
+    ]
+  },
+  {
+    "@id": "_:n542c44b1eb084e01b09c9ca9c7ad5b91b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.43402,5.70773]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2332871"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n542c44b1eb084e01b09c9ca9c7ad5b91b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n542c44b1eb084e01b09c9ca9c7ad5b91b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n542c44b1eb084e01b09c9ca9c7ad5b91b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kwale"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Delta"
+      }
+    ]
+  },
+  {
+    "@id": "_:n542c44b1eb084e01b09c9ca9c7ad5b91b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n542c44b1eb084e01b09c9ca9c7ad5b91b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n542c44b1eb084e01b09c9ca9c7ad5b91b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

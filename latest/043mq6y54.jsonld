@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/043mq6y54",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zhejiang Provincial Innovation Center of Laser Intelligent Equipment Technology"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ZICLET"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2023"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5ac38c3e530b4d45bcc3459fa9ef279db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.zic-liet.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zhejiang Provincial Innovation Center of Laser Intelligent Equipment Technology"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000528748245"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://zic-liet.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ac38c3e530b4d45bcc3459fa9ef279db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[120.66682,27.99942]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1791388"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5ac38c3e530b4d45bcc3459fa9ef279db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ac38c3e530b4d45bcc3459fa9ef279db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5ac38c3e530b4d45bcc3459fa9ef279db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Wenzhou"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zhejiang"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ac38c3e530b4d45bcc3459fa9ef279db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5ac38c3e530b4d45bcc3459fa9ef279db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5ac38c3e530b4d45bcc3459fa9ef279db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

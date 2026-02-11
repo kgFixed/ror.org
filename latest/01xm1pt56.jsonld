@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/01xm1pt56",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación GESICA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2001"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nca84b410194e4ffa9812639c55bd171fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://fundaciongesica.org.ar"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundación GESICA"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000514737406"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fundaciongesica.org.ar"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca84b410194e4ffa9812639c55bd171fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-58.37723,-34.61315]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3435910"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nca84b410194e4ffa9812639c55bd171fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca84b410194e4ffa9812639c55bd171fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nca84b410194e4ffa9812639c55bd171fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Buenos Aires"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Buenos Aires F.D."
+      }
+    ]
+  },
+  {
+    "@id": "_:nca84b410194e4ffa9812639c55bd171fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nca84b410194e4ffa9812639c55bd171fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Argentina"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca84b410194e4ffa9812639c55bd171fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

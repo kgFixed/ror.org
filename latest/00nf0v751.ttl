@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00nf0v751> a org:Organization ;
+    rdfs:label 'Corpesca (Chile)'^^xsd:string; 
+    schema:name 'Corpesca (Chile)'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:url <http://corpesca.cl> ; 
+    schema:mainEntityOfPage <https://www.corpesca.cl> ;
+    owl:sameAs <https://es.wikipedia.org/wiki/Corpesca> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-70.15027,-20.21326]}" ;
+            schema:address [
+                schema:addressLocality "Iquique" ;
+                schema:addressCountry "CL" ;
+                schema:addressRegion "Tarapacá" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Chile" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3887127> ;
+        ] ; 
+    .

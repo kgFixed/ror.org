@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/025cvfz96",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MetaMind Innovations (Greece)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MINDS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2021"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc2b513ab70654852869eb3aa58eed340b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://metamind.gr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MetaMind Innovations (Greece)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000513663433"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://metamind.gr"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2b513ab70654852869eb3aa58eed340b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[21.78984,40.29931]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/735563"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc2b513ab70654852869eb3aa58eed340b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2b513ab70654852869eb3aa58eed340b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc2b513ab70654852869eb3aa58eed340b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kozani"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "West Macedonia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2b513ab70654852869eb3aa58eed340b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc2b513ab70654852869eb3aa58eed340b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Greece"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc2b513ab70654852869eb3aa58eed340b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

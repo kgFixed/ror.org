@@ -1,0 +1,92 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@base <http://w3id.org/kgfixed/ror.org/LDES/v1.17.1> .
+
+<>
+    a tree:Node ;
+    
+    tree:relation [
+      a tree:GreaterThanRelation ;
+      tree:node <http://w3id.org/kgfixed/ror.org/LDES/v1.18> ;
+      tree:path dc:modified ;
+      tree:value '2023-01-26T09:54:44-08:00'^^xsd:dateTime
+    ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:LatestVersionSubset ;
+        ldes:versionAmount 1
+    ] .
+
+<feed>
+  a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ];
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ];
+    
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <> ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror.org/v1.17.1/00ex2fc97> .
+<http://w3id.org/kgfixed/ror.org/v1.17.1/00ex2fc97>
+  dc:isVersionOf <https://ror.org/00ex2fc97> ;
+  dc:modified '2022-12-15'^^xsd:date ;
+  rdfs:label 'Kyushu University Hospital'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00ex2fc97>
+  rdfs:label 'Kyushu University Hospital'^^xsd:string ;
+  dc:modified '2022-12-15'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror.org/v1.17.1/00p4k0j84> .
+<http://w3id.org/kgfixed/ror.org/v1.17.1/00p4k0j84>
+  dc:isVersionOf <https://ror.org/00p4k0j84> ;
+  dc:modified '2022-12-15'^^xsd:date ;
+  rdfs:label 'Kyushu University'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/00p4k0j84>
+  rdfs:label 'Kyushu University'^^xsd:string ;
+  dc:modified '2022-12-15'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror.org/v1.17.1/03t4t2e74> .
+<http://w3id.org/kgfixed/ror.org/v1.17.1/03t4t2e74>
+  dc:isVersionOf <https://ror.org/03t4t2e74> ;
+  dc:modified '2022-12-15'^^xsd:date ;
+  rdfs:label 'Kyushu Art Institute of Technology'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/03t4t2e74>
+  rdfs:label 'Kyushu Art Institute of Technology'^^xsd:string ;
+  dc:modified '2022-12-15'^^xsd:date ;
+  .
+<feed> tree:member <http://w3id.org/kgfixed/ror.org/v1.17.1/04qdbg778> .
+<http://w3id.org/kgfixed/ror.org/v1.17.1/04qdbg778>
+  dc:isVersionOf <https://ror.org/04qdbg778> ;
+  dc:modified '2022-12-15'^^xsd:date ;
+  rdfs:label 'Kyushu University Beppu Hospital'^^xsd:string ;
+  a skos:Concept .
+
+<https://ror.org/04qdbg778>
+  rdfs:label 'Kyushu University Beppu Hospital'^^xsd:string ;
+  dc:modified '2022-12-15'^^xsd:date ;
+  .

@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/03q658t19",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azienda Ospedaliero Universitario Mater Domini"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital Mater Domini"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://materdominiaou.it"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Azienda Ospedaliero Universitario Mater Domini"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.488515.5"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://materdominiaou.it"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Magna Graecia University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0530bdk91"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[16.60086,38.88247]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2525059"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Catanzaro"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Calabria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Italy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9cc65c7cb19d4985ac4d3444f0ab9ee6b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

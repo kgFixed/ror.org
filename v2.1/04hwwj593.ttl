@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04hwwj593> a org:Organization ;
+    rdfs:label 'Visoka strukovna vaspitačka i medicinska škola u Vršcu'^^xsd:string; 
+    schema:name 'Visoka strukovna vaspitačka i medicinska škola u Vršcu'^^xsd:string; 
+    schema:foundingDate '2007'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Visoka škola strukovnih studija za vaspitače ,,Mihailo Palov”, Vršac'^^xsd:string ; 
+    org:alternativeName 'Висока струковна васпитачка и медицинска школа у Вршцу'^^xsd:string ; 
+    org:alternativeName 'Висока школа струковних студија за васпитаче ,,Михаило Палов”, Вршац'^^xsd:string ; 
+    schema:url <http://hemo.net> ; 
+    schema:url <http://uskolavrsac.edu.rs> ; 
+    schema:mainEntityOfPage <https://www.uskolavrsac.edu.rs> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[21.30361,45.11667]}" ;
+            schema:address [
+                schema:addressLocality "Vršac" ;
+                schema:addressCountry "RS" ;
+                schema:addressRegion "Vojvodina" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Serbia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/784136> ;
+        ] ; 
+    .

@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/042v5ej15> a org:Organization ;
+    rdfs:label 'Agency for Medicinal Products and Medical Devices of Croatia'^^xsd:string; 
+    schema:name 'Agency for Medicinal Products and Medical Devices of Croatia'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'other'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'HALMED'^^xsd:string; 
+    schema:url <http://halmed.hr> ; 
+    schema:mainEntityOfPage <https://halmed.hr> ;
+    schema:sameAs <https://grid.ac/institutions/grid.494038.2> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[15.97798,45.81444]}" ;
+            schema:address [
+                schema:addressLocality "Zagreb" ;
+                schema:addressCountry "HR" ;
+                schema:addressRegion "Zagreb" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Croatia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3186886> ;
+        ] ; 
+    .

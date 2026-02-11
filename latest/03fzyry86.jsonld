@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/03fzyry86",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital Universitari Sagrat Cor"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1879"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfa5fac7ccbc546dfa06901d9147dbea1b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.hscor.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital Universitari Sagrat Cor"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.414615.3"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404268215"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hscor.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa5fac7ccbc546dfa06901d9147dbea1b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[2.15899,41.38879]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3128760"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfa5fac7ccbc546dfa06901d9147dbea1b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa5fac7ccbc546dfa06901d9147dbea1b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfa5fac7ccbc546dfa06901d9147dbea1b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ES"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Barcelona"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Catalonia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa5fac7ccbc546dfa06901d9147dbea1b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfa5fac7ccbc546dfa06901d9147dbea1b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Spain"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa5fac7ccbc546dfa06901d9147dbea1b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02f04tm31> a org:Organization ;
+    rdfs:label 'Göttingen Campus Institut für Dynamic biologischer Netzwerke'^^xsd:string; 
+    schema:name 'Göttingen Campus Institut für Dynamic biologischer Netzwerke'^^xsd:string; 
+    schema:foundingDate '2021'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'CIDBN'^^xsd:string; 
+    schema:url <http://uni-goettingen.de> ; 
+    schema:mainEntityOfPage <https://www.uni-goettingen.de/cidbn> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/01y9bpm73> ;
+        rdfs:label 'University of Göttingen'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[9.93228,51.53443]}" ;
+            schema:address [
+                schema:addressLocality "Göttingen" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "Lower Saxony" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2918632> ;
+        ] ; 
+    .

@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/000d3nc08> a org:Organization ;
+    rdfs:label 'Instituto de Educación Media Superior de la Ciudad de México'^^xsd:string; 
+    schema:name 'Instituto de Educación Media Superior de la Ciudad de México'^^xsd:string; 
+    schema:foundingDate '2000'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'High School Education Institute of Mexico City'^^xsd:string ; 
+    org:abbreviation 'IEMS CDMX'^^xsd:string; 
+    schema:url <http://cdmx.gob.mx> ; 
+    schema:mainEntityOfPage <https://iems.cdmx.gob.mx> ;
+    owl:sameAs <https://es.wikipedia.org/wiki/Instituto_de_Educaci%25C3%25B3n_Media_Superior_de_la_Ciudad_de_M%25C3%25A9xico> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-99.12766,19.42847]}" ;
+            schema:address [
+                schema:addressLocality "Mexico City" ;
+                schema:addressCountry "MX" ;
+                schema:addressRegion "Mexico City" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Mexico" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3530597> ;
+        ] ; 
+    .

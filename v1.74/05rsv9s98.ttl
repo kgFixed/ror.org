@@ -1,0 +1,93 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05rsv9s98> a org:Organization ;
+    rdfs:label 'United States Department of Veterans Affairs'^^xsd:string; 
+    schema:name 'United States Department of Veterans Affairs'^^xsd:string; 
+    schema:foundingDate '1930'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'DVA'^^xsd:string; 
+    org:alternativeName 'U.S. Department of Veterans Affairs'^^xsd:string ; 
+    org:abbreviation 'VA '^^xsd:string; 
+    schema:mainEntityOfPage <http://www.va.gov/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/United_States_Department_of_Veterans_Affairs> ; 
+    schema:sameAs <https://api.crossref.org/funders/100000738> ;
+    schema:sameAs <https://grid.ac/institutions/grid.418356.d> ;
+    schema:sameAs <http://isni.org/isni/0000000404787015> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01dbbht76> ;
+        rdfs:label 'National Center for PTSD'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04s3dsz85> ;
+        rdfs:label 'Office of Diversity and Inclusion'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0155sw530> ;
+        rdfs:label 'Seattle Epidemiologic Information and Research Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05eq41471> ;
+        rdfs:label 'Veterans Health Administration'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/027w0yp05> ;
+        rdfs:label 'William C. Tallent Outpatient Clinic'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0442kw503> ;
+        rdfs:label 'Office of Academic Affiliations'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/02rcrvv70> ;
+        rdfs:label 'Government of the United States of America'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03ydjzz16> ;
+        rdfs:label 'Office of Rural Health'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-77.03637,38.89511]}" ;
+            schema:address [
+                schema:addressLocality "Washington" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "District of Columbia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4140963> ;
+        ] ; 
+    .

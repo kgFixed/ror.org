@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05y4ptb16> a org:Organization ;
+    rdfs:label 'Institut de recherche agronomique et zootechnique'^^xsd:string; 
+    schema:name 'Institut de recherche agronomique et zootechnique'^^xsd:string; 
+    schema:foundingDate '1979'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'IRAZ'^^xsd:string; 
+    schema:mainEntityOfPage <https://www.asti.cgiar.org/burundi/directory/institut-de-recherche-agronomique-et-zootechnique-iraz> ;
+    owl:sameAs <https://fr.wikipedia.org/wiki/Institut_de_recherches_agronomique_et_zootechnique> ; 
+    schema:sameAs <http://isni.org/isni/0000000122177681> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[29.92463,-3.42708]}" ;
+            schema:address [
+                schema:addressLocality "Gitega" ;
+                schema:addressCountry "BI" ;
+                schema:addressRegion "Gitega" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Burundi" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/426272> ;
+        ] ; 
+    .

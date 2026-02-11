@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03dez2856> a org:Organization ;
+    rdfs:label 'General Energy Institute of National Academy of Sciences of Ukraine'^^xsd:string; 
+    schema:name 'General Energy Institute of National Academy of Sciences of Ukraine'^^xsd:string; 
+    schema:foundingDate '1997'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2021-09-23'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'Institute of General Energy of the National Academy of Sciences of Ukraine'^^xsd:string ; 
+    schema:url <http://ienergy.kiev.ua> ; 
+    schema:mainEntityOfPage <https://ienergy.kiev.ua> ;
+    schema:sameAs <https://grid.ac/institutions/grid.512587.c> ;
+    schema:sameAs <http://isni.org/isni/0000000460235637> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/00je4t102> ;
+        rdfs:label 'National Academy of Sciences of Ukraine'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[30.5238,50.45466]}" ;
+            schema:address [
+                schema:addressLocality "Kyiv" ;
+                schema:addressCountry "UA" ;
+                schema:addressRegion "Kyiv City" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Ukraine" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/703448> ;
+        ] ; 
+    .

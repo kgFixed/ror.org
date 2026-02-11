@@ -1,0 +1,189 @@
+[
+  {
+    "@id": "https://ror.org/00q3jak84",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto do Coração - HCFMUSP"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://pt.wikipedia.org/wiki/Instituto_do_Cora%25C3%25A7%25C3%25A3o_do_Hospital_das_Cl%25C3%25ADnicas_da_FMUSP"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "InCor"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Cardiopulmonary Diseases"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Doenças Cardiopulmonares"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto do Coração do Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n05245a28ffdb42b687b1c420269beaaeb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1963"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n05245a28ffdb42b687b1c420269beaaeb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www2.incor.usp.br/sites/incor2024/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto do Coração - HCFMUSP"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://incor.usp.br"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05245a28ffdb42b687b1c420269beaaeb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03se9eg94"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05245a28ffdb42b687b1c420269beaaeb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-46.63611,-23.5475]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3448439"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n05245a28ffdb42b687b1c420269beaaeb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05245a28ffdb42b687b1c420269beaaeb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n05245a28ffdb42b687b1c420269beaaeb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "São Paulo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "São Paulo"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05245a28ffdb42b687b1c420269beaaeb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n05245a28ffdb42b687b1c420269beaaeb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:n05245a28ffdb42b687b1c420269beaaeb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

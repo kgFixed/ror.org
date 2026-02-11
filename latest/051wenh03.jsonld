@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/051wenh03",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-10-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akademia"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://af.wikipedia.org/wiki/Akademia"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2011"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7b66ab420be64656a0fd19ec3a9191c4b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://akademia.ac.za"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akademia"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000458963600"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://akademia.ac.za"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7b66ab420be64656a0fd19ec3a9191c4b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[28.18783,-25.74486]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/964137"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7b66ab420be64656a0fd19ec3a9191c4b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7b66ab420be64656a0fd19ec3a9191c4b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7b66ab420be64656a0fd19ec3a9191c4b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pretoria"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gauteng"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7b66ab420be64656a0fd19ec3a9191c4b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7b66ab420be64656a0fd19ec3a9191c4b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South Africa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7b66ab420be64656a0fd19ec3a9191c4b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

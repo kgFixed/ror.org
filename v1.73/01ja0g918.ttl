@@ -1,0 +1,441 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01ja0g918> a org:Organization ;
+    rdfs:label 'Community Health Systems Professional Services Corporation (DBA Community Health Systems)'^^xsd:string; 
+    schema:name 'Community Health Systems Professional Services Corporation (DBA Community Health Systems)'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Community Health Systems'^^xsd:string ; 
+    org:alternativeName 'Community Health Systems Professional Services Corporation'^^xsd:string ; 
+    schema:url <http://chs.net> ; 
+    schema:mainEntityOfPage <https://www.chs.net> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03753r186> ;
+        rdfs:label 'Community Health Systems - Dupont Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02whbag62> ;
+        rdfs:label 'Community Health Systems - Lutheran Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03v6t2982> ;
+        rdfs:label 'Community Health Systems - Moses Taylor Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00je63m83> ;
+        rdfs:label 'Community Health Systems - Regional Hospital of Scranton'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02bn0ev09> ;
+        rdfs:label 'River Oaks Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/041hj9n89> ;
+        rdfs:label 'Community Health Systems - Northwest Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00yg5k213> ;
+        rdfs:label 'Community Health Systems - Baldwin Health'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03s25n537> ;
+        rdfs:label 'Community Health Systems - Gadsden Regional Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02bm29j41> ;
+        rdfs:label 'Community Health Systems - Crestwood Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/051tk8772> ;
+        rdfs:label 'Community Health Systems - Grandview Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01gawx214> ;
+        rdfs:label 'Community Health Systems - Flowers Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/043106b95> ;
+        rdfs:label 'Community Health Systems - Medical Center Enterprise'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03dhnnd96> ;
+        rdfs:label 'Community Health Systems - Mat-Su Regional Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0445pp755> ;
+        rdfs:label 'Community Health Systems - Western Arizona Regional Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01xh8h870> ;
+        rdfs:label 'Community Health Systems - Northwest Medical Center - Sahuarita'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/029tse032> ;
+        rdfs:label 'Community Health Systems - Northwest Women\'s Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/031e64r08> ;
+        rdfs:label 'Community Health Systems - Northwest Medical Center - Houghton'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03ssekj71> ;
+        rdfs:label 'Community Health Systems - Oro Valley Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05bfzg972> ;
+        rdfs:label 'Community Health Systems - Northwest Health Physician\'s Specialty Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04s4wx134> ;
+        rdfs:label 'Community Health Systems - Siloam Springs Regional Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00665bd58> ;
+        rdfs:label 'Community Health Systems - Northwest Medical Center - Bentonville'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05svbdb13> ;
+        rdfs:label 'Community Health Systems - Willow Creek Women\'s Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02armrd08> ;
+        rdfs:label 'Community Health Systems - Northwest Medical Center - Springdale'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0558gww53> ;
+        rdfs:label 'Community Health Systems - Physicians Regional Healthcare System - Collier'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/007jzpa85> ;
+        rdfs:label 'Community Health Systems - Santa Rosa Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/022nbkh73> ;
+        rdfs:label 'Community Health Systems - Lower Keys Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00sgmwg65> ;
+        rdfs:label 'Community Health Systems - Physicians Regional Healthcare System - Pine Ridge'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02f4afr28> ;
+        rdfs:label 'Community Health Systems - North Okaloosa Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01pck1v11> ;
+        rdfs:label 'Community Health Systems - Physicians Regional Healthcare System - North'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00z0sw756> ;
+        rdfs:label 'Community Health Systems - East Georgia Regional Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05vqw4d96> ;
+        rdfs:label 'Community Health Systems - Bluffton Regional Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05836q555> ;
+        rdfs:label 'Community Health Systems - Lutheran Kosciusko Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0402h6198> ;
+        rdfs:label 'Community Health Systems - Lutheran Downtown Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02n5cwc87> ;
+        rdfs:label 'Community Health Systems - Northwest Health - Starke'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01zxjvf21> ;
+        rdfs:label 'Community Health Systems - Dukes Memorial Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04zvnhs84> ;
+        rdfs:label 'Community Health Systems - Northwest Health - La Porte'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02xrb2850> ;
+        rdfs:label 'Community Health Systems - Northwest Health - Portage'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/039gr1229> ;
+        rdfs:label 'Community Health Systems - The Orthopedic Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01yj99h06> ;
+        rdfs:label 'Community Health Systems - Northwest Health - Porter'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03g177w29> ;
+        rdfs:label 'Community Health Systems - Merit Health Central'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05kga7j50> ;
+        rdfs:label 'Community Health Systems - Merit Health Women\'s Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03ky0f827> ;
+        rdfs:label 'Community Health Systems - Merit Health Natchez'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02nxy1d86> ;
+        rdfs:label 'Community Health Systems - Merit Health River Region'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02vbhze72> ;
+        rdfs:label 'Community Health Systems - Merit Health Rankin'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0165fyq28> ;
+        rdfs:label 'Community Health Systems - Merit Health Wesley'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03x05ds80> ;
+        rdfs:label 'Community Health Systems - Moberly Regional Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03dsn0w74> ;
+        rdfs:label 'Community Health Systems - Poplar Bluff Regional Medical Center - Westwood'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02jpcpm59> ;
+        rdfs:label 'Community Health Systems - Poplar Bluff Regional Medical Center - Oak Grove'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04tfx6r65> ;
+        rdfs:label 'Community Health Systems - Northeast Regional Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00q7hmt63> ;
+        rdfs:label 'Community Health Systems - Carlsbad Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0537w4188> ;
+        rdfs:label 'Community Health Systems - Eastern New Mexico Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02vsk8523> ;
+        rdfs:label 'Community Health Systems - MountainView Regional Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01dz6bn35> ;
+        rdfs:label 'Community Health Systems - AllianceHealth Durant'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00ng6qz27> ;
+        rdfs:label 'Community Health Systems - AllianceHealth Madill'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01xez3q03> ;
+        rdfs:label 'Community Health Systems - Tennova Healthcare - Clarksville'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/025gc2882> ;
+        rdfs:label 'Community Health Systems - Tennova - Newport Medical'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0514zp273> ;
+        rdfs:label 'Community Health Systems - Tennova - Jefferson Memorial Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02faghm73> ;
+        rdfs:label 'Community Health Systems - Tennova North Knoxville Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0402nwp88> ;
+        rdfs:label 'Community Health Systems - Tennova LaFollette'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0244zj488> ;
+        rdfs:label 'Community Health Systems - Tennova Turkey Creek Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03sy36a97> ;
+        rdfs:label 'Community Health Systems - DeTar Healthcare System'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/0065jf269> ;
+        rdfs:label 'Community Health Systems - Laredo Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00eq2sn47> ;
+        rdfs:label 'Community Health Systems - Woodland Heights Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01sgmr115> ;
+        rdfs:label 'Community Health Systems - DeTar Healthcare System - North'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/024a76r57> ;
+        rdfs:label 'Community Health Systems - Longview Regional Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05ced3r45> ;
+        rdfs:label 'Community Health Systems - Lake Granbury Medical Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00tkf5j20> ;
+        rdfs:label 'Community Health Systems - Navarro Regional Hospital'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-86.86889,35.92506]}" ;
+            schema:address [
+                schema:addressLocality "Franklin" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Tennessee" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4623560> ;
+        ] ; 
+    .

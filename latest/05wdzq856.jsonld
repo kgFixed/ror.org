@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/05wdzq856",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Atherosclerosis Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1992"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3784174f367f4718b633c9b090c9c86bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://inat.ru"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Atherosclerosis Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.488882.6"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://inat.ru"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3784174f367f4718b633c9b090c9c86bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[37.61781,55.75204]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/524901"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3784174f367f4718b633c9b090c9c86bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3784174f367f4718b633c9b090c9c86bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3784174f367f4718b633c9b090c9c86bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Moscow"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Moscow"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3784174f367f4718b633c9b090c9c86bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3784174f367f4718b633c9b090c9c86bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3784174f367f4718b633c9b090c9c86bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

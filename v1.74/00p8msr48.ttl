@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00p8msr48> a org:Organization ;
+    rdfs:label 'St. Augustine University of Tanzania'^^xsd:string; 
+    schema:name 'St. Augustine University of Tanzania'^^xsd:string; 
+    schema:foundingDate '2002'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Nyegezi Social Training Centre'^^xsd:string ; 
+    org:alternativeName 'Nyegezi Social Training Institute'^^xsd:string ; 
+    org:abbreviation 'SAUT'^^xsd:string; 
+    schema:mainEntityOfPage <http://www.saut.ac.tz/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/St._Augustine_University_of_Tanzania> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.442476.7> ;
+    schema:sameAs <http://isni.org/isni/0000000100427862> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/040qff210> ;
+        rdfs:label 'Jordan University College'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[32.9,-2.51667]}" ;
+            schema:address [
+                schema:addressLocality "Mwanza" ;
+                schema:addressCountry "TZ" ;
+                schema:addressRegion "Mwanza" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Tanzania" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/152224> ;
+        ] ; 
+    .

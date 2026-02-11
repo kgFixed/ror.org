@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/01xnbtm64",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "State Research Institute for Chemistry and Technology of Organoelement Compounds"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1945"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nde6c24e9dc1f406e88f07be2208ff12bb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://eos.su"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "State Research Institute for Chemistry and Technology of Organoelement Compounds"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.470009.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404609753"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://eos.su"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde6c24e9dc1f406e88f07be2208ff12bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[37.61781,55.75204]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/524901"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nde6c24e9dc1f406e88f07be2208ff12bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde6c24e9dc1f406e88f07be2208ff12bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nde6c24e9dc1f406e88f07be2208ff12bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Moscow"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Moscow"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde6c24e9dc1f406e88f07be2208ff12bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nde6c24e9dc1f406e88f07be2208ff12bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Russia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nde6c24e9dc1f406e88f07be2208ff12bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

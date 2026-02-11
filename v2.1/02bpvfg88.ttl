@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02bpvfg88> a org:Organization ;
+    rdfs:label 'Center for International Knowledge on Development'^^xsd:string; 
+    schema:name 'Center for International Knowledge on Development'^^xsd:string; 
+    schema:foundingDate '2017'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'CIKD'^^xsd:string; 
+    org:alternativeName '中国国际发展知识中心'^^xsd:string ; 
+    schema:url <http://cikd.org> ; 
+    schema:mainEntityOfPage <https://cikd.org> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[116.39723,39.9075]}" ;
+            schema:address [
+                schema:addressLocality "Beijing" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Beijing" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1816670> ;
+        ] ; 
+    .

@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03jdefz88> a org:Organization ;
+    rdfs:label 'Mirwais Khan Nika Zabul University'^^xsd:string; 
+    schema:name 'Mirwais Khan Nika Zabul University'^^xsd:string; 
+    schema:foundingDate '2017'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'ZU'^^xsd:string; 
+    schema:url <http://zabu.edu.af> ; 
+    schema:mainEntityOfPage <https://zabu.edu.af> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[66.90833,32.10575]}" ;
+            schema:address [
+                schema:addressLocality "Qalāt" ;
+                schema:addressCountry "AF" ;
+                schema:addressRegion "Zabul" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Afghanistan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1130131> ;
+        ] ; 
+    .

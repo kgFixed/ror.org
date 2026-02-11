@@ -1,0 +1,155 @@
+[
+  {
+    "@id": "https://ror.org/00hpqmv06",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Zambia)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health Zambia"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zambia Ministry of Health"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2a2f0a8420b14f7eac9416592c61ac0eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.moh.gov.zm"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Health"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.415794.a"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000106570993"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://moh.gov.zm"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2a2f0a8420b14f7eac9416592c61ac0eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[28.28713,-15.40669]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/909137"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2a2f0a8420b14f7eac9416592c61ac0eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2a2f0a8420b14f7eac9416592c61ac0eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2a2f0a8420b14f7eac9416592c61ac0eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZM"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lusaka"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lusaka Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2a2f0a8420b14f7eac9416592c61ac0eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2a2f0a8420b14f7eac9416592c61ac0eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Zambia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2a2f0a8420b14f7eac9416592c61ac0eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

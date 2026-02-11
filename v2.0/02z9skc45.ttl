@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02z9skc45> a org:Organization ;
+    rdfs:label 'Azienda Sanitaria Provinciale di Cosenza'^^xsd:string; 
+    schema:name 'Azienda Sanitaria Provinciale di Cosenza'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'ASP CS'^^xsd:string; 
+    org:alternativeName 'ASP Cosenza'^^xsd:string ; 
+    schema:url <http://asp.cosenza.it> ; 
+    schema:mainEntityOfPage <https://www.asp.cosenza.it> ;
+    schema:sameAs <http://isni.org/isni/0000000417686176> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[16.25307,39.2989]}" ;
+            schema:address [
+                schema:addressLocality "Cosenza" ;
+                schema:addressCountry "IT" ;
+                schema:addressRegion "Calabria" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Italy" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2524907> ;
+        ] ; 
+    .

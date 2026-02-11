@@ -1,0 +1,151 @@
+[
+  {
+    "@id": "https://ror.org/041bz9r75",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fulda University of Applied Sciences"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Fulda_University_of_Applied_Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1974"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n83f34434c55b43838aaae67396cdd3fcb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.hs-fulda.de/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fulda University of Applied Sciences"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.430588.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000107054827"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hs-fulda.de"
+      }
+    ]
+  },
+  {
+    "@id": "_:n83f34434c55b43838aaae67396cdd3fcb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[9.67518,50.55162]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2923822"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n83f34434c55b43838aaae67396cdd3fcb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n83f34434c55b43838aaae67396cdd3fcb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n83f34434c55b43838aaae67396cdd3fcb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Fulda"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Hesse"
+      }
+    ]
+  },
+  {
+    "@id": "_:n83f34434c55b43838aaae67396cdd3fcb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n83f34434c55b43838aaae67396cdd3fcb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:n83f34434c55b43838aaae67396cdd3fcb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

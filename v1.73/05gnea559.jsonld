@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/05gnea559",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas Riau Kepulauan"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNRIKA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1993"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n614230a6b0b0453fbe3d38023a14bcdfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.unrika.ac.id/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas Riau Kepulauan"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100017157"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.443157.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000403869035"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unrika.ac.id"
+      }
+    ]
+  },
+  {
+    "@id": "_:n614230a6b0b0453fbe3d38023a14bcdfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[104.02491,1.14937]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6295587"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n614230a6b0b0453fbe3d38023a14bcdfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n614230a6b0b0453fbe3d38023a14bcdfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n614230a6b0b0453fbe3d38023a14bcdfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ID"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Batam"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Riau"
+      }
+    ]
+  },
+  {
+    "@id": "_:n614230a6b0b0453fbe3d38023a14bcdfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n614230a6b0b0453fbe3d38023a14bcdfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Indonesia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n614230a6b0b0453fbe3d38023a14bcdfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

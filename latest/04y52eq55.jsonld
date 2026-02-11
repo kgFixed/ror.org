@@ -1,0 +1,165 @@
+[
+  {
+    "@id": "https://ror.org/04y52eq55",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Neuro Psychiatric Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Federal_Neuro_Psychiatric_Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FNPHY-Yaba"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yaba Asylum"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Yaba Psychiatric Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1907"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n637c101477aa4d1f8a049dbd90723629b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://fnphyaba.gov.ng"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Federal Neuro Psychiatric Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.490120.e"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000493381163"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fnphyaba.gov.ng"
+      }
+    ]
+  },
+  {
+    "@id": "_:n637c101477aa4d1f8a049dbd90723629b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[3.39467,6.45407]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2332459"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n637c101477aa4d1f8a049dbd90723629b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n637c101477aa4d1f8a049dbd90723629b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n637c101477aa4d1f8a049dbd90723629b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lagos"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lagos"
+      }
+    ]
+  },
+  {
+    "@id": "_:n637c101477aa4d1f8a049dbd90723629b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n637c101477aa4d1f8a049dbd90723629b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n637c101477aa4d1f8a049dbd90723629b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

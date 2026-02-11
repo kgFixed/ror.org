@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/050skmv85> a org:Organization ;
+    rdfs:label 'Ural research Institute of Phthisiopulmonology'^^xsd:string; 
+    schema:name 'Ural research Institute of Phthisiopulmonology'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Branch of FGBU "NMIc FPI" of the Ministry of Health of Russia'^^xsd:string ; 
+    org:abbreviation 'UNIIF'^^xsd:string; 
+    schema:url <http://urniif.ru> ; 
+    schema:mainEntityOfPage <https://urniif.ru> ;
+    schema:sameAs <https://grid.ac/institutions/grid.494823.0> ;
+    schema:sameAs <http://isni.org/isni/0000000449143627> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[60.61529,56.85733]}" ;
+            schema:address [
+                schema:addressLocality "Yekaterinburg" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "Sverdlovsk Oblast" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1486209> ;
+        ] ; 
+    .

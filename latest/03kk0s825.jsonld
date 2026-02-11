@@ -1,0 +1,159 @@
+[
+  {
+    "@id": "https://ror.org/03kk0s825",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FAPERJ"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1980"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf7e5376aeedf401b950b675dc53f38ddb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://faperj.br"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100004586"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.452991.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000084844876"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://faperj.br"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf7e5376aeedf401b950b675dc53f38ddb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-43.18223,-22.90642]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3451190"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf7e5376aeedf401b950b675dc53f38ddb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf7e5376aeedf401b950b675dc53f38ddb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf7e5376aeedf401b950b675dc53f38ddb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rio de Janeiro"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Rio de Janeiro"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf7e5376aeedf401b950b675dc53f38ddb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf7e5376aeedf401b950b675dc53f38ddb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Brazil"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf7e5376aeedf401b950b675dc53f38ddb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

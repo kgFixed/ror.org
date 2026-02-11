@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00tc4yk88> a org:Organization ;
+    rdfs:label 'Spitali Rajonal Memorial, Fier'^^xsd:string; 
+    schema:name 'Spitali Rajonal Memorial, Fier'^^xsd:string; 
+    schema:foundingDate '2021'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'Memorial Regional Hospital of Fier'^^xsd:string ; 
+    org:abbreviation 'SRMF'^^xsd:string; 
+    schema:url <http://srmemorial-fier.al> ; 
+    schema:mainEntityOfPage <https://srmemorial-fier.al> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[19.55823,40.7251]}" ;
+            schema:address [
+                schema:addressLocality "Fier" ;
+                schema:addressCountry "AL" ;
+                schema:addressRegion "Fier County" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Albania" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3185672> ;
+        ] ; 
+    .

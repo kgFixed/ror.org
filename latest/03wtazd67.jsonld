@@ -1,0 +1,181 @@
+[
+  {
+    "@id": "https://ror.org/03wtazd67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Danish Energy Agency"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Danish_Energy_Agency"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1975"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.ens.dk/en"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Danish Energy Agency"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100008445"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.470530.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000095937090"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Danish Ministry of Climate, Energy and Utilities"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/012sh1702"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[12.56553,55.67594]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2618425"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "DK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Copenhagen"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Capital Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Denmark"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncb4e06834eeb4a4281cb95ca2d4c0c63b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

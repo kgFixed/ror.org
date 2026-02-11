@@ -1,0 +1,200 @@
+[
+  {
+    "@id": "https://ror.org/007n45g27",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wellington Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Wellington_Hospital,_New_Zealand"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ne0272a9314dc48f5b2502713c51192fab1"
+      },
+      {
+        "@id": "_:ne0272a9314dc48f5b2502713c51192fab2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1847"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ne0272a9314dc48f5b2502713c51192fab3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.ccdhb.org.nz/patient/visiting_info_Wellington.htm"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wellington Hospital"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.416979.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000088626892"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne0272a9314dc48f5b2502713c51192fab1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Otago"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01jmxt844"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne0272a9314dc48f5b2502713c51192fab2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Health New Zealand"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01jvwvd85"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne0272a9314dc48f5b2502713c51192fab3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[174.77557,-41.28664]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2179537"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ne0272a9314dc48f5b2502713c51192fab4"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne0272a9314dc48f5b2502713c51192fab4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ne0272a9314dc48f5b2502713c51192fab5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Wellington"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Wellington Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne0272a9314dc48f5b2502713c51192fab5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ne0272a9314dc48f5b2502713c51192fab6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "New Zealand"
+      }
+    ]
+  },
+  {
+    "@id": "_:ne0272a9314dc48f5b2502713c51192fab6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "OC"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Oceania"
+      }
+    ]
+  }
+]

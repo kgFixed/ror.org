@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01eg6e534> a org:Organization ;
+    rdfs:label 'Raj Rishi Bhartrihari Matsya University'^^xsd:string; 
+    schema:name 'Raj Rishi Bhartrihari Matsya University'^^xsd:string; 
+    schema:foundingDate '2012'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Matsya University'^^xsd:string ; 
+    org:abbreviation 'RRBMU'^^xsd:string; 
+    org:alternativeName 'University of Matsya'^^xsd:string ; 
+    org:alternativeName 'मत्स्य विश्वविद्यालय'^^xsd:string ; 
+    schema:url <http://rrbmuniv.ac.in> ; 
+    schema:mainEntityOfPage <https://www.rrbmuniv.ac.in> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Raj_Rishi_Bhartrihari_Matsya_University> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[76.625,27.56246]}" ;
+            schema:address [
+                schema:addressLocality "Alwar" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Rajasthan" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1278946> ;
+        ] ; 
+    .

@@ -1,0 +1,205 @@
+[
+  {
+    "@id": "https://ror.org/04ys0ah18",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Max Planck Institute Luxemburg for International, European and Regulatory Procedural Law"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://de.wikipedia.org/wiki/Max_Planck_Institute_Luxembourg_for_International%252C_European_and_Regulatory_Procedural_Law"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "other"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b1"
+      },
+      {
+        "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2012"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.mpi.lu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Max Planck Institute Luxemburg for International, European and Regulatory Procedural Law"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.470201.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405631370"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mpi.lu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Max Planck Society"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01hhn8329"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Luxembourg Centre for European Law"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04cqhc152"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "successor"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.13268,49.60982]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2960316"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "LU"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Luxembourg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Luxembourg"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Luxembourg"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb46eb66b4be4455a9d3beb0fc05ddc23b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

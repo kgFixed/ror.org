@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/058zzep76",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museo Egizio"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Museo_Egizio"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ME"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "archive"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1824"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb05a12f3fa724763acf8de210d3239e1b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://museoegizio.it"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Museo Egizio"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.499965.e"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000122932667"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://museoegizio.it"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb05a12f3fa724763acf8de210d3239e1b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[7.68682,45.07049]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3165524"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb05a12f3fa724763acf8de210d3239e1b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb05a12f3fa724763acf8de210d3239e1b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb05a12f3fa724763acf8de210d3239e1b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Turin"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Piedmont"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb05a12f3fa724763acf8de210d3239e1b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb05a12f3fa724763acf8de210d3239e1b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Italy"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb05a12f3fa724763acf8de210d3239e1b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

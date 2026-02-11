@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/059h1d250> a org:Organization ;
+    rdfs:label 'Muljibhai Patel Urological Hospital'^^xsd:string; 
+    schema:name 'Muljibhai Patel Urological Hospital'^^xsd:string; 
+    schema:foundingDate '1978'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'MPUH'^^xsd:string; 
+    schema:url <http://mpuh.org> ; 
+    schema:mainEntityOfPage <https://mpuh.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Muljibhai_Patel_Urological_Hospital> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.416255.1> ;
+    schema:sameAs <http://isni.org/isni/0000000417681324> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[72.86157,22.69385]}" ;
+            schema:address [
+                schema:addressLocality "Nadiād" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Gujarat" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1262292> ;
+        ] ; 
+    .

@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02nfy5246> a org:Organization ;
+    rdfs:label 'Ministry of Science and Technology Thailand'^^xsd:string; 
+    schema:name 'Ministry of Science and Technology Thailand'^^xsd:string; 
+    schema:foundingDate '1979'^^xsd:gYear ;
+    org:status 'inactive'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'Krasuang Witthayasat Lae Theknoloyi'^^xsd:string ; 
+    org:abbreviation 'MOST'^^xsd:string; 
+    org:alternativeName 'Ministry of Science, Technology and Energy'^^xsd:string ; 
+    org:alternativeName 'Ministry of Science, Technology and Environment'^^xsd:string ; 
+    schema:mainEntityOfPage <http://www.most.go.th/eng/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Ministry_of_Science_and_Technology_(Thailand)> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100007275> ;
+    schema:sameAs <https://grid.ac/institutions/grid.467947.f> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/027rw9342> ;
+        rdfs:label 'National Astronomical Research Institute of Thailand'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/042pbz202> ;
+        rdfs:label 'Thailand Institute of Scientific and Technological Research'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/05fp08r12> ;
+        rdfs:label 'Government of Thailand'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'successor'^^xsd:string ;
+        org:member <https://ror.org/03cqd2v24> ;
+        rdfs:label 'Ministry of Higher Education, Science, Research and Innovation'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[100.53358,13.759]}" ;
+            schema:address [
+                schema:addressLocality "Ratchathewi" ;
+                schema:addressCountry "TH" ;
+                schema:addressRegion "Bangkok" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Thailand" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/7026885> ;
+        ] ; 
+    .

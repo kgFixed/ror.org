@@ -1,0 +1,127 @@
+[
+  {
+    "@id": "https://ror.org/046q9bd61",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DATINFOR (Portugal)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfbbcd0d863dd47d9831c1b2a7b537e40b1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "DATINFOR (Portugal)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000405012633"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfbbcd0d863dd47d9831c1b2a7b537e40b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-8.6199,41.23574]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2738014"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfbbcd0d863dd47d9831c1b2a7b537e40b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfbbcd0d863dd47d9831c1b2a7b537e40b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfbbcd0d863dd47d9831c1b2a7b537e40b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Maia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Porto"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfbbcd0d863dd47d9831c1b2a7b537e40b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfbbcd0d863dd47d9831c1b2a7b537e40b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfbbcd0d863dd47d9831c1b2a7b537e40b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

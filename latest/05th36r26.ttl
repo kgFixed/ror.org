@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05th36r26> a org:Organization ;
+    rdfs:label 'National Cancer Council Malaysia'^^xsd:string; 
+    schema:name 'National Cancer Council Malaysia'^^xsd:string; 
+    schema:foundingDate '1994'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'MAKNA'^^xsd:string ; 
+    schema:url <http://makna.org.my> ; 
+    schema:mainEntityOfPage <https://makna.org.my> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/MAKNA> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100006735> ;
+    schema:sameAs <https://grid.ac/institutions/grid.429620.b> ;
+    schema:sameAs <http://isni.org/isni/0000000458965331> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[101.68653,3.1412]}" ;
+            schema:address [
+                schema:addressLocality "Kuala Lumpur" ;
+                schema:addressCountry "MY" ;
+                schema:addressRegion "Kuala Lumpur" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Malaysia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1735161> ;
+        ] ; 
+    .

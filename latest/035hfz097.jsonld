@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/035hfz097",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akademi Komunitas Negeri Pacitan"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://id.wikipedia.org/wiki/Akademi_Komunitas_Negeri_Pacitan"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AKN Pacitan"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2013"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nca9e2196f82a4a1ab76c0267badad4bbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://aknpacitan.ac.id"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Akademi Komunitas Negeri Pacitan"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://aknpacitan.ac.id"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca9e2196f82a4a1ab76c0267badad4bbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[111.10333,-8.19389]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1633439"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nca9e2196f82a4a1ab76c0267badad4bbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca9e2196f82a4a1ab76c0267badad4bbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nca9e2196f82a4a1ab76c0267badad4bbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ID"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Pacitan"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "East Java"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca9e2196f82a4a1ab76c0267badad4bbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nca9e2196f82a4a1ab76c0267badad4bbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Indonesia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nca9e2196f82a4a1ab76c0267badad4bbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

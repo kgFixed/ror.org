@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05mw4gk09> a org:Organization ;
+    rdfs:label 'Rebecca Sieff Hospital'^^xsd:string; 
+    schema:name 'Rebecca Sieff Hospital'^^xsd:string; 
+    schema:foundingDate '1910'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Ziv Hospital'^^xsd:string ; 
+    org:alternativeName 'Ziv Medical Center'^^xsd:string ; 
+    schema:url <http://ziv.org.il> ; 
+    schema:mainEntityOfPage <https://www.ziv.org.il> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Rebecca_Sieff_Hospital> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.415739.d> ;
+    schema:sameAs <http://isni.org/isni/0000000406317092> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[35.496,32.96465]}" ;
+            schema:address [
+                schema:addressLocality "Safed" ;
+                schema:addressCountry "IL" ;
+                schema:addressRegion "Northern District" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Israel" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/293100> ;
+        ] ; 
+    .

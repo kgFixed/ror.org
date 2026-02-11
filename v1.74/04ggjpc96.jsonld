@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/04ggjpc96",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Reinier van Arkel"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1442"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6d20c94e9f8448859b9862900d0256d2b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://reiniervanarkel.nl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Reinier van Arkel"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.491422.8"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405460823"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://reiniervanarkel.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d20c94e9f8448859b9862900d0256d2b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.30417,51.69917]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2747351"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6d20c94e9f8448859b9862900d0256d2b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d20c94e9f8448859b9862900d0256d2b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6d20c94e9f8448859b9862900d0256d2b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "'s-Hertogenbosch"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North Brabant"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d20c94e9f8448859b9862900d0256d2b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6d20c94e9f8448859b9862900d0256d2b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6d20c94e9f8448859b9862900d0256d2b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/0526r9902",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kenya Forest Service"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Kenya_Forest_Service"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KFS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0fd6e6877e224d7b97d1716446f12867b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.kenyaforestservice.org/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kenya Forest Service"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.498479.f"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://kenyaforestservice.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0fd6e6877e224d7b97d1716446f12867b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[36.81667,-1.28333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/184745"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0fd6e6877e224d7b97d1716446f12867b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0fd6e6877e224d7b97d1716446f12867b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0fd6e6877e224d7b97d1716446f12867b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nairobi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nairobi County"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0fd6e6877e224d7b97d1716446f12867b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0fd6e6877e224d7b97d1716446f12867b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kenya"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0fd6e6877e224d7b97d1716446f12867b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

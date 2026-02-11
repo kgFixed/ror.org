@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05e0vkr08> a org:Organization ;
+    rdfs:label 'National Library of Luxembourg'^^xsd:string; 
+    schema:name 'National Library of Luxembourg'^^xsd:string; 
+    schema:foundingDate '1899'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'BNL'^^xsd:string; 
+    schema:url <http://bnl.lu> ; 
+    schema:mainEntityOfPage <https://bnl.public.lu> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/National_Library_of_Luxembourg> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.462585.8> ;
+    schema:sameAs <http://isni.org/isni/0000000123646814> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[6.13268,49.60982]}" ;
+            schema:address [
+                schema:addressLocality "Luxembourg" ;
+                schema:addressCountry "LU" ;
+                schema:addressRegion "Luxembourg" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Luxembourg" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2960316> ;
+        ] ; 
+    .

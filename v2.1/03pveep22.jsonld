@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/03pveep22",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Univerzitet \"Privredna Akademija\" Brčko distrikt Bosne i Hercegovine"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UPA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Univerzitet \"Privredna akademija\" Brčko Distrikt"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Univerzitet Privredna Akademija Brčko Distrikt BiH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1c2f19ab799a486daa71bc3924445b78b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://privrednaakademija.edu.ba"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Univerzitet \"Privredna Akademija\" Brčko distrikt Bosne i Hercegovine"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://privrednaakademija.edu.ba"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1c2f19ab799a486daa71bc3924445b78b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[18.8163,44.87162]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3203521"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1c2f19ab799a486daa71bc3924445b78b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1c2f19ab799a486daa71bc3924445b78b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1c2f19ab799a486daa71bc3924445b78b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Brčko"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Brčko"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1c2f19ab799a486daa71bc3924445b78b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1c2f19ab799a486daa71bc3924445b78b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bosnia and Herzegovina"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1c2f19ab799a486daa71bc3924445b78b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/05smj8469",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Beijing Daozhen Health Technology Development Co., Ltd. (China)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Beijing Daozhen Health Technology Development Co. Ltd."
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "北京道贞健康科技发展有限责任公司"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "道贞医疗健康科技集团"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2014"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6bf5d12712cf497cb9832e6b24d5bac1b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://www.dzyljk.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Beijing Daozhen Health Technology Development Co., Ltd. (China)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dzyljk.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6bf5d12712cf497cb9832e6b24d5bac1b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[116.39723,39.9075]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1816670"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6bf5d12712cf497cb9832e6b24d5bac1b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6bf5d12712cf497cb9832e6b24d5bac1b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6bf5d12712cf497cb9832e6b24d5bac1b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Beijing"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Beijing"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6bf5d12712cf497cb9832e6b24d5bac1b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6bf5d12712cf497cb9832e6b24d5bac1b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6bf5d12712cf497cb9832e6b24d5bac1b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

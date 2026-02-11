@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01fkkqt55> a org:Organization ;
+    rdfs:label 'Biblioteca Leonardiana di Vinci'^^xsd:string; 
+    schema:name 'Biblioteca Leonardiana di Vinci'^^xsd:string; 
+    schema:foundingDate '1928'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'archive'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Biblioteca Leonardiana'^^xsd:string ; 
+    schema:mainEntityOfPage <http://www.bibliotecaleonardiana.it/bbl/home.shtml> ;
+    owl:sameAs <https://it.wikipedia.org/wiki/Biblioteca_Leonardiana> ; 
+    schema:sameAs <http://isni.org/isni/0000000108605993> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[10.92365,43.78133]}" ;
+            schema:address [
+                schema:addressLocality "Vinci" ;
+                schema:addressCountry "IT" ;
+                schema:addressRegion "Tuscany" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Italy" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3164074> ;
+        ] ; 
+    .

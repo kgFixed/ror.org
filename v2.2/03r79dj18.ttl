@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03r79dj18> a org:Organization ;
+    rdfs:label 'Anis'^^xsd:string; 
+    schema:name 'Anis'^^xsd:string; 
+    schema:foundingDate '1999'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2019-02-17'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Institute of Bioethics'^^xsd:string ; 
+    schema:url <http://anis.org.br> ; 
+    schema:mainEntityOfPage <https://anis.org.br> ;
+    schema:sameAs <https://grid.ac/institutions/grid.503706.7> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-47.92972,-15.77972]}" ;
+            schema:address [
+                schema:addressLocality "Brasília" ;
+                schema:addressCountry "BR" ;
+                schema:addressRegion "Federal District" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Brazil" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3469058> ;
+        ] ; 
+    .

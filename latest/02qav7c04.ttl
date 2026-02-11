@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02qav7c04> a org:Organization ;
+    rdfs:label 'Interdisciplinary Centre for Security, Reliability and Trust'^^xsd:string; 
+    schema:name 'Interdisciplinary Centre for Security, Reliability and Trust'^^xsd:string; 
+    schema:foundingDate '2009'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'SnT'^^xsd:string; 
+    schema:mainEntityOfPage <https://www.uni.lu/snt-en/> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/036x5ad56> ;
+        rdfs:label 'University of Luxembourg'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[5.94361,49.51028]}" ;
+            schema:address [
+                schema:addressLocality "Belval" ;
+                schema:addressCountry "LU" ;
+                schema:addressRegion "Esch-sur-Alzette" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Luxembourg" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2960801> ;
+        ] ; 
+    .

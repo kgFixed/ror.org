@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05fe2ew26> a org:Organization ;
+    rdfs:label 'National Sports Academy Vassil Levski'^^xsd:string; 
+    schema:name 'National Sports Academy Vassil Levski'^^xsd:string; 
+    schema:foundingDate '1942'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'NSA'^^xsd:string; 
+    schema:url <http://nsa.bg> ; 
+    schema:mainEntityOfPage <https://www.nsa.bg/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/National_Sports_Academy_%2522Vasil_Levski%2522> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.445373.2> ;
+    schema:sameAs <http://isni.org/isni/0000000107007967> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[23.32415,42.69751]}" ;
+            schema:address [
+                schema:addressLocality "Sofia" ;
+                schema:addressCountry "BG" ;
+                schema:addressRegion "Sofia-Capital" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Bulgaria" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/727011> ;
+        ] ; 
+    .

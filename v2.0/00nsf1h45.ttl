@@ -1,0 +1,58 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00nsf1h45> a org:Organization ;
+    rdfs:label 'Institut Mines-Télécom Business School'^^xsd:string; 
+    schema:name 'Institut Mines-Télécom Business School'^^xsd:string; 
+    schema:foundingDate '1979'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2023-07-27'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'IMT-BS'^^xsd:string; 
+    org:alternativeName 'INT Management'^^xsd:string ; 
+    org:alternativeName 'Institut Mines-Telecom Business School'^^xsd:string ; 
+    org:abbreviation 'TEM'^^xsd:string; 
+    org:alternativeName 'Telecom Business School'^^xsd:string ; 
+    org:alternativeName 'Télécom Ecole Management'^^xsd:string ; 
+    org:alternativeName 'Télécom École de Management'^^xsd:string ; 
+    schema:mainEntityOfPage <https://imt-bs.eu> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Telecom_Business_School> ; 
+    schema:sameAs <http://isni.org/isni/0000000406405551> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04d5x5x34> ;
+        rdfs:label 'Laboratoire en Innovation, Technologies, Economie et Management'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/025vp2923> ;
+        rdfs:label 'Institut Mines-Télécom'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[2.44417,48.63389]}" ;
+            schema:address [
+                schema:addressLocality "Évry-Courcouronnes" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Île-de-France" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6454878> ;
+        ] ; 
+    .

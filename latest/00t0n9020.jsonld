@@ -1,0 +1,206 @@
+[
+  {
+    "@id": "https://ror.org/00t0n9020",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kaplan Medical Center"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Kaplan_Medical_Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "KMC"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b1"
+      },
+      {
+        "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2001"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://hospitals.clalit.co.il/Hospitals/kaplan/he-il/Pages/HomePage.aspx"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Kaplan Medical Center"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.415014.5"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405753669"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Clalit Health Services"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04zjvnp94"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hebrew University of Jerusalem"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/03qxff017"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[34.81199,31.89421]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/293725"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rehovot"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Central District"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Israel"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5cfbc9ae40184f6697f0c6d7eb0f9530b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

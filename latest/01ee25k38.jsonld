@@ -1,0 +1,137 @@
+[
+  {
+    "@id": "https://ror.org/01ee25k38",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MiniMax (People's Republic of China)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/MiniMax_%2528company%2529"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na1fd7e3512164a109651f064cf94798db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.minimax.io"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MiniMax (People's Republic of China)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://minimax.io"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1fd7e3512164a109651f064cf94798db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[121.45806,31.22222]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1796236"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na1fd7e3512164a109651f064cf94798db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1fd7e3512164a109651f064cf94798db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na1fd7e3512164a109651f064cf94798db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Shanghai"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Shanghai"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1fd7e3512164a109651f064cf94798db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na1fd7e3512164a109651f064cf94798db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "China"
+      }
+    ]
+  },
+  {
+    "@id": "_:na1fd7e3512164a109651f064cf94798db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

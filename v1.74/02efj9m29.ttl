@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02efj9m29> a org:Organization ;
+    rdfs:label 'DAIR Institute'^^xsd:string; 
+    schema:name 'DAIR Institute'^^xsd:string; 
+    schema:foundingDate '2021'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'DAIR'^^xsd:string; 
+    org:abbreviation 'DAIRI'^^xsd:string; 
+    org:alternativeName 'Distributed AI Research Institute'^^xsd:string ; 
+    org:alternativeName 'Distributed Artificial Intelligence Research Institute'^^xsd:string ; 
+    schema:url <http://dair-institute.org> ; 
+    schema:mainEntityOfPage <https://www.dair-institute.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Distributed_Artificial_Intelligence_Research_Institute> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-122.2708,37.80437]}" ;
+            schema:address [
+                schema:addressLocality "Oakland" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "California" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5378538> ;
+        ] ; 
+    .

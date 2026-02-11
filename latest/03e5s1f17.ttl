@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03e5s1f17> a org:Organization ;
+    rdfs:label 'The Environment Institute of Kenya'^^xsd:string; 
+    schema:name 'The Environment Institute of Kenya'^^xsd:string; 
+    schema:foundingDate '2014'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'EIK'^^xsd:string; 
+    org:alternativeName 'Environment Institute of Kenya'^^xsd:string ; 
+    schema:url <http://eik.co.ke> ; 
+    schema:mainEntityOfPage <https://www.eik.co.ke> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[36.81667,-1.28333]}" ;
+            schema:address [
+                schema:addressLocality "Nairobi" ;
+                schema:addressCountry "KE" ;
+                schema:addressRegion "Nairobi County" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Kenya" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/184745> ;
+        ] ; 
+    .

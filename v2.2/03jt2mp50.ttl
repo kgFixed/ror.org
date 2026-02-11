@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03jt2mp50> a org:Organization ;
+    rdfs:label 'Institute for Forage Crops'^^xsd:string; 
+    schema:name 'Institute for Forage Crops'^^xsd:string; 
+    schema:foundingDate '1932'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'IKBKS'^^xsd:string; 
+    org:alternativeName 'Институт за крмно биље'^^xsd:string ; 
+    schema:url <http://ikbks.com> ; 
+    schema:mainEntityOfPage <https://www.ikbks.com> ;
+    schema:sameAs <http://isni.org/isni/0000000404752453> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[21.33389,43.58]}" ;
+            schema:address [
+                schema:addressLocality "Kruševac" ;
+                schema:addressCountry "RS" ;
+                schema:addressRegion "Central Serbia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Serbia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/788975> ;
+        ] ; 
+    .

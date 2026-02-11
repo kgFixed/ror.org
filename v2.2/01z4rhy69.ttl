@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01z4rhy69> a org:Organization ;
+    rdfs:label '7th Geological Brigade of Sichuan'^^xsd:string; 
+    schema:name '7th Geological Brigade of Sichuan'^^xsd:string; 
+    schema:foundingDate '2023'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Seventh Geological Brigade of Sichuan'^^xsd:string ; 
+    org:alternativeName 'Sichuan Provincial Seventh Geological Brigade'^^xsd:string ; 
+    schema:url <http://sc7777.com.cn> ; 
+    schema:mainEntityOfPage <https://www.sc7777.com.cn> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[103.56336,29.26268]}" ;
+            schema:address [
+                schema:addressLocality "Leshan Shi" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Sichuan" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1804151> ;
+        ] ; 
+    .

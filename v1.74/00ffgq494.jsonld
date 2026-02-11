@@ -1,0 +1,165 @@
+[
+  {
+    "@id": "https://ror.org/00ffgq494",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southeast Asian Fisheries Development Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SEAFDEC/AQD"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SEAFDEC Aquaculture Department"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1973"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncfb85ae1197e4ea4b45e948f378c4d79b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.seafdec.org.ph"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Southeast Asian Fisheries Development Center"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100019261"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.467041.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406239100"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://seafdec.org.ph"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfb85ae1197e4ea4b45e948f378c4d79b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[122.56444,10.69694]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1711005"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncfb85ae1197e4ea4b45e948f378c4d79b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfb85ae1197e4ea4b45e948f378c4d79b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncfb85ae1197e4ea4b45e948f378c4d79b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Iloilo City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Western Visayas"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfb85ae1197e4ea4b45e948f378c4d79b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncfb85ae1197e4ea4b45e948f378c4d79b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Philippines"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncfb85ae1197e4ea4b45e948f378c4d79b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

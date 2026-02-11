@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05h0cmr57> a org:Organization ;
+    rdfs:label 'Pamantasan ng Cabuyao'^^xsd:string; 
+    schema:name 'Pamantasan ng Cabuyao'^^xsd:string; 
+    schema:foundingDate '2003'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:abbreviation 'PnC'^^xsd:string; 
+    schema:url <http://pnc.edu.ph> ; 
+    owl:sameAs <https://en.wikipedia.org/wiki/University_of_Cabuyao> ; 
+    schema:sameAs <http://isni.org/isni/0000000505990581> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[121.1262,14.2726]}" ;
+            schema:address [
+                schema:addressLocality "Cabuyao" ;
+                schema:addressCountry "PH" ;
+                schema:addressRegion "Calabarzon" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Philippines" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1721281> ;
+        ] ; 
+    .

@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05tcsqz68> a org:Organization ;
+    rdfs:label 'FIND'^^xsd:string; 
+    schema:name 'FIND'^^xsd:string; 
+    schema:foundingDate '2003'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'Foundation for Innovative New Diagnostics'^^xsd:string ; 
+    schema:url <http://finddiagnostics.org> ; 
+    schema:url <http://finddx.org> ; 
+    schema:mainEntityOfPage <https://www.finddx.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/FIND%252C_the_global_alliance_for_diagnostics> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.452485.a> ;
+    schema:sameAs <http://isni.org/isni/0000000115073147> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[6.14569,46.20222]}" ;
+            schema:address [
+                schema:addressLocality "Geneva" ;
+                schema:addressCountry "CH" ;
+                schema:addressRegion "Geneva" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Switzerland" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2660646> ;
+        ] ; 
+    .

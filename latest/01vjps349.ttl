@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01vjps349> a org:Organization ;
+    rdfs:label 'Research Institute of Medical Problems of the North'^^xsd:string; 
+    schema:name 'Research Institute of Medical Problems of the North'^^xsd:string; 
+    schema:foundingDate '1976'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'History of the Research Institute of Medical Problems of the North, RAMS'^^xsd:string ; 
+    schema:url <http://impn.ru> ; 
+    schema:mainEntityOfPage <https://impn.ru> ;
+    schema:sameAs <https://grid.ac/institutions/grid.495211.a> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[92.90765,56.02668]}" ;
+            schema:address [
+                schema:addressLocality "Krasnoyarsk" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "Krasnoyarsk Krai" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1502026> ;
+        ] ; 
+    .

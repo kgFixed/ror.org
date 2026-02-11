@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03j8kgx82> a org:Organization ;
+    rdfs:label 'RSUD Prof. Dr. Margono Soekarjo'^^xsd:string; 
+    schema:name 'RSUD Prof. Dr. Margono Soekarjo'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'RSMS'^^xsd:string; 
+    schema:url <http://rsmargono.go.id> ; 
+    schema:mainEntityOfPage <https://rsmargono.go.id> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[109.23444,-7.42139]}" ;
+            schema:address [
+                schema:addressLocality "Purwokerto" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "Central Java" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1630328> ;
+        ] ; 
+    .

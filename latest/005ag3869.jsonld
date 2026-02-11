@@ -1,0 +1,192 @@
+[
+  {
+    "@id": "https://ror.org/005ag3869",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Buxoro davlat texnika universiteti"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bukhara State Technology University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b1"
+      },
+      {
+        "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://bstu.uz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Buxoro davlat texnika universiteti"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://bstu.uz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Buxoro muhandislik-texnologiya instituti"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/0434dtp78"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Buxoro tabiiy resurslarni boshqarish instituti"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04p7gfb16"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "predecessor"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[64.43069,39.77026]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1217662"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bukhara"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bukhara"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Uzbekistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n21e3b7ca29ff4891b84bab2eed0120a9b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/059hsda18> a org:Organization ;
+    rdfs:label 'Apple (United States)'^^xsd:string; 
+    schema:name 'Apple (United States)'^^xsd:string; 
+    schema:foundingDate '1976'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:alternativeName 'Apple Computer Company'^^xsd:string ; 
+    org:alternativeName 'Apple Computers'^^xsd:string ; 
+    schema:mainEntityOfPage <http://www.apple.com/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Apple_Inc.> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.455360.1> ;
+    schema:sameAs <http://isni.org/isni/0000000406359049> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03fjbw519> ;
+        rdfs:label 'Apple (Germany)'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04ehjr030> ;
+        rdfs:label 'Apple (Israel)'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-122.03218,37.323]}" ;
+            schema:address [
+                schema:addressLocality "Cupertino" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "California" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5341145> ;
+        ] ; 
+    .

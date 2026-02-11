@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/02b0zvv74",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Alexander Fleming"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1994"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf4292859675d445081ea276676c34168b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://alexanderfleming.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Alexander Fleming"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.488972.8"
+      },
+      {
+        "@id": "http://isni.org/isni/000000040637445X"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://alexanderfleming.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf4292859675d445081ea276676c34168b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-58.37723,-34.61315]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3435910"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf4292859675d445081ea276676c34168b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf4292859675d445081ea276676c34168b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf4292859675d445081ea276676c34168b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Buenos Aires"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Buenos Aires F.D."
+      }
+    ]
+  },
+  {
+    "@id": "_:nf4292859675d445081ea276676c34168b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf4292859675d445081ea276676c34168b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Argentina"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf4292859675d445081ea276676c34168b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

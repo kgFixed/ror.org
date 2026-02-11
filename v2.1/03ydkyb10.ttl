@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03ydkyb10> a org:Organization ;
+    rdfs:label 'University of Wisconsin System'^^xsd:string; 
+    schema:name 'University of Wisconsin System'^^xsd:string; 
+    schema:foundingDate '1848'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    schema:mainEntityOfPage <https://www.wisconsin.edu/> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/University_of_Wisconsin_System> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.28803.31> ;
+    schema:sameAs <http://isni.org/isni/0000000107018607> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03mnm0t94> ;
+        rdfs:label 'University of Wisconsin–Eau Claire'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05hbexn54> ;
+        rdfs:label 'University of Wisconsin–Green Bay'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00x8ccz20> ;
+        rdfs:label 'University of Wisconsin–La Crosse'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01y2jtd41> ;
+        rdfs:label 'University of Wisconsin–Madison'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/031q21x57> ;
+        rdfs:label 'University of Wisconsin–Milwaukee'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05w22af52> ;
+        rdfs:label 'University of Wisconsin–Oshkosh'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05s9f4d27> ;
+        rdfs:label 'University of Wisconsin–Parkside'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02xpkhc07> ;
+        rdfs:label 'University of Wisconsin–Platteville'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02ep9vf55> ;
+        rdfs:label 'University of Wisconsin–River Falls'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05sv6pg41> ;
+        rdfs:label 'University of Wisconsin–Stevens Point'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01gb8pc70> ;
+        rdfs:label 'University of Wisconsin–Stout'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00z2qhk53> ;
+        rdfs:label 'University of Wisconsin–Superior'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/049hrzs50> ;
+        rdfs:label 'University of Wisconsin–Whitewater'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-89.40123,43.07305]}" ;
+            schema:address [
+                schema:addressLocality "Madison" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Wisconsin" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5261457> ;
+        ] ; 
+    .

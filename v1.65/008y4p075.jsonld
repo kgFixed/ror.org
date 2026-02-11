@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/008y4p075",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Region Blekinge"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Landstinget Blekinge"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1863"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbfeceb4d9d7541aa9c0011638ebc663cb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "http://ltblekinge.se/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Region Blekinge"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100014684"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.435885.7"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000105971381"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbfeceb4d9d7541aa9c0011638ebc663cb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.58661,56.16156]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2701713"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbfeceb4d9d7541aa9c0011638ebc663cb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbfeceb4d9d7541aa9c0011638ebc663cb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbfeceb4d9d7541aa9c0011638ebc663cb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Karlskrona"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Blekinge"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbfeceb4d9d7541aa9c0011638ebc663cb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbfeceb4d9d7541aa9c0011638ebc663cb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Sweden"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbfeceb4d9d7541aa9c0011638ebc663cb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

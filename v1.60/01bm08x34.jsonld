@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/01bm08x34",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Société Francophone de Nutrithérapie et de Nutrigénétique Appliquée"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SOFNNA"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Francophone Society for Nutritherapy and Applied Nutrigenetics"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Société Francophone Nutrithérapie Nutrigénétique Appliquée"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2018"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd800d897971643ef8a9b5d83bb18a11eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://sofnna.eu"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Société Francophone de Nutrithérapie et de Nutrigénétique Appliquée"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sofnna.eu"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd800d897971643ef8a9b5d83bb18a11eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.8795,45.76601]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2968254"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd800d897971643ef8a9b5d83bb18a11eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd800d897971643ef8a9b5d83bb18a11eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd800d897971643ef8a9b5d83bb18a11eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "FR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Villeurbanne"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Auvergne-Rhône-Alpes"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd800d897971643ef8a9b5d83bb18a11eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd800d897971643ef8a9b5d83bb18a11eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "France"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd800d897971643ef8a9b5d83bb18a11eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

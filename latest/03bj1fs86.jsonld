@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/03bj1fs86",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institución Universitaria Colombo Americana"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ÚNICA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2004"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8d2f96796a9a4a1081de8b93972b7f6db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://unica.edu.co"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institución Universitaria Colombo Americana"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.442121.0"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000477170059"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unica.edu.co"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d2f96796a9a4a1081de8b93972b7f6db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-74.08175,4.60971]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3688689"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8d2f96796a9a4a1081de8b93972b7f6db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d2f96796a9a4a1081de8b93972b7f6db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8d2f96796a9a4a1081de8b93972b7f6db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bogotá"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bogota D.C."
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d2f96796a9a4a1081de8b93972b7f6db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8d2f96796a9a4a1081de8b93972b7f6db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Colombia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8d2f96796a9a4a1081de8b93972b7f6db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04kymnq52> a org:Organization ;
+    rdfs:label 'Centre de Recherche en Technologie des Semi-conducteurs pour l’Energétique'^^xsd:string; 
+    schema:name 'Centre de Recherche en Technologie des Semi-conducteurs pour l’Energétique'^^xsd:string; 
+    schema:foundingDate '2012'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2019-02-17'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'CRTSE'^^xsd:string; 
+    schema:url <http://crtse.dz> ; 
+    schema:mainEntityOfPage <https://crtse.dz> ;
+    schema:sameAs <https://grid.ac/institutions/grid.502982.4> ;
+    schema:sameAs <http://isni.org/isni/0000000446569577> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[3.08746,36.73225]}" ;
+            schema:address [
+                schema:addressLocality "Algiers" ;
+                schema:addressCountry "DZ" ;
+                schema:addressRegion "Algiers" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Algeria" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2507480> ;
+        ] ; 
+    .

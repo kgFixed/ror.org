@@ -1,0 +1,328 @@
+[
+  {
+    "@id": "https://ror.org/028xjkf45",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HEMU - Haute École de Musique"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HEMU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HES-SO HEMU - Hochschule für Musik"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HES-SO HEMU – Haute École de Musique"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb2"
+      },
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb6"
+      },
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb10"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.hemu.ch"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HEMU - Haute École de Musique"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hemu-cl.ch"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HES-SO University of Applied Sciences and Arts Western Switzerland"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01xkakk17"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[7.35559,46.22739]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2658576"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sion"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Switzerland"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb6",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.63282,46.516]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2659994"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb7"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb7",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb8"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lausanne"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb8",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb9"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Switzerland"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb9",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb10",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[7.15128,46.80237]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2660718"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb11"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb11",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb12"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Fribourg"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb12",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb13"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Switzerland"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncf73d0d23b83492d8d5f20045b96948eb13",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

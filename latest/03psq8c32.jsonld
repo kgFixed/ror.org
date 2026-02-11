@@ -1,0 +1,142 @@
+[
+  {
+    "@id": "https://ror.org/03psq8c32",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-12"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Iwaki City Medical Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Iwakishi Iryo Senta"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "イワキシ イリョウ センター"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n216b2bcaa5ba4a08a3a005b4f5e8c0bab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://iwaki-city-medical-center.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Iwaki City Medical Center"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://iwaki-city-medical-center.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n216b2bcaa5ba4a08a3a005b4f5e8c0bab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[140.88333,37.05]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2112539"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n216b2bcaa5ba4a08a3a005b4f5e8c0bab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n216b2bcaa5ba4a08a3a005b4f5e8c0bab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n216b2bcaa5ba4a08a3a005b4f5e8c0bab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Iwaki"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Fukushima"
+      }
+    ]
+  },
+  {
+    "@id": "_:n216b2bcaa5ba4a08a3a005b4f5e8c0bab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n216b2bcaa5ba4a08a3a005b4f5e8c0bab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n216b2bcaa5ba4a08a3a005b4f5e8c0bab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

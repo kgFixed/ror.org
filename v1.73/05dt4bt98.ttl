@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05dt4bt98> a org:Organization ;
+    rdfs:label 'The Faraday Institution'^^xsd:string; 
+    schema:name 'The Faraday Institution'^^xsd:string; 
+    schema:foundingDate '2017'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2019-02-17'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://faraday.ac.uk> ; 
+    schema:mainEntityOfPage <https://www.faraday.ac.uk/> ;
+    schema:sameAs <https://api.crossref.org/funders/100017146> ;
+    schema:sameAs <https://grid.ac/institutions/grid.502947.d> ;
+    schema:sameAs <http://isni.org/isni/0000000502775085> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-1.24214,51.60928]}" ;
+            schema:address [
+                schema:addressLocality "Didcot" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "England" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2651269> ;
+        ] ; 
+    .

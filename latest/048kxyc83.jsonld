@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/048kxyc83",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INVOLV"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Foundation INVOLV"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "PGOSupport"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2024"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc9606b49237544b0a320a5908f67a6dfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.involv.nl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INVOLV"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000527762977"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://involv.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc9606b49237544b0a320a5908f67a6dfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.12222,52.09083]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2745912"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc9606b49237544b0a320a5908f67a6dfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc9606b49237544b0a320a5908f67a6dfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc9606b49237544b0a320a5908f67a6dfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Utrecht"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Utrecht"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc9606b49237544b0a320a5908f67a6dfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc9606b49237544b0a320a5908f67a6dfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc9606b49237544b0a320a5908f67a6dfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

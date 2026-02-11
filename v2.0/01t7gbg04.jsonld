@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/01t7gbg04",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Conservatorio di Musica Santa Cecilia"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://it.wikipedia.org/wiki/Conservatorio_Santa_Cecilia"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1870"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbba934c257c04d708a67607a84d0ffcfb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://conservatoriosantacecilia.it"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Conservatorio di Musica Santa Cecilia"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000121520644"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://conservatoriosantacecilia.it"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbba934c257c04d708a67607a84d0ffcfb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[12.51133,41.89193]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3169070"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbba934c257c04d708a67607a84d0ffcfb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbba934c257c04d708a67607a84d0ffcfb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbba934c257c04d708a67607a84d0ffcfb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Rome"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lazio"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbba934c257c04d708a67607a84d0ffcfb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbba934c257c04d708a67607a84d0ffcfb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Italy"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbba934c257c04d708a67607a84d0ffcfb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

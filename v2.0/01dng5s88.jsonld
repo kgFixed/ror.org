@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/01dng5s88",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Creek General Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nc1dde450389146c89b38344cf45d4e30b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nc1dde450389146c89b38344cf45d4e30b2"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Creek General Hospital"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1dde450389146c89b38344cf45d4e30b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "United Medical and Dental College"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04084bq42"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1dde450389146c89b38344cf45d4e30b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[67.0104,24.8608]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1174872"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nc1dde450389146c89b38344cf45d4e30b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1dde450389146c89b38344cf45d4e30b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nc1dde450389146c89b38344cf45d4e30b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Karachi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Sindh"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1dde450389146c89b38344cf45d4e30b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nc1dde450389146c89b38344cf45d4e30b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Pakistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:nc1dde450389146c89b38344cf45d4e30b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

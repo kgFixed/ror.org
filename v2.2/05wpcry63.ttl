@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05wpcry63> a org:Organization ;
+    rdfs:label 'Environment and Rural Development Foundation'^^xsd:string; 
+    schema:name 'Environment and Rural Development Foundation'^^xsd:string; 
+    schema:foundingDate '1999'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'ERuDeF'^^xsd:string; 
+    schema:url <http://erudef.org> ; 
+    schema:mainEntityOfPage <https://erudef.org> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[9.24231,4.15342]}" ;
+            schema:address [
+                schema:addressLocality "Buea" ;
+                schema:addressCountry "CM" ;
+                schema:addressRegion "South-West" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Cameroon" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2233410> ;
+        ] ; 
+    .

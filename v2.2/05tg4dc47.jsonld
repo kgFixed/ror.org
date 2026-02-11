@@ -1,0 +1,164 @@
+[
+  {
+    "@id": "https://ror.org/05tg4dc47",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-11-07"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wyss Center for Bio and Neuroengineering"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Wyss_Center_for_Bio_and_Neuroengineering"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wyss Center"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2013"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:na3005fb82ea34997b49280f344567fbbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://wysscenter.ch"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Wyss Center for Bio and Neuroengineering"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100015473"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.507415.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000461077896"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://wysscenter.ch"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3005fb82ea34997b49280f344567fbbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[6.14569,46.20222]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2660646"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:na3005fb82ea34997b49280f344567fbbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3005fb82ea34997b49280f344567fbbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:na3005fb82ea34997b49280f344567fbbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Geneva"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Geneva"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3005fb82ea34997b49280f344567fbbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:na3005fb82ea34997b49280f344567fbbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Switzerland"
+      }
+    ]
+  },
+  {
+    "@id": "_:na3005fb82ea34997b49280f344567fbbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

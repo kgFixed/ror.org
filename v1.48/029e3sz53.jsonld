@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/029e3sz53",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-20"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Miljøfaglig Utredning AS (Norway)"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "MFU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Miljøfaglig Utredning AS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Økomod ANS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1988"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb727c88709e04d17921a6d867742d8b8b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.mfu.no"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Miljøfaglig Utredning AS (Norway)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mfu.no"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb727c88709e04d17921a6d867742d8b8b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[16.26206,68.96443]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3154769"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb727c88709e04d17921a6d867742d8b8b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb727c88709e04d17921a6d867742d8b8b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb727c88709e04d17921a6d867742d8b8b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Grøtavær"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nb727c88709e04d17921a6d867742d8b8b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb727c88709e04d17921a6d867742d8b8b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Norway"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb727c88709e04d17921a6d867742d8b8b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

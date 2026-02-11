@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05d9dsr70> a org:Organization ;
+    rdfs:label 'Impact'^^xsd:string; 
+    schema:name 'Impact'^^xsd:string; 
+    schema:foundingDate '1986'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2020-10-19'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Partnership Africa Canada'^^xsd:string ; 
+    schema:url <http://impacttransform.org> ; 
+    schema:mainEntityOfPage <https://impacttransform.org/en/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.508620.9> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-75.69812,45.41117]}" ;
+            schema:address [
+                schema:addressLocality "Ottawa" ;
+                schema:addressCountry "CA" ;
+                schema:addressRegion "Ontario" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Canada" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6094817> ;
+        ] ; 
+    .

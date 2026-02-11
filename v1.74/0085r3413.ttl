@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0085r3413> a org:Organization ;
+    rdfs:label 'Higher School of Saharan Agriculture - El Oued'^^xsd:string; 
+    schema:name 'Higher School of Saharan Agriculture - El Oued'^^xsd:string; 
+    schema:foundingDate '2021'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'HSSAE'^^xsd:string; 
+    schema:url <http://esas-eloued.dz> ; 
+    schema:mainEntityOfPage <https://esas-eloued.dz> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[6.86319,33.35608]}" ;
+            schema:address [
+                schema:addressLocality "El Oued" ;
+                schema:addressCountry "DZ" ;
+                schema:addressRegion "El Oued" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Algeria" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2497411> ;
+        ] ; 
+    .

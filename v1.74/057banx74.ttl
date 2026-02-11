@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/057banx74> a org:Organization ;
+    rdfs:label 'Federal Medical Centre Nguru'^^xsd:string; 
+    schema:name 'Federal Medical Centre Nguru'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'FMC'^^xsd:string; 
+    schema:url <http://fmcnguru.gov.ng> ; 
+    schema:mainEntityOfPage <https://www.fmcnguru.gov.ng> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Federal_Medical_Centre%252C_Nguru> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[10.39914,12.97973]}" ;
+            schema:address [
+                schema:addressLocality "Nguru" ;
+                schema:addressCountry "NG" ;
+                schema:addressRegion "Yobe State" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Nigeria" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/8659862> ;
+        ] ; 
+    .

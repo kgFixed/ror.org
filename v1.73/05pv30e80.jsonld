@@ -1,0 +1,156 @@
+[
+  {
+    "@id": "https://ror.org/05pv30e80",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NTNU Samfunnsforskning"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NTNU SAMFUNNSFORSKNING"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NTNU Samfunnsforskning AS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2004"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ndb541cd8965c4254a38ef113ce33b401b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://samforsk.no"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NTNU Samfunnsforskning"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.458589.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000485144432"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://samforsk.no"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb541cd8965c4254a38ef113ce33b401b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[10.39506,63.43049]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3133880"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ndb541cd8965c4254a38ef113ce33b401b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb541cd8965c4254a38ef113ce33b401b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ndb541cd8965c4254a38ef113ce33b401b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Trondheim"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Trøndelag"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb541cd8965c4254a38ef113ce33b401b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ndb541cd8965c4254a38ef113ce33b401b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Norway"
+      }
+    ]
+  },
+  {
+    "@id": "_:ndb541cd8965c4254a38ef113ce33b401b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

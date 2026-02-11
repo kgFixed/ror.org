@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04nm1xm49> a org:Organization ;
+    rdfs:label 'Hainan Provincial Health Commission'^^xsd:string; 
+    schema:name 'Hainan Provincial Health Commission'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'funder'^^xsd:string ; 
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Department of Health of Hainan Province'^^xsd:string ; 
+    org:alternativeName 'Hainan Health Department'^^xsd:string ; 
+    org:alternativeName 'Hainan Provincial Department of Health'^^xsd:string ; 
+    org:alternativeName '海南省卫生厅'^^xsd:string ; 
+    schema:mainEntityOfPage <https://wst.hainan.gov.cn> ;
+    schema:sameAs <https://api.crossref.org/funders/501100013138> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02yr91f43> ;
+        rdfs:label 'Hainan Center for Disease Control & Prevention'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[110.34651,20.03421]}" ;
+            schema:address [
+                schema:addressLocality "Haikou" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Hainan" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1809078> ;
+        ] ; 
+    .

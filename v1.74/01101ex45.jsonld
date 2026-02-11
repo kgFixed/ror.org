@@ -1,0 +1,182 @@
+[
+  {
+    "@id": "https://ror.org/01101ex45",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-03-16"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Comparative Law"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://sr.wikipedia.org/sr-ec/Institut_za_uporedno_pravo"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ICL"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb995042e2fd542579d7f37799d45d7ceb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1955"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb995042e2fd542579d7f37799d45d7ceb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://iup.rs"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Comparative Law"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000406354096"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://iup.rs"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb995042e2fd542579d7f37799d45d7ceb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute of Criminological & Sociological Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02kfc0089"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb995042e2fd542579d7f37799d45d7ceb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[20.46513,44.80401]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/792680"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb995042e2fd542579d7f37799d45d7ceb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb995042e2fd542579d7f37799d45d7ceb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb995042e2fd542579d7f37799d45d7ceb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "RS"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Belgrade"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Central Serbia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb995042e2fd542579d7f37799d45d7ceb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb995042e2fd542579d7f37799d45d7ceb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Serbia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb995042e2fd542579d7f37799d45d7ceb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

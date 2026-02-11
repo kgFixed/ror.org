@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03paye555> a org:Organization ;
+    rdfs:label 'Avalon University School of Medicine'^^xsd:string; 
+    schema:name 'Avalon University School of Medicine'^^xsd:string; 
+    schema:foundingDate '2003'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'AUSOM'^^xsd:string; 
+    org:alternativeName 'Xavier University School of Medicine'^^xsd:string ; 
+    schema:url <http://avalonu.org> ; 
+    schema:mainEntityOfPage <https://avalonu.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Avalon_University_School_of_Medicine> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.427640.3> ;
+    schema:sameAs <http://isni.org/isni/0000000446891072> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-68.88641,12.12246]}" ;
+            schema:address [
+                schema:addressLocality "Willemstad" ;
+                schema:addressCountry "CW" ;
+                schema:addressRegion "None" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Curaçao" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3513090> ;
+        ] ; 
+    .

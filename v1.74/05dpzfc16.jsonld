@@ -1,0 +1,147 @@
+[
+  {
+    "@id": "https://ror.org/05dpzfc16",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ziekenhuisnetwerk Antwerpen Stuivenberg"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ZNA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "inactive"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2004"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n25bfcb09491f4f2e968f35ed1d7d7a72b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.zna.be/nl/zna-stuivenberg"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ziekenhuisnetwerk Antwerpen Stuivenberg"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.416667.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406083935"
+      }
+    ]
+  },
+  {
+    "@id": "_:n25bfcb09491f4f2e968f35ed1d7d7a72b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[4.40026,51.22047]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2803138"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n25bfcb09491f4f2e968f35ed1d7d7a72b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n25bfcb09491f4f2e968f35ed1d7d7a72b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n25bfcb09491f4f2e968f35ed1d7d7a72b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Antwerp"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Flanders"
+      }
+    ]
+  },
+  {
+    "@id": "_:n25bfcb09491f4f2e968f35ed1d7d7a72b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n25bfcb09491f4f2e968f35ed1d7d7a72b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Belgium"
+      }
+    ]
+  },
+  {
+    "@id": "_:n25bfcb09491f4f2e968f35ed1d7d7a72b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

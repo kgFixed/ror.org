@@ -1,0 +1,146 @@
+[
+  {
+    "@id": "https://ror.org/02707gg79",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-05-06"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vlokh Institute of Physical Optics"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1992"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2692ffbecb9c486fb891bd4270828ae0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ifo.lviv.ua"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Vlokh Institute of Physical Optics"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.505540.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000464781782"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ifo.lviv.ua"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2692ffbecb9c486fb891bd4270828ae0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[24.02324,49.83826]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/702550"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2692ffbecb9c486fb891bd4270828ae0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2692ffbecb9c486fb891bd4270828ae0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2692ffbecb9c486fb891bd4270828ae0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "UA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lviv"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lviv"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2692ffbecb9c486fb891bd4270828ae0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2692ffbecb9c486fb891bd4270828ae0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ukraine"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2692ffbecb9c486fb891bd4270828ae0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

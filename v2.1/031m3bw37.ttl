@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/031m3bw37> a org:Organization ;
+    rdfs:label 'Politeknik Negeri Kupang'^^xsd:string; 
+    schema:name 'Politeknik Negeri Kupang'^^xsd:string; 
+    schema:foundingDate '1985'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'PNK'^^xsd:string; 
+    schema:url <http://pnk.ac.id> ; 
+    schema:mainEntityOfPage <https://pnk.ac.id> ;
+    owl:sameAs <https://id.wikipedia.org/wiki/Politeknik_Negeri_Kupang> ; 
+    schema:sameAs <http://isni.org/isni/0000000403752478> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[123.60694,-10.17083]}" ;
+            schema:address [
+                schema:addressLocality "Kupang" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "East Nusa Tenggara" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2057087> ;
+        ] ; 
+    .

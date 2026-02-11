@@ -1,0 +1,149 @@
+[
+  {
+    "@id": "https://ror.org/017pj1g46",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas Putra Bangsa"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://id.wikipedia.org/wiki/Universitas_Putra_Bangsa"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UPB"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2001"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n87182370cd44458c9c8ada639dc00dc0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://universitasputrabangsa.ac.id"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universitas Putra Bangsa"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ac.id"
+      }
+    ]
+  },
+  {
+    "@id": "_:n87182370cd44458c9c8ada639dc00dc0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[109.66056,-7.63917]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/6376498"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n87182370cd44458c9c8ada639dc00dc0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n87182370cd44458c9c8ada639dc00dc0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n87182370cd44458c9c8ada639dc00dc0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ID"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Kebumen Regency"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Central Java"
+      }
+    ]
+  },
+  {
+    "@id": "_:n87182370cd44458c9c8ada639dc00dc0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n87182370cd44458c9c8ada639dc00dc0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Indonesia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n87182370cd44458c9c8ada639dc00dc0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

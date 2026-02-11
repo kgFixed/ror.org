@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/01hf1b360",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Unidade Hospitalar de Mirandela"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n3fc2f4b8d6dd40c5a40f523a60e984b7b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.cm-mirandela.pt/pages/870?poi_id=122"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Unidade Hospitalar de Mirandela"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000459143516"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3fc2f4b8d6dd40c5a40f523a60e984b7b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-7.18695,41.48739]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2737639"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n3fc2f4b8d6dd40c5a40f523a60e984b7b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3fc2f4b8d6dd40c5a40f523a60e984b7b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n3fc2f4b8d6dd40c5a40f523a60e984b7b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Mirandela"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bragança"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3fc2f4b8d6dd40c5a40f523a60e984b7b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n3fc2f4b8d6dd40c5a40f523a60e984b7b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Portugal"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3fc2f4b8d6dd40c5a40f523a60e984b7b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

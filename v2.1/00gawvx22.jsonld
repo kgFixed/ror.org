@@ -1,0 +1,138 @@
+[
+  {
+    "@id": "https://ror.org/00gawvx22",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ecole des Métiers de l'Accompagnement à la personne"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EMAP"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4be55666470f479bbc800870abf37f6db1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://emap.re"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ecole des Métiers de l'Accompagnement à la personne"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://emap.re"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4be55666470f479bbc800870abf37f6db1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-56.1773,46.77914]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3424934"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4be55666470f479bbc800870abf37f6db2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4be55666470f479bbc800870abf37f6db2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4be55666470f479bbc800870abf37f6db3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PM"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Saint-Pierre"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Saint-Pierre"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4be55666470f479bbc800870abf37f6db3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4be55666470f479bbc800870abf37f6db4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Saint Pierre and Miquelon"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4be55666470f479bbc800870abf37f6db4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

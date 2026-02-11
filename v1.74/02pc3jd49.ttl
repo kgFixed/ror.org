@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02pc3jd49> a org:Organization ;
+    rdfs:label 'Łukasiewicz Research Network - Institute of Microelectronics and Photonics'^^xsd:string; 
+    schema:name 'Łukasiewicz Research Network - Institute of Microelectronics and Photonics'^^xsd:string; 
+    schema:foundingDate '2020'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Sieć Badawcza Łukasiewicz - Instytut Mikroelektroniki i Fotoniki'^^xsd:string ; 
+    org:alternativeName 'Łukasiewicz-IMiF'^^xsd:string ; 
+    schema:url <http://imif.lukasiewicz.gov.pl> ; 
+    schema:mainEntityOfPage <https://imif.lukasiewicz.gov.pl> ;
+    owl:sameAs <https://pl.wikipedia.org/wiki/%25C5%2581ukasiewicz_%25E2%2580%2593_Instytut_Mikroelektroniki_i_Fotoniki> ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/036f4sz05> ;
+        rdfs:label 'Łukasiewicz Research Network'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[21.01178,52.22977]}" ;
+            schema:address [
+                schema:addressLocality "Warsaw" ;
+                schema:addressCountry "PL" ;
+                schema:addressRegion "Mazovia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Poland" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/756135> ;
+        ] ; 
+    .

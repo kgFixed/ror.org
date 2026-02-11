@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01aetvt06> a org:Organization ;
+    rdfs:label 'Woolworths Group (Australia)'^^xsd:string; 
+    schema:name 'Woolworths Group (Australia)'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Woolworths Group Limited'^^xsd:string ; 
+    org:alternativeName 'Woolworths Group Ltd'^^xsd:string ; 
+    schema:url <http://woolworthsgroup.com.au> ; 
+    schema:mainEntityOfPage <https://www.woolworthsgroup.com.au> ;
+    schema:sameAs <https://api.crossref.org/funders/501100018799> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[150.95456,-33.74127]}" ;
+            schema:address [
+                schema:addressLocality "Bella Vista" ;
+                schema:addressCountry "AU" ;
+                schema:addressRegion "New South Wales" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Australia" ;
+                    schema:containedInPlace [
+                        schema:name "Oceania" ;
+                        schema:identifier "OC"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/8348480> ;
+        ] ; 
+    .

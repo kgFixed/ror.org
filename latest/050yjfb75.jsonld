@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/050yjfb75",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ahli Hospital"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ar.wikipedia.org/wiki/%25D9%2585%25D8%25B3%25D8%25AA%25D8%25B4%25D9%2581%25D9%2589_%25D8%25A7%25D9%2584%25D8%25A3%25D9%2587%25D9%2584%25D9%258A_%2528%25D8%25A7%25D9%2584%25D8%25AE%25D9%2584%25D9%258A%25D9%2584%2529%252Aar"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Al Ahli Hospital"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "مستشفى_الأهلي"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1988"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n211d4c9da8554faeb612d77a3cdad1f6b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ahli.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ahli Hospital"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ahli.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n211d4c9da8554faeb612d77a3cdad1f6b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[35.0938,31.52935]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/285066"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n211d4c9da8554faeb612d77a3cdad1f6b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n211d4c9da8554faeb612d77a3cdad1f6b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n211d4c9da8554faeb612d77a3cdad1f6b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PS"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Hebron"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "West Bank"
+      }
+    ]
+  },
+  {
+    "@id": "_:n211d4c9da8554faeb612d77a3cdad1f6b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n211d4c9da8554faeb612d77a3cdad1f6b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Palestine"
+      }
+    ]
+  },
+  {
+    "@id": "_:n211d4c9da8554faeb612d77a3cdad1f6b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

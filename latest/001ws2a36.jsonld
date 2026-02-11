@@ -1,0 +1,170 @@
+[
+  {
+    "@id": "https://ror.org/001ws2a36",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Institute Of Technology Silchar"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Silchar"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NITS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NIT Silchar"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1967"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n7fde6ea75e3e432e8de1ddb705f9fd66b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.nits.ac.in"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Institute Of Technology Silchar"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100015990"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.444720.1"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000404974101"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nits.ac.in"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7fde6ea75e3e432e8de1ddb705f9fd66b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[92.79787,24.82733]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1256287"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n7fde6ea75e3e432e8de1ddb705f9fd66b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7fde6ea75e3e432e8de1ddb705f9fd66b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n7fde6ea75e3e432e8de1ddb705f9fd66b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Silchar"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Assam"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7fde6ea75e3e432e8de1ddb705f9fd66b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n7fde6ea75e3e432e8de1ddb705f9fd66b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n7fde6ea75e3e432e8de1ddb705f9fd66b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

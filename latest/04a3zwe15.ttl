@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04a3zwe15> a org:Organization ;
+    rdfs:label 'Chung-Hua Institution for Economic Research'^^xsd:string; 
+    schema:name 'Chung-Hua Institution for Economic Research'^^xsd:string; 
+    schema:foundingDate '1981'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2021-09-23'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'CIER'^^xsd:string; 
+    schema:url <http://cier.edu.tw> ; 
+    schema:mainEntityOfPage <https://www.cier.edu.tw> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Chung-Hua_Institution_for_Economic_Research> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.511551.4> ;
+    schema:sameAs <http://isni.org/isni/0000000406392797> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[121.52639,25.05306]}" ;
+            schema:address [
+                schema:addressLocality "Taipei" ;
+                schema:addressCountry "TW" ;
+                schema:addressRegion "Taiwan" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Taiwan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1668341> ;
+        ] ; 
+    .

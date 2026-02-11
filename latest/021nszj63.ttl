@@ -1,0 +1,53 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/021nszj63> a org:Organization ;
+    rdfs:label 'Computer Technology Institute and Press “DIOPHANTUS”'^^xsd:string; 
+    schema:name 'Computer Technology Institute and Press “DIOPHANTUS”'^^xsd:string; 
+    schema:foundingDate '1985'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'CTI '^^xsd:string; 
+    org:alternativeName 'Computer Technology Institute'^^xsd:string ; 
+    org:abbreviation 'ITYE'^^xsd:string; 
+    org:alternativeName 'Institouto Technologias Ypologiston kai Ekdosewn'^^xsd:string ; 
+    org:abbreviation 'RACTI '^^xsd:string; 
+    org:alternativeName 'Research Academic Computer Technology Institute'^^xsd:string ; 
+    schema:url <http://cti.gr> ; 
+    schema:mainEntityOfPage <https://www.cti.gr> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Research_Academic_Computer_Technology_Institute> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.18665.3c> ;
+    schema:sameAs <http://isni.org/isni/0000000404427722> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/04zvb9t44> ;
+        rdfs:label 'Ministry of Education and Religious Affairs'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[21.73508,38.2462]}" ;
+            schema:address [
+                schema:addressLocality "Pátrai" ;
+                schema:addressCountry "GR" ;
+                schema:addressRegion "West Greece" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Greece" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/255683> ;
+        ] ; 
+    .

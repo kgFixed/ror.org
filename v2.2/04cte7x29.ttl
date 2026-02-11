@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04cte7x29> a org:Organization ;
+    rdfs:label 'Randox (United Kingdom)'^^xsd:string; 
+    schema:name 'Randox (United Kingdom)'^^xsd:string; 
+    schema:foundingDate '1982'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    schema:url <http://randox.com> ; 
+    schema:mainEntityOfPage <https://www.randox.com/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Randox_Laboratories> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.437205.7> ;
+    schema:sameAs <http://isni.org/isni/0000000405439282> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-6.21414,54.62054]}" ;
+            schema:address [
+                schema:addressLocality "Crumlin" ;
+                schema:addressCountry "GB" ;
+                schema:addressRegion "Northern Ireland" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United Kingdom" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2651804> ;
+        ] ; 
+    .

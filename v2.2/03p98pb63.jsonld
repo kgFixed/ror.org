@@ -1,0 +1,140 @@
+[
+  {
+    "@id": "https://ror.org/03p98pb63",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Anthem Biosciences (India)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n8c9f1156a4414efc9643d1fcbab0093fb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://anthembio.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Anthem Biosciences (India)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.464725.6"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000417768606"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://anthembio.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8c9f1156a4414efc9643d1fcbab0093fb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[77.59369,12.97194]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1277333"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n8c9f1156a4414efc9643d1fcbab0093fb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8c9f1156a4414efc9643d1fcbab0093fb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n8c9f1156a4414efc9643d1fcbab0093fb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bengaluru"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Karnataka"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8c9f1156a4414efc9643d1fcbab0093fb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n8c9f1156a4414efc9643d1fcbab0093fb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "India"
+      }
+    ]
+  },
+  {
+    "@id": "_:n8c9f1156a4414efc9643d1fcbab0093fb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

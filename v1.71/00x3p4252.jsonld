@@ -1,0 +1,171 @@
+[
+  {
+    "@id": "https://ror.org/00x3p4252",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-19"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-22"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Nacional de Investigação em Saúde"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "INIS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nbfd9eb805abb4d02a429904dd91f810db1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbfd9eb805abb4d02a429904dd91f810db2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.inis.gov.ao"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto Nacional de Investigação em Saúde"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000523493271"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://inis.gov.ao"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbfd9eb805abb4d02a429904dd91f810db1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Centro de Investigação em Saúde de Angola"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/036qche57"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "child"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbfd9eb805abb4d02a429904dd91f810db2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[13.23432,-8.83682]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2240449"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbfd9eb805abb4d02a429904dd91f810db3"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbfd9eb805abb4d02a429904dd91f810db3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbfd9eb805abb4d02a429904dd91f810db4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Luanda"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Luanda"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbfd9eb805abb4d02a429904dd91f810db4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbfd9eb805abb4d02a429904dd91f810db5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Angola"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbfd9eb805abb4d02a429904dd91f810db5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

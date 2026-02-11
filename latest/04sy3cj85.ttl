@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04sy3cj85> a org:Organization ;
+    rdfs:label 'Slovak National Museum'^^xsd:string; 
+    schema:name 'Slovak National Museum'^^xsd:string; 
+    schema:foundingDate '1961'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'archive'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'SNM'^^xsd:string; 
+    org:alternativeName 'Slovenské národné múzeum'^^xsd:string ; 
+    schema:url <http://snm.sk> ; 
+    schema:mainEntityOfPage <https://www.snm.sk> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Slovak_National_Museum> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.455019.c> ;
+    schema:sameAs <http://isni.org/isni/0000000110885330> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[17.10674,48.14816]}" ;
+            schema:address [
+                schema:addressLocality "Bratislava" ;
+                schema:addressCountry "SK" ;
+                schema:addressRegion "Bratislava Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Slovakia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3060972> ;
+        ] ; 
+    .

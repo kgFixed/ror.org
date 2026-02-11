@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/024mz3949> a org:Organization ;
+    rdfs:label 'Three Rivers Park District'^^xsd:string; 
+    schema:name 'Three Rivers Park District'^^xsd:string; 
+    schema:foundingDate '1957'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'government'^^xsd:string ; 
+    dct:created '2025-10-27'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'Hennepin County Park Reserve District'^^xsd:string ; 
+    org:alternativeName 'Suburban Hennepin Park District'^^xsd:string ; 
+    org:abbreviation 'TRPD'^^xsd:string; 
+    schema:url <http://threeriversparks.org> ; 
+    schema:mainEntityOfPage <https://www.threeriversparks.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Three_Rivers_Park_District> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-93.45551,45.01052]}" ;
+            schema:address [
+                schema:addressLocality "Plymouth" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Minnesota" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5041926> ;
+        ] ; 
+    .

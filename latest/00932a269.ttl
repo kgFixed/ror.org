@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00932a269> a org:Organization ;
+    rdfs:label 'Universitas Bhakti Kencana'^^xsd:string; 
+    schema:name 'Universitas Bhakti Kencana'^^xsd:string; 
+    schema:foundingDate '2019'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'BKU'^^xsd:string; 
+    org:alternativeName 'Bhakti Kencana University'^^xsd:string ; 
+    schema:url <http://bku.ac.id> ; 
+    schema:mainEntityOfPage <https://bku.ac.id> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[107.60694,-6.92222]}" ;
+            schema:address [
+                schema:addressLocality "Bandung" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "West Java" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1650357> ;
+        ] ; 
+    .

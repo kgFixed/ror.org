@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/017wmdt28> a org:Organization ;
+    rdfs:label 'Toraighyrov University'^^xsd:string; 
+    schema:name 'Toraighyrov University'^^xsd:string; 
+    schema:foundingDate '1960'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'PSU'^^xsd:string; 
+    org:alternativeName 'Pavlodar Industrial Institute'^^xsd:string ; 
+    org:alternativeName 'Pavlodar State University'^^xsd:string ; 
+    org:alternativeName 'S. Toraighyrov Pavlodar State University'^^xsd:string ; 
+    org:abbreviation 'TOU'^^xsd:string; 
+    schema:url <http://tou.edu.kz> ; 
+    schema:mainEntityOfPage <https://tou.edu.kz> ;
+    schema:sameAs <https://grid.ac/institutions/grid.443601.4> ;
+    schema:sameAs <http://isni.org/isni/0000000403878046> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[76.96881,52.27601]}" ;
+            schema:address [
+                schema:addressLocality "Pavlodar" ;
+                schema:addressCountry "KZ" ;
+                schema:addressRegion "Pavlodar Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Kazakhstan" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1520240> ;
+        ] ; 
+    .

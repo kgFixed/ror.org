@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/017sgna85> a org:Organization ;
+    rdfs:label 'University Medical Center of Southern Nevada'^^xsd:string; 
+    schema:name 'University Medical Center of Southern Nevada'^^xsd:string; 
+    schema:foundingDate '1931'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'UMCSN'^^xsd:string; 
+    schema:url <http://umcsn.com> ; 
+    schema:mainEntityOfPage <https://umcsn.com> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/University_Medical_Center_of_Southern_Nevada> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.449739.4> ;
+    schema:sameAs <http://isni.org/isni/000000040386885X> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/0406gha72> ;
+        rdfs:label 'University of Nevada, Las Vegas'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-115.13722,36.17497]}" ;
+            schema:address [
+                schema:addressLocality "Las Vegas" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Nevada" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/5506956> ;
+        ] ; 
+    .

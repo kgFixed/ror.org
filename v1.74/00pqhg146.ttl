@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00pqhg146> a org:Organization ;
+    rdfs:label 'Casimir Pulaski Foundation'^^xsd:string; 
+    schema:name 'Casimir Pulaski Foundation'^^xsd:string; 
+    schema:foundingDate '2005'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'FKP'^^xsd:string; 
+    schema:url <http://pulaski.pl> ; 
+    schema:mainEntityOfPage <https://pulaski.pl> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Casimir_Pulaski_Foundation> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[21.01178,52.22977]}" ;
+            schema:address [
+                schema:addressLocality "Warsaw" ;
+                schema:addressCountry "PL" ;
+                schema:addressRegion "Mazovia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Poland" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/756135> ;
+        ] ; 
+    .

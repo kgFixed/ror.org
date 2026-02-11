@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02zc6h894> a org:Organization ;
+    rdfs:label 'Institute of Physico-Technical Problems of the North named VP Larionov'^^xsd:string; 
+    schema:name 'Institute of Physico-Technical Problems of the North named VP Larionov'^^xsd:string; 
+    schema:foundingDate '1961'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'IFTPS'^^xsd:string; 
+    schema:url <http://iptpn.ysn.ru> ; 
+    schema:mainEntityOfPage <https://iptpn.ysn.ru> ;
+    schema:sameAs <https://grid.ac/institutions/grid.494817.7> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[129.72288,62.03114]}" ;
+            schema:address [
+                schema:addressLocality "Yakutsk" ;
+                schema:addressCountry "RU" ;
+                schema:addressRegion "Sakha" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Russia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2013159> ;
+        ] ; 
+    .

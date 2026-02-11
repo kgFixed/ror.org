@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/0287xzx52",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Republican Research Center for Radiation Medicine and Human Ecology"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1992"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2711d61fa30944768c2c8b60ecf78a18b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.rcrm.by/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Republican Research Center for Radiation Medicine and Human Ecology"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.437543.2"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://rcrm.by"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2711d61fa30944768c2c8b60ecf78a18b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[30.9754,52.4345]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/627907"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2711d61fa30944768c2c8b60ecf78a18b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2711d61fa30944768c2c8b60ecf78a18b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2711d61fa30944768c2c8b60ecf78a18b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BY"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Homyel"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Homyel’ Voblasc’"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2711d61fa30944768c2c8b60ecf78a18b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2711d61fa30944768c2c8b60ecf78a18b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Belarus"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2711d61fa30944768c2c8b60ecf78a18b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

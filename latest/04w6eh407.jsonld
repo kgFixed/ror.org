@@ -1,0 +1,136 @@
+[
+  {
+    "@id": "https://ror.org/04w6eh407",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-10"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Xennia Technology (United Kingdom)"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1996"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf96e5795b4334d54bc6ac9ba2ed46cccb1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Xennia Technology (United Kingdom)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.426466.4"
+      },
+      {
+        "@id": "http://isni.org/isni/000000040529137X"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf96e5795b4334d54bc6ac9ba2ed46cccb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-0.22664,51.97938]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/8224216"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf96e5795b4334d54bc6ac9ba2ed46cccb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf96e5795b4334d54bc6ac9ba2ed46cccb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf96e5795b4334d54bc6ac9ba2ed46cccb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Letchworth"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nf96e5795b4334d54bc6ac9ba2ed46cccb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf96e5795b4334d54bc6ac9ba2ed46cccb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf96e5795b4334d54bc6ac9ba2ed46cccb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

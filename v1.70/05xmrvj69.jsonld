@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/05xmrvj69",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-26"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HuisartsenOrganisatie Oost-Gelderland"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HOOG"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Multicenter General Practitioners Organisation"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Multicenter General Practitioners Organisation 'HuisartsenOrganisatie Oost-Gelderland'"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nce9834add7ef4a86a53ff78fdd739405b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.hoogzorg.nl"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "HuisartsenOrganisatie Oost-Gelderland"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hoogzorg.nl"
+      }
+    ]
+  },
+  {
+    "@id": "_:nce9834add7ef4a86a53ff78fdd739405b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[5.91969,52.18722]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2759705"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nce9834add7ef4a86a53ff78fdd739405b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nce9834add7ef4a86a53ff78fdd739405b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nce9834add7ef4a86a53ff78fdd739405b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Apeldoorn"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Gelderland"
+      }
+    ]
+  },
+  {
+    "@id": "_:nce9834add7ef4a86a53ff78fdd739405b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nce9834add7ef4a86a53ff78fdd739405b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "_:nce9834add7ef4a86a53ff78fdd739405b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

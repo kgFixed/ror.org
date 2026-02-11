@@ -1,0 +1,154 @@
+[
+  {
+    "@id": "https://ror.org/01897f782",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-03-17"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Nacional de Juliaca"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://es.wikipedia.org/wiki/Universidad_Nacional_de_Juliaca"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UNAJ"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2007"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd2e8c9214d1e421fbbd47016aca8f3f0b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://portal.unaj.edu.pe"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad Nacional de Juliaca"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000449123685"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://unaj.edu.pe"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd2e8c9214d1e421fbbd47016aca8f3f0b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-70.13333,-15.5]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3937513"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd2e8c9214d1e421fbbd47016aca8f3f0b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd2e8c9214d1e421fbbd47016aca8f3f0b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd2e8c9214d1e421fbbd47016aca8f3f0b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Juliaca"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:nd2e8c9214d1e421fbbd47016aca8f3f0b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd2e8c9214d1e421fbbd47016aca8f3f0b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Peru"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd2e8c9214d1e421fbbd47016aca8f3f0b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

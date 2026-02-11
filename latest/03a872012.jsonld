@@ -1,0 +1,152 @@
+[
+  {
+    "@id": "https://ror.org/03a872012",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de Recherche Agricole pour le Développement"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IRAD"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de Recherche Agronomique de Développement"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n2e4f066f9dd6470f905b0f4a52f96d66b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://irad.cm"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institut de Recherche Agricole pour le Développement"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.425199.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000086618055"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://irad.cm"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2e4f066f9dd6470f905b0f4a52f96d66b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.51667,3.86667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2220957"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n2e4f066f9dd6470f905b0f4a52f96d66b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2e4f066f9dd6470f905b0f4a52f96d66b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n2e4f066f9dd6470f905b0f4a52f96d66b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "CM"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Yaoundé"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Centre"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2e4f066f9dd6470f905b0f4a52f96d66b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n2e4f066f9dd6470f905b0f4a52f96d66b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Cameroon"
+      }
+    ]
+  },
+  {
+    "@id": "_:n2e4f066f9dd6470f905b0f4a52f96d66b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

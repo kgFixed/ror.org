@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/04r0c8j28",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EL-Piast Sp. z o. o. (Poland)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EL-Piast"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2005"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n288fb351f9e946c58a9dc833e804ca2eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://el-piast.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EL-Piast Sp. z o. o. (Poland)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://el-piast.com"
+      },
+      {
+        "@id": "http://el-piast.com.pl"
+      },
+      {
+        "@id": "http://el-piast.pl"
+      },
+      {
+        "@id": "http://el-piast24h.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n288fb351f9e946c58a9dc833e804ca2eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[17.03333,51.1]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3081368"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n288fb351f9e946c58a9dc833e804ca2eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n288fb351f9e946c58a9dc833e804ca2eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n288fb351f9e946c58a9dc833e804ca2eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PL"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Wroclaw"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lower Silesia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n288fb351f9e946c58a9dc833e804ca2eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n288fb351f9e946c58a9dc833e804ca2eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Poland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n288fb351f9e946c58a9dc833e804ca2eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

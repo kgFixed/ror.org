@@ -1,0 +1,186 @@
+[
+  {
+    "@id": "https://ror.org/01tynvf67",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fakeeh College for Medical Sciences"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://ar.wikipedia.org/wiki/%25D9%2583%25D9%2584%25D9%258A%25D8%25A9_%25D9%2581%25D9%2582%25D9%258A%25D9%2587_%25D9%2584%25D9%2584%25D8%25B9%25D9%2584%25D9%2588%25D9%2585_%25D8%25A7%25D9%2584%25D8%25B7%25D8%25A8%25D9%258A%25D8%25A9"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "FCMS"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "فقيه."
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2003"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.fakeehcollege.edu.sa"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Fakeeh College for Medical Sciences"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000417816604"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://fakeehcollege.edu.sa"
+      }
+    ]
+  },
+  {
+    "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Soliman Fakeeh Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02m2znm35"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[39.18624,21.49012]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/105343"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jeddah"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Mecca Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Saudi Arabia"
+      }
+    ]
+  },
+  {
+    "@id": "_:neec4f8e824fd4e1daee7d4ec92b9d52fb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

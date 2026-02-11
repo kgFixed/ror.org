@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05gepz749> a org:Organization ;
+    rdfs:label 'Institute for the Advancement of Food and Nutrition Sciences'^^xsd:string; 
+    schema:name 'Institute for the Advancement of Food and Nutrition Sciences'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2025-11-21'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'IAFNS'^^xsd:string; 
+    schema:url <http://iafns.org> ; 
+    schema:mainEntityOfPage <https://iafns.org> ;
+    schema:sameAs <https://api.crossref.org/funders/100020185> ;
+    schema:sameAs <http://isni.org/isni/0000000508489063> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-77.03637,38.89511]}" ;
+            schema:address [
+                schema:addressLocality "Washington" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "District of Columbia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4140963> ;
+        ] ; 
+    .

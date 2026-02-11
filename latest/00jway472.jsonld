@@ -1,0 +1,199 @@
+[
+  {
+    "@id": "https://ror.org/00jway472",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Water Institute, Tanzania"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "WI"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Chuo cha Maji"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Rwegarulila Water Resources Institute"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Water Development and Management Institute"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Water Institute"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Water Resources Institute"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1974"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.waterinstitute.ac.tz"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Water Institute, Tanzania"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000502333340"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://waterinstitute.ac.tz"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Water and Irrigation"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04b6chq95"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[39.26951,-6.82349]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/160263"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TZ"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Dar es Salaam"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Dar es Salaam Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Tanzania"
+      }
+    ]
+  },
+  {
+    "@id": "_:n40ce5343a29b4538ae5638929ca3b83cb5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

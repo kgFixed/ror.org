@@ -1,0 +1,156 @@
+[
+  {
+    "@id": "https://ror.org/05trey949",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scottish Graduate School of Social Science"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "SGSSS"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sgoil Cheumnaichean Saidheans Sòisealta na h-Alba"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n96d09fec98284b6bb4ea60e0f0333866b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.sgsss.ac.uk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Scottish Graduate School of Social Science"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100024852"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000446506058"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sgsss.ac.uk"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96d09fec98284b6bb4ea60e0f0333866b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-3.19648,55.95206]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2650225"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n96d09fec98284b6bb4ea60e0f0333866b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96d09fec98284b6bb4ea60e0f0333866b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n96d09fec98284b6bb4ea60e0f0333866b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Edinburgh"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Scotland"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96d09fec98284b6bb4ea60e0f0333866b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n96d09fec98284b6bb4ea60e0f0333866b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "@id": "_:n96d09fec98284b6bb4ea60e0f0333866b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

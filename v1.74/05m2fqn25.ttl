@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/05m2fqn25> a org:Organization ;
+    rdfs:label 'Chiang Mai University'^^xsd:string; 
+    schema:name 'Chiang Mai University'^^xsd:string; 
+    schema:foundingDate '1964'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:abbreviation 'CMU'^^xsd:string; 
+    schema:mainEntityOfPage <http://www.cmu.ac.th/> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Chiang_Mai_University> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100002842> ;
+    schema:sameAs <https://grid.ac/institutions/grid.7132.7> ;
+    schema:sameAs <http://isni.org/isni/0000000090397662> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/050519n85> ;
+        rdfs:label 'Postharvest Technology Innovation Center'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/01ze6tn69> ;
+        rdfs:label 'Maharaj Nakorn Chiang Mai Hospital'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[98.98468,18.79038]}" ;
+            schema:address [
+                schema:addressLocality "Chiang Mai" ;
+                schema:addressCountry "TH" ;
+                schema:addressRegion "Chiang Mai" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Thailand" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1153671> ;
+        ] ; 
+    .

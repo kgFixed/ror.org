@@ -1,0 +1,104 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00p991c53> a org:Organization ;
+    rdfs:label 'Huazhong University of Science and Technology'^^xsd:string; 
+    schema:name 'Huazhong University of Science and Technology'^^xsd:string; 
+    schema:foundingDate '1953'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'HUST'^^xsd:string; 
+    org:alternativeName 'Huázhōng Kējì Dàxué'^^xsd:string ; 
+    schema:mainEntityOfPage <http://english.hust.edu.cn/> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Huazhong_University_of_Science_and_Technology> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100003397> ;
+    schema:sameAs <https://grid.ac/institutions/grid.33199.31> ;
+    schema:sameAs <http://isni.org/isni/0000000403687223> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05gh6hz98> ;
+        rdfs:label 'State Key Laboratory of Plasting Molding Technology'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03gjv3a85> ;
+        rdfs:label 'State Key Laboratory of Laser Technology'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03y1aw075> ;
+        rdfs:label 'State Key Laboratory of Coal Combustion'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/059ymf107> ;
+        rdfs:label 'State Key Laboratory of Materials Processing and Die & Mould Technology'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/004z1wz18> ;
+        rdfs:label 'State Key Laboratory of Digital Manufacturing Equipment and Technology'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01mr5b726> ;
+        rdfs:label 'State Key Laboratory of Advanced Electromagnetic Engineering and Technology'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/05f9vfg11> ;
+        rdfs:label 'Huazhong University of Science and Technology Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/04xy45965> ;
+        rdfs:label 'Tongji Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/0371fqr87> ;
+        rdfs:label 'Wuhan Union Hospital'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/01mf47c71> ;
+        rdfs:label 'Optics Valley Laboratory'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[114.26667,30.58333]}" ;
+            schema:address [
+                schema:addressLocality "Wuhan" ;
+                schema:addressCountry "CN" ;
+                schema:addressRegion "Hubei" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "China" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1791247> ;
+        ] ; 
+    .

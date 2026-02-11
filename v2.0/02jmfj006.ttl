@@ -1,0 +1,67 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02jmfj006> a org:Organization ;
+    rdfs:label 'Vietnam National University, Hanoi'^^xsd:string; 
+    schema:name 'Vietnam National University, Hanoi'^^xsd:string; 
+    schema:foundingDate '1993'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'VNU'^^xsd:string; 
+    schema:mainEntityOfPage <http://www.vnu.edu.vn/home/> ;
+    owl:sameAs <http://en.wikipedia.org/wiki/Vietnam_National_University,_Hanoi> ; 
+    schema:sameAs <https://api.crossref.org/funders/100015548> ;
+    schema:sameAs <https://grid.ac/institutions/grid.267852.c> ;
+    schema:sameAs <http://isni.org/isni/0000000406372083> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02k550c65> ;
+        rdfs:label 'VNU Central Institute for Natural Resources and Environmental Studies'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/05w54hk79> ;
+        rdfs:label 'VNU University of Science'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/02hkzh190> ;
+        rdfs:label 'VNU Science and Technology Development Fund'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04w94d148> ;
+        rdfs:label 'Trường Quản trị và Kinh doanh, Đại học Quốc gia Hà Nội'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[105.84117,21.0245]}" ;
+            schema:address [
+                schema:addressLocality "Hanoi" ;
+                schema:addressCountry "VN" ;
+                schema:addressRegion "Hanoi" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Vietnam" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1581130> ;
+        ] ; 
+    .

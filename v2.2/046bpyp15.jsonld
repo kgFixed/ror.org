@@ -1,0 +1,182 @@
+[
+  {
+    "@id": "https://ror.org/046bpyp15",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Peace and Security Studies"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Institute_for_Peace_and_Security_Studies"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IPSS"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n5c236c6bc4924d30af74c54870c36979b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2007"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n5c236c6bc4924d30af74c54870c36979b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ipss-addis.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Institute for Peace and Security Studies"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000446581541"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ipss-addis.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5c236c6bc4924d30af74c54870c36979b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Addis Ababa University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/038b8e254"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5c236c6bc4924d30af74c54870c36979b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[38.74689,9.02497]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/344979"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n5c236c6bc4924d30af74c54870c36979b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5c236c6bc4924d30af74c54870c36979b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n5c236c6bc4924d30af74c54870c36979b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ET"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Addis Ababa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Addis Ababa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5c236c6bc4924d30af74c54870c36979b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n5c236c6bc4924d30af74c54870c36979b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Ethiopia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n5c236c6bc4924d30af74c54870c36979b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/024g0n729> a org:Organization ;
+    rdfs:label 'Hospital Pulau Pinang'^^xsd:string; 
+    schema:name 'Hospital Pulau Pinang'^^xsd:string; 
+    schema:foundingDate '2001'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    org:alternativeName 'CRC Penang'^^xsd:string ; 
+    org:alternativeName 'Clinical Research Centre Hospital Pulau Pinang'^^xsd:string ; 
+    schema:url <http://crc.gov.my> ; 
+    schema:mainEntityOfPage <https://crc.gov.my> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Penang_General_Hospital> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.477137.1> ;
+    schema:sameAs <http://isni.org/isni/0000000405737693> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[100.33543,5.41123]}" ;
+            schema:address [
+                schema:addressLocality "George Town" ;
+                schema:addressCountry "MY" ;
+                schema:addressRegion "Penang" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Malaysia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1735106> ;
+        ] ; 
+    .

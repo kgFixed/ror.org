@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/00g6a4p04",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nevada Department of Conservation and Natural Resources"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Nevada_Department_of_Conservation_and_Natural_Resources"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NV DCNR"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n4ab34b00306f4595b666d0a28dae4375b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://dcnr.nv.gov"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Nevada Department of Conservation and Natural Resources"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://dcnr.nv.gov"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4ab34b00306f4595b666d0a28dae4375b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-119.7674,39.1638]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5501344"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n4ab34b00306f4595b666d0a28dae4375b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4ab34b00306f4595b666d0a28dae4375b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n4ab34b00306f4595b666d0a28dae4375b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Carson City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nevada"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4ab34b00306f4595b666d0a28dae4375b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n4ab34b00306f4595b666d0a28dae4375b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n4ab34b00306f4595b666d0a28dae4375b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04mc82d47> a org:Organization ;
+    rdfs:label 'Scientific Committee On Oceanic Research'^^xsd:string; 
+    schema:name 'Scientific Committee On Oceanic Research'^^xsd:string; 
+    schema:foundingDate '1957'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'SCOR'^^xsd:string; 
+    schema:mainEntityOfPage <http://www.scor-int.org/> ;
+    schema:sameAs <https://grid.ac/institutions/grid.294925.1> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/02admym78> ;
+        rdfs:label 'Integrated Marine Biosphere Research'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-75.74966,39.68372]}" ;
+            schema:address [
+                schema:addressLocality "Newark" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Delaware" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4143861> ;
+        ] ; 
+    .

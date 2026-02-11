@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/015ndb314",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laserdata GmbH (Austria)"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laserdata"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2007"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf09ce5e09f6b4f2dbb21c586f2511ffab1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.laserdata.at"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Laserdata GmbH (Austria)"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://laserdata.at"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf09ce5e09f6b4f2dbb21c586f2511ffab1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.39454,47.26266]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2775220"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf09ce5e09f6b4f2dbb21c586f2511ffab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf09ce5e09f6b4f2dbb21c586f2511ffab2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf09ce5e09f6b4f2dbb21c586f2511ffab3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Innsbruck"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Tyrol"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf09ce5e09f6b4f2dbb21c586f2511ffab3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf09ce5e09f6b4f2dbb21c586f2511ffab4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Austria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf09ce5e09f6b4f2dbb21c586f2511ffab4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

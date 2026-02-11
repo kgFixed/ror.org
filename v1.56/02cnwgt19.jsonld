@@ -1,0 +1,158 @@
+[
+  {
+    "@id": "https://ror.org/02cnwgt19",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-19"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Effat University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Effat_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1999"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n82eff105e2e94d7d97a67749911c021eb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.effatuniversity.edu.sa"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Effat University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100015832"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.443337.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406081585"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://effatuniversity.edu.sa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82eff105e2e94d7d97a67749911c021eb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[39.18624,21.49012]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/105343"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n82eff105e2e94d7d97a67749911c021eb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82eff105e2e94d7d97a67749911c021eb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n82eff105e2e94d7d97a67749911c021eb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jeddah"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+  {
+    "@id": "_:n82eff105e2e94d7d97a67749911c021eb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n82eff105e2e94d7d97a67749911c021eb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Saudi Arabia"
+      }
+    ]
+  },
+  {
+    "@id": "_:n82eff105e2e94d7d97a67749911c021eb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": ""
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/04z5c1995",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Istituto di Montecatone, Ospedale di Riabilitazione"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2010"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n6076033d042c400f8dad681a9108d1fbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.montecatone.com"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Istituto di Montecatone, Ospedale di Riabilitazione"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.489074.6"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://montecatone.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6076033d042c400f8dad681a9108d1fbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[11.7132,44.35916]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3175537"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n6076033d042c400f8dad681a9108d1fbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6076033d042c400f8dad681a9108d1fbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n6076033d042c400f8dad681a9108d1fbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "IT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Imola"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Emilia-Romagna"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6076033d042c400f8dad681a9108d1fbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n6076033d042c400f8dad681a9108d1fbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Italy"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6076033d042c400f8dad681a9108d1fbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

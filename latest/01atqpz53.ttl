@@ -1,0 +1,60 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01atqpz53> a org:Organization ;
+    rdfs:label 'Laboratoire commun de métrologie'^^xsd:string; 
+    schema:name 'Laboratoire commun de métrologie'^^xsd:string; 
+    schema:foundingDate '1997'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'facility'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'INM'^^xsd:string; 
+    org:alternativeName 'Institut national de métrologie'^^xsd:string ; 
+    org:abbreviation 'LCM'^^xsd:string; 
+    org:abbreviation 'LNE-Cnam'^^xsd:string; 
+    org:abbreviation 'LNE-INM'^^xsd:string; 
+    org:alternativeName 'Laboratoire commun de métrologie LNE-Cnam'^^xsd:string ; 
+    org:alternativeName 'Laboratoire d\'essais du Conservatoire national des arts et métiers'^^xsd:string ; 
+    org:alternativeName 'Laboratoire d\'essais mécaniques, physiques, chimiques et de machines'^^xsd:string ; 
+    schema:url <http://inm.cnam.fr> ; 
+    schema:mainEntityOfPage <https://inm.cnam.fr> ;
+    owl:sameAs <https://fr.wikipedia.org/wiki/Institut_national_de_m%25C3%25A9trologie> ; 
+    schema:sameAs <http://isni.org/isni/0000000406454441> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/01ph39d13> ;
+        rdfs:label 'Laboratoire National de Métrologie et d\'Essais'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/0175hh227> ;
+        rdfs:label 'Conservatoire National des Arts et Métiers'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[2.36379,48.90851]}" ;
+            schema:address [
+                schema:addressLocality "La Plaine-Saint-Denis" ;
+                schema:addressCountry "FR" ;
+                schema:addressRegion "Île-de-France" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "France" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3007263> ;
+        ] ; 
+    .

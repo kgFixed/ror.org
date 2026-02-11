@@ -1,0 +1,144 @@
+[
+  {
+    "@id": "https://ror.org/014pz6m24",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EIM - European Institute of Management"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EIM"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "European Institute of Management"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n64be6203a95040b6a392cf53899270d1b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://eim.education"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EIM - European Institute of Management"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://eim.education"
+      }
+    ]
+  },
+  {
+    "@id": "_:n64be6203a95040b6a392cf53899270d1b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[14.5148,35.89968]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2562305"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n64be6203a95040b6a392cf53899270d1b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n64be6203a95040b6a392cf53899270d1b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n64be6203a95040b6a392cf53899270d1b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "MT"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Valletta"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Valletta"
+      }
+    ]
+  },
+  {
+    "@id": "_:n64be6203a95040b6a392cf53899270d1b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n64be6203a95040b6a392cf53899270d1b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Malta"
+      }
+    ]
+  },
+  {
+    "@id": "_:n64be6203a95040b6a392cf53899270d1b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

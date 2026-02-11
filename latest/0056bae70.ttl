@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0056bae70> a org:Organization ;
+    rdfs:label 'Ponce Health Sciences University, St. Louis'^^xsd:string; 
+    schema:name 'Ponce Health Sciences University, St. Louis'^^xsd:string; 
+    schema:foundingDate '2018'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'PHSU St. Louis'^^xsd:string ; 
+    org:alternativeName 'Ponce Health Sciences University, Saint Louis'^^xsd:string ; 
+    schema:mainEntityOfPage <https://phsu.edu/about/locations-and-visits/st-louis.php> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/0022qva30> ;
+        rdfs:label 'Ponce Health Sciences University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-90.19789,38.62727]}" ;
+            schema:address [
+                schema:addressLocality "St Louis" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Missouri" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4407066> ;
+        ] ; 
+    .

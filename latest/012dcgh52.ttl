@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/012dcgh52> a org:Organization ;
+    rdfs:label 'Associação Portuguesa para o Desenvolvimento da Carreira'^^xsd:string; 
+    schema:name 'Associação Portuguesa para o Desenvolvimento da Carreira'^^xsd:string; 
+    schema:foundingDate '2009'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'APDC'^^xsd:string; 
+    org:alternativeName 'Portuguese Association for Career Development'^^xsd:string ; 
+    schema:url <http://apdc.eu> ; 
+    schema:mainEntityOfPage <https://www.apdc.eu> ;
+    owl:sameAs <https://pt.wikipedia.org/wiki/Associa%25C3%25A7%25C3%25A3o_Portuguesa_para_o_Desenvolvimento_da_Carreira_(APDC)> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-8.42311,41.5514]}" ;
+            schema:address [
+                schema:addressLocality "Braga" ;
+                schema:addressCountry "PT" ;
+                schema:addressRegion "Braga" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Portugal" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2742032> ;
+        ] ; 
+    .

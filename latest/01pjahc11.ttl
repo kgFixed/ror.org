@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01pjahc11> a org:Organization ;
+    rdfs:label 'Universitas Islam Al-Aziziyah Indonesia'^^xsd:string; 
+    schema:name 'Universitas Islam Al-Aziziyah Indonesia'^^xsd:string; 
+    schema:foundingDate '2023'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'Institut Agama Islam Al-Aziziyah'^^xsd:string ; 
+    org:alternativeName 'Sekolah Tinggi Agama Islam Al-Aziziyah'^^xsd:string ; 
+    org:abbreviation 'UNISAI'^^xsd:string; 
+    org:alternativeName 'Universitas Islam Al-Aziziyah Indonesia Samalanga Bireuen Aceh'^^xsd:string ; 
+    schema:url <http://unisai.ac.id> ; 
+    schema:mainEntityOfPage <https://unisai.ac.id> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[96.3544,5.2023]}" ;
+            schema:address [
+                schema:addressLocality "Mideun Jok" ;
+                schema:addressCountry "ID" ;
+                schema:addressRegion "Aceh" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Indonesia" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6728122> ;
+        ] ; 
+    .

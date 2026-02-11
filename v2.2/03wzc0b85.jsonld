@@ -1,0 +1,162 @@
+[
+  {
+    "@id": "https://ror.org/03wzc0b85",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Commission for Science, Technology, and Innovation"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NACOSTI"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Commission of Science, Technology, and Innovation"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2013"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nbb9dc568013f476ea4412136125974bcb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.nacosti.go.ke"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Commission for Science, Technology, and Innovation"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/501100005864"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.467816.a"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://nacosti.go.ke"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb9dc568013f476ea4412136125974bcb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[36.81667,-1.28333]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/184745"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nbb9dc568013f476ea4412136125974bcb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb9dc568013f476ea4412136125974bcb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nbb9dc568013f476ea4412136125974bcb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Nairobi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Nairobi County"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb9dc568013f476ea4412136125974bcb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nbb9dc568013f476ea4412136125974bcb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kenya"
+      }
+    ]
+  },
+  {
+    "@id": "_:nbb9dc568013f476ea4412136125974bcb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

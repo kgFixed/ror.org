@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03738h910> a org:Organization ;
+    rdfs:label 'Zangador Research Institute'^^xsd:string; 
+    schema:name 'Zangador Research Institute'^^xsd:string; 
+    schema:foundingDate '2020'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'nonprofit'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'ZRI'^^xsd:string; 
+    schema:url <http://zangador.institute> ; 
+    schema:mainEntityOfPage <http://www.zangador.institute> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[27.91667,43.21667]}" ;
+            schema:address [
+                schema:addressLocality "Varna" ;
+                schema:addressCountry "BG" ;
+                schema:addressRegion "Varna" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Bulgaria" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/726050> ;
+        ] ; 
+    .

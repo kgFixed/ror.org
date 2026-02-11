@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/04bqw6g80> a org:Organization ;
+    rdfs:label 'Fatec Garça'^^xsd:string; 
+    schema:name 'Fatec Garça'^^xsd:string; 
+    schema:foundingDate '2004'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'FATEC'^^xsd:string; 
+    org:alternativeName 'Faculdade de Tecnologia de Garça'^^xsd:string ; 
+    org:alternativeName 'Fatec Dep. Julio Julinho Marcondes de Moura'^^xsd:string ; 
+    schema:url <http://fatec.sp.gov.br> ; 
+    schema:mainEntityOfPage <https://fatecgarca.cps.sp.gov.br> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/04z64b609> ;
+        rdfs:label 'São Paulo State Technological College'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-49.65611,-22.21056]}" ;
+            schema:address [
+                schema:addressLocality "Garça" ;
+                schema:addressCountry "BR" ;
+                schema:addressRegion "São Paulo" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Brazil" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3462580> ;
+        ] ; 
+    .

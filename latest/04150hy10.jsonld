@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/04150hy10",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hillside Teachers' College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nd6d197e650e14af0b54054adeb112adbb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://hillsideteachers.ac.zw"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Hillside Teachers' College"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://hillsideteachers.ac.zw"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6d197e650e14af0b54054adeb112adbb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[28.58333,-20.15]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/894701"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nd6d197e650e14af0b54054adeb112adbb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6d197e650e14af0b54054adeb112adbb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nd6d197e650e14af0b54054adeb112adbb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "ZW"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bulawayo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bulawayo"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6d197e650e14af0b54054adeb112adbb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nd6d197e650e14af0b54054adeb112adbb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Zimbabwe"
+      }
+    ]
+  },
+  {
+    "@id": "_:nd6d197e650e14af0b54054adeb112adbb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

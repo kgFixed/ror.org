@@ -1,0 +1,205 @@
+[
+  {
+    "@id": "https://ror.org/04npwsp41",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Coriell Institute For Medical Research"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Coriell_Institute_for_Medical_Research"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b1"
+      },
+      {
+        "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1953"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.coriell.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Coriell Institute For Medical Research"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.282012.b"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000406275048"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://coriell.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Cooper Medical School of Rowan University"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/007evha27"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Cooper University Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/049wjac82"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-75.11962,39.92595]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/4501018"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b4"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Camden"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "New Jersey"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n12e1b7fcb6714c21b3ba4fcb7aa00705b6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

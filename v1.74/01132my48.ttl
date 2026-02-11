@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01132my48> a org:Organization ;
+    rdfs:label 'Mengo Hospital'^^xsd:string; 
+    schema:name 'Mengo Hospital'^^xsd:string; 
+    schema:foundingDate '1897'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    org:alternativeName 'Namirembe Hospital'^^xsd:string ; 
+    schema:url <http://mengohospital.org> ; 
+    schema:mainEntityOfPage <https://mengohospital.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Mengo_Hospital> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.461227.4> ;
+    schema:sameAs <http://isni.org/isni/0000000405125435> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/00ysqcn41> ;
+        rdfs:label 'Thomas Jefferson University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[32.58219,0.31628]}" ;
+            schema:address [
+                schema:addressLocality "Kampala" ;
+                schema:addressCountry "UG" ;
+                schema:addressRegion "Central Region" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Uganda" ;
+                    schema:containedInPlace [
+                        schema:name "Africa" ;
+                        schema:identifier "AF"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/232422> ;
+        ] ; 
+    .

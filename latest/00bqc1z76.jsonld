@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/00bqc1z76",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Central-Asian Institute for Applied Geosciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "CAIAG"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "ЦАИИЗ"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2002"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n9e6b13ae81174f70a6dea29db3510062b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://caiag.kg"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Central-Asian Institute for Applied Geosciences"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.493193.5"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://caiag.kg"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9e6b13ae81174f70a6dea29db3510062b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[74.59,42.87]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1528675"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n9e6b13ae81174f70a6dea29db3510062b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9e6b13ae81174f70a6dea29db3510062b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n9e6b13ae81174f70a6dea29db3510062b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "KG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Bishkek"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Bishkek"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9e6b13ae81174f70a6dea29db3510062b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n9e6b13ae81174f70a6dea29db3510062b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Kyrgyzstan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n9e6b13ae81174f70a6dea29db3510062b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

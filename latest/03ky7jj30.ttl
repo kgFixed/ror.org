@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03ky7jj30> a org:Organization ;
+    rdfs:label 'Ensco (United States)'^^xsd:string; 
+    schema:name 'Ensco (United States)'^^xsd:string; 
+    schema:foundingDate '1969'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:url <http://ensco.com> ; 
+    schema:mainEntityOfPage <https://www.ensco.com/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/ENSCO,_Inc.> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.433907.a> ;
+    schema:sameAs <http://isni.org/isni/0000000406244970> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-77.17109,38.88233]}" ;
+            schema:address [
+                schema:addressLocality "Falls Church" ;
+                schema:addressCountry "US" ;
+                schema:addressRegion "Virginia" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "United States" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/4758390> ;
+        ] ; 
+    .

@@ -1,0 +1,143 @@
+[
+  {
+    "@id": "https://ror.org/02wpfgw42",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ecdysis Foundation"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2016"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n0f9dbde71f844943b14975889118a082b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.ecdysis.bio"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ecdysis Foundation"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000514254551"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ecdysis.bio"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0f9dbde71f844943b14975889118a082b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-96.90228,44.57469]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5227651"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n0f9dbde71f844943b14975889118a082b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0f9dbde71f844943b14975889118a082b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n0f9dbde71f844943b14975889118a082b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Estelline"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "South Dakota"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0f9dbde71f844943b14975889118a082b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n0f9dbde71f844943b14975889118a082b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:n0f9dbde71f844943b14975889118a082b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

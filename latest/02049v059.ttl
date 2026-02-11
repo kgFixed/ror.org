@@ -1,0 +1,39 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/02049v059> a org:Organization ;
+    rdfs:label 'Opća bolnica Karlovac'^^xsd:string; 
+    schema:name 'Opća bolnica Karlovac'^^xsd:string; 
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:url <http://bolnica-karlovac.hr> ; 
+    schema:mainEntityOfPage <https://bolnica-karlovac.hr> ;
+    schema:sameAs <https://grid.ac/institutions/grid.415027.5> ;
+    schema:sameAs <http://isni.org/isni/0000000406082748> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[15.55,45.49167]}" ;
+            schema:address [
+                schema:addressLocality "Karlovac" ;
+                schema:addressCountry "HR" ;
+                schema:addressRegion "Karlovac" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Croatia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3345300> ;
+        ] ; 
+    .

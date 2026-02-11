@@ -1,0 +1,64 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/008s23110> a org:Organization ;
+    rdfs:label 'Metso (Finland)'^^xsd:string; 
+    schema:name 'Metso (Finland)'^^xsd:string; 
+    schema:foundingDate '1999'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-11-24'^^xsd:date ;
+    schema:mainEntityOfPage <https://www.metso.com/> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Metso> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.436502.6> ;
+    schema:sameAs <http://isni.org/isni/0000000406248218> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/002fy4y97> ;
+        rdfs:label 'Metso (Canada)'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/04z9kpd59> ;
+        rdfs:label 'Metso (Sweden)'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/03bce7633> ;
+        rdfs:label 'Metso (United States)'^^xsd:string ;
+    ] ; 
+    org:hasLink [
+        a org:Membership ;
+        org:role 'child'^^xsd:string ;
+        org:member <https://ror.org/00a8ds888> ;
+        rdfs:label 'Metso (Chile)'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[24.93545,60.16952]}" ;
+            schema:address [
+                schema:addressLocality "Helsinki" ;
+                schema:addressCountry "FI" ;
+                schema:addressRegion "Uusimaa" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Finland" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/658225> ;
+        ] ; 
+    .

@@ -1,0 +1,132 @@
+[
+  {
+    "@id": "https://ror.org/0187p1364",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-09"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-17"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Japan Mint"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "government"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n85f60622b2dd4c5f942b523a32c83643b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.mint.go.jp"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Japan Mint"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://mint.go.jp"
+      }
+    ]
+  },
+  {
+    "@id": "_:n85f60622b2dd4c5f942b523a32c83643b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[135.50107,34.69379]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1853909"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n85f60622b2dd4c5f942b523a32c83643b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n85f60622b2dd4c5f942b523a32c83643b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n85f60622b2dd4c5f942b523a32c83643b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "JP"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Osaka"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Osaka"
+      }
+    ]
+  },
+  {
+    "@id": "_:n85f60622b2dd4c5f942b523a32c83643b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n85f60622b2dd4c5f942b523a32c83643b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Japan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n85f60622b2dd4c5f942b523a32c83643b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

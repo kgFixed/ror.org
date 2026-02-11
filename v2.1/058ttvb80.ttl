@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/058ttvb80> a org:Organization ;
+    rdfs:label 'Goodbaby (China)'^^xsd:string; 
+    schema:name 'Goodbaby (China)'^^xsd:string; 
+    schema:foundingDate '1989'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:alternativeName 'Goodbaby International Holdings Limited'^^xsd:string ; 
+    schema:url <http://gbinternational.com.hk> ; 
+    schema:mainEntityOfPage <https://www.gbinternational.com.hk> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Goodbaby_International> ; 
+    schema:sameAs <https://grid.ac/institutions/grid.497834.5> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[114.17469,22.27832]}" ;
+            schema:address [
+                schema:addressLocality "Hong Kong" ;
+                schema:addressCountry "HK" ;
+                schema:addressRegion "None" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Hong Kong" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1819729> ;
+        ] ; 
+    .

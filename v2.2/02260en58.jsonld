@@ -1,0 +1,158 @@
+[
+  {
+    "@id": "https://ror.org/02260en58",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-05-11"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Antalya Belek Üni̇versi̇tesi̇"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://tr.wikipedia.org/wiki/Antalya_AKEV_%25C3%259Cniversitesi"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Antalya Akev Universitesi"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Antalya Akev Üniversitesi"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2015"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nae690d8e4be04a4cbd72cb6abd6f8c61b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://belek.edu.tr"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Antalya Belek Üni̇versi̇tesi̇"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "http://isni.org/isni/0000000464166261"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://belek.edu.tr"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae690d8e4be04a4cbd72cb6abd6f8c61b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[30.69556,36.90812]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/323777"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nae690d8e4be04a4cbd72cb6abd6f8c61b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae690d8e4be04a4cbd72cb6abd6f8c61b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nae690d8e4be04a4cbd72cb6abd6f8c61b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "TR"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Antalya"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Antalya"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae690d8e4be04a4cbd72cb6abd6f8c61b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nae690d8e4be04a4cbd72cb6abd6f8c61b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Türkiye"
+      }
+    ]
+  },
+  {
+    "@id": "_:nae690d8e4be04a4cbd72cb6abd6f8c61b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

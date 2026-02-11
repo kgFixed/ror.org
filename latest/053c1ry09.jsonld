@@ -1,0 +1,153 @@
+[
+  {
+    "@id": "https://ror.org/053c1ry09",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Njawara Agricultural Training Centre, Gambia"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NATC"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NATC Gambia"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Njawara Agricultural Training Centre"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Njawara Training Centre"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1990"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb8c094a2a74e4e1496fbc23a1d1a94c3b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.accessgambia.com/biz1/natc-njawara-agricultural-training-center.html"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Njawara Agricultural Training Centre, Gambia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb8c094a2a74e4e1496fbc23a1d1a94c3b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-16.08,13.57667]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2413201"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb8c094a2a74e4e1496fbc23a1d1a94c3b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb8c094a2a74e4e1496fbc23a1d1a94c3b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb8c094a2a74e4e1496fbc23a1d1a94c3b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "GM"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Jowara"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "North Bank"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb8c094a2a74e4e1496fbc23a1d1a94c3b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb8c094a2a74e4e1496fbc23a1d1a94c3b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "The Gambia"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb8c094a2a74e4e1496fbc23a1d1a94c3b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

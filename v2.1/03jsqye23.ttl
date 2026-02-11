@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/03jsqye23> a org:Organization ;
+    rdfs:label 'Barishal Engineering College'^^xsd:string; 
+    schema:name 'Barishal Engineering College'^^xsd:string; 
+    schema:foundingDate '2018'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'BEC'^^xsd:string; 
+    org:alternativeName 'Barisal Engineering College'^^xsd:string ; 
+    schema:url <http://bec.edu.bd> ; 
+    schema:mainEntityOfPage <https://bec.edu.bd> ;
+    owl:sameAs <https://bn.wikipedia.org/wiki/%25E0%25A6%25AC%25E0%25A6%25B0%25E0%25A6%25BF%25E0%25A6%25B6%25E0%25A6%25BE%25E0%25A6%25B2_%25E0%25A6%2587%25E0%25A6%259E%25E0%25A7%258D%25E0%25A6%259C%25E0%25A6%25BF%25E0%25A6%25A8%25E0%25A6%25BF%25E0%25A6%25AF%25E0%25A6%25BC%25E0%25A6%25BE%25E0%25A6%25B0%25E0%25A6%25BF%25E0%25A6%2582_%25E0%25A6%2595%25E0%25A6%25B2%25E0%25A7%2587%25E0%25A6%259C> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[90.37013,22.70497]}" ;
+            schema:address [
+                schema:addressLocality "Barishal" ;
+                schema:addressCountry "BD" ;
+                schema:addressRegion "Barisal Division" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Bangladesh" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/1336137> ;
+        ] ; 
+    .

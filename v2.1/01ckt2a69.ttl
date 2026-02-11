@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01ckt2a69> a org:Organization ;
+    rdfs:label 'Universidad de Chalcatongo'^^xsd:string; 
+    schema:name 'Universidad de Chalcatongo'^^xsd:string; 
+    schema:foundingDate '2013'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'UNICHA'^^xsd:string; 
+    schema:url <http://unicha.edu.mx> ; 
+    schema:mainEntityOfPage <https://www.unicha.edu.mx/> ;
+    owl:sameAs <https://es.wikipedia.org/wiki/Universidad_de_Chalcatongo> ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-97.54976,16.99293]}" ;
+            schema:address [
+                schema:addressLocality "Chalcatongo de Hidalgo" ;
+                schema:addressCountry "MX" ;
+                schema:addressRegion "Oaxaca" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Mexico" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/8582497> ;
+        ] ; 
+    .

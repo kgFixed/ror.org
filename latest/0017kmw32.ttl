@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/0017kmw32> a org:Organization ;
+    rdfs:label 'Eletrobras (Brazil)'^^xsd:string; 
+    schema:name 'Eletrobras (Brazil)'^^xsd:string; 
+    schema:foundingDate '1962'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'company'^^xsd:string ; 
+    org:classification 'funder'^^xsd:string ; 
+    dct:created '2018-11-14'^^xsd:date ;
+    dct:modified '2025-10-28'^^xsd:date ;
+    schema:mainEntityOfPage <http://www.eletrobras.com/elb/data/Pages/LUMIS293E16C4PTBRIE.htm> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Eletrobras> ; 
+    schema:sameAs <https://api.crossref.org/funders/501100006291> ;
+    schema:sameAs <https://grid.ac/institutions/grid.467374.5> ;
+    schema:sameAs <http://isni.org/isni/0000000121158593> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-43.18223,-22.90642]}" ;
+            schema:address [
+                schema:addressLocality "Rio de Janeiro" ;
+                schema:addressCountry "BR" ;
+                schema:addressRegion "Rio de Janeiro" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Brazil" ;
+                    schema:containedInPlace [
+                        schema:name "South America" ;
+                        schema:identifier "SA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3451190> ;
+        ] ; 
+    .

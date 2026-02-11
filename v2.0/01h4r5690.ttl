@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/01h4r5690> a org:Organization ;
+    rdfs:label 'EFFECTUS veleučilište'^^xsd:string; 
+    schema:name 'EFFECTUS veleučilište'^^xsd:string; 
+    schema:foundingDate '2008'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2025-12-15'^^xsd:date ;
+    dct:modified '2025-12-15'^^xsd:date ;
+    org:abbreviation 'EFFECTUS'^^xsd:string; 
+    org:alternativeName 'EFFECTUS poduzetnički studiji – visoko učilište'^^xsd:string ; 
+    org:alternativeName 'EFFECTUS studij financije i pravo – visoko učilište'^^xsd:string ; 
+    org:alternativeName 'EFFECTUS – Entrepreneurial Studies – Higher Education Institution'^^xsd:string ; 
+    org:alternativeName 'EFFECTUS – Finance and Law Studies'^^xsd:string ; 
+    schema:url <http://effectus.com.hr> ; 
+    schema:mainEntityOfPage <https://www.effectus.com.hr> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[15.97798,45.81444]}" ;
+            schema:address [
+                schema:addressLocality "Zagreb" ;
+                schema:addressCountry "HR" ;
+                schema:addressRegion "Zagreb" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Croatia" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/3186886> ;
+        ] ; 
+    .

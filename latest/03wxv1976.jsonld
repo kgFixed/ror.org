@@ -1,0 +1,158 @@
+[
+  {
+    "@id": "https://ror.org/03wxv1976",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-24"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Timken (United States)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Timken_Company"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "company"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "funder"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1899"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nf25c2e78ddff4f1b86ef904fac9dc3cdb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.timken.com/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Timken (United States)"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://api.crossref.org/funders/100019542"
+      },
+      {
+        "@id": "https://grid.ac/institutions/grid.480427.d"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405992264"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://timken.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf25c2e78ddff4f1b86ef904fac9dc3cdb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-81.40234,40.87589]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/5164706"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nf25c2e78ddff4f1b86ef904fac9dc3cdb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf25c2e78ddff4f1b86ef904fac9dc3cdb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nf25c2e78ddff4f1b86ef904fac9dc3cdb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "US"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "North Canton"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Ohio"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf25c2e78ddff4f1b86ef904fac9dc3cdb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nf25c2e78ddff4f1b86ef904fac9dc3cdb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "United States"
+      }
+    ]
+  },
+  {
+    "@id": "_:nf25c2e78ddff4f1b86ef904fac9dc3cdb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "NA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "North America"
+      }
+    ]
+  }
+]

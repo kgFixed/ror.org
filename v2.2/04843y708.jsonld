@@ -1,0 +1,134 @@
+[
+  {
+    "@id": "https://ror.org/04843y708",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-28"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Investigação Agronómica"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "IIA"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1961"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n94467674a8de4b8597ef964070d56e7bb1"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Instituto de Investigação Agronómica"
+      }
+    ]
+  },
+  {
+    "@id": "_:n94467674a8de4b8597ef964070d56e7bb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[15.73917,-12.77611]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3348313"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n94467674a8de4b8597ef964070d56e7bb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n94467674a8de4b8597ef964070d56e7bb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n94467674a8de4b8597ef964070d56e7bb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "AO"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Huambo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Huambo"
+      }
+    ]
+  },
+  {
+    "@id": "_:n94467674a8de4b8597ef964070d56e7bb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n94467674a8de4b8597ef964070d56e7bb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Angola"
+      }
+    ]
+  },
+  {
+    "@id": "_:n94467674a8de4b8597ef964070d56e7bb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/00a8v8w71> a org:Organization ;
+    rdfs:label 'Institut für deutsche Kultur und Geschichte Südosteuropas'^^xsd:string; 
+    schema:name 'Institut für deutsche Kultur und Geschichte Südosteuropas'^^xsd:string; 
+    schema:foundingDate '2001'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:abbreviation 'IKGS'^^xsd:string; 
+    org:alternativeName 'Institut für deutsche Kultur und Geschichte Südosteuropas an der LMU München'^^xsd:string ; 
+    org:alternativeName 'Institut für deutsche Kultur und Geschichte Südosteuropas an der Ludwig-Maximilians-Universität München'^^xsd:string ; 
+    schema:url <http://ikgs.de> ; 
+    schema:mainEntityOfPage <https://www.ikgs.de/> ;
+    owl:sameAs <https://de.wikipedia.org/wiki/Institut_f%25C3%25BCr_deutsche_Kultur_und_Geschichte_S%25C3%25BCdosteuropas_an_der_LMU_M%25C3%25BCnchen> ; 
+    schema:sameAs <http://isni.org/isni/000000040472193X> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'parent'^^xsd:string ;
+        org:member <https://ror.org/05591te55> ;
+        rdfs:label 'Ludwig-Maximilians-Universität München'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[11.57549,48.13743]}" ;
+            schema:address [
+                schema:addressLocality "Munich" ;
+                schema:addressCountry "DE" ;
+                schema:addressRegion "Bavaria" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Germany" ;
+                    schema:containedInPlace [
+                        schema:name "Europe" ;
+                        schema:identifier "EU"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/2867714> ;
+        ] ; 
+    .

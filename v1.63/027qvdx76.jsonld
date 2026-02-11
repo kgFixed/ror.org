@@ -1,0 +1,150 @@
+[
+  {
+    "@id": "https://ror.org/027qvdx76",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-02"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Emmanuel Alayande University of Education, Oyo"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "EAUED"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Emmanuel Alayande University of Education"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1896"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n1ed8551b1b23460d8941bf2463490beeb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://eauedoyo.edu.ng"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Emmanuel Alayande University of Education, Oyo"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://eauedoyo.edu.ng"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1ed8551b1b23460d8941bf2463490beeb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[3.93235,7.85367]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/2325200"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n1ed8551b1b23460d8941bf2463490beeb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1ed8551b1b23460d8941bf2463490beeb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n1ed8551b1b23460d8941bf2463490beeb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "NG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Oyo"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Oyo State"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1ed8551b1b23460d8941bf2463490beeb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n1ed8551b1b23460d8941bf2463490beeb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Nigeria"
+      }
+    ]
+  },
+  {
+    "@id": "_:n1ed8551b1b23460d8941bf2463490beeb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AF"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Africa"
+      }
+    ]
+  }
+]

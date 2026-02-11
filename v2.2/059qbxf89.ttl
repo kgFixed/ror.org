@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/059qbxf89> a org:Organization ;
+    rdfs:label 'Greater Noida Institute of Technology (MBA Institute)'^^xsd:string; 
+    schema:name 'Greater Noida Institute of Technology (MBA Institute)'^^xsd:string; 
+    schema:foundingDate '2001'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'education'^^xsd:string ; 
+    dct:created '2026-01-28'^^xsd:date ;
+    dct:modified '2026-01-29'^^xsd:date ;
+    org:alternativeName 'GNIOT MBA Institute'^^xsd:string ; 
+    org:alternativeName 'Greater Noida Institute of Technology'^^xsd:string ; 
+    schema:url <http://gniotmba.net> ; 
+    schema:mainEntityOfPage <https://www.gniotmba.net> ;
+    owl:sameAs <https://hi.wikipedia.org/wiki/%25E0%25A4%2597%25E0%25A5%258D%25E0%25A4%25B0%25E0%25A5%2587%25E0%25A4%259F%25E0%25A4%25B0_%25E0%25A4%25A8%25E0%25A5%2589%25E0%25A4%258F%25E0%25A4%25A1%25E0%25A4%25BE_%25E0%25A4%25AA%25E0%25A5%258D%25E0%25A4%25B0%25E0%25A5%258B%25E0%25A4%25A6%25E0%25A5%258D%25E0%25A4%25AF%25E0%25A5%258B%25E0%25A4%2597%25E0%25A4%25BF%25E0%25A4%2595%25E0%25A5%2580_%25E0%25A4%25B8%25E0%25A4%2582%25E0%25A4%25B8%25E0%25A5%258D%25E0%25A4%25A5%25E0%25A4%25BE%25E0%25A4%25A8> ; 
+    schema:sameAs <http://isni.org/isni/0000000417851346> ;
+    org:hasLink [
+        a org:Membership ;
+        org:role 'related'^^xsd:string ;
+        org:member <https://ror.org/03h56sg55> ;
+        rdfs:label 'Dr. A.P.J. Abdul Kalam Technical University'^^xsd:string ;
+    ] ; 
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[77.53601,28.49615]}" ;
+            schema:address [
+                schema:addressLocality "Greater Noida" ;
+                schema:addressCountry "IN" ;
+                schema:addressRegion "Uttar Pradesh" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "India" ;
+                    schema:containedInPlace [
+                        schema:name "Asia" ;
+                        schema:identifier "AS"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6954929> ;
+        ] ; 
+    .

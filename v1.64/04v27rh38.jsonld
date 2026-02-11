@@ -1,0 +1,148 @@
+[
+  {
+    "@id": "https://ror.org/04v27rh38",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-25"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Asociación para la Conservación y el Desarrollo Sostenible Sallqa Perú"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Asociación Sallqa Perú"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Sallqa Perú"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "nonprofit"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2004"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n29aba327685643539cdc0469d4b036b4b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://sallqaperu.org"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Asociación para la Conservación y el Desarrollo Sostenible Sallqa Perú"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://sallqaperu.org"
+      }
+    ]
+  },
+  {
+    "@id": "_:n29aba327685643539cdc0469d4b036b4b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-71.535,-16.39889]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3947322"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n29aba327685643539cdc0469d4b036b4b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n29aba327685643539cdc0469d4b036b4b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n29aba327685643539cdc0469d4b036b4b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Arequipa"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Arequipa"
+      }
+    ]
+  },
+  {
+    "@id": "_:n29aba327685643539cdc0469d4b036b4b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n29aba327685643539cdc0469d4b036b4b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Peru"
+      }
+    ]
+  },
+  {
+    "@id": "_:n29aba327685643539cdc0469d4b036b4b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

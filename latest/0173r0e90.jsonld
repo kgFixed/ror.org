@@ -1,0 +1,167 @@
+[
+  {
+    "@id": "https://ror.org/0173r0e90",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Arellano University"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Arellano_University"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AU"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Arellano Colleges"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Arellano Law College"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1938"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:ncbea321318c741baace16d27fc6840ccb1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://arellano.edu.ph"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Arellano University"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.443144.2"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000086681716"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://arellano.edu.ph"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbea321318c741baace16d27fc6840ccb1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[120.9822,14.6042]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1701668"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:ncbea321318c741baace16d27fc6840ccb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbea321318c741baace16d27fc6840ccb2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:ncbea321318c741baace16d27fc6840ccb3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Manila"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "National Capital Region"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbea321318c741baace16d27fc6840ccb3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:ncbea321318c741baace16d27fc6840ccb4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Philippines"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbea321318c741baace16d27fc6840ccb4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

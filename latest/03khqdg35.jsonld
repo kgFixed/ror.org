@@ -1,0 +1,163 @@
+[
+  {
+    "@id": "https://ror.org/03khqdg35",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad de Zamboanga"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Universidad_de_Zamboanga"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UZ"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Zamboanga A.E. Colleges"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1948"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n00397a7598d24ef1b326ca53030f2861b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://uz.edu.ph"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Universidad de Zamboanga"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.461185.f"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000405192232"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://uz.edu.ph"
+      }
+    ]
+  },
+  {
+    "@id": "_:n00397a7598d24ef1b326ca53030f2861b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[122.07389,6.91028]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1679432"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n00397a7598d24ef1b326ca53030f2861b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n00397a7598d24ef1b326ca53030f2861b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n00397a7598d24ef1b326ca53030f2861b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PH"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Zamboanga City"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Zamboanga Peninsula"
+      }
+    ]
+  },
+  {
+    "@id": "_:n00397a7598d24ef1b326ca53030f2861b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n00397a7598d24ef1b326ca53030f2861b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Philippines"
+      }
+    ]
+  },
+  {
+    "@id": "_:n00397a7598d24ef1b326ca53030f2861b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]

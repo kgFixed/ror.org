@@ -1,0 +1,197 @@
+[
+  {
+    "@id": "https://ror.org/021vn9c61",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-14"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Institute of Meteorology and Hydrology"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "NIMH"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "facility"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb1"
+      },
+      {
+        "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb2"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb3"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.meteo.bg"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "National Institute of Meteorology and Hydrology"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.425472.2"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://meteo.bg"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Bulgarian Academy of Sciences"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/01x8hew03"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb2",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "Ministry of Environment and Water"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/02tawe219"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "parent"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb3",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[23.32415,42.69751]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/727011"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb4"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb4",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb5"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "BG"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Sofia"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Sofia-Capital"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb5",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb6"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Bulgaria"
+      }
+    ]
+  },
+  {
+    "@id": "_:nb7a695ece4ae4527b7b7527dcc0db91cb6",
+    "https://schema.org/identifier": [
+      {
+        "@value": "EU"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Europe"
+      }
+    ]
+  }
+]

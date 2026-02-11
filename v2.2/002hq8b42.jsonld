@@ -1,0 +1,157 @@
+[
+  {
+    "@id": "https://ror.org/002hq8b42",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-09-23"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-29"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Sciences and Arts of Latin America"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/University_of_Sciences_and_Arts_of_Latin_America"
+      }
+    ],
+    "http://www.w3.org/ns/org#abbreviation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "UCAL"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "education"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2010"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:nfa022be9be3c4f18979c569bdac2c209b1"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://ucal.edu.pe"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "University of Sciences and Arts of Latin America"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://grid.ac/institutions/grid.510891.4"
+      },
+      {
+        "@id": "http://isni.org/isni/0000000459057685"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://ucal.edu.pe"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa022be9be3c4f18979c569bdac2c209b1",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[-77.02824,-12.04318]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/3936456"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:nfa022be9be3c4f18979c569bdac2c209b2"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa022be9be3c4f18979c569bdac2c209b2",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:nfa022be9be3c4f18979c569bdac2c209b3"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PE"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Lima"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Lima Province"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa022be9be3c4f18979c569bdac2c209b3",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:nfa022be9be3c4f18979c569bdac2c209b4"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Peru"
+      }
+    ]
+  },
+  {
+    "@id": "_:nfa022be9be3c4f18979c569bdac2c209b4",
+    "https://schema.org/identifier": [
+      {
+        "@value": "SA"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "South America"
+      }
+    ]
+  }
+]

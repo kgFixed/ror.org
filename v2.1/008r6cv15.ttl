@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://ror.org/008r6cv15> a org:Organization ;
+    rdfs:label 'The Salvation Army Toronto Grace Health Centre'^^xsd:string; 
+    schema:name 'The Salvation Army Toronto Grace Health Centre'^^xsd:string; 
+    schema:foundingDate '1905'^^xsd:gYear ;
+    org:status 'active'^^xsd:string ;
+    org:classification 'healthcare'^^xsd:string ; 
+    dct:created '2026-01-15'^^xsd:date ;
+    dct:modified '2026-01-15'^^xsd:date ;
+    org:abbreviation 'TGHC'^^xsd:string; 
+    org:alternativeName 'Toronto Grace'^^xsd:string ; 
+    org:alternativeName 'Toronto Grace Health Centre'^^xsd:string ; 
+    schema:url <http://torontograce.org> ; 
+    schema:mainEntityOfPage <https://www.torontograce.org> ;
+    owl:sameAs <https://en.wikipedia.org/wiki/Toronto_Grace_Health_Centre> ; 
+    schema:sameAs <http://isni.org/isni/0000000107673281> ;
+    schema:location [
+            a schema:Place ;
+            geo:asGeoJSON "{\"type\":\"Point\",\"coordinates\":[-79.39864,43.70643]}" ;
+            schema:address [
+                schema:addressLocality "Toronto" ;
+                schema:addressCountry "CA" ;
+                schema:addressRegion "Ontario" ;
+                dct:spatial [
+                    a dct:Location ;
+                    schema:name "Canada" ;
+                    schema:containedInPlace [
+                        schema:name "North America" ;
+                        schema:identifier "NA"
+                    ]
+                ]
+            ] ;
+            owl:sameAs <http://sws.geonames.org/6167865> ;
+        ] ; 
+    .

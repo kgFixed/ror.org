@@ -1,0 +1,172 @@
+[
+  {
+    "@id": "https://ror.org/035qa0k76",
+    "@type": [
+      "http://www.w3.org/ns/org#Organization"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "A.O. Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#alternativeName": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "AO Hospital"
+      }
+    ],
+    "http://www.w3.org/ns/org#classification": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "healthcare"
+      }
+    ],
+    "http://www.w3.org/ns/org#hasLink": [
+      {
+        "@id": "_:n51d7937fbe604796826707d102301441b1"
+      }
+    ],
+    "http://www.w3.org/ns/org#status": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "active"
+      }
+    ],
+    "https://schema.org/foundingDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1985"
+      }
+    ],
+    "https://schema.org/location": [
+      {
+        "@id": "_:n51d7937fbe604796826707d102301441b2"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://aohospital.com.pk"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "A.O. Hospital"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "http://aohospital.com.pk"
+      }
+    ]
+  },
+  {
+    "@id": "_:n51d7937fbe604796826707d102301441b1",
+    "@type": [
+      "http://www.w3.org/ns/org#Membership"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "United Medical and Dental College"
+      }
+    ],
+    "http://www.w3.org/ns/org#member": [
+      {
+        "@id": "https://ror.org/04084bq42"
+      }
+    ],
+    "http://www.w3.org/ns/org#role": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "related"
+      }
+    ]
+  },
+  {
+    "@id": "_:n51d7937fbe604796826707d102301441b2",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.opengis.net/ont/geosparql#asGeoJSON": [
+      {
+        "@value": "{\"type\":\"Point\",\"coordinates\":[67.0104,24.8608]}"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://sws.geonames.org/1174872"
+      }
+    ],
+    "https://schema.org/address": [
+      {
+        "@id": "_:n51d7937fbe604796826707d102301441b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:n51d7937fbe604796826707d102301441b3",
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "_:n51d7937fbe604796826707d102301441b4"
+      }
+    ],
+    "https://schema.org/addressCountry": [
+      {
+        "@value": "PK"
+      }
+    ],
+    "https://schema.org/addressLocality": [
+      {
+        "@value": "Karachi"
+      }
+    ],
+    "https://schema.org/addressRegion": [
+      {
+        "@value": "Sindh"
+      }
+    ]
+  },
+  {
+    "@id": "_:n51d7937fbe604796826707d102301441b4",
+    "@type": [
+      "http://purl.org/dc/terms/Location"
+    ],
+    "https://schema.org/containedInPlace": [
+      {
+        "@id": "_:n51d7937fbe604796826707d102301441b5"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Pakistan"
+      }
+    ]
+  },
+  {
+    "@id": "_:n51d7937fbe604796826707d102301441b5",
+    "https://schema.org/identifier": [
+      {
+        "@value": "AS"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Asia"
+      }
+    ]
+  }
+]
