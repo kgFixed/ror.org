@@ -6,6 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix org: <http://www.w3.org/ns/org#> .
 
 @base <http://w3id.org/kgfixed/ror.org/LDES/v1.34> .
 
@@ -42,7 +43,7 @@
       sh:path dc:isVersionOf
     ];
     
-    sh:targetClass skos:Concept
+    sh:targetClass org:Organization
   ] ;
   tree:view <> ;
   .
@@ -51,7 +52,7 @@
   dc:isVersionOf <https://ror.org/0004wsx81> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Telkom University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0004wsx81>
   rdfs:label 'Telkom University'^^xsd:string ;
@@ -62,7 +63,7 @@
   dc:isVersionOf <https://ror.org/002pscq53> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Weather Service Southern Region'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/002pscq53>
   rdfs:label 'NOAA National Weather Service Southern Region'^^xsd:string ;
@@ -73,7 +74,7 @@
   dc:isVersionOf <https://ror.org/002shdh75> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Habitat Conservation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/002shdh75>
   rdfs:label 'NOAA Office of Habitat Conservation'^^xsd:string ;
@@ -84,7 +85,7 @@
   dc:isVersionOf <https://ror.org/00319zh75> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Advanced Light Source'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00319zh75>
   rdfs:label 'Advanced Light Source'^^xsd:string ;
@@ -95,7 +96,7 @@
   dc:isVersionOf <https://ror.org/0038t2c13> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Swiss National Library'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0038t2c13>
   rdfs:label 'Swiss National Library'^^xsd:string ;
@@ -106,7 +107,7 @@
   dc:isVersionOf <https://ror.org/003dfhs04> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut de Physique Nucléaire d’Orsay'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/003dfhs04>
   rdfs:label 'Institut de Physique Nucléaire d’Orsay'^^xsd:string ;
@@ -117,7 +118,7 @@
   dc:isVersionOf <https://ror.org/003g1aw90> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/003g1aw90>
   rdfs:label 'Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers'^^xsd:string ;
@@ -128,7 +129,7 @@
   dc:isVersionOf <https://ror.org/003szmg30> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ho Chi Minh City International University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/003szmg30>
   rdfs:label 'Ho Chi Minh City International University'^^xsd:string ;
@@ -139,7 +140,7 @@
   dc:isVersionOf <https://ror.org/003vg9w96> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Research Institute for Agriculture, Food and Environment'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/003vg9w96>
   rdfs:label 'National Research Institute for Agriculture, Food and Environment'^^xsd:string ;
@@ -150,7 +151,7 @@
   dc:isVersionOf <https://ror.org/0046t1019> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Eskenazi Health'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0046t1019>
   rdfs:label 'Eskenazi Health'^^xsd:string ;
@@ -161,7 +162,7 @@
   dc:isVersionOf <https://ror.org/004wre089> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'SINTEF Ocean'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/004wre089>
   rdfs:label 'SINTEF Ocean'^^xsd:string ;
@@ -172,7 +173,7 @@
   dc:isVersionOf <https://ror.org/005sm0w71> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Geostationary Extended Observations'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/005sm0w71>
   rdfs:label 'NOAA Geostationary Extended Observations'^^xsd:string ;
@@ -183,7 +184,7 @@
   dc:isVersionOf <https://ror.org/0061q5f61> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Air Resources Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0061q5f61>
   rdfs:label 'NOAA Air Resources Laboratory'^^xsd:string ;
@@ -194,7 +195,7 @@
   dc:isVersionOf <https://ror.org/006ddyp05> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Global Systems Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/006ddyp05>
   rdfs:label 'NOAA Global Systems Laboratory'^^xsd:string ;
@@ -205,7 +206,7 @@
   dc:isVersionOf <https://ror.org/006ha1k08> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Aviation Weather Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/006ha1k08>
   rdfs:label 'NOAA Aviation Weather Center'^^xsd:string ;
@@ -216,7 +217,7 @@
   dc:isVersionOf <https://ror.org/006kr7r70> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Okavango Research Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/006kr7r70>
   rdfs:label 'Okavango Research Institute'^^xsd:string ;
@@ -227,7 +228,7 @@
   dc:isVersionOf <https://ror.org/006p4kh13> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Joint Polar Satellite System Program Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/006p4kh13>
   rdfs:label 'NOAA Joint Polar Satellite System Program Office'^^xsd:string ;
@@ -238,7 +239,7 @@
   dc:isVersionOf <https://ror.org/006vx3924> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'St. Vincent\'s Medical Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/006vx3924>
   rdfs:label 'St. Vincent\'s Medical Center'^^xsd:string ;
@@ -249,7 +250,7 @@
   dc:isVersionOf <https://ror.org/006yjsn14> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Brighton Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/006yjsn14>
   rdfs:label 'Brighton Hospital'^^xsd:string ;
@@ -260,7 +261,7 @@
   dc:isVersionOf <https://ror.org/0075rz071> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Arthur C. Clarke Centre for Modern Technologies'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0075rz071>
   rdfs:label 'Arthur C. Clarke Centre for Modern Technologies'^^xsd:string ;
@@ -271,7 +272,7 @@
   dc:isVersionOf <https://ror.org/007qwym43> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Environmental Satellite Data and Information Service'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/007qwym43>
   rdfs:label 'NOAA National Environmental Satellite Data and Information Service'^^xsd:string ;
@@ -282,7 +283,7 @@
   dc:isVersionOf <https://ror.org/008rtte29> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Griffin Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/008rtte29>
   rdfs:label 'Griffin Hospital'^^xsd:string ;
@@ -293,7 +294,7 @@
   dc:isVersionOf <https://ror.org/008rwr521> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Istanbul Health and Technology University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/008rwr521>
   rdfs:label 'Istanbul Health and Technology University'^^xsd:string ;
@@ -304,7 +305,7 @@
   dc:isVersionOf <https://ror.org/009djdq91> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Universities Research Association'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/009djdq91>
   rdfs:label 'Universities Research Association'^^xsd:string ;
@@ -315,7 +316,7 @@
   dc:isVersionOf <https://ror.org/00ajw8c12> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'The Institute of Geotechnical Mechanics named by N. Polyakov NAS of Ukraine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00ajw8c12>
   rdfs:label 'The Institute of Geotechnical Mechanics named by N. Polyakov NAS of Ukraine'^^xsd:string ;
@@ -326,7 +327,7 @@
   dc:isVersionOf <https://ror.org/00bdqav06> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Cooperative Institute for Research in Environmental Sciences'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00bdqav06>
   rdfs:label 'Cooperative Institute for Research in Environmental Sciences'^^xsd:string ;
@@ -337,7 +338,7 @@
   dc:isVersionOf <https://ror.org/00dez5550> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University Medical Center Brackenridge'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00dez5550>
   rdfs:label 'University Medical Center Brackenridge'^^xsd:string ;
@@ -348,7 +349,7 @@
   dc:isVersionOf <https://ror.org/00djwmt25> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University Grants Committee'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00djwmt25>
   rdfs:label 'University Grants Committee'^^xsd:string ;
@@ -359,7 +360,7 @@
   dc:isVersionOf <https://ror.org/00e8hwt93> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratoire lorrain de psychologie et neurosciences de la dynamique des comportements'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00e8hwt93>
   rdfs:label 'Laboratoire lorrain de psychologie et neurosciences de la dynamique des comportements'^^xsd:string ;
@@ -370,7 +371,7 @@
   dc:isVersionOf <https://ror.org/00ejqxs53> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Ocean Prediction Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00ejqxs53>
   rdfs:label 'NOAA Ocean Prediction Center'^^xsd:string ;
@@ -381,7 +382,7 @@
   dc:isVersionOf <https://ror.org/00f54p054> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Stanford University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00f54p054>
   rdfs:label 'Stanford University'^^xsd:string ;
@@ -392,7 +393,7 @@
   dc:isVersionOf <https://ror.org/00f7rb209> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Weather Prediction Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00f7rb209>
   rdfs:label 'NOAA Weather Prediction Center'^^xsd:string ;
@@ -403,7 +404,7 @@
   dc:isVersionOf <https://ror.org/00g8jvh18> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Universitas PGRI Adi Buana Surabaya'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00g8jvh18>
   rdfs:label 'Universitas PGRI Adi Buana Surabaya'^^xsd:string ;
@@ -414,7 +415,7 @@
   dc:isVersionOf <https://ror.org/00gd1f947> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Severe Storms Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00gd1f947>
   rdfs:label 'NOAA National Severe Storms Laboratory'^^xsd:string ;
@@ -425,7 +426,7 @@
   dc:isVersionOf <https://ror.org/00gtg0p11> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Centre Île-de-France - Jouy-en-Josas - Antony'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00gtg0p11>
   rdfs:label 'Centre Île-de-France - Jouy-en-Josas - Antony'^^xsd:string ;
@@ -436,7 +437,7 @@
   dc:isVersionOf <https://ror.org/00hdf4w21> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Indiana State Department of Health'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00hdf4w21>
   rdfs:label 'Indiana State Department of Health'^^xsd:string ;
@@ -447,7 +448,7 @@
   dc:isVersionOf <https://ror.org/00hj54h04> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'The University of Texas at Austin'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00hj54h04>
   rdfs:label 'The University of Texas at Austin'^^xsd:string ;
@@ -458,7 +459,7 @@
   dc:isVersionOf <https://ror.org/00j9qag85> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Linnaeus University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00j9qag85>
   rdfs:label 'Linnaeus University'^^xsd:string ;
@@ -469,7 +470,7 @@
   dc:isVersionOf <https://ror.org/00je4t102> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Academy of Sciences of Ukraine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00je4t102>
   rdfs:label 'National Academy of Sciences of Ukraine'^^xsd:string ;
@@ -480,7 +481,7 @@
   dc:isVersionOf <https://ror.org/00jmfr291> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Michigan–Ann Arbor'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00jmfr291>
   rdfs:label 'University of Michigan–Ann Arbor'^^xsd:string ;
@@ -491,7 +492,7 @@
   dc:isVersionOf <https://ror.org/00jrpyg10> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Atlântica Instituto Universitário'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00jrpyg10>
   rdfs:label 'Atlântica Instituto Universitário'^^xsd:string ;
@@ -502,7 +503,7 @@
   dc:isVersionOf <https://ror.org/00kct2d35> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Climate Prediction Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00kct2d35>
   rdfs:label 'NOAA Climate Prediction Center'^^xsd:string ;
@@ -513,7 +514,7 @@
   dc:isVersionOf <https://ror.org/00kz42k48> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'The Achieve Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00kz42k48>
   rdfs:label 'The Achieve Foundation'^^xsd:string ;
@@ -524,7 +525,7 @@
   dc:isVersionOf <https://ror.org/00mmmy130> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Climate Program Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00mmmy130>
   rdfs:label 'NOAA Climate Program Office'^^xsd:string ;
@@ -535,7 +536,7 @@
   dc:isVersionOf <https://ror.org/00mmn6b08> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Office of Science'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00mmn6b08>
   rdfs:label 'Office of Science'^^xsd:string ;
@@ -546,7 +547,7 @@
   dc:isVersionOf <https://ror.org/00mpz5a50> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Quinnipiac University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00mpz5a50>
   rdfs:label 'Quinnipiac University'^^xsd:string ;
@@ -557,7 +558,7 @@
   dc:isVersionOf <https://ror.org/00ndyev54> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Centers for Environmental Prediction'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00ndyev54>
   rdfs:label 'NOAA National Centers for Environmental Prediction'^^xsd:string ;
@@ -568,7 +569,7 @@
   dc:isVersionOf <https://ror.org/00p4y7r37> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'International Academy, Research, and Industry Association'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00p4y7r37>
   rdfs:label 'International Academy, Research, and Industry Association'^^xsd:string ;
@@ -579,7 +580,7 @@
   dc:isVersionOf <https://ror.org/00p9by667> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Office of International Affairs and Seafood Inspection'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00p9by667>
   rdfs:label 'NOAA National Marine Fisheries Service Office of International Affairs and Seafood Inspection'^^xsd:string ;
@@ -590,7 +591,7 @@
   dc:isVersionOf <https://ror.org/00pg6eq24> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Strasbourg'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00pg6eq24>
   rdfs:label 'University of Strasbourg'^^xsd:string ;
@@ -601,7 +602,7 @@
   dc:isVersionOf <https://ror.org/00q976b76> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'V. B. Sochava Institute of Geography'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00q976b76>
   rdfs:label 'V. B. Sochava Institute of Geography'^^xsd:string ;
@@ -612,7 +613,7 @@
   dc:isVersionOf <https://ror.org/00qhdy563> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Université Paul-Valéry Montpellier'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00qhdy563>
   rdfs:label 'Université Paul-Valéry Montpellier'^^xsd:string ;
@@ -623,7 +624,7 @@
   dc:isVersionOf <https://ror.org/00rawf147> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Maison des Sciences de l\'Homme Lyon St-Étienne'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00rawf147>
   rdfs:label 'Maison des Sciences de l\'Homme Lyon St-Étienne'^^xsd:string ;
@@ -634,7 +635,7 @@
   dc:isVersionOf <https://ror.org/00rydyx93> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut des Sciences Biologiques'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00rydyx93>
   rdfs:label 'Institut des Sciences Biologiques'^^xsd:string ;
@@ -645,7 +646,7 @@
   dc:isVersionOf <https://ror.org/00s19x989> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut des Sciences de l\'Ingénierie et des Systèmes'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00s19x989>
   rdfs:label 'Institut des Sciences de l\'Ingénierie et des Systèmes'^^xsd:string ;
@@ -656,7 +657,7 @@
   dc:isVersionOf <https://ror.org/00s1szh94> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ascension'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00s1szh94>
   rdfs:label 'Ascension'^^xsd:string ;
@@ -667,7 +668,7 @@
   dc:isVersionOf <https://ror.org/00tabsj08> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Istanbul Topkapi University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00tabsj08>
   rdfs:label 'Istanbul Topkapi University'^^xsd:string ;
@@ -678,7 +679,7 @@
   dc:isVersionOf <https://ror.org/00tgqzw13> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Weather Service'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00tgqzw13>
   rdfs:label 'NOAA National Weather Service'^^xsd:string ;
@@ -689,7 +690,7 @@
   dc:isVersionOf <https://ror.org/00vazrw17> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratoire de Géographie et d\'Aménagement de Montpellier'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00vazrw17>
   rdfs:label 'Laboratoire de Géographie et d\'Aménagement de Montpellier'^^xsd:string ;
@@ -700,7 +701,7 @@
   dc:isVersionOf <https://ror.org/00waaqh38> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Vietnam National University Ho Chi Minh City'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00waaqh38>
   rdfs:label 'Vietnam National University Ho Chi Minh City'^^xsd:string ;
@@ -711,7 +712,7 @@
   dc:isVersionOf <https://ror.org/00y2ek133> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Naval Oceanography Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00y2ek133>
   rdfs:label 'Naval Oceanography Office'^^xsd:string ;
@@ -722,7 +723,7 @@
   dc:isVersionOf <https://ror.org/00zskr649> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Marion County Public Health Department'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00zskr649>
   rdfs:label 'Marion County Public Health Department'^^xsd:string ;
@@ -733,7 +734,7 @@
   dc:isVersionOf <https://ror.org/011907q25> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratoire de Génie des Procédés Catalytiques'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/011907q25>
   rdfs:label 'Laboratoire de Génie des Procédés Catalytiques'^^xsd:string ;
@@ -744,7 +745,7 @@
   dc:isVersionOf <https://ror.org/0123meh57> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Providence Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0123meh57>
   rdfs:label 'Providence Hospital'^^xsd:string ;
@@ -755,7 +756,7 @@
   dc:isVersionOf <https://ror.org/012q9wx84> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Stellwagen Bank National Marine Sanctuary'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/012q9wx84>
   rdfs:label 'Stellwagen Bank National Marine Sanctuary'^^xsd:string ;
@@ -766,7 +767,7 @@
   dc:isVersionOf <https://ror.org/012sz6c52> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Uncrewed Systems Research Transition Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/012sz6c52>
   rdfs:label 'NOAA Uncrewed Systems Research Transition Office'^^xsd:string ;
@@ -777,7 +778,7 @@
   dc:isVersionOf <https://ror.org/0135b1w07> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Alexian Brothers Health System'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0135b1w07>
   rdfs:label 'Alexian Brothers Health System'^^xsd:string ;
@@ -788,7 +789,7 @@
   dc:isVersionOf <https://ror.org/0138jhg57> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Economics and Law'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0138jhg57>
   rdfs:label 'University of Economics and Law'^^xsd:string ;
@@ -799,7 +800,7 @@
   dc:isVersionOf <https://ror.org/013ew2c19> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Water Prediction'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/013ew2c19>
   rdfs:label 'NOAA Office of Water Prediction'^^xsd:string ;
@@ -810,7 +811,7 @@
   dc:isVersionOf <https://ror.org/014kxm163> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Weather Service Pacific Region'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/014kxm163>
   rdfs:label 'NOAA National Weather Service Pacific Region'^^xsd:string ;
@@ -821,7 +822,7 @@
   dc:isVersionOf <https://ror.org/014zrew76> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Orléans'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/014zrew76>
   rdfs:label 'University of Orléans'^^xsd:string ;
@@ -832,7 +833,7 @@
   dc:isVersionOf <https://ror.org/015yf2b46> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Dell Children\'s Medical Center of Central Texas'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/015yf2b46>
   rdfs:label 'Dell Children\'s Medical Center of Central Texas'^^xsd:string ;
@@ -843,7 +844,7 @@
   dc:isVersionOf <https://ror.org/0175hh227> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Conservatoire National des Arts et Métiers'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0175hh227>
   rdfs:label 'Conservatoire National des Arts et Métiers'^^xsd:string ;
@@ -854,7 +855,7 @@
   dc:isVersionOf <https://ror.org/018pp1107> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Arts et Metiers Institute of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/018pp1107>
   rdfs:label 'Arts et Metiers Institute of Technology'^^xsd:string ;
@@ -865,7 +866,7 @@
   dc:isVersionOf <https://ror.org/018zc6p18> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut Teknologi Telkom Purwokerto'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/018zc6p18>
   rdfs:label 'Institut Teknologi Telkom Purwokerto'^^xsd:string ;
@@ -876,7 +877,7 @@
   dc:isVersionOf <https://ror.org/019ya6433> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Department for Business, Energy and Industrial Strategy'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/019ya6433>
   rdfs:label 'Department for Business, Energy and Industrial Strategy'^^xsd:string ;
@@ -887,7 +888,7 @@
   dc:isVersionOf <https://ror.org/01anhj553> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'UCLy (Lyon Catholic University)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01anhj553>
   rdfs:label 'UCLy (Lyon Catholic University)'^^xsd:string ;
@@ -898,7 +899,7 @@
   dc:isVersionOf <https://ror.org/01apwpt12> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Sandia National Laboratories'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01apwpt12>
   rdfs:label 'Sandia National Laboratories'^^xsd:string ;
@@ -909,7 +910,7 @@
   dc:isVersionOf <https://ror.org/01az7b475> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Korea Research Institute of Standards and Science'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01az7b475>
   rdfs:label 'Korea Research Institute of Standards and Science'^^xsd:string ;
@@ -920,7 +921,7 @@
   dc:isVersionOf <https://ror.org/01bj3aw27> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'United States Department of Energy'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01bj3aw27>
   rdfs:label 'United States Department of Energy'^^xsd:string ;
@@ -931,7 +932,7 @@
   dc:isVersionOf <https://ror.org/01bkbaq61> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'CERCA Institution'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01bkbaq61>
   rdfs:label 'CERCA Institution'^^xsd:string ;
@@ -942,7 +943,7 @@
   dc:isVersionOf <https://ror.org/01bnkr993> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Tashkent Medical Academy Urgench Branch'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01bnkr993>
   rdfs:label 'Tashkent Medical Academy Urgench Branch'^^xsd:string ;
@@ -953,7 +954,7 @@
   dc:isVersionOf <https://ror.org/01cbtr271> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'École d\'Ingénieurs en Chimie et Sciences du Numérique'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01cbtr271>
   rdfs:label 'École d\'Ingénieurs en Chimie et Sciences du Numérique'^^xsd:string ;
@@ -964,7 +965,7 @@
   dc:isVersionOf <https://ror.org/01ceg4t15> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Biologie Végétale et de Microbiologie Environnementales'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01ceg4t15>
   rdfs:label 'Biologie Végétale et de Microbiologie Environnementales'^^xsd:string ;
@@ -975,7 +976,7 @@
   dc:isVersionOf <https://ror.org/01cqd9q31> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Cibles et Médicaments des Infections et de l\'Immunité'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01cqd9q31>
   rdfs:label 'Cibles et Médicaments des Infections et de l\'Immunité'^^xsd:string ;
@@ -986,7 +987,7 @@
   dc:isVersionOf <https://ror.org/01ddxaa25> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Carondelet Health Network'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01ddxaa25>
   rdfs:label 'Carondelet Health Network'^^xsd:string ;
@@ -997,7 +998,7 @@
   dc:isVersionOf <https://ror.org/01dvj3d25> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Atmospheric Radiation Measurement User Facility'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01dvj3d25>
   rdfs:label 'Atmospheric Radiation Measurement User Facility'^^xsd:string ;
@@ -1008,7 +1009,7 @@
   dc:isVersionOf <https://ror.org/01dy3j343> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Community Coordinated Modeling Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01dy3j343>
   rdfs:label 'Community Coordinated Modeling Center'^^xsd:string ;
@@ -1019,7 +1020,7 @@
   dc:isVersionOf <https://ror.org/01e41cf67> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Los Alamos National Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01e41cf67>
   rdfs:label 'Los Alamos National Laboratory'^^xsd:string ;
@@ -1030,7 +1031,7 @@
   dc:isVersionOf <https://ror.org/01encsj80> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Botswana'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01encsj80>
   rdfs:label 'University of Botswana'^^xsd:string ;
@@ -1041,7 +1042,7 @@
   dc:isVersionOf <https://ror.org/01f677e56> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'SINTEF'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01f677e56>
   rdfs:label 'SINTEF'^^xsd:string ;
@@ -1052,7 +1053,7 @@
   dc:isVersionOf <https://ror.org/01fdhpk75> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Molecular Foundry'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01fdhpk75>
   rdfs:label 'Molecular Foundry'^^xsd:string ;
@@ -1063,7 +1064,7 @@
   dc:isVersionOf <https://ror.org/01fe8k477> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratoire Lorrain de Sciences Sociales'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01fe8k477>
   rdfs:label 'Laboratoire Lorrain de Sciences Sociales'^^xsd:string ;
@@ -1074,7 +1075,7 @@
   dc:isVersionOf <https://ror.org/01fmhrb91> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Chief Operating Officer'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01fmhrb91>
   rdfs:label 'NOAA Office of Chief Operating Officer'^^xsd:string ;
@@ -1085,7 +1086,7 @@
   dc:isVersionOf <https://ror.org/01fpdvr35> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Integrated Drought Information System'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01fpdvr35>
   rdfs:label 'National Integrated Drought Information System'^^xsd:string ;
@@ -1096,7 +1097,7 @@
   dc:isVersionOf <https://ror.org/01g0b5g28> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Trinity Health Oakland Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01g0b5g28>
   rdfs:label 'Trinity Health Oakland Hospital'^^xsd:string ;
@@ -1107,7 +1108,7 @@
   dc:isVersionOf <https://ror.org/01g25jp36> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Netherlands Institute of Ecology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01g25jp36>
   rdfs:label 'Netherlands Institute of Ecology'^^xsd:string ;
@@ -1118,7 +1119,7 @@
   dc:isVersionOf <https://ror.org/01h6c8126> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Environmental Science Services Administration'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01h6c8126>
   rdfs:label 'Environmental Science Services Administration'^^xsd:string ;
@@ -1129,7 +1130,7 @@
   dc:isVersionOf <https://ror.org/01h7fye62> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Alaska Fisheries Science Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01h7fye62>
   rdfs:label 'NOAA National Marine Fisheries Service Alaska Fisheries Science Center'^^xsd:string ;
@@ -1140,7 +1141,7 @@
   dc:isVersionOf <https://ror.org/01hp6xm80> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Hollings Marine Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01hp6xm80>
   rdfs:label 'Hollings Marine Laboratory'^^xsd:string ;
@@ -1151,7 +1152,7 @@
   dc:isVersionOf <https://ror.org/01hza1144> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Department of Primary Industries and Regions South Australia'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01hza1144>
   rdfs:label 'Department of Primary Industries and Regions South Australia'^^xsd:string ;
@@ -1162,7 +1163,7 @@
   dc:isVersionOf <https://ror.org/01j6j9107> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Space Weather Prediction Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01j6j9107>
   rdfs:label 'NOAA Space Weather Prediction Center'^^xsd:string ;
@@ -1173,7 +1174,7 @@
   dc:isVersionOf <https://ror.org/01jeee804> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Great Lakes Environmental Research Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01jeee804>
   rdfs:label 'NOAA Great Lakes Environmental Research Laboratory'^^xsd:string ;
@@ -1184,7 +1185,7 @@
   dc:isVersionOf <https://ror.org/01jvz7e61> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Virologie et Immunologie Moléculaires'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01jvz7e61>
   rdfs:label 'Virologie et Immunologie Moléculaires'^^xsd:string ;
@@ -1195,7 +1196,7 @@
   dc:isVersionOf <https://ror.org/01kjvq748> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Sol-Tech'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01kjvq748>
   rdfs:label 'Sol-Tech'^^xsd:string ;
@@ -1206,7 +1207,7 @@
   dc:isVersionOf <https://ror.org/01m1c9z98> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Vermont Center for the Book'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01m1c9z98>
   rdfs:label 'Vermont Center for the Book'^^xsd:string ;
@@ -1217,7 +1218,7 @@
   dc:isVersionOf <https://ror.org/01m6as704> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut de Cancérologie de l\'Ouest'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01m6as704>
   rdfs:label 'Institut de Cancérologie de l\'Ouest'^^xsd:string ;
@@ -1228,7 +1229,7 @@
   dc:isVersionOf <https://ror.org/01mrcse49> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'SINTEF Manufacturing'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01mrcse49>
   rdfs:label 'SINTEF Manufacturing'^^xsd:string ;
@@ -1239,7 +1240,7 @@
   dc:isVersionOf <https://ror.org/01n1q0h77> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Universidad Panamericana'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01n1q0h77>
   rdfs:label 'Universidad Panamericana'^^xsd:string ;
@@ -1250,7 +1251,7 @@
   dc:isVersionOf <https://ror.org/01pctw149> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Southeast Regional Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01pctw149>
   rdfs:label 'NOAA National Marine Fisheries Service Southeast Regional Office'^^xsd:string ;
@@ -1261,7 +1262,7 @@
   dc:isVersionOf <https://ror.org/01pj9dg60> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Värnamo Sjukhus'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01pj9dg60>
   rdfs:label 'Värnamo Sjukhus'^^xsd:string ;
@@ -1272,7 +1273,7 @@
   dc:isVersionOf <https://ror.org/01px5cv07> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Reichman University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01px5cv07>
   rdfs:label 'Reichman University'^^xsd:string ;
@@ -1283,7 +1284,7 @@
   dc:isVersionOf <https://ror.org/01q47ea17> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Synchrotron Light Source II'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01q47ea17>
   rdfs:label 'National Synchrotron Light Source II'^^xsd:string ;
@@ -1294,7 +1295,7 @@
   dc:isVersionOf <https://ror.org/01q70bz83> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Weather Program Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01q70bz83>
   rdfs:label 'NOAA Weather Program Office'^^xsd:string ;
@@ -1305,7 +1306,7 @@
   dc:isVersionOf <https://ror.org/01rngv472> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Agrárközgazdasági Intézet'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01rngv472>
   rdfs:label 'Agrárközgazdasági Intézet'^^xsd:string ;
@@ -1316,7 +1317,7 @@
   dc:isVersionOf <https://ror.org/01sdn5x73> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Providence Park Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01sdn5x73>
   rdfs:label 'Providence Park Hospital'^^xsd:string ;
@@ -1327,7 +1328,7 @@
   dc:isVersionOf <https://ror.org/01srarb97> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Olympic Coast Discovery Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01srarb97>
   rdfs:label 'Olympic Coast Discovery Center'^^xsd:string ;
@@ -1338,7 +1339,7 @@
   dc:isVersionOf <https://ror.org/01vnv1744> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Al Zawiya University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01vnv1744>
   rdfs:label 'Al Zawiya University'^^xsd:string ;
@@ -1349,7 +1350,7 @@
   dc:isVersionOf <https://ror.org/01w8eym62> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Saint Joseph Mercy Health System'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01w8eym62>
   rdfs:label 'Saint Joseph Mercy Health System'^^xsd:string ;
@@ -1360,7 +1361,7 @@
   dc:isVersionOf <https://ror.org/01x9q3k71> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'United States Coast and Geodetic Survey'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01x9q3k71>
   rdfs:label 'United States Coast and Geodetic Survey'^^xsd:string ;
@@ -1371,7 +1372,7 @@
   dc:isVersionOf <https://ror.org/01ykr4004> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Escola Superior de Saúde Atlântica'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01ykr4004>
   rdfs:label 'Escola Superior de Saúde Atlântica'^^xsd:string ;
@@ -1382,7 +1383,7 @@
   dc:isVersionOf <https://ror.org/01yvark48> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Integrated Ocean Observing System'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01yvark48>
   rdfs:label 'NOAA Integrated Ocean Observing System'^^xsd:string ;
@@ -1393,7 +1394,7 @@
   dc:isVersionOf <https://ror.org/01zj15q98> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'SINTEF Community'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01zj15q98>
   rdfs:label 'SINTEF Community'^^xsd:string ;
@@ -1404,7 +1405,7 @@
   dc:isVersionOf <https://ror.org/01znn6x10> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'KBase'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01znn6x10>
   rdfs:label 'KBase'^^xsd:string ;
@@ -1415,7 +1416,7 @@
   dc:isVersionOf <https://ror.org/0207ad724> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Wake Forest University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0207ad724>
   rdfs:label 'Wake Forest University'^^xsd:string ;
@@ -1426,7 +1427,7 @@
   dc:isVersionOf <https://ror.org/0207smp78> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ascension Providence Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0207smp78>
   rdfs:label 'Ascension Providence Hospital'^^xsd:string ;
@@ -1437,7 +1438,7 @@
   dc:isVersionOf <https://ror.org/020hgte69> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Fermi National Accelerator Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/020hgte69>
   rdfs:label 'Fermi National Accelerator Laboratory'^^xsd:string ;
@@ -1448,7 +1449,7 @@
   dc:isVersionOf <https://ror.org/0220mzb33> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'King\'s College London'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0220mzb33>
   rdfs:label 'King\'s College London'^^xsd:string ;
@@ -1459,7 +1460,7 @@
   dc:isVersionOf <https://ror.org/02295tc31> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Geostationary Operation Environmental Satellite-R Series'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02295tc31>
   rdfs:label 'NOAA Geostationary Operation Environmental Satellite-R Series'^^xsd:string ;
@@ -1470,7 +1471,7 @@
   dc:isVersionOf <https://ror.org/022d75229> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Southwest Fisheries Science Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/022d75229>
   rdfs:label 'NOAA National Marine Fisheries Service Southwest Fisheries Science Center'^^xsd:string ;
@@ -1481,7 +1482,7 @@
   dc:isVersionOf <https://ror.org/0235zh559> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Ice Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0235zh559>
   rdfs:label 'NOAA National Ice Center'^^xsd:string ;
@@ -1492,7 +1493,7 @@
   dc:isVersionOf <https://ror.org/023sgdn25> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Near Earth Orbit Network'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/023sgdn25>
   rdfs:label 'NOAA Near Earth Orbit Network'^^xsd:string ;
@@ -1503,7 +1504,7 @@
   dc:isVersionOf <https://ror.org/024crf014> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Aquaculture'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/024crf014>
   rdfs:label 'NOAA Office of Aquaculture'^^xsd:string ;
@@ -1514,7 +1515,7 @@
   dc:isVersionOf <https://ror.org/024mw5h28> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Chicago'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/024mw5h28>
   rdfs:label 'University of Chicago'^^xsd:string ;
@@ -1525,7 +1526,7 @@
   dc:isVersionOf <https://ror.org/0250ngj72> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Centre Hospitalier Universitaire d\'Angers'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0250ngj72>
   rdfs:label 'Centre Hospitalier Universitaire d\'Angers'^^xsd:string ;
@@ -1536,7 +1537,7 @@
   dc:isVersionOf <https://ror.org/0257sgk90> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratoire d’Informatique et Systèmes'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0257sgk90>
   rdfs:label 'Laboratoire d’Informatique et Systèmes'^^xsd:string ;
@@ -1547,7 +1548,7 @@
   dc:isVersionOf <https://ror.org/0264vhs54> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratory Genomics, Bioinformatics, and Applications'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0264vhs54>
   rdfs:label 'Laboratory Genomics, Bioinformatics, and Applications'^^xsd:string ;
@@ -1558,7 +1559,7 @@
   dc:isVersionOf <https://ror.org/027xymc69> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Agence Bibliographique de l\'Enseignement Supérieur'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/027xymc69>
   rdfs:label 'Agence Bibliographique de l\'Enseignement Supérieur'^^xsd:string ;
@@ -1569,7 +1570,7 @@
   dc:isVersionOf <https://ror.org/02891nv36> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Observations'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02891nv36>
   rdfs:label 'NOAA Office of Observations'^^xsd:string ;
@@ -1580,7 +1581,7 @@
   dc:isVersionOf <https://ror.org/028m52w57> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'SINTEF Digital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/028m52w57>
   rdfs:label 'SINTEF Digital'^^xsd:string ;
@@ -1591,7 +1592,7 @@
   dc:isVersionOf <https://ror.org/029brtt94> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Claude Bernard University Lyon 1'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/029brtt94>
   rdfs:label 'Claude Bernard University Lyon 1'^^xsd:string ;
@@ -1602,7 +1603,7 @@
   dc:isVersionOf <https://ror.org/029chgv08> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Wellcome Trust'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/029chgv08>
   rdfs:label 'Wellcome Trust'^^xsd:string ;
@@ -1613,7 +1614,7 @@
   dc:isVersionOf <https://ror.org/02akpm128> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Universidad Católica del Norte'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02akpm128>
   rdfs:label 'Universidad Católica del Norte'^^xsd:string ;
@@ -1624,7 +1625,7 @@
   dc:isVersionOf <https://ror.org/02apffz65> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Pacific Islands Fisheries Science Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02apffz65>
   rdfs:label 'NOAA National Marine Fisheries Service Pacific Islands Fisheries Science Center'^^xsd:string ;
@@ -1635,7 +1636,7 @@
   dc:isVersionOf <https://ror.org/02bfn4816> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Ocean Acidification Program'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02bfn4816>
   rdfs:label 'NOAA Ocean Acidification Program'^^xsd:string ;
@@ -1646,7 +1647,7 @@
   dc:isVersionOf <https://ror.org/02bypky31> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Pacific Islands Regional Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02bypky31>
   rdfs:label 'NOAA National Marine Fisheries Service Pacific Islands Regional Office'^^xsd:string ;
@@ -1657,7 +1658,7 @@
   dc:isVersionOf <https://ror.org/02c6yhw44> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ho Chi Minh City University of Social Sciences and Humanities'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02c6yhw44>
   rdfs:label 'Ho Chi Minh City University of Social Sciences and Humanities'^^xsd:string ;
@@ -1668,7 +1669,7 @@
   dc:isVersionOf <https://ror.org/02caqw325> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Hanjiang Normal University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02caqw325>
   rdfs:label 'Hanjiang Normal University'^^xsd:string ;
@@ -1679,7 +1680,7 @@
   dc:isVersionOf <https://ror.org/02cnwgt19> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Effat University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02cnwgt19>
   rdfs:label 'Effat University'^^xsd:string ;
@@ -1690,7 +1691,7 @@
   dc:isVersionOf <https://ror.org/02cte4b68> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut de Chimie'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02cte4b68>
   rdfs:label 'Institut de Chimie'^^xsd:string ;
@@ -1701,7 +1702,7 @@
   dc:isVersionOf <https://ror.org/02drdmm93> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Chinese Academy of Medical Sciences & Peking Union Medical College'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02drdmm93>
   rdfs:label 'Chinese Academy of Medical Sciences & Peking Union Medical College'^^xsd:string ;
@@ -1712,7 +1713,7 @@
   dc:isVersionOf <https://ror.org/02ex6cf31> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Brookhaven National Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02ex6cf31>
   rdfs:label 'Brookhaven National Laboratory'^^xsd:string ;
@@ -1723,7 +1724,7 @@
   dc:isVersionOf <https://ror.org/02f6tst70> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Catalyse, Polymérisation, Procédés et Matériaux'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02f6tst70>
   rdfs:label 'Catalyse, Polymérisation, Procédés et Matériaux'^^xsd:string ;
@@ -1734,7 +1735,7 @@
   dc:isVersionOf <https://ror.org/02f762h70> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Geodetic Survey'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02f762h70>
   rdfs:label 'NOAA National Geodetic Survey'^^xsd:string ;
@@ -1745,7 +1746,7 @@
   dc:isVersionOf <https://ror.org/02feahw73> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'French National Centre for Scientific Research'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02feahw73>
   rdfs:label 'French National Centre for Scientific Research'^^xsd:string ;
@@ -1756,7 +1757,7 @@
   dc:isVersionOf <https://ror.org/02fj1x097> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Sidney & Lois Eskenazi Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02fj1x097>
   rdfs:label 'Sidney & Lois Eskenazi Hospital'^^xsd:string ;
@@ -1767,7 +1768,7 @@
   dc:isVersionOf <https://ror.org/02frf8h21> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'St. John Medical Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02frf8h21>
   rdfs:label 'St. John Medical Center'^^xsd:string ;
@@ -1778,7 +1779,7 @@
   dc:isVersionOf <https://ror.org/02fvybm75> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Office for Product Safety and Standards'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02fvybm75>
   rdfs:label 'Office for Product Safety and Standards'^^xsd:string ;
@@ -1789,7 +1790,7 @@
   dc:isVersionOf <https://ror.org/02h3vcz70> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Sciences Po Lyon'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02h3vcz70>
   rdfs:label 'Sciences Po Lyon'^^xsd:string ;
@@ -1800,7 +1801,7 @@
   dc:isVersionOf <https://ror.org/02hdgdd22> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratoire Associé de Débitmétrie Gazeuse'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02hdgdd22>
   rdfs:label 'Laboratoire Associé de Débitmétrie Gazeuse'^^xsd:string ;
@@ -1811,7 +1812,7 @@
   dc:isVersionOf <https://ror.org/02hhndj92> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Michigan Biological Station'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02hhndj92>
   rdfs:label 'University of Michigan Biological Station'^^xsd:string ;
@@ -1822,7 +1823,7 @@
   dc:isVersionOf <https://ror.org/02jbv0t02> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Lawrence Berkeley National Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02jbv0t02>
   rdfs:label 'Lawrence Berkeley National Laboratory'^^xsd:string ;
@@ -1833,7 +1834,7 @@
   dc:isVersionOf <https://ror.org/02jtq1b51> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ministry of Business, Innovation and Employment'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02jtq1b51>
   rdfs:label 'Ministry of Business, Innovation and Employment'^^xsd:string ;
@@ -1844,7 +1845,7 @@
   dc:isVersionOf <https://ror.org/02jwb0b65> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service West Coast Region'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02jwb0b65>
   rdfs:label 'NOAA National Marine Fisheries Service West Coast Region'^^xsd:string ;
@@ -1855,7 +1856,7 @@
   dc:isVersionOf <https://ror.org/02jxxbt79> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Universitas Mulia'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02jxxbt79>
   rdfs:label 'Universitas Mulia'^^xsd:string ;
@@ -1866,7 +1867,7 @@
   dc:isVersionOf <https://ror.org/02k4h0334> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Ocean Service'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02k4h0334>
   rdfs:label 'NOAA National Ocean Service'^^xsd:string ;
@@ -1877,7 +1878,7 @@
   dc:isVersionOf <https://ror.org/02kgve346> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Oceanic and Atmospheric Research'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02kgve346>
   rdfs:label 'NOAA Oceanic and Atmospheric Research'^^xsd:string ;
@@ -1888,7 +1889,7 @@
   dc:isVersionOf <https://ror.org/02mnd0039> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Technology Partnerships Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02mnd0039>
   rdfs:label 'NOAA Technology Partnerships Office'^^xsd:string ;
@@ -1899,7 +1900,7 @@
   dc:isVersionOf <https://ror.org/02nc0ck44> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Northeast Fisheries Science Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02nc0ck44>
   rdfs:label 'NOAA National Marine Fisheries Service Northeast Fisheries Science Center'^^xsd:string ;
@@ -1910,7 +1911,7 @@
   dc:isVersionOf <https://ror.org/02p2cc606> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Hospital Infanta Margarita'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02p2cc606>
   rdfs:label 'Hospital Infanta Margarita'^^xsd:string ;
@@ -1921,7 +1922,7 @@
   dc:isVersionOf <https://ror.org/02qy3wv98> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Data Buoy Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02qy3wv98>
   rdfs:label 'NOAA National Data Buoy Center'^^xsd:string ;
@@ -1932,7 +1933,7 @@
   dc:isVersionOf <https://ror.org/02rcakp17> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Geostationary Operational Environmental Satellites'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02rcakp17>
   rdfs:label 'NOAA Geostationary Operational Environmental Satellites'^^xsd:string ;
@@ -1943,7 +1944,7 @@
   dc:isVersionOf <https://ror.org/02rdkx920> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'United States Army Combat Capabilities Development Command'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02rdkx920>
   rdfs:label 'United States Army Combat Capabilities Development Command'^^xsd:string ;
@@ -1954,7 +1955,7 @@
   dc:isVersionOf <https://ror.org/02smfhw86> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Virginia Tech'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02smfhw86>
   rdfs:label 'Virginia Tech'^^xsd:string ;
@@ -1965,7 +1966,7 @@
   dc:isVersionOf <https://ror.org/02tppqb69> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Indiana Health Information Exchange'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02tppqb69>
   rdfs:label 'Indiana Health Information Exchange'^^xsd:string ;
@@ -1976,7 +1977,7 @@
   dc:isVersionOf <https://ror.org/02txa8h30> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Weather Service Eastern Region'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02txa8h30>
   rdfs:label 'NOAA National Weather Service Eastern Region'^^xsd:string ;
@@ -1987,7 +1988,7 @@
   dc:isVersionOf <https://ror.org/02v2g5f10> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Russian State Academy of Intellectual Property'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02v2g5f10>
   rdfs:label 'Russian State Academy of Intellectual Property'^^xsd:string ;
@@ -1998,7 +1999,7 @@
   dc:isVersionOf <https://ror.org/02v4wmf32> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Greater Atlantic Regional Fisheries Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02v4wmf32>
   rdfs:label 'NOAA National Marine Fisheries Service Greater Atlantic Regional Fisheries Office'^^xsd:string ;
@@ -2009,7 +2010,7 @@
   dc:isVersionOf <https://ror.org/02v6n4042> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Instituto Europeu de Estudos Superiores'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02v6n4042>
   rdfs:label 'Instituto Europeu de Estudos Superiores'^^xsd:string ;
@@ -2020,7 +2021,7 @@
   dc:isVersionOf <https://ror.org/02v970d04> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Information Processing Society of Japan'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02v970d04>
   rdfs:label 'Information Processing Society of Japan'^^xsd:string ;
@@ -2031,7 +2032,7 @@
   dc:isVersionOf <https://ror.org/02vdm1p28> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Endowment for the Humanities'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02vdm1p28>
   rdfs:label 'National Endowment for the Humanities'^^xsd:string ;
@@ -2042,7 +2043,7 @@
   dc:isVersionOf <https://ror.org/02vjkv261> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Inserm'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02vjkv261>
   rdfs:label 'Inserm'^^xsd:string ;
@@ -2053,7 +2054,7 @@
   dc:isVersionOf <https://ror.org/02vkaa689> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Linac Coherent Light Source'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02vkaa689>
   rdfs:label 'Linac Coherent Light Source'^^xsd:string ;
@@ -2064,7 +2065,7 @@
   dc:isVersionOf <https://ror.org/02vzbm991> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Stanford Synchrotron Radiation Lightsource'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02vzbm991>
   rdfs:label 'Stanford Synchrotron Radiation Lightsource'^^xsd:string ;
@@ -2075,7 +2076,7 @@
   dc:isVersionOf <https://ror.org/02wwzvj46> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'François Rabelais University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02wwzvj46>
   rdfs:label 'François Rabelais University'^^xsd:string ;
@@ -2086,7 +2087,7 @@
   dc:isVersionOf <https://ror.org/02x0wxr53> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Weather Service Office of Science and Technology Integration'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02x0wxr53>
   rdfs:label 'NOAA National Weather Service Office of Science and Technology Integration'^^xsd:string ;
@@ -2097,7 +2098,7 @@
   dc:isVersionOf <https://ror.org/02x8t8q15> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Indonesian Agency for Agricultural Instruments Standardization'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02x8t8q15>
   rdfs:label 'Indonesian Agency for Agricultural Instruments Standardization'^^xsd:string ;
@@ -2108,7 +2109,7 @@
   dc:isVersionOf <https://ror.org/02yjy0144> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Health & Hospital Corporation of Marion County'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02yjy0144>
   rdfs:label 'Health & Hospital Corporation of Marion County'^^xsd:string ;
@@ -2119,7 +2120,7 @@
   dc:isVersionOf <https://ror.org/02z5nhe81> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Oceanic and Atmospheric Administration'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02z5nhe81>
   rdfs:label 'National Oceanic and Atmospheric Administration'^^xsd:string ;
@@ -2130,7 +2131,7 @@
   dc:isVersionOf <https://ror.org/0307vw222> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Universidad Nacional Experimental Sur del Lago "Jesús María Semprum"'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0307vw222>
   rdfs:label 'Universidad Nacional Experimental Sur del Lago "Jesús María Semprum"'^^xsd:string ;
@@ -2141,7 +2142,7 @@
   dc:isVersionOf <https://ror.org/030ea6w47> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Physical Sciences Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/030ea6w47>
   rdfs:label 'NOAA Physical Sciences Laboratory'^^xsd:string ;
@@ -2152,7 +2153,7 @@
   dc:isVersionOf <https://ror.org/030qxve40> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'École & Observatoire des Sciences de la Terre'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/030qxve40>
   rdfs:label 'École & Observatoire des Sciences de la Terre'^^xsd:string ;
@@ -2163,7 +2164,7 @@
   dc:isVersionOf <https://ror.org/030ym6p85> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratory of Theoretical Physics'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/030ym6p85>
   rdfs:label 'Laboratory of Theoretical Physics'^^xsd:string ;
@@ -2174,7 +2175,7 @@
   dc:isVersionOf <https://ror.org/031478740> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Office of Scientific and Technical Information'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/031478740>
   rdfs:label 'Office of Scientific and Technical Information'^^xsd:string ;
@@ -2185,7 +2186,7 @@
   dc:isVersionOf <https://ror.org/031yh0y38> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Center for Integrated Nanotechnologies'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/031yh0y38>
   rdfs:label 'Center for Integrated Nanotechnologies'^^xsd:string ;
@@ -2196,7 +2197,7 @@
   dc:isVersionOf <https://ror.org/032583b91> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'C.V. Raman Global University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/032583b91>
   rdfs:label 'C.V. Raman Global University'^^xsd:string ;
@@ -2207,7 +2208,7 @@
   dc:isVersionOf <https://ror.org/033mqx355> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/033mqx355>
   rdfs:label 'NOAA National Marine Fisheries Service'^^xsd:string ;
@@ -2218,7 +2219,7 @@
   dc:isVersionOf <https://ror.org/033tt8e33> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Earth System Research Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/033tt8e33>
   rdfs:label 'NOAA Earth System Research Laboratory'^^xsd:string ;
@@ -2229,7 +2230,7 @@
   dc:isVersionOf <https://ror.org/03441jy26> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institute for Condensed Matter Physics of the National Academy of Sciences of Ukraine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03441jy26>
   rdfs:label 'Institute for Condensed Matter Physics of the National Academy of Sciences of Ukraine'^^xsd:string ;
@@ -2240,7 +2241,7 @@
   dc:isVersionOf <https://ror.org/034dwy508> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ascension St. Clare\'s Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/034dwy508>
   rdfs:label 'Ascension St. Clare\'s Hospital'^^xsd:string ;
@@ -2251,7 +2252,7 @@
   dc:isVersionOf <https://ror.org/035qqss14> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'BlueGreen Labs (bv) (Belgium)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/035qqss14>
   rdfs:label 'BlueGreen Labs (bv) (Belgium)'^^xsd:string ;
@@ -2262,7 +2263,7 @@
   dc:isVersionOf <https://ror.org/035xkbk20> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Aix-Marseille University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/035xkbk20>
   rdfs:label 'Aix-Marseille University'^^xsd:string ;
@@ -2273,7 +2274,7 @@
   dc:isVersionOf <https://ror.org/036266993> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Renewable Energy Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/036266993>
   rdfs:label 'National Renewable Energy Laboratory'^^xsd:string ;
@@ -2284,7 +2285,7 @@
   dc:isVersionOf <https://ror.org/037bamf06> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Global Ocean Monitoring and Observing Program'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/037bamf06>
   rdfs:label 'NOAA Global Ocean Monitoring and Observing Program'^^xsd:string ;
@@ -2295,7 +2296,7 @@
   dc:isVersionOf <https://ror.org/037jbhy77> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Association of Geographic Information Laboratories Europe'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/037jbhy77>
   rdfs:label 'Association of Geographic Information Laboratories Europe'^^xsd:string ;
@@ -2306,7 +2307,7 @@
   dc:isVersionOf <https://ror.org/037wny167> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'International Center for Tropical Agriculture'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/037wny167>
   rdfs:label 'International Center for Tropical Agriculture'^^xsd:string ;
@@ -2317,7 +2318,7 @@
   dc:isVersionOf <https://ror.org/0382bxa43> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Energy Sciences Network'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0382bxa43>
   rdfs:label 'Energy Sciences Network'^^xsd:string ;
@@ -2328,7 +2329,7 @@
   dc:isVersionOf <https://ror.org/038hf8q48> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Weather Service Alaska Region'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/038hf8q48>
   rdfs:label 'NOAA National Weather Service Alaska Region'^^xsd:string ;
@@ -2339,7 +2340,7 @@
   dc:isVersionOf <https://ror.org/038v7z909> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Indonesian Agency for Agricultural Research and Development'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/038v7z909>
   rdfs:label 'Indonesian Agency for Agricultural Research and Development'^^xsd:string ;
@@ -2350,7 +2351,7 @@
   dc:isVersionOf <https://ror.org/038zpvz53> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Centre Hospitalier Ibn Sina'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/038zpvz53>
   rdfs:label 'Centre Hospitalier Ibn Sina'^^xsd:string ;
@@ -2361,7 +2362,7 @@
   dc:isVersionOf <https://ror.org/0391w8d97> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Eskenazi Health Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0391w8d97>
   rdfs:label 'Eskenazi Health Foundation'^^xsd:string ;
@@ -2372,7 +2373,7 @@
   dc:isVersionOf <https://ror.org/0396y0w87> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Southeast Fisheries Science Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0396y0w87>
   rdfs:label 'NOAA National Marine Fisheries Service Southeast Fisheries Science Center'^^xsd:string ;
@@ -2383,7 +2384,7 @@
   dc:isVersionOf <https://ror.org/039qyzw66> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratory of Chemistry, Catalysis, Polymers and Process'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/039qyzw66>
   rdfs:label 'Laboratory of Chemistry, Catalysis, Polymers and Process'^^xsd:string ;
@@ -2394,7 +2395,7 @@
   dc:isVersionOf <https://ror.org/039xg1m33> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'The Japan Society of Applied Physics'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/039xg1m33>
   rdfs:label 'The Japan Society of Applied Physics'^^xsd:string ;
@@ -2405,7 +2406,7 @@
   dc:isVersionOf <https://ror.org/03bra4w96> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ministry of Education and Science'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03bra4w96>
   rdfs:label 'Ministry of Education and Science'^^xsd:string ;
@@ -2416,7 +2417,7 @@
   dc:isVersionOf <https://ror.org/03crn0n59> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Pacific Marine Environmental Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03crn0n59>
   rdfs:label 'NOAA Pacific Marine Environmental Laboratory'^^xsd:string ;
@@ -2427,7 +2428,7 @@
   dc:isVersionOf <https://ror.org/03cskqs60> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Office of Law Enforcement'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03cskqs60>
   rdfs:label 'NOAA National Marine Fisheries Office of Law Enforcement'^^xsd:string ;
@@ -2438,7 +2439,7 @@
   dc:isVersionOf <https://ror.org/03d6rdf69> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratoire de Mathématiques Analyse, Probabilités, Modélisation Orléans'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03d6rdf69>
   rdfs:label 'Laboratoire de Mathématiques Analyse, Probabilités, Modélisation Orléans'^^xsd:string ;
@@ -2449,7 +2450,7 @@
   dc:isVersionOf <https://ror.org/03f4jbs89> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Chemical Sciences Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03f4jbs89>
   rdfs:label 'NOAA Chemical Sciences Laboratory'^^xsd:string ;
@@ -2460,7 +2461,7 @@
   dc:isVersionOf <https://ror.org/03fy33a80> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Protected Resources'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03fy33a80>
   rdfs:label 'NOAA Office of Protected Resources'^^xsd:string ;
@@ -2471,7 +2472,7 @@
   dc:isVersionOf <https://ror.org/03g09wg96> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Measurement and Regulation Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03g09wg96>
   rdfs:label 'National Measurement and Regulation Office'^^xsd:string ;
@@ -2482,7 +2483,7 @@
   dc:isVersionOf <https://ror.org/03g2c2k71> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Laboratoire de Mathématiques et Physique Théorique'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03g2c2k71>
   rdfs:label 'Laboratoire de Mathématiques et Physique Théorique'^^xsd:string ;
@@ -2493,7 +2494,7 @@
   dc:isVersionOf <https://ror.org/03g5tqa50> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Response and Restoration'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03g5tqa50>
   rdfs:label 'NOAA Office of Response and Restoration'^^xsd:string ;
@@ -2504,7 +2505,7 @@
   dc:isVersionOf <https://ror.org/03gat5t60> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Secretaría Nacional de Ciencia, Tecnología e Innovación'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03gat5t60>
   rdfs:label 'Secretaría Nacional de Ciencia, Tecnología e Innovación'^^xsd:string ;
@@ -2515,7 +2516,7 @@
   dc:isVersionOf <https://ror.org/03gnr7b55> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Nantes Université'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03gnr7b55>
   rdfs:label 'Nantes Université'^^xsd:string ;
@@ -2526,7 +2527,7 @@
   dc:isVersionOf <https://ror.org/03hcqp925> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Swedish Entrepreneurship Forum'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03hcqp925>
   rdfs:label 'Swedish Entrepreneurship Forum'^^xsd:string ;
@@ -2537,7 +2538,7 @@
   dc:isVersionOf <https://ror.org/03hmhdm29> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Climate, Water, and Weather Services'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03hmhdm29>
   rdfs:label 'NOAA Office of Climate, Water, and Weather Services'^^xsd:string ;
@@ -2548,7 +2549,7 @@
   dc:isVersionOf <https://ror.org/03jbkky50> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut Sains dan Teknologi Terpadu Surabaya'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03jbkky50>
   rdfs:label 'Institut Sains dan Teknologi Terpadu Surabaya'^^xsd:string ;
@@ -2559,7 +2560,7 @@
   dc:isVersionOf <https://ror.org/03kq0xx85> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'State Enterprise „Ivano-Frankivsk Scientific and Production Center for Standartization, Metrology and Certification”'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03kq0xx85>
   rdfs:label 'State Enterprise „Ivano-Frankivsk Scientific and Production Center for Standartization, Metrology and Certification”'^^xsd:string ;
@@ -2570,7 +2571,7 @@
   dc:isVersionOf <https://ror.org/03mkjjy25> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Versailles Saint-Quentin-en-Yvelines University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03mkjjy25>
   rdfs:label 'Versailles Saint-Quentin-en-Yvelines University'^^xsd:string ;
@@ -2581,7 +2582,7 @@
   dc:isVersionOf <https://ror.org/03mtd9a03> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Stanford Medicine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03mtd9a03>
   rdfs:label 'Stanford Medicine'^^xsd:string ;
@@ -2592,7 +2593,7 @@
   dc:isVersionOf <https://ror.org/03n6z5186> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'CEDUC UCN'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03n6z5186>
   rdfs:label 'CEDUC UCN'^^xsd:string ;
@@ -2603,7 +2604,7 @@
   dc:isVersionOf <https://ror.org/03p7jen43> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Direction des Sciences du Vivant'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03p7jen43>
   rdfs:label 'Direction des Sciences du Vivant'^^xsd:string ;
@@ -2614,7 +2615,7 @@
   dc:isVersionOf <https://ror.org/03pmw0n81> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Research, Transition, & Application'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03pmw0n81>
   rdfs:label 'NOAA Office of Research, Transition, & Application'^^xsd:string ;
@@ -2625,7 +2626,7 @@
   dc:isVersionOf <https://ror.org/03qjq6543> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'CESAME-EXADEBIT (France)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03qjq6543>
   rdfs:label 'CESAME-EXADEBIT (France)'^^xsd:string ;
@@ -2636,7 +2637,7 @@
   dc:isVersionOf <https://ror.org/03rth4p18> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Lumière University Lyon 2'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03rth4p18>
   rdfs:label 'Lumière University Lyon 2'^^xsd:string ;
@@ -2647,7 +2648,7 @@
   dc:isVersionOf <https://ror.org/03rv17793> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'M.S. Poliakov Institute of Geotechnical Mechanics of the National Academy of Sciences of Ukraine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03rv17793>
   rdfs:label 'M.S. Poliakov Institute of Geotechnical Mechanics of the National Academy of Sciences of Ukraine'^^xsd:string ;
@@ -2658,7 +2659,7 @@
   dc:isVersionOf <https://ror.org/03sjk9a61> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ministry of Higher Education and Research'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03sjk9a61>
   rdfs:label 'Ministry of Higher Education and Research'^^xsd:string ;
@@ -2669,7 +2670,7 @@
   dc:isVersionOf <https://ror.org/03szcgb58> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Imagerie et Modélisation en Neurobiologie et Cancérologie'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03szcgb58>
   rdfs:label 'Imagerie et Modélisation en Neurobiologie et Cancérologie'^^xsd:string ;
@@ -2680,7 +2681,7 @@
   dc:isVersionOf <https://ror.org/03tpcfk14> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Département Physiologie Animale et Systèmes d’Élevage'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03tpcfk14>
   rdfs:label 'Département Physiologie Animale et Systèmes d’Élevage'^^xsd:string ;
@@ -2691,7 +2692,7 @@
   dc:isVersionOf <https://ror.org/03txr3336> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut de Combustion Aérothermique Réactivité et Environnement'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03txr3336>
   rdfs:label 'Institut de Combustion Aérothermique Réactivité et Environnement'^^xsd:string ;
@@ -2702,7 +2703,7 @@
   dc:isVersionOf <https://ror.org/03vmn1898> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Geophysical Fluid Dynamics Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03vmn1898>
   rdfs:label 'NOAA Geophysical Fluid Dynamics Laboratory'^^xsd:string ;
@@ -2713,7 +2714,7 @@
   dc:isVersionOf <https://ror.org/03xjwb503> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Paris-Saclay'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03xjwb503>
   rdfs:label 'University of Paris-Saclay'^^xsd:string ;
@@ -2724,7 +2725,7 @@
   dc:isVersionOf <https://ror.org/03yn06t56> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Center for Satellite Applications and Research'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03yn06t56>
   rdfs:label 'NOAA Center for Satellite Applications and Research'^^xsd:string ;
@@ -2735,7 +2736,7 @@
   dc:isVersionOf <https://ror.org/040933v44> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Environmental Modeling Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/040933v44>
   rdfs:label 'NOAA Environmental Modeling Center'^^xsd:string ;
@@ -2746,7 +2747,7 @@
   dc:isVersionOf <https://ror.org/041ddxq18> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Doha for Science and Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/041ddxq18>
   rdfs:label 'University of Doha for Science and Technology'^^xsd:string ;
@@ -2757,7 +2758,7 @@
   dc:isVersionOf <https://ror.org/041nk4h53> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Lawrence Livermore National Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/041nk4h53>
   rdfs:label 'Lawrence Livermore National Laboratory'^^xsd:string ;
@@ -2768,7 +2769,7 @@
   dc:isVersionOf <https://ror.org/0422tvz87> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'SINTEF Industry'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0422tvz87>
   rdfs:label 'SINTEF Industry'^^xsd:string ;
@@ -2779,7 +2780,7 @@
   dc:isVersionOf <https://ror.org/042gmmd19> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'South Australian Research and Development Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/042gmmd19>
   rdfs:label 'South Australian Research and Development Institute'^^xsd:string ;
@@ -2790,7 +2791,7 @@
   dc:isVersionOf <https://ror.org/042nkmz09> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Hospital del Mar Research Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/042nkmz09>
   rdfs:label 'Hospital del Mar Research Institute'^^xsd:string ;
@@ -2801,7 +2802,7 @@
   dc:isVersionOf <https://ror.org/042r9xb17> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Atlantic Oceanographic and Meteorological Laboratories'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/042r9xb17>
   rdfs:label 'NOAA Atlantic Oceanographic and Meteorological Laboratories'^^xsd:string ;
@@ -2812,7 +2813,7 @@
   dc:isVersionOf <https://ror.org/0439y7842> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Engineering and Physical Sciences Research Council'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0439y7842>
   rdfs:label 'Engineering and Physical Sciences Research Council'^^xsd:string ;
@@ -2823,7 +2824,7 @@
   dc:isVersionOf <https://ror.org/0454wth52> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Storm Prediction Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0454wth52>
   rdfs:label 'NOAA Storm Prediction Center'^^xsd:string ;
@@ -2834,7 +2835,7 @@
   dc:isVersionOf <https://ror.org/046mr5703> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Wirsam Scientific (South Africa)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/046mr5703>
   rdfs:label 'Wirsam Scientific (South Africa)'^^xsd:string ;
@@ -2845,7 +2846,7 @@
   dc:isVersionOf <https://ror.org/04950b532> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Office of Science and Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04950b532>
   rdfs:label 'NOAA National Marine Fisheries Service Office of Science and Technology'^^xsd:string ;
@@ -2856,7 +2857,7 @@
   dc:isVersionOf <https://ror.org/049ajby27> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Edo State University Uzairue'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/049ajby27>
   rdfs:label 'Edo State University Uzairue'^^xsd:string ;
@@ -2867,7 +2868,7 @@
   dc:isVersionOf <https://ror.org/049byzx03> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Hôpital Ibn Sina-Rabat'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/049byzx03>
   rdfs:label 'Hôpital Ibn Sina-Rabat'^^xsd:string ;
@@ -2878,7 +2879,7 @@
   dc:isVersionOf <https://ror.org/04a6wa396> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Swedish Institute for Children\'s Books'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04a6wa396>
   rdfs:label 'Swedish Institute for Children\'s Books'^^xsd:string ;
@@ -2889,7 +2890,7 @@
   dc:isVersionOf <https://ror.org/04b222d59> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Water Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04b222d59>
   rdfs:label 'NOAA National Water Center'^^xsd:string ;
@@ -2900,7 +2901,7 @@
   dc:isVersionOf <https://ror.org/04bgwn153> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of National Marine Sanctuaries'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04bgwn153>
   rdfs:label 'NOAA Office of National Marine Sanctuaries'^^xsd:string ;
@@ -2911,7 +2912,7 @@
   dc:isVersionOf <https://ror.org/04chq2495> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'United States Department of Commerce'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04chq2495>
   rdfs:label 'United States Department of Commerce'^^xsd:string ;
@@ -2922,7 +2923,7 @@
   dc:isVersionOf <https://ror.org/04f927797> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'European Institute for Systems Biology and Medicine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04f927797>
   rdfs:label 'European Institute for Systems Biology and Medicine'^^xsd:string ;
@@ -2933,7 +2934,7 @@
   dc:isVersionOf <https://ror.org/04g08bx14> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'European University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04g08bx14>
   rdfs:label 'European University'^^xsd:string ;
@@ -2944,7 +2945,7 @@
   dc:isVersionOf <https://ror.org/04g3scy39> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Government of South Australia'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04g3scy39>
   rdfs:label 'Government of South Australia'^^xsd:string ;
@@ -2955,7 +2956,7 @@
   dc:isVersionOf <https://ror.org/04gpe6h67> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Savoirs, Environnement, Sociétés'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04gpe6h67>
   rdfs:label 'Savoirs, Environnement, Sociétés'^^xsd:string ;
@@ -2966,7 +2967,7 @@
   dc:isVersionOf <https://ror.org/04gsgxx86> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Sustainable Fisheries'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04gsgxx86>
   rdfs:label 'NOAA Office of Sustainable Fisheries'^^xsd:string ;
@@ -2977,7 +2978,7 @@
   dc:isVersionOf <https://ror.org/04hasps36> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Academy of Logistics and Transport'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04hasps36>
   rdfs:label 'Academy of Logistics and Transport'^^xsd:string ;
@@ -2988,7 +2989,7 @@
   dc:isVersionOf <https://ror.org/04kd28k12> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Providence Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04kd28k12>
   rdfs:label 'Providence Hospital'^^xsd:string ;
@@ -2999,7 +3000,7 @@
   dc:isVersionOf <https://ror.org/04kdfz702> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut National des Sciences de l\'Univers'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04kdfz702>
   rdfs:label 'Institut National des Sciences de l\'Univers'^^xsd:string ;
@@ -3010,7 +3011,7 @@
   dc:isVersionOf <https://ror.org/04kfq3e26> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Weather Service Central Region'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04kfq3e26>
   rdfs:label 'NOAA National Weather Service Central Region'^^xsd:string ;
@@ -3021,7 +3022,7 @@
   dc:isVersionOf <https://ror.org/04mynmf89> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'St Vincent Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04mynmf89>
   rdfs:label 'St Vincent Hospital'^^xsd:string ;
@@ -3032,7 +3033,7 @@
   dc:isVersionOf <https://ror.org/04n0g0b29> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Pompeu Fabra University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04n0g0b29>
   rdfs:label 'Pompeu Fabra University'^^xsd:string ;
@@ -3043,7 +3044,7 @@
   dc:isVersionOf <https://ror.org/04n8zmx34> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Virginia Department of Transportation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04n8zmx34>
   rdfs:label 'Virginia Department of Transportation'^^xsd:string ;
@@ -3054,7 +3055,7 @@
   dc:isVersionOf <https://ror.org/04nxw7p13> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ascension Via Christi'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04nxw7p13>
   rdfs:label 'Ascension Via Christi'^^xsd:string ;
@@ -3065,7 +3066,7 @@
   dc:isVersionOf <https://ror.org/04p3r3e35> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Tropical Analysis and Forcast Branch'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04p3r3e35>
   rdfs:label 'NOAA Tropical Analysis and Forcast Branch'^^xsd:string ;
@@ -3076,7 +3077,7 @@
   dc:isVersionOf <https://ror.org/04q6x6x06> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Kutaisi University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04q6x6x06>
   rdfs:label 'Kutaisi University'^^xsd:string ;
@@ -3087,7 +3088,7 @@
   dc:isVersionOf <https://ror.org/04qaf2y58> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA International & Interagency Affairs Division'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04qaf2y58>
   rdfs:label 'NOAA International & Interagency Affairs Division'^^xsd:string ;
@@ -3098,7 +3099,7 @@
   dc:isVersionOf <https://ror.org/04qbxr381> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'International Research and Training Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04qbxr381>
   rdfs:label 'International Research and Training Center'^^xsd:string ;
@@ -3109,7 +3110,7 @@
   dc:isVersionOf <https://ror.org/04qva2324> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ho Chi Minh City University of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04qva2324>
   rdfs:label 'Ho Chi Minh City University of Technology'^^xsd:string ;
@@ -3120,7 +3121,7 @@
   dc:isVersionOf <https://ror.org/04qxsr837> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Advanced Photon Source'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04qxsr837>
   rdfs:label 'Advanced Photon Source'^^xsd:string ;
@@ -3131,7 +3132,7 @@
   dc:isVersionOf <https://ror.org/04r0wrp59> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Centers for Environmental Information'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04r0wrp59>
   rdfs:label 'NOAA National Centers for Environmental Information'^^xsd:string ;
@@ -3142,7 +3143,7 @@
   dc:isVersionOf <https://ror.org/04rc0xn13> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Environmental Molecular Sciences Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04rc0xn13>
   rdfs:label 'Environmental Molecular Sciences Laboratory'^^xsd:string ;
@@ -3153,7 +3154,7 @@
   dc:isVersionOf <https://ror.org/04s9kfd63> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Wellcome EPSRC Centre for Medical Engineering'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04s9kfd63>
   rdfs:label 'Wellcome EPSRC Centre for Medical Engineering'^^xsd:string ;
@@ -3164,7 +3165,7 @@
   dc:isVersionOf <https://ror.org/04sac7215> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'St. John Hospital & Medical Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04sac7215>
   rdfs:label 'St. John Hospital & Medical Center'^^xsd:string ;
@@ -3175,7 +3176,7 @@
   dc:isVersionOf <https://ror.org/04t12kd43> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Centro de Investigación Educativa de Panamá'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04t12kd43>
   rdfs:label 'Centro de Investigación Educativa de Panamá'^^xsd:string ;
@@ -3186,7 +3187,7 @@
   dc:isVersionOf <https://ror.org/04tsk2644> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ruhr University Bochum'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04tsk2644>
   rdfs:label 'Ruhr University Bochum'^^xsd:string ;
@@ -3197,7 +3198,7 @@
   dc:isVersionOf <https://ror.org/04v837171> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Centre Nantais de Sociologie'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04v837171>
   rdfs:label 'Centre Nantais de Sociologie'^^xsd:string ;
@@ -3208,7 +3209,7 @@
   dc:isVersionOf <https://ror.org/04v8djg66> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Atrium Health Wake Forest Baptist'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04v8djg66>
   rdfs:label 'Atrium Health Wake Forest Baptist'^^xsd:string ;
@@ -3219,7 +3220,7 @@
   dc:isVersionOf <https://ror.org/04vfs2w97> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Université de Lorraine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04vfs2w97>
   rdfs:label 'Université de Lorraine'^^xsd:string ;
@@ -3230,7 +3231,7 @@
   dc:isVersionOf <https://ror.org/04xm1d337> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Joint Genome Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04xm1d337>
   rdfs:label 'Joint Genome Institute'^^xsd:string ;
@@ -3241,7 +3242,7 @@
   dc:isVersionOf <https://ror.org/04xydmh53> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Museum Wiesbaden'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04xydmh53>
   rdfs:label 'Museum Wiesbaden'^^xsd:string ;
@@ -3252,7 +3253,7 @@
   dc:isVersionOf <https://ror.org/04y40x506> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Saint Thomas Health'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04y40x506>
   rdfs:label 'Saint Thomas Health'^^xsd:string ;
@@ -3263,7 +3264,7 @@
   dc:isVersionOf <https://ror.org/04yrqp957> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Angers'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04yrqp957>
   rdfs:label 'University of Angers'^^xsd:string ;
@@ -3274,7 +3275,7 @@
   dc:isVersionOf <https://ror.org/04yznqr36> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Jean Monnet University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04yznqr36>
   rdfs:label 'Jean Monnet University'^^xsd:string ;
@@ -3285,7 +3286,7 @@
   dc:isVersionOf <https://ror.org/04z22qz54> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut des Sciences de l\'Information et de leurs Interactions'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04z22qz54>
   rdfs:label 'Institut des Sciences de l\'Information et de leurs Interactions'^^xsd:string ;
@@ -3296,7 +3297,7 @@
   dc:isVersionOf <https://ror.org/04zeq1c51> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Cyceron'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04zeq1c51>
   rdfs:label 'Cyceron'^^xsd:string ;
@@ -3307,7 +3308,7 @@
   dc:isVersionOf <https://ror.org/04zmmpw58> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Swedish National Road and Transport Research Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04zmmpw58>
   rdfs:label 'Swedish National Road and Transport Research Institute'^^xsd:string ;
@@ -3318,7 +3319,7 @@
   dc:isVersionOf <https://ror.org/04zmssz18> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'École Normale Supérieure de Lyon'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04zmssz18>
   rdfs:label 'École Normale Supérieure de Lyon'^^xsd:string ;
@@ -3329,7 +3330,7 @@
   dc:isVersionOf <https://ror.org/04zptmf07> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'DIII-D National Fusion Facility'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04zptmf07>
   rdfs:label 'DIII-D National Fusion Facility'^^xsd:string ;
@@ -3340,7 +3341,7 @@
   dc:isVersionOf <https://ror.org/050jcm728> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut National des Sciences Mathématiques et de leurs Interactions'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/050jcm728>
   rdfs:label 'Institut National des Sciences Mathématiques et de leurs Interactions'^^xsd:string ;
@@ -3351,7 +3352,7 @@
   dc:isVersionOf <https://ror.org/050tnz974> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Imaging and Therapeutical Strategies in Cerebral and Tumoral Pathologies'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/050tnz974>
   rdfs:label 'Imaging and Therapeutical Strategies in Cerebral and Tumoral Pathologies'^^xsd:string ;
@@ -3362,7 +3363,7 @@
   dc:isVersionOf <https://ror.org/0512csj88> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Wake Forest Baptist Comprehensive Cancer Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0512csj88>
   rdfs:label 'Wake Forest Baptist Comprehensive Cancer Center'^^xsd:string ;
@@ -3373,7 +3374,7 @@
   dc:isVersionOf <https://ror.org/051wenh03> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Akademia'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/051wenh03>
   rdfs:label 'Akademia'^^xsd:string ;
@@ -3384,7 +3385,7 @@
   dc:isVersionOf <https://ror.org/052g8jq94> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Autonomous University of Barcelona'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/052g8jq94>
   rdfs:label 'Autonomous University of Barcelona'^^xsd:string ;
@@ -3395,7 +3396,7 @@
   dc:isVersionOf <https://ror.org/052pywd95> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Science Support'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/052pywd95>
   rdfs:label 'NOAA Office of Science Support'^^xsd:string ;
@@ -3406,7 +3407,7 @@
   dc:isVersionOf <https://ror.org/052sw9d77> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Seton Medical Center Austin'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/052sw9d77>
   rdfs:label 'Seton Medical Center Austin'^^xsd:string ;
@@ -3417,7 +3418,7 @@
   dc:isVersionOf <https://ror.org/0530tab10> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Southern Leyte State University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0530tab10>
   rdfs:label 'Southern Leyte State University'^^xsd:string ;
@@ -3428,7 +3429,7 @@
   dc:isVersionOf <https://ror.org/054f0d685> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'St. John Medical Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/054f0d685>
   rdfs:label 'St. John Medical Center'^^xsd:string ;
@@ -3439,7 +3440,7 @@
   dc:isVersionOf <https://ror.org/054y3ya26> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Weather Service Western Region'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/054y3ya26>
   rdfs:label 'NOAA National Weather Service Western Region'^^xsd:string ;
@@ -3450,7 +3451,7 @@
   dc:isVersionOf <https://ror.org/055fhtb27> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'ChaLearn'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/055fhtb27>
   rdfs:label 'ChaLearn'^^xsd:string ;
@@ -3461,7 +3462,7 @@
   dc:isVersionOf <https://ror.org/056y0v115> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Anthropic (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/056y0v115>
   rdfs:label 'Anthropic (United States)'^^xsd:string ;
@@ -3472,7 +3473,7 @@
   dc:isVersionOf <https://ror.org/057hhqd90> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Sacred Heart Health System'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/057hhqd90>
   rdfs:label 'Sacred Heart Health System'^^xsd:string ;
@@ -3483,7 +3484,7 @@
   dc:isVersionOf <https://ror.org/058dg6525> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Carpathian Biosphere Reserve'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/058dg6525>
   rdfs:label 'Carpathian Biosphere Reserve'^^xsd:string ;
@@ -3494,7 +3495,7 @@
   dc:isVersionOf <https://ror.org/058m7ey48> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Sandia National Laboratories California'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/058m7ey48>
   rdfs:label 'Sandia National Laboratories California'^^xsd:string ;
@@ -3505,7 +3506,7 @@
   dc:isVersionOf <https://ror.org/0590dbq33> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'SINTEF Energy Research'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0590dbq33>
   rdfs:label 'SINTEF Energy Research'^^xsd:string ;
@@ -3516,7 +3517,7 @@
   dc:isVersionOf <https://ror.org/05920yd65> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'International Center for Tropical Agriculture'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05920yd65>
   rdfs:label 'International Center for Tropical Agriculture'^^xsd:string ;
@@ -3527,7 +3528,7 @@
   dc:isVersionOf <https://ror.org/0593xbv16> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'United States Army Futures Command'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0593xbv16>
   rdfs:label 'United States Army Futures Command'^^xsd:string ;
@@ -3538,7 +3539,7 @@
   dc:isVersionOf <https://ror.org/05953j253> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Virginia Tech Transportation Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05953j253>
   rdfs:label 'Virginia Tech Transportation Institute'^^xsd:string ;
@@ -3549,7 +3550,7 @@
   dc:isVersionOf <https://ror.org/05a55ea71> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Red de Investigadores De la Transcomplejidad'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05a55ea71>
   rdfs:label 'Red de Investigadores De la Transcomplejidad'^^xsd:string ;
@@ -3560,7 +3561,7 @@
   dc:isVersionOf <https://ror.org/05b5c0584> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Jean Moulin University Lyon 3'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05b5c0584>
   rdfs:label 'Jean Moulin University Lyon 3'^^xsd:string ;
@@ -3571,7 +3572,7 @@
   dc:isVersionOf <https://ror.org/05ba43f71> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Centers for Coastal Ocean Science'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05ba43f71>
   rdfs:label 'NOAA National Centers for Coastal Ocean Science'^^xsd:string ;
@@ -3582,7 +3583,7 @@
   dc:isVersionOf <https://ror.org/05c1qsg97> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Centre Hospitalier Universitaire de Nantes'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05c1qsg97>
   rdfs:label 'Centre Hospitalier Universitaire de Nantes'^^xsd:string ;
@@ -3593,7 +3594,7 @@
   dc:isVersionOf <https://ror.org/05c602238> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Vermont Humanities'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05c602238>
   rdfs:label 'Vermont Humanities'^^xsd:string ;
@@ -3604,7 +3605,7 @@
   dc:isVersionOf <https://ror.org/05cwx3318> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Microbiome Data Collaborative'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05cwx3318>
   rdfs:label 'National Microbiome Data Collaborative'^^xsd:string ;
@@ -3615,7 +3616,7 @@
   dc:isVersionOf <https://ror.org/05de6h762> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Maison de l\'Orient et de la Méditerranée Jean Pouilloux'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05de6h762>
   rdfs:label 'Maison de l\'Orient et de la Méditerranée Jean Pouilloux'^^xsd:string ;
@@ -3626,7 +3627,7 @@
   dc:isVersionOf <https://ror.org/05dfxpw18> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'TWT GmbH Science & Innovation (Germany)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05dfxpw18>
   rdfs:label 'TWT GmbH Science & Innovation (Germany)'^^xsd:string ;
@@ -3637,7 +3638,7 @@
   dc:isVersionOf <https://ror.org/05djhd259> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut Denis Poisson'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05djhd259>
   rdfs:label 'Institut Denis Poisson'^^xsd:string ;
@@ -3648,7 +3649,7 @@
   dc:isVersionOf <https://ror.org/05dxwqx61> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'St. John Macomb Oakland Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05dxwqx61>
   rdfs:label 'St. John Macomb Oakland Hospital'^^xsd:string ;
@@ -3659,7 +3660,7 @@
   dc:isVersionOf <https://ror.org/05e44rx60> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'WAPCOS Limited'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05e44rx60>
   rdfs:label 'WAPCOS Limited'^^xsd:string ;
@@ -3670,7 +3671,7 @@
   dc:isVersionOf <https://ror.org/05ee10k25> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institute of Human Genetics'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05ee10k25>
   rdfs:label 'Institute of Human Genetics'^^xsd:string ;
@@ -3681,7 +3682,7 @@
   dc:isVersionOf <https://ror.org/05evek152> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office of Coast Survey'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05evek152>
   rdfs:label 'NOAA Office of Coast Survey'^^xsd:string ;
@@ -3692,7 +3693,7 @@
   dc:isVersionOf <https://ror.org/05g2cmx71> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Maharshi Vishwamitra College, Buxar'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05g2cmx71>
   rdfs:label 'Maharshi Vishwamitra College, Buxar'^^xsd:string ;
@@ -3703,7 +3704,7 @@
   dc:isVersionOf <https://ror.org/05gvnxz63> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Argonne National Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05gvnxz63>
   rdfs:label 'Argonne National Laboratory'^^xsd:string ;
@@ -3714,7 +3715,7 @@
   dc:isVersionOf <https://ror.org/05gxje444> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Alaska Regional Office'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05gxje444>
   rdfs:label 'NOAA National Marine Fisheries Service Alaska Regional Office'^^xsd:string ;
@@ -3725,7 +3726,7 @@
   dc:isVersionOf <https://ror.org/05gypvt76> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Veer Kunwar Singh University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05gypvt76>
   rdfs:label 'Veer Kunwar Singh University'^^xsd:string ;
@@ -3736,7 +3737,7 @@
   dc:isVersionOf <https://ror.org/05gz4kr37> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Observatoire Océanologique de Banyuls-sur-Mer'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05gz4kr37>
   rdfs:label 'Observatoire Océanologique de Banyuls-sur-Mer'^^xsd:string ;
@@ -3747,7 +3748,7 @@
   dc:isVersionOf <https://ror.org/05h992307> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Pacific Northwest National Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05h992307>
   rdfs:label 'Pacific Northwest National Laboratory'^^xsd:string ;
@@ -3758,7 +3759,7 @@
   dc:isVersionOf <https://ror.org/05j2xx287> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Brenner Children\'s Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05j2xx287>
   rdfs:label 'Brenner Children\'s Hospital'^^xsd:string ;
@@ -3769,7 +3770,7 @@
   dc:isVersionOf <https://ror.org/05jfbgm49> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Ho Chi Minh City University of Science'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05jfbgm49>
   rdfs:label 'Ho Chi Minh City University of Science'^^xsd:string ;
@@ -3780,7 +3781,7 @@
   dc:isVersionOf <https://ror.org/05kdc4973> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'University of Information Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05kdc4973>
   rdfs:label 'University of Information Technology'^^xsd:string ;
@@ -3791,7 +3792,7 @@
   dc:isVersionOf <https://ror.org/05kpkpg04> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Centre de Coopération Internationale en Recherche Agronomique pour le Développement'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05kpkpg04>
   rdfs:label 'Centre de Coopération Internationale en Recherche Agronomique pour le Développement'^^xsd:string ;
@@ -3802,7 +3803,7 @@
   dc:isVersionOf <https://ror.org/05q3vnk25> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Institut de Recherche pour le Développement'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05q3vnk25>
   rdfs:label 'Institut de Recherche pour le Développement'^^xsd:string ;
@@ -3813,7 +3814,7 @@
   dc:isVersionOf <https://ror.org/05r7z1k40> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA National Marine Fisheries Service Northwest Fisheries Science Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05r7z1k40>
   rdfs:label 'NOAA National Marine Fisheries Service Northwest Fisheries Science Center'^^xsd:string ;
@@ -3824,7 +3825,7 @@
   dc:isVersionOf <https://ror.org/05sgw3s08> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Tashkent Medical Academy'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05sgw3s08>
   rdfs:label 'Tashkent Medical Academy'^^xsd:string ;
@@ -3835,7 +3836,7 @@
   dc:isVersionOf <https://ror.org/05v0sks95> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'UT Health Austin'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05v0sks95>
   rdfs:label 'UT Health Austin'^^xsd:string ;
@@ -3846,7 +3847,7 @@
   dc:isVersionOf <https://ror.org/05v14bq57> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Office for Coastal Management'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05v14bq57>
   rdfs:label 'NOAA Office for Coastal Management'^^xsd:string ;
@@ -3857,7 +3858,7 @@
   dc:isVersionOf <https://ror.org/05v3mvq14> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'National Energy Research Scientific Computing Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05v3mvq14>
   rdfs:label 'National Energy Research Scientific Computing Center'^^xsd:string ;
@@ -3868,7 +3869,7 @@
   dc:isVersionOf <https://ror.org/05vcng590> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'NOAA Center for Operational Oceanographic Products & Services'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05vcng590>
   rdfs:label 'NOAA Center for Operational Oceanographic Products & Services'^^xsd:string ;
@@ -3879,7 +3880,7 @@
   dc:isVersionOf <https://ror.org/05x022254> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Seton Healthcare Family'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05x022254>
   rdfs:label 'Seton Healthcare Family'^^xsd:string ;
@@ -3890,7 +3891,7 @@
   dc:isVersionOf <https://ror.org/05xczn782> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Corporación Ecuatoriana para el Desarrollo de la Investigación y la Academia'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05xczn782>
   rdfs:label 'Corporación Ecuatoriana para el Desarrollo de la Investigación y la Academia'^^xsd:string ;
@@ -3901,7 +3902,7 @@
   dc:isVersionOf <https://ror.org/05xxbv096> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Voces de la educación'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05xxbv096>
   rdfs:label 'Voces de la educación'^^xsd:string ;
@@ -3912,7 +3913,7 @@
   dc:isVersionOf <https://ror.org/05ych8012> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'Massachusetts Office of Coastal Zone Management'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05ych8012>
   rdfs:label 'Massachusetts Office of Coastal Zone Management'^^xsd:string ;
@@ -3923,7 +3924,7 @@
   dc:isVersionOf <https://ror.org/05ypw0993> ;
   dc:modified '2023-10-12'^^xsd:date ;
   rdfs:label 'JSC Viorica-Cosmetic (Moldova)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05ypw0993>
   rdfs:label 'JSC Viorica-Cosmetic (Moldova)'^^xsd:string ;

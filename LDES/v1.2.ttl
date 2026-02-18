@@ -6,6 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix org: <http://www.w3.org/ns/org#> .
 
 @base <http://w3id.org/kgfixed/ror.org/LDES/v1.2> .
 
@@ -42,7 +43,7 @@
       sh:path dc:isVersionOf
     ];
     
-    sh:targetClass skos:Concept
+    sh:targetClass org:Organization
   ] ;
   tree:view <> ;
   .
@@ -51,7 +52,7 @@
   dc:isVersionOf <https://ror.org/002pd6e78> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Massachusetts General Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/002pd6e78>
   rdfs:label 'Massachusetts General Hospital'^^xsd:string ;
@@ -62,7 +63,7 @@
   dc:isVersionOf <https://ror.org/0086bb350> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Einstein Center Digital Future'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0086bb350>
   rdfs:label 'Einstein Center Digital Future'^^xsd:string ;
@@ -73,7 +74,7 @@
   dc:isVersionOf <https://ror.org/00angvn73> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Czech Academy of Sciences, Institute of Biophysics'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00angvn73>
   rdfs:label 'Czech Academy of Sciences, Institute of Biophysics'^^xsd:string ;
@@ -84,7 +85,7 @@
   dc:isVersionOf <https://ror.org/00jhqgj32> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Nantucket Cottage Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00jhqgj32>
   rdfs:label 'Nantucket Cottage Hospital'^^xsd:string ;
@@ -95,7 +96,7 @@
   dc:isVersionOf <https://ror.org/00n9p1n72> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Institute of Mountain Emergency Medicine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00n9p1n72>
   rdfs:label 'Institute of Mountain Emergency Medicine'^^xsd:string ;
@@ -106,7 +107,7 @@
   dc:isVersionOf <https://ror.org/00q6h8f30> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Amsterdam UMC Location VUmc'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00q6h8f30>
   rdfs:label 'Amsterdam UMC Location VUmc'^^xsd:string ;
@@ -117,7 +118,7 @@
   dc:isVersionOf <https://ror.org/011dvr318> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Spaulding Rehabilitation Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/011dvr318>
   rdfs:label 'Spaulding Rehabilitation Hospital'^^xsd:string ;
@@ -128,7 +129,7 @@
   dc:isVersionOf <https://ror.org/014837179> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Iscte – Instituto Universitário de Lisboa'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/014837179>
   rdfs:label 'Iscte – Instituto Universitário de Lisboa'^^xsd:string ;
@@ -139,7 +140,7 @@
   dc:isVersionOf <https://ror.org/01537wn74> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Government of the Northern Territory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01537wn74>
   rdfs:label 'Government of the Northern Territory'^^xsd:string ;
@@ -150,7 +151,7 @@
   dc:isVersionOf <https://ror.org/01dr6c206> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Polish Academy of Sciences'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01dr6c206>
   rdfs:label 'Polish Academy of Sciences'^^xsd:string ;
@@ -161,7 +162,7 @@
   dc:isVersionOf <https://ror.org/01hcx6992> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Humboldt-Universität zu Berlin'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01hcx6992>
   rdfs:label 'Humboldt-Universität zu Berlin'^^xsd:string ;
@@ -172,7 +173,7 @@
   dc:isVersionOf <https://ror.org/01hmrqc81> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'CiS Research Institute for Micro Sensors and Photovoltaics'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01hmrqc81>
   rdfs:label 'CiS Research Institute for Micro Sensors and Photovoltaics'^^xsd:string ;
@@ -183,7 +184,7 @@
   dc:isVersionOf <https://ror.org/01n6r0e97> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Leibniz Association'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01n6r0e97>
   rdfs:label 'Leibniz Association'^^xsd:string ;
@@ -194,7 +195,7 @@
   dc:isVersionOf <https://ror.org/01tp1c480> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Biologie des Organismes et Écosystèmes Aquatiques'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01tp1c480>
   rdfs:label 'Biologie des Organismes et Écosystèmes Aquatiques'^^xsd:string ;
@@ -205,7 +206,7 @@
   dc:isVersionOf <https://ror.org/01x2d9f70> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Amsterdam Neuroscience'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01x2d9f70>
   rdfs:label 'Amsterdam Neuroscience'^^xsd:string ;
@@ -216,7 +217,7 @@
   dc:isVersionOf <https://ror.org/01x2x1522> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Helsinki Institute of Physics'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01x2x1522>
   rdfs:label 'Helsinki Institute of Physics'^^xsd:string ;
@@ -227,7 +228,7 @@
   dc:isVersionOf <https://ror.org/023392c84> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Musikwissenschaftliches Seminar Detmold/Paderborn'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/023392c84>
   rdfs:label 'Musikwissenschaftliches Seminar Detmold/Paderborn'^^xsd:string ;
@@ -238,7 +239,7 @@
   dc:isVersionOf <https://ror.org/024gts110> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Géosciences Montpellier'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/024gts110>
   rdfs:label 'Géosciences Montpellier'^^xsd:string ;
@@ -249,7 +250,7 @@
   dc:isVersionOf <https://ror.org/0258apj61> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'EMGO Institute for Health and Care Research'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0258apj61>
   rdfs:label 'EMGO Institute for Health and Care Research'^^xsd:string ;
@@ -260,7 +261,7 @@
   dc:isVersionOf <https://ror.org/02en5vm52> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Sorbonne University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02en5vm52>
   rdfs:label 'Sorbonne University'^^xsd:string ;
@@ -271,7 +272,7 @@
   dc:isVersionOf <https://ror.org/02gfc7t72> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Spanish National Research Council'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02gfc7t72>
   rdfs:label 'Spanish National Research Council'^^xsd:string ;
@@ -282,7 +283,7 @@
   dc:isVersionOf <https://ror.org/02hsggv49> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Institute for Biomedicine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02hsggv49>
   rdfs:label 'Institute for Biomedicine'^^xsd:string ;
@@ -293,7 +294,7 @@
   dc:isVersionOf <https://ror.org/02tc3qm58> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Technology Centre'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02tc3qm58>
   rdfs:label 'Technology Centre'^^xsd:string ;
@@ -304,7 +305,7 @@
   dc:isVersionOf <https://ror.org/034g04n73> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Institute of Biophysics'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/034g04n73>
   rdfs:label 'Institute of Biophysics'^^xsd:string ;
@@ -315,7 +316,7 @@
   dc:isVersionOf <https://ror.org/035jbxr46> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Smithsonian Tropical Research Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/035jbxr46>
   rdfs:label 'Smithsonian Tropical Research Institute'^^xsd:string ;
@@ -326,7 +327,7 @@
   dc:isVersionOf <https://ror.org/03afbx254> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Waldkrankenhaus Protestant Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03afbx254>
   rdfs:label 'Waldkrankenhaus Protestant Hospital'^^xsd:string ;
@@ -337,7 +338,7 @@
   dc:isVersionOf <https://ror.org/03vkhr254> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Centre Virchow-Villermé'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03vkhr254>
   rdfs:label 'Centre Virchow-Villermé'^^xsd:string ;
@@ -348,7 +349,7 @@
   dc:isVersionOf <https://ror.org/043ft3840> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Centre for Research in Anthropology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/043ft3840>
   rdfs:label 'Centre for Research in Anthropology'^^xsd:string ;
@@ -359,7 +360,7 @@
   dc:isVersionOf <https://ror.org/044fhy270> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Carl-Thiem-Klinikum Cottbus'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/044fhy270>
   rdfs:label 'Carl-Thiem-Klinikum Cottbus'^^xsd:string ;
@@ -370,7 +371,7 @@
   dc:isVersionOf <https://ror.org/046ak2485> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Freie Universität Berlin'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/046ak2485>
   rdfs:label 'Freie Universität Berlin'^^xsd:string ;
@@ -381,7 +382,7 @@
   dc:isVersionOf <https://ror.org/048cbmc89> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Biologie Intégrée du Globule Rouge'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/048cbmc89>
   rdfs:label 'Biologie Intégrée du Globule Rouge'^^xsd:string ;
@@ -392,7 +393,7 @@
   dc:isVersionOf <https://ror.org/0493xsw21> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Berlin Institute of Health at Charité - Universitätsmedizin Berlin'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0493xsw21>
   rdfs:label 'Berlin Institute of Health at Charité - Universitätsmedizin Berlin'^^xsd:string ;
@@ -403,7 +404,7 @@
   dc:isVersionOf <https://ror.org/04b6nzv94> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Brigham and Women\'s Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04b6nzv94>
   rdfs:label 'Brigham and Women\'s Hospital'^^xsd:string ;
@@ -414,7 +415,7 @@
   dc:isVersionOf <https://ror.org/04kdfz702> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Institut National des Sciences de l\'Univers'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04kdfz702>
   rdfs:label 'Institut National des Sciences de l\'Univers'^^xsd:string ;
@@ -425,7 +426,7 @@
   dc:isVersionOf <https://ror.org/04xe7ws48> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Advanced Research Center for Nanolithography (Netherlands)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04xe7ws48>
   rdfs:label 'Advanced Research Center for Nanolithography (Netherlands)'^^xsd:string ;
@@ -436,7 +437,7 @@
   dc:isVersionOf <https://ror.org/0599mab02> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'St Catherine\'s Health Centre'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0599mab02>
   rdfs:label 'St Catherine\'s Health Centre'^^xsd:string ;
@@ -447,7 +448,7 @@
   dc:isVersionOf <https://ror.org/05f82e368> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Université Paris Cité'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05f82e368>
   rdfs:label 'Université Paris Cité'^^xsd:string ;
@@ -458,7 +459,7 @@
   dc:isVersionOf <https://ror.org/05kgbsy64> ;
   dc:modified '2022-06-27'^^xsd:date ;
   rdfs:label 'Spinoza Centre for Neuroimaging'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05kgbsy64>
   rdfs:label 'Spinoza Centre for Neuroimaging'^^xsd:string ;

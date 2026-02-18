@@ -6,6 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix org: <http://www.w3.org/ns/org#> .
 
 @base <http://w3id.org/kgfixed/ror.org/LDES/v1.12> .
 
@@ -42,7 +43,7 @@
       sh:path dc:isVersionOf
     ];
     
-    sh:targetClass skos:Concept
+    sh:targetClass org:Organization
   ] ;
   tree:view <> ;
   .
@@ -51,7 +52,7 @@
   dc:isVersionOf <https://ror.org/000fxgx19> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'SUNY Polytechnic Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/000fxgx19>
   rdfs:label 'SUNY Polytechnic Institute'^^xsd:string ;
@@ -62,7 +63,7 @@
   dc:isVersionOf <https://ror.org/001w7jn25> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Charité - Universitätsmedizin Berlin'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/001w7jn25>
   rdfs:label 'Charité - Universitätsmedizin Berlin'^^xsd:string ;
@@ -73,7 +74,7 @@
   dc:isVersionOf <https://ror.org/0027yp743> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Okinawa Churashima Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0027yp743>
   rdfs:label 'Okinawa Churashima Foundation'^^xsd:string ;
@@ -84,7 +85,7 @@
   dc:isVersionOf <https://ror.org/002pd6e78> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Massachusetts General Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/002pd6e78>
   rdfs:label 'Massachusetts General Hospital'^^xsd:string ;
@@ -95,7 +96,7 @@
   dc:isVersionOf <https://ror.org/003412r28> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Cancer Research Center of Toulouse'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/003412r28>
   rdfs:label 'Cancer Research Center of Toulouse'^^xsd:string ;
@@ -106,7 +107,7 @@
   dc:isVersionOf <https://ror.org/003jnac13> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire de Génie Chimique'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/003jnac13>
   rdfs:label 'Laboratoire de Génie Chimique'^^xsd:string ;
@@ -117,7 +118,7 @@
   dc:isVersionOf <https://ror.org/004qcrr52> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Instituto Nacional de Innovación Agraria'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/004qcrr52>
   rdfs:label 'Instituto Nacional de Innovación Agraria'^^xsd:string ;
@@ -128,7 +129,7 @@
   dc:isVersionOf <https://ror.org/004raaa70> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Federal University of Toulouse Midi-Pyrénées'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/004raaa70>
   rdfs:label 'Federal University of Toulouse Midi-Pyrénées'^^xsd:string ;
@@ -139,7 +140,7 @@
   dc:isVersionOf <https://ror.org/005ex6728> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Herz-Jesu Krankenhaus'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/005ex6728>
   rdfs:label 'Herz-Jesu Krankenhaus'^^xsd:string ;
@@ -150,7 +151,7 @@
   dc:isVersionOf <https://ror.org/0064kty71> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Sun Yat-sen University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0064kty71>
   rdfs:label 'Sun Yat-sen University'^^xsd:string ;
@@ -161,7 +162,7 @@
   dc:isVersionOf <https://ror.org/00671me87> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Max Planck Institute for Psycholinguistics'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00671me87>
   rdfs:label 'Max Planck Institute for Psycholinguistics'^^xsd:string ;
@@ -172,7 +173,7 @@
   dc:isVersionOf <https://ror.org/006cymg18> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Maryland Eastern Shore'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/006cymg18>
   rdfs:label 'University of Maryland Eastern Shore'^^xsd:string ;
@@ -183,7 +184,7 @@
   dc:isVersionOf <https://ror.org/006vzad83> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Tata Medical Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/006vzad83>
   rdfs:label 'Tata Medical Center'^^xsd:string ;
@@ -194,7 +195,7 @@
   dc:isVersionOf <https://ror.org/008b3br98> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Basil Hetzel Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/008b3br98>
   rdfs:label 'Basil Hetzel Institute'^^xsd:string ;
@@ -205,7 +206,7 @@
   dc:isVersionOf <https://ror.org/008cfmj78> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Wyss Institute for Biologically Inspired Engineering'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/008cfmj78>
   rdfs:label 'Wyss Institute for Biologically Inspired Engineering'^^xsd:string ;
@@ -216,7 +217,7 @@
   dc:isVersionOf <https://ror.org/0092gmc55> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Minophagen Pharmaceutical (Japan)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0092gmc55>
   rdfs:label 'Minophagen Pharmaceutical (Japan)'^^xsd:string ;
@@ -227,7 +228,7 @@
   dc:isVersionOf <https://ror.org/0097mvx21> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Generalitat Valenciana'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0097mvx21>
   rdfs:label 'Generalitat Valenciana'^^xsd:string ;
@@ -238,7 +239,7 @@
   dc:isVersionOf <https://ror.org/00dvg7y05> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Boston Children\'s Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00dvg7y05>
   rdfs:label 'Boston Children\'s Hospital'^^xsd:string ;
@@ -249,7 +250,7 @@
   dc:isVersionOf <https://ror.org/00dwsfp88> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Tennessee Department of Education'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00dwsfp88>
   rdfs:label 'Tennessee Department of Education'^^xsd:string ;
@@ -260,7 +261,7 @@
   dc:isVersionOf <https://ror.org/00fadqs53> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Mogadishu Somali Turkish Training and Research Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00fadqs53>
   rdfs:label 'Mogadishu Somali Turkish Training and Research Hospital'^^xsd:string ;
@@ -271,7 +272,7 @@
   dc:isVersionOf <https://ror.org/00h3qhh74> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Advanced Light Microscopy Italian Node'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00h3qhh74>
   rdfs:label 'Advanced Light Microscopy Italian Node'^^xsd:string ;
@@ -282,7 +283,7 @@
   dc:isVersionOf <https://ror.org/00ha14p11> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Visvesvaraya Technological University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00ha14p11>
   rdfs:label 'Visvesvaraya Technological University'^^xsd:string ;
@@ -293,7 +294,7 @@
   dc:isVersionOf <https://ror.org/00hjpwn75> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Erasmus Optical Imaging Centre'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00hjpwn75>
   rdfs:label 'Erasmus Optical Imaging Centre'^^xsd:string ;
@@ -304,7 +305,7 @@
   dc:isVersionOf <https://ror.org/00jbpxw47> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Guilin University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00jbpxw47>
   rdfs:label 'Guilin University'^^xsd:string ;
@@ -315,7 +316,7 @@
   dc:isVersionOf <https://ror.org/00k0k7y87> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Babcock University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00k0k7y87>
   rdfs:label 'Babcock University'^^xsd:string ;
@@ -326,7 +327,7 @@
   dc:isVersionOf <https://ror.org/00k63dq23> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Meharry Medical College'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00k63dq23>
   rdfs:label 'Meharry Medical College'^^xsd:string ;
@@ -337,7 +338,7 @@
   dc:isVersionOf <https://ror.org/00m090414> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Maison Européenne des Sciences de l\'Homme et de la Société'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00m090414>
   rdfs:label 'Maison Européenne des Sciences de l\'Homme et de la Société'^^xsd:string ;
@@ -348,7 +349,7 @@
   dc:isVersionOf <https://ror.org/00np1ar05> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Asia Pacific Observatory on Health Systems and Policies'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00np1ar05>
   rdfs:label 'Asia Pacific Observatory on Health Systems and Policies'^^xsd:string ;
@@ -359,7 +360,7 @@
   dc:isVersionOf <https://ror.org/00pdx2849> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Conselleria de Sanitat Universal i Salut Pública'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00pdx2849>
   rdfs:label 'Conselleria de Sanitat Universal i Salut Pública'^^xsd:string ;
@@ -370,7 +371,7 @@
   dc:isVersionOf <https://ror.org/00q4ajz48> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Centre Québécois de Recherche et de Développement de l\'Aluminium'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00q4ajz48>
   rdfs:label 'Centre Québécois de Recherche et de Développement de l\'Aluminium'^^xsd:string ;
@@ -381,7 +382,7 @@
   dc:isVersionOf <https://ror.org/00qps9a02> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'National Institute of Geophysics and Volcanology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00qps9a02>
   rdfs:label 'National Institute of Geophysics and Volcanology'^^xsd:string ;
@@ -392,7 +393,7 @@
   dc:isVersionOf <https://ror.org/00qxqkw78> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'European Plate Observing System'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00qxqkw78>
   rdfs:label 'European Plate Observing System'^^xsd:string ;
@@ -403,7 +404,7 @@
   dc:isVersionOf <https://ror.org/00r5tc683> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Korea Health Promotion Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00r5tc683>
   rdfs:label 'Korea Health Promotion Institute'^^xsd:string ;
@@ -414,7 +415,7 @@
   dc:isVersionOf <https://ror.org/00rpqyj14> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'ARCA Biopharma (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00rpqyj14>
   rdfs:label 'ARCA Biopharma (United States)'^^xsd:string ;
@@ -425,7 +426,7 @@
   dc:isVersionOf <https://ror.org/00sfmx060> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Pontifícia Universidade Católica de São Paulo'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00sfmx060>
   rdfs:label 'Pontifícia Universidade Católica de São Paulo'^^xsd:string ;
@@ -436,7 +437,7 @@
   dc:isVersionOf <https://ror.org/00sxy8533> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Universidad La Salle'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00sxy8533>
   rdfs:label 'Universidad La Salle'^^xsd:string ;
@@ -447,7 +448,7 @@
   dc:isVersionOf <https://ror.org/00w641b14> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'George Fox University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00w641b14>
   rdfs:label 'George Fox University'^^xsd:string ;
@@ -458,7 +459,7 @@
   dc:isVersionOf <https://ror.org/00w8vmf89> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Innoplexus'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00w8vmf89>
   rdfs:label 'Innoplexus'^^xsd:string ;
@@ -469,7 +470,7 @@
   dc:isVersionOf <https://ror.org/00xjwyj62> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Eighth Affiliated Hospital of Sun Yat-sen University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00xjwyj62>
   rdfs:label 'Eighth Affiliated Hospital of Sun Yat-sen University'^^xsd:string ;
@@ -480,7 +481,7 @@
   dc:isVersionOf <https://ror.org/00xrkf913> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Pacira (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00xrkf913>
   rdfs:label 'Pacira (United States)'^^xsd:string ;
@@ -491,7 +492,7 @@
   dc:isVersionOf <https://ror.org/00yqxd286> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Sichuan College of Architectural Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00yqxd286>
   rdfs:label 'Sichuan College of Architectural Technology'^^xsd:string ;
@@ -502,7 +503,7 @@
   dc:isVersionOf <https://ror.org/00z9ev113> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Shinjuku College of Information Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00z9ev113>
   rdfs:label 'Shinjuku College of Information Technology'^^xsd:string ;
@@ -513,7 +514,7 @@
   dc:isVersionOf <https://ror.org/00zmnkx60> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Instituto de investigación sanitaria y biomédica de Alicante'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/00zmnkx60>
   rdfs:label 'Instituto de investigación sanitaria y biomédica de Alicante'^^xsd:string ;
@@ -524,7 +525,7 @@
   dc:isVersionOf <https://ror.org/010pn0509> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Research and Production Center "Fox and Co"'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/010pn0509>
   rdfs:label 'Research and Production Center "Fox and Co"'^^xsd:string ;
@@ -535,7 +536,7 @@
   dc:isVersionOf <https://ror.org/0111a5077> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Toxalim Research Centre in Food Toxicology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0111a5077>
   rdfs:label 'Toxalim Research Centre in Food Toxicology'^^xsd:string ;
@@ -546,7 +547,7 @@
   dc:isVersionOf <https://ror.org/0111s2360> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Research Centre on Animal Cognition'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0111s2360>
   rdfs:label 'Research Centre on Animal Cognition'^^xsd:string ;
@@ -557,7 +558,7 @@
   dc:isVersionOf <https://ror.org/011dvr318> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Spaulding Rehabilitation Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/011dvr318>
   rdfs:label 'Spaulding Rehabilitation Hospital'^^xsd:string ;
@@ -568,7 +569,7 @@
   dc:isVersionOf <https://ror.org/01225hq90> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Centre d\'Études Spatiales de la Biosphère'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01225hq90>
   rdfs:label 'Centre d\'Études Spatiales de la Biosphère'^^xsd:string ;
@@ -579,7 +580,7 @@
   dc:isVersionOf <https://ror.org/013rctf62> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Van Leeuwenhoek Centre for Advanced Microscopy'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/013rctf62>
   rdfs:label 'Van Leeuwenhoek Centre for Advanced Microscopy'^^xsd:string ;
@@ -590,7 +591,7 @@
   dc:isVersionOf <https://ror.org/014vp6c30> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Toulouse Mathematics Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/014vp6c30>
   rdfs:label 'Toulouse Mathematics Institute'^^xsd:string ;
@@ -601,7 +602,7 @@
   dc:isVersionOf <https://ror.org/01537wn74> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Government of the Northern Territory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01537wn74>
   rdfs:label 'Government of the Northern Territory'^^xsd:string ;
@@ -612,7 +613,7 @@
   dc:isVersionOf <https://ror.org/0154kn471> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Allen Institute for Immunology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0154kn471>
   rdfs:label 'Allen Institute for Immunology'^^xsd:string ;
@@ -623,7 +624,7 @@
   dc:isVersionOf <https://ror.org/015b0dz43> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Rhode Island Department of Health'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/015b0dz43>
   rdfs:label 'Rhode Island Department of Health'^^xsd:string ;
@@ -634,7 +635,7 @@
   dc:isVersionOf <https://ror.org/015frs841> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'TauRx Pharmaceuticals (Singapore)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/015frs841>
   rdfs:label 'TauRx Pharmaceuticals (Singapore)'^^xsd:string ;
@@ -645,7 +646,7 @@
   dc:isVersionOf <https://ror.org/015h5sy57> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Jomo Kenyatta University of Agriculture and Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/015h5sy57>
   rdfs:label 'Jomo Kenyatta University of Agriculture and Technology'^^xsd:string ;
@@ -656,7 +657,7 @@
   dc:isVersionOf <https://ror.org/015z41c35> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Dementia Collaborative Research Centres'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/015z41c35>
   rdfs:label 'Dementia Collaborative Research Centres'^^xsd:string ;
@@ -667,7 +668,7 @@
   dc:isVersionOf <https://ror.org/016vzmc05> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Nippon Steel'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/016vzmc05>
   rdfs:label 'Nippon Steel'^^xsd:string ;
@@ -678,7 +679,7 @@
   dc:isVersionOf <https://ror.org/016zvc994> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institute of Pharmacology and Structural Biology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/016zvc994>
   rdfs:label 'Institute of Pharmacology and Structural Biology'^^xsd:string ;
@@ -689,7 +690,7 @@
   dc:isVersionOf <https://ror.org/0171mae58> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire des Interactions Moléculaires et Réactivité Chimique et Photochimique'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0171mae58>
   rdfs:label 'Laboratoire des Interactions Moléculaires et Réactivité Chimique et Photochimique'^^xsd:string ;
@@ -700,7 +701,7 @@
   dc:isVersionOf <https://ror.org/01790dx02> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Shanxi Provincial Cancer Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01790dx02>
   rdfs:label 'Shanxi Provincial Cancer Hospital'^^xsd:string ;
@@ -711,7 +712,7 @@
   dc:isVersionOf <https://ror.org/017bbxn17> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Centre de Biologie du Développement'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/017bbxn17>
   rdfs:label 'Centre de Biologie du Développement'^^xsd:string ;
@@ -722,7 +723,7 @@
   dc:isVersionOf <https://ror.org/017d9yp59> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire d\'Aérologie'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/017d9yp59>
   rdfs:label 'Laboratoire d\'Aérologie'^^xsd:string ;
@@ -733,7 +734,7 @@
   dc:isVersionOf <https://ror.org/017h5q109> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Centre Hospitalier Universitaire de Toulouse'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/017h5q109>
   rdfs:label 'Centre Hospitalier Universitaire de Toulouse'^^xsd:string ;
@@ -744,7 +745,7 @@
   dc:isVersionOf <https://ror.org/018906e22> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Erasmus MC'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/018906e22>
   rdfs:label 'Erasmus MC'^^xsd:string ;
@@ -755,7 +756,7 @@
   dc:isVersionOf <https://ror.org/018f8pa48> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Abon Pharmaceuticals'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/018f8pa48>
   rdfs:label 'Abon Pharmaceuticals'^^xsd:string ;
@@ -766,7 +767,7 @@
   dc:isVersionOf <https://ror.org/0191b3351> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'VID Specialized University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0191b3351>
   rdfs:label 'VID Specialized University'^^xsd:string ;
@@ -777,7 +778,7 @@
   dc:isVersionOf <https://ror.org/01925vb10> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Norwegian Cancer Society'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01925vb10>
   rdfs:label 'Norwegian Cancer Society'^^xsd:string ;
@@ -788,7 +789,7 @@
   dc:isVersionOf <https://ror.org/01azzms13> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Miguel Hernandez University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01azzms13>
   rdfs:label 'Miguel Hernandez University'^^xsd:string ;
@@ -799,7 +800,7 @@
   dc:isVersionOf <https://ror.org/01bc2nz61> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Jaseng Medical Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01bc2nz61>
   rdfs:label 'Jaseng Medical Foundation'^^xsd:string ;
@@ -810,7 +811,7 @@
   dc:isVersionOf <https://ror.org/01d3r6z34> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Brain Imaging Network'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01d3r6z34>
   rdfs:label 'Brain Imaging Network'^^xsd:string ;
@@ -821,7 +822,7 @@
   dc:isVersionOf <https://ror.org/01dc8vg74> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'A.P. Ershov Institute of Informatics Systems, Siberian Branch of the Russian Academy of Sciences'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01dc8vg74>
   rdfs:label 'A.P. Ershov Institute of Informatics Systems, Siberian Branch of the Russian Academy of Sciences'^^xsd:string ;
@@ -832,7 +833,7 @@
   dc:isVersionOf <https://ror.org/01exj2638> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'The Olav Raagholt and Gerd Meidel Raagholt Research Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01exj2638>
   rdfs:label 'The Olav Raagholt and Gerd Meidel Raagholt Research Foundation'^^xsd:string ;
@@ -843,7 +844,7 @@
   dc:isVersionOf <https://ror.org/01fczmh85> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Netaji Subhas University of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01fczmh85>
   rdfs:label 'Netaji Subhas University of Technology'^^xsd:string ;
@@ -854,7 +855,7 @@
   dc:isVersionOf <https://ror.org/01gcmye25> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Mattu University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01gcmye25>
   rdfs:label 'Mattu University'^^xsd:string ;
@@ -865,7 +866,7 @@
   dc:isVersionOf <https://ror.org/01gr7hw08> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'SOS Oxygène (France)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01gr7hw08>
   rdfs:label 'SOS Oxygène (France)'^^xsd:string ;
@@ -876,7 +877,7 @@
   dc:isVersionOf <https://ror.org/01h85hm56> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Dow University of Health Sciences'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01h85hm56>
   rdfs:label 'Dow University of Health Sciences'^^xsd:string ;
@@ -887,7 +888,7 @@
   dc:isVersionOf <https://ror.org/01m6as704> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institut de Cancérologie de l\'Ouest'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01m6as704>
   rdfs:label 'Institut de Cancérologie de l\'Ouest'^^xsd:string ;
@@ -898,7 +899,7 @@
   dc:isVersionOf <https://ror.org/01mq2eh43> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'National Microscopy Infrastructure'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01mq2eh43>
   rdfs:label 'National Microscopy Infrastructure'^^xsd:string ;
@@ -909,7 +910,7 @@
   dc:isVersionOf <https://ror.org/01mtcc283> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Le Mans Université'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01mtcc283>
   rdfs:label 'Le Mans Université'^^xsd:string ;
@@ -920,7 +921,7 @@
   dc:isVersionOf <https://ror.org/01naq7912> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Télécom ParisTech'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01naq7912>
   rdfs:label 'Télécom ParisTech'^^xsd:string ;
@@ -931,7 +932,7 @@
   dc:isVersionOf <https://ror.org/01nsd7y51> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Geociencias Barcelona'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01nsd7y51>
   rdfs:label 'Geociencias Barcelona'^^xsd:string ;
@@ -942,7 +943,7 @@
   dc:isVersionOf <https://ror.org/01pxfxj80> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'GreyNet International'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01pxfxj80>
   rdfs:label 'GreyNet International'^^xsd:string ;
@@ -953,7 +954,7 @@
   dc:isVersionOf <https://ror.org/01qhf1r47> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Anna University, Chennai'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01qhf1r47>
   rdfs:label 'Anna University, Chennai'^^xsd:string ;
@@ -964,7 +965,7 @@
   dc:isVersionOf <https://ror.org/01rsgrz10> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Sanjay Gandhi Post Graduate Institute of Medical Sciences'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01rsgrz10>
   rdfs:label 'Sanjay Gandhi Post Graduate Institute of Medical Sciences'^^xsd:string ;
@@ -975,7 +976,7 @@
   dc:isVersionOf <https://ror.org/01tfttw56> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'StromaLab'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01tfttw56>
   rdfs:label 'StromaLab'^^xsd:string ;
@@ -986,7 +987,7 @@
   dc:isVersionOf <https://ror.org/01thp7c65> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Cure CMD'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01thp7c65>
   rdfs:label 'Cure CMD'^^xsd:string ;
@@ -997,7 +998,7 @@
   dc:isVersionOf <https://ror.org/01tm6cn81> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Gothenburg'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01tm6cn81>
   rdfs:label 'University of Gothenburg'^^xsd:string ;
@@ -1008,7 +1009,7 @@
   dc:isVersionOf <https://ror.org/01vf2ak57> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Korean Society of Hypertension'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01vf2ak57>
   rdfs:label 'Korean Society of Hypertension'^^xsd:string ;
@@ -1019,7 +1020,7 @@
   dc:isVersionOf <https://ror.org/01vvhy971> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Shiga University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01vvhy971>
   rdfs:label 'Shiga University'^^xsd:string ;
@@ -1030,7 +1031,7 @@
   dc:isVersionOf <https://ror.org/01wj9hk44> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Bertelsmann Stiftung'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01wj9hk44>
   rdfs:label 'Bertelsmann Stiftung'^^xsd:string ;
@@ -1041,7 +1042,7 @@
   dc:isVersionOf <https://ror.org/01zbnvs85> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Meta (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01zbnvs85>
   rdfs:label 'Meta (United States)'^^xsd:string ;
@@ -1052,7 +1053,7 @@
   dc:isVersionOf <https://ror.org/01zx17h33> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Cappadocia University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/01zx17h33>
   rdfs:label 'Cappadocia University'^^xsd:string ;
@@ -1063,7 +1064,7 @@
   dc:isVersionOf <https://ror.org/020rbyg91> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'National Institutes for Quantum and Radiological Science and Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/020rbyg91>
   rdfs:label 'National Institutes for Quantum and Radiological Science and Technology'^^xsd:string ;
@@ -1074,7 +1075,7 @@
   dc:isVersionOf <https://ror.org/020ye1821> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Meta (United Kingdom)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/020ye1821>
   rdfs:label 'Meta (United Kingdom)'^^xsd:string ;
@@ -1085,7 +1086,7 @@
   dc:isVersionOf <https://ror.org/0211bs523> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Haldia Institute of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0211bs523>
   rdfs:label 'Haldia Institute of Technology'^^xsd:string ;
@@ -1096,7 +1097,7 @@
   dc:isVersionOf <https://ror.org/02122at02> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Univerzitetski Klinički Centar Srbije'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02122at02>
   rdfs:label 'Univerzitetski Klinički Centar Srbije'^^xsd:string ;
@@ -1107,7 +1108,7 @@
   dc:isVersionOf <https://ror.org/0233jz243> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Guerbet (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0233jz243>
   rdfs:label 'Guerbet (United States)'^^xsd:string ;
@@ -1118,7 +1119,7 @@
   dc:isVersionOf <https://ror.org/02388em19> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Meta (Israel)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02388em19>
   rdfs:label 'Meta (Israel)'^^xsd:string ;
@@ -1129,7 +1130,7 @@
   dc:isVersionOf <https://ror.org/025nmxp11> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institute of Fluid Mechanics of Toulouse'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/025nmxp11>
   rdfs:label 'Institute of Fluid Mechanics of Toulouse'^^xsd:string ;
@@ -1140,7 +1141,7 @@
   dc:isVersionOf <https://ror.org/0264cg909> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Indian Institute of Technology Palakkad'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0264cg909>
   rdfs:label 'Indian Institute of Technology Palakkad'^^xsd:string ;
@@ -1151,7 +1152,7 @@
   dc:isVersionOf <https://ror.org/0265d1010> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Shanxi Medical University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0265d1010>
   rdfs:label 'Shanxi Medical University'^^xsd:string ;
@@ -1162,7 +1163,7 @@
   dc:isVersionOf <https://ror.org/026vcq606> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Royal Institute of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/026vcq606>
   rdfs:label 'Royal Institute of Technology'^^xsd:string ;
@@ -1173,7 +1174,7 @@
   dc:isVersionOf <https://ror.org/02772kk97> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Japan Meteorological Agency'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02772kk97>
   rdfs:label 'Japan Meteorological Agency'^^xsd:string ;
@@ -1184,7 +1185,7 @@
   dc:isVersionOf <https://ror.org/027786x52> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Forestry Research Institute of Ghana'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/027786x52>
   rdfs:label 'Forestry Research Institute of Ghana'^^xsd:string ;
@@ -1195,7 +1196,7 @@
   dc:isVersionOf <https://ror.org/027g1r322> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Innocrin Pharmaceuticals (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/027g1r322>
   rdfs:label 'Innocrin Pharmaceuticals (United States)'^^xsd:string ;
@@ -1206,7 +1207,7 @@
   dc:isVersionOf <https://ror.org/027rbaq21> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire Écologie Fonctionnelle et Environnement'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/027rbaq21>
   rdfs:label 'Laboratoire Écologie Fonctionnelle et Environnement'^^xsd:string ;
@@ -1217,7 +1218,7 @@
   dc:isVersionOf <https://ror.org/0289s0476> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Woolf Fisher Trust'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0289s0476>
   rdfs:label 'Woolf Fisher Trust'^^xsd:string ;
@@ -1228,7 +1229,7 @@
   dc:isVersionOf <https://ror.org/028f3st43> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Rostocker Institut für Sozialforschung und gesellschaftliche Praxis e.V.'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/028f3st43>
   rdfs:label 'Rostocker Institut für Sozialforschung und gesellschaftliche Praxis e.V.'^^xsd:string ;
@@ -1239,7 +1240,7 @@
   dc:isVersionOf <https://ror.org/028pmgd25> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institute for Advanced Technology in life science'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/028pmgd25>
   rdfs:label 'Institute for Advanced Technology in life science'^^xsd:string ;
@@ -1250,7 +1251,7 @@
   dc:isVersionOf <https://ror.org/0299fsa36> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Korea Breast Cancer Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0299fsa36>
   rdfs:label 'Korea Breast Cancer Foundation'^^xsd:string ;
@@ -1261,7 +1262,7 @@
   dc:isVersionOf <https://ror.org/029djt864> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Academy of Fine Arts Vienna'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/029djt864>
   rdfs:label 'Academy of Fine Arts Vienna'^^xsd:string ;
@@ -1272,7 +1273,7 @@
   dc:isVersionOf <https://ror.org/02anzyy56> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Natera (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02anzyy56>
   rdfs:label 'Natera (United States)'^^xsd:string ;
@@ -1283,7 +1284,7 @@
   dc:isVersionOf <https://ror.org/02aqr8687> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire de Biologie Cellulaire et Moléculaire du Contrôle de la Prolifération'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02aqr8687>
   rdfs:label 'Laboratoire de Biologie Cellulaire et Moléculaire du Contrôle de la Prolifération'^^xsd:string ;
@@ -1294,7 +1295,7 @@
   dc:isVersionOf <https://ror.org/02c1tv516> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Center for Physiopathology of Toulouse Purpan'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02c1tv516>
   rdfs:label 'Center for Physiopathology of Toulouse Purpan'^^xsd:string ;
@@ -1305,7 +1306,7 @@
   dc:isVersionOf <https://ror.org/02chvqy57> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire d’Études en Géophysique et Océanographie Spatiales'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02chvqy57>
   rdfs:label 'Laboratoire d’Études en Géophysique et Océanographie Spatiales'^^xsd:string ;
@@ -1316,7 +1317,7 @@
   dc:isVersionOf <https://ror.org/02cmd6814> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Stroud Water Research Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02cmd6814>
   rdfs:label 'Stroud Water Research Center'^^xsd:string ;
@@ -1327,7 +1328,7 @@
   dc:isVersionOf <https://ror.org/02cpjkp59> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Beth Israel Deaconess Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02cpjkp59>
   rdfs:label 'Beth Israel Deaconess Hospital'^^xsd:string ;
@@ -1338,7 +1339,7 @@
   dc:isVersionOf <https://ror.org/02crff812> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Zurich'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02crff812>
   rdfs:label 'University of Zurich'^^xsd:string ;
@@ -1349,7 +1350,7 @@
   dc:isVersionOf <https://ror.org/02ecaj844> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Windtree Therapeutics (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02ecaj844>
   rdfs:label 'Windtree Therapeutics (United States)'^^xsd:string ;
@@ -1360,7 +1361,7 @@
   dc:isVersionOf <https://ror.org/02esmmc86> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Stiftelsen Dam'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02esmmc86>
   rdfs:label 'Stiftelsen Dam'^^xsd:string ;
@@ -1371,7 +1372,7 @@
   dc:isVersionOf <https://ror.org/02ev4ry20> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Rana University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02ev4ry20>
   rdfs:label 'Rana University'^^xsd:string ;
@@ -1382,7 +1383,7 @@
   dc:isVersionOf <https://ror.org/02frkq021> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Siberian Branch of the Russian Academy of Sciences'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02frkq021>
   rdfs:label 'Siberian Branch of the Russian Academy of Sciences'^^xsd:string ;
@@ -1393,7 +1394,7 @@
   dc:isVersionOf <https://ror.org/02frt9q65> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Guangxi Normal University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02frt9q65>
   rdfs:label 'Guangxi Normal University'^^xsd:string ;
@@ -1404,7 +1405,7 @@
   dc:isVersionOf <https://ror.org/02gfc7t72> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Spanish National Research Council'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02gfc7t72>
   rdfs:label 'Spanish National Research Council'^^xsd:string ;
@@ -1415,7 +1416,7 @@
   dc:isVersionOf <https://ror.org/02ghpjv23> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Cochrane'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02ghpjv23>
   rdfs:label 'Cochrane'^^xsd:string ;
@@ -1426,7 +1427,7 @@
   dc:isVersionOf <https://ror.org/02grspc61> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Hugging Face'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02grspc61>
   rdfs:label 'Hugging Face'^^xsd:string ;
@@ -1437,7 +1438,7 @@
   dc:isVersionOf <https://ror.org/02gwt2810> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire des Interactions Plantes Micro-Organismes'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02gwt2810>
   rdfs:label 'Laboratoire des Interactions Plantes Micro-Organismes'^^xsd:string ;
@@ -1448,7 +1449,7 @@
   dc:isVersionOf <https://ror.org/02h158026> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institut de Recherche sur les Systèmes Atomiques et Moléculaires Complexes'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02h158026>
   rdfs:label 'Institut de Recherche sur les Systèmes Atomiques et Moléculaires Complexes'^^xsd:string ;
@@ -1459,7 +1460,7 @@
   dc:isVersionOf <https://ror.org/02h9pt147> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'PGP College of Engineering and Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02h9pt147>
   rdfs:label 'PGP College of Engineering and Technology'^^xsd:string ;
@@ -1470,7 +1471,7 @@
   dc:isVersionOf <https://ror.org/02hbzmb19> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Centre d\'Étude et de Recherche Travail Organisation Pouvoir'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02hbzmb19>
   rdfs:label 'Centre d\'Étude et de Recherche Travail Organisation Pouvoir'^^xsd:string ;
@@ -1481,7 +1482,7 @@
   dc:isVersionOf <https://ror.org/02j01mp63> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'National Metrology Institute of South Africa'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02j01mp63>
   rdfs:label 'National Metrology Institute of South Africa'^^xsd:string ;
@@ -1492,7 +1493,7 @@
   dc:isVersionOf <https://ror.org/02jzgtq86> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Dana-Farber Cancer Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02jzgtq86>
   rdfs:label 'Dana-Farber Cancer Institute'^^xsd:string ;
@@ -1503,7 +1504,7 @@
   dc:isVersionOf <https://ror.org/02k5t7d62> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Zhengzhou Preschool Education College'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02k5t7d62>
   rdfs:label 'Zhengzhou Preschool Education College'^^xsd:string ;
@@ -1514,7 +1515,7 @@
   dc:isVersionOf <https://ror.org/02k8zdn75> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Aptevo Therapeutics (United states)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02k8zdn75>
   rdfs:label 'Aptevo Therapeutics (United states)'^^xsd:string ;
@@ -1525,7 +1526,7 @@
   dc:isVersionOf <https://ror.org/02mw4qt74> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Polymer Research Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02mw4qt74>
   rdfs:label 'Polymer Research Center'^^xsd:string ;
@@ -1536,7 +1537,7 @@
   dc:isVersionOf <https://ror.org/02n0sa445> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Royal Australian and New Zealand College of Psychiatrists'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02n0sa445>
   rdfs:label 'Royal Australian and New Zealand College of Psychiatrists'^^xsd:string ;
@@ -1547,7 +1548,7 @@
   dc:isVersionOf <https://ror.org/02n2n9a06> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Glenrose Rehabilitation Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02n2n9a06>
   rdfs:label 'Glenrose Rehabilitation Hospital'^^xsd:string ;
@@ -1558,7 +1559,7 @@
   dc:isVersionOf <https://ror.org/02nv7yv05> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Forschungszentrum Jülich'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02nv7yv05>
   rdfs:label 'Forschungszentrum Jülich'^^xsd:string ;
@@ -1569,7 +1570,7 @@
   dc:isVersionOf <https://ror.org/02pr1mr20> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Angion (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02pr1mr20>
   rdfs:label 'Angion (United States)'^^xsd:string ;
@@ -1580,7 +1581,7 @@
   dc:isVersionOf <https://ror.org/02s0g2v93> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Polytec (Germany)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02s0g2v93>
   rdfs:label 'Polytec (Germany)'^^xsd:string ;
@@ -1591,7 +1592,7 @@
   dc:isVersionOf <https://ror.org/02s6w6207> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Budge Budge Institute of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02s6w6207>
   rdfs:label 'Budge Budge Institute of Technology'^^xsd:string ;
@@ -1602,7 +1603,7 @@
   dc:isVersionOf <https://ror.org/02sscsx71> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Indian Institute of Technology Bhilai'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02sscsx71>
   rdfs:label 'Indian Institute of Technology Bhilai'^^xsd:string ;
@@ -1613,7 +1614,7 @@
   dc:isVersionOf <https://ror.org/02tne2741> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Adamas University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02tne2741>
   rdfs:label 'Adamas University'^^xsd:string ;
@@ -1624,7 +1625,7 @@
   dc:isVersionOf <https://ror.org/02tx4na66> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Cheongju University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02tx4na66>
   rdfs:label 'Cheongju University'^^xsd:string ;
@@ -1635,7 +1636,7 @@
   dc:isVersionOf <https://ror.org/02v2svk17> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire Hétérochimie Fondamentale et Appliquée'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02v2svk17>
   rdfs:label 'Laboratoire Hétérochimie Fondamentale et Appliquée'^^xsd:string ;
@@ -1646,7 +1647,7 @@
   dc:isVersionOf <https://ror.org/02v6kpv12> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Université Toulouse III - Paul Sabatier'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02v6kpv12>
   rdfs:label 'Université Toulouse III - Paul Sabatier'^^xsd:string ;
@@ -1657,7 +1658,7 @@
   dc:isVersionOf <https://ror.org/02vzx8197> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'SIRIS Academic'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02vzx8197>
   rdfs:label 'SIRIS Academic'^^xsd:string ;
@@ -1668,7 +1669,7 @@
   dc:isVersionOf <https://ror.org/02w5mvk98> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratory on Plasma and Conversion of Energy'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02w5mvk98>
   rdfs:label 'Laboratory on Plasma and Conversion of Energy'^^xsd:string ;
@@ -1679,7 +1680,7 @@
   dc:isVersionOf <https://ror.org/02xh23b55> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratory Evolution and Biological Diversity'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02xh23b55>
   rdfs:label 'Laboratory Evolution and Biological Diversity'^^xsd:string ;
@@ -1690,7 +1691,7 @@
   dc:isVersionOf <https://ror.org/02ybsz607> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Hospital General Universitario de Alicante Doctor Balmis'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02ybsz607>
   rdfs:label 'Hospital General Universitario de Alicante Doctor Balmis'^^xsd:string ;
@@ -1701,7 +1702,7 @@
   dc:isVersionOf <https://ror.org/02ynbzc81> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Universidade de Fortaleza'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02ynbzc81>
   rdfs:label 'Universidade de Fortaleza'^^xsd:string ;
@@ -1712,7 +1713,7 @@
   dc:isVersionOf <https://ror.org/02ywmqv15> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire Epidémiologie et Analyses en Santé Publique : Risques, Maladies Chroniques et Handicaps'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02ywmqv15>
   rdfs:label 'Laboratoire Epidémiologie et Analyses en Santé Publique : Risques, Maladies Chroniques et Handicaps'^^xsd:string ;
@@ -1723,7 +1724,7 @@
   dc:isVersionOf <https://ror.org/02zj7b759> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Australian Plant Phenomics Facility'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/02zj7b759>
   rdfs:label 'Australian Plant Phenomics Facility'^^xsd:string ;
@@ -1734,7 +1735,7 @@
   dc:isVersionOf <https://ror.org/030a08k25> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Jishan County People\'s Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/030a08k25>
   rdfs:label 'Jishan County People\'s Hospital'^^xsd:string ;
@@ -1745,7 +1746,7 @@
   dc:isVersionOf <https://ror.org/030r5af82> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Stadtarchiv Krems'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/030r5af82>
   rdfs:label 'Stadtarchiv Krems'^^xsd:string ;
@@ -1756,7 +1757,7 @@
   dc:isVersionOf <https://ror.org/030tcae29> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Maulana Abul Kalam Azad University of Technology, West Bengal'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/030tcae29>
   rdfs:label 'Maulana Abul Kalam Azad University of Technology, West Bengal'^^xsd:string ;
@@ -1767,7 +1768,7 @@
   dc:isVersionOf <https://ror.org/031a97q88> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Instituto Pró-Carnívoros'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/031a97q88>
   rdfs:label 'Instituto Pró-Carnívoros'^^xsd:string ;
@@ -1778,7 +1779,7 @@
   dc:isVersionOf <https://ror.org/032twef21> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'National Institute of Technology Delhi'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/032twef21>
   rdfs:label 'National Institute of Technology Delhi'^^xsd:string ;
@@ -1789,7 +1790,7 @@
   dc:isVersionOf <https://ror.org/034nb0f30> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Digestive Health Research Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/034nb0f30>
   rdfs:label 'Digestive Health Research Institute'^^xsd:string ;
@@ -1800,7 +1801,7 @@
   dc:isVersionOf <https://ror.org/034zn5b34> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Hôpital Rangueil'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/034zn5b34>
   rdfs:label 'Hôpital Rangueil'^^xsd:string ;
@@ -1811,7 +1812,7 @@
   dc:isVersionOf <https://ror.org/0366mhr44> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Gnanamani College of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0366mhr44>
   rdfs:label 'Gnanamani College of Technology'^^xsd:string ;
@@ -1822,7 +1823,7 @@
   dc:isVersionOf <https://ror.org/036egt138> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'European Institute for Multidisciplinary Studies on Human Rights and Science - Knowmad Institut'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/036egt138>
   rdfs:label 'European Institute for Multidisciplinary Studies on Human Rights and Science - Knowmad Institut'^^xsd:string ;
@@ -1833,7 +1834,7 @@
   dc:isVersionOf <https://ror.org/037px4461> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Japan Petroleum Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/037px4461>
   rdfs:label 'Japan Petroleum Institute'^^xsd:string ;
@@ -1844,7 +1845,7 @@
   dc:isVersionOf <https://ror.org/03877wr45> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Al-Muthanna University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03877wr45>
   rdfs:label 'Al-Muthanna University'^^xsd:string ;
@@ -1855,7 +1856,7 @@
   dc:isVersionOf <https://ror.org/038q4zz19> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Wanhua Chemical (China)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/038q4zz19>
   rdfs:label 'Wanhua Chemical (China)'^^xsd:string ;
@@ -1866,7 +1867,7 @@
   dc:isVersionOf <https://ror.org/038q98v71> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Dominion (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/038q98v71>
   rdfs:label 'Dominion (United States)'^^xsd:string ;
@@ -1877,7 +1878,7 @@
   dc:isVersionOf <https://ror.org/038yc5y48> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Australian Society for Antimicrobials'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/038yc5y48>
   rdfs:label 'Australian Society for Antimicrobials'^^xsd:string ;
@@ -1888,7 +1889,7 @@
   dc:isVersionOf <https://ror.org/039d9es10> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Petra University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/039d9es10>
   rdfs:label 'Petra University'^^xsd:string ;
@@ -1899,7 +1900,7 @@
   dc:isVersionOf <https://ror.org/03a9gd656> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institut des Molécules et Matériaux du Mans'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03a9gd656>
   rdfs:label 'Institut des Molécules et Matériaux du Mans'^^xsd:string ;
@@ -1910,7 +1911,7 @@
   dc:isVersionOf <https://ror.org/03aef3108> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Centre for Socio-Political Data'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03aef3108>
   rdfs:label 'Centre for Socio-Political Data'^^xsd:string ;
@@ -1921,7 +1922,7 @@
   dc:isVersionOf <https://ror.org/03ah74403> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Krankenhaus der Barmherzigen Schwestern Ried'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03ah74403>
   rdfs:label 'Krankenhaus der Barmherzigen Schwestern Ried'^^xsd:string ;
@@ -1932,7 +1933,7 @@
   dc:isVersionOf <https://ror.org/03b9snr86> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Universidade Católica Portuguesa'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03b9snr86>
   rdfs:label 'Universidade Católica Portuguesa'^^xsd:string ;
@@ -1943,7 +1944,7 @@
   dc:isVersionOf <https://ror.org/03d2p2e72> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Technology Sarawak'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03d2p2e72>
   rdfs:label 'University of Technology Sarawak'^^xsd:string ;
@@ -1954,7 +1955,7 @@
   dc:isVersionOf <https://ror.org/03fxf3w65> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Ministry of AYUSH'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03fxf3w65>
   rdfs:label 'Ministry of AYUSH'^^xsd:string ;
@@ -1965,7 +1966,7 @@
   dc:isVersionOf <https://ror.org/03gc71b86> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Swedish Collegium for Advanced Study'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03gc71b86>
   rdfs:label 'Swedish Collegium for Advanced Study'^^xsd:string ;
@@ -1976,7 +1977,7 @@
   dc:isVersionOf <https://ror.org/03gnr7b55> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Nantes Université'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03gnr7b55>
   rdfs:label 'Nantes Université'^^xsd:string ;
@@ -1987,7 +1988,7 @@
   dc:isVersionOf <https://ror.org/03j96wp44> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Association for Innovation and Biomedical Research on Light and Image'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03j96wp44>
   rdfs:label 'Association for Innovation and Biomedical Research on Light and Image'^^xsd:string ;
@@ -1998,7 +1999,7 @@
   dc:isVersionOf <https://ror.org/03mcefb58> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Powerchina Huadong Engineering Corporation (China)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03mcefb58>
   rdfs:label 'Powerchina Huadong Engineering Corporation (China)'^^xsd:string ;
@@ -2009,7 +2010,7 @@
   dc:isVersionOf <https://ror.org/03nd63441> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'The Christie Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03nd63441>
   rdfs:label 'The Christie Hospital'^^xsd:string ;
@@ -2020,7 +2021,7 @@
   dc:isVersionOf <https://ror.org/03njebb69> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'San Camillo IRCCS di Venezia'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03njebb69>
   rdfs:label 'San Camillo IRCCS di Venezia'^^xsd:string ;
@@ -2031,7 +2032,7 @@
   dc:isVersionOf <https://ror.org/03p7xrr08> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Pharmacochimie et Pharmacologie pour le Développement'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03p7xrr08>
   rdfs:label 'Pharmacochimie et Pharmacologie pour le Développement'^^xsd:string ;
@@ -2042,7 +2043,7 @@
   dc:isVersionOf <https://ror.org/03ppaqb54> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'FIR (Institute for Industrial Management) at RWTH Aachen University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03ppaqb54>
   rdfs:label 'FIR (Institute for Industrial Management) at RWTH Aachen University'^^xsd:string ;
@@ -2053,7 +2054,7 @@
   dc:isVersionOf <https://ror.org/03ptf5b24> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'British Society for Surgery of the Hand'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03ptf5b24>
   rdfs:label 'British Society for Surgery of the Hand'^^xsd:string ;
@@ -2064,7 +2065,7 @@
   dc:isVersionOf <https://ror.org/03rks9355> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Naval Group (France)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03rks9355>
   rdfs:label 'Naval Group (France)'^^xsd:string ;
@@ -2075,7 +2076,7 @@
   dc:isVersionOf <https://ror.org/03s9x8b85> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Euro-Mediterranean University of Fes'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03s9x8b85>
   rdfs:label 'Euro-Mediterranean University of Fes'^^xsd:string ;
@@ -2086,7 +2087,7 @@
   dc:isVersionOf <https://ror.org/03sd43014> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Queensland Cyber Infrastructure Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03sd43014>
   rdfs:label 'Queensland Cyber Infrastructure Foundation'^^xsd:string ;
@@ -2097,7 +2098,7 @@
   dc:isVersionOf <https://ror.org/03shhrx95> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Daqing Oilfield of CNPC'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03shhrx95>
   rdfs:label 'Daqing Oilfield of CNPC'^^xsd:string ;
@@ -2108,7 +2109,7 @@
   dc:isVersionOf <https://ror.org/03t0t6y08> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of California Division of Agriculture and Natural Resources'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03t0t6y08>
   rdfs:label 'University of California Division of Agriculture and Natural Resources'^^xsd:string ;
@@ -2119,7 +2120,7 @@
   dc:isVersionOf <https://ror.org/03tmpzb72> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'State Library of Victoria'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03tmpzb72>
   rdfs:label 'State Library of Victoria'^^xsd:string ;
@@ -2130,7 +2131,7 @@
   dc:isVersionOf <https://ror.org/03tvpbp09> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Ministry of Science, Technology, Knowledge and Innovation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03tvpbp09>
   rdfs:label 'Ministry of Science, Technology, Knowledge and Innovation'^^xsd:string ;
@@ -2141,7 +2142,7 @@
   dc:isVersionOf <https://ror.org/03v9efr22> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'The Christie NHS Foundation Trust'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03v9efr22>
   rdfs:label 'The Christie NHS Foundation Trust'^^xsd:string ;
@@ -2152,7 +2153,7 @@
   dc:isVersionOf <https://ror.org/03vcm6439> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratory for Analysis and Architecture of Systems'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03vcm6439>
   rdfs:label 'Laboratory for Analysis and Architecture of Systems'^^xsd:string ;
@@ -2163,7 +2164,7 @@
   dc:isVersionOf <https://ror.org/03vcx3f97> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Hôpital Purpan'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03vcx3f97>
   rdfs:label 'Hôpital Purpan'^^xsd:string ;
@@ -2174,7 +2175,7 @@
   dc:isVersionOf <https://ror.org/03vek6s52> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Harvard University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03vek6s52>
   rdfs:label 'Harvard University'^^xsd:string ;
@@ -2185,7 +2186,7 @@
   dc:isVersionOf <https://ror.org/03wvtrq14> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'National Institute of Fundamental Studies'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03wvtrq14>
   rdfs:label 'National Institute of Fundamental Studies'^^xsd:string ;
@@ -2196,7 +2197,7 @@
   dc:isVersionOf <https://ror.org/03x42jk29> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Université Gustave Eiffel'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03x42jk29>
   rdfs:label 'Université Gustave Eiffel'^^xsd:string ;
@@ -2207,7 +2208,7 @@
   dc:isVersionOf <https://ror.org/03xhggy77> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Interuniversity Center of Materials Research and Engineering'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03xhggy77>
   rdfs:label 'Interuniversity Center of Materials Research and Engineering'^^xsd:string ;
@@ -2218,7 +2219,7 @@
   dc:isVersionOf <https://ror.org/03xqtf034> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Netherlands Cancer Institute-Antoni van Leeuwenhoek Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03xqtf034>
   rdfs:label 'Netherlands Cancer Institute-Antoni van Leeuwenhoek Hospital'^^xsd:string ;
@@ -2229,7 +2230,7 @@
   dc:isVersionOf <https://ror.org/03z324m19> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Colorectal Surgical Society of Australia and New Zealand'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/03z324m19>
   rdfs:label 'Colorectal Surgical Society of Australia and New Zealand'^^xsd:string ;
@@ -2240,7 +2241,7 @@
   dc:isVersionOf <https://ror.org/040548g92> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Bisha'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/040548g92>
   rdfs:label 'University of Bisha'^^xsd:string ;
@@ -2251,7 +2252,7 @@
   dc:isVersionOf <https://ror.org/040smqw14> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institut Clément Ader'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/040smqw14>
   rdfs:label 'Institut Clément Ader'^^xsd:string ;
@@ -2262,7 +2263,7 @@
   dc:isVersionOf <https://ror.org/041edny43> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Lianyungang Technical College'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/041edny43>
   rdfs:label 'Lianyungang Technical College'^^xsd:string ;
@@ -2273,7 +2274,7 @@
   dc:isVersionOf <https://ror.org/042ksc857> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Lazarex Cancer Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/042ksc857>
   rdfs:label 'Lazarex Cancer Foundation'^^xsd:string ;
@@ -2284,7 +2285,7 @@
   dc:isVersionOf <https://ror.org/042nb2s44> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Massachusetts Institute of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/042nb2s44>
   rdfs:label 'Massachusetts Institute of Technology'^^xsd:string ;
@@ -2295,7 +2296,7 @@
   dc:isVersionOf <https://ror.org/042tph174> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Pan African University Institute for Basic Sciences, Technology and Innovation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/042tph174>
   rdfs:label 'Pan African University Institute for Basic Sciences, Technology and Innovation'^^xsd:string ;
@@ -2306,7 +2307,7 @@
   dc:isVersionOf <https://ror.org/043mz5j54> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of California, San Francisco'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/043mz5j54>
   rdfs:label 'University of California, San Francisco'^^xsd:string ;
@@ -2317,7 +2318,7 @@
   dc:isVersionOf <https://ror.org/044356j33> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'The Mofet Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/044356j33>
   rdfs:label 'The Mofet Institute'^^xsd:string ;
@@ -2328,7 +2329,7 @@
   dc:isVersionOf <https://ror.org/04533wk67> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Kearney Agricultural Research and Extension Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04533wk67>
   rdfs:label 'Kearney Agricultural Research and Extension Center'^^xsd:string ;
@@ -2339,7 +2340,7 @@
   dc:isVersionOf <https://ror.org/045ktmd28> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'French National High Magnetic Field Laboratory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/045ktmd28>
   rdfs:label 'French National High Magnetic Field Laboratory'^^xsd:string ;
@@ -2350,7 +2351,7 @@
   dc:isVersionOf <https://ror.org/045v4z873> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Chittagong Veterinary and Animal Sciences University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/045v4z873>
   rdfs:label 'Chittagong Veterinary and Animal Sciences University'^^xsd:string ;
@@ -2361,7 +2362,7 @@
   dc:isVersionOf <https://ror.org/0464eyp60> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Massachusetts Medical School'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0464eyp60>
   rdfs:label 'University of Massachusetts Medical School'^^xsd:string ;
@@ -2372,7 +2373,7 @@
   dc:isVersionOf <https://ror.org/0468vd838> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Statistical Society of Australia'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0468vd838>
   rdfs:label 'Statistical Society of Australia'^^xsd:string ;
@@ -2383,7 +2384,7 @@
   dc:isVersionOf <https://ror.org/046tej914> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Technological University Hmawbi'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/046tej914>
   rdfs:label 'Technological University Hmawbi'^^xsd:string ;
@@ -2394,7 +2395,7 @@
   dc:isVersionOf <https://ror.org/0479zfq62> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Portuguese Platform of BioImaging'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0479zfq62>
   rdfs:label 'Portuguese Platform of BioImaging'^^xsd:string ;
@@ -2405,7 +2406,7 @@
   dc:isVersionOf <https://ror.org/047van922> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Nha Trang University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/047van922>
   rdfs:label 'Nha Trang University'^^xsd:string ;
@@ -2416,7 +2417,7 @@
   dc:isVersionOf <https://ror.org/047z5as19> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire de Recherche en Sciences Végétales'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/047z5as19>
   rdfs:label 'Laboratoire de Recherche en Sciences Végétales'^^xsd:string ;
@@ -2427,7 +2428,7 @@
   dc:isVersionOf <https://ror.org/048a87296> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Uppsala University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/048a87296>
   rdfs:label 'Uppsala University'^^xsd:string ;
@@ -2438,7 +2439,7 @@
   dc:isVersionOf <https://ror.org/0494tsn97> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Amneal (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0494tsn97>
   rdfs:label 'Amneal (United States)'^^xsd:string ;
@@ -2449,7 +2450,7 @@
   dc:isVersionOf <https://ror.org/04af7ga89> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Nanyang Polytechnic'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04af7ga89>
   rdfs:label 'Nanyang Polytechnic'^^xsd:string ;
@@ -2460,7 +2461,7 @@
   dc:isVersionOf <https://ror.org/04ahz4692> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Dilla University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04ahz4692>
   rdfs:label 'Dilla University'^^xsd:string ;
@@ -2471,7 +2472,7 @@
   dc:isVersionOf <https://ror.org/04b0z7q78> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institut des Sciences Humaines et Sociales'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04b0z7q78>
   rdfs:label 'Institut des Sciences Humaines et Sociales'^^xsd:string ;
@@ -2482,7 +2483,7 @@
   dc:isVersionOf <https://ror.org/04b6nzv94> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Brigham and Women\'s Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04b6nzv94>
   rdfs:label 'Brigham and Women\'s Hospital'^^xsd:string ;
@@ -2493,7 +2494,7 @@
   dc:isVersionOf <https://ror.org/04bswr545> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Hospital of Stomatology, Sun Yat-sen University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04bswr545>
   rdfs:label 'Hospital of Stomatology, Sun Yat-sen University'^^xsd:string ;
@@ -2504,7 +2505,7 @@
   dc:isVersionOf <https://ror.org/04c8bjx39> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Oxford Health NHS Foundation Trust'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04c8bjx39>
   rdfs:label 'Oxford Health NHS Foundation Trust'^^xsd:string ;
@@ -2515,7 +2516,7 @@
   dc:isVersionOf <https://ror.org/04d73z393> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institute of Cardiovascular and Metabolic Diseases'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04d73z393>
   rdfs:label 'Institute of Cardiovascular and Metabolic Diseases'^^xsd:string ;
@@ -2526,7 +2527,7 @@
   dc:isVersionOf <https://ror.org/04dkp9463> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Amsterdam'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04dkp9463>
   rdfs:label 'University of Amsterdam'^^xsd:string ;
@@ -2537,7 +2538,7 @@
   dc:isVersionOf <https://ror.org/04dmy8675> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Deutsche Gesellschaft für Kieferorthopädie e.V'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04dmy8675>
   rdfs:label 'Deutsche Gesellschaft für Kieferorthopädie e.V'^^xsd:string ;
@@ -2548,7 +2549,7 @@
   dc:isVersionOf <https://ror.org/04evq0v43> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Aegerion Pharmaceuticals (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04evq0v43>
   rdfs:label 'Aegerion Pharmaceuticals (United States)'^^xsd:string ;
@@ -2559,7 +2560,7 @@
   dc:isVersionOf <https://ror.org/04f7aqa58> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Bundessortenamt'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04f7aqa58>
   rdfs:label 'Bundessortenamt'^^xsd:string ;
@@ -2570,7 +2571,7 @@
   dc:isVersionOf <https://ror.org/04fhrs205> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Brain and Cognition Research Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04fhrs205>
   rdfs:label 'Brain and Cognition Research Center'^^xsd:string ;
@@ -2581,7 +2582,7 @@
   dc:isVersionOf <https://ror.org/04fm0sh33> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire de Planétologie et Géosciences'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04fm0sh33>
   rdfs:label 'Laboratoire de Planétologie et Géosciences'^^xsd:string ;
@@ -2592,7 +2593,7 @@
   dc:isVersionOf <https://ror.org/04fnb9f41> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Sarcoma Alliance for Research through Collaboration'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04fnb9f41>
   rdfs:label 'Sarcoma Alliance for Research through Collaboration'^^xsd:string ;
@@ -2603,7 +2604,7 @@
   dc:isVersionOf <https://ror.org/04g2thr40> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Thu Duc City Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04g2thr40>
   rdfs:label 'Thu Duc City Hospital'^^xsd:string ;
@@ -2614,7 +2615,7 @@
   dc:isVersionOf <https://ror.org/04g7y4303> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Ernest Gallo Clinic and Research Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04g7y4303>
   rdfs:label 'Ernest Gallo Clinic and Research Center'^^xsd:string ;
@@ -2625,7 +2626,7 @@
   dc:isVersionOf <https://ror.org/04h1h0y33> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Centre National d\'Études Spatiales'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04h1h0y33>
   rdfs:label 'Centre National d\'Études Spatiales'^^xsd:string ;
@@ -2636,7 +2637,7 @@
   dc:isVersionOf <https://ror.org/04jw21793> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Federal Ministry of Food and Agriculture'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04jw21793>
   rdfs:label 'Federal Ministry of Food and Agriculture'^^xsd:string ;
@@ -2647,7 +2648,7 @@
   dc:isVersionOf <https://ror.org/04kdfz702> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institut National des Sciences de l\'Univers'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04kdfz702>
   rdfs:label 'Institut National des Sciences de l\'Univers'^^xsd:string ;
@@ -2658,7 +2659,7 @@
   dc:isVersionOf <https://ror.org/04ke6ht85> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Scottish Association For Marine Science'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04ke6ht85>
   rdfs:label 'Scottish Association For Marine Science'^^xsd:string ;
@@ -2669,7 +2670,7 @@
   dc:isVersionOf <https://ror.org/04kt5vk53> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Obninsk Institute for Nuclear Power Engineering'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04kt5vk53>
   rdfs:label 'Obninsk Institute for Nuclear Power Engineering'^^xsd:string ;
@@ -2680,7 +2681,7 @@
   dc:isVersionOf <https://ror.org/04meft248> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Life Sciences Research Board'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04meft248>
   rdfs:label 'Life Sciences Research Board'^^xsd:string ;
@@ -2691,7 +2692,7 @@
   dc:isVersionOf <https://ror.org/04mfpmj78> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'K.S. Rangasamy College of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04mfpmj78>
   rdfs:label 'K.S. Rangasamy College of Technology'^^xsd:string ;
@@ -2702,7 +2703,7 @@
   dc:isVersionOf <https://ror.org/04mv1z119> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of La Rochelle'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04mv1z119>
   rdfs:label 'University of La Rochelle'^^xsd:string ;
@@ -2713,7 +2714,7 @@
   dc:isVersionOf <https://ror.org/04mxp4k39> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'AOSpine'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04mxp4k39>
   rdfs:label 'AOSpine'^^xsd:string ;
@@ -2724,7 +2725,7 @@
   dc:isVersionOf <https://ror.org/04p017s78> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Autonomous State Medical College, Fatehpur'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04p017s78>
   rdfs:label 'Autonomous State Medical College, Fatehpur'^^xsd:string ;
@@ -2735,7 +2736,7 @@
   dc:isVersionOf <https://ror.org/04p22jz17> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Adithya Institute of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04p22jz17>
   rdfs:label 'Adithya Institute of Technology'^^xsd:string ;
@@ -2746,7 +2747,7 @@
   dc:isVersionOf <https://ror.org/04pwyer06> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institut Pasteur de Tunis'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04pwyer06>
   rdfs:label 'Institut Pasteur de Tunis'^^xsd:string ;
@@ -2757,7 +2758,7 @@
   dc:isVersionOf <https://ror.org/04qawwn42> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Central Council for Research in Homoeopathy'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04qawwn42>
   rdfs:label 'Central Council for Research in Homoeopathy'^^xsd:string ;
@@ -2768,7 +2769,7 @@
   dc:isVersionOf <https://ror.org/04qwwj097> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Deutsche Zöliakie-Gesellschaft e.V.'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04qwwj097>
   rdfs:label 'Deutsche Zöliakie-Gesellschaft e.V.'^^xsd:string ;
@@ -2779,7 +2780,7 @@
   dc:isVersionOf <https://ror.org/04r60ve96> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Gottsegen National Cardiovascular Center'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04r60ve96>
   rdfs:label 'Gottsegen National Cardiovascular Center'^^xsd:string ;
@@ -2790,7 +2791,7 @@
   dc:isVersionOf <https://ror.org/04rbvc675> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Buddhist Tzu Chi Medical Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04rbvc675>
   rdfs:label 'Buddhist Tzu Chi Medical Foundation'^^xsd:string ;
@@ -2801,7 +2802,7 @@
   dc:isVersionOf <https://ror.org/04rrj3a80> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire de Microbiologie et Génétique Moléculaires'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04rrj3a80>
   rdfs:label 'Laboratoire de Microbiologie et Génétique Moléculaires'^^xsd:string ;
@@ -2812,7 +2813,7 @@
   dc:isVersionOf <https://ror.org/04rsrxr19> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Foundation of Stars'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04rsrxr19>
   rdfs:label 'Foundation of Stars'^^xsd:string ;
@@ -2823,7 +2824,7 @@
   dc:isVersionOf <https://ror.org/04s9kfd63> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Wellcome / EPSRC Centre for Medical Engineering'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04s9kfd63>
   rdfs:label 'Wellcome / EPSRC Centre for Medical Engineering'^^xsd:string ;
@@ -2834,7 +2835,7 @@
   dc:isVersionOf <https://ror.org/04t35nt16> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Durrell Wildlife Conservation Trust'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04t35nt16>
   rdfs:label 'Durrell Wildlife Conservation Trust'^^xsd:string ;
@@ -2845,7 +2846,7 @@
   dc:isVersionOf <https://ror.org/04tfzc498> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Istituti di Ricovero e Cura a Carattere Scientifico'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04tfzc498>
   rdfs:label 'Istituti di Ricovero e Cura a Carattere Scientifico'^^xsd:string ;
@@ -2856,7 +2857,7 @@
   dc:isVersionOf <https://ror.org/04w5mvp04> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Ospedale generale di zona San Camillo Treviso'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04w5mvp04>
   rdfs:label 'Ospedale generale di zona San Camillo Treviso'^^xsd:string ;
@@ -2867,7 +2868,7 @@
   dc:isVersionOf <https://ror.org/04w8z7f34> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Moscow Engineering Physics Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04w8z7f34>
   rdfs:label 'Moscow Engineering Physics Institute'^^xsd:string ;
@@ -2878,7 +2879,7 @@
   dc:isVersionOf <https://ror.org/04x1dwm38> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Seikagaku Corporation (Japan)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04x1dwm38>
   rdfs:label 'Seikagaku Corporation (Japan)'^^xsd:string ;
@@ -2889,7 +2890,7 @@
   dc:isVersionOf <https://ror.org/04xbpez43> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'National Institute for International Education'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04xbpez43>
   rdfs:label 'National Institute for International Education'^^xsd:string ;
@@ -2900,7 +2901,7 @@
   dc:isVersionOf <https://ror.org/04xfq0f34> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'RWTH Aachen University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04xfq0f34>
   rdfs:label 'RWTH Aachen University'^^xsd:string ;
@@ -2911,7 +2912,7 @@
   dc:isVersionOf <https://ror.org/04xkqms46> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'European Multidisciplinary Seafloor and water column Observatory'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04xkqms46>
   rdfs:label 'European Multidisciplinary Seafloor and water column Observatory'^^xsd:string ;
@@ -2922,7 +2923,7 @@
   dc:isVersionOf <https://ror.org/04yj19q41> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Huadong Sanatorium'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04yj19q41>
   rdfs:label 'Huadong Sanatorium'^^xsd:string ;
@@ -2933,7 +2934,7 @@
   dc:isVersionOf <https://ror.org/04yrqp957> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Angers'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04yrqp957>
   rdfs:label 'University of Angers'^^xsd:string ;
@@ -2944,7 +2945,7 @@
   dc:isVersionOf <https://ror.org/04yxemn98> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Calouste Gulbenkian Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04yxemn98>
   rdfs:label 'Calouste Gulbenkian Foundation'^^xsd:string ;
@@ -2955,7 +2956,7 @@
   dc:isVersionOf <https://ror.org/04z50eg91> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'European Stroke Organisation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04z50eg91>
   rdfs:label 'European Stroke Organisation'^^xsd:string ;
@@ -2966,7 +2967,7 @@
   dc:isVersionOf <https://ror.org/04z8k9a98> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Coimbra'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04z8k9a98>
   rdfs:label 'University of Coimbra'^^xsd:string ;
@@ -2977,7 +2978,7 @@
   dc:isVersionOf <https://ror.org/04zmms242> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratory of Eukaryotic Molecular Biology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/04zmms242>
   rdfs:label 'Laboratory of Eukaryotic Molecular Biology'^^xsd:string ;
@@ -2988,7 +2989,7 @@
   dc:isVersionOf <https://ror.org/050103r16> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'CDC Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/050103r16>
   rdfs:label 'CDC Foundation'^^xsd:string ;
@@ -2999,7 +3000,7 @@
   dc:isVersionOf <https://ror.org/050agvb10> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Yuncheng Central Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/050agvb10>
   rdfs:label 'Yuncheng Central Hospital'^^xsd:string ;
@@ -3010,7 +3011,7 @@
   dc:isVersionOf <https://ror.org/050p80d78> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Priština - Kosovska Mitrovica'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/050p80d78>
   rdfs:label 'University of Priština - Kosovska Mitrovica'^^xsd:string ;
@@ -3021,7 +3022,7 @@
   dc:isVersionOf <https://ror.org/050tqnp89> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Kaggle'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/050tqnp89>
   rdfs:label 'Kaggle'^^xsd:string ;
@@ -3032,7 +3033,7 @@
   dc:isVersionOf <https://ror.org/05267d168> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Max-Planck-POSTECH Center for Complex Phase Material'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05267d168>
   rdfs:label 'Max-Planck-POSTECH Center for Complex Phase Material'^^xsd:string ;
@@ -3043,7 +3044,7 @@
   dc:isVersionOf <https://ror.org/05269d038> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'China National Petroleum Corporation (China)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05269d038>
   rdfs:label 'China National Petroleum Corporation (China)'^^xsd:string ;
@@ -3054,7 +3055,7 @@
   dc:isVersionOf <https://ror.org/054psm803> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Sri Sivasubramaniya Nadar College of Engineering'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/054psm803>
   rdfs:label 'Sri Sivasubramaniya Nadar College of Engineering'^^xsd:string ;
@@ -3065,7 +3066,7 @@
   dc:isVersionOf <https://ror.org/056hzt889> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institute for Quantum Optics and Quantum Information Innsbruck'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/056hzt889>
   rdfs:label 'Institute for Quantum Optics and Quantum Information Innsbruck'^^xsd:string ;
@@ -3076,7 +3077,7 @@
   dc:isVersionOf <https://ror.org/056r65c22> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Nunavut Wildlife Management Board'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/056r65c22>
   rdfs:label 'Nunavut Wildlife Management Board'^^xsd:string ;
@@ -3087,7 +3088,7 @@
   dc:isVersionOf <https://ror.org/0574der91> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Guangdong University of Education'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0574der91>
   rdfs:label 'Guangdong University of Education'^^xsd:string ;
@@ -3098,7 +3099,7 @@
   dc:isVersionOf <https://ror.org/0585bz443> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'PLA Navy Submarine Academy'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/0585bz443>
   rdfs:label 'PLA Navy Submarine Academy'^^xsd:string ;
@@ -3109,7 +3110,7 @@
   dc:isVersionOf <https://ror.org/059g7w694> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Indlas VIMHANS Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/059g7w694>
   rdfs:label 'Indlas VIMHANS Hospital'^^xsd:string ;
@@ -3120,7 +3121,7 @@
   dc:isVersionOf <https://ror.org/059pwer52> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Chronic Liver Disease Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/059pwer52>
   rdfs:label 'Chronic Liver Disease Foundation'^^xsd:string ;
@@ -3131,7 +3132,7 @@
   dc:isVersionOf <https://ror.org/05ae5js31> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Arolsen Archives - International Center on Nazi Persecution'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05ae5js31>
   rdfs:label 'Arolsen Archives - International Center on Nazi Persecution'^^xsd:string ;
@@ -3142,7 +3143,7 @@
   dc:isVersionOf <https://ror.org/05bgf9v38> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Business Finland'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05bgf9v38>
   rdfs:label 'Business Finland'^^xsd:string ;
@@ -3153,7 +3154,7 @@
   dc:isVersionOf <https://ror.org/05d6wfd23> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Station d’Écologie Théorique et Expérimentale'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05d6wfd23>
   rdfs:label 'Station d’Écologie Théorique et Expérimentale'^^xsd:string ;
@@ -3164,7 +3165,7 @@
   dc:isVersionOf <https://ror.org/05d78xc36> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Euro-BioImaging'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05d78xc36>
   rdfs:label 'Euro-BioImaging'^^xsd:string ;
@@ -3175,7 +3176,7 @@
   dc:isVersionOf <https://ror.org/05dj9eh50> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'The Oil and Gas Technology Centre'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05dj9eh50>
   rdfs:label 'The Oil and Gas Technology Centre'^^xsd:string ;
@@ -3186,7 +3187,7 @@
   dc:isVersionOf <https://ror.org/05drmrq39> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Tennessee Technological University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05drmrq39>
   rdfs:label 'Tennessee Technological University'^^xsd:string ;
@@ -3197,7 +3198,7 @@
   dc:isVersionOf <https://ror.org/05ekp1k95> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Wörwag Pharma (Germany)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05ekp1k95>
   rdfs:label 'Wörwag Pharma (Germany)'^^xsd:string ;
@@ -3208,7 +3209,7 @@
   dc:isVersionOf <https://ror.org/05exmmw78> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Abiomed (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05exmmw78>
   rdfs:label 'Abiomed (United States)'^^xsd:string ;
@@ -3219,7 +3220,7 @@
   dc:isVersionOf <https://ror.org/05f0yaq80> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Stockholm University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05f0yaq80>
   rdfs:label 'Stockholm University'^^xsd:string ;
@@ -3230,7 +3231,7 @@
   dc:isVersionOf <https://ror.org/05fe7ax82> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Sciences Po'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05fe7ax82>
   rdfs:label 'Sciences Po'^^xsd:string ;
@@ -3241,7 +3242,7 @@
   dc:isVersionOf <https://ror.org/05fjyn938> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Global Biodiversity Information Facility'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05fjyn938>
   rdfs:label 'Global Biodiversity Information Facility'^^xsd:string ;
@@ -3252,7 +3253,7 @@
   dc:isVersionOf <https://ror.org/05g8baj95> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Institute for Student Achievement'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05g8baj95>
   rdfs:label 'Institute for Student Achievement'^^xsd:string ;
@@ -3263,7 +3264,7 @@
   dc:isVersionOf <https://ror.org/05hag2y10> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Universidade Federal do Acre'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05hag2y10>
   rdfs:label 'Universidade Federal do Acre'^^xsd:string ;
@@ -3274,7 +3275,7 @@
   dc:isVersionOf <https://ror.org/05hhpdx12> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Oxford Academic Health Science Network'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05hhpdx12>
   rdfs:label 'Oxford Academic Health Science Network'^^xsd:string ;
@@ -3285,7 +3286,7 @@
   dc:isVersionOf <https://ror.org/05hm2ja81> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Research Institute in Astrophysics and Planetology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05hm2ja81>
   rdfs:label 'Research Institute in Astrophysics and Planetology'^^xsd:string ;
@@ -3296,7 +3297,7 @@
   dc:isVersionOf <https://ror.org/05hn3g777> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Anhui Jiyuan Software'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05hn3g777>
   rdfs:label 'Anhui Jiyuan Software'^^xsd:string ;
@@ -3307,7 +3308,7 @@
   dc:isVersionOf <https://ror.org/05jtex909> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Australian and New Zealand Urogenital and Prostate Cancer Trials Group'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05jtex909>
   rdfs:label 'Australian and New Zealand Urogenital and Prostate Cancer Trials Group'^^xsd:string ;
@@ -3318,7 +3319,7 @@
   dc:isVersionOf <https://ror.org/05k0qmv73> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Géosciences Environnement Toulouse'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05k0qmv73>
   rdfs:label 'Géosciences Environnement Toulouse'^^xsd:string ;
@@ -3329,7 +3330,7 @@
   dc:isVersionOf <https://ror.org/05kb8h459> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Umeå University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05kb8h459>
   rdfs:label 'Umeå University'^^xsd:string ;
@@ -3340,7 +3341,7 @@
   dc:isVersionOf <https://ror.org/05mdyn772> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Vital Strategies'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05mdyn772>
   rdfs:label 'Vital Strategies'^^xsd:string ;
@@ -3351,7 +3352,7 @@
   dc:isVersionOf <https://ror.org/05mt7ye26> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Invitae (United States)'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05mt7ye26>
   rdfs:label 'Invitae (United States)'^^xsd:string ;
@@ -3362,7 +3363,7 @@
   dc:isVersionOf <https://ror.org/05mzhke23> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Kansai Photon Science Institute'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05mzhke23>
   rdfs:label 'Kansai Photon Science Institute'^^xsd:string ;
@@ -3373,7 +3374,7 @@
   dc:isVersionOf <https://ror.org/05p2jqt70> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Association for the Sciences of Limnology and Oceanography'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05p2jqt70>
   rdfs:label 'Association for the Sciences of Limnology and Oceanography'^^xsd:string ;
@@ -3384,7 +3385,7 @@
   dc:isVersionOf <https://ror.org/05qwgg493> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Boston University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05qwgg493>
   rdfs:label 'Boston University'^^xsd:string ;
@@ -3395,7 +3396,7 @@
   dc:isVersionOf <https://ror.org/05r7bye26> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Zhebei Mingzhou Hospital'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05r7bye26>
   rdfs:label 'Zhebei Mingzhou Hospital'^^xsd:string ;
@@ -3406,7 +3407,7 @@
   dc:isVersionOf <https://ror.org/05ret9323> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Lucie and André Chagnon Foundation'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05ret9323>
   rdfs:label 'Lucie and André Chagnon Foundation'^^xsd:string ;
@@ -3417,7 +3418,7 @@
   dc:isVersionOf <https://ror.org/05s3rh916> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Universidad Autónoma de Chiriquí'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05s3rh916>
   rdfs:label 'Universidad Autónoma de Chiriquí'^^xsd:string ;
@@ -3428,7 +3429,7 @@
   dc:isVersionOf <https://ror.org/05sr4vg14> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Universidad La Salle'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05sr4vg14>
   rdfs:label 'Universidad La Salle'^^xsd:string ;
@@ -3439,7 +3440,7 @@
   dc:isVersionOf <https://ror.org/05t8bcz72> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'University of Alicante'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05t8bcz72>
   rdfs:label 'University of Alicante'^^xsd:string ;
@@ -3450,7 +3451,7 @@
   dc:isVersionOf <https://ror.org/05tcnbj64> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratoire d’Étude et de Recherche sur l’Économie, les Politiques et les Systèmes Sociaux'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05tcnbj64>
   rdfs:label 'Laboratoire d’Étude et de Recherche sur l’Économie, les Politiques et les Systèmes Sociaux'^^xsd:string ;
@@ -3461,7 +3462,7 @@
   dc:isVersionOf <https://ror.org/05te8rc78> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Thai-Nichi Institute of Technology'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05te8rc78>
   rdfs:label 'Thai-Nichi Institute of Technology'^^xsd:string ;
@@ -3472,7 +3473,7 @@
   dc:isVersionOf <https://ror.org/05tf9r976> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Chinese People\'s Liberation Army'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05tf9r976>
   rdfs:label 'Chinese People\'s Liberation Army'^^xsd:string ;
@@ -3483,7 +3484,7 @@
   dc:isVersionOf <https://ror.org/05w482q29> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Laboratory of Molecular Anthropology and Image Synthesis'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05w482q29>
   rdfs:label 'Laboratory of Molecular Anthropology and Image Synthesis'^^xsd:string ;
@@ -3494,7 +3495,7 @@
   dc:isVersionOf <https://ror.org/05wvpxv85> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Tufts University'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05wvpxv85>
   rdfs:label 'Tufts University'^^xsd:string ;
@@ -3505,7 +3506,7 @@
   dc:isVersionOf <https://ror.org/05xzb7x97> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Instituto de Investigación Sanitaria del Principado de Asturias'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05xzb7x97>
   rdfs:label 'Instituto de Investigación Sanitaria del Principado de Asturias'^^xsd:string ;
@@ -3516,7 +3517,7 @@
   dc:isVersionOf <https://ror.org/05y4mf750> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'Alleanza Contro il Cancro'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05y4mf750>
   rdfs:label 'Alleanza Contro il Cancro'^^xsd:string ;
@@ -3527,7 +3528,7 @@
   dc:isVersionOf <https://ror.org/05ypjr115> ;
   dc:modified '2022-10-27'^^xsd:date ;
   rdfs:label 'HKBK College of Engineering'^^xsd:string ;
-  a skos:Concept .
+  a org:Organization .
 
 <https://ror.org/05ypjr115>
   rdfs:label 'HKBK College of Engineering'^^xsd:string ;
