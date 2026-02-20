@@ -570,7 +570,7 @@
 <http://w3id.org/kgfixed/ror.org/LDES/v1.19> a tree:Node ;
     ldes:retentionPolicy [ a ldes:RetentionPolicy ;
             ldes:versionAmount 1 ] ;
-    tree:relation [ a tree:LessThanRelation ;
+    tree:relation [ a tree:LessThanOrEqualToRelation ;
             tree:node <http://w3id.org/kgfixed/ror.org/LDES/v1.18> ;
             tree:path dc1:modified ;
             tree:value "2023-02-15T00:00:00"^^xsd:dateTime ] .

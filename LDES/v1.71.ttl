@@ -1006,7 +1006,7 @@
 <http://w3id.org/kgfixed/ror.org/LDES/v1.71> a tree:Node ;
     ldes:retentionPolicy [ a ldes:RetentionPolicy ;
             ldes:versionAmount 1 ] ;
-    tree:relation [ a tree:LessThanRelation ;
+    tree:relation [ a tree:LessThanOrEqualToRelation ;
             tree:node <http://w3id.org/kgfixed/ror.org/LDES/v1.70> ;
             tree:path dc1:modified ;
             tree:value "2025-09-22T00:00:00"^^xsd:dateTime ] .
