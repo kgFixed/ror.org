@@ -498,7 +498,7 @@
     tree:view <http://w3id.org/kgfixed/ror.org/LDES/v2.0> .
 
 <http://w3id.org/kgfixed/ror.org/LDES/v2.0> a tree:Node ;
-    ldes:retentionPolicy [ a ldes:LatestVersionSubset ;
+    ldes:retentionPolicy [ a ldes:RetentionPolicy ;
             ldes:versionAmount 1 ] ;
     tree:relation [ a tree:LessThanRelation ;
             tree:node <http://w3id.org/kgfixed/ror.org/LDES/v1.74> ;
